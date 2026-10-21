@@ -1,0 +1,73 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /crm?section=leads: HTTP 200
+PASS GET /crm?section=opportunities: HTTP 200
+PASS GET /crm?section=activities: HTTP 200
+PASS GET /crm?section=quotes: HTTP 200
+PASS GET /crm?section=sales-ready: HTTP 200
+PASS GET /crm/leads/new: HTTP 200
+PASS Lead mutation rejects missing CSRF token
+PASS Create lead with reviewed synthetic consent: HTTP 302
+PASS GET /crm/leads/6: HTTP 200
+PASS Lead contact text is HTML encoded
+PASS Consent event persisted with evidence
+PASS Normalized duplicate lead blocked with validation
+PASS GET /crm/leads/6/edit: HTTP 200
+PASS Edit lead with fresh concurrency version: HTTP 302
+PASS Stale lead edit blocked
+PASS GET /crm/opportunities/new?leadId=6: HTTP 200
+PASS Qualify reviewed opportunity: HTTP 302
+PASS GET /crm/activities/new?leadId=6&opportunityId=6: HTTP 200
+PASS Create dated internal activity: HTTP 302
+PASS GET /crm/activities/6: HTTP 200
+PASS Complete internal activity: HTTP 302
+PASS Repeated activity completion rejected
+PASS GET /crm/activities/new?leadId=6&opportunityId=6: HTTP 200
+PASS Create open post-acceptance follow-up: HTTP 302
+PASS GET /crm/quotes/new?opportunityId=6: HTTP 200
+PASS Create two-line net quote snapshot: HTTP 302
+PASS Multi-line rounded quote amount persisted
+PASS GET /crm/quotes/6: HTTP 200
+PASS Quote review requires explicit checkbox
+PASS Review quote snapshot: HTTP 302
+PASS GET /crm/quotes/6: HTTP 200
+PASS Acceptance effect and net-only tax boundaries disclosed
+PASS Accept reviewed quote into customer and internal handoff: HTTP 302
+PASS GET /crm/sales-ready/6: HTTP 200
+PASS Customer and handoff created once with correct scope
+PASS Opportunity is won and lead linked
+PASS GET /crm/activities/7/edit: HTTP 200
+PASS Edit open task retaining now-won opportunity: HTTP 302
+PASS Closed opportunity task link is retained
+PASS Repeated acceptance cannot duplicate customer or handoff
+PASS Cross-company record access denied /crm/leads/6
+PASS Cross-company record access denied /crm/opportunities/6
+PASS Cross-company record access denied /crm/activities/6
+PASS Cross-company record access denied /crm/quotes/6
+PASS Cross-company record access denied /crm/sales-ready/6
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS Cross-branch record access denied /crm/leads/6
+PASS Cross-branch record access denied /crm/opportunities/6
+PASS Cross-branch record access denied /crm/activities/6
+PASS Cross-branch record access denied /crm/quotes/6
+PASS Cross-branch record access denied /crm/sales-ready/6
+PASS CRM journey made no stock, financial or outbound-notification changes
+PASS GET /crm?section=leads&q=HTTP-CRM&status=Converted: HTTP 200
+PASS GET /crm?section=activities&status=Done: HTTP 200
+PASS GET /crm?section=sales-ready&q=HTTP-CRM: HTTP 200

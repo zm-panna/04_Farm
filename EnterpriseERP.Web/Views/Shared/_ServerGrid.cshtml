@@ -1,0 +1,11 @@
+@model EnterpriseERP.Web.GridDescriptor
+<section class="panel server-grid" data-grid-key="@Model.Key" data-grid-url="/api/tables/@Model.Key">
+<h2 data-i18n="@Model.Title">@Model.Title</h2>
+<p data-i18n="Search, order and page records on the server. Existing workflow actions remain below.">Search, order and page records on the server. Existing workflow actions remain below.</p>
+@if(Model.CompanyWide){<p data-i18n="Company-wide records; selected company access is required.">Company-wide records; selected company access is required.</p>}
+<label><span data-i18n="Exact status filter">Exact status filter</span> <input class="grid-status" maxlength="40" aria-label="Exact status filter" data-i18n-aria-label="Exact status filter" /></label>
+<button type="button" class="grid-filter" data-i18n="Apply filter">Apply filter</button>
+<p class="grid-feedback" role="status" aria-live="polite"></p>
+<div class="grid-scroll"><table class="server-data-table"><thead><tr><th>ID</th><th data-i18n="Reference">Reference</th><th data-i18n="Description">Description</th><th data-i18n="Status">Status</th><th data-i18n="Date">Date</th><th data-i18n="Quantity">Quantity</th><th data-i18n="Action">Action</th></tr></thead><tbody></tbody></table></div>
+<noscript><p data-i18n="JavaScript is unavailable. Use the existing server-paged workflow below.">JavaScript is unavailable. Use the existing server-paged workflow below.</p></noscript>
+</section>

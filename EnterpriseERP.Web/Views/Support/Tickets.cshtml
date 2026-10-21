@@ -1,0 +1,28 @@
+@{ ViewData["Title"] = "Support Tickets"; }
+<section class="support-page">
+ <h1 data-i18n="Support Tickets">Support Tickets</h1>
+ <p data-i18n="Manage customer requests">Manage customer requests</p>
+ <div class="support-grid"><div class="support-panel">
+  @if((bool)ViewBag.CanCreate){
+  <h2 data-i18n="Open a ticket">Open a ticket</h2>
+  <form id="newTicket">@Html.AntiForgeryToken()
+   <label><span data-i18n="Ticket number">Ticket number</span> <input name="TicketNumber" maxlength="64" required /></label>
+   <label><span data-i18n="Subject">Subject</span> <input name="Subject" maxlength="200" required /></label>
+   <label><span data-i18n="Description">Description</span> <textarea name="Description" maxlength="8000" required></textarea></label>
+   <label><span data-i18n="Contact name">Contact name</span> <input name="ContactName" maxlength="200" required /></label>
+   <label><span data-i18n="Contact phone">Contact phone</span> <input name="ContactPhone" maxlength="40" /></label>
+   <label><span data-i18n="Priority">Priority</span> <select name="Priority"><option value="Normal" data-i18n="Normal">Normal</option><option value="Low" data-i18n="Low">Low</option><option value="High" data-i18n="High">High</option><option value="Critical" data-i18n="Critical">Critical</option></select></label>
+   <button type="submit" data-i18n="Create ticket">Create ticket</button>
+  </form>
+ }else{<p data-i18n="You can view support tickets. Ticket creation requires CustomerCare.Create permission.">You can view support tickets. Ticket creation requires CustomerCare.Create permission.</p>}
+ </div><div class="support-panel"><h2 data-i18n="Support Tickets">Support Tickets</h2>
+ <label><span data-i18n="Status">Status</span> <select id="status"><option value="" data-i18n="All">All</option><option value="Open" data-i18n="Open">Open</option><option value="InProgress" data-i18n="InProgress">InProgress</option><option value="WaitingCustomer" data-i18n="WaitingCustomer">WaitingCustomer</option><option value="Resolved" data-i18n="Resolved">Resolved</option><option value="Closed" data-i18n="Closed">Closed</option></select></label>
+ <div id="tickets" aria-live="polite" aria-busy="true"><span data-i18n="Loading...">Loading...</span></div>
+ <nav aria-label="Ticket pages" data-i18n-aria-label="Ticket pages" class="ticket-pager">
+  <button id="previousTickets" type="button" data-i18n="Previous" disabled>Previous</button>
+  <span id="ticketPage" aria-live="polite" aria-atomic="true"></span>
+  <button id="nextTickets" type="button" data-i18n="Next" disabled>Next</button>
+ </nav><button id="refresh" type="button" data-i18n="Refresh">Refresh</button>
+ </div></div><p id="supportMessage" role="alert"></p>
+</section>
+@section Scripts { <script src="~/js/support-tickets.js" asp-append-version="true"></script> }

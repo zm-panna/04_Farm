@@ -1,0 +1,11 @@
+@model HRPayrollOwnPage
+@{ViewData["Title"]="My payslips and leave";}
+<h1 data-i18n="My payslips and leave">My payslips and leave</h1><partial name="_Nav" />
+<p>@Model.Staff.Code · @Model.Staff.Name. <span data-i18n="Only records linked to your authenticated account in this branch are shown.">Only records linked to your authenticated account in this branch are shown.</span></p>
+<h2 data-i18n="My posted payslips">My posted payslips</h2><ul>@foreach(var p in Model.Payslips){<li><a asp-action="OwnPayslip" asp-route-id="@p.Line.Id">@p.Run.PeriodStart.ToString("yyyy-MM") · @p.Run.Reference · <span data-i18n="Net">Net</span> @p.Line.NetPay.ToString("F"+p.Run.CurrencyDecimals) @p.Run.Currency</a></li>}</ul>
+@if(Model.Payslips.Count==0){<p data-i18n="No posted payslips on this page.">No posted payslips on this page.</p>}
+<h2 data-i18n="Request leave">Request leave</h2><form asp-action="OwnLeave" method="post" class="panel"><label><span data-i18n="From">From </span><input name="From" type="date" required /></label><label><span data-i18n="Through (inclusive)">Through (inclusive) </span><input name="Through" type="date" required /></label><label><input type="checkbox" name="Paid" value="true"  style="width:auto" /><span data-i18n="Request paid leave"> Request paid leave</span></label><label><span data-i18n="Reason">Reason </span><textarea name="Reason" required maxlength="1000"></textarea></label><button class="primary" type="submit" data-i18n="Submit my leave request">Submit my leave request</button></form>
+<h2 data-i18n="My leave requests">My leave requests</h2>@foreach(var l in Model.Leaves){<section class="panel"><p>@l.From.ToString("yyyy-MM-dd") <span data-i18n="to">to</span> @l.Through.ToString("yyyy-MM-dd") · <span data-i18n="@(l.Paid?"Paid":"Unpaid")">@(l.Paid?"Paid":"Unpaid")</span> · <span data-i18n="@l.Status">@l.Status</span></p><p>@l.Reason</p><p>@l.ReviewNote</p></section>}
+<p><span data-i18n="Page">Page</span> @Model.Page <span data-i18n="of">of</span> @Math.Max(1,(Model.Total+19)/20)</p>
+@if(Model.Page>1){<a asp-action="Me" asp-route-page="@(Model.Page-1)" data-i18n="Previous">Previous</a>}
+@if(Model.Page<Math.Max(1,(Model.Total+19)/20)){<a asp-action="Me" asp-route-page="@(Model.Page+1)" data-i18n="Next">Next</a>}

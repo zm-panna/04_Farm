@@ -1,0 +1,7 @@
+Final successful command: dotnet package list --project EnterpriseERP.slnx --vulnerable --include-transitive --no-restore --format json
+Exit code: 0
+Configured source: https://api.nuget.org/v3/index.json
+32 projects; no known vulnerable direct or transitive packages reported.
+Machine-readable evidence: dependency-audit-final.json
+Earlier dependency-audit.json/dependency-audit-web.json capture unsuccessful auto-restore attempts and are not the final result.
+This advisory result is time- and source-dependent, not a security guarantee.

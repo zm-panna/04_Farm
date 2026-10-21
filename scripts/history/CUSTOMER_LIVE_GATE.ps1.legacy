@@ -1,0 +1,35 @@
+param(
+ [string]$StagingUrl,
+ [string]$ConnectionString=$env:FARM_STAGING_CONNECTION
+)
+$ErrorActionPreference='Stop'
+Set-StrictMode -Version Latest
+$root=(Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+$evidence=Join-Path $root 'release-evidence'
+New-Item -ItemType Directory -Path $evidence -Force | Out-Null
+$record=[ordered]@{TimestampUtc=[DateTime]::UtcNow.ToString('o');Sdk='NOT_TESTED';Restore='NOT_TESTED';Build='NOT_TESTED';Tests='NOT_TESTED';Migration='NOT_TESTED';IIS='NOT_TESTED';UAT='NOT_TESTED';PlaceholderModules=@();ProductionApproved=$false}
+try {
+ $cmd=Get-Command dotnet -ErrorAction SilentlyContinue
+ if(-not $cmd){throw 'BLOCKED: .NET SDK not installed.'}
+ $sdk=(& dotnet --version).Trim();$record.Sdk=$sdk
+ if($LASTEXITCODE -ne 0 -or -not $sdk.StartsWith('10.')){throw "BLOCKED: .NET 10 SDK required: $sdk"}
+ & dotnet restore (Join-Path $root 'EnterpriseERP.slnx') *> (Join-Path $evidence 'restore.log')
+ if($LASTEXITCODE -ne 0){throw 'BLOCKED: restore failed'};$record.Restore='PASSED'
+ & dotnet build (Join-Path $root 'EnterpriseERP.slnx') -c Release --no-restore *> (Join-Path $evidence 'build.log')
+ if($LASTEXITCODE -ne 0){throw 'BLOCKED: build failed'};$record.Build='PASSED'
+ & dotnet test (Join-Path $root 'EnterpriseERP.slnx') -c Release --no-build *> (Join-Path $evidence 'tests.log')
+ if($LASTEXITCODE -ne 0){throw 'BLOCKED: tests failed'};$record.Tests='PASSED'
+ $migrations=Get-ChildItem (Join-Path $root 'EnterpriseERP.Web') -Recurse -Filter '*Migration*.cs'
+ if(-not $migrations){throw 'BLOCKED: no committed EF Core migration files; generate and review migrations against a STAGING DB.'}
+ $record.Migration='FILES_PRESENT_NOT_APPLIED'
+ $scaffold=Get-ChildItem (Join-Path $root 'Modules') -Recurse -Filter '*.cshtml' | Select-String -SimpleMatch 'Module UI scaffold only'
+ $record.PlaceholderModules=@($scaffold|ForEach-Object{$_.Path})
+ if($record.PlaceholderModules.Count -gt 0){throw "BLOCKED: $($record.PlaceholderModules.Count) scaffold module views"}
+ if([string]::IsNullOrWhiteSpace($StagingUrl)){throw 'BLOCKED: StagingUrl required for smoke test; never test against public production before UAT.'}
+ $response=Invoke-WebRequest -Uri $StagingUrl -MaximumRedirection 0 -SkipHttpErrorCheck -TimeoutSec 25
+ if($response.StatusCode -lt 200 -or $response.StatusCode -ge 400){throw "BLOCKED: staging HTTP $($response.StatusCode)"}
+ $record.IIS='STAGING_HTTP_ONLY'; throw 'BLOCKED: DBA migration verification, IIS app pool inspection, security tests and signed customer UAT still required.'
+}
+catch {Write-Warning $_.Exception.Message; $record.Failure=$_.Exception.Message}
+finally {$record|ConvertTo-Json -Depth 10|Set-Content (Join-Path $evidence 'customer-live-gate.json') -Encoding UTF8}
+if(-not $record.ProductionApproved){exit 1}

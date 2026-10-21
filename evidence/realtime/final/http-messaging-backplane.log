@@ -1,0 +1,29 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS Owned official Redis responds
+PASS Two real localhost app nodes share the disposable database
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Messaging: HTTP 200
+PASS Identity cookie works across both nodes
+PASS Authenticated SignalR negotiation
+PASS Real WebSocket SignalR JSON handshake
+PASS Redis has an actual subscribed server-derived inbox channel
+PASS Node A commits while receiving node B is paused
+PASS Node A actually publishes through Redis while B cannot run a dispatcher
+PASS Node B receives cross-node Redis SignalR hint with empty arguments
+PASS Backplane hint has no message content or identifiers
+PASS Node B authorized REST sees node A durable message
+PASS Owned Redis process is fully stopped for outage test
+PASS Redis outage does not prevent durable message commit
+PASS Other-node authorized REST works during Redis outage
+PASS Unsuccessful transport attempt remains pending in SQL outbox
+PASS Backplane reconnects and dispatcher drains pending SQL outbox
+PASS Outage recovery preserves unread state and does not duplicate message

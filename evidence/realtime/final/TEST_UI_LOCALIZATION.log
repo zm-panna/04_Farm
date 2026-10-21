@@ -1,0 +1,33 @@
+PASS saved Bengali changes labels, dropdown, language and secure persistence
+PASS Banglish selection announces and translates; English restores original error and labels
+PASS required, numeric range and decimal validation templates retain meaning
+PASS user-entered content and numeric form values are untouched
+PASS unsupported locale safely falls back to English
+PASS blocked localStorage uses cookie without breaking forms
+PASS native invalid message is translated and cleared on input
+  verified 1937 explicit localized elements and 2187 dictionary keys
+PASS all explicit static translation keys have Bengali, Banglish and Arabic values
+PASS Arabic preference applies RTL, labels, validation and secure persistence
+PASS leaving Arabic restores LTR and missing translations fall back without changing values
+PASS registered extension dictionaries merge locales and cover stock transfer and MFA
+PASS layout offers Arabic and styles mirror navigation while preserving numeric entry
+PASS empty conditional markers preserve numeric data
+PASS translated labels never own form controls and enum options retain submitted values
+PASS structured option display changes languages while preserving submitted IDs and user values
+PASS all reachable composite template paths preserve raw arguments and translate only finite enum fields
+PASS composite templates do not interpret HTML, placeholders, replacement tokens or user labels
+PASS invalid template metadata and wrappers cannot remove controls or fallback text
+PASS scoped notification templates translate fixed wording without changing counts or rule names
+PASS reused validation nodes display their newest server error and restore it in English
+PASS application parameterized errors localize known labels and preserve numeric limits
+PASS unknown errors and interpolated sensitive or provider text are never treated as known validation fields
+PASS template and enum metadata is explicit on active views and never owns form controls
+PASS all financial document kinds include animal acquisitions in selectors and tables
+PASS template placeholder coverage and malformed-extension fallback preserve every record value
+PASS minimum/maximum string and password length errors keep their actual configured limits
+PASS unassigned fallback is explicit while actual parties named Unassigned remain literal
+PASS enterprise tax options preserve codes versions and rates while translating controlled treatment only
+PASS enterprise asset enum accepts only finite system states
+PASS dynamic enterprise navigation and confidential payroll formula enums have all three translated locales
+PASS exact enterprise validation feedback localizes while unknown composed provider messages remain literal
+Localization checks passed: 31

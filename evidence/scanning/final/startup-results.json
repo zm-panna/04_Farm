@@ -1,0 +1,41 @@
+{
+  "kind": "Actual negative startup process checks; no database access",
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "completed_utc": "2026-10-20T09:54:42.012703+00:00",
+  "checks": [
+    {
+      "check": "Production defaults reject missing vault",
+      "passed": true,
+      "exit_nonzero": true
+    },
+    {
+      "check": "Staging refuses disabled vault even explicit requirement opt-out",
+      "passed": true,
+      "exit_nonzero": true
+    },
+    {
+      "check": "Production refuses synthetic vault",
+      "passed": true,
+      "exit_nonzero": true
+    },
+    {
+      "check": "Legacy mode cannot silently opt out",
+      "passed": true,
+      "exit_nonzero": true
+    },
+    {
+      "check": "Automatic trust-all forwarding is rejected",
+      "passed": true,
+      "exit_nonzero": true
+    },
+    {
+      "check": "Wildcard gateway trust rejected",
+      "passed": true,
+      "exit_nonzero": true
+    }
+  ],
+  "passed": 6,
+  "failed": 0,
+  "production_approved": false
+}

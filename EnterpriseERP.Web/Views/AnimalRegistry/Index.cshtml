@@ -1,0 +1,8 @@
+@model List<EnterpriseERP.Domain.Animal>
+@{ ViewData["Title"]="Animal Registry";int page=ViewBag.Page??1;int total=ViewBag.Total??0;string q=ViewBag.Query??""; }
+<section class="farm-workspace"><h1 data-i18n="Animal Registry">Animal Registry</h1><p data-i18n="Livestock list">Livestock list</p><a class="pill-link" href="/animals/new" data-i18n="Add Animal">Add Animal</a>
+<form method="get" action="/animals"><label for="q" data-i18n="Search Tag / Breed">Search Tag / Breed</label><input id="q" name="q" value="@q" maxlength="100"/><button type="submit" data-i18n="Search">Search</button></form>
+<div class="farm-table"><table><thead><tr><th data-i18n="Tag">Tag</th><th data-i18n="Breed">Breed</th><th data-i18n="Weight (kg)">Weight (kg)</th><th data-i18n="Purchase Cost">Purchase Cost</th><th data-i18n="Status">Status</th><th data-i18n="Action">Action</th></tr></thead><tbody>
+@foreach(var a in Model){<tr><td>@a.Tag</td><td>@a.Breed</td><td>@a.CurrentWeightKg</td><td>@a.PurchaseCost.ToString("N2")</td><td>@(a.Sold?"Sold":"Active")</td><td>@if(!a.Sold){<a href="/animals/@a.Id/edit" data-i18n="Edit">Edit</a>}</td></tr>}
+@if(Model.Count==0){<tr><td colspan="6"><span data-i18n="No animals found">No animals found</span></td></tr>}
+</tbody></table></div><nav>@if(page>1){<a href="/animals?page=@(page-1)&q=@Uri.EscapeDataString(q)" data-i18n="Previous">Previous</a>} Page @(page) of @Math.Max(1,(total+24)/25) @if(page*25<total){<a href="/animals?page=@(page+1)&q=@Uri.EscapeDataString(q)" data-i18n="Next">Next</a>}</nav></section>

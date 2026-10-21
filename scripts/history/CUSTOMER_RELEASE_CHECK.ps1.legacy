@@ -1,0 +1,20 @@
+param([string]$ConnectionString,[switch]$RunMigrations)
+$ErrorActionPreference='Stop';Set-Location (Join-Path $PSScriptRoot '..')
+$log=Join-Path $PSScriptRoot '../docs/CUSTOMER_RELEASE_CHECK_LOG.txt'
+"Release check started: $(Get-Date -Format o)" | Set-Content $log
+if(-not (Get-Command dotnet -ErrorAction SilentlyContinue)){ 'BLOCKED: .NET SDK missing' | Add-Content $log;throw '.NET 10 SDK required' }
+dotnet --list-sdks | Tee-Object -FilePath $log -Append
+$sdks=dotnet --list-sdks
+if(-not ($sdks | Select-String -Pattern '^10\.')){throw 'Install .NET 10 SDK'}
+dotnet restore EnterpriseERP.slnx *>&1 | Tee-Object -FilePath $log -Append
+if($LASTEXITCODE -ne 0){throw 'Restore failed'}
+dotnet build EnterpriseERP.slnx -c Release --no-restore *>&1 | Tee-Object -FilePath $log -Append
+if($LASTEXITCODE -ne 0){throw 'Build failed'}
+dotnet test EnterpriseERP.slnx -c Release --no-build *>&1 | Tee-Object -FilePath $log -Append
+if($LASTEXITCODE -ne 0){throw 'Tests failed'}
+if($RunMigrations){
+ if(-not $ConnectionString){throw 'Supply -ConnectionString for database migration'}
+ $env:ConnectionStrings__DefaultConnection=$ConnectionString
+ try{dotnet ef database update --project EnterpriseERP.Web --startup-project EnterpriseERP.Web *>&1 | Tee-Object -FilePath $log -Append;if($LASTEXITCODE -ne 0){throw 'Migration failed'}}finally{Remove-Item Env:ConnectionStrings__DefaultConnection -ErrorAction SilentlyContinue}
+}else{'NOT TESTED: SQL migration (--RunMigrations not supplied)' | Add-Content $log}
+'NOT TESTED: IIS production deployment and full UAT require separate environment' | Add-Content $log

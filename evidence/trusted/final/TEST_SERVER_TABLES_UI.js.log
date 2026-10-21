@@ -1,0 +1,11 @@
+PASS real server-side mode, bounded pages and literal encoded search
+PASS record values are text nodes and action links reject external scripts
+PASS date quantity and action columns cannot request unsupported sorts
+PASS collapsed active-page tables load only on explicit expansion
+PASS error responses clear stale data with a visible safe error
+PASS rate limiting reports a retryable wait without false data
+PASS damaged oversized response is rejected
+PASS status changes use server AJAX refresh
+PASS language rebuild disposes old requests once without looping the Map
+PASS late stale responses cannot overwrite newer page data
+Server table UI checks passed: 10

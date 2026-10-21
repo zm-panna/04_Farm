@@ -1,0 +1,34 @@
+  Determining projects to restore...
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Accounts/EnterpriseERP.Modules.Accounts.csproj (in 81 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.Web/EnterpriseERP.Web.csproj (in 191 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.Shared/EnterpriseERP.Shared.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.Automation/EnterpriseERP.Automation.csproj (in 3 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.Application/EnterpriseERP.Application.csproj (in 3 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.AI/EnterpriseERP.AI.csproj (in 3 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Store/EnterpriseERP.Modules.Store.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Sales/EnterpriseERP.Modules.Sales.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Reporting/EnterpriseERP.Modules.Reporting.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.FeedManagement/EnterpriseERP.Modules.FeedManagement.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Fattening/EnterpriseERP.Modules.Fattening.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Expenses/EnterpriseERP.Modules.Expenses.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Ecommerce/EnterpriseERP.Modules.Ecommerce.csproj (in 4 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Dairy/EnterpriseERP.Modules.Dairy.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.CustomerCare/EnterpriseERP.Modules.CustomerCare.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Tests/EnterpriseERP.UnitTests/EnterpriseERP.UnitTests.csproj (in 76 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Subscription/EnterpriseERP.Modules.Subscription.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Purchase/EnterpriseERP.Modules.Purchase.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Payroll/EnterpriseERP.Modules.Payroll.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Livestock/EnterpriseERP.Modules.Livestock.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.LC/EnterpriseERP.Modules.LC.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Inventory/EnterpriseERP.Modules.Inventory.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.ImportExport/EnterpriseERP.Modules.ImportExport.csproj (in 3 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.Reporting/EnterpriseERP.Reporting.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.Infrastructure/EnterpriseERP.Infrastructure.csproj (in 3 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/EnterpriseERP.Domain/EnterpriseERP.Domain.csproj (in 3 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Hotel/EnterpriseERP.Modules.Hotel.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.HR/EnterpriseERP.Modules.HR.csproj (in 2 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.FixedAsset/EnterpriseERP.Modules.FixedAsset.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.CRM/EnterpriseERP.Modules.CRM.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.AnimalHealth/EnterpriseERP.Modules.AnimalHealth.csproj (in 1 ms).
+  Restored /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Modules/EnterpriseERP.Modules.Administration/EnterpriseERP.Modules.Administration.csproj (in 1 ms).
+  1 of 33 projects are up-to-date for restore.

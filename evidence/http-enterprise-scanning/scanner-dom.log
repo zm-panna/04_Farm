@@ -1,0 +1,11 @@
+PASS Page initialization never asks for camera permission
+PASS Manual scan performs only authorized preview before a draft exists
+PASS Draft review renders entered notes as text, never HTML
+PASS Unreviewed checkbox blocks confirmation request
+PASS Cancel persists cancellation without any confirmation call
+PASS Reloaded history exposes durable own cancelled outcome
+PASS All four active scanner languages update including Arabic RTL
+PASS Synthetic decoded frame stops camera and invokes preview only
+PASS No camera frame upload or image-storage endpoint is called
+PASS Actual scanner resources initialize without DOM script errors
+Scanner DOM checks passed: 10; synthetic camera only.

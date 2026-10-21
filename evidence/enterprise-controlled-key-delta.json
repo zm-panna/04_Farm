@@ -1,0 +1,17 @@
+[
+  "Acceptance records your review of customer acceptance, links or creates a customer, marks the opportunity won, and creates an internal sales-ready handoff. It sends no quote, email or message; reserves no stock; and creates no sale, invoice, tax posting or general-ledger entry. All amounts are net estimates; tax is not calculated here. Review currency, tax, stock and pricing separately before posting Sales.",
+  "Accepted",
+  "Archive lead",
+  "Archived",
+  "Converted",
+  "Disposed",
+  "Fulfilled",
+  "Posted",
+  "Qualified",
+  "Restore lead",
+  "Reviewed",
+  "Submitted",
+  "Unpaid",
+  "Unpublished",
+  "Won"
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "key": "products",
+    "title": "Products",
+    "permission": "Inventory.View",
+    "active_page": "/products",
+    "cache": true,
+    "scope": "branch"
+  },
+  {
+    "key": "animals",
+    "title": "Animals",
+    "permission": "Livestock.View",
+    "active_page": "/animals",
+    "cache": true,
+    "scope": "branch"
+  },
+  {
+    "key": "stock-movements",
+    "title": "Stock movements",
+    "permission": "Inventory.View",
+    "active_page": "/stock-ledger",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "milk",
+    "title": "Milk entries",
+    "permission": "Dairy.View",
+    "active_page": "/milk-entry",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "health",
+    "title": "Animal health",
+    "permission": "AnimalHealth.View",
+    "active_page": "/animal-health",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "feed",
+    "title": "Feed records",
+    "permission": "FeedManagement.View",
+    "active_page": "/FeedManagement",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "purchase-orders",
+    "title": "Purchase orders",
+    "permission": "Purchase.View",
+    "active_page": "/Purchase",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "receipts",
+    "title": "Purchase receipts",
+    "permission": "Purchase.View",
+    "active_page": "/Purchase",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "sales",
+    "title": "Product sales",
+    "permission": "Sales.View",
+    "active_page": "/Sales",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "documents",
+    "title": "Finance documents",
+    "permission": "Accounts.View",
+    "active_page": "/Accounts",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "returns",
+    "title": "Stock returns",
+    "permission": "Accounts.View",
+    "active_page": "/Accounts",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "parties",
+    "title": "Customers and suppliers",
+    "permission": "Parties.View",
+    "active_page": "/Parties",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "payments",
+    "title": "Payment records",
+    "permission": "Accounts.View",
+    "active_page": "/Accounts",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "bank-lines",
+    "title": "Bank statement lines",
+    "permission": "Accounts.Reconcile",
+    "active_page": "/Accounts",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "vouchers",
+    "title": "Accounting vouchers",
+    "permission": "Accounts.View",
+    "active_page": "/Accounts",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "expenses",
+    "title": "Farm expenses",
+    "permission": "Expenses.View",
+    "active_page": "/Expenses",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "weights",
+    "title": "Animal weights",
+    "permission": "Fattening.View",
+    "active_page": "/Fattening",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "fattening",
+    "title": "Fattening plans",
+    "permission": "Fattening.View",
+    "active_page": "/Fattening",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "breeding",
+    "title": "Breeding cycles",
+    "permission": "Breeding.View",
+    "active_page": "/breeding",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "staff",
+    "title": "Staff register",
+    "permission": "HR.View",
+    "active_page": "/HRPayroll",
+    "cache": true,
+    "scope": "branch"
+  },
+  {
+    "key": "attendance",
+    "title": "Attendance",
+    "permission": "HR.Attendance",
+    "active_page": "/HRPayroll/attendance",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "leave",
+    "title": "Leave requests",
+    "permission": "HR.Manage",
+    "active_page": "/HRPayroll/leave",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "payroll-policies",
+    "title": "Payroll policies",
+    "permission": "Payroll.Policy",
+    "active_page": "/HRPayroll/policies",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "payroll-runs",
+    "title": "Payroll register",
+    "permission": "Payroll.View",
+    "active_page": "/HRPayroll/register",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "crm-leads",
+    "title": "CRM leads",
+    "permission": "CRM.View",
+    "active_page": "/crm",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "crm-opportunities",
+    "title": "CRM opportunities",
+    "permission": "CRM.View",
+    "active_page": "/crm",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "crm-activities",
+    "title": "CRM activities",
+    "permission": "CRM.View",
+    "active_page": "/crm",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "crm-quotes",
+    "title": "CRM quotes",
+    "permission": "CRM.View",
+    "active_page": "/crm",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "crm-ready",
+    "title": "CRM sales-ready handoffs",
+    "permission": "CRM.View",
+    "active_page": "/crm",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "assets",
+    "title": "Fixed assets",
+    "permission": "FixedAssets.View",
+    "active_page": "/fixed-assets",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "depreciation",
+    "title": "Depreciation runs",
+    "permission": "FixedAssets.View",
+    "active_page": "/fixed-assets/depreciation",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "disposals",
+    "title": "Asset disposals",
+    "permission": "FixedAssets.View",
+    "active_page": "/fixed-assets",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "ecommerce-catalog",
+    "title": "E-commerce catalog management",
+    "permission": "Ecommerce.Manage",
+    "active_page": "/Ecommerce/manage",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "ecommerce-orders",
+    "title": "Customer orders",
+    "permission": "Ecommerce.Fulfill",
+    "active_page": "/Ecommerce/staff/orders",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "own-orders",
+    "title": "My orders",
+    "permission": "Ecommerce.View",
+    "active_page": "/Ecommerce/orders",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "support",
+    "title": "Support tickets",
+    "permission": "CustomerCare.View",
+    "active_page": "/support/tickets",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "automation-notifications",
+    "title": "Automation notifications",
+    "permission": "Automation.Review",
+    "active_page": "/Automation",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "automation-rules",
+    "title": "Automation rules",
+    "permission": "Automation.Review",
+    "active_page": "/Automation",
+    "cache": false,
+    "scope": "company"
+  },
+  {
+    "key": "automation-jobs",
+    "title": "Automation jobs",
+    "permission": "Automation.Review",
+    "active_page": "/Automation",
+    "cache": false,
+    "scope": "company"
+  },
+  {
+    "key": "automation-approvals",
+    "title": "Automation approvals",
+    "permission": "Automation.Review",
+    "active_page": "/Automation",
+    "cache": false,
+    "scope": "company"
+  },
+  {
+    "key": "subscription-invoices",
+    "title": "Subscription invoices",
+    "permission": "Accounts.View",
+    "active_page": "/Subscription",
+    "cache": false,
+    "scope": "company"
+  },
+  {
+    "key": "subscription-payments",
+    "title": "Subscription payment records",
+    "permission": "Accounts.View",
+    "active_page": "/Subscription",
+    "cache": false,
+    "scope": "company"
+  },
+  {
+    "key": "company-policies",
+    "title": "Company policies",
+    "permission": "BusinessPolicy.View",
+    "active_page": "/business-policy",
+    "cache": false,
+    "scope": "company"
+  },
+  {
+    "key": "tax-policies",
+    "title": "Tax policies",
+    "permission": "BusinessPolicy.View",
+    "active_page": "/business-policy",
+    "cache": false,
+    "scope": "company"
+  },
+  {
+    "key": "opening-balances",
+    "title": "Opening balances",
+    "permission": "Accounts.Opening",
+    "active_page": "/Accounts/opening",
+    "cache": false,
+    "scope": "branch"
+  },
+  {
+    "key": "stock-transfers",
+    "scope": "both authorized branches",
+    "cache": false
+  },
+  {
+    "key": "own-payslips",
+    "scope": "strict current-user ownership",
+    "cache": false
+  }
+]

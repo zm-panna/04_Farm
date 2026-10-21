@@ -1,0 +1,5 @@
+Test run for /workspace/scratch/85a436f01071/farm_enterprise_revision/Tests/EnterpriseERP.UnitTests/bin/Debug/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: /workspace/scratch/85a436f01071/farm_enterprise_revision/evidence/test-results/ecommerce-focused.trx
+
+Passed!  - Failed:     0, Passed:    19, Skipped:     0, Total:    19, Duration: 10 s - EnterpriseERP.UnitTests.dll (net10.0)

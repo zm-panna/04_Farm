@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-10-19T05:22:32.000060+00:00",
+  "source_inputs_checked": 383,
+  "source_input_manifest_matches": true,
+  "runtime_manifest_sha256": "b99b17a5ceb7c0e5cdd0de100d85b6b710fb855ec9c7778861958336fe349347",
+  "cold_restore_and_build": true,
+  "binary_reused_from_authoring_tree": false,
+  "build_warnings": 0,
+  "build_errors": 0,
+  "dotnet_tests_passed": 650,
+  "dotnet_tests_failed": 0,
+  "dotnet_tests_skipped": 0,
+  "javascript_checks_passed": 44,
+  "web_dll_sha256": "ab817f121d65beba0bde07367a44662fd9724f48e1cfbf230993e64bbc6e1fc5",
+  "input_archive_sha256": "b9531f9bc49758a35bbafa744fe5f39cbb0842092151da150f88f5b179e789cc",
+  "evidence": "evidence/clean/",
+  "production_approved": false
+}

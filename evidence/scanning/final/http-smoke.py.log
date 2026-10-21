@@ -1,0 +1,413 @@
+PASS Built Release DLL and .NET runtime available
+PASS Atomic demo seed: CLI exit 0
+PASS Idempotent demo seed rerun: CLI exit 0
+PASS Seed rerun preserves every persisted row, password hash and grant
+PASS V3 synthetic fixture has expected companies, branches, opening and transfer records: {"Animals": 15, "AspNetUsers": 5, "Branches": 10, "Companies": 5, "OpeningBalances": 5, "StockItems": 10, "StockMovements": 45, "StockTransfers": 10, "VoucherLines": 170, "Vouchers": 70}
+PASS V3 main and store initial stock quantities and units
+PASS Demo accounts have no platform administrator role
+PASS Disposable localhost Kestrel started
+PASS Anonymous route denied /api/operations/summary: HTTP 401
+PASS Anonymous route denied /api/farm/animals: HTTP 401
+PASS Anonymous route denied /api/advanced/farm-summary.pdf: HTTP 401
+PASS Anonymous route denied /ops/readiness: HTTP 401
+PASS Anonymous MVC redirects to login
+PASS Login requires antiforgery token: HTTP 400
+PASS User 1 login form: HTTP 200
+PASS User 1 login form has antiforgery token
+PASS User 1 real Identity login: HTTP 302
+PASS User 1 authorized context form: HTTP 200
+PASS User 1 sees exactly their assigned company and branches
+PASS User 1 selects authorized tenant context
+PASS Tenant administrator dashboard: HTTP 200
+PASS HTTP Content-Security-Policy allows self-hosted scripts only
+PASS Administrator receives authorized dashboard totals
+PASS Administrator receives staff and permission sidebar navigation links
+PASS GET /animals: HTTP 200
+PASS GET /products: HTTP 200
+PASS GET /milk-entry: HTTP 200
+PASS GET /animal-health: HTTP 200
+PASS GET /FeedManagement: HTTP 200
+PASS GET /Fattening: HTTP 200
+PASS GET /breeding: HTTP 200
+PASS GET /Expenses: HTTP 200
+PASS GET /Purchase: HTTP 200
+PASS GET /Sales: HTTP 200
+PASS GET /Inventory: HTTP 200
+PASS GET /Parties: HTTP 200
+PASS GET /Accounts: HTTP 200
+PASS GET /Accounts/periods: HTTP 200
+PASS GET /Reports: HTTP 200
+PASS GET /Subscription: HTTP 200
+PASS GET /support/tickets: HTTP 200
+PASS Support pager HTTP markup has every required ID exactly once
+PASS Support page includes its pager script and antiforgery create form
+PASS GET /Automation: HTTP 200
+PASS GET /Administration: HTTP 200
+PASS GET /Account/ChangePassword: HTTP 200
+PASS GET /Accounts/opening: HTTP 200
+PASS GET /stock-transfers: HTTP 200
+PASS GET /Account/Security: HTTP 200
+PASS All 23 core MVC pages returned HTML over authenticated HTTP
+PASS Unimplemented HR shell disabled: HTTP 404
+PASS Tenant administrator cannot inspect platform readiness: HTTP 403
+PASS Finance JSON POST rejects missing antiforgery token: HTTP 400
+PASS Context mutation rejects missing antiforgery token
+PASS Cross-tenant context selection denied: HTTP 403
+PASS Mismatched company and branch denied
+PASS Context remains usable after denied switches: HTTP 200
+PASS Inventory HTML excludes other tenant stock
+PASS Animal API is tenant scoped
+PASS Cross-tenant support object ID cannot be read: HTTP 404
+PASS User 1 login form: HTTP 200
+PASS User 1 login form has antiforgery token
+PASS User 1 real Identity login: HTTP 302
+PASS User 1 authorized context form: HTTP 200
+PASS User 1 sees exactly their assigned company and branches
+PASS User 1 selects authorized tenant context
+PASS First independent session keeps main branch after second session selects store: HTTP 200; branch 1
+PASS Second independent session keeps store branch after Identity principal refresh: HTTP 200; branch 6
+PASS First session switches to store context form
+PASS First session switches to store context selected
+PASS Second session switches to main context form
+PASS Second session switches to main context selected
+PASS Context selection in second session cannot switch first session: HTTP 200; branch 6
+PASS Independent main selection survives repeated principal refresh: HTTP 200; branch 1
+PASS Restore first session main branch context form
+PASS Restore first session main branch context selected
+PASS Restore second session store branch context form
+PASS Restore second session store branch context selected
+PASS Tenant choices are not global Identity user claims
+PASS Store branch shows immutable seeded opening: HTTP 200
+PASS Existing opening hides create form
+PASS Second opening is rejected with explicit validation
+PASS Duplicate opening changes no persisted record
+PASS Main session remains unchanged after store opening attempt: HTTP 200; branch 1
+PASS Purchase posting form: HTTP 200
+PASS Purchase form exposes only active tenant stock
+PASS Cross-tenant purchase object denied: HTTP 302; no persisted changes
+PASS Cross-tenant purchase creates no receipt
+PASS Purchase MVC post succeeds
+PASS Purchase document shown after post: HTTP 200
+PASS Posted purchase reference shown
+PASS Purchase stock movement is exact
+PASS Purchase uses exact three-decimal amount
+PASS Duplicate purchase returns handled MVC response
+PASS Duplicate purchase makes no database change
+PASS Duplicate purchase leaves exactly one receipt
+PASS Duplicate purchase gives visible error
+PASS Sale posting form: HTTP 200
+PASS Sale MVC post succeeds
+PASS Sale document shown after post: HTTP 200
+PASS Posted sale reference shown
+PASS Purchase and sale net stock movement is exact
+PASS Duplicate sale returns handled MVC response
+PASS Duplicate sale makes no database change
+PASS Duplicate sale leaves exactly one sale
+PASS Duplicate sale gives visible error
+PASS Invalid negative quantity is handled without posting
+PASS Real stock-transfer posting form: HTTP 200
+PASS Transfer form exposes matching SKU in authorized store branch
+PASS Stock transfer posts through MVC and redirects to its detail
+PASS Posted transfer detail is readable: HTTP 200
+PASS Transfer detail contains reference and stock unit
+PASS Transfer changes both stock quantities exactly
+PASS Transfer preserves total company carrying value
+PASS Transfer has two persisted movements and two balanced voucher links
+PASS Duplicate stock transfer returns explicit error
+PASS Duplicate transfer changes no persisted record
+PASS Transfer to unauthorized other-company branch denied
+PASS Denied cross-branch transfer changes no persisted record
+PASS Transfer cannot take source stock from another active branch
+PASS Invalid source-branch transfer changes no persisted record
+PASS Authorized destination session can read transfer detail: HTTP 200
+PASS AI fallback request form: HTTP 200
+PASS Disabled AI returns explicit unavailable response: HTTP 503
+PASS ERP reports remain usable after AI failure: HTTP 200
+PASS Authoritative summary API remains available
+PASS en CSV has localized heading and correct MIME
+PASS en CSV values equal authoritative summary
+PASS English report labels state gross product totals before returns
+PASS en Excel export has expected MIME and ZIP signature
+PASS en Excel is a valid OpenXML workbook
+PASS en Excel contains localized account headers
+PASS en Excel right-to-left marker is appropriate
+PASS en PDF has valid MIME, header and EOF
+PASS en PDF pdftotext validator is available
+PASS en PDF passes pdftotext structural extraction
+PASS en PDF pdffonts validator is available
+PASS en PDF passes pdffonts structural extraction
+PASS en PDF pdfinfo validator is available
+PASS en PDF passes pdfinfo structural extraction
+PASS bn CSV has localized heading and correct MIME
+PASS bn CSV values equal authoritative summary
+PASS bn Excel export has expected MIME and ZIP signature
+PASS bn Excel is a valid OpenXML workbook
+PASS bn Excel contains localized account headers
+PASS bn Excel right-to-left marker is appropriate
+PASS bn PDF has valid MIME, header and EOF
+PASS bn PDF pdftotext validator is available
+PASS bn PDF passes pdftotext structural extraction
+PASS bn PDF pdffonts validator is available
+PASS bn PDF passes pdffonts structural extraction
+PASS bn PDF uses packaged script-specific Noto font
+PASS bn PDF pdfinfo validator is available
+PASS bn PDF passes pdfinfo structural extraction
+PASS banglish CSV has localized heading and correct MIME
+PASS banglish CSV values equal authoritative summary
+PASS banglish Excel export has expected MIME and ZIP signature
+PASS banglish Excel is a valid OpenXML workbook
+PASS banglish Excel contains localized account headers
+PASS banglish Excel right-to-left marker is appropriate
+PASS banglish PDF has valid MIME, header and EOF
+PASS banglish PDF pdftotext validator is available
+PASS banglish PDF passes pdftotext structural extraction
+PASS banglish PDF pdffonts validator is available
+PASS banglish PDF passes pdffonts structural extraction
+PASS banglish PDF pdfinfo validator is available
+PASS banglish PDF passes pdfinfo structural extraction
+PASS ar CSV has localized heading and correct MIME
+PASS ar CSV values equal authoritative summary
+PASS ar Excel export has expected MIME and ZIP signature
+PASS ar Excel is a valid OpenXML workbook
+PASS ar Excel contains localized account headers
+PASS ar Excel right-to-left marker is appropriate
+PASS ar PDF has valid MIME, header and EOF
+PASS ar PDF pdftotext validator is available
+PASS ar PDF passes pdftotext structural extraction
+PASS ar PDF pdffonts validator is available
+PASS ar PDF passes pdffonts structural extraction
+PASS ar PDF uses packaged script-specific Noto font
+PASS ar PDF pdfinfo validator is available
+PASS ar PDF passes pdfinfo structural extraction
+PASS Unknown report language rejected /api/operations/summary.csv?lang=invalid
+PASS Unknown report language rejected /api/advanced/trial-balance.xlsx?through=2099-01-01T00:00:00Z&lang=invalid
+PASS Unknown report language rejected /api/advanced/farm-summary.pdf?lang=invalid
+PASS Trial balance API debit equals credit
+PASS Audited journal and bank forms: HTTP 200
+PASS Manual journal records exact tenant actor action reference and current timestamp
+PASS Duplicate manual journal reports validation without another audit or posting
+PASS Bank entry records exact tenant actor branch reference and current timestamp
+PASS Duplicate bank entry reports validation without another audit or line
+PASS Stock API requires an explicit unit without guessing or persisting data
+PASS Stock API rejects ambiguous unit without data or audits
+PASS Stock API creates normalized explicit unit and zero quantity
+PASS Stock creation and unit assignment both identify tenant and actor
+PASS Duplicate stock API creates neither a second product nor misleading audit
+PASS First product edit snapshot: HTTP 200
+PASS Second product edit snapshot: HTTP 200
+PASS Existing product edit includes original nonempty concurrency token
+PASS Current product edit succeeds with original token
+PASS Stale product form returns conflict and preserves all records and audits
+PASS Missing product edit token cannot overwrite metadata
+PASS Exact-scale animal acquisition form: HTTP 200
+PASS Animal cost form permits the documented three decimal places
+PASS Animal acquisition accepts exact three-decimal cost through real MVC binding
+PASS Existing animal exact-cost edit: HTTP 200
+PASS Animal metadata edit preserves immutable exact acquisition cost
+PASS Explicit party status binding form: HTTP 200
+PASS Malformed party active state fails visibly without mutation or audit
+PASS Missing party active state fails visibly without mutation or audit
+PASS Explicit false party state remains an intentional supported action
+PASS Explicit rule status binding form: HTTP 200
+PASS Explicit true rule status succeeds
+PASS Malformed rule active state fails visibly without mutation or audit
+PASS Missing rule active state fails visibly without mutation or audit
+PASS Explicit false rule status remains an intentional supported action
+PASS Large fixture accounts default page: HTTP 200
+PASS Default reconciliation is bounded and excludes older bank line and voucher
+PASS Actual bank next-page link loads older row: HTTP 200
+PASS Older statement is present in rendered reconciliation selector
+PASS Actual voucher pager retains older bank page: HTTP 200
+PASS Both older reconciliation records are reachable in one rendered form
+PASS Rendered search form preserves independent paging state: HTTP 200
+PASS Bank search narrows selector without discarding older voucher page
+PASS Rendered search form preserves independent paging state: HTTP 200
+PASS Independent searches retain both exact old selectable IDs
+PASS Oldest displayed bank and voucher reconcile through actual MVC form
+PASS Completed reconciliation disappears from unmatched selectors: HTTP 200
+PASS Matched old bank line and voucher are no longer offered
+PASS Extreme account pages clamp safely: HTTP 200
+PASS Clamped account pages remain bounded
+PASS Untrusted query cannot expand reconciliation tenant scope: HTTP 200
+PASS Other-company and other-branch matches never enter bank selectors
+PASS Large fixture purchase default page: HTTP 200
+PASS Default order and return lists do not load unbounded history
+PASS Actual order pager exposes older commitment controls: HTTP 200
+PASS Older draft, approved and partial orders have real forms
+PASS Rendered search form preserves independent paging state: HTTP 200
+PASS Open-order filter excludes newer cancelled history while retaining old actions
+PASS Old draft approves through rendered MVC form
+PASS Old approved commitment receives and posts through MVC: HTTP 302; redirect=/Purchase; status=PartiallyReceived; receipt links=1
+PASS Old partial commitment cancels only its remainder through MVC
+PASS Purchase-order search is company and branch scoped: HTTP 200
+PASS Private order action forms remain absent
+PASS Purchase document selector remains bounded: HTTP 200
+PASS Purchase oldest return document starts beyond default limit
+PASS Actual Purchase document pager exposes older return: HTTP 200
+PASS Purchase older ID is present in rendered return selector
+PASS Rendered search form preserves independent paging state: HTTP 200
+PASS Purchase reference search selects only the older document
+PASS Purchase older return posts through real MVC form
+PASS Purchase document search remains tenant scoped: HTTP 200
+PASS Purchase private return document is never selectable
+PASS Sale document selector remains bounded: HTTP 200
+PASS Sale oldest return document starts beyond default limit
+PASS Actual Sale document pager exposes older return: HTTP 200
+PASS Sale older ID is present in rendered return selector
+PASS Rendered search form preserves independent paging state: HTTP 200
+PASS Sale reference search selects only the older document
+PASS Sale older return posts through real MVC form
+PASS Sale document search remains tenant scoped: HTTP 200
+PASS Sale private return document is never selectable
+PASS Paging fixture and actual actions preserve relational integrity
+PASS Paging fixtures and oldest actions retain exact stock and carrying values
+PASS Older invoice keeps billing reachable during suspension: HTTP 200
+PASS Older debt still suspends while invoice history defaults to a bounded recent page
+PASS Ordinary tenant admin cannot see a subscription payment form
+PASS Older invoice cannot be paid without platform billing authority
+PASS Refresh only synthetic admin with temporary billing authority context form: HTTP 200
+PASS Refresh only synthetic admin with temporary billing authority: HTTP 302
+PASS Authorized billing recent-history selector: HTTP 200
+PASS Oldest unpaid invoice is outside the initial100 selector
+PASS Rendered invoice search form: HTTP 200
+PASS Rendered invoicePage next-page link exists
+PASS Invoice pager preserves search and status
+PASS Oldest101st invoice page through rendered next link: HTTP 200
+PASS Oldest101st invoice is selectable with no other-company invoice
+PASS Invoice page clamps excessive index: HTTP 200
+PASS Clamped last invoice page stays bounded and actionable
+PASS Search oldest open invoice: HTTP 200
+PASS Open invoice filter exposes exactly the tenant old debt
+PASS Actual oldest invoice form records previously received payment
+PASS Oldest invoice payment allocates100 once
+PASS Subscription recovers after oldest debt settlement: HTTP 200
+PASS Oldest payment clears suspension
+PASS Recent approval history stays bounded: HTTP 200
+PASS Initial50 approval selector omits older pending and other-company records
+PASS Rendered pending approval filter: HTTP 200
+PASS Rendered approvalPage next-page link exists
+PASS Approval pager preserves pending filter
+PASS Oldest51st pending approval through rendered next link: HTTP 200
+PASS Oldest51st pending proposal is selectable
+PASS Approval page clamps excessive index: HTTP 200
+PASS Clamped last approval page retains oldest pending selector
+PASS Search oldest independent requester: HTTP 200
+PASS Requester filter exposes one same-tenant proposal
+PASS Oldest proposal still requires unchanged hash-bound payload
+PASS Actual oldest pending proposal accepts independent unchanged approval
+PASS Older approval is audit-only and attributed to independent admin
+PASS HTTP paging fixture respects relational tenant foreign keys
+PASS Synthetic paid invoice balances equal recorded payment allocations
+PASS Approved status filter after older review: HTTP 200
+PASS Approved history cannot offer already-approved proposal again
+PASS Other-company requester search: HTTP 200
+PASS Other-company approval is absent from filtered history and selector
+PASS HTTP paging restores all existing accounts and grants exactly
+PASS Remove temporary synthetic billing authority from cookie context form: HTTP 200
+PASS Remove temporary synthetic billing authority from cookie: HTTP 302
+PASS Ordinary billing visibility restored after paging test: HTTP 200
+PASS Temporary platform billing form is removed
+PASS Main synthetic company is not left suspended by paging checks
+PASS User 4 login form: HTTP 200
+PASS User 4 login form has antiforgery token
+PASS User 4 real Identity login: HTTP 302
+PASS User 4 authorized context form: HTTP 200
+PASS User 4 sees exactly their assigned company and branches
+PASS User 4 selects authorized tenant context
+PASS Low-privilege staff dashboard remains usable: HTTP 200
+PASS Low-privilege dashboard suppresses financial totals
+PASS Inventory staff cannot see staff or permission sidebar navigation links
+PASS Low-privilege route denied /Accounts: HTTP 403
+PASS Low-privilege route denied /Accounts/opening: HTTP 403
+PASS Low-privilege route denied /Reports: HTTP 403
+PASS Low-privilege route denied /Administration: HTTP 403
+PASS Low-privilege route denied /Automation: HTTP 403
+PASS Low-privilege route denied /api/operations/summary: HTTP 403
+PASS Low-privilege route denied /api/operations/summary.csv: HTTP 403
+PASS Low-privilege route denied /api/advanced/trial-balance.xlsx?through=2099-01-01T00:00:00Z: HTTP 403
+PASS Low-privilege route denied /api/advanced/farm-summary.pdf: HTTP 403
+PASS Low-privilege route denied /api/farm/animals: HTTP 403
+PASS Low-privilege route denied /ops/readiness: HTTP 403
+PASS Low-privilege permitted route /Inventory: HTTP 200
+PASS Low-privilege permitted route /Purchase: HTTP 200
+PASS Low-privilege permitted route /Sales: HTTP 200
+PASS Low-privilege permitted route /stock-transfers: HTTP 200
+PASS Low-privilege permitted route /Account/Security: HTTP 200
+PASS User 5 login form: HTTP 200
+PASS User 5 login form has antiforgery token
+PASS User 5 real Identity login: HTTP 302
+PASS User 5 authorized context form: HTTP 200
+PASS User 5 sees exactly their assigned company and branches
+PASS User 5 selects authorized tenant context
+PASS Read-only support page remains usable: HTTP 200
+PASS Read-only support retains pager elements without an unauthorized create form
+PASS Read-only viewer cannot open transfer posting form
+PASS Read-only viewer can inspect purchases: HTTP 200
+PASS Read-only user cannot post purchase with valid antiforgery token: HTTP 403
+PASS Forbidden read-only purchase makes no database change
+PASS Synthetic account security enrollment form: HTTP 200
+PASS Authenticator enrollment requires password and returns setup form
+PASS Enrollment provides exactly one synthetic TOTP key
+PASS Selected branch survives enrollment-start security-stamp refresh: HTTP 200; branch 1
+PASS TOTP enrollment succeeds and displays ten one-time recovery codes
+PASS Selected branch survives MFA enable security-stamp refresh: HTTP 200; branch 1
+PASS MFA enabled state appears without redisplaying secret or recovery values
+PASS MFA security change invalidates previous independent login cookie
+PASS Authenticator login password form: HTTP 200
+PASS Authenticator login requires second factor after correct password
+PASS Authenticator login password-only challenge cannot read protected records
+PASS Authenticator challenge form: HTTP 200
+PASS Incorrect TOTP is rejected with explicit challenge error
+PASS Incorrect TOTP creates no authenticated application session
+PASS Correct TOTP finishes real Identity sign-in
+PASS TOTP-authenticated session selects main context form
+PASS TOTP-authenticated session selects main context selected
+PASS TOTP-authenticated context survives principal refresh: HTTP 200; branch 1
+PASS One-time recovery login password form: HTTP 200
+PASS One-time recovery login requires second factor after correct password
+PASS One-time recovery login password-only challenge cannot read protected records
+PASS Recovery-code challenge form: HTTP 200
+PASS Unused recovery code finishes real Identity sign-in
+PASS Recovery-authenticated session selects store context form
+PASS Recovery-authenticated session selects store context selected
+PASS Recovery-authenticated store context survives principal refresh: HTTP 200; branch 6
+PASS Recovery context selection cannot switch independent TOTP main session: HTTP 200; branch 1
+PASS One successful recovery consumes exactly one code
+PASS Recovery replay login password form: HTTP 200
+PASS Recovery replay login requires second factor after correct password
+PASS Recovery replay login password-only challenge cannot read protected records
+PASS Recovery replay challenge form: HTTP 200
+PASS Used recovery code cannot be replayed
+PASS Recovery replay cannot read protected records
+PASS Failed recovery replay leaves remaining code count unchanged
+PASS Recovery regeneration form: HTTP 200
+PASS Recovery regeneration produces ten replacement codes
+PASS Store context survives recovery-regeneration security-stamp refresh: HTTP 200; branch 6
+PASS Recovery regeneration revokes older TOTP session
+PASS Security flows do not persist global tenant-selection claims
+PASS Visited HTML pages have no inline script elements: No JavaScript execution or interaction is claimed
+PASS Navigation, context selector and support pager scripts are linked externally
+PASS Script URL is self-hosted /js/context-selection.js
+PASS HTTP script resource loads /js/context-selection.js
+PASS Script URL is self-hosted /js/farm-core-translations.js
+PASS HTTP script resource loads /js/farm-core-translations.js
+PASS Script URL is self-hosted /js/farm-i18n.js
+PASS HTTP script resource loads /js/farm-i18n.js
+PASS Script URL is self-hosted /js/farm-server-tables.js
+PASS HTTP script resource loads /js/farm-server-tables.js
+PASS Script URL is self-hosted /js/navigation-menu.js
+PASS HTTP script resource loads /js/navigation-menu.js
+PASS Script URL is self-hosted /js/opening-balance.js
+PASS HTTP script resource loads /js/opening-balance.js
+PASS Script URL is self-hosted /js/stock-transfer-language.js
+PASS HTTP script resource loads /js/stock-transfer-language.js
+PASS Script URL is self-hosted /js/support-tickets.js
+PASS HTTP script resource loads /js/support-tickets.js
+PASS Script URL is self-hosted /vendor/datatables/dataTables.min.js
+PASS HTTP script resource loads /vendor/datatables/dataTables.min.js
+PASS Synthetic credentials, enrollment secrets and recovery codes are absent from evidence
+PASS Every persisted journal remains exactly balanced after HTTP postings: 688 balanced vouchers
+PASS All stock balances equal persisted movements: 14 reconciled stock items
+PASS Release DLL remained unchanged during HTTP acceptance
+PASS Trusted runtime dependency remained unchanged during HTTP acceptance
+{"passed": 412, "failed": 0, "report": "/workspace/scratch/85a436f01071/farm_scan/source/evidence/http/results.json"}

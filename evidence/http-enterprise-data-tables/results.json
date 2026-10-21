@@ -1,0 +1,708 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-20T09:53:06.446740+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anonymous table API returns401",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table products",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract products",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table animals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract animals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table stock-movements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract stock-movements",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table milk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract milk",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table health",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract health",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table feed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract feed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table purchase-orders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract purchase-orders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table receipts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract receipts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table sales",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract sales",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table documents",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract documents",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table returns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract returns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table parties",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract parties",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table payments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract payments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table bank-lines",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract bank-lines",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table vouchers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract vouchers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table expenses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract expenses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table weights",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract weights",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table fattening",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract fattening",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table breeding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract breeding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table staff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract staff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table attendance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract attendance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table leave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract leave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table payroll-policies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract payroll-policies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table payroll-runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract payroll-runs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table crm-leads",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract crm-leads",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table crm-opportunities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract crm-opportunities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table crm-activities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract crm-activities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table crm-quotes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract crm-quotes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table crm-ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract crm-ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table assets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract assets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table depreciation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract depreciation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table disposals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract disposals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table ecommerce-catalog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract ecommerce-catalog",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table ecommerce-orders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract ecommerce-orders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table own-orders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract own-orders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table support",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract support",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table automation-notifications",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract automation-notifications",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table automation-rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract automation-rules",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table automation-jobs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract automation-jobs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table automation-approvals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract automation-approvals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table subscription-invoices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract subscription-invoices",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table subscription-payments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract subscription-payments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table company-policies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract company-policies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table tax-policies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract tax-policies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table opening-balances",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract opening-balances",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table stock-transfers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract stock-transfers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bounded authorized real SQL table own-payslips",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draw/count contract own-payslips",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Server pages beyond100 with scoped filtered count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other company cannot observe count or rows",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reject unsupported protocol {'draw': '<script>'}",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reject unsupported protocol {'length': -1}",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reject unsupported protocol {'length': 101}",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reject unsupported protocol {'start': -1}",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reject unsupported protocol {'order[0][column]': 99}",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reject unsupported protocol {'search[regex]': 'true'}",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reject unsupported protocol {'search[value]': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'}",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unknown table is404",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wildcard reviewer cannot see another customer orders in own portal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wildcard reviewer cannot see another employee payslips in own portal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /products/2/edit",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Real product mutation commits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Committed product mutation invalidates cache immediately",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Staff grid never exposes compensation fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Inventory?page=2",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Parties?page=2",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /data",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /data/products",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Actual vendored DataTables DOM and live HTTP integration",
+      "passed": true,
+      "detail": "PASS actual DataTables3.1.4 + jsdom with live HTTP: search,50-row page,next,Arabic RTL,Bengali,language rebuild,status filter; 8 AJAX draws. Real browser remains separate.\n"
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in vendor-dom.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in browser.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "passed": 138,
+  "failed": 0,
+  "browser_gate": "Real Chromium requires a supported browser executor; this environment denied its local Unix socket. HTTP and DOM checks are separate evidence.",
+  "real_vendor_dom_executed": true,
+  "redis_cache_configured": false,
+  "completed_utc": "2026-10-20T09:53:38.978819+00:00",
+  "status": "passed"
+}

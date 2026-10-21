@@ -1,0 +1,11 @@
+Farm Management Summary
+All-time selected branch totals
+
+Animals: 1
+Stock value: 4,235.676
+Product sales (gross before returns): 141.000
+Product purchases (gross before returns): 4,621.375
+Milk litres: 6.000
+Generated UTC: 2026-10-20 09:49
+
+

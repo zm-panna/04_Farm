@@ -1,0 +1,1 @@
+PASS actual DataTables3.1.4 + jsdom with live HTTP: search,50-row page,next,Arabic RTL,Bengali,language rebuild,status filter; 8 AJAX draws. Real browser remains separate.

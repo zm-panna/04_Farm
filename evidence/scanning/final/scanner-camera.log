@@ -1,0 +1,25 @@
+✔ construction and stop never request camera; explicit start requests video only (6.110018ms)
+✔ camera selection requests exact selected device (0.359563ms)
+✔ pending permission result is stopped after close and never attached (0.35764ms)
+✔ rapid start stop start discards stale first camera grant (0.535889ms)
+✔ permission denied returns actionable manual fallback without retained stream (0.580856ms)
+✔ insecure context and unavailable browser never ask for permission (0.24468ms)
+✔ missing native detector and missing QR supported format use fallback (0.583771ms)
+✔ native detector runtime failure switches to fallback (15.401756ms)
+✔ repeated frames generate one read-only callback and explicit reset permits same SKU (1.3788ms)
+✔ async decode resolving after deactivate cannot dispatch preview (0.851364ms)
+✔ fallback loading failure cleans camera resources (0.390088ms)
+✔ vendored reader JS SRI and WASM upstream hash are exact (6.29051ms)
+✔ actual pinned WASM decodes a known QR from RGBA without any network access (34.578607ms)
+✔ native camera requests every supported QR and product barcode format (0.960299ms)
+✔ native QR-only implementation falls back rather than losing barcode support (0.336187ms)
+✔ actual pinned WASM decodes Code128, EAN13, EAN8, UPCA and UPCE fixtures offline (27.247796ms)
+✔ generic camera adapter bounds decoded callbacks before any application lookup (0.984505ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 246.934551

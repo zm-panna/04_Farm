@@ -1,0 +1,10 @@
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {831292e6-6d8e-4e4e-a63a-7a6a21108ed8} may be persisted to storage in unencrypted form.
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /HRPayroll/leave/6/review; status 403
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /HRPayroll/register/6/approve; status 403
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure InvalidOperationException on /HRPayroll/me/payslip/6; status 409
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure InvalidOperationException on /HRPayroll/register/6; status 409

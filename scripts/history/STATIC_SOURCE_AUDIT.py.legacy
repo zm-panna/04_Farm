@@ -1,0 +1,13 @@
+"""Offline completeness assessment; does not replace compilation or runtime testing."""
+import json
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+module_root=root/'Modules'
+records=[]
+for project in sorted(module_root.glob('EnterpriseERP.Modules.*')):
+    cs=list(project.rglob('*.cs'))
+    active=[p for p in cs if p.name!='ModuleMarker.cs' and '/obj/' not in str(p)]
+    records.append({'module':project.name.replace('EnterpriseERP.Modules.',''), 'business_source_files':len(active), 'status':'Scaffold-only' if not active else 'Requires runtime verification'})
+summary={'module_count':len(records),'scaffold_only_count':sum(x['status']=='Scaffold-only' for x in records),'modules':records,'caveat':'Web-host services may implement some module operations, but marker-only projects do not satisfy full enterprise module requirements.'}
+(root/'docs'/'STATIC_AUDIT.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
+print(json.dumps(summary,indent=2))

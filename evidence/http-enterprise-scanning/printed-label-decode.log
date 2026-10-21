@@ -1,0 +1,2 @@
+PASS actual generated qr label round-trip
+PASS actual generated code128 label round-trip

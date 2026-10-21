@@ -1,0 +1,6 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+AAAAAA+Lato-Bold                     CID TrueType      Identity-H       yes yes yes      4  0
+BAAAAA+NotoSansBengali-Bold          CID TrueType      Identity-H       yes yes yes      5  0
+CAAAAA+Lato-Regular                  CID TrueType      Identity-H       yes yes yes      6  0
+DAAAAA+NotoSansBengali-Regular       CID TrueType      Identity-H       yes yes yes      7  0

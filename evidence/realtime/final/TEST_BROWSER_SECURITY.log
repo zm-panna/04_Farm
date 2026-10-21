@@ -1,0 +1,6 @@
+PASS navigation opens and closes with accurate aria-expanded state
+PASS context selector preserves valid choice and disables other-company branches
+PASS both scripts tolerate absent optional UI
+PASS all Razor scripts are external self-hosted assets and have no inline handlers
+PASS CSP denies inline scripts and eval while keeping styles separately scoped
+PASS 5 browser security checks

@@ -1,0 +1,88 @@
+@model EnterpriseERP.Web.Controllers.ScanWorkspaceModel
+@{ ViewData["Title"] = "Scan workspace"; }
+<link rel="stylesheet" href="~/css/farm-scanning.css" asp-append-version="true" />
+<div id="farm-scan" data-business-date="@Model.BusinessDate.ToString("yyyy-MM-dd")" data-can-manage="@Model.CanManage.ToString().ToLowerInvariant()">
+ @Html.AntiForgeryToken()
+ <h1 data-i18n="Scan workspace">Scan workspace</h1>
+ <p data-i18n="A scan opens an authorized preview. Review and confirm a separate draft before any record, stock or journal changes.">A scan opens an authorized preview. Review and confirm a separate draft before any record, stock or journal changes.</p>
+ <p data-i18n="Labels identify records; they do not grant access. Camera frames stay on this device and are not uploaded or saved.">Labels identify records; they do not grant access. Camera frames stay on this device and are not uploaded or saved.</p>
+ <p id="scan-status" role="status" aria-live="polite" data-i18n="Ready for a label.">Ready for a label.</p>
+ <p id="scan-error" role="alert" hidden></p>
+ <section class="panel">
+  <h2 data-i18n="1. Choose context and scan">1. Choose context and scan</h2>
+  <form id="scan-resolve-form">
+   <label for="scan-context" data-i18n="Scan context">Scan context</label>
+   <select id="scan-context" required>
+    @foreach (var kind in Model.Contexts) { <option value="@kind" data-i18n="@(kind switch { "Product" => "Product or feed", "Animal" => "Animal tag", "Asset" => "Fixed asset", "PurchaseOrder" => "Purchase order", _ => "Accounting document" })">@(kind switch { "Product" => "Product or feed", "Animal" => "Animal tag", "Asset" => "Fixed asset", "PurchaseOrder" => "Purchase order", _ => "Accounting document" })</option> }
+   </select>
+   <label for="scan-value" data-i18n="Label value or keyboard scanner">Label value or keyboard scanner</label>
+   <input id="scan-value" maxlength="80" required autocomplete="off" spellcheck="false" />
+   <button type="submit" data-i18n="Preview label">Preview label</button>
+  </form>
+  <div class="scan-camera-controls">
+   <label for="scan-device" data-i18n="Camera">Camera</label><select id="scan-device"><option value="" data-i18n="Default rear camera">Default rear camera</option></select>
+   <button type="button" id="scan-camera-start" data-i18n="Start camera">Start camera</button>
+   <button type="button" id="scan-camera-stop" data-i18n="Stop camera">Stop camera</button>
+   <button type="button" id="scan-camera-next" data-i18n="Scan next label">Scan next label</button>
+  </div>
+  <video id="scan-video" muted playsinline aria-label="Local scanner camera" data-i18n-aria-label="Local scanner camera"></video>
+  <p data-i18n="Use HTTPS for camera access. Manual entry and keyboard scanners work without camera permission.">Use HTTPS for camera access. Manual entry and keyboard scanners work without camera permission.</p>
+  <div id="scan-preview" hidden></div>
+ </section>
+ <section class="panel" id="scan-entry" hidden>
+  <h2 data-i18n="2. Prepare an operation">2. Prepare an operation</h2>
+  <form id="scan-entry-form">
+   <label for="scan-action" data-i18n="Operation">Operation</label><select id="scan-action" required></select>
+   <div data-scan-field="quantity"><label for="scan-quantity" data-i18n="Quantity or weight">Quantity or weight</label><input id="scan-quantity" type="number" step="0.001" /></div>
+   <div data-scan-field="date"><label for="scan-date" data-i18n="Event date">Event date</label><input id="scan-date" type="date" /></div>
+   <div data-scan-field="health"><label for="scan-event" data-i18n="Health event type">Health event type</label><select id="scan-event"><option value="" data-i18n="Choose an event">Choose an event</option>@foreach (var type in new[]{"Observation","Vaccination","Deworming","Treatment","VetVisit"}) { <option value="@type" data-i18n="@type">@type</option> }</select><label for="scan-next-due" data-i18n="Next due date (optional)">Next due date (optional)</label><input id="scan-next-due" type="date" /></div>
+   <div data-scan-field="destination"><label for="scan-destination" data-i18n="Destination branch">Destination branch</label><select id="scan-destination"><option value="" data-i18n="Choose a destination branch">Choose a destination branch</option></select></div>
+   <div data-scan-field="secondary">
+    <label for="scan-secondary-value" data-i18n="Feed or destination product label">Feed or destination product label</label><input id="scan-secondary-value" maxlength="80" autocomplete="off" />
+    <button type="button" id="scan-secondary-camera" data-i18n="Use camera for secondary label">Use camera for secondary label</button>
+    <button type="button" id="scan-secondary-preview-button" data-i18n="Preview secondary product">Preview secondary product</button>
+    <div id="scan-secondary-preview"></div>
+   </div>
+   <div data-scan-field="custody"><label for="scan-custodian" data-i18n="New custodian">New custodian</label><input id="scan-custodian" maxlength="160" /><label for="scan-location" data-i18n="New location">New location</label><input id="scan-location" maxlength="160" /></div>
+   <label for="scan-notes" data-i18n="Notes or reason">Notes or reason</label><textarea id="scan-notes" maxlength="1000" rows="3"></textarea>
+   <p data-i18n="An adjustment uses a signed quantity change, not an absolute stock count. Confirm any counted difference deliberately.">An adjustment uses a signed quantity change, not an absolute stock count. Confirm any counted difference deliberately.</p>
+   <button type="submit" data-i18n="Prepare review draft">Prepare review draft</button>
+  </form>
+ </section>
+ <section class="panel" id="scan-review-section" hidden>
+  <h2 data-i18n="3. Review before confirmation">3. Review before confirmation</h2>
+  <div id="scan-review"></div>
+  <label id="scan-confirm-label"><input id="scan-confirm-reviewed" type="checkbox" /><span data-i18n="I checked the context, quantities, dates and consequences shown above.">I checked the context, quantities, dates and consequences shown above.</span></label>
+  <button type="button" id="scan-confirm" data-i18n="Confirm this operation">Confirm this operation</button>
+  <button type="button" id="scan-cancel" data-i18n="Cancel this draft">Cancel this draft</button>
+  <p data-i18n="Drafts expire after ten minutes. Changed records or revoked labels require a fresh scan and review.">Drafts expire after ten minutes. Changed records or revoked labels require a fresh scan and review.</p>
+ </section>
+ <section class="panel">
+  <h2 data-i18n="My scan drafts and outcomes">My scan drafts and outcomes</h2>
+  <label for="scan-history-search" data-i18n="Business reference">Business reference</label><input id="scan-history-search" maxlength="80" />
+  <label for="scan-history-status" data-i18n="Status">Status</label><select id="scan-history-status"><option value="" data-i18n="All statuses">All statuses</option>@foreach (var state in new[]{"Pending","Committed","Cancelled","Expired"}) { <option value="@state" data-i18n="@state">@state</option> }</select>
+  <button type="button" id="scan-history-refresh" data-i18n="Refresh">Refresh</button>
+  <div id="scan-history"></div>
+  <button type="button" id="scan-history-prev" data-i18n="Previous">Previous</button><span id="scan-history-page"></span><button type="button" id="scan-history-next" data-i18n="Next">Next</button>
+ </section>
+ @if (Model.CanManage)
+ {
+ <section class="panel" id="scan-label-management">
+  <h2 data-i18n="Label mappings and printing">Label mappings and printing</h2>
+  <p data-i18n="Internal QR and Code128 labels contain only an opaque identifier. Product EAN, UPC and SKU values require explicit exact mapping; existing or revoked values cannot be reused.">Internal QR and Code128 labels contain only an opaque identifier. Product EAN, UPC and SKU values require explicit exact mapping; existing or revoked values cannot be reused.</p>
+  <form id="scan-label-form">
+   <label for="scan-label-context" data-i18n="Label context">Label context</label><select id="scan-label-context">@foreach (var kind in Model.Contexts) { <option value="@kind" data-i18n="@(kind switch { "Product" => "Product or feed", "Animal" => "Animal tag", "Asset" => "Fixed asset", "PurchaseOrder" => "Purchase order", _ => "Accounting document" })">@(kind switch { "Product" => "Product or feed", "Animal" => "Animal tag", "Asset" => "Fixed asset", "PurchaseOrder" => "Purchase order", _ => "Accounting document" })</option> }</select>
+   <label for="scan-target-search" data-i18n="Find a target in this branch">Find a target in this branch</label><input id="scan-target-search" maxlength="80" /><button type="button" id="scan-target-search-button" data-i18n="Search">Search</button>
+   <label for="scan-target" data-i18n="Target record">Target record</label><select id="scan-target" required></select>
+   <button type="button" id="scan-target-prev" data-i18n="Previous targets">Previous targets</button><span id="scan-target-page"></span><button type="button" id="scan-target-next" data-i18n="Next targets">Next targets</button>
+   <label for="scan-label-format" data-i18n="Mapping format">Mapping format</label><select id="scan-label-format"><option value="Internal" data-i18n="Generated internal identifier">Generated internal identifier</option><option value="SKU">SKU</option><option value="Code128">Code128</option><option value="EAN13">EAN13</option><option value="EAN8">EAN8</option><option value="UPCA">UPC-A</option><option value="UPCE">UPC-E</option></select>
+   <label for="scan-label-value" data-i18n="External product barcode value">External product barcode value</label><input id="scan-label-value" maxlength="80" autocomplete="off" disabled />
+   <button type="submit" data-i18n="Create exact label mapping">Create exact label mapping</button>
+  </form>
+  <label for="scan-label-search" data-i18n="Find printed label value">Find printed label value</label><input id="scan-label-search" maxlength="80" /><button type="button" id="scan-label-search-button" data-i18n="Search labels">Search labels</button>
+  <div id="scan-label-list"></div>
+  <button type="button" id="scan-label-prev" data-i18n="Previous labels">Previous labels</button><span id="scan-label-page"></span><button type="button" id="scan-label-next" data-i18n="Next labels">Next labels</button>
+ </section>
+ }
+</div>
+@section Scripts {<script src="~/js/scanner-camera.js" asp-append-version="true"></script><script src="~/js/farm-scanning.js" asp-append-version="true"></script>}

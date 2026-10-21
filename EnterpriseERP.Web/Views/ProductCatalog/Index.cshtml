@@ -1,0 +1,14 @@
+@model List<EnterpriseERP.Domain.StockItem>
+@{ViewData["Title"]="Product Master";int page=ViewBag.Page??1;int total=ViewBag.Total??0;string query=ViewBag.Query??"";}
+<section style="padding:28px;max-width:1260px;margin:auto">
+<div style="display:flex;justify-content:space-between;gap:18px;align-items:center;flex-wrap:wrap"><div><h1 data-i18n="Product Master">Product Master</h1><p data-i18n="Manage products and stock visibility">Manage products and stock visibility</p></div><a class="pill-link" href="/products/new" data-i18n="Add Product">Add Product</a></div>
+@if(TempData["Success"] is string success){<div role="status">@success</div>}
+<form method="get" action="/products" style="display:flex;gap:10px;margin:18px 0"><label for="q" data-i18n="Search products">Search products</label><input id="q" name="q" value="@query" maxlength="160" placeholder="SKU / Product name"/><button type="submit" data-i18n="Search">Search</button></form>
+<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse"><thead><tr><th data-i18n="SKU">SKU</th><th data-i18n="Product Name">Product Name</th><th data-transfer-i18n="Stock unit">Stock unit</th><th data-i18n="Stock Balance">Stock Balance</th><th data-i18n="Unit Cost">Unit Cost</th><th data-i18n="Action">Action</th></tr></thead><tbody>
+@foreach(var p in Model){<tr><td>@p.SKU</td><td>@p.Name</td><td>@(p.UnitOfMeasure==""?"?":p.UnitOfMeasure)</td><td>@p.QuantityOnHand.ToString("N3")</td><td>@p.UnitCost.ToString("N3")</td><td><a href="/products/@p.Id/edit" data-i18n="Edit">Edit</a></td></tr>}
+@if(Model.Count==0){<tr><td colspan="6" data-i18n="No products found">No products found</td></tr>}
+</tbody></table></div>
+<nav style="display:flex;gap:12px;margin-top:22px" aria-label="Product pagination">@if(page>1){<a href="/products?q=@Uri.EscapeDataString(query)&page=@(page-1)" data-i18n="← Previous">← Previous</a>}<span><span data-i18n="Page">Page</span> <bdi>@(page)</bdi> · <bdi>@total</bdi> <span data-i18n="products">products</span></span>@if(page*25<total){<a href="/products?q=@Uri.EscapeDataString(query)&page=@(page+1)" data-i18n="Next →">Next →</a>}</nav>
+</section>
+
+

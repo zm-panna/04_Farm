@@ -1,0 +1,7 @@
+{
+  "Requires Payroll.Rates permission. Enter the applicable daily rate or monthly salary, plus the reviewed overtime hourly rate. The reviewed payroll policy must allow the selected contractual pay basis. Existing approved payslips retain their original rate snapshot.": {
+    "bn": "Payroll.Rates অনুমতি প্রয়োজন। প্রযোজ্য দৈনিক হার বা মাসিক বেতন ও পর্যালোচিত ঘণ্টাপ্রতি অতিরিক্ত কাজের হার দিন। পর্যালোচিত বেতননীতিতে নির্বাচিত চুক্তিভিত্তিক বেতনের ভিত্তি অনুমোদিত হতে হবে। বিদ্যমান অনুমোদিত বেতনপত্রে আগের হারের সংরক্ষিত তথ্য থাকে।",
+    "banglish": "Payroll.Rates permission lage. Projojjo daily rate ba monthly salary o reviewed overtime hourly rate din. Reviewed payroll policy-te selected contractual pay basis allowed hote hobe. Existing approved payslip original rate snapshot rakhe.",
+    "ar": "تتطلب صلاحية Payroll.Rates. أدخل المعدل اليومي أو الراتب الشهري المناسب ومعدل ساعة العمل الإضافي المُراجع. يجب أن تسمح سياسة الرواتب المُراجعة بأساس الأجر التعاقدي المحدد. تحتفظ قسائم الرواتب المعتمدة بلقطة معدلاتها الأصلية."
+  }
+}

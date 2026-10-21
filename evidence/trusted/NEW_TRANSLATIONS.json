@@ -1,0 +1,12 @@
+{
+  "Trusted service temporarily unavailable.": {
+    "bn": "বিশ্বস্ত সেবাটি সাময়িকভাবে উপলব্ধ নয়।",
+    "banglish": "Bishwosto shebati shamoyikbhabe upolobdho noy.",
+    "ar": "الخدمة الموثوقة غير متاحة مؤقتًا."
+  },
+  "Trusted runtime configuration is unavailable. Contact the trusted server operator.": {
+    "bn": "বিশ্বস্ত রানটাইম কনফিগারেশন উপলব্ধ নয়। বিশ্বস্ত সার্ভারের দায়িত্বপ্রাপ্ত ব্যক্তির সঙ্গে যোগাযোগ করুন।",
+    "banglish": "Bishwosto runtime configuration upolobdho noy. Bishwosto server-er dayittoprapto byaktir shonge jogajog korun.",
+    "ar": "إعدادات بيئة التشغيل الموثوقة غير متاحة. تواصل مع مسؤول الخادم الموثوق."
+  }
+}

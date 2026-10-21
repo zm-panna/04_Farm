@@ -1,0 +1,25 @@
+@{ ViewData["Title"] = "Select company / branch"; }
+<div class="page-header"><div><span class="eyebrow" data-i18n="Workspace configuration">Workspace configuration</span><h1 data-i18n="Select company &amp; branch">Select company &amp; branch</h1><p class="subtle" data-i18n="Only your authorized combinations are available.">Only your authorized combinations are available.</p></div></div><div class="form-card">
+<p data-i18n="Only assigned company and branch combinations are accepted.">Only assigned company and branch combinations are accepted.</p>
+@if (!((IEnumerable<EnterpriseERP.Web.Controllers.CompanyOption>)ViewBag.Companies).Any())
+{
+ <p class="notice" role="status">Your account is ready. Ask your administrator to assign company and branch access before opening a workspace.</p>
+}
+else
+{
+<form asp-controller="Context" asp-action="Select" method="post">
+ @Html.AntiForgeryToken()
+ <label for="companyId" data-i18n="Company">Company</label>
+ <select name="companyId" id="companyId" required>
+ @foreach(var c in (IEnumerable<EnterpriseERP.Web.Controllers.CompanyOption>)ViewBag.Companies){<option value="@c.Id">@c.Name</option>}
+ </select>
+ <label for="branchId" data-i18n="Branch">Branch</label>
+ <select name="branchId" id="branchId" required>
+ @foreach(var b in (IEnumerable<EnterpriseERP.Web.Controllers.BranchOption>)ViewBag.Branches){<option value="@b.Id" data-company="@b.CompanyId">@b.Name</option>}
+ </select>
+ <button type="submit" data-i18n="Use selected branch">Use selected branch</button>
+</form>
+}
+</div>
+
+@section Scripts { <script src="~/js/context-selection.js" asp-append-version="true"></script> }

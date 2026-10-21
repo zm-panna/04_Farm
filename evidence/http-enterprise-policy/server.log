@@ -1,0 +1,12 @@
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {18fc7c87-55d2-436b-b8d5-010d56d4f589} may be persisted to storage in unencrypted form.
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /AIManager/facts/admin; status 403
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /AIManager/facts/assets; status 403
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /AIManager/draft; status 403
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /AIManager; status 403
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /AIManager/facts/assets; status 403

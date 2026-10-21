@@ -1,0 +1,3477 @@
+{
+  "generatedAtUtc": "2026-10-19T05:04:48.497616+00:00",
+  "scope": "Exact ordinary string-literal messages directly passed to exception constructors in six reviewed enterprise services. Interpolated strings, concatenated messages, user-supplied values and framework-generated composites are excluded. No application files changed.",
+  "staticTemplateCount": 231,
+  "missingTranslationTemplateCount": 230,
+  "keys": [
+    "A cart product is no longer published. Remove it before checking out.",
+    "A cart supports at most 50 products.",
+    "A different authorized user must approve payroll.",
+    "A different authorized user must approve this record.",
+    "A different authorized user must review this policy.",
+    "A different reviewer must approve or reject this policy.",
+    "A line discount must be less than its gross amount.",
+    "A newer approved policy supersedes this proposal; create a new prospective version.",
+    "A newer tax policy applies to this date; select its reviewed version.",
+    "A newer tax policy supersedes this proposal; create a prospective version.",
+    "A payroll run already exists for this month or reference; recalculate its draft instead.",
+    "A payroll run requires 1–5000 staff in this branch.",
+    "A pending or approved leave already overlaps these dates.",
+    "A product price, tax or company policy changed. Refresh the cart before confirming.",
+    "A quote requires 1–50 nonempty lines.",
+    "A replacement policy must start after the existing version and cannot rewrite a past business date.",
+    "A reviewed company business policy is required for the current local business date.",
+    "A reviewed company jurisdiction, currency and timezone policy is required for this business date.",
+    "A saved activity's lead and reference cannot change.",
+    "A saved lead reference cannot be changed.",
+    "A saved opportunity's lead and reference cannot change.",
+    "A saved quote's opportunity and reference cannot change.",
+    "Acquisition requires a different user's completed approval.",
+    "Active staff require no end date; deactivation requires a valid end date on or before today.",
+    "Activity is not available in the active branch.",
+    "Actual-calendar proration must have zero fixed units; its denominator comes from the payroll month.",
+    "Amount has more decimal places than the reviewed company currency permits.",
+    "An active customer record and verified account are required.",
+    "An asset changed after this preview. Cancel and recreate the run; no partial posting is allowed.",
+    "An identity is already linked. Reassignment requires a separately reviewed account-recovery procedure.",
+    "An uncancelled disposal already exists for this asset.",
+    "An unposted run already exists for this branch and month. Review or cancel that run before retrying.",
+    "An unreviewed tax policy needs a different reviewer.",
+    "Another authorized person must review this leave request.",
+    "Approved leave already covers this day.",
+    "Ask authorized staff to link your verified account to your customer record in this branch.",
+    "Asset and approved company currency settings differ; a separately reviewed migration is required.",
+    "Asset code or source reference already exists. Cancelled references remain reserved to preserve history.",
+    "Asset financial values changed after this preview. Cancel and recreate this disposal.",
+    "Asset not found in the active company and branch.",
+    "Attendance already exists; edit it using its current version.",
+    "Attendance not found.",
+    "Attendance overlaps this leave. Reject the request or resolve attendance before approval.",
+    "Calculate only a fully ended payroll month.",
+    "Calculated payroll exceeds supported amounts.",
+    "Cancelled acquisition records are immutable.",
+    "Cart quote changed or expired. Refresh quantities to review current prices and tax.",
+    "Choose Done or Cancelled.",
+    "Choose a changed custodian or location.",
+    "Choose an active customer in this branch.",
+    "Choose an existing verified identity already authorized for this branch.",
+    "Choose an explicit Daily, Monthly or Mixed payroll policy basis.",
+    "Choose an explicit compensation effective date.",
+    "Choose an explicit staff Daily or Monthly pay basis and a positive contractual amount for that basis.",
+    "Choose an independently reviewed payroll policy.",
+    "Choose between 1 and 50 products.",
+    "Choose either an existing customer or a new customer code.",
+    "Choose stock in this branch.",
+    "Choose the actual calendar-day or explicitly fixed-unit monthly denominator.",
+    "Close this lead's open opportunities and activities before archiving it.",
+    "Closed activities cannot be changed.",
+    "Company accounting currency and precision are locked. A different currency requires a separately reviewed migration or company.",
+    "Company and asset currency policies differ.",
+    "Company jurisdiction or currency changed. This order requires an approved correction before posting.",
+    "Company policy changed. Cancel and recreate the disposal.",
+    "Company policy changed. Cancel and recreate this run.",
+    "Company policy changed. Cancel this unposted acquisition and prepare it under the current approved policy.",
+    "Company policy changed; prepare a new matching tax policy.",
+    "Compensation cannot rewrite an approved or posted payroll period. Choose a later effective month.",
+    "Compensation must take effect on a month boundary or the hire date, on or before the current business date. Mid-period rate changes require a separately reviewed extension.",
+    "Confirm goods are released for branch collection and the receivable will be posted; payment remains unverified.",
+    "Confirm review of currency, date range, daily/monthly basis, monthly denominator and cap, jurisdiction, rates and account mappings.",
+    "Confirm review of the customer, configured tax and collection arrangements.",
+    "Confirm that each payslip, attendance, leave and policy was reviewed.",
+    "Confirm that this exact verified account belongs to this staff member; it grants access to their payslips.",
+    "Confirm that you reviewed the source evidence, policy, amounts and journal before approval.",
+    "Confirm the displayed total and branch collection terms before placing the order.",
+    "Confirm the returned goods were physically received and are suitable to return to stock.",
+    "Confirm the verified identity belongs to this customer before linking.",
+    "Currency minor units must be explicitly selected from zero through three.",
+    "Currency minor units must be from zero through three.",
+    "Custody cannot be backdated before the latest custody event.",
+    "Custody date must be between acquisition and today.",
+    "Dates must be inside the staff member's employment dates.",
+    "Depreciation must be posted one completed month at a time, without skipped or repeated periods.",
+    "Depreciation requires a different user's approval before posting.",
+    "Depreciation run not found in this branch.",
+    "Depreciation start must be on or after acquisition and before year 9999.",
+    "Disposal cannot predate acquisition or already-posted depreciation.",
+    "Disposal not found in this branch.",
+    "Disposal requires a different user's approval before posting.",
+    "Earlier depreciation periods are missing. Post the earliest due month first.",
+    "Employment dates cannot exclude recorded attendance or pending/approved leave.",
+    "Enter a valid email address without a display name.",
+    "Enter an installed IANA or Windows timezone identifier.",
+    "Enter the approved three-letter currency and 0–3 decimal places.",
+    "Every quote product must belong to the active branch.",
+    "Every quote product requires a reviewed stock unit in Product Master.",
+    "Existing amounts require an explicit currency review before this policy can be approved.",
+    "Explicitly confirm that existing ledger, stock values and document amounts use this currency. No conversion will be performed.",
+    "Granted marketing consent requires a contact email or phone and recorded evidence.",
+    "Identical compensation terms already exist for this effective date; no duplicate version was created.",
+    "Insufficient unreserved stock.",
+    "Invalid request token. Reload this page.",
+    "Invalid stage transition. Won is available only through reviewed quote acceptance.",
+    "Invalid version token. Refresh the page.",
+    "Lead is not available in the active branch.",
+    "Leave has already been reviewed.",
+    "Leave request not found.",
+    "Line amount exceeds the supported range.",
+    "Line total exceeds the supported range.",
+    "Monthly straight line requires 1–1200 useful-life months and an explicit first-of-month start. Partial-month depreciation is not inferred.",
+    "New compensation versions cannot predate the latest configured version; use a separately reviewed historical correction.",
+    "No depreciable active assets are due in this month. Zero-cost, non-depreciable, disposed and residual-floor assets are excluded.",
+    "No verified staff account is linked in this branch. Ask an authorized HR identity administrator.",
+    "Non-depreciable assets require zero life months and residual value equal to cost, with a documented reason.",
+    "Only a draft acquisition can be approved.",
+    "Only a draft depreciation run can be approved.",
+    "Only a draft disposal can be approved.",
+    "Only a draft quote can be edited.",
+    "Only a draft quote can be reviewed.",
+    "Only a reviewed quote can return to draft.",
+    "Only a reviewed, unaccepted quote may be accepted.",
+    "Only an active asset can be disposed.",
+    "Only an active asset can change custody.",
+    "Only an unposted acquisition can be cancelled.",
+    "Only an unposted disposal can be cancelled.",
+    "Only an unposted run can be cancelled.",
+    "Only approved, unposted payroll can be posted once.",
+    "Only archived leads can be restored.",
+    "Only draft payroll can be approved.",
+    "Only draft payroll can be recalculated.",
+    "Only fulfilled orders can be returned.",
+    "Opportunity is not available in the active branch.",
+    "Order line not found.",
+    "Order not found.",
+    "Payroll policy no longer matches the company policy effective for this month.",
+    "Payroll run not found in this branch.",
+    "Payroll source data changed. Recalculate the draft and review the new amounts.",
+    "Payslip not found.",
+    "Payslips become available after accrual posting.",
+    "Policy has already been reviewed.",
+    "Policy not found.",
+    "Policy unavailable.",
+    "Post depreciation through the month before disposal first. Disposal does not invent partial-month depreciation.",
+    "Posting currency differs from the approved payroll snapshot.",
+    "Posting date must be on or after the payroll period end.",
+    "Price has more precision than the configured currency permits.",
+    "Product changed, or stock identity was changed. Reload the catalog.",
+    "Product currency needs staff review.",
+    "Quote is not available in the active branch.",
+    "Quote validity cannot end before the quote date.",
+    "Recorded date must be from 2000 through today in the approved company time zone.",
+    "Release the owning reservation atomically before consuming stock.",
+    "Replacement tax policies must be prospective and start after the previous version.",
+    "Reservation integrity check failed.",
+    "Reserved stock balance requires reconciliation.",
+    "Residual value cannot exceed acquisition cost.",
+    "Restore this archived lead before adding or changing work.",
+    "Return currency does not match the approved ledger currency.",
+    "Return exceeds the remaining fulfilled quantity.",
+    "Return this remaining low-value quantity together to preserve exact money allocation.",
+    "Return token was already used for a different request.",
+    "Review pending leave in this month before calculating payroll.",
+    "Review the displayed information and explicitly confirm this action.",
+    "Select Review, ReturnToDraft or Cancel.",
+    "Select a valid activity type.",
+    "Select a valid marketing-consent state.",
+    "Select an active customer in the active branch.",
+    "Select an explicit depreciation method.",
+    "Select an explicitly reviewed tax policy for this company.",
+    "Select an unlinked, email-verified existing account with company and branch access.",
+    "Select cash/bank or other receivable recorded.",
+    "Select cash/bank recorded or other payable recorded.",
+    "Select the first day of a payroll month.",
+    "Select the last day of a completed month.",
+    "Specify a valid policy period from 2000 through 2100.",
+    "Specify the US state or tax jurisdiction; country alone is insufficient.",
+    "Staff member not found in the selected branch.",
+    "Standard tax needs a positive explicit rate; zero needs an explicit exemption or out-of-scope basis.",
+    "Tax approval no longer matches the accepted order snapshot.",
+    "Tax policy is outside its effective period.",
+    "Tax policy unavailable.",
+    "That account or customer is already linked. Identity links cannot be reassigned.",
+    "The activity opportunity must belong to this lead.",
+    "The cart is empty.",
+    "The cart quote no longer matches approved server pricing.",
+    "The company accounting currency has not been consistently reviewed and locked.",
+    "The company accounting currency is already locked to another denomination.",
+    "The company's approved currency policy changed. Return the quote to draft and review its currency and amounts.",
+    "The contact identity changed. Set consent to Unknown, or record fresh reviewed consent evidence for this contact.",
+    "The customer account is no longer active.",
+    "The entire payroll policy period, currency and decimal places must match one approved company business policy.",
+    "The opportunity is closed. No further pipeline or quote actions are available.",
+    "The order changed or is not in the required state. Reload it before acting.",
+    "The order changed or was fulfilled. Reload it; fulfilled stock requires a return.",
+    "The quote is future-dated or expired in the company's timezone. Return it to draft and review its dates.",
+    "The quote snapshot failed its amount integrity check.",
+    "The quote's lead and opportunity do not match.",
+    "The reviewed company business policy has expired for this date.",
+    "The reviewed company business policy has expired.",
+    "The reviewed payroll formula is invalid; create and independently review a corrected policy.",
+    "The reviewed policy must cover the entire payroll month.",
+    "The run's eligible assets changed. Cancel and recreate the run for review.",
+    "The tax policy does not match the effective company jurisdiction and currency.",
+    "This activity is already closed.",
+    "This activity reference already exists.",
+    "This date overlaps approved or posted payroll. Its source attendance and leave are locked.",
+    "This lead already has a customer. Explicitly select its linked customer to avoid creating a duplicate.",
+    "This lead reference already exists in the active branch.",
+    "This opportunity reference already exists.",
+    "This party code already exists. Review and select the existing customer instead.",
+    "This policy was already reviewed.",
+    "This product is no longer published in the selected branch.",
+    "This quote is already final.",
+    "This quote reference already exists.",
+    "This record changed or the action was already completed. Reload it and review the latest version.",
+    "This record changed. Refresh before reviewing it.",
+    "This reference, quote or opportunity has already been converted. Open the existing sales-ready record.",
+    "This run exceeds the supported 5,000-asset limit. Contact the administrator before posting.",
+    "This staff code already exists.",
+    "Unknown enterprise AI fact module.",
+    "Unknown review draft.",
+    "Use a posting date on or before today.",
+    "Use a recorded date and paid days of 0, 0.5 or 1; record contracted paid rest days as 1 and unpaid days as 0.",
+    "Use a reviewed four-digit liability account other than trade payable 2100.",
+    "Use a valid date range of at most 367 days, from year 2000 onward.",
+    "Use distinct employee-payable, deduction-payable and employer-contribution-payable accounts.",
+    "Use two-letter country and three-letter currency codes.",
+    "Your cart changed. Reload before editing."
+  ],
+  "templates": [
+    {
+      "text": "A cart product is no longer published. Remove it before checking out.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 175
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A cart supports at most 50 products.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 142
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A different authorized user must approve payroll.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 318
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A different authorized user must approve this record.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 126
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A different authorized user must review this policy.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 255
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A different reviewer must approve or reject this policy.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 103
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A line discount must be less than its gross amount.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 245
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A newer approved policy supersedes this proposal; create a new prospective version.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 111
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A newer tax policy applies to this date; select its reviewed version.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 136
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A newer tax policy supersedes this proposal; create a prospective version.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 185
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A payroll run already exists for this month or reference; recalculate its draft instead.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 307
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A payroll run requires 1–5000 staff in this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 264
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A pending or approved leave already overlaps these dates.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 214
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A product price, tax or company policy changed. Refresh the cart before confirming.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 178
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A quote requires 1–50 nonempty lines.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 233
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A replacement policy must start after the existing version and cannot rewrite a past business date.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 84
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A reviewed company business policy is required for the current local business date.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 30
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A reviewed company jurisdiction, currency and timezone policy is required for this business date.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 17
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A saved activity's lead and reference cannot change.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 201
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A saved lead reference cannot be changed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 129
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A saved opportunity's lead and reference cannot change.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 171
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "A saved quote's opportunity and reference cannot change.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 231
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Acquisition requires a different user's completed approval.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 168
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Active staff require no end date; deactivation requires a valid end date on or before today.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 140
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Activity is not available in the active branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 199
+        },
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 218
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Actual-calendar proration must have zero fixed units; its denominator comes from the payroll month.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 246
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Amount has more decimal places than the reviewed company currency permits.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 62
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "An active customer record and verified account are required.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 49
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "An asset changed after this preview. Cancel and recreate the run; no partial posting is allowed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 253
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "An identity is already linked. Reassignment requires a separately reviewed account-recovery procedure.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 183
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "An uncancelled disposal already exists for this asset.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 301
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "An unposted run already exists for this branch and month. Review or cancel that run before retrying.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 224
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "An unreviewed tax policy needs a different reviewer.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 179
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Another authorized person must review this leave request.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 222
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Approved leave already covers this day.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 198
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Ask authorized staff to link your verified account to your customer record in this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 46
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Asset and approved company currency settings differ; a separately reviewed migration is required.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 231
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Asset code or source reference already exists. Cancelled references remain reserved to preserve history.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 154
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Asset financial values changed after this preview. Cancel and recreate this disposal.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 316
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Asset not found in the active company and branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 87
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Attendance already exists; edit it using its current version.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 200
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Attendance not found.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 201
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Attendance overlaps this leave. Reject the request or resolve attendance before approval.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 223
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Calculate only a fully ended payroll month.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 306
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Calculated payroll exceeds supported amounts.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 300
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Cancelled acquisition records are immutable.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 191
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Cart quote changed or expired. Refresh quantities to review current prices and tax.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 168
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose Done or Cancelled.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 217
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose a changed custodian or location.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 205
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose an active customer in this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 98
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose an existing verified identity already authorized for this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 96
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose an explicit Daily, Monthly or Mixed payroll policy basis.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 239
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose an explicit compensation effective date.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 164
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose an explicit staff Daily or Monthly pay basis and a positive contractual amount for that basis.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 162
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose an independently reviewed payroll policy.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 260
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose between 1 and 50 products.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 169
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose either an existing customer or a new customer code.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 311
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose stock in this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 114
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Choose the actual calendar-day or explicitly fixed-unit monthly denominator.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 243
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Close this lead's open opportunities and activities before archiving it.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 156
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Closed activities cannot be changed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 201
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Company accounting currency and precision are locked. A different currency requires a separately reviewed migration or company.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 81
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Company and asset currency policies differ.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 298
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Company jurisdiction or currency changed. This order requires an approved correction before posting.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 321
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Company policy changed. Cancel and recreate the disposal.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 318
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Company policy changed. Cancel and recreate this run.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 245
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Company policy changed. Cancel this unposted acquisition and prepare it under the current approved policy.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 171
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Company policy changed; prepare a new matching tax policy.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 183
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Compensation cannot rewrite an approved or posted payroll period. Choose a later effective month.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 169
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Compensation must take effect on a month boundary or the hire date, on or before the current business date. Mid-period rate changes require a separately reviewed extension.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 165
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm goods are released for branch collection and the receivable will be posted; payment remains unverified.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 255
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm review of currency, date range, daily/monthly basis, monthly denominator and cap, jurisdiction, rates and account mappings.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 254
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm review of the customer, configured tax and collection arrangements.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 224
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm that each payslip, attendance, leave and policy was reviewed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 317
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm that this exact verified account belongs to this staff member; it grants access to their payslips.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 182
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm that you reviewed the source evidence, policy, amounts and journal before approval.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 125
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm the displayed total and branch collection terms before placing the order.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 160
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm the returned goods were physically received and are suitable to return to stock.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 286
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Confirm the verified identity belongs to this customer before linking.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 90
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Currency minor units must be explicitly selected from zero through three.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 72
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Currency minor units must be from zero through three.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 56
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Custody cannot be backdated before the latest custody event.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 203
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Custody date must be between acquisition and today.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 201
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Dates must be inside the staff member's employment dates.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 127
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Depreciation must be posted one completed month at a time, without skipped or repeated periods.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 109
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Depreciation requires a different user's approval before posting.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 267
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Depreciation run not found in this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 241
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Depreciation start must be on or after acquisition and before year 9999.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 139
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Disposal cannot predate acquisition or already-posted depreciation.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 287
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Disposal not found in this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 311
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Disposal requires a different user's approval before posting.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 331
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Earlier depreciation periods are missing. Post the earliest due month first.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 214
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Employment dates cannot exclude recorded attendance or pending/approved leave.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 152
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Enter a valid email address without a display name.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 123
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Enter an installed IANA or Windows timezone identifier.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 74
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Enter the approved three-letter currency and 0–3 decimal places.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 238
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Every quote product must belong to the active branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 240
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Every quote product requires a reviewed stock unit in Product Master.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 241
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Existing amounts require an explicit currency review before this policy can be approved.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 106
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Explicitly confirm that existing ledger, stock values and document amounts use this currency. No conversion will be performed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 82
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Granted marketing consent requires a contact email or phone and recorded evidence.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 127
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Identical compensation terms already exist for this effective date; no duplicate version was created.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 167
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Insufficient unreserved stock.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 23
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Invalid request token. Reload this page.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 32
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Invalid stage transition. Won is available only through reviewed quote acceptance.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 183
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Invalid version token. Refresh the page.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 125
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Lead is not available in the active branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 112
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Leave has already been reviewed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 222
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Leave request not found.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 221
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Line amount exceeds the supported range.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 244
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Line total exceeds the supported range.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 35
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Monthly straight line requires 1–1200 useful-life months and an explicit first-of-month start. Partial-month depreciation is not inferred.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 141
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "New compensation versions cannot predate the latest configured version; use a separately reviewed historical correction.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 168
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "No depreciable active assets are due in this month. Zero-cost, non-depreciable, disposed and residual-floor assets are excluded.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 226
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "No verified staff account is linked in this branch. Ask an authorized HR identity administrator.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 336
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Non-depreciable assets require zero life months and residual value equal to cost, with a documented reason.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 143
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only a draft acquisition can be approved.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 160
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only a draft depreciation run can be approved.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 260
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only a draft disposal can be approved.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 324
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only a draft quote can be edited.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 231
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only a draft quote can be reviewed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 269
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only a reviewed quote can return to draft.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 275
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only a reviewed, unaccepted quote may be accepted.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 301
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only an active asset can be disposed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 294
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only an active asset can change custody.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 199
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only an unposted acquisition can be cancelled.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 184
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only an unposted disposal can be cancelled.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 347
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only an unposted run can be cancelled.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 281
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only approved, unposted payroll can be posted once.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 323
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only archived leads can be restored.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 159
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only draft payroll can be approved.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 318
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only draft payroll can be recalculated.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 313
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Only fulfilled orders can be returned.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 289
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Opportunity is not available in the active branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 114
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Order line not found.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 292
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Order not found.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 210
+        },
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 238
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Payroll policy no longer matches the company policy effective for this month.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 262
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Payroll run not found in this branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 309
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Payroll source data changed. Recalculate the draft and review the new amounts.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 318
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Payslip not found.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 344
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Payslips become available after accrual posting.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 344
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Policy has already been reviewed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 255
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Policy not found.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 255
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Policy unavailable.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 100
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Post depreciation through the month before disposal first. Disposal does not invent partial-month depreciation.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 289
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Posting currency differs from the approved payroll snapshot.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 324
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Posting date must be on or after the payroll period end.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 323
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Price has more precision than the configured currency permits.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 113
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Product changed, or stock identity was changed. Reload the catalog.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 116
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Product currency needs staff review.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 146
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Quote is not available in the active branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 116
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Quote validity cannot end before the quote date.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 227
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Recorded date must be from 2000 through today in the approved company time zone.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 118
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Release the owning reservation atomically before consuming stock.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 22
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Replacement tax policies must be prospective and start after the previous version.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 161
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Reservation integrity check failed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 242
+        },
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 267
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Reserved stock balance requires reconciliation.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 246
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Residual value cannot exceed acquisition cost.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 135
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Restore this archived lead before adding or changing work.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 95
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Return currency does not match the approved ledger currency.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 291
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Return exceeds the remaining fulfilled quantity.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 297
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Return this remaining low-value quantity together to preserve exact money allocation.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 301
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Return token was already used for a different request.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 294
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Review pending leave in this month before calculating payroll.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 275
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Review the displayed information and explicitly confirm this action.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 89
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select Review, ReturnToDraft or Cancel.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 278
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select a valid activity type.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 196
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select a valid marketing-consent state.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 125
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select an active customer in the active branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 312
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select an explicit depreciation method.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 137
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select an explicitly reviewed tax policy for this company.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 134
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select an unlinked, email-verified existing account with company and branch access.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 184
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select cash/bank or other receivable recorded.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 296
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select cash/bank recorded or other payable recorded.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 136
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select the first day of a payroll month.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 306
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Select the last day of a completed month.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 221
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Specify a valid policy period from 2000 through 2100.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 123
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Specify the US state or tax jurisdiction; country alone is insufficient.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 71
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Staff member not found in the selected branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 118
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Standard tax needs a positive explicit rate; zero needs an explicit exemption or out-of-scope basis.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 154
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Tax approval no longer matches the accepted order snapshot.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 326
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Tax policy is outside its effective period.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 135
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Tax policy unavailable.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 177
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "That account or customer is already linked. Identity links cannot be reassigned.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 100
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The activity opportunity must belong to this lead.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 205
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The cart is empty.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 167
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The cart quote no longer matches approved server pricing.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 182
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The company accounting currency has not been consistently reviewed and locked.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 21
+        },
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 34
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The company accounting currency is already locked to another denomination.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 109
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The company's approved currency policy changed. Return the quote to draft and review its currency and amounts.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 290
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The contact identity changed. Set consent to Unknown, or record fresh reviewed consent evidence for this contact.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 133
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The customer account is no longer active.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 262
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The entire payroll policy period, currency and decimal places must match one approved company business policy.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 250
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The opportunity is closed. No further pipeline or quote actions are available.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 93
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The order changed or is not in the required state. Reload it before acting.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 316
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The order changed or was fulfilled. Reload it; fulfilled stock requires a return.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 240
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The quote is future-dated or expired in the company's timezone. Return it to draft and review its dates.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 287
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The quote snapshot failed its amount integrity check.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 294
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The quote's lead and opportunity do not match.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 304
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The reviewed company business policy has expired for this date.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 18
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The reviewed company business policy has expired.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 31
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The reviewed payroll formula is invalid; create and independently review a corrected policy.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 261
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The reviewed policy must cover the entire payroll month.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 260
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The run's eligible assets changed. Cancel and recreate the run for review.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 247
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "The tax policy does not match the effective company jurisdiction and currency.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 138
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This activity is already closed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 219
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This activity reference already exists.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 210
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This date overlaps approved or posted payroll. Its source attendance and leave are locked.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 122
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This lead already has a customer. Explicitly select its linked customer to avoid creating a duplicate.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 308
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This lead reference already exists in the active branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 130
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This opportunity reference already exists.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 173
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This party code already exists. Review and select the existing customer instead.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 317
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This policy was already reviewed.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 102
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This product is no longer published in the selected branch.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 144
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This quote is already final.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 277
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This quote reference already exists.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 232
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This record changed or the action was already completed. Reload it and review the latest version.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 91
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This record changed. Refresh before reviewing it.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 125
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This reference, quote or opportunity has already been converted. Open the existing sales-ready record.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CRMService.cs",
+          "line": 306
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This run exceeds the supported 5,000-asset limit. Contact the administrator before posting.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/FixedAssetService.cs",
+          "line": 215
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "This staff code already exists.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 142
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Unknown enterprise AI fact module.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EnterpriseAiService.cs",
+          "line": 21
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Unknown review draft.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EnterpriseAiService.cs",
+          "line": 61
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Use a posting date on or before today.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 322
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Use a recorded date and paid days of 0, 0.5 or 1; record contracted paid rest days as 1 and unpaid days as 0.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 196
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Use a reviewed four-digit liability account other than trade payable 2100.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 156
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Use a valid date range of at most 367 days, from year 2000 onward.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 125
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Use distinct employee-payable, deduction-payable and employer-contribution-payable accounts.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/HRPayrollService.cs",
+          "line": 249
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Use two-letter country and three-letter currency codes.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+          "line": 70
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    },
+    {
+      "text": "Your cart changed. Reload before editing.",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/EcommerceService.cs",
+          "line": 136
+        }
+      ],
+      "missingLanguages": [
+        "bn",
+        "banglish",
+        "ar"
+      ]
+    }
+  ],
+  "integrationSafety": "Translate only exact known full-message matches; preserve unknown/dynamic feedback unchanged. These literals are not authorization to translate customer content or to rewrite model inputs."
+}

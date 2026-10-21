@@ -1,0 +1,707 @@
+{
+  "1000 Cash / bank": {
+    "bn": "1000 নগদ / ব্যাংক",
+    "banglish": "1000 nogod / bank",
+    "ar": "1000 نقد / بنك"
+  },
+  "1000 cash/bank": {
+    "bn": "1000 নগদ/ব্যাংক",
+    "banglish": "1000 nogod/bank",
+    "ar": "1000 نقد/بنك"
+  },
+  "1500 Other receivable": {
+    "bn": "1500 অন্যান্য প্রাপ্য",
+    "banglish": "1500 onnanno prapyo",
+    "ar": "1500 ذمم مدينة أخرى"
+  },
+  "1600 Asset cost": {
+    "bn": "1600 সম্পদের ব্যয়",
+    "banglish": "1600 sompoder bey",
+    "ar": "1600 تكلفة الأصل"
+  },
+  "1690 Accumulated depreciation": {
+    "bn": "1690 সঞ্চিত অবচয়",
+    "banglish": "1690 sonchito obochoy",
+    "ar": "1690 مجمع الإهلاك"
+  },
+  "2500 other payable": {
+    "bn": "2500 অন্যান্য প্রদেয়",
+    "banglish": "2500 onnanno prodeyo",
+    "ar": "2500 ذمم دائنة أخرى"
+  },
+  "4800 Disposal gain": {
+    "bn": "4800 নিষ্পত্তির লাভ",
+    "banglish": "4800 nishpottir labh",
+    "ar": "4800 ربح الاستبعاد"
+  },
+  "6801 Disposal loss": {
+    "bn": "6801 নিষ্পত্তির ক্ষতি",
+    "banglish": "6801 nishpottir khoti",
+    "ar": "6801 خسارة الاستبعاد"
+  },
+  "A Mixed policy uses each employee’s explicitly reviewed Daily or Monthly contract basis in one payroll run.": {
+    "bn": "Mixed নীতিতে একই বেতন কার্যক্রমে প্রতিটি কর্মীর স্পষ্টভাবে পর্যালোচিত দৈনিক বা মাসিক চুক্তির ভিত্তি ব্যবহৃত হয়।",
+    "banglish": "Mixed policy ek payroll run-e protiti kormir explicitly reviewed Daily ba Monthly contract basis ney.",
+    "ar": "تستخدم السياسة المختلطة أساس العقد اليومي أو الشهري المُراجع صراحةً لكل موظف في دورة رواتب واحدة."
+  },
+  "Acquisition journal: debit asset cost 1600; credit the selected funding account. No payment is made.": {
+    "bn": "অধিগ্রহণ জাবেদা: সম্পদের ব্যয় 1600 ডেবিট; নির্বাচিত অর্থায়নের হিসাব ক্রেডিট। কোনো অর্থপ্রদান হয় না।",
+    "banglish": "Acquisition journal: asset cost1600 debit; selected funding account credit. Payment hoy na.",
+    "ar": "قيد الاقتناء: مدين تكلفة الأصل 1600؛ دائن حساب التمويل المحدد. لا يُجرى دفع."
+  },
+  "Active assets": {
+    "bn": "সক্রিয় সম্পদ",
+    "banglish": "Shokriyo sompod",
+    "ar": "الأصول النشطة"
+  },
+  "Active leads": {
+    "bn": "সক্রিয় লিড",
+    "banglish": "Shokriyo lead",
+    "ar": "العملاء المحتملون النشطون"
+  },
+  "Active staff": {
+    "bn": "সক্রিয় কর্মী",
+    "banglish": "Shokriyo kormi",
+    "ar": "الموظفون النشطون"
+  },
+  "Amounts follow the approved company currency. Drafts and approved acquisitions are not posted book balances. Finance actions record journals only; they never transfer money.": {
+    "bn": "পরিমাণ কোম্পানির অনুমোদিত মুদ্রা অনুযায়ী। খসড়া ও অনুমোদিত অধিগ্রহণ পোস্ট করা বইভুক্ত স্থিতি নয়। আর্থিক কাজ শুধু জাবেদা নথিভুক্ত করে; টাকা স্থানান্তর করে না।",
+    "banglish": "Amount approved company currency onujayi. Draft o approved acquisition posted bookbalance noy. Finance action shudhu journal record kore; taka transfer kore na.",
+    "ar": "تتبع المبالغ عملة الشركة المعتمدة. المسودات والاقتناءات المعتمدة ليست أرصدة دفترية مرحّلة. تسجل الإجراءات المالية القيود فقط ولا تحول المال."
+  },
+  "Approval locks source attendance and leave.": {
+    "bn": "অনুমোদনে উৎস উপস্থিতি ও ছুটি লক হয়।",
+    "banglish": "Approval source attendance o leave lock kore.",
+    "ar": "يقفل الاعتماد بيانات الحضور والإجازة المصدرية."
+  },
+  "Approved assets": {
+    "bn": "অনুমোদিত সম্পদ",
+    "banglish": "Onumodito sompod",
+    "ar": "الأصول المعتمدة"
+  },
+  "Approved at": {
+    "bn": "অনুমোদনের সময়",
+    "banglish": "Approval-er shomoy",
+    "ar": "وقت الاعتماد"
+  },
+  "Approved by": {
+    "bn": "অনুমোদনকারী",
+    "banglish": "Onumodon-kari",
+    "ar": "اعتمده"
+  },
+  "Approved orders": {
+    "bn": "অনুমোদিত অর্ডার",
+    "banglish": "Onumodito order",
+    "ar": "الطلبات المعتمدة"
+  },
+  "Approved payroll runs": {
+    "bn": "অনুমোদিত বেতন কার্যক্রম",
+    "banglish": "Onumodito payroll run",
+    "ar": "دورات الرواتب المعتمدة"
+  },
+  "Approver must be different from the last calculator": {
+    "bn": "অনুমোদনকারী সর্বশেষ হিসাবকারী থেকে আলাদা হতে হবে",
+    "banglish": "Approver shesh calculator theke alada hote hobe",
+    "ar": "يجب أن يكون المعتمد غير آخر من أجرى الحساب"
+  },
+  "Buyer / recipient": {
+    "bn": "ক্রেতা / প্রাপক",
+    "banglish": "Kreta / prapok",
+    "ar": "المشتري / المستلم"
+  },
+  "CRM pagination": {
+    "bn": "CRM-এর পাতা",
+    "banglish": "CRM-er pata",
+    "ar": "صفحات إدارة العملاء"
+  },
+  "CRM sections": {
+    "bn": "CRM বিভাগ",
+    "banglish": "CRM bibhag",
+    "ar": "أقسام إدارة العملاء"
+  },
+  "Cancelled by": {
+    "bn": "বাতিলকারী",
+    "banglish": "Batil-kari",
+    "ar": "ألغاه"
+  },
+  "Cancelled orders": {
+    "bn": "বাতিল অর্ডার",
+    "banglish": "Batil order",
+    "ar": "الطلبات الملغاة"
+  },
+  "Cap units": {
+    "bn": "এককের সীমা",
+    "banglish": "Unit-er shima",
+    "ar": "الحد الأقصى للوحدات"
+  },
+  "Carrying value at disposal": {
+    "bn": "নিষ্পত্তির সময় বইমূল্য",
+    "banglish": "Disposal-er shomoy carryingvalue",
+    "ar": "القيمة الدفترية عند الاستبعاد"
+  },
+  "Catalog pages": {
+    "bn": "ক্যাটালগের পাতা",
+    "banglish": "Catalog-er pata",
+    "ar": "صفحات الكتالوج"
+  },
+  "Choose a month boundary or the hire date. Compensation history is immutable; historical payroll uses its effective version.": {
+    "bn": "মাসের সীমার তারিখ অথবা নিয়োগের তারিখ নির্বাচন করুন। পারিশ্রমিকের ইতিহাস অপরিবর্তনীয়; অতীতের বেতনে তার কার্যকর সংস্করণ ব্যবহৃত হয়।",
+    "banglish": "Month boundary ba hire date bachhun. Compensation history immutable; historical payroll tar effective version ney.",
+    "ar": "اختر بداية شهر أو تاريخ التعيين. سجل التعويضات غير قابل للتغيير؛ تستخدم الرواتب التاريخية إصداره الساري."
+  },
+  "Company business policy version": {
+    "bn": "কোম্পানির ব্যবসায়িক নীতির সংস্করণ",
+    "banglish": "Company business policy version",
+    "ar": "إصدار سياسة أعمال الشركة"
+  },
+  "Company currency is unconfigured. Amounts retain the legacy three-decimal accounting contract until independently reviewed; no currency label or conversion is assumed.": {
+    "bn": "কোম্পানির মুদ্রা নির্ধারিত নয়। স্বতন্ত্র পর্যালোচনার আগ পর্যন্ত পুরোনো তিন-দশমিক হিসাবপদ্ধতি বহাল থাকে; কোনো মুদ্রার নাম বা রূপান্তর ধরে নেওয়া হয় না।",
+    "banglish": "Company currency unconfigured. Independent review-er age legacy three-decimal accounting thake; currencylabel ba conversion dhora hoy na.",
+    "ar": "عملة الشركة غير مهيأة. تبقى المبالغ وفق قواعد المحاسبة القديمة بثلاث منازل عشرية حتى المراجعة المستقلة؛ لا تُفترض تسمية عملة أو عملية تحويل."
+  },
+  "Company policy": {
+    "bn": "কোম্পানির নীতি",
+    "banglish": "Company-r niti",
+    "ar": "سياسة الشركة"
+  },
+  "Company policy version": {
+    "bn": "কোম্পানির নীতির সংস্করণ",
+    "banglish": "Company-r policy version",
+    "ar": "إصدار سياسة الشركة"
+  },
+  "Compensation effective date": {
+    "bn": "পারিশ্রমিক কার্যকর হওয়ার তারিখ",
+    "banglish": "Compensation effective date",
+    "ar": "تاريخ سريان التعويض"
+  },
+  "Compensation version / effective date": {
+    "bn": "পারিশ্রমিকের সংস্করণ / কার্যকর তারিখ",
+    "banglish": "Compensation version / effective date",
+    "ar": "إصدار التعويض / تاريخ السريان"
+  },
+  "Confidential pay rates": {
+    "bn": "গোপনীয় বেতনের হার",
+    "banglish": "Goponiyo betoner har",
+    "ar": "معدلات الأجر السرية"
+  },
+  "Contractual staff pay basis": {
+    "bn": "কর্মীর চুক্তিভিত্তিক বেতনের ভিত্তি",
+    "banglish": "Staff contractual pay basis",
+    "ar": "أساس أجر الموظف التعاقدي"
+  },
+  "Current carrying value": {
+    "bn": "বর্তমান বইমূল্য",
+    "banglish": "Current carryingvalue",
+    "ar": "القيمة الدفترية الحالية"
+  },
+  "Current custodian": {
+    "bn": "বর্তমান জিম্মাদার",
+    "banglish": "Current jimmadar",
+    "ar": "أمين العهدة الحالي"
+  },
+  "Current custody": {
+    "bn": "বর্তমান জিম্মা",
+    "banglish": "Current jimma",
+    "ar": "العهدة الحالية"
+  },
+  "Custody history starts when acquisition is posted.": {
+    "bn": "অধিগ্রহণ পোস্ট হলে জিম্মার ইতিহাস শুরু হয়।",
+    "banglish": "Acquisition post hole custody history shuru hoy.",
+    "ar": "يبدأ سجل العهدة عند ترحيل الاقتناء."
+  },
+  "Debit 1600 asset cost": {
+    "bn": "1600 সম্পদের ব্যয় ডেবিট",
+    "banglish": "1600 assetcost debit",
+    "ar": "مدين 1600 تكلفة الأصل"
+  },
+  "Deterministic review draft from live permission-scoped facts": {
+    "bn": "বর্তমান অনুমতি-সীমিত তথ্য থেকে নিয়মভিত্তিক পর্যালোচনার খসড়া",
+    "banglish": "Live permission-scoped facts theke rule-based review draft",
+    "ar": "مسودة مراجعة حتمية من حقائق حالية ضمن الصلاحيات"
+  },
+  "Discount line": {
+    "bn": "লাইনের ছাড়",
+    "banglish": "Line-er chhar",
+    "ar": "خصم السطر"
+  },
+  "Disposed assets": {
+    "bn": "নিষ্পত্তিকৃত সম্পদ",
+    "banglish": "Nishpottikrito sompod",
+    "ar": "الأصول المستبعدة"
+  },
+  "Disposed on": {
+    "bn": "নিষ্পত্তির দিন",
+    "banglish": "Disposal-er din",
+    "ar": "تاريخ الاستبعاد"
+  },
+  "Draft assets": {
+    "bn": "খসড়া সম্পদ",
+    "banglish": "Khoshra sompod",
+    "ar": "مسودات الأصول"
+  },
+  "Draft depreciation runs": {
+    "bn": "খসড়া অবচয় কার্যক্রম",
+    "banglish": "Khoshra obochoy run",
+    "ar": "مسودات دورات الإهلاك"
+  },
+  "Draft payroll runs": {
+    "bn": "খসড়া বেতন কার্যক্রম",
+    "banglish": "Khoshra payroll run",
+    "ar": "مسودات دورات الرواتب"
+  },
+  "Draft quotes": {
+    "bn": "খসড়া মূল্যপ্রস্তাব",
+    "banglish": "Khoshra quote",
+    "ar": "مسودات عروض الأسعار"
+  },
+  "Employee deduction": {
+    "bn": "কর্মীর কর্তন",
+    "banglish": "Kormir korton",
+    "ar": "استقطاع الموظف"
+  },
+  "Fixed units": {
+    "bn": "স্থির একক",
+    "banglish": "Fixed unit",
+    "ar": "وحدات ثابتة"
+  },
+  "Fulfilled orders": {
+    "bn": "সরবরাহকৃত অর্ডার",
+    "banglish": "Fulfilled order",
+    "ar": "الطلبات المنفذة"
+  },
+  "Gross = rounded base pay + rounded overtime pay; base pay follows the exact policy pay basis and proration. Deductions and employer contributions are rounded per employee, away from zero, to": {
+    "bn": "মোট = রাউন্ড করা মূল বেতন + রাউন্ড করা অতিরিক্ত কাজের বেতন; মূল বেতন সুনির্দিষ্ট নীতির ভিত্তি ও আনুপাতিক পদ্ধতি অনুযায়ী। কর্তন ও নিয়োগকর্তার অবদান প্রতিটি কর্মীর জন্য শূন্য থেকে দূরে রাউন্ড করা হয়",
+    "banglish": "Gross = rounded basepay + rounded overtimepay; basepay exact policy basis o proration onujayi. Kormiproti deduction o employer contribution away-from-zero round hoy",
+    "ar": "الإجمالي = الأجر الأساسي المقرّب + أجر العمل الإضافي المقرّب؛ يتبع الأساسي أساس الأجر والتوزيع النسبي المحددين في السياسة. تُقرّب الاستقطاعات ومساهمات صاحب العمل لكل موظف بعيداً عن الصفر إلى"
+  },
+  "Historical fractions remain visible. New receipts follow the reviewed currency precision; incompatible historical balances require reviewed correction.": {
+    "bn": "ঐতিহাসিক ভগ্নাংশ দৃশ্যমান থাকে। নতুন অর্থপ্রাপ্তিতে পর্যালোচিত মুদ্রার নির্ভুলতা অনুসৃত হয়; অসামঞ্জস্যপূর্ণ পুরোনো স্থিতিতে পর্যালোচিত সংশোধন প্রয়োজন।",
+    "banglish": "Historical fraction dekha jay. New receipt reviewed currency precision mane; incompatible old balance-e reviewed correction lage.",
+    "ar": "تبقى الكسور التاريخية ظاهرة. تتبع المقبوضات الجديدة دقة العملة المُراجعة؛ تتطلب الأرصدة التاريخية غير المتوافقة تصحيحاً مُراجعاً."
+  },
+  "I reviewed the source evidence, policy, amounts and journal.": {
+    "bn": "উৎসপ্রমাণ, নীতি, পরিমাণ ও জাবেদা পর্যালোচনা করেছি।",
+    "banglish": "Source evidence,policy,amount o journal review korechi.",
+    "ar": "راجعت أدلة المصدر والسياسة والمبالغ والقيد."
+  },
+  "I verified that this exact account belongs to": {
+    "bn": "যাচাই করেছি এই সঠিক অ্যাকাউন্টটির মালিক",
+    "banglish": "Jachai korechi ei exact account-er malik",
+    "ar": "تحققت من أن هذا الحساب المحدد يخص"
+  },
+  "Journal voucher": {
+    "bn": "জাবেদা ভাউচার",
+    "banglish": "Journal voucher",
+    "ar": "سند القيد"
+  },
+  "Journal: debit 6800 depreciation expense; credit 1690 accumulated depreciation. Zero-rounded runs advance the reviewed period without a fake zero-value journal.": {
+    "bn": "জাবেদা: অবচয় ব্যয় 6800 ডেবিট; সঞ্চিত অবচয় 1690 ক্রেডিট। রাউন্ড করে শূন্য হওয়া কার্যক্রম ভুয়া শূন্য-মূল্যের জাবেদা ছাড়াই পর্যালোচিত সময়কাল এগিয়ে নেয়।",
+    "banglish": "Journal: depreciation expense6800 debit; accumulated1690 credit. Zero-rounded run fake zerovalue journal chhara reviewed period egoy.",
+    "ar": "القيد: مدين مصروف الإهلاك 6800؛ دائن مجمع الإهلاك 1690. تُقدّم الدورات المقرّبة إلى صفر الفترة المُراجعة دون قيد وهمي صفري القيمة."
+  },
+  "Life": {
+    "bn": "আয়ুষ্কাল",
+    "banglish": "Ayushkal",
+    "ar": "العمر"
+  },
+  "Location": {
+    "bn": "অবস্থান",
+    "banglish": "Obosthan",
+    "ar": "الموقع"
+  },
+  "Locked company currency": {
+    "bn": "স্থির কোম্পানি মুদ্রা",
+    "banglish": "Locked company currency",
+    "ar": "عملة الشركة المثبتة"
+  },
+  "Mixed daily and monthly contracts": {
+    "bn": "মিশ্র দৈনিক ও মাসিক চুক্তি",
+    "banglish": "Mixed daily o monthly contract",
+    "ar": "عقود يومية وشهرية مختلطة"
+  },
+  "Monthly denominator mode": {
+    "bn": "মাসিক হরের পদ্ধতি",
+    "banglish": "Monthly denominator mode",
+    "ar": "نمط المقام الشهري"
+  },
+  "Monthly straight line": {
+    "bn": "মাসিক সরলরৈখিক",
+    "banglish": "Monthly straightline",
+    "ar": "القسط الثابت الشهري"
+  },
+  "New document totals and cash amounts must match the approved currency precision. Unit prices and internal carrying costs may retain three decimals. Historical fractional values remain visible and require a reviewed correction before settlement.": {
+    "bn": "নতুন নথির মোট ও নগদ পরিমাণ অনুমোদিত মুদ্রার দশমিকের সঙ্গে মিলতে হবে। একক মূল্য ও অভ্যন্তরীণ বইভুক্ত ব্যয়ে তিন দশমিক থাকতে পারে। পুরোনো ভগ্নাংশ দৃশ্যমান থাকে এবং নিষ্পত্তির আগে পর্যালোচিত সংশোধন প্রয়োজন।",
+    "banglish": "New document total o cash amount approved currency precision manbe. Unitprice o internal carryingcost three-decimal thakte pare. Historical fraction dekha jay o settlement-er age reviewed correction lage.",
+    "ar": "يجب أن تطابق إجماليات المستندات والمبالغ النقدية الجديدة دقة العملة المعتمدة. قد تحتفظ أسعار الوحدات والتكاليف الدفترية الداخلية بثلاث منازل عشرية. تبقى القيم التاريخية الكسرية ظاهرة وتتطلب تصحيحاً مُراجعاً قبل التسوية."
+  },
+  "No matching assets. Create a reviewed acquisition to start the register.": {
+    "bn": "মিলে যাওয়া সম্পদ নেই। নিবন্ধন শুরু করতে পর্যালোচিত অধিগ্রহণ তৈরি করুন।",
+    "banglish": "Matching asset nei. Register shuru korte reviewed acquisition toiri korun.",
+    "ar": "لا توجد أصول مطابقة. أنشئ اقتناءً مُراجعاً لبدء السجل."
+  },
+  "No matching depreciation runs.": {
+    "bn": "মিলে যাওয়া অবচয় কার্যক্রম নেই।",
+    "banglish": "Matching depreciation run nei.",
+    "ar": "لا توجد دورات إهلاك مطابقة."
+  },
+  "No posted depreciation.": {
+    "bn": "পোস্ট করা অবচয় নেই।",
+    "banglish": "Posted depreciation nei.",
+    "ar": "لا يوجد إهلاك مرحّل."
+  },
+  "No statutory rate is supplied. A different authorized reviewer must approve these estimates before acquisition posting. Straight line uses completed calendar months with no inferred partial-month charge; choose the first day of the approved starting month on or after acquisition.": {
+    "bn": "আইনগত হার দেওয়া হয়নি। অধিগ্রহণ পোস্টের আগে অন্য অনুমোদিত পর্যালোচককে প্রাক্কলন অনুমোদন করতে হবে। সরলরৈখিক পদ্ধতি পূর্ণ ক্যালেন্ডার মাস ব্যবহার করে; আংশিক মাসের চার্জ ধরে না। অধিগ্রহণের দিনে বা পরে অনুমোদিত শুরুর মাসের প্রথম দিন নির্বাচন করুন।",
+    "banglish": "Statutory rate deya nei. Acquisition post-er age onno authorized reviewer estimate approve korben. Straightline full calendar month ney,partialmonth charge dhore na. Acquisition-er dine ba pore approved start month-er firstday bachhun.",
+    "ar": "لا يُقدّم معدل نظامي. يجب أن يعتمد مراجع مخول آخر هذه التقديرات قبل ترحيل الاقتناء. يستخدم القسط الثابت أشهراً تقويمية مكتملة دون افتراض رسم جزئي؛ اختر أول يوم من شهر البدء المعتمد في تاريخ الاقتناء أو بعده."
+  },
+  "Non-depreciable": {
+    "bn": "অবচয়-অযোগ্য",
+    "banglish": "Nondepreciable",
+    "ar": "غير قابل للإهلاك"
+  },
+  "Only descriptive fields can change. Custody uses its own append-only history; approved cost and depreciation estimates are locked.": {
+    "bn": "শুধু বর্ণনামূলক ক্ষেত্র বদলানো যায়। জিম্মার নিজস্ব অপরিবর্তনীয় ইতিহাস থাকে; অনুমোদিত ব্যয় ও অবচয়ের প্রাক্কলন লক থাকে।",
+    "banglish": "Shudhu descriptive field bodlano jay. Custody nijer append-only history rakhe; approvedcost o depreciation estimate locked.",
+    "ar": "يمكن تعديل الحقول الوصفية فقط. للعهدة سجل إضافي فقط؛ وتُقفل تقديرات التكلفة والإهلاك المعتمدة."
+  },
+  "Only records linked to your authenticated account in this branch are shown.": {
+    "bn": "এই শাখায় আপনার প্রমাণীকৃত অ্যাকাউন্টের সঙ্গে যুক্ত রেকর্ডই দেখানো হয়।",
+    "banglish": "Ei branch-e apnar authenticated account-linked record-i dekhay.",
+    "ar": "تُعرض فقط السجلات المرتبطة بحسابك المصادق عليه في هذا الفرع."
+  },
+  "Open activities": {
+    "bn": "খোলা কার্যক্রম",
+    "banglish": "Open activity",
+    "ar": "الأنشطة المفتوحة"
+  },
+  "Order pages": {
+    "bn": "অর্ডারের পাতা",
+    "banglish": "Order-er pata",
+    "ar": "صفحات الطلبات"
+  },
+  "Payment increment": {
+    "bn": "অর্থপ্রদানের ক্ষুদ্রতম ধাপ",
+    "banglish": "Payment increment",
+    "ar": "أصغر زيادة للدفع"
+  },
+  "Payroll": {
+    "bn": "বেতন ব্যবস্থাপনা",
+    "banglish": "Payroll",
+    "ar": "الرواتب"
+  },
+  "Payroll accrual posted": {
+    "bn": "বেতনের দায় পোস্ট করা হয়েছে",
+    "banglish": "Payroll accrual posted",
+    "ar": "تم ترحيل استحقاق الرواتب"
+  },
+  "Pending leave requests": {
+    "bn": "অপেক্ষমাণ ছুটির আবেদন",
+    "banglish": "Pending leave request",
+    "ar": "طلبات الإجازة المعلقة"
+  },
+  "Policy rationale": {
+    "bn": "নীতির যুক্তি",
+    "banglish": "Policy rationale",
+    "ar": "مبرر السياسة"
+  },
+  "Posted by": {
+    "bn": "পোস্টকারী",
+    "banglish": "Post-kari",
+    "ar": "رحّله"
+  },
+  "Posted journal": {
+    "bn": "পোস্ট করা জাবেদা",
+    "banglish": "Posted journal",
+    "ar": "القيد المرحّل"
+  },
+  "Posted payroll runs": {
+    "bn": "পোস্ট করা বেতন কার্যক্রম",
+    "banglish": "Posted payroll run",
+    "ar": "دورات الرواتب المرحّلة"
+  },
+  "Posting is atomic and cannot be undone here. Current asset values, open accounting period and approved policy are checked again. This records accounting only; no money is transferred.": {
+    "bn": "পোস্ট একক লেনদেনে সম্পন্ন হয় এবং এখানে ফিরিয়ে নেওয়া যায় না। বর্তমান সম্পদমূল্য, খোলা হিসাবকাল ও অনুমোদিত নীতি আবার যাচাই হয়। এতে শুধু হিসাব নথিভুক্ত হয়; টাকা স্থানান্তর হয় না।",
+    "banglish": "Posting atomic o ekhane undo hoy na. Current assetvalue,openperiod o approved policy abar check hoy. Shudhu accounting record; taka transfer noy.",
+    "ar": "الترحيل ذري ولا يمكن التراجع عنه هنا. تُفحص مجدداً قيم الأصول الحالية والفترة المحاسبية المفتوحة والسياسة المعتمدة. يسجل ذلك المحاسبة فقط ولا يحول المال."
+  },
+  "Prepare disposal": {
+    "bn": "নিষ্পত্তি প্রস্তুত করুন",
+    "banglish": "Disposal prostut korun",
+    "ar": "إعداد الاستبعاد"
+  },
+  "Prepared by": {
+    "bn": "প্রস্তুতকারী",
+    "banglish": "Prostutkari",
+    "ar": "أعده"
+  },
+  "Present": {
+    "bn": "উপস্থিত",
+    "banglish": "Uposthit",
+    "ar": "حاضر"
+  },
+  "Proceeds": {
+    "bn": "প্রাপ্ত অর্থ",
+    "banglish": "Prapto ortho",
+    "ar": "المتحصلات"
+  },
+  "Product line": {
+    "bn": "পণ্যের লাইন",
+    "banglish": "Product line",
+    "ar": "سطر المنتج"
+  },
+  "Quantity line": {
+    "bn": "পরিমাণের লাইন",
+    "banglish": "Quantity line",
+    "ar": "سطر الكمية"
+  },
+  "Recorded proceeds in": {
+    "bn": "নথিভুক্ত প্রাপ্ত অর্থ যে হিসাবে",
+    "banglish": "Recorded proceeds je account-e",
+    "ar": "المتحصلات المسجلة في"
+  },
+  "Remaining active-register book value is zero; historical cost and depreciation remain visible.": {
+    "bn": "সক্রিয় নিবন্ধনে অবশিষ্ট বইমূল্য শূন্য; ঐতিহাসিক ব্যয় ও অবচয় দৃশ্যমান থাকে।",
+    "banglish": "Active register-e remaining bookvalue zero; historical cost o depreciation dekha jay.",
+    "ar": "القيمة الدفترية المتبقية في السجل النشط صفر؛ وتبقى التكلفة والإهلاك التاريخيان ظاهرين."
+  },
+  "Residual": {
+    "bn": "অবশিষ্ট",
+    "banglish": "Oboshishto",
+    "ar": "المتبقي"
+  },
+  "Review acquisition cost, residual value, useful life, depreciation period and policy evidence. Reconcile accumulated depreciation and obtain the required independent approval before posting or disposal. This draft makes no accounting entries.": {
+    "bn": "অধিগ্রহণ ব্যয়, অবশিষ্ট মূল্য, আয়ুষ্কাল, অবচয়কাল ও নীতির প্রমাণ পর্যালোচনা করুন। পোস্ট বা নিষ্পত্তির আগে সঞ্চিত অবচয় মিলিয়ে প্রয়োজনীয় স্বতন্ত্র অনুমোদন নিন। এই খসড়া কোনো হিসাব এন্ট্রি করে না।",
+    "banglish": "Acquisitioncost,residual,life,depreciation period o policy evidence review korun. Post/disposal-er age accumulated depreciation milan o independent approval nin. Draft accountingentry kore na.",
+    "ar": "راجع تكلفة الاقتناء والقيمة المتبقية والعمر النافع وفترة الإهلاك وأدلة السياسة. طابق مجمع الإهلاك واحصل على الاعتماد المستقل المطلوب قبل الترحيل أو الاستبعاد. لا تنشئ هذه المسودة قيوداً محاسبية."
+  },
+  "Review open activities and draft quotes. Check contact consent before any separate outreach. Confirm the customer's identity, quote lines, currency and acceptance evidence before converting a quote. This draft sends no message and posts no sale.": {
+    "bn": "খোলা কার্যক্রম ও খসড়া মূল্যপ্রস্তাব দেখুন। পৃথক যোগাযোগের আগে সম্মতি যাচাই করুন। মূল্যপ্রস্তাব রূপান্তরের আগে গ্রাহকের পরিচয়, লাইন, মুদ্রা ও গ্রহণের প্রমাণ নিশ্চিত করুন। এই খসড়া বার্তা পাঠায় না বা বিক্রয় পোস্ট করে না।",
+    "banglish": "Open activity o draftquote review korun. Alada outreach-er age consent check korun. Conversion-er age customer identity,line,currency,acceptance evidence confirm korun. Draft message ba salepost kore na.",
+    "ar": "راجع الأنشطة المفتوحة ومسودات العروض. تحقق من موافقة الاتصال قبل أي تواصل منفصل. أكد هوية العميل وبنود العرض والعملة ودليل القبول قبل تحويله. لا ترسل هذه المسودة رسالة ولا ترحّل بيعاً."
+  },
+  "Review pending leave against recorded attendance and employment dates. Confirm the employee and dates before recording an approval. This draft contains no salary or personal leave reason.": {
+    "bn": "নথিভুক্ত উপস্থিতি ও চাকরির তারিখের সঙ্গে অপেক্ষমাণ ছুটি মিলিয়ে দেখুন। অনুমোদনের আগে কর্মী ও তারিখ নিশ্চিত করুন। এই খসড়ায় বেতন বা ব্যক্তিগত ছুটির কারণ নেই।",
+    "banglish": "Recorded attendance o employment date-er songe pending leave milan. Approval-er age employee/date confirm korun. Draft-e salary ba personal leave reason nei.",
+    "ar": "راجع الإجازات المعلقة مقابل الحضور المسجل وتواريخ التوظيف. أكد الموظف والتواريخ قبل تسجيل الاعتماد. لا تحتوي هذه المسودة على راتب أو سبب إجازة شخصي."
+  },
+  "Review run": {
+    "bn": "কার্যক্রম পর্যালোচনা",
+    "banglish": "Run review",
+    "ar": "مراجعة الدورة"
+  },
+  "Review submitted orders against the confirmed server-calculated price, effective tax policy and reserved stock. Payment remains unverified until separately evidenced. Fulfillment or cancellation requires its own authorized action. This draft does not charge a payment or change stock.": {
+    "bn": "নিশ্চিত server-calculated মূল্য, কার্যকর করনীতি ও সংরক্ষিত মজুতের সঙ্গে জমা অর্ডার মিলিয়ে দেখুন। আলাদা প্রমাণ ছাড়া অর্থপ্রদান অযাচাইকৃত থাকে। সরবরাহ বা বাতিলে নিজস্ব অনুমোদিত কাজ প্রয়োজন। এই খসড়া টাকা কাটে না বা মজুত বদলায় না।",
+    "banglish": "Submitted order confirmed serverprice,effective taxpolicy o reserved stock-er songe review korun. Alada evidence chhara payment unverified. Fulfillment/cancel alada authorized action chai. Draft charge ba stockchange kore na.",
+    "ar": "راجع الطلبات المقدمة مقابل السعر المؤكد المحسوب بالخادم والسياسة الضريبية السارية والمخزون المحجوز. يبقى الدفع غير متحقق حتى تقديم دليل منفصل. يتطلب التنفيذ أو الإلغاء إجراءً مخولاً خاصاً. لا تخصم هذه المسودة مالاً أو تغير المخزون."
+  },
+  "Review the exact payroll policy version, attendance and approved leave, pay-rate snapshots, currency precision, deductions and employer contributions. A different authorized person must approve the payroll run; posting records a liability only and makes no bank transfer.": {
+    "bn": "সঠিক বেতননীতির সংস্করণ, উপস্থিতি ও অনুমোদিত ছুটি, হারের সংরক্ষিত কপি, মুদ্রার দশমিক, কর্তন ও নিয়োগকর্তার অবদান যাচাই করুন। অন্য অনুমোদিত ব্যক্তি বেতন কার্যক্রম অনুমোদন করবেন; পোস্টে শুধু দায় হয়, ব্যাংক স্থানান্তর নয়।",
+    "banglish": "Exact payrollversion,attendance,approvedleave,rate snapshot,currencyprecision,korton o employer contribution check korun. Onno authorizedperson payroll approve korben; post liability record kore,banktransfer noy.",
+    "ar": "راجع إصدار سياسة الرواتب المحدد والحضور والإجازة المعتمدة ولقطات معدلات الأجر ودقة العملة والاستقطاعات ومساهمات صاحب العمل. يجب أن يعتمد الدورة شخص مخول آخر؛ يسجل الترحيل التزاماً فقط دون تحويل بنكي."
+  },
+  "Reviewed by": {
+    "bn": "পর্যালোচনাকারী",
+    "banglish": "Review-kari",
+    "ar": "راجعه"
+  },
+  "Reviewed company policy version": {
+    "bn": "পর্যালোচিত কোম্পানি নীতির সংস্করণ",
+    "banglish": "Reviewed company policy version",
+    "ar": "إصدار سياسة الشركة المُراجع"
+  },
+  "Reviewed compensation history": {
+    "bn": "পর্যালোচিত পারিশ্রমিকের ইতিহাস",
+    "banglish": "Reviewed compensation history",
+    "ar": "سجل التعويضات المُراجع"
+  },
+  "Reviewed employee deduction": {
+    "bn": "পর্যালোচিত কর্মীর কর্তন",
+    "banglish": "Reviewed employee deduction",
+    "ar": "استقطاع الموظف المُراجع"
+  },
+  "Reviewer": {
+    "bn": "পর্যালোচক",
+    "banglish": "Reviewer",
+    "ar": "المراجع"
+  },
+  "Salary payable": {
+    "bn": "প্রদেয় বেতন",
+    "banglish": "Salary payable",
+    "ar": "الراتب المستحق"
+  },
+  "Source reference": {
+    "bn": "উৎসের রেফারেন্স",
+    "banglish": "Source reference",
+    "ar": "مرجع المصدر"
+  },
+  "Start": {
+    "bn": "শুরু",
+    "banglish": "Shuru",
+    "ar": "البدء"
+  },
+  "Statutory compliance requires separate business acceptance.": {
+    "bn": "আইনগত সম্মতিতে আলাদা ব্যবসায়িক গ্রহণযোগ্যতা যাচাই প্রয়োজন।",
+    "banglish": "Statutory compliance-e alada business acceptance lage.",
+    "ar": "يتطلب الامتثال النظامي قبولاً منفصلاً من جهة الأعمال."
+  },
+  "Submitted orders": {
+    "bn": "জমা দেওয়া অর্ডার",
+    "banglish": "Submitted order",
+    "ar": "الطلبات المقدمة"
+  },
+  "This changes custody within the active branch; it does not transfer the asset between company books.": {
+    "bn": "এতে সক্রিয় শাখার মধ্যে জিম্মা বদলায়; এক কোম্পানির হিসাব থেকে অন্যটিতে সম্পদ যায় না।",
+    "banglish": "Ete active branch-er custody bodlay; company books-er moddhe assettransfer hoy na.",
+    "ar": "يغير هذا العهدة داخل الفرع النشط؛ ولا ينقل الأصل بين دفاتر الشركات."
+  },
+  "This payroll is immutable.": {
+    "bn": "এই বেতন অপরিবর্তনীয়।",
+    "banglish": "Ei payroll immutable.",
+    "ar": "هذه الرواتب غير قابلة للتغيير."
+  },
+  "This slip shows accrued salary and does not confirm that money has been transferred.": {
+    "bn": "এই বেতনপত্র অর্জিত বেতন দেখায়; অর্থ স্থানান্তরের নিশ্চয়তা নয়।",
+    "banglish": "Ei slip accrued salary dekhay; taka transfer-er confirmation noy.",
+    "ar": "تعرض هذه القسيمة الراتب المستحق ولا تؤكد تحويل المال."
+  },
+  "Timezone": {
+    "bn": "সময় অঞ্চল",
+    "banglish": "Timezone",
+    "ar": "المنطقة الزمنية"
+  },
+  "Totals": {
+    "bn": "মোটসমূহ",
+    "banglish": "Total-shomuho",
+    "ar": "الإجماليات"
+  },
+  "Unit price line": {
+    "bn": "একক মূল্যের লাইন",
+    "banglish": "Unitprice line",
+    "ar": "سطر سعر الوحدة"
+  },
+  "Unreviewed or unavailable; no jurisdiction or currency has been assumed.": {
+    "bn": "অপর্যালোচিত বা অনুপলব্ধ; কোনো আইনক্ষেত্র বা মুদ্রা অনুমান করা হয়নি।",
+    "banglish": "Unreviewed ba unavailable; jurisdiction ba currency dhora hoyni.",
+    "ar": "غير مُراجع أو غير متاح؛ لم يُفترض اختصاص قانوني أو عملة."
+  },
+  "Unverified-payment orders": {
+    "bn": "অযাচাইকৃত অর্থপ্রদানের অর্ডার",
+    "banglish": "Unverified payment order",
+    "ar": "طلبات ذات دفع غير متحقق"
+  },
+  "Verified account": {
+    "bn": "যাচাইকৃত অ্যাকাউন্ট",
+    "banglish": "Verified account",
+    "ar": "حساب متحقق منه"
+  },
+  "Wages": {
+    "bn": "মজুরি",
+    "banglish": "Mojuri",
+    "ar": "الأجور"
+  },
+  "Zero-cost assets have no monetary journal. Financial source facts cannot be edited; cancel and recreate an unposted draft when needed.": {
+    "bn": "শূন্য ব্যয়ের সম্পদে আর্থিক জাবেদা নেই। আর্থিক উৎসতথ্য সম্পাদনাযোগ্য নয়; প্রয়োজন হলে পোস্ট না করা খসড়া বাতিল করে নতুন তৈরি করুন।",
+    "banglish": "Zerocost asset-e moneyjournal nei. Financial sourcefacts edit hoy na; dorkare unposted draft cancel kore abar banan.",
+    "ar": "لا توجد قيود مالية للأصول صفرية التكلفة. لا تُعدّل حقائق المصدر المالي؛ ألغِ المسودة غير المرحّلة وأعد إنشاءها عند الحاجة."
+  },
+  "accumulated depreciation": {
+    "bn": "সঞ্চিত অবচয়",
+    "banglish": "Sonchito obochoy",
+    "ar": "مجمع الإهلاك"
+  },
+  "and may access their payslips.": {
+    "bn": "এবং তার বেতনপত্র দেখতে পারবে।",
+    "banglish": "Ebong tar payslip dekhte parbe.",
+    "ar": "ويمكنه الوصول إلى قسائم راتبه."
+  },
+  "assets": {
+    "bn": "সম্পদ",
+    "banglish": "Sompod",
+    "ar": "الأصول"
+  },
+  "at": {
+    "bn": "সময়",
+    "banglish": "Shomoy",
+    "ar": "في"
+  },
+  "carrying value": {
+    "bn": "বইমূল্য",
+    "banglish": "Carryingvalue",
+    "ar": "القيمة الدفترية"
+  },
+  "credit": {
+    "bn": "ক্রেডিট",
+    "banglish": "Credit",
+    "ar": "دائن"
+  },
+  "crm": {
+    "bn": "গ্রাহক সম্পর্ক",
+    "banglish": "Grahok shomporko",
+    "ar": "إدارة العملاء"
+  },
+  "decimal places": {
+    "bn": "দশমিক ঘর",
+    "banglish": "Decimal ghor",
+    "ar": "منازل عشرية"
+  },
+  "ecommerce": {
+    "bn": "ই-কমার্স",
+    "banglish": "E-commerce",
+    "ar": "التجارة الإلكترونية"
+  },
+  "gain": {
+    "bn": "লাভ",
+    "banglish": "Labh",
+    "ar": "ربح"
+  },
+  "hr": {
+    "bn": "মানবসম্পদ",
+    "banglish": "Manobshompod",
+    "ar": "الموارد البشرية"
+  },
+  "loss": {
+    "bn": "ক্ষতি",
+    "banglish": "Khoti",
+    "ar": "خسارة"
+  },
+  "months": {
+    "bn": "মাস",
+    "banglish": "Mash",
+    "ar": "أشهر"
+  },
+  "on": {
+    "bn": "তারিখে",
+    "banglish": "Tarikhe",
+    "ar": "بتاريخ"
+  },
+  "payroll": {
+    "bn": "বেতন",
+    "banglish": "Payroll",
+    "ar": "الرواتب"
+  },
+  "policies": {
+    "bn": "নীতিসমূহ",
+    "banglish": "Niti-shomuho",
+    "ar": "السياسات"
+  },
+  "runs": {
+    "bn": "কার্যক্রমসমূহ",
+    "banglish": "Run-shomuho",
+    "ar": "الدورات"
+  },
+  "through": {
+    "bn": "পর্যন্ত",
+    "banglish": "Porjonto",
+    "ar": "حتى"
+  },
+  "to": {
+    "bn": "প্রতি",
+    "banglish": "Proti",
+    "ar": "إلى"
+  },
+  "voucher": {
+    "bn": "ভাউচার",
+    "banglish": "Voucher",
+    "ar": "سند"
+  }
+}

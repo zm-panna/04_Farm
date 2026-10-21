@@ -1,0 +1,38 @@
+  EnterpriseERP.Domain -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Domain/bin/Release/net10.0/EnterpriseERP.Domain.dll
+  EnterpriseERP.Shared -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Shared/bin/Release/net10.0/EnterpriseERP.Shared.dll
+  EnterpriseERP.Application -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Application/bin/Release/net10.0/EnterpriseERP.Application.dll
+  EnterpriseERP.AI -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.AI/bin/Release/net10.0/EnterpriseERP.AI.dll
+  EnterpriseERP.Automation -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Automation/bin/Release/net10.0/EnterpriseERP.Automation.dll
+  EnterpriseERP.Infrastructure -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Infrastructure/bin/Release/net10.0/EnterpriseERP.Infrastructure.dll
+  EnterpriseERP.Reporting -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Reporting/bin/Release/net10.0/EnterpriseERP.Reporting.dll
+  EnterpriseERP.Modules.Administration -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Administration/bin/Release/net10.0/EnterpriseERP.Modules.Administration.dll
+  EnterpriseERP.Modules.Inventory -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Inventory/bin/Release/net10.0/EnterpriseERP.Modules.Inventory.dll
+  EnterpriseERP.Modules.Purchase -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Purchase/bin/Release/net10.0/EnterpriseERP.Modules.Purchase.dll
+  EnterpriseERP.Modules.Sales -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Sales/bin/Release/net10.0/EnterpriseERP.Modules.Sales.dll
+  EnterpriseERP.Modules.Accounts -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Accounts/bin/Release/net10.0/EnterpriseERP.Modules.Accounts.dll
+  EnterpriseERP.Modules.HR -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.HR/bin/Release/net10.0/EnterpriseERP.Modules.HR.dll
+  EnterpriseERP.Modules.Payroll -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Payroll/bin/Release/net10.0/EnterpriseERP.Modules.Payroll.dll
+  EnterpriseERP.Modules.CRM -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.CRM/bin/Release/net10.0/EnterpriseERP.Modules.CRM.dll
+  EnterpriseERP.Modules.CustomerCare -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.CustomerCare/bin/Release/net10.0/EnterpriseERP.Modules.CustomerCare.dll
+  EnterpriseERP.Modules.Store -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Store/bin/Release/net10.0/EnterpriseERP.Modules.Store.dll
+  EnterpriseERP.Modules.LC -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.LC/bin/Release/net10.0/EnterpriseERP.Modules.LC.dll
+  EnterpriseERP.Modules.ImportExport -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.ImportExport/bin/Release/net10.0/EnterpriseERP.Modules.ImportExport.dll
+  EnterpriseERP.Modules.FixedAsset -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.FixedAsset/bin/Release/net10.0/EnterpriseERP.Modules.FixedAsset.dll
+  EnterpriseERP.Modules.Hotel -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Hotel/bin/Release/net10.0/EnterpriseERP.Modules.Hotel.dll
+  EnterpriseERP.Modules.Ecommerce -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Ecommerce/bin/Release/net10.0/EnterpriseERP.Modules.Ecommerce.dll
+  EnterpriseERP.Modules.Reporting -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Reporting/bin/Release/net10.0/EnterpriseERP.Modules.Reporting.dll
+  EnterpriseERP.Modules.Livestock -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Livestock/bin/Release/net10.0/EnterpriseERP.Modules.Livestock.dll
+  EnterpriseERP.Modules.Dairy -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Dairy/bin/Release/net10.0/EnterpriseERP.Modules.Dairy.dll
+  EnterpriseERP.Modules.Fattening -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Fattening/bin/Release/net10.0/EnterpriseERP.Modules.Fattening.dll
+  EnterpriseERP.Modules.AnimalHealth -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.AnimalHealth/bin/Release/net10.0/EnterpriseERP.Modules.AnimalHealth.dll
+  EnterpriseERP.Modules.FeedManagement -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.FeedManagement/bin/Release/net10.0/EnterpriseERP.Modules.FeedManagement.dll
+  EnterpriseERP.Modules.Expenses -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Expenses/bin/Release/net10.0/EnterpriseERP.Modules.Expenses.dll
+  EnterpriseERP.Modules.Subscription -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Subscription/bin/Release/net10.0/EnterpriseERP.Modules.Subscription.dll
+  EnterpriseERP.Web -> /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Web/bin/Release/net10.0/EnterpriseERP.Web.dll
+  EnterpriseERP.UnitTests -> /workspace/scratch/85a436f01071/farm_enterprise_revision/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:28.44

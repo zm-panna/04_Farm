@@ -1,0 +1,1873 @@
+{
+  "reviewedAtUtc": "2026-10-19T05:11:34.882581+00:00",
+  "scope": "Bounded source review of all Razor views in CRM, Ecommerce, FixedAssets, HRPayroll, BusinessPolicy and AIManager, associated fixed AI templates, translation hooks and current dictionary coverage.",
+  "limitations": [
+    "No build or browser/native-language acceptance was performed during this source review.",
+    "Marker/dictionary presence is not linguistic correctness, layout acceptance, accessibility acceptance or complete server-validation localization.",
+    "Direct exception-literal inventory is bounded; framework-generated and helper-constructed validation messages are described as unresolved surfaces rather than claimed exhaustive.",
+    "Files may be updated by their owners after this timestamp; SHA-256 snapshots identify the reviewed source."
+  ],
+  "reviewedFiles": [
+    {
+      "path": "EnterpriseERP.Web/Views/AIManager/Index.cshtml",
+      "sha256": "77308ddac19c431f2cc189cbce3e038d4901818c5c41861ceade34be4a52d6ad"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/BusinessPolicy/Index.cshtml",
+      "sha256": "698fa8eaab728c4246241c06ee5f490ca70837556651d44fca77e7d4a4c6eab6"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Activity.cshtml",
+      "sha256": "a2c52dccc3e3c0395920a0a1ebdf10239d609c4b9aa4aedd71738392be3b3def"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/ActivityEdit.cshtml",
+      "sha256": "2da71a37c063ebd7c52ba661412c11280ad2a2d4f503f3d55015603ed569596c"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Index.cshtml",
+      "sha256": "034c72283e2f6413ab3df3a154bfa82fb097a014b011ef60994ef42af8c489bd"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Lead.cshtml",
+      "sha256": "f2aac4a70433ffcf790c934fe4f38132249555d5303f0c7bafd2a07f85927f1e"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/LeadEdit.cshtml",
+      "sha256": "79d91c63e97bc2fb619d471e2565c4947c958423d814737296b0c4d2d408c3cf"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Opportunity.cshtml",
+      "sha256": "f2ea94d31e261e0af16f50266d5c13e155cacb489f797412293a4f29884ce587"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/OpportunityEdit.cshtml",
+      "sha256": "18fd0d15ea814288da4ec18dbb6bffffb64f18874e13a5e72544b829bc41821e"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Quote.cshtml",
+      "sha256": "924264222cc63b7c7d2ea6170c7b3f50f24a5573208fa972403f1c73680f12c9"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/QuoteEdit.cshtml",
+      "sha256": "74430a7a7ed34b1e71c8dd9e45b942a65842338fb3b82820dc03ecd7579ef6f0"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/SalesReady.cshtml",
+      "sha256": "b4d7dbe3fd4bf9090ddca954ba4d6698611add7b3dc152c08cc4df26b983faae"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/_QuoteLines.cshtml",
+      "sha256": "1e25b16f4d6e8f3065e903382256cffb5993274d54c1bb822dbe9fc8e03e8a2d"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Cart.cshtml",
+      "sha256": "2edd1588c2c3612f1959fb29ed18a9c6eab161389ecd012cb55819c8e1ed8431"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Index.cshtml",
+      "sha256": "c38ab758c5137a2c87b1fb77fb93baf63ae8540f458b4311253548ed004cd0bd"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Manage.cshtml",
+      "sha256": "3cef1dd1a46d771ea2339c5b1c68b4d516a24b4b076e54a1b84d527ed911b646"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Order.cshtml",
+      "sha256": "ff989cbbf779f012ebc1a6e0c5ca361ad1b269ffe9f206cab1cabd71dc96167e"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Orders.cshtml",
+      "sha256": "78283325282486a03d5aa55ddabdbd525707e30034a98df192a190a593507dec"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Unavailable.cshtml",
+      "sha256": "1a1563eecc1999ca11288faa10952041561fdc8daad4e975495e7da661172dce"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/ActionError.cshtml",
+      "sha256": "43b9eccb2d8a4d2991549a9faefe8216cc4ab82c656d3eb20b707458de4d7500"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Create.cshtml",
+      "sha256": "81e7fe28ce4d62949dd06a48ffc8816b669b0f27f7029ecaf5b6b4431e42ffa1"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/CreateDisposal.cshtml",
+      "sha256": "ef8483c9aa3ef7e2ef506438db408554a45c58c8257e5cc5494247bc49f1f79f"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/CreateRun.cshtml",
+      "sha256": "11c9289714e20f1bf91c3d6e0ec5b1a3b10dfb7efa737a050eb3fcdb008dffee"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Custody.cshtml",
+      "sha256": "49686c0e3390d35d77c1a611f62c73149549c21edc7842e8f1c56c5b7c28765a"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Details.cshtml",
+      "sha256": "d235f1b0d760880cb46139f459bb6c268a0d5aaada8b894379510490e19f16f9"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Disposal.cshtml",
+      "sha256": "7691875fe25d8e4185e7fb3e0893e2830d69707c4bcd639f1a3af5161f288473"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Edit.cshtml",
+      "sha256": "8136b5cb1ea77f0b385e31fa0761f9bc742a05617a91efaa549dde0868148d22"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Index.cshtml",
+      "sha256": "2e211371f1572d563b4a88ebc9c4a90453ee9b9f61d9b215593149c185c367ed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Run.cshtml",
+      "sha256": "23e5d777156c4e81d3afb4aa963e8cabb9470b12e862e85861584f4de80bf6aa"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Runs.cshtml",
+      "sha256": "bfca43a93853fca8d57da6897c6013c57652940a8c5646dbcaa79be289d50b52"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/_Journal.cshtml",
+      "sha256": "9a86c953855a1580502109c17bf7193c485547e2196007566ac3cc1309a07f7d"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/_WorkflowActions.cshtml",
+      "sha256": "e6d42ac7721fd0bf10a7b6af7df6ff94eb2b4633ef468fc7fe3d6aec0b468076"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Attendance.cshtml",
+      "sha256": "6199d4e4457e1e7c61e9633e3d7ffb30402d69a0ce560d5133f607c9c6949610"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Calculate.cshtml",
+      "sha256": "5cca42493fb0e44002dd10e41ae6de30c32428af277a236e74542159f6c74810"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Details.cshtml",
+      "sha256": "7ed57344d6d3b712ec4438dd7c6288c29495684f14ca40a14fa2f5dd3a70dd4f"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Identity.cshtml",
+      "sha256": "7db68a18ef0e6e397d02da6520394d8ec762010f0c8d78211a47f6a026825be5"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Index.cshtml",
+      "sha256": "9be721047de7c97bbaf7078c78c604808c81ab5a694a9e4cf94f162cd52ea507"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Leave.cshtml",
+      "sha256": "322684d52dec16be5888deb088a81e87565617e592cf93da2d9428da502485e0"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Me.cshtml",
+      "sha256": "5070754b5c68f499a89dd9365133d2bf05c7b8c3bb2657248a58d6f3f785adc7"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Payslip.cshtml",
+      "sha256": "b239998d4eb6fe900824942481ec3ccdd9f210d851fa29e470c2b9f8c3bffb92"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Policies.cshtml",
+      "sha256": "b163cd4cfe8486bae11eb6b145396300135fd9056e1467926faad2b78415b6dc"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Rates.cshtml",
+      "sha256": "b6369cd8faf94994af1f414c81ee23c41adbb653e031ccae39a348931aa3c2f8"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Register.cshtml",
+      "sha256": "a1a67fd8b6bcef2b0e13bd1d31c0089cdfc540e2f811bd4170919437f75def51"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Staff.cshtml",
+      "sha256": "bacb5adf5d86605caa29c794911f5f60656847bbdcec329fca765428aa556438"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/_Nav.cshtml",
+      "sha256": "386fdaf52472f37349f8672e3d9e56572d77e3faa3f80a8d58ea1f56e7c989eb"
+    }
+  ],
+  "unsafeTranslationWrappers": {
+    "found": [],
+    "conclusion": "No identified translation wrapper encloses raw user-entered names, contact details, descriptions, notes, references, policy evidence, reasons or custodian text in the reviewed views. Controlled status/method/title/AI checklist keys are app-owned. Typed Ecommerce tax option template preserves raw code/version/rate.",
+    "invariantOptionIssues": []
+  },
+  "fixedDuringReview": [
+    {
+      "module": "CRM",
+      "changes": [
+        "Consent/status/stage/type controlled markers",
+        "Acceptance disclosure constant marker",
+        "Navigation aria labels",
+        "Separate quote-line label spans retaining row numbers"
+      ],
+      "keys": "evidence/crm-ui-keys.txt"
+    },
+    {
+      "module": "HRPayroll",
+      "changes": [
+        "Static labels separated from staff names, policy names, references and review notes",
+        "Formula, approval and accrued-not-paid explanatory spans",
+        "Status/pay basis/proration/boolean controlled markers",
+        "Explicit invariant option values for translated status filters",
+        "Pagination, placeholders and navigation aria label"
+      ],
+      "addedKeys": "evidence/hr-payroll-ui-review-added-keys.json"
+    },
+    {
+      "module": "FixedAssets",
+      "changes": [
+        "Owner added static policy/posting/empty-state/review labels",
+        "Mixed actor/date/account labels separated from raw values",
+        "Controlled status and method display",
+        "Pagination and accessibility markers"
+      ],
+      "keys": "docs/FIXED_ASSET_UI_KEYS.txt"
+    },
+    {
+      "module": "Ecommerce",
+      "changes": [
+        "Owner added quantity and page aria markers",
+        "Controlled Published/Unpublished and sanitized customer event display",
+        "Typed tax-policy label template preserving policy code/version/rate"
+      ],
+      "keys": "evidence/ecommerce-ui-keys.txt"
+    },
+    {
+      "module": "BusinessPolicy",
+      "changes": [
+        "Lead added controlled status/treatment/boolean and pagination/date labels. Raw review basis and names remain untouched."
+      ]
+    },
+    {
+      "module": "AIManager",
+      "changes": [
+        "Lead replaced composed full Draft.Text display with controlled fact label, count, checklist, mode and policy-version fragments. Numbers, branch ID and currency remain raw."
+      ],
+      "dynamicDraftClassification": "Checklist and mode are fixed application-owned strings, not customer-authored model output. Policy version/counts are variable data and are not translation keys."
+    }
+  ],
+  "remainingNonUserStringsOrSurfaces": [
+    {
+      "id": "crm-policy-fallback",
+      "module": "CRM",
+      "kind": "dynamic_system_feedback",
+      "location": {
+        "path": "EnterpriseERP.Web/Views/CRM/Index.cshtml",
+        "line": 5
+      },
+      "source": {
+        "path": "EnterpriseERP.Web/Controllers/CRMController.cs",
+        "line": 45
+      },
+      "exactStaticFragment": " Due-date highlighting temporarily uses UTC; configure Business policies before quoting.",
+      "composition": "Company policy exception message followed by the fixed fallback fragment.",
+      "requiredApproach": "Structured message key and arguments; do not blanket-translate arbitrary exception or record content."
+    },
+    {
+      "id": "ecommerce-unavailable",
+      "module": "Ecommerce",
+      "kind": "dynamic_system_feedback",
+      "location": {
+        "path": "EnterpriseERP.Web/Views/Ecommerce/Unavailable.cshtml",
+        "line": 2
+      },
+      "expression": "ViewData[\"Notice\"] = exception.Message",
+      "requiredApproach": "Localize allowlisted validation/availability templates and keep interpolated record values unchanged."
+    },
+    {
+      "id": "asset-action-error",
+      "module": "FixedAssets",
+      "kind": "dynamic_system_feedback",
+      "location": {
+        "path": "EnterpriseERP.Web/Views/FixedAssets/ActionError.cshtml",
+        "line": 3
+      },
+      "expression": "Model.Message",
+      "requiredApproach": "Localize allowlisted service-feedback templates rather than arbitrary message content."
+    },
+    {
+      "id": "hr-validation-error",
+      "module": "HRPayroll",
+      "kind": "dynamic_system_feedback",
+      "location": {
+        "path": "EnterpriseERP.Web/Views/HRPayroll/_Nav.cshtml",
+        "line": 4
+      },
+      "expression": "TempData[\"HRPayrollError\"]",
+      "requiredApproach": "Localize allowlisted server-feedback templates with separate raw arguments."
+    },
+    {
+      "id": "mvc-validation",
+      "module": "All modules",
+      "kind": "dynamic_framework_and_application_feedback",
+      "locations": [
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/Activity.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/ActivityEdit.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/Lead.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/LeadEdit.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/Opportunity.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/OpportunityEdit.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/Quote.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/CRM/QuoteEdit.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/FixedAssets/Create.cshtml",
+          "line": 4
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/FixedAssets/CreateDisposal.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/FixedAssets/CreateRun.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/FixedAssets/Custody.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/FixedAssets/Edit.cshtml",
+          "line": 3
+        },
+        {
+          "path": "EnterpriseERP.Web/Views/HRPayroll/_Nav.cshtml",
+          "line": 5
+        }
+      ],
+      "expression": "MVC ModelState and validation messages",
+      "requiredApproach": "Server-side message localization or a structured presentation model; preserve field values and submitted invariant enum values."
+    },
+    {
+      "id": "policy-version-notation",
+      "module": "BusinessPolicy",
+      "kind": "static_technical_notation",
+      "location": {
+        "path": "EnterpriseERP.Web/Views/BusinessPolicy/Index.cshtml",
+        "line": 14
+      },
+      "exactStaticFragment": "v",
+      "disposition": "Version abbreviation remains untranslated; raw policy code/version preserved. Not considered missing business prose."
+    }
+  ],
+  "dictionaryCoverageAtSnapshot": {
+    "languages": [
+      "bn",
+      "banglish",
+      "ar"
+    ],
+    "checkedUniqueLiteralAndAllowlistedKeys": 698,
+    "missingKeyCount": 0,
+    "missingKeys": [],
+    "note": "English fallback remains visible where a key/language is missing. Lead is integrating current translation delta; rerun after merge."
+  },
+  "unlocalizedDirectServiceFeedbackTemplates": [
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 89,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Review the displayed information and explicitly confirm this action."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 91,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This record changed or the action was already completed. Reload it and review the latest version."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 93,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The opportunity is closed. No further pipeline or quote actions are available."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 95,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Restore this archived lead before adding or changing work."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 112,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Lead is not available in the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 114,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Opportunity is not available in the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 116,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Quote is not available in the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 123,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Enter a valid email address without a display name."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 125,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select a valid marketing-consent state."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 127,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Granted marketing consent requires a contact email or phone and recorded evidence."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 129,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A saved lead reference cannot be changed."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 130,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This lead reference already exists in the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 133,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The contact identity changed. Set consent to Unknown, or record fresh reviewed consent evidence for this contact."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 156,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Close this lead's open opportunities and activities before archiving it."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 159,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only archived leads can be restored."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 171,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A saved opportunity's lead and reference cannot change."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 173,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This opportunity reference already exists."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 183,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Invalid stage transition. Won is available only through reviewed quote acceptance."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 196,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select a valid activity type."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 199,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Activity is not available in the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 201,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Closed activities cannot be changed."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 201,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A saved activity's lead and reference cannot change."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 205,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The activity opportunity must belong to this lead."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 210,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This activity reference already exists."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 217,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose Done or Cancelled."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 218,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Activity is not available in the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 219,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This activity is already closed."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 227,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Quote validity cannot end before the quote date."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 231,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only a draft quote can be edited."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 231,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A saved quote's opportunity and reference cannot change."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 232,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This quote reference already exists."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 233,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A quote requires 1–50 nonempty lines."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 239,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Unit prices and discounts must use at most {policy.CurrencyMinorUnits} decimal places for {policy.CurrencyCode}."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 240,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Every quote product must belong to the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 241,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Every quote product requires a reviewed stock unit in Product Master."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 244,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Line amount exceeds the supported range."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 245,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A line discount must be less than its gross amount."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 269,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only a draft quote can be reviewed."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 275,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only a reviewed quote can return to draft."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 277,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This quote is already final."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 278,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select Review, ReturnToDraft or Cancel."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 287,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The quote is future-dated or expired in the company's timezone. Return it to draft and review its dates."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 290,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The company's approved currency policy changed. Return the quote to draft and review its currency and amounts."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 294,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The quote snapshot failed its amount integrity check."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 301,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only a reviewed, unaccepted quote may be accepted."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 304,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The quote's lead and opportunity do not match."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 306,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This reference, quote or opportunity has already been converted. Open the existing sales-ready record."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 308,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This lead already has a customer. Explicitly select its linked customer to avoid creating a duplicate."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 311,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose either an existing customer or a new customer code."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 312,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select an active customer in the active branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "line": 317,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This party code already exists. Review and select the existing customer instead."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 45,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Release the owning reservation atomically before consuming stock."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 46,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Insufficient unreserved stock."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 57,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Invalid request token. Reload this page."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 60,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Line total exceeds the supported range."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 71,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Ask authorized staff to link your verified account to your customer record in this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 74,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "An active customer record and verified account are required."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 115,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm the verified identity belongs to this customer before linking."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 121,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose an existing verified identity already authorized for this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 123,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose an active customer in this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 125,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "That account or customer is already linked. Identity links cannot be reassigned."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 138,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Price has more precision than the configured currency permits."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 139,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose stock in this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 141,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Product changed, or stock identity was changed. Reload the catalog."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 161,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Your cart changed. Reload before editing."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 167,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A cart supports at most 50 products."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 169,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This product is no longer published in the selected branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 171,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Product currency needs staff review."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 185,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm the displayed total and branch collection terms before placing the order."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 192,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The cart is empty."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 193,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Cart quote changed or expired. Refresh quantities to review current prices and tax."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 194,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose between 1 and 50 products."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 200,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A cart product is no longer published. Remove it before checking out."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 203,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A product price, tax or company policy changed. Refresh the cart before confirming."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 207,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The cart quote no longer matches approved server pricing."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 235,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Order not found."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 249,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm review of the customer, configured tax and collection arrangements."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 263,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Order not found."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 265,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The order changed or was fulfilled. Reload it; fulfilled stock requires a return."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 267,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Reservation integrity check failed."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 271,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Reserved stock balance requires reconciliation."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 280,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm goods are released for branch collection and the receivable will be posted; payment remains unverified."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 287,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The customer account is no longer active."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 292,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Reservation integrity check failed."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 311,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm the returned goods were physically received and are suitable to return to stock."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 314,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only fulfilled orders can be returned."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 316,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Return currency does not match the approved ledger currency."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 317,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Order line not found."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 319,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Return token was already used for a different request."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 322,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Return exceeds the remaining fulfilled quantity."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 326,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Return this remaining low-value quantity together to preserve exact money allocation."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 341,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The order changed or is not in the required state. Reload it before acting."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 346,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Company jurisdiction or currency changed. This order requires an approved correction before posting."
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "line": 351,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Tax approval no longer matches the accepted order snapshot."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 87,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Asset not found in the active company and branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 101,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "{label} must use the approved currency's {minorUnits} decimal places."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 109,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Depreciation must be posted one completed month at a time, without skipped or repeated periods."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 118,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Recorded date must be from 2000 through today in the approved company time zone."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 120,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Posting date is in a closed accounting period."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 125,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm that you reviewed the source evidence, policy, amounts and journal before approval."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 126,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A different authorized user must approve this record."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 135,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Residual value cannot exceed acquisition cost."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 136,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select cash/bank recorded or other payable recorded."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 137,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select an explicit depreciation method."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 139,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Depreciation start must be on or after acquisition and before year 9999."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 141,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Monthly straight line requires 1–1200 useful-life months and an explicit first-of-month start. Partial-month depreciation is not inferred."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 143,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Non-depreciable assets require zero life months and residual value equal to cost, with a documented reason."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 154,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Asset code or source reference already exists. Cancelled references remain reserved to preserve history."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 160,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only a draft acquisition can be approved."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 168,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Acquisition requires a different user's completed approval."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 171,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Company policy changed. Cancel this unposted acquisition and prepare it under the current approved policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 184,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only an unposted acquisition can be cancelled."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 191,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Cancelled acquisition records are immutable."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 199,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only an active asset can change custody."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 201,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Custody date must be between acquisition and today."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 203,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Custody cannot be backdated before the latest custody event."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 205,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose a changed custodian or location."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 214,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Earlier depreciation periods are missing. Post the earliest due month first."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 215,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This run exceeds the supported 5,000-asset limit. Contact the administrator before posting."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 221,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select the last day of a completed month."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 224,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "An unposted run already exists for this branch and month. Review or cancel that run before retrying."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 226,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "No depreciable active assets are due in this month. Zero-cost, non-depreciable, disposed and residual-floor assets are excluded."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 231,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Asset and approved company currency settings differ; a separately reviewed migration is required."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 241,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Depreciation run not found in this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 245,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Company policy changed. Cancel and recreate this run."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 247,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The run's eligible assets changed. Cancel and recreate the run for review."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 253,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "An asset changed after this preview. Cancel and recreate the run; no partial posting is allowed."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 260,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only a draft depreciation run can be approved."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 267,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Depreciation requires a different user's approval before posting."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 281,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only an unposted run can be cancelled."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 287,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Disposal cannot predate acquisition or already-posted depreciation."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 289,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Post depreciation through the month before disposal first. Disposal does not invent partial-month depreciation."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 294,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only an active asset can be disposed."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 296,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select cash/bank or other receivable recorded."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 298,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Company and asset currency policies differ."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 301,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "An uncancelled disposal already exists for this asset."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 311,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Disposal not found in this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 316,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Asset financial values changed after this preview. Cancel and recreate this disposal."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 318,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Company policy changed. Cancel and recreate the disposal."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 324,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only a draft disposal can be approved."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 331,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Disposal requires a different user's approval before posting."
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "line": 347,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only an unposted disposal can be cancelled."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 118,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Staff member not found in the selected branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 122,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This date overlaps approved or posted payroll. Its source attendance and leave are locked."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 125,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Use a valid date range of at most 367 days, from year 2000 onward."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 127,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Dates must be inside the staff member's employment dates."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 140,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Active staff require no end date; deactivation requires a valid end date on or before today."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 142,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This staff code already exists."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 152,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Employment dates cannot exclude recorded attendance or pending/approved leave."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 162,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose an explicit staff Daily or Monthly pay basis and a positive contractual amount for that basis."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 164,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose an explicit compensation effective date."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 165,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Compensation must take effect on a month boundary or the hire date, on or before the current business date. Mid-period rate changes require a separately reviewed extension."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 167,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Identical compensation terms already exist for this effective date; no duplicate version was created."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 168,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "New compensation versions cannot predate the latest configured version; use a separately reviewed historical correction."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 169,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Compensation cannot rewrite an approved or posted payroll period. Choose a later effective month."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 182,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm that this exact verified account belongs to this staff member; it grants access to their payslips."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 183,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "An identity is already linked. Reassignment requires a separately reviewed account-recovery procedure."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 184,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select an unlinked, email-verified existing account with company and branch access."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 196,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Use a recorded date and paid days of 0, 0.5 or 1; record contracted paid rest days as 1 and unpaid days as 0."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 198,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Approved leave already covers this day."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 200,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Attendance already exists; edit it using its current version."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 201,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Attendance not found."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 214,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A pending or approved leave already overlaps these dates."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 221,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Leave request not found."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 222,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Leave has already been reviewed."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 222,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Another authorized person must review this leave request."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 223,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Attendance overlaps this leave. Reject the request or resolve attendance before approval."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 234,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Choose a four-digit {category}xxx account for the selected expense/liability mapping."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 238,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Enter the approved three-letter currency and 0–3 decimal places."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 239,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose an explicit Daily, Monthly or Mixed payroll policy basis."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 243,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose the actual calendar-day or explicitly fixed-unit monthly denominator."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 246,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Actual-calendar proration must have zero fixed units; its denominator comes from the payroll month."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 249,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Use distinct employee-payable, deduction-payable and employer-contribution-payable accounts."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 250,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The entire payroll policy period, currency and decimal places must match one approved company business policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 254,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm review of currency, date range, daily/monthly basis, monthly denominator and cap, jurisdiction, rates and account mappings."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 255,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Policy not found."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 255,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Policy has already been reviewed."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 255,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A different authorized user must review this policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 260,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Choose an independently reviewed payroll policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 260,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The reviewed policy must cover the entire payroll month."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 261,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The reviewed payroll formula is invalid; create and independently review a corrected policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 262,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Payroll policy no longer matches the company policy effective for this month."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 264,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A payroll run requires 1–5000 staff in this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 269,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Staff {s.Code} has no reviewed compensation version effective for this month."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 270,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Staff {s.Code} has an unresolved mid-period compensation change. Review the dates; no proration rule is inferred."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 275,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Review pending leave in this month before calculating payroll."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 284,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Staff {s.Code} pay basis does not match this policy. Explicitly review their contract basis or select an independently reviewed Mixed policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 286,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Set and review {basis} pay rates for staff {s.Code} before calculation."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 290,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Staff {s.Code}: {d:yyyy-MM-dd} needs exactly one attendance entry or approved leave. Record each paid rest day as one paid day and each unpaid day as zero, according to the reviewed contract."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 292,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "Staff {s.Code} has overtime hours but no positive reviewed overtime rate."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 300,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Calculated payroll exceeds supported amounts."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 306,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select the first day of a payroll month."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 306,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Calculate only a fully ended payroll month."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 307,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A payroll run already exists for this month or reference; recalculate its draft instead."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 309,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Payroll run not found in this branch."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 313,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only draft payroll can be recalculated."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 317,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Confirm that each payslip, attendance, leave and policy was reviewed."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 318,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only draft payroll can be approved."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 318,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A different authorized user must approve payroll."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 318,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Payroll source data changed. Recalculate the draft and review the new amounts."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 322,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Use a posting date on or before today."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 323,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Only approved, unposted payroll can be posted once."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 323,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Posting date must be on or after the payroll period end."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 324,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Posting currency differs from the approved payroll snapshot."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 336,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "No verified staff account is linked in this branch. Ask an authorized HR identity administrator."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 344,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Payslip not found."
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "line": 344,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Payslips become available after accrual posting."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 17,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A reviewed company jurisdiction, currency and timezone policy is required for this business date."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 18,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The reviewed company business policy has expired for this date."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 21,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The company accounting currency has not been consistently reviewed and locked."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 30,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A reviewed company business policy is required for the current local business date."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 31,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The reviewed company business policy has expired."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 34,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The company accounting currency has not been consistently reviewed and locked."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 51,
+      "kind": "parameterized_server_feedback",
+      "textOrTemplate": "The reviewed {policy.CurrencyCode} currency permits {policy.CurrencyMinorUnits} decimal places for document totals and payments. Adjust the new amount or obtain a reviewed correction for historical fractional balances; no automatic revaluation is performed."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 56,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Currency minor units must be from zero through three."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 62,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Amount has more decimal places than the reviewed company currency permits."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 70,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Use two-letter country and three-letter currency codes."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 71,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Specify the US state or tax jurisdiction; country alone is insufficient."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 72,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Currency minor units must be explicitly selected from zero through three."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 74,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Enter an installed IANA or Windows timezone identifier."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 81,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Company accounting currency and precision are locked. A different currency requires a separately reviewed migration or company."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 82,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Explicitly confirm that existing ledger, stock values and document amounts use this currency. No conversion will be performed."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 84,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A replacement policy must start after the existing version and cannot rewrite a past business date."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 100,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Policy unavailable."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 102,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This policy was already reviewed."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 103,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A different reviewer must approve or reject this policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 106,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Existing amounts require an explicit currency review before this policy can be approved."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 109,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The company accounting currency is already locked to another denomination."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 111,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A newer approved policy supersedes this proposal; create a new prospective version."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 123,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Specify a valid policy period from 2000 through 2100."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 125,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Invalid version token. Refresh the page."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 125,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "This record changed. Refresh before reviewing it."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 134,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Select an explicitly reviewed tax policy for this company."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 135,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Tax policy is outside its effective period."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 136,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A newer tax policy applies to this date; select its reviewed version."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 138,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "The tax policy does not match the effective company jurisdiction and currency."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 154,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Standard tax needs a positive explicit rate; zero needs an explicit exemption or out-of-scope basis."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 156,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Use a reviewed four-digit liability account other than trade payable 2100."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 161,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Replacement tax policies must be prospective and start after the previous version."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 177,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Tax policy unavailable."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 179,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "An unreviewed tax policy needs a different reviewer."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 183,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Company policy changed; prepare a new matching tax policy."
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "line": 185,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "A newer tax policy supersedes this proposal; create a prospective version."
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseAiService.cs",
+      "line": 21,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Unknown enterprise AI fact module."
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseAiService.cs",
+      "line": 61,
+      "kind": "static_server_feedback",
+      "textOrTemplate": "Unknown review draft."
+    }
+  ],
+  "intentionallyPreservedRawData": [
+    "Names and codes",
+    "Contact details",
+    "References and identifiers",
+    "Policy review basis and jurisdiction evidence",
+    "Free-text notes/reasons/terms",
+    "Stock units and item data",
+    "ISO currency/country/region/timezone identifiers",
+    "Dates, numeric rates, versions, counts and amounts",
+    "UTC technical abbreviation"
+  ]
+}

@@ -1,0 +1,181 @@
+1000 Cash / bank
+1000 cash/bank
+1500 Other receivable
+1600 Asset cost
+1690 Accumulated depreciation
+2500 other payable
+4800 Disposal gain
+6801 Disposal loss
+A different user from the preparer must review the source evidence, policy, amounts and proposed journal.
+Account
+Accumulated after
+Accumulated before
+Accumulated depreciation
+Acquisition and approved estimates
+Acquisition carrying cost in company currency
+Acquisition date
+Acquisition journal: debit asset cost 1600; credit the selected funding account. No payment is made.
+All statuses
+Amounts follow the approved company currency. Drafts and approved acquisitions are not posted book balances. Finance actions record journals only; they never transfer money.
+Approve reviewed record
+Approved at
+Approved by
+Asset
+Asset details
+Asset register
+Asset register pages
+Book value
+Book value after
+Buyer / disposal recipient
+Buyer / recipient
+Calculate and save preview
+Cancel this unposted record
+Cancel unposted draft
+Cancel without saving
+Cancellation reason
+Cancelled by
+Carrying value at disposal
+Cash / bank received (1000)
+Cash / bank recorded (1000)
+Category
+Charge
+Choose explicitly
+Company business policy version
+Company policy version
+Completed month-end date
+Cost
+Credit
+Current carrying value
+Current custodian
+Current custody
+Custodian
+Custody
+Custody history
+Custody history starts when acquisition is posted.
+Debit
+Debit 1600 asset cost
+Depreciation run pages
+Depreciation runs
+Depreciation start date
+Disposal date
+Disposal history
+Disposal review
+Disposed on
+Edit descriptive metadata
+Edit fixed asset metadata
+Effective date
+Enter the accountant-reviewed book carrying cost, including only the acquisition costs and non-recoverable tax they approve. This workflow does not calculate recoverable VAT, sales tax or statutory capital allowances.
+Explicit book depreciation policy
+Fixed Asset register
+For non-depreciable assets, use life 0 and residual equal to cost. Currency precision is validated against the company's approved policy.
+From
+I reviewed the source evidence, policy, amounts and journal.
+Independent review
+Initial custody
+Journal: debit 6800 depreciation expense; credit 1690 accumulated depreciation. Zero-rounded runs advance the reviewed period without a fake zero-value journal.
+Life
+Location
+Location in this branch
+Method
+Monthly straight line
+Name
+New acquisition
+New custodian
+New fixed asset acquisition
+New location in this branch
+Next
+No disposal records.
+No matching assets. Create a reviewed acquisition to start the register.
+No matching depreciation runs.
+No posted depreciation.
+No statutory rate is supplied. A different authorized reviewer must approve these estimates before acquisition posting. Straight line uses completed calendar months with no inferred partial-month charge; choose the first day of the approved starting month on or after acquisition.
+Non-depreciable
+Non-depreciable, reviewed reason required
+Notes
+Only descriptive fields can change. Custody uses its own append-only history; approved cost and depreciation estimates are locked.
+Open current record and review again
+Other payable recorded (2500)
+Other receivable (1500)
+Page
+Pending
+Period
+Policy
+Policy rationale
+Policy rationale and source evidence
+Post any missing depreciation through the previous month first. Disposal does not calculate a partial-month charge. A different reviewer approves this preview before the asset is derecognized. No money is sent or collected.
+Post approved record
+Post approved recorded journal
+Posted by
+Posted depreciation
+Posted journal
+Posting is atomic and cannot be undone here. Current asset values, open accounting period and approved policy are checked again. This records accounting only; no money is transferred.
+Prepare disposal
+Prepare disposal for review
+Prepare monthly depreciation
+Prepare monthly run
+Prepared / approved by
+Prepared by
+Previous
+Proceeds
+Proposed acquisition journal
+Proposed journal
+Reason
+Reason / handover evidence
+Reason / recorded by
+Reason and supporting evidence
+Record custody change
+Record custody event
+Recorded funding
+Recorded proceeds in
+Recorded settlement
+Reference
+Register
+Remaining active-register book value is zero; historical cost and depreciation remain visible.
+Reset
+Residual
+Residual floor
+Residual value
+Return to asset / reload current record
+Review before retrying
+Review note
+Review run
+Reviewed acquisition, custody, depreciation and disposal in the active branch.
+Reviewed depreciation preview
+Run
+Run history
+Save acquisition draft for review
+Save disposal preview for review
+Save metadata
+Search
+Search code, name, serial or custodian
+Serial number
+Source and carrying cost
+Source reference
+Start
+Status
+Straight line, full monthly periods
+The cancellation and original source reference remain in the history. No accounting entry is posted.
+This changes custody within the active branch; it does not transfer the asset between company books.
+This period
+This saves a preview of eligible assets in the active branch. A different authorized user reviews it before posting. Complete earlier due months first. Disposed, non-depreciable, zero-cost and residual-floor assets are excluded.
+To
+Total
+Unique asset code
+Unique disposal reference
+Unique run reference
+Unique source / invoice reference
+Useful life in months (0 only for non-depreciable)
+View depreciation runs
+Zero-cost assets have no monetary journal. Financial source facts cannot be edited; cancel and recreate an unposted draft when needed.
+Zero-value lines are omitted from the posted journal. A zero-cost, zero-proceeds disposal creates no monetary journal.
+accumulated depreciation
+assets
+at
+carrying value
+credit
+decimal places
+gain
+loss
+months
+of
+runs

@@ -1,0 +1,16 @@
+CreationDate:    Tue Oct 20 15:49:08 2026 +06
+ModDate:         Tue Oct 20 15:49:08 2026 +06
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           1
+Encrypted:       no
+Page size:       595 x 842 pts (A4)
+Page rot:        0
+File size:       31864 bytes
+Optimized:       no
+PDF version:     1.7

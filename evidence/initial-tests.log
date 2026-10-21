@@ -1,0 +1,21 @@
+Test run for /workspace/scratch/85a436f01071/farm_enterprise_revision/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:01:14.04]     EnterpriseERP.UnitTests.DemoSqlExporterTests.FreshFixtureExportsActualHashesAndForeignKeyOrderedGuardedSqlWithoutSecrets [FAIL]
+  Failed EnterpriseERP.UnitTests.DemoSqlExporterTests.FreshFixtureExportsActualHashesAndForeignKeyOrderedGuardedSqlWithoutSecrets [1 s]
+  Error Message:
+   System.InvalidOperationException : Export requires the exact untouched V3 demo fixture. Extra, missing, or unsupported rows were found; no file was written.
+  Stack Trace:
+     at EnterpriseERP.Web.DemoSqlExporter.ValidatePristineFixture(List`1 tables) in /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Web/DemoSqlExporter.cs:line 147
+   at EnterpriseERP.Web.DemoSqlExporter.<>c__DisplayClass4_0.<<RunAsync>b__0>d.MoveNext() in /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Web/DemoSqlExporter.cs:line 64
+--- End of stack trace from previous location ---
+   at EnterpriseERP.Web.DemoSqlExporter.<>c__DisplayClass4_0.<<RunAsync>b__0>d.MoveNext() in /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Web/DemoSqlExporter.cs:line 66
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at EnterpriseERP.Web.DemoSqlExporter.RunAsync(IServiceProvider services, String outputPath, CancellationToken ct) in /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Web/DemoSqlExporter.cs:line 59
+   at EnterpriseERP.UnitTests.DemoSqlExporterTests.FreshFixtureExportsActualHashesAndForeignKeyOrderedGuardedSqlWithoutSecrets() in /workspace/scratch/85a436f01071/farm_enterprise_revision/Tests/EnterpriseERP.UnitTests/DemoSqlExporterTests.cs:line 43
+   at EnterpriseERP.UnitTests.DemoSqlExporterTests.FreshFixtureExportsActualHashesAndForeignKeyOrderedGuardedSqlWithoutSecrets() in /workspace/scratch/85a436f01071/farm_enterprise_revision/Tests/EnterpriseERP.UnitTests/DemoSqlExporterTests.cs:line 81
+--- End of stack trace from previous location ---
+Results File: /workspace/scratch/85a436f01071/farm_enterprise_revision/evidence/test-results/initial-tests.trx
+
+Failed!  - Failed:     1, Passed:   573, Skipped:     0, Total:   574, Duration: 1 m 15 s - EnterpriseERP.UnitTests.dll (net10.0)

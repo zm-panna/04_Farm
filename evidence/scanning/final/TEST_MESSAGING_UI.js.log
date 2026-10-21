@@ -1,0 +1,13 @@
+PASS all selectors exist in Razor and content is rendered as text
+PASS keyset pagination and folder changes reset safely
+PASS message detail uses fresh REST and explicit CSRF read acknowledgement
+PASS network failure preserves idempotency key for safe retry
+PASS double click cannot send twice while save is pending
+PASS late folder response cannot overwrite a newer selection
+PASS permission revocation clears content and stops all controls
+PASS recipient discovery starts only after two characters
+PASS SignalR hint and reconnect always perform authorized REST catch-up
+PASS page departure stops connection and ignores late results
+PASS sent state never claims transport delivery or recipient read
+PASS language change translates system labels without fetching or translating user content
+Messaging UI checks passed: 12

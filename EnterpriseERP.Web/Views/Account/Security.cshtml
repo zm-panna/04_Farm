@@ -1,0 +1,26 @@
+@model EnterpriseERP.Web.AccountSecurityState
+@{ ViewData["Title"] = "Account security"; }
+<h1 data-i18n="Account security">Account security</h1>
+@if(TempData["Error"] is string error){<p role="alert">@error</p>}
+<p><a href="/Account/ChangePassword" data-i18n="Change password">Change password</a> · <a href="/Account/RecoveryHelp" data-i18n="Recovery help">Recovery help</a></p>
+@if(!Model.Enabled){
+ <p data-i18n="Authenticator MFA is currently off. Setup requires your current password and a code from a TOTP authenticator app. Keep offline recovery codes after setup.">Authenticator MFA is currently off. Setup requires your current password and a code from a TOTP authenticator app. Keep offline recovery codes after setup.</p>
+ <form asp-action="BeginAuthenticator" method="post">@Html.AntiForgeryToken()
+  <label><span data-i18n="Current password">Current password</span> <input name="CurrentPassword" type="password" maxlength="1024" autocomplete="current-password" required /></label>
+  <button type="submit" data-i18n="Start authenticator setup">Start authenticator setup</button>
+ </form>
+}else{
+ <p><span data-i18n="Authenticator MFA is enabled.">Authenticator MFA is enabled.</span> <span data-i18n="Unused recovery codes remaining">Unused recovery codes remaining</span>: <bdi>@Model.RecoveryCodesRemaining</bdi></p>
+ <h2 data-i18n="Replace recovery codes">Replace recovery codes</h2><p data-i18n="This immediately invalidates all previous recovery codes. The new codes are displayed once.">This immediately invalidates all previous recovery codes. The new codes are displayed once.</p>
+ <form asp-action="RegenerateRecoveryCodes" method="post">@Html.AntiForgeryToken()
+  <label><span data-i18n="Current password">Current password</span> <input name="CurrentPassword" type="password" maxlength="1024" autocomplete="current-password" required /></label>
+  <label><span data-i18n="Authenticator code">Authenticator code</span> <input name="Code" inputmode="numeric" maxlength="32" autocomplete="one-time-code" required /></label>
+  <button type="submit" data-i18n="Generate new recovery codes">Generate new recovery codes</button>
+ </form>
+ <h2 data-i18n="Disable authenticator MFA">Disable authenticator MFA</h2><p data-i18n="This removes second-factor protection, invalidates recovery codes and signs you out. A valid current authenticator code is required.">This removes second-factor protection, invalidates recovery codes and signs you out. A valid current authenticator code is required.</p>
+ <form asp-action="DisableAuthenticator" method="post">@Html.AntiForgeryToken()
+  <label><span data-i18n="Current password">Current password</span> <input name="CurrentPassword" type="password" maxlength="1024" autocomplete="current-password" required /></label>
+  <label><span data-i18n="Authenticator code">Authenticator code</span> <input name="Code" inputmode="numeric" maxlength="32" autocomplete="one-time-code" required /></label>
+  <button type="submit" data-i18n="Disable MFA and sign out">Disable MFA and sign out</button>
+ </form>
+}

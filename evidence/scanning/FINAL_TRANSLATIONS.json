@@ -1,0 +1,37 @@
+{
+  "Recorded document amount": {
+    "bn": "নথিতে রেকর্ড করা অর্থের পরিমাণ",
+    "banglish": "Nothite record kora poriman",
+    "ar": "المبلغ المسجل في المستند"
+  },
+  "Document kind": {
+    "bn": "নথির ধরন",
+    "banglish": "Nothir dhoron",
+    "ar": "نوع المستند"
+  },
+  "Currency not configured": {
+    "bn": "মুদ্রা নির্ধারণ করা হয়নি",
+    "banglish": "Mudra nirdharon kora hoyni",
+    "ar": "لم يتم إعداد العملة"
+  },
+  "Open record": {
+    "bn": "রেকর্ড খুলুন",
+    "banglish": "Record khulun",
+    "ar": "فتح السجل"
+  },
+  "Revoked": {
+    "bn": "বাতিল করা হয়েছে",
+    "banglish": "Batil kora hoyeche",
+    "ar": "تم الإلغاء"
+  },
+  "Expired": {
+    "bn": "মেয়াদ শেষ হয়েছে",
+    "banglish": "Meyad shesh hoyeche",
+    "ar": "انتهت الصلاحية"
+  },
+  "Committed": {
+    "bn": "চূড়ান্তভাবে সংরক্ষিত",
+    "banglish": "Churanto bhabe songrokkhito",
+    "ar": "تم الحفظ نهائيًا"
+  }
+}

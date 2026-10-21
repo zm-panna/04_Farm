@@ -1,0 +1,11 @@
+@model EnterpriseERP.Web.Controllers.FeedPage
+@{ViewData["Title"]="Feed management";}
+<h1 data-i18n="Feed Management">Feed Management</h1>
+<p data-i18n="Consume feed against an active animal. The same transaction records inventory movement and the feed expense journal.">Consume feed against an active animal. The same transaction records inventory movement and the feed expense journal.</p>
+<section class="panel"><h2 data-i18n="Record feed consumption">Record feed consumption</h2><form method="post" action="/FeedManagement/consume">@Html.AntiForgeryToken()
+<label><span data-i18n="Animal">Animal</span><select name="animalId" required>@foreach(var x in Model.Animals){<option value="@x.Id">@x.Tag</option>}</select></label>
+<label><span data-i18n="Stock item">Stock item</span><select name="stockItemId" required>@foreach(var x in Model.Stock){<option value="@x.Id" data-i18n-template="feed-availability" data-i18n-values="@System.Text.Json.JsonSerializer.Serialize(new { sku = x.SKU, name = x.Name, quantity = x.QuantityOnHand.ToString("0.###") })">@x.SKU - @x.Name (@x.QuantityOnHand.ToString("0.###") available)</option>}</select></label>
+<label><span data-i18n="Quantity">Quantity</span><input name="quantity" type="number" min="0.001" step="0.001" required/></label>
+<label><span data-i18n="Date">Date</span><input name="feedDate" type="date" value="@Model.Today.ToString("yyyy-MM-dd")" required/></label>
+<label><span data-i18n="Unique reference">Unique reference</span><input name="reference" maxlength="90" required/></label><button class="primary" data-i18n="Post feed consumption">Post feed consumption</button></form></section>
+<section class="panel"><h2 data-i18n="Recent feed entries">Recent feed entries</h2><div class="farm-table"><table class="data-table"><thead><tr><th data-i18n="Date">Date</th><th data-i18n="Reference">Reference</th><th data-i18n="Animal">Animal</th><th data-i18n="Stock">Stock</th><th data-i18n="Quantity">Quantity</th><th data-i18n="Unit cost">Unit cost</th></tr></thead><tbody>@foreach(var x in Model.Records){<tr><td>@x.FeedDate</td><td>@x.Reference</td><td>@x.AnimalId</td><td>@x.StockItemId</td><td>@x.Quantity.ToString("0.###")</td><td>@x.UnitCost.ToString("0.000")</td></tr>}</tbody></table></div></section>

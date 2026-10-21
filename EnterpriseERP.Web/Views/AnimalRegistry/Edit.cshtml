@@ -1,0 +1,11 @@
+@model EnterpriseERP.Web.Controllers.AnimalEditor
+@{ViewData["Title"]=Model.Id==0?"Add Animal":"Edit Animal";}
+<section class="farm-workspace"><h1 data-i18n="@(ViewData["Title"])">@ViewData["Title"]</h1><p data-i18n="Animal details">Animal details</p>
+<form method="post" action="/animals/save">@Html.AntiForgeryToken()<div asp-validation-summary="All" role="alert"></div>
+<input asp-for="Id" type="hidden"/><input asp-for="RowVersion" type="hidden"/>
+<label asp-for="Tag" data-i18n="Tag">Tag</label><input asp-for="Tag" required maxlength="70"/>
+<label asp-for="Breed" data-i18n="Breed">Breed</label><input asp-for="Breed" required maxlength="100"/>
+<label asp-for="PurchaseCost" data-i18n="Purchase Cost (company currency)">Purchase Cost (company currency)</label><input asp-for="PurchaseCost" type="number" step="0.001" min="0" max="999999999999999.999" readonly="@(Model.Id>0)"/>
+<label asp-for="CurrentWeightKg" data-i18n="Weight (kg)">Weight (kg)</label><input asp-for="CurrentWeightKg" type="number" step="0.001" min="0.001" readonly="@(Model.Id>0)"/>
+@if(Model.Id>0){<p><span data-i18n="Existing weight is locked. Record a dated weight in Fattening.">Existing weight is locked. Record a dated weight in Fattening.</span> <a href="/Fattening" data-i18n="Record a weight">Record a weight</a></p>}
+<button type="submit" data-i18n="Save">Save</button><a href="/animals" data-i18n="Cancel">Cancel</a></form></section>

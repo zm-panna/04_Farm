@@ -1,0 +1,31 @@
+PASS saved Bengali changes labels, dropdown, language and secure persistence
+PASS Banglish selection announces and translates; English restores original error and labels
+PASS required, numeric range and decimal validation templates retain meaning
+PASS user-entered content and numeric form values are untouched
+PASS unsupported locale safely falls back to English
+PASS blocked localStorage uses cookie without breaking forms
+PASS native invalid message is translated and cleared on input
+node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: /workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Web/Views/HRPayroll/Policies.cshtml: missing Bengali Mixed daily and monthly contracts
+    at /workspace/scratch/85a436f01071/farm_enterprise_revision/scripts/TEST_UI_LOCALIZATION.js:65:67
+    at test (/workspace/scratch/85a436f01071/farm_enterprise_revision/scripts/TEST_UI_LOCALIZATION.js:43:37)
+    at Object.<anonymous> (/workspace/scratch/85a436f01071/farm_enterprise_revision/scripts/TEST_UI_LOCALIZATION.js:59:1)
+    at Module._compile (node:internal/modules/cjs/loader:1872:14)
+    at Object..js (node:internal/modules/cjs/loader:2003:10)
+    at Module.load (node:internal/modules/cjs/loader:1594:32)
+    at Module._load (node:internal/modules/cjs/loader:1396:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

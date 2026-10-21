@@ -1,0 +1,32 @@
+{
+  "build": "Not Tested — .NET SDK unavailable",
+  "sql_server": "Not Tested",
+  "iis": "Not Tested",
+  "security": "Not Tested",
+  "source_baseline": "New starter scaffold only; previous source ZIP not provided",
+  "modules": {
+    "Administration": "Pending",
+    "Inventory": "Partially Implemented",
+    "Purchase": "Pending",
+    "Sales": "Partially Implemented",
+    "Accounts": "Partially Implemented",
+    "HR": "Pending",
+    "Payroll": "Pending",
+    "CRM": "Pending",
+    "CustomerCare": "Pending",
+    "Store": "Pending",
+    "LC": "Pending",
+    "ImportExport": "Pending",
+    "FixedAsset": "Pending",
+    "Hotel": "Pending",
+    "Ecommerce": "Pending",
+    "Reporting": "Pending",
+    "Livestock": "Partially Implemented",
+    "Dairy": "Partially Implemented",
+    "Fattening": "Pending",
+    "AnimalHealth": "Pending",
+    "FeedManagement": "Pending",
+    "Expenses": "Pending",
+    "Subscription": "Pending"
+  }
+}

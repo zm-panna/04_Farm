@@ -1,0 +1,107 @@
+{
+  "A received return and linked credit were recorded.": {
+    "bn": "গৃহীত ফেরত ও সংযুক্ত ক্রেডিট নথিভুক্ত হয়েছে।",
+    "banglish": "Grihito return o linked credit record hoyeche.",
+    "ar": "سُجل إرجاع مستلم وائتمان مرتبط."
+  },
+  "ActualCalendarDays": {
+    "bn": "প্রকৃত ক্যালেন্ডার দিন",
+    "banglish": "Prokrito calendar din",
+    "ar": "الأيام التقويمية الفعلية"
+  },
+  "Asset register pages": {
+    "bn": "সম্পদ নিবন্ধনের পাতা",
+    "banglish": "Asset register-er pata",
+    "ar": "صفحات سجل الأصول"
+  },
+  "Awaiting independent review": {
+    "bn": "স্বতন্ত্র পর্যালোচনার অপেক্ষায়",
+    "banglish": "Independent review-er opekkhay",
+    "ar": "بانتظار المراجعة المستقلة"
+  },
+  "Code, name or job title": {
+    "bn": "কোড, নাম বা পদবি",
+    "banglish": "Code,nam ba podobi",
+    "ar": "الرمز أو الاسم أو المسمى الوظيفي"
+  },
+  "Depreciation run pages": {
+    "bn": "অবচয় কার্যক্রমের পাতা",
+    "banglish": "Depreciation run-er pata",
+    "ar": "صفحات دورات الإهلاك"
+  },
+  "Edit staff": {
+    "bn": "কর্মী সম্পাদনা",
+    "banglish": "Kormi shompadona",
+    "ar": "تعديل الموظف"
+  },
+  "FixedPaidUnits": {
+    "bn": "স্থির প্রদেয় একক",
+    "banglish": "Fixed paid unit",
+    "ar": "وحدات مدفوعة ثابتة"
+  },
+  "Goods released for branch collection. Payment is handled separately.": {
+    "bn": "শাখা থেকে সংগ্রহের জন্য পণ্য ছাড়া হয়েছে। অর্থপ্রদান আলাদাভাবে পরিচালিত হয়।",
+    "banglish": "Branch collection-er jonno ponno chara hoyeche. Payment alada bhabe hoy.",
+    "ar": "أُطلقت البضائع للاستلام من الفرع. يُعالج الدفع منفصلاً."
+  },
+  "Link verified account": {
+    "bn": "যাচাইকৃত অ্যাকাউন্ট সংযুক্ত করুন",
+    "banglish": "Verified account link korun",
+    "ar": "ربط حساب متحقق منه"
+  },
+  "Linked account": {
+    "bn": "সংযুক্ত অ্যাকাউন্ট",
+    "banglish": "Linked account",
+    "ar": "الحساب المرتبط"
+  },
+  "Mixed": {
+    "bn": "মিশ্র",
+    "banglish": "Mishro",
+    "ar": "مختلط"
+  },
+  "No": {
+    "bn": "না",
+    "banglish": "Na",
+    "ar": "لا"
+  },
+  "No default": {
+    "bn": "ডিফল্ট নেই",
+    "banglish": "Default nei",
+    "ar": "لا توجد قيمة افتراضية"
+  },
+  "Order cancelled and reserved stock released.": {
+    "bn": "অর্ডার বাতিল ও সংরক্ষিত মজুত মুক্ত হয়েছে।",
+    "banglish": "Order batil o reserved stock mukto hoyeche.",
+    "ar": "أُلغي الطلب وحُرر المخزون المحجوز."
+  },
+  "Order received and stock reserved.": {
+    "bn": "অর্ডার পাওয়া গেছে ও মজুত সংরক্ষিত হয়েছে।",
+    "banglish": "Order pawa geche o stock reserve hoyeche.",
+    "ar": "استُلم الطلب وحُجز المخزون."
+  },
+  "Order updated.": {
+    "bn": "অর্ডার হালনাগাদ হয়েছে।",
+    "banglish": "Order update hoyeche.",
+    "ar": "حُدّث الطلب."
+  },
+  "Reviewed and immutable": {
+    "bn": "পর্যালোচিত ও অপরিবর্তনীয়",
+    "banglish": "Reviewed o immutable",
+    "ar": "مُراجع وغير قابل للتغيير"
+  },
+  "Staff approved this order for branch collection.": {
+    "bn": "কর্মী শাখা থেকে সংগ্রহের জন্য এই অর্ডার অনুমোদন করেছেন।",
+    "banglish": "Staff branch collection-er jonno ei order approve korechen.",
+    "ar": "اعتمد الموظف هذا الطلب للاستلام من الفرع."
+  },
+  "Yes": {
+    "bn": "হ্যাঁ",
+    "banglish": "Hyan",
+    "ar": "نعم"
+  },
+  "{code} v{version} · {rate}% · {treatment}": {
+    "bn": "{code} সংস্করণ {version} · {rate}% · {treatment}",
+    "banglish": "{code} version {version} · {rate}% · {treatment}",
+    "ar": "{code} الإصدار {version} · {rate}% · {treatment}"
+  }
+}

@@ -1,0 +1,203 @@
+0.5: half day
+0: unpaid day
+1: full paid day / paid rest
+A Mixed policy uses each employee’s explicitly reviewed Daily or Monthly contract basis in one payroll run.
+A different authorized reviewer is required. Attendance and leave cannot cover the same day.
+Accounting posting date
+Actions
+Active
+Active employee
+Actual calendar days in the payroll month
+Add attendance
+Add staff
+All
+All listed staff
+Approval locks source attendance and leave.
+Approve requested leave
+Approve reviewed payroll
+Approve this policy version
+Approved by
+Approved company currency (three letters)
+Approved currency decimal places
+Approved overtime hours
+Approved paid leave days
+Approver must be different from the last calculator
+Attendance
+Attendance basis / note
+Attendance days
+Base pay
+Calculate payroll draft
+Calculate reviewable draft
+Cancel
+Cap monthly paid units at the denominator
+Cap units
+Choose a month boundary or the hire date. Compensation history is immutable; historical payroll uses its effective version.
+Choose staff
+Code
+Code, name or job title
+Company policy
+Compensation effective date
+Compensation version / effective date
+Confidential pay rates
+Contractual rate
+Contractual staff pay basis
+Credit
+Currency
+Daily
+Daily rate
+Date
+Deactivation retains attendance, leave, payroll and audit history. Dates cannot exclude recorded activity or change approved payroll.
+Debit
+Deduction
+Deduction payable (different 2xxx)
+Deductions
+Edit / deactivate
+Effective from
+Effective through
+Employee deduction
+Employee deduction % of gross
+Employee payslip
+Employee salary payable (2xxx)
+Employer
+Employer contribution
+Employer contribution % of gross
+Employer contribution expense (6xxx)
+Employer contribution payable (different 2xxx)
+Employment
+Employment end (required when deactivating)
+Employment start
+Every employment date in a payroll month needs one attendance entry or approved leave. Record contracted paid rest days as 1 paid day and unpaid days as 0. Approved or posted periods are locked.
+Exact reviewed policy
+Exact reviewed replacement policy ID
+Explicit fixed paid units
+Filter
+Fixed monthly paid units (zero for actual calendar days)
+Fixed units
+From
+Full name
+Gross
+Gross = rounded base pay + rounded overtime pay; base pay follows the exact policy pay basis and proration. Deductions and employer contributions are rounded per employee, away from zero, to
+Gross pay
+HR and payroll
+I reviewed every employee amount, attendance, leave, rates and exact policy.
+I reviewed the jurisdiction, daily/monthly pay, denominator, cap and leave basis, currency, effective dates, explicit rates and accounts.
+I verified that this exact account belongs to
+Inactive
+Job title
+Journal voucher
+Jurisdiction
+Jurisdiction and reviewed basis for daily or monthly pay, proration, leave, deductions and employer contributions
+Leave requests and review
+Leave review
+Link account
+Mixed daily and monthly contracts
+Month start (first day)
+Monthly
+Monthly base pay is salary multiplied by paid units and divided by the reviewed denominator. Daily policies ignore monthly controls.
+Monthly denominator mode
+Monthly proration denominator
+Monthly proration method / denominator / paid units used
+Monthly salary
+My leave requests
+My payslips and leave
+My posted payslips
+Name
+Net
+Net payable
+Net salary payable
+Next
+No default
+No eligible accounts. Complete normal account verification and company/branch access before linking.
+No posted payslips on this page.
+No staff match this filter.
+No statutory payroll rate is assumed. Daily and monthly pay are supported with an explicitly reviewed proration method. Paid rest days must be entered as paid attendance; no weekend or statutory rule is assumed. A qualified reviewer must confirm jurisdiction-specific treatment before use. Zero deductions also require explicit review. No claim of statutory filing or tax compliance is made.
+Note
+Only fully ended months are accepted. Complete attendance or approved leave for every calendar date within each person&#x27;s employment. Paid rest days must be recorded as one paid day; unpaid days as zero. Resolve pending leave first.
+Only records linked to your authenticated account in this branch are shown.
+Overtime hourly rate
+Overtime hours
+Overtime hours / rate
+Overtime hours × hourly rate
+Overtime pay
+Page
+Paid attendance days
+Paid days
+Paid leave days
+Pay basis
+Pay basis / contractual rate
+Pay basis for this branch payroll run
+Pay rates
+Payroll
+Payroll accrual posted
+Payroll policies
+Payroll policy versions
+Payroll register
+Payslip
+Period
+Policy
+Policy name / version description
+Post approved payroll accrual
+Posted by
+Posting records a liability and expense. It does not pay employees.
+Present
+Previous
+Propose a new policy (Payroll.Policy)
+Proration denominator / paid units used
+Reason
+Reason / approved rate basis
+Recalculate from current source records
+Reference
+Reject
+Request leave
+Request leave for staff (HR.Manage)
+Request paid leave
+Request review
+Requires Payroll.Rates permission. Enter the applicable daily rate or monthly salary, plus the reviewed overtime hourly rate. The reviewed payroll policy must allow the selected contractual pay basis. Existing approved payslips retain their original rate snapshot.
+Review note
+Reviewed by
+Reviewed compensation history
+Reviewed employee deduction
+Reviewer
+Salary payable
+Save attendance
+Save reviewed rates
+Save staff
+Search
+Select policy
+Select verified account
+Staff
+Staff code
+Staff directory
+Staff filter
+Staff records are branch-scoped. Compensation is available only through separately authorized payroll screens.
+Status
+Submit my leave request
+Submit policy for independent review
+This creates a balanced wage/benefit expense and payable journal. Closed accounting periods are blocked. No bank transfer occurs.
+This grants the selected account access to this staff member&#x27;s posted payslips and own leave. Only email-confirmed accounts already authorized for this company and branch are offered. No account or permission is created.
+This payroll is immutable.
+This slip shows accrued salary and does not confirm that money has been transferred.
+This staff record already has a verified identity link. Changing ownership requires a separately reviewed account-recovery procedure.
+Through (inclusive)
+Timezone
+Totals
+Unique payroll reference
+Update this date
+Use the current policy ID or a corrected independently reviewed policy covering this month.
+Verified account
+Verified account (exact ID)
+Version
+View
+Wage expense account (6xxx)
+Wages
+Without the cap, a fixed denominator smaller than paid units produces more than the monthly salary. Review this choice explicitly.
+and may access their payslips.
+decimal places
+of
+on
+policies
+records
+runs
+through
+to
+voucher

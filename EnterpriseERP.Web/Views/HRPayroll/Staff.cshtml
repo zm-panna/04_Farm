@@ -1,0 +1,14 @@
+@model HRPayrollStaffInput
+@{ViewData["Title"]=Model.Id==0?"Add staff":"Edit staff";}
+<h1 data-i18n="@ViewData["Title"]">@ViewData["Title"]</h1><partial name="_Nav" />
+<form asp-action="SaveStaff" method="post" class="panel">
+<input asp-for="Id" type="hidden" /><input asp-for="Revision" type="hidden" />
+<label asp-for="Code" data-i18n="Staff code">Staff code</label><input asp-for="Code" required maxlength="40" /><span asp-validation-for="Code"></span>
+<label asp-for="Name" data-i18n="Full name">Full name</label><input asp-for="Name" required maxlength="160" /><span asp-validation-for="Name"></span>
+<label asp-for="JobTitle" data-i18n="Job title">Job title</label><input asp-for="JobTitle" maxlength="200" />
+<label asp-for="StartDate" data-i18n="Employment start">Employment start</label><input asp-for="StartDate" type="date" required />
+<label><input asp-for="Active"  style="width:auto" /><span data-i18n="Active employee"> Active employee</span></label>
+<label asp-for="EndDate" data-i18n="Employment end (required when deactivating)">Employment end (required when deactivating)</label><input asp-for="EndDate" type="date" />
+<p class="subtle" data-i18n="Deactivation retains attendance, leave, payroll and audit history. Dates cannot exclude recorded activity or change approved payroll.">Deactivation retains attendance, leave, payroll and audit history. Dates cannot exclude recorded activity or change approved payroll.</p>
+<button type="submit" class="primary" data-i18n="Save staff">Save staff</button><a asp-action="Index" data-i18n="Cancel">Cancel</a>
+</form>

@@ -1,0 +1,287 @@
+{
+  "baseline_archive_sha256": "2ab28e4e82d6c4bcfc0b2940442a361063b2ceeac92be5a5ec2a9cca1758e600",
+  "changed_runtime_test_script_files": [
+    {
+      "path": "EnterpriseERP.Web/AccountingPeriodService.cs",
+      "prior_sha256": "d41212d4f79f8b8c2a1bb3ff38006024e6177cb9057e3d1de861fdc03d8f5875",
+      "current_sha256": "5d570d2996f9553524cf20dcf8a0fdd38fb7ff38f579b36d05f3295702c06db9",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/AdministrationService.cs",
+      "prior_sha256": "7ad6f40bb25d1debbf7fda2db90824e2f42c5f1dc6549c86d0033fbe460ab9fc",
+      "current_sha256": "ecfd41733e41d101486cf4d0a8a4b3e4c5793c9af8811d380b8e2609149ba735",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessDate.cs",
+      "prior_sha256": null,
+      "current_sha256": "887a9f8e9773b9a519e6a1f676e3c56bf3ebbbd6c1382099f515d4a31ce2fae3",
+      "kind": "new"
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "prior_sha256": "33b0e63d7d93e29337f8977d5c12a45a64c682dd2a4a04a8a477e731cec69abd",
+      "current_sha256": "1472ee8bb900064b476148a0849ba661557fe8e9ceccf5b4cefe64a9e08760ec",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AccountingPeriodController.cs",
+      "prior_sha256": "b4c817d92e55c9653034a150a8e69e3dbd06354bad1d2e39343cadc6788724ac",
+      "current_sha256": "ccf2121cd40d752c4694536dc2247e4f4a17da1f901ef39863881f4237b882ee",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AdministrationController.cs",
+      "prior_sha256": "43ac8cc17da9e312f00bc9c3eec22bde1eec21a46a6f4d2fe1fc1cc2d4135007",
+      "current_sha256": "e3ce569d2c67c6bafaeee8509b36b42aa1d2c33966c2b203ee992cad30475f1a",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AnimalHealthEntryController.cs",
+      "prior_sha256": "4f300e1f53cdc7acefccf9b83196c874a8513230b4f499017fe23f79eb66fd60",
+      "current_sha256": "8c56a32b858768d408c1719a9206682bb3f67b29087c2eec684f45e25d6a6245",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/DairyEntryController.cs",
+      "prior_sha256": "701d75bab58a7d1a3da7dc42030ad40e2697fb2f132b768101729dbe063e5df2",
+      "current_sha256": "b10fdd7dfd32597bd6b1397c5fed56a29d754b9cbd2a3fbd1bb181b62fa8ca02",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/DeploymentReadinessController.cs",
+      "prior_sha256": "ff0c7445178efdde571221a70db638b03b95f186de85a1c276efb90fa4be8467",
+      "current_sha256": "02a2fc84f4abbe3816f82935b048aae5db83bf8b6f9fc8fd4a9efe648d4d86a4",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/HRPayrollController.cs",
+      "prior_sha256": "2c36ae097e8318eee735333444c0df5d498b886673caa86f43c1bbbb9f71cbf2",
+      "current_sha256": "1aaab904cfa016235e0d53e5415b89725377eeb4b6747ef8a26097fa47311f65",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/OperationsWorkspaceController.cs",
+      "prior_sha256": "468830d01343e19224fe1a658f95b22d776eef087a6ad3e84929198cb754fd6c",
+      "current_sha256": "7dfde6ab1b1dfe6781abf810c8210ce270c69272b0bbae0b56fd1f442ee05e7c",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/WorkspaceController.cs",
+      "prior_sha256": "f4ff23bf2c4cbe6bf24245efece23c291fe3d7b2505f59b4b68444153ecf160c",
+      "current_sha256": "2057d0f14b801d436dfcb2e447ccefe603a7b249b23c88a8dd84de04bebf0c60",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmBusinessModels.cs",
+      "prior_sha256": "3e4eec62e64c0c1d1820fa037547cb81777202aeb7ce21db1d7c96c29c62b6d6",
+      "current_sha256": "8e2d199d1c06a89a0c5ad91295e3965d365bb6dd2701a28d3dd87b5972a7897c",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmBusinessService.cs",
+      "prior_sha256": "f6830daa7eef3fb928b62b2991b38dd5a3bdd3d2bea4cff45e50aac4dd49aa88",
+      "current_sha256": "a96595e01d69e72530ae4e3ccb81d66049a3902c16dcf6423bf0f4bdcafc6e4b",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmHealthFeedService.cs",
+      "prior_sha256": "c1161507ef71e9c115c58001f4cb6ab21ad065f2ad768a747512c65d53312836",
+      "current_sha256": "d12587087c8abba0f312b76dc48eee4047f404d76e25d50d4fd4c1cfaae9fddc",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmService.cs",
+      "prior_sha256": "09b0402eff74e4d6381cb262f8c95e3e7cb7f83048db3af77278f3c749eb692d",
+      "current_sha256": "af79c07f7f75c0d6729bfff0c50ab9730e6a8b0fcc9b5c3e0212aa4a58b56b59",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/FinanceService.cs",
+      "prior_sha256": "52d55a29e744a2f55a43c3ab9be68e1655fc7cc1168104675faed3cfa26048d8",
+      "current_sha256": "959f128ab79408453c1afa72ad93a83fe6667402eeb0b0887839f93d0196c678",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "prior_sha256": "6ef02479f3c26ed648c993ffa2f389c828266d3ef00b269a6cac8d26e1a5cc4d",
+      "current_sha256": "fef1e2b7f7403c2ab25d368b01fa9ff05805741b2571dcae4bd1ab59f6332a00",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/IntegratedOperations.cs",
+      "prior_sha256": "0ed7fd0b7125c4f7c912d094a2bdfad8ce0582182fcabb3a20a1f6b0c9309378",
+      "current_sha256": "e229ef946606fc430e83f166889df2c2c94e8ee998ee67276342d47f6efa0bea",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/OpeningBalanceService.cs",
+      "prior_sha256": "a0d71cd2af8c5101ee6b28b9cc0aa2dc723d5efc14018e8803f3a7b5d6fa1ede",
+      "current_sha256": "17e6435ec2dfecea6c69336b51730d1e14c153146774fe86fceca05f044ace70",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/PermissionService.cs",
+      "prior_sha256": "28b83d769b9bd79aade257d6df9c893a2e846f594f4e77caffc41c4f443f7762",
+      "current_sha256": "c303b0ce50c221b49b24a27e270e8186a5e15a52ef96261d5f9c14bf453128fa",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Program.cs",
+      "prior_sha256": "cba2e52b02abbaeccf430ed0b24cef5dc52c7aa6f28e584fc8a5029e9b751197",
+      "current_sha256": "7078fcb28f500c2a4888671edbd3759a239ce3de292f40da5d8dcd74cc7d577c",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/StagingPreflight.cs",
+      "prior_sha256": null,
+      "current_sha256": "bde3dc2740acaddff1b8e441ae1df3833f818577a78b606d1723507c2c395c29",
+      "kind": "new"
+    },
+    {
+      "path": "EnterpriseERP.Web/StagingPreflightMigrationHistory.cs",
+      "prior_sha256": null,
+      "current_sha256": "a36ba5f1d0d45b1c8e53e8a03450743f53ee9ddcf433bfdf09380a5a5ac7f78e",
+      "kind": "new"
+    },
+    {
+      "path": "EnterpriseERP.Web/StagingPreflightOptions.cs",
+      "prior_sha256": null,
+      "current_sha256": "0ab2289867aa9b5bbb6c40654326d4ed903fee95bc801f24581f8c07dd8d4a7b",
+      "kind": "new"
+    },
+    {
+      "path": "EnterpriseERP.Web/StagingPreflightSchema.cs",
+      "prior_sha256": null,
+      "current_sha256": "844aa869e109cf7999eebbcf1aa71257b66da1004df6f3dcacb17e5cd6a44bdf",
+      "kind": "new"
+    },
+    {
+      "path": "EnterpriseERP.Web/StagingPreflightSql.cs",
+      "prior_sha256": null,
+      "current_sha256": "fd5c6e4fa958e09b0ff4ff5a1ba3b421437723e767abddf1072077dbd4f0cdb6",
+      "kind": "new"
+    },
+    {
+      "path": "EnterpriseERP.Web/StockTransferService.cs",
+      "prior_sha256": "40869fdaeb248ac5b36cfa6dad20e2c0c5d8000fe198b019b9b9e71d10735362",
+      "current_sha256": "4ed2077c4fec9074c9bb911f25abcedc1e6c7ba2e5341bfe09ee506b1af42293",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AccountingPeriod/Index.cshtml",
+      "prior_sha256": "b23aec94eb8994cc138e0c712e8b76d669225dbcace500099038347e854fa0d2",
+      "current_sha256": "f25bac8538de93b411aa9f47bdfd103ff5cdaf39885a56272cb6eab3f37de7ca",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Administration/Index.cshtml",
+      "prior_sha256": "c5f7ba37d5b5a09ff0a023113f2415a5c3cb44213ffa4a933028e1fa087052a2",
+      "current_sha256": "d2248c87176302c7bac2d560e7d765fdd77612b34c02671de1d807ae4c779f59",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AnimalHealthEntry/Index.cshtml",
+      "prior_sha256": "1aa3d65702c0c7f95d39f94c2463d46895ce7e69813ae6b674f901e26379a701",
+      "current_sha256": "6cd25e5b9c13687f54f6494ac48b3d70afa83299b7079e11ca84fcd41cad94c1",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Breeding/Index.cshtml",
+      "prior_sha256": "30eceec73fdf24bd2bfbddb8f17a02c11eecb832521c10a95c55413eaa10f368",
+      "current_sha256": "c98f4f949914db192c798e17c2c632d542167b943bbddca218c59f5928935a8c",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Policies.cshtml",
+      "prior_sha256": "b163cd4cfe8486bae11eb6b145396300135fd9056e1467926faad2b78415b6dc",
+      "current_sha256": "d8609cfc77b6a168ad37bdba137a38d469286657e639cc8c8389c9ab01d12392",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/OperationsWorkspace/Accounts.cshtml",
+      "prior_sha256": "6d8eef8858f309f9ac41f98f6e22a7c0dd5cc97435c2a40e07235083a54550d5",
+      "current_sha256": "718b57ea35723c5e8b38b8cdf427bf70e0d0a5fa6f48ea7a631b2a0321216118",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Workspace/Feed.cshtml",
+      "prior_sha256": "c6a560f228167b5b9c6137ff479479712c9cda0fa71d53cbfd6e54ea67959145",
+      "current_sha256": "20593a68550fb5f1c6ec06e35de7dd5ba7e7d696312c836b2969d8d5c37ab821",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Workspace/Reports.cshtml",
+      "prior_sha256": "318928f057de994eafdb017640dbd0d92e99cb54dcf2c637fa67ab9363f01d45",
+      "current_sha256": "938fa3cd23e2bab9db2f0a19ad62e4bb1447fd3050afd9021e56a1e4adbd63f1",
+      "kind": "changed"
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/farm-core-translations.js",
+      "prior_sha256": "5098f947494fa8db2a6c9e194b308b88622eaac59960ef8770027eb80c1f9afa",
+      "current_sha256": "02d0084eb080a96fa011a47237d1c25006b653825f0f478866e286aab5192d61",
+      "kind": "changed"
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/CompanyLocalBusinessDateTests.cs",
+      "prior_sha256": null,
+      "current_sha256": "bcf2758e04c873d48cb8395c5cc7bcc1e3a02570c70c71f5408da63994b7dad7",
+      "kind": "new"
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs",
+      "prior_sha256": null,
+      "current_sha256": "508e33562e0cd48bd34dadd9051506e187a8727d32d9570c0fa768c8f149d728",
+      "kind": "new"
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/StaffEmailOwnershipTests.cs",
+      "prior_sha256": null,
+      "current_sha256": "a40b2bbae2a3d2b9275d3c2b98d807eb3fb72c63e289b8b14d0d1199f1772b04",
+      "kind": "new"
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/StagingMigrationHistoryTests.cs",
+      "prior_sha256": null,
+      "current_sha256": "1754f566bbfec240984dd244389d89676bc0e60de22f856da795e52b8e294431",
+      "kind": "new"
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/StagingPreflightTests.cs",
+      "prior_sha256": null,
+      "current_sha256": "69a7a988e6fd3b8a42571f1624e495c19af41b0f1e680136c54c7eef9bb1f3e3",
+      "kind": "new"
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/UiLocalizationRenderingTests.cs",
+      "prior_sha256": "a0e9120495ff660eb0034a8e16cb4805ebf1d3fe46f2999a6afaf2415910591e",
+      "current_sha256": "4b78d2e07f7cde7e0f06d7870242662cee3917a03fd93c093a7e0a123a72c574",
+      "kind": "changed"
+    },
+    {
+      "path": "scripts/STAGING_IIS_READONLY.ps1",
+      "prior_sha256": null,
+      "current_sha256": "5acfb93317a5da94e4a8174e90f39b477291f54a4ea7ea9e53f707ab16de4b12",
+      "kind": "new"
+    },
+    {
+      "path": "scripts/STAGING_READONLY_PREFLIGHT.ps1",
+      "prior_sha256": null,
+      "current_sha256": "73e31abb0409f90d48881a350c75f197ed06c3508f646d62b8deea3271f01fad",
+      "kind": "new"
+    },
+    {
+      "path": "scripts/http-enterprise-hr.py",
+      "prior_sha256": "5f38b51695718ef5a0211a526bb60cc0f790eef83923e78ce9c33edbfc0abac2",
+      "current_sha256": "e6971823a297e35f656d3624d0e0c3819f142a2cb26f7cd3681488ff536786e6",
+      "kind": "changed"
+    },
+    {
+      "path": "scripts/http-enterprise-onboarding.py",
+      "prior_sha256": null,
+      "current_sha256": "f4c6743f8c576e33a8801218c757a452b3ab23618cf4c7d2a722011520cb43a4",
+      "kind": "new"
+    }
+  ]
+}

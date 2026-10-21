@@ -1,0 +1,37 @@
+<Solution>
+  <Folder Name="/ERP/">
+    <Project Path="Shared/TrustedInfrastructure/TrustedInfrastructure.csproj" />
+    <Project Path="EnterpriseERP.AI/EnterpriseERP.AI.csproj" />
+    <Project Path="EnterpriseERP.Application/EnterpriseERP.Application.csproj" />
+    <Project Path="EnterpriseERP.Automation/EnterpriseERP.Automation.csproj" />
+    <Project Path="EnterpriseERP.Domain/EnterpriseERP.Domain.csproj" />
+    <Project Path="EnterpriseERP.Infrastructure/EnterpriseERP.Infrastructure.csproj" />
+    <Project Path="EnterpriseERP.Reporting/EnterpriseERP.Reporting.csproj" />
+    <Project Path="EnterpriseERP.Shared/EnterpriseERP.Shared.csproj" />
+    <Project Path="EnterpriseERP.Web/EnterpriseERP.Web.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Accounts/EnterpriseERP.Modules.Accounts.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Administration/EnterpriseERP.Modules.Administration.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.AnimalHealth/EnterpriseERP.Modules.AnimalHealth.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.CRM/EnterpriseERP.Modules.CRM.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.CustomerCare/EnterpriseERP.Modules.CustomerCare.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Dairy/EnterpriseERP.Modules.Dairy.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Ecommerce/EnterpriseERP.Modules.Ecommerce.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Expenses/EnterpriseERP.Modules.Expenses.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Fattening/EnterpriseERP.Modules.Fattening.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.FeedManagement/EnterpriseERP.Modules.FeedManagement.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.FixedAsset/EnterpriseERP.Modules.FixedAsset.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.HR/EnterpriseERP.Modules.HR.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Hotel/EnterpriseERP.Modules.Hotel.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.ImportExport/EnterpriseERP.Modules.ImportExport.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Inventory/EnterpriseERP.Modules.Inventory.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.LC/EnterpriseERP.Modules.LC.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Livestock/EnterpriseERP.Modules.Livestock.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Payroll/EnterpriseERP.Modules.Payroll.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Purchase/EnterpriseERP.Modules.Purchase.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Reporting/EnterpriseERP.Modules.Reporting.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Sales/EnterpriseERP.Modules.Sales.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Store/EnterpriseERP.Modules.Store.csproj" />
+    <Project Path="Modules/EnterpriseERP.Modules.Subscription/EnterpriseERP.Modules.Subscription.csproj" />
+    <Project Path="Tests/EnterpriseERP.UnitTests/EnterpriseERP.UnitTests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,31 @@
+// Real scanner page/scripts + jsdom + authenticated live localhost API. Synthetic media only; no physical camera claim.
+const fs=require('fs'),assert=require('node:assert/strict');const {JSDOM,ResourceLoader,VirtualConsole}=require(process.env.FARM_TEST_JSDOM);
+(async()=>{
+ const input=JSON.parse(fs.readFileSync(0,'utf8'));if(!/^http:\/\/127\.0\.0\.1:\d+$/.test(input.base))throw new Error('Only isolated localhost is accepted');
+ const cookie=input.cookies.map(x=>x.name+'='+x.value).join('; ');const failures=[],calls=[];let mediaCalls=0,stops=0,decodeValue='';
+ class LocalResources extends ResourceLoader{fetch(url,options){if(!url.startsWith(input.base+'/'))return null;return super.fetch(url,options);}}
+ const response=await fetch(input.base+'/scan',{headers:{Cookie:cookie}});assert.equal(response.status,200);
+ const virtualConsole=new VirtualConsole();virtualConsole.on('jsdomError',e=>{if(e.type!=='css-parsing')failures.push(e.message);});
+ const dom=new JSDOM(await response.text(),{url:input.base+'/scan',runScripts:'dangerously',resources:new LocalResources(),pretendToBeVisual:true,virtualConsole,
+  beforeParse(window){window.AbortController=global.AbortController;window.matchMedia=()=>({matches:false,addEventListener(){},removeEventListener(){}});window.HTMLMediaElement.prototype.pause=function(){};window.HTMLMediaElement.prototype.play=async function(){};
+   Object.defineProperty(window,'isSecureContext',{value:true});Object.defineProperty(window.HTMLMediaElement.prototype,'readyState',{get:()=>4});Object.defineProperty(window.HTMLVideoElement.prototype,'videoWidth',{get:()=>640});Object.defineProperty(window.HTMLVideoElement.prototype,'videoHeight',{get:()=>480});
+   Object.defineProperty(window.navigator,'mediaDevices',{value:{getUserMedia:async constraints=>{mediaCalls++;assert.equal(constraints.audio,false);return {getTracks:()=>[{stop(){stops++;}}]};},enumerateDevices:async()=>[]}});
+   window.BarcodeDetector=class{static async getSupportedFormats(){return ['qr_code','code_128','ean_13','ean_8','upc_a','upc_e'];}async detect(){return decodeValue?[{rawValue:decodeValue}]:[];}};
+   window.fetch=async(path,options={})=>{const url=new URL(path,input.base);if(url.origin!==input.base)throw new Error('Nonlocal fetch denied');calls.push({path:url.pathname,method:options.method||'GET',body:options.body,headers:options.headers});return fetch(url,{...options,headers:{...options.headers,Cookie:cookie}});};}});
+ let checks=0;const pass=message=>{checks++;console.log('PASS '+message);};
+ try{
+  const w=dom.window,d=w.document,$=id=>d.getElementById(id);const wait=async(fn)=>{const end=Date.now()+15000;while(!fn()){if(Date.now()>end)throw new Error('DOM timeout; '+failures.join('; ')+'; '+$('scan-error')?.textContent+'; status='+$('scan-status')?.textContent+' media='+mediaCalls+' stops='+stops+' busy='+$('farm-scan')?.dataset.busy);await new Promise(r=>setTimeout(r,25));}};
+  await wait(()=>calls.some(x=>x.path==='/api/scan/drafts')&&$('scan-target').options.length>1);assert.equal(mediaCalls,0);pass('Page initialization never asks for camera permission');
+  $('scan-context').value='Product';$('scan-context').dispatchEvent(new w.Event('change',{bubbles:true}));$('scan-value').value=input.label;$('scan-resolve-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
+  await wait(()=>!$('scan-entry').hidden);assert.ok(!calls.some(x=>x.path.match(/drafts.*confirm/)));assert.ok(!calls.some(x=>x.path==='/api/scan/drafts'&&x.method==='POST'));pass('Manual scan performs only authorized preview before a draft exists');
+  $('scan-action').value='AdjustStock';$('scan-action').dispatchEvent(new w.Event('change',{bubbles:true}));$('scan-quantity').value='1';$('scan-notes').value='<img src=x onerror=evil()> Synthetic counted difference';$('scan-entry-form').dispatchEvent(new w.Event('submit',{bubbles:true,cancelable:true}));
+  await wait(()=>!$('scan-review-section').hidden);assert.ok(!$('scan-review').querySelector('img'));assert.ok($('scan-review').textContent.includes('<img src=x onerror=evil()>'));pass('Draft review renders entered notes as text, never HTML');
+  const confirmationCount=()=>calls.filter(x=>x.path.endsWith('/confirm')).length;const before=confirmationCount();$('scan-confirm').click();await new Promise(r=>setTimeout(r,30));assert.equal(confirmationCount(),before);pass('Unreviewed checkbox blocks confirmation request');
+  $('scan-cancel').click();await wait(()=>$('scan-review').textContent.includes('Cancelled'));assert.equal(confirmationCount(),before);pass('Cancel persists cancellation without any confirmation call');
+  $('scan-history-refresh').click();await wait(()=>$('scan-history').textContent.includes('Cancelled'));pass('Reloaded history exposes durable own cancelled outcome');
+  for(const [lang,dir]of [['bn','ltr'],['banglish','ltr'],['ar','rtl'],['en','ltr']]){const chooser=$('erp-language');chooser.value=lang;chooser.dispatchEvent(new w.Event('change',{bubbles:true}));await wait(()=>d.documentElement.dir===dir&&d.documentElement.dataset.language===lang);const heading=d.querySelector('h1[data-i18n="Scan workspace"]');assert.ok(heading.textContent.trim());if(lang!=='en')assert.notEqual(heading.textContent,'Scan workspace');}pass('All four active scanner languages update including Arabic RTL');
+  await wait(()=>$('farm-scan').dataset.busy==='false');$('scan-camera-next').click();decodeValue=input.label;const postBefore=calls.filter(x=>x.path==='/api/scan/drafts'&&x.method==='POST').length;$('scan-camera-start').click();await wait(()=>mediaCalls===1&&stops>0&&!$('scan-entry').hidden);assert.equal(calls.filter(x=>x.path==='/api/scan/drafts'&&x.method==='POST').length,postBefore);pass('Synthetic decoded frame stops camera and invokes preview only');
+  assert.ok(calls.filter(x=>x.method==='POST').every(x=>x.headers['X-CSRF-TOKEN']));assert.ok(!calls.some(x=>/upload|frame|image/.test(x.path)));pass('No camera frame upload or image-storage endpoint is called');
+  assert.deepEqual(failures,[]);pass('Actual scanner resources initialize without DOM script errors');console.log('Scanner DOM checks passed: '+checks+'; synthetic camera only.');
+ }finally{dom.window.close();}
+})().catch(ex=>{console.error(ex.stack||ex);process.exitCode=1;});

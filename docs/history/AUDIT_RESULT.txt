@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "has_net10_web_project": true,
+    "has_project_solution": false,
+    "has_migration_source": false,
+    "no_marker_only_modules": false,
+    "has_mvc_views": true,
+    "has_customer_uat_evidence": false,
+    "has_runtime_build_evidence": false,
+    "has_sql_server_evidence": false,
+    "has_iis_evidence": false,
+    "has_security_evidence": false
+  },
+  "module_markers": 23,
+  "result": "BLOCKED - manual production signoff required"
+}
+
+
+exit=1

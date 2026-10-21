@@ -1,0 +1,53 @@
+@model EnterpriseERP.Web.Controllers.MessagingIndexModel
+@{ ViewData["Title"] = "Internal messages"; }
+<link rel="stylesheet" href="~/css/farm-messaging.css" asp-append-version="true" />
+<div id="farm-messaging" data-can-send="@Model.CanSend.ToString().ToLowerInvariant()" data-can-review="@Model.CanReviewAutomation.ToString().ToLowerInvariant()">
+    @Html.AntiForgeryToken()
+    <h1 data-i18n="Internal messages">Internal messages</h1>
+    <p data-i18n="Messages stay within your selected company and branch.">Messages stay within your selected company and branch.</p>
+    <p id="messaging-status" class="notice" role="status" aria-live="polite" data-i18n="Loading your inbox…">Loading your inbox…</p>
+    <p id="messaging-error" role="alert" hidden></p>
+    <div class="messaging-grid">
+        <section class="panel messaging-inbox">
+            <div class="messaging-toolbar" aria-label="Message folders" data-i18n-aria-label="Message folders">
+                <button type="button" data-folder="inbox" aria-pressed="true"><span data-i18n="Inbox">Inbox</span> <span id="messaging-unread">0</span></button>
+                <button type="button" data-folder="sent" aria-pressed="false" data-i18n="Sent">Sent</button>
+                @if (Model.CanReviewAutomation) { <button type="button" data-folder="automation" aria-pressed="false" data-i18n="Branch notifications">Branch notifications</button> }
+                <button type="button" id="messaging-refresh" data-i18n="Refresh">Refresh</button>
+            </div>
+            <label id="messaging-filter-label"><input type="checkbox" id="messaging-unread-only" /> <span data-i18n="Unread only">Unread only</span></label>
+            <div id="messaging-list" aria-live="polite"></div>
+            <button type="button" id="messaging-older" hidden data-i18n="Older messages">Older messages</button>
+        </section>
+        @if (Model.CanSend)
+        {
+            <section class="panel">
+                <h2 data-i18n="Write an internal message">Write an internal message</h2>
+                <form id="messaging-compose">
+                    <label for="messaging-recipient-search" data-i18n="Find a branch colleague">Find a branch colleague</label>
+                    <input id="messaging-recipient-search" maxlength="100" autocomplete="off" placeholder="Type at least two characters" data-i18n-placeholder="Type at least two characters" />
+                    <label for="messaging-recipient" data-i18n="Recipient">Recipient</label>
+                    <select id="messaging-recipient" required><option value="" data-i18n="Search for a recipient">Search for a recipient</option></select>
+                    <label for="messaging-subject" data-i18n="Subject">Subject</label>
+                    <input id="messaging-subject" maxlength="160" required />
+                    <label for="messaging-body" data-i18n="Message">Message</label>
+                    <textarea id="messaging-body" maxlength="8000" rows="7" required></textarea>
+                    <button class="primary" type="submit" id="messaging-send" data-i18n="Send internal message">Send internal message</button>
+                    <p id="messaging-send-status" role="status" aria-live="polite"></p>
+                </form>
+            </section>
+        }
+    </div>
+    <section class="panel messaging-detail" id="messaging-detail" hidden aria-labelledby="messaging-detail-subject">
+        <button type="button" id="messaging-close" data-i18n="Close">Close</button>
+        <h2 id="messaging-detail-subject"></h2>
+        <p id="messaging-detail-meta"></p>
+        <div id="messaging-detail-body"></div>
+        <button type="button" id="messaging-read" hidden data-i18n="Mark as read">Mark as read</button>
+    </section>
+    <noscript><p data-i18n="Internal messages require JavaScript. Enable it to browse, send and acknowledge messages.">Internal messages require JavaScript. Enable it to browse, send and acknowledge messages.</p></noscript>
+</div>
+@section Scripts {
+    <script src="~/vendor/signalr/signalr.min.js" asp-append-version="true"></script>
+    <script src="~/js/farm-messaging.js" asp-append-version="true"></script>
+}

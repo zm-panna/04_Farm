@@ -1,0 +1,13 @@
+{
+  "source": "Smart_Farm_AI_ERP_Final_Development_NET10.zip",
+  "ui_files_modified": [
+    "EnterpriseERP.Web/Views/Shared/_Layout.cshtml",
+    "EnterpriseERP.Web/Views/Home/Index.cshtml",
+    "EnterpriseERP.Web/Views/Context/Index.cshtml",
+    "EnterpriseERP.Web/wwwroot/css/site.css"
+  ],
+  "figma_connection": "not available",
+  "dotnet_build": "not tested",
+  "sql_server": "not tested",
+  "iis": "not tested"
+}

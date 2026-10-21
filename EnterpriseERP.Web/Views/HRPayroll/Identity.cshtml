@@ -1,0 +1,12 @@
+@model EnterpriseERP.Web.Controllers.HRPayrollIdentityPage
+@{ViewData["Title"]="Link verified staff account";}
+<h1><span data-i18n="Verified account">Verified account</span>: @Model.Staff.Name</h1><partial name="_Nav" />
+@if(Model.Staff.HasIdentity){<p data-i18n="This staff record already has a verified identity link. Changing ownership requires a separately reviewed account-recovery procedure.">This staff record already has a verified identity link. Changing ownership requires a separately reviewed account-recovery procedure.</p>}
+else{
+<p data-i18n="This grants the selected account access to this staff member&#x27;s posted payslips and own leave. Only email-confirmed accounts already authorized for this company and branch are offered. No account or permission is created.">This grants the selected account access to this staff member's posted payslips and own leave. Only email-confirmed accounts already authorized for this company and branch are offered. No account or permission is created.</p>
+<form asp-action="LinkIdentity" asp-route-id="@Model.Staff.Id" method="post"><input type="hidden" name="revision" value="@Model.Staff.Revision" />
+<label asp-for="UserId" data-i18n="Verified account (exact ID)">Verified account (exact ID)</label><select asp-for="UserId" required><option value="" data-i18n="Select verified account">Select verified account</option>@foreach(var u in Model.Users){<option value="@u.Id">@u.Email · @u.Id</option>}</select>
+<label><input asp-for="Confirm" required  style="width:auto" /> <span data-i18n="I verified that this exact account belongs to">I verified that this exact account belongs to</span> @Model.Staff.Name <span data-i18n="and may access their payslips.">and may access their payslips.</span></label>
+<button class="primary" type="submit" data-i18n="Link account">Link account</button></form>
+@if(Model.Users.Count==0){<p data-i18n="No eligible accounts. Complete normal account verification and company/branch access before linking.">No eligible accounts. Complete normal account verification and company/branch access before linking.</p>}
+}

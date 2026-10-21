@@ -1,0 +1,27 @@
+@model EnterpriseERP.Web.Controllers.WorkspaceBrowseModel
+<div id="@Model.Anchor" class="workspace-browse">
+    <form method="get" action="@Model.Action#@Model.Anchor">
+        @foreach (var entry in Model.PreservedState)
+        {
+            <input type="hidden" name="@entry.Key" value="@entry.Value" />
+        }
+        <label for="@Model.SearchField" data-i18n="Search by reference">Search by reference</label>
+        <input id="@Model.SearchField" name="@Model.SearchField" value="@Model.Page.Search" maxlength="80" />
+        @if (Model.FilterField != null)
+        {
+            <label for="@Model.FilterField"><input id="@Model.FilterField" name="@Model.FilterField" type="checkbox" value="true" checked="@(Model.FilterValue ? "checked" : null)" /> <span data-i18n="@Model.FilterLabel">@Model.FilterLabel</span></label>
+        }
+        <button class="muted-btn" type="submit" data-i18n="Search records">Search records</button>
+    </form>
+    <p><span data-i18n="Page">Page</span> <bdi>@Model.Page.PageNumber</bdi> <span data-i18n="of">of</span> <bdi>@Model.Page.TotalPages</bdi> · <bdi>@Model.Page.TotalCount</bdi> <span data-i18n="matching records">matching records</span></p>
+    <nav>
+        @if (Model.Page.HasPrevious)
+        {
+            <a class="muted-btn" href="@Model.PageLink(Model.Page.PageNumber - 1)" data-i18n="Previous page">Previous page</a>
+        }
+        @if (Model.Page.HasNext)
+        {
+            <a class="muted-btn" href="@Model.PageLink(Model.Page.PageNumber + 1)" data-i18n="Next page">Next page</a>
+        }
+    </nav>
+</div>

@@ -1,0 +1,32 @@
+{
+  "reviewed_utc": "2026-10-19T05:21:24.291616+00:00",
+  "scope": "Four synthetic current Farm Summary PDF pages",
+  "browser_executed": false,
+  "native_speaker_acceptance": false,
+  "rendered_and_visually_inspected": [
+    {
+      "language": "en",
+      "pdf_sha256": "46d3ce29de845ccf0402586792164d494215c3466dd244b806475824ed2d9a8e",
+      "render": "farm-summary-en.png",
+      "pages": 1
+    },
+    {
+      "language": "bn",
+      "pdf_sha256": "a3f10591b8931fbde1dacf21be2d238a3a86ec449f13356923da3425a2ef46a5",
+      "render": "farm-summary-bn.png",
+      "pages": 1
+    },
+    {
+      "language": "banglish",
+      "pdf_sha256": "1d9ec14530283d525a1f7640622296f7be459b6bd19dab6ce4df236e9d1c616b",
+      "render": "farm-summary-banglish.png",
+      "pages": 1
+    },
+    {
+      "language": "ar",
+      "pdf_sha256": "e7c84c6d6d6987b1aa910f4c6bd4c15a292af29ebe65254196e530a97d799c0e",
+      "render": "farm-summary-ar.png",
+      "pages": 1
+    }
+  ]
+}

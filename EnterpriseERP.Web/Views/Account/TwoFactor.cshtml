@@ -1,0 +1,10 @@
+@model EnterpriseERP.Web.TwoFactorLoginInput
+@{ ViewData["Title"] = "Authenticator verification"; }
+<h1 data-i18n="Authenticator verification">Authenticator verification</h1>
+<div asp-validation-summary="All" role="alert"></div>
+<form asp-action="TwoFactor" method="post">@Html.AntiForgeryToken()
+ <input asp-for="ReturnUrl" type="hidden" />
+ <label><span data-i18n="Authenticator code">Authenticator code</span> <input name="Code" inputmode="numeric" maxlength="32" autocomplete="one-time-code" required /></label>
+ <button type="submit" data-i18n="Verify and sign in">Verify and sign in</button>
+</form>
+<p><a asp-action="RecoveryLogin" asp-route-returnUrl="@Model.ReturnUrl" data-i18n="Use a recovery code">Use a recovery code</a> · <a href="/Account/Login" data-i18n="Start again">Start again</a></p>

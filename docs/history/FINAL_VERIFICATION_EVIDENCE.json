@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-10-19",
+  "source_file_count": 227,
+  "project_count": 32,
+  "solution_manifest": true,
+  "migration_files": 0,
+  "dotnet_installed": false,
+  "sqlcmd_installed": false,
+  "iis_hosted": false,
+  "result": "BLOCKED_NOT_PRODUCTION_APPROVED"
+}

@@ -1,0 +1,177 @@
+{
+  "Choose the completed out-of-band email ownership check and explicitly confirm it. No email is sent by this application.": {
+    "bn": "এই অ্যাপ্লিকেশনের বাইরে সম্পন্ন করা ইমেইলের মালিকানা যাচাইয়ের পদ্ধতি বেছে নিন এবং তা স্পষ্টভাবে নিশ্চিত করুন। এই অ্যাপ্লিকেশন থেকে কোনো ইমেইল পাঠানো হয় না।",
+    "banglish": "Ei application-er baire shomponno kora email-er malikana jachaiyer poddhoti bechhe nin ebong ta sposhtobhabe nishchit korun. Ei application theke kono email pathano hoy na.",
+    "ar": "اختر طريقة التحقق من ملكية البريد الإلكتروني التي أكملتها خارج هذا التطبيق، وأكّد ذلك صراحةً. لا يرسل هذا التطبيق أي بريد إلكتروني."
+  },
+  "Completed verification method": {
+    "bn": "সম্পন্ন করা যাচাইয়ের পদ্ধতি",
+    "banglish": "Shomponno kora jachaiyer poddhoti",
+    "ar": "طريقة التحقق التي تم إكمالها"
+  },
+  "Current administrator password confirmation failed.": {
+    "bn": "বর্তমান প্রশাসকের পাসওয়ার্ড নিশ্চিত করা যায়নি।",
+    "banglish": "Bortoman proshashoker password nishchit kora jayni.",
+    "ar": "فشل تأكيد كلمة مرور المسؤول الحالي."
+  },
+  "Current administrator password confirmation is required.": {
+    "bn": "বর্তমান প্রশাসকের পাসওয়ার্ড নিশ্চিত করা আবশ্যক।",
+    "banglish": "Bortoman proshashoker password nishchit kora aboshshok.",
+    "ar": "يجب تأكيد كلمة مرور المسؤول الحالي."
+  },
+  "Email ownership not verified": {
+    "bn": "ইমেইলের মালিকানা যাচাই করা হয়নি",
+    "banglish": "Email-er malikana jachai kora hoyni",
+    "ar": "لم يتم التحقق من ملكية البريد الإلكتروني"
+  },
+  "Email ownership review": {
+    "bn": "ইমেইলের মালিকানা পর্যালোচনা",
+    "banglish": "Email-er malikana porjalochona",
+    "ar": "مراجعة ملكية البريد الإلكتروني"
+  },
+  "Email ownership verified": {
+    "bn": "ইমেইলের মালিকানা যাচাই করা হয়েছে",
+    "banglish": "Email-er malikana jachai kora hoyeche",
+    "ar": "تم التحقق من ملكية البريد الإلكتروني"
+  },
+  "Enter or select this policy value explicitly, including reviewed zero or No where applicable.": {
+    "bn": "এই নীতির মান স্পষ্টভাবে লিখুন বা নির্বাচন করুন। প্রযোজ্য ক্ষেত্রে পর্যালোচনা করে নির্ধারিত শূন্য বা না-ও স্পষ্টভাবে দিতে হবে।",
+    "banglish": "Ei nitir man sposhtobhabe likhun ba nirbachon korun. Projojyo khetre porjalochona kore nirdharito shunno ba na-o sposhtobhabe dite hobe.",
+    "ar": "أدخل قيمة هذه السياسة أو اخترها صراحةً، بما في ذلك صفر أو لا عند الاقتضاء وبعد المراجعة."
+  },
+  "Farm is outside the selected company.": {
+    "bn": "খামারটি নির্বাচিত কোম্পানির অন্তর্ভুক্ত নয়।",
+    "banglish": "Khamarti nirbachito company-r ontorbhukto noy.",
+    "ar": "المزرعة ليست ضمن الشركة المحددة."
+  },
+  "I completed the stated email ownership check for this exact account and accept responsibility for this recorded attestation.": {
+    "bn": "আমি এই নির্দিষ্ট অ্যাকাউন্টের জন্য উল্লিখিত ইমেইলের মালিকানা যাচাই সম্পন্ন করেছি এবং নথিভুক্ত এই প্রত্যয়নের দায়িত্ব গ্রহণ করছি।",
+    "banglish": "Ami ei nirdishto account-er jonno ullikhito email-er malikana jachai shomponno korechi ebong nothibhukto ei prottyoyoner dayitto grohon korchi.",
+    "ar": "أكملتُ التحقق المذكور من ملكية البريد الإلكتروني لهذا الحساب تحديدًا، وأتحمل مسؤولية هذا الإقرار المسجل."
+  },
+  "Lookup expired or belongs to a different administrator/company. Look up the email again.": {
+    "bn": "অনুসন্ধানের ফলাফলের মেয়াদ শেষ হয়েছে অথবা এটি অন্য প্রশাসক বা কোম্পানির জন্য। ইমেইলটি আবার অনুসন্ধান করুন।",
+    "banglish": "Onushondhaner folafoler meyad shesh hoyeche othoba eti onno proshashok ba company-r jonno. Email-ti abar onushondhan korun.",
+    "ar": "انتهت صلاحية نتيجة البحث أو أنها تخص مسؤولًا أو شركة أخرى. ابحث عن البريد الإلكتروني مجددًا."
+  },
+  "Mailbox control observed by reviewer": {
+    "bn": "পর্যালোচনাকারী মেইলবক্সের ওপর নিয়ন্ত্রণ প্রত্যক্ষ করেছেন",
+    "banglish": "Porjalochonakari mailbox-er opor niyontron prottyokkho korechen",
+    "ar": "عاين المراجع التحكم في صندوق البريد"
+  },
+  "Non-sensitive verification reference": {
+    "bn": "সংবেদনশীল তথ্যবিহীন যাচাইয়ের রেফারেন্স",
+    "banglish": "Shongbedonshil totthobihin jachaiyer reference",
+    "ar": "مرجع تحقق خالٍ من المعلومات الحساسة"
+  },
+  "NotApplicable": {
+    "bn": "প্রযোজ্য নয়",
+    "banglish": "Projojyo noy",
+    "ar": "لا ينطبق"
+  },
+  "Only a platform administrator may create companies, farms or branches.": {
+    "bn": "শুধু প্ল্যাটফর্ম প্রশাসক কোম্পানি, খামার বা শাখা তৈরি করতে পারেন।",
+    "banglish": "Shudhu platform proshashok company, khamar ba shakha toiri korte paren.",
+    "ar": "لا يجوز إنشاء شركات أو مزارع أو فروع إلا لمسؤول المنصة."
+  },
+  "Only accounts created in this company, with no other company or unauthorized branch access, can use this review.": {
+    "bn": "শুধু এই কোম্পানিতে তৈরি অ্যাকাউন্টের জন্য এই পর্যালোচনা ব্যবহার করা যাবে, যদি সেগুলোর অন্য কোনো কোম্পানিতে বা অনুমোদনবিহীন কোনো শাখায় প্রবেশাধিকার না থাকে।",
+    "banglish": "Shudhu ei company-te toiri account-er jonno ei porjalochona byabohar kora jabe, jodi shegulor onno kono company-te ba onumodonbihin kono shakhay probeshadhikar na thake.",
+    "ar": "لا يمكن استخدام هذه المراجعة إلا للحسابات المنشأة في هذه الشركة، والتي لا تملك صلاحية الوصول إلى أي شركة أخرى أو أي فرع غير مصرح به."
+  },
+  "Only use this after verifying mailbox ownership outside this application. No email challenge or SMTP delivery is performed here. Shared or privileged identities are not eligible.": {
+    "bn": "এই অ্যাপ্লিকেশনের বাইরে মেইলবক্সের মালিকানা যাচাই করার পরেই এটি ব্যবহার করুন। এখানে ইমেইলের মাধ্যমে কোনো যাচাই-চ্যালেঞ্জ বা SMTP ব্যবহার করে কোনো ইমেইল পাঠানো হয় না। যৌথভাবে ব্যবহৃত বা বিশেষাধিকারপ্রাপ্ত পরিচয়গুলো এর যোগ্য নয়।",
+    "banglish": "Ei application-er baire mailbox-er malikana jachai korar porei eti byabohar korun. Ekhane email-er maddhome kono jachai-challenge ba SMTP byabohar kore kono email pathano hoy na. Jouthobhabe byabohrito ba bisheshadhikarprapto porichoygulo er joggo noy.",
+    "ar": "لا تستخدم هذا الخيار إلا بعد التحقق من ملكية صندوق البريد خارج هذا التطبيق. لا يُجرى هنا أي تحدٍ للتحقق عبر البريد الإلكتروني ولا أي إرسال عبر SMTP. الهويات المشتركة أو ذات الامتيازات غير مؤهلة."
+  },
+  "Organization email challenge completed externally": {
+    "bn": "প্রতিষ্ঠানের ইমেইল যাচাই-চ্যালেঞ্জ এই অ্যাপ্লিকেশনের বাইরে সম্পন্ন হয়েছে",
+    "banglish": "Protishthaner email jachai-challenge ei application-er baire shomponno hoyeche",
+    "ar": "تم إكمال تحدي التحقق من البريد الإلكتروني الخاص بالمؤسسة خارج هذا التطبيق"
+  },
+  "Out-of-band email ownership review recorded. The account is eligible for separately confirmed staff/customer linking. This application sent no email.": {
+    "bn": "এই অ্যাপ্লিকেশনের বাইরে সম্পন্ন করা ইমেইলের মালিকানা পর্যালোচনা নথিভুক্ত হয়েছে। পৃথকভাবে নিশ্চিত করে অ্যাকাউন্টটিকে কর্মী বা গ্রাহকের সঙ্গে সংযুক্ত করা যাবে। এই অ্যাপ্লিকেশন কোনো ইমেইল পাঠায়নি।",
+    "banglish": "Ei application-er baire shomponno kora email-er malikana porjalochona nothibhukto hoyeche. Prithokbhabe nishchit kore account-tike kormi ba grahoker shonge shongjukto kora jabe. Ei application kono email pathayni.",
+    "ar": "تم تسجيل مراجعة ملكية البريد الإلكتروني المنجزة خارج هذا التطبيق. أصبح الحساب مؤهلًا للربط بموظف أو عميل بعد تأكيد منفصل. لم يرسل هذا التطبيق أي بريد إلكتروني."
+  },
+  "Privileged identities require the separately authorized account-recovery process.": {
+    "bn": "বিশেষাধিকারপ্রাপ্ত পরিচয়ের ক্ষেত্রে পৃথকভাবে অনুমোদিত অ্যাকাউন্ট পুনরুদ্ধার প্রক্রিয়া ব্যবহার করা আবশ্যক।",
+    "banglish": "Bisheshadhikarprapto porichoyer khetre prithokbhabe onumodito account punoruddhar prokriya byabohar kora aboshshok.",
+    "ar": "تتطلب الهويات ذات الامتيازات استخدام عملية استرداد الحساب المصرح بها بشكل منفصل."
+  },
+  "Record a review reference only. Do not enter passwords, identity documents or mailbox contents.": {
+    "bn": "শুধু পর্যালোচনার একটি রেফারেন্স নথিভুক্ত করুন। পাসওয়ার্ড, পরিচয়পত্র বা মেইলবক্সের বিষয়বস্তু লিখবেন না।",
+    "banglish": "Shudhu porjalochonar ekti reference nothibhukto korun. Password, porichoypotro ba mailbox-er bishoybostu likhben na.",
+    "ar": "سجّل مرجعًا للمراجعة فقط. لا تُدخل كلمات مرور أو وثائق هوية أو محتويات صندوق البريد."
+  },
+  "Record out-of-band verification": {
+    "bn": "অ্যাপ্লিকেশনের বাইরে সম্পন্ন যাচাই নথিভুক্ত করুন",
+    "banglish": "Application-er baire shomponno jachai nothibhukto korun",
+    "ar": "سجّل التحقق المنجز خارج التطبيق"
+  },
+  "Record verified ownership": {
+    "bn": "যাচাই করা মালিকানা নথিভুক্ত করুন",
+    "banglish": "Jachai kora malikana nothibhukto korun",
+    "ar": "سجّل الملكية المتحقق منها"
+  },
+  "Refresh the staff list before verifying this account.": {
+    "bn": "এই অ্যাকাউন্ট যাচাই করার আগে কর্মীদের তালিকা রিফ্রেশ করুন।",
+    "banglish": "Ei account jachai korar age kormider talika refresh korun.",
+    "ar": "حدّث قائمة الموظفين قبل التحقق من هذا الحساب."
+  },
+  "The account changed, is locked or already verified. Refresh and review its current state.": {
+    "bn": "অ্যাকাউন্টটি পরিবর্তিত হয়েছে, লক করা আছে অথবা ইতিমধ্যেই যাচাই করা হয়েছে। রিফ্রেশ করে এর বর্তমান অবস্থা পর্যালোচনা করুন।",
+    "banglish": "Account-ti poribortito hoyeche, lock kora ache othoba itimoddhei jachai kora hoyeche. Refresh kore er bortoman obostha porjalochona korun.",
+    "ar": "تغيّر الحساب أو أنه مقفل أو تم التحقق منه بالفعل. حدّث الصفحة وراجع حالته الحالية."
+  },
+  "The change could not be saved. Reload to check for a duplicate or changed record; no partial change was committed.": {
+    "bn": "পরিবর্তনটি সংরক্ষণ করা যায়নি। একই রেকর্ড আগে থেকেই আছে কি না অথবা রেকর্ডটি পরিবর্তিত হয়েছে কি না তা দেখতে পুনরায় লোড করুন; কোনো আংশিক পরিবর্তন সংরক্ষিত হয়নি।",
+    "banglish": "Poriborton-ti shongrokkhon kora jayni. Eki record age thekei ache ki na othoba record-ti poribortito hoyeche ki na ta dekhte punoray load korun; kono angshik poriborton shongrokkhito hoyni.",
+    "ar": "تعذر حفظ التغيير. أعد التحميل للتحقق من وجود سجل مكرر أو سجل تغيّر؛ لم يُحفظ أي تغيير جزئي."
+  },
+  "The payroll period must be one fully ended calendar month.": {
+    "bn": "বেতন হিসাবের সময়কাল অবশ্যই সম্পূর্ণ শেষ হওয়া একটি ক্যালেন্ডার মাস হতে হবে।",
+    "banglish": "Beton hisaber shomoykal oboshshoi shompurno shesh howa ekti calendar mash hote hobe.",
+    "ar": "يجب أن تكون فترة الرواتب شهرًا تقويميًا واحدًا انتهى بالكامل."
+  },
+  "This account is not eligible for scoped offline email verification.": {
+    "bn": "এই অ্যাকাউন্টটি নির্ধারিত অনুমোদনের সীমার মধ্যে অফলাইনে ইমেইল যাচাইয়ের যোগ্য নয়।",
+    "banglish": "Ei account-ti nirdharito onumodoner shimar moddhe offline-e email jachaiyer joggo noy.",
+    "ar": "هذا الحساب غير مؤهل للتحقق من البريد الإلكتروني خارج النظام ضمن نطاق الصلاحيات المحدد."
+  },
+  "This record changed. Reload and review the current version before trying again.": {
+    "bn": "এই রেকর্ডটি পরিবর্তিত হয়েছে। আবার চেষ্টা করার আগে পুনরায় লোড করে বর্তমান সংস্করণটি পর্যালোচনা করুন।",
+    "banglish": "Ei record-ti poribortito hoyeche. Abar cheshta korar age punoray load kore bortoman shongskoron-ti porjalochona korun.",
+    "ar": "تغيّر هذا السجل. أعد التحميل وراجع الإصدار الحالي قبل المحاولة مجددًا."
+  },
+  "You cannot revoke company-wide access while this account has branches outside your own authorized scope.": {
+    "bn": "এই অ্যাকাউন্টের শাখাগুলোর মধ্যে আপনার অনুমোদিত সীমার বাইরের কোনো শাখা থাকলে আপনি এর কোম্পানিজুড়ে প্রবেশাধিকার প্রত্যাহার করতে পারবেন না।",
+    "banglish": "Ei account-er shakhagulor moddhe apnar onumodito shimar bairer kono shakha thakle apni er company-jure probeshadhikar prottyahar korte parben na.",
+    "ar": "لا يمكنك إلغاء صلاحية الوصول على مستوى الشركة ما دام لهذا الحساب فروع خارج نطاق صلاحياتك المصرح بها."
+  },
+  "You cannot verify your own email ownership here.": {
+    "bn": "আপনি এখানে নিজের ইমেইলের মালিকানা যাচাই করতে পারবেন না।",
+    "banglish": "Apni ekhane nijer email-er malikana jachai korte parben na.",
+    "ar": "لا يمكنك التحقق من ملكية بريدك الإلكتروني هنا."
+  },
+  "You may provision staff only in branches you are authorized to use in this company.": {
+    "bn": "এই কোম্পানিতে আপনি কেবল যেসব শাখা ব্যবহারের অনুমতি পেয়েছেন, সেসব শাখাতেই কর্মীদের অ্যাকাউন্ট তৈরি ও প্রবেশাধিকার নির্ধারণ করতে পারবেন।",
+    "banglish": "Ei company-te apni kebol jeshob shakha byaboharer onumoti peyechhen, sheshob shakhatei kormider account toiri o probeshadhikar nirdharon korte parben.",
+    "ar": "لا يجوز لك إنشاء حسابات الموظفين ومنحهم صلاحيات الوصول إلا في الفروع المصرح لك باستخدامها في هذه الشركة."
+  },
+  "Your current password": {
+    "bn": "আপনার বর্তমান পাসওয়ার্ড",
+    "banglish": "Apnar bortoman password",
+    "ar": "كلمة مرورك الحالية"
+  },
+  "Enter a non-sensitive verification reference of 5–48 characters. Do not enter passwords, identity documents or mailbox contents.": {
+    "bn": "৫–৪৮ অক্ষরের একটি যাচাই-সংক্রান্ত রেফারেন্স লিখুন, যাতে সংবেদনশীল তথ্য নেই। পাসওয়ার্ড, পরিচয়পত্র বা মেইলবক্সের বিষয়বস্তু লিখবেন না।",
+    "banglish": "5-48 okkhorer ekti jachai-shongkranto reference likhun, jate shongbedonshil tottho nei. Password, porichoypotro ba mailbox-er bishoybostu likhben na.",
+    "ar": "أدخل مرجعًا للتحقق خاليًا من المعلومات الحساسة، يتكون من 5 إلى 48 حرف. لا تُدخل كلمات مرور أو وثائق هوية أو محتويات صندوق البريد."
+  },
+  "Use a shorter verification reference that fits the bounded audit record; no reference will be truncated.": {
+    "bn": "অডিট রেকর্ডের সীমার মধ্যে রাখা যায় এমন ছোট যাচাই রেফারেন্স দিন; কোনো রেফারেন্স কেটে ছোট করা হবে না।",
+    "banglish": "Audit record-er shimar moddhe rakha jay emon chhoto jachai reference din; kono reference kete chhoto kora hobe na.",
+    "ar": "استخدم مرجع تحقق أقصر يتسع له سجل التدقيق المحدود؛ لن يتم اقتطاع أي مرجع."
+  }
+}

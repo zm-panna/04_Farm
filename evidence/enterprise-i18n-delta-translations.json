@@ -1,0 +1,887 @@
+{
+  "0.5: half day": {
+    "bn": "০.৫: অর্ধদিন",
+    "banglish": "0.5: ordhodin",
+    "ar": "0.5: نصف يوم"
+  },
+  "0: unpaid day": {
+    "bn": "০: বিনা বেতনের দিন",
+    "banglish": "0: bina betoner din",
+    "ar": "0: يوم غير مدفوع"
+  },
+  "1: full paid day / paid rest": {
+    "bn": "১: পূর্ণ বেতনের দিন / বেতনসহ বিশ্রাম",
+    "banglish": "1: purno betoner din / betonshoho bishram",
+    "ar": "1: يوم مدفوع كامل / راحة مدفوعة"
+  },
+  "A different authorized reviewer is required. Attendance and leave cannot cover the same day.": {
+    "bn": "অন্য অনুমোদিত পর্যালোচক প্রয়োজন। একই দিনে উপস্থিতি ও ছুটি দুটোই হতে পারে না।",
+    "banglish": "Onno authorized reviewer lage. Ek dine attendance o leave dutoi hote pare na.",
+    "ar": "يلزم مراجع مخول آخر. لا يمكن تسجيل الحضور والإجازة لليوم نفسه."
+  },
+  "Accounting denomination:": {
+    "bn": "হিসাবের মুদ্রা:",
+    "banglish": "Hisaber mudra:",
+    "ar": "عملة المحاسبة:"
+  },
+  "Accounting posting date": {
+    "bn": "হিসাব পোস্টের তারিখ",
+    "banglish": "Hisab poster tarikh",
+    "ar": "تاريخ الترحيل المحاسبي"
+  },
+  "Actions": {
+    "bn": "করণীয়",
+    "banglish": "Koroniyo",
+    "ar": "الإجراءات"
+  },
+  "Active employee": {
+    "bn": "সক্রিয় কর্মী",
+    "banglish": "Shokriyo kormi",
+    "ar": "موظف نشط"
+  },
+  "Actual calendar days in the payroll month": {
+    "bn": "বেতন মাসের প্রকৃত ক্যালেন্ডার দিনসংখ্যা",
+    "banglish": "Payroll masher prokrito calendar dinshongkha",
+    "ar": "الأيام التقويمية الفعلية في شهر الرواتب"
+  },
+  "Add attendance": {
+    "bn": "উপস্থিতি যোগ করুন",
+    "banglish": "Attendance jog korun",
+    "ar": "إضافة حضور"
+  },
+  "Add staff": {
+    "bn": "কর্মী যোগ করুন",
+    "banglish": "Kormi jog korun",
+    "ar": "إضافة موظف"
+  },
+  "All listed staff": {
+    "bn": "তালিকার সব কর্মী",
+    "banglish": "Talikar shob kormi",
+    "ar": "جميع الموظفين المدرجين"
+  },
+  "Approve and lock currency": {
+    "bn": "অনুমোদন করে মুদ্রা স্থির করুন",
+    "banglish": "Approve kore mudra lock korun",
+    "ar": "اعتماد العملة وتثبيتها"
+  },
+  "Approve requested leave": {
+    "bn": "আবেদনকৃত ছুটি অনুমোদন",
+    "banglish": "Requested leave onumodon",
+    "ar": "اعتماد الإجازة المطلوبة"
+  },
+  "Approve reviewed payroll": {
+    "bn": "পর্যালোচিত বেতন অনুমোদন",
+    "banglish": "Reviewed payroll onumodon",
+    "ar": "اعتماد الرواتب المُراجعة"
+  },
+  "Approve tax policy": {
+    "bn": "করনীতি অনুমোদন",
+    "banglish": "Kor-niti onumodon",
+    "ar": "اعتماد السياسة الضريبية"
+  },
+  "Approve this policy version": {
+    "bn": "এই নীতির সংস্করণ অনুমোদন",
+    "banglish": "Ei policy version onumodon",
+    "ar": "اعتماد إصدار السياسة هذا"
+  },
+  "Approved company currency (three letters)": {
+    "bn": "কোম্পানির অনুমোদিত মুদ্রা (তিন অক্ষর)",
+    "banglish": "Approved company currency (tin okkhor)",
+    "ar": "عملة الشركة المعتمدة (ثلاثة أحرف)"
+  },
+  "Approved currency decimal places": {
+    "bn": "অনুমোদিত মুদ্রার দশমিক ঘর",
+    "banglish": "Approved currency decimal ghor",
+    "ar": "المنازل العشرية المعتمدة للعملة"
+  },
+  "Approved overtime hours": {
+    "bn": "অনুমোদিত অতিরিক্ত কাজের ঘণ্টা",
+    "banglish": "Approved overtime ghonta",
+    "ar": "ساعات العمل الإضافي المعتمدة"
+  },
+  "Approved paid leave days": {
+    "bn": "অনুমোদিত বেতনসহ ছুটির দিন",
+    "banglish": "Approved paid leave din",
+    "ar": "أيام الإجازة المدفوعة المعتمدة"
+  },
+  "Attendance": {
+    "bn": "উপস্থিতি",
+    "banglish": "Uposthiti",
+    "ar": "الحضور"
+  },
+  "Attendance basis / note": {
+    "bn": "উপস্থিতির ভিত্তি / নোট",
+    "banglish": "Attendance bhitti / note",
+    "ar": "أساس الحضور / ملاحظة"
+  },
+  "Attendance days": {
+    "bn": "উপস্থিতির দিন",
+    "banglish": "Attendance din",
+    "ar": "أيام الحضور"
+  },
+  "Base pay": {
+    "bn": "মূল বেতন",
+    "banglish": "Mul beton",
+    "ar": "الأجر الأساسي"
+  },
+  "Calculate payroll draft": {
+    "bn": "বেতনের খসড়া হিসাব করুন",
+    "banglish": "Payroll khoshra hisab korun",
+    "ar": "حساب مسودة الرواتب"
+  },
+  "Calculate reviewable draft": {
+    "bn": "পর্যালোচনাযোগ্য খসড়া হিসাব করুন",
+    "banglish": "Review-joggo khoshra hisab korun",
+    "ar": "حساب مسودة قابلة للمراجعة"
+  },
+  "Cap monthly paid units at the denominator": {
+    "bn": "মাসিক প্রদেয় একককে হরের মধ্যে সীমিত রাখুন",
+    "banglish": "Monthly paid unit denominator-er moddhe shimito rakhun",
+    "ar": "تحديد الوحدات المدفوعة الشهرية بحد أقصى يساوي المقام"
+  },
+  "Choose staff": {
+    "bn": "কর্মী নির্বাচন",
+    "banglish": "Kormi nirbachon",
+    "ar": "اختيار الموظف"
+  },
+  "Company policy versions": {
+    "bn": "কোম্পানি নীতির সংস্করণসমূহ",
+    "banglish": "Company policy version-shomuho",
+    "ar": "إصدارات سياسة الشركة"
+  },
+  "Contractual rate": {
+    "bn": "চুক্তিভিত্তিক হার",
+    "banglish": "Chuktibhittik har",
+    "ar": "المعدل التعاقدي"
+  },
+  "Country code (BD, US, AE, SA, etc.)": {
+    "bn": "দেশের কোড (BD, US, AE, SA ইত্যাদি)",
+    "banglish": "Desher code (BD, US, AE, SA ityadi)",
+    "ar": "رمز الدولة (BD، US، AE، SA وغيرها)"
+  },
+  "Created:": {
+    "bn": "তৈরি:",
+    "banglish": "Toiri:",
+    "ar": "أُنشئ:"
+  },
+  "Currency": {
+    "bn": "মুদ্রা",
+    "banglish": "Mudra",
+    "ar": "العملة"
+  },
+  "Currency / timezone": {
+    "bn": "মুদ্রা / সময় অঞ্চল",
+    "banglish": "Mudra / timezone",
+    "ar": "العملة / المنطقة الزمنية"
+  },
+  "Currency code": {
+    "bn": "মুদ্রার কোড",
+    "banglish": "Mudrar code",
+    "ar": "رمز العملة"
+  },
+  "Currency decimal places": {
+    "bn": "মুদ্রার দশমিক ঘর",
+    "banglish": "Mudrar decimal ghor",
+    "ar": "المنازل العشرية للعملة"
+  },
+  "Customer orders": {
+    "bn": "গ্রাহকের অর্ডার",
+    "banglish": "Grahoker order",
+    "ar": "طلبات العملاء"
+  },
+  "Daily": {
+    "bn": "দৈনিক",
+    "banglish": "Doinik",
+    "ar": "يومي"
+  },
+  "Daily rate": {
+    "bn": "দৈনিক হার",
+    "banglish": "Doinik har",
+    "ar": "المعدل اليومي"
+  },
+  "Deactivation retains attendance, leave, payroll and audit history. Dates cannot exclude recorded activity or change approved payroll.": {
+    "bn": "নিষ্ক্রিয় করলেও উপস্থিতি, ছুটি, বেতন ও নিরীক্ষার ইতিহাস থাকে। তারিখ পরিবর্তনে নথিভুক্ত কার্যক্রম বাদ দেওয়া বা অনুমোদিত বেতন বদলানো যাবে না।",
+    "banglish": "Deactivate korleo attendance,leave,payroll o audit history thake. Date bodle recorded activity bad ba approved payroll bodlano jabe na.",
+    "ar": "يحتفظ التعطيل بسجل الحضور والإجازات والرواتب والتدقيق. لا يجوز أن تستبعد التواريخ نشاطاً مسجلاً أو تغير رواتب معتمدة."
+  },
+  "Deduction": {
+    "bn": "কর্তন",
+    "banglish": "Korton",
+    "ar": "الاستقطاع"
+  },
+  "Deduction payable (different 2xxx)": {
+    "bn": "প্রদেয় কর্তন (ভিন্ন 2xxx)",
+    "banglish": "Deduction payable (onno 2xxx)",
+    "ar": "مستحقات الاستقطاع (حساب 2xxx مختلف)"
+  },
+  "Deductions": {
+    "bn": "কর্তনসমূহ",
+    "banglish": "Korton-shomuho",
+    "ar": "الاستقطاعات"
+  },
+  "E-commerce": {
+    "bn": "ই-কমার্স",
+    "banglish": "E-commerce",
+    "ar": "التجارة الإلكترونية"
+  },
+  "Edit / deactivate": {
+    "bn": "সম্পাদনা / নিষ্ক্রিয়",
+    "banglish": "Shompadona / nishkriyo",
+    "ar": "تعديل / تعطيل"
+  },
+  "Effective from": {
+    "bn": "কার্যকর শুরুর তারিখ",
+    "banglish": "Karjokor shurur tarikh",
+    "ar": "ساري من"
+  },
+  "Effective period": {
+    "bn": "কার্যকর সময়কাল",
+    "banglish": "Karjokor shomoykal",
+    "ar": "فترة السريان"
+  },
+  "Effective period / basis": {
+    "bn": "কার্যকর সময়কাল / ভিত্তি",
+    "banglish": "Karjokor shomoykal / bhitti",
+    "ar": "فترة السريان / الأساس"
+  },
+  "Effective through": {
+    "bn": "কার্যকর শেষ তারিখ",
+    "banglish": "Karjokor shesh tarikh",
+    "ar": "ساري حتى"
+  },
+  "Effective through (optional)": {
+    "bn": "কার্যকর শেষ তারিখ (ঐচ্ছিক)",
+    "banglish": "Karjokor shesh tarikh (oichchhik)",
+    "ar": "ساري حتى (اختياري)"
+  },
+  "Employee deduction % of gross": {
+    "bn": "মোট বেতনের ওপর কর্মীর কর্তন %",
+    "banglish": "Gross betoner upor kormir korton %",
+    "ar": "استقطاع الموظف % من الإجمالي"
+  },
+  "Employee payslip": {
+    "bn": "কর্মীর বেতনপত্র",
+    "banglish": "Kormir payslip",
+    "ar": "قسيمة راتب الموظف"
+  },
+  "Employee salary payable (2xxx)": {
+    "bn": "কর্মীর প্রদেয় বেতন (2xxx)",
+    "banglish": "Kormir salary payable (2xxx)",
+    "ar": "الراتب المستحق للموظف (2xxx)"
+  },
+  "Employer": {
+    "bn": "নিয়োগকর্তা",
+    "banglish": "Niyogkorta",
+    "ar": "صاحب العمل"
+  },
+  "Employer contribution": {
+    "bn": "নিয়োগকর্তার অবদান",
+    "banglish": "Niyogkortar obodan",
+    "ar": "مساهمة صاحب العمل"
+  },
+  "Employer contribution % of gross": {
+    "bn": "মোট বেতনের ওপর নিয়োগকর্তার অবদান %",
+    "banglish": "Gross betoner upor niyogkortar obodan %",
+    "ar": "مساهمة صاحب العمل % من الإجمالي"
+  },
+  "Employer contribution expense (6xxx)": {
+    "bn": "নিয়োগকর্তার অবদানের ব্যয় (6xxx)",
+    "banglish": "Niyogkortar contribution expense (6xxx)",
+    "ar": "مصروف مساهمة صاحب العمل (6xxx)"
+  },
+  "Employer contribution payable (different 2xxx)": {
+    "bn": "নিয়োগকর্তার প্রদেয় অবদান (ভিন্ন 2xxx)",
+    "banglish": "Niyogkortar contribution payable (onno 2xxx)",
+    "ar": "مساهمة صاحب العمل المستحقة (حساب 2xxx مختلف)"
+  },
+  "Employment": {
+    "bn": "চাকরি",
+    "banglish": "Chakri",
+    "ar": "التوظيف"
+  },
+  "Employment end (required when deactivating)": {
+    "bn": "চাকরির শেষ (নিষ্ক্রিয় করার সময় আবশ্যক)",
+    "banglish": "Chakrir shesh (deactivate korle aboshshok)",
+    "ar": "نهاية التوظيف (مطلوبة عند التعطيل)"
+  },
+  "Employment start": {
+    "bn": "চাকরির শুরু",
+    "banglish": "Chakrir shuru",
+    "ar": "بداية التوظيف"
+  },
+  "Every employment date in a payroll month needs one attendance entry or approved leave. Record contracted paid rest days as 1 paid day and unpaid days as 0. Approved or posted periods are locked.": {
+    "bn": "বেতন মাসে চাকরির প্রতিটি তারিখে একটি উপস্থিতি এন্ট্রি বা অনুমোদিত ছুটি প্রয়োজন। চুক্তিভিত্তিক বেতনসহ বিশ্রামের দিন ১ এবং বিনা বেতনের দিন ০ হিসেবে লিখুন। অনুমোদিত বা পোস্ট করা সময়কাল স্থির থাকে।",
+    "banglish": "Payroll mashe chakrir protiti date-e ek attendance ba approved leave lage. Contracted paid rest 1paid day o unpaid 0 din hishabe likhun. Approved ba posted period lock thake.",
+    "ar": "يلزم لكل تاريخ توظيف في شهر الرواتب سجل حضور واحد أو إجازة معتمدة. سجّل الراحة المدفوعة تعاقدياً كـ1 يوم مدفوع والأيام غير المدفوعة كـ0. تُقفل الفترات المعتمدة أو المرحّلة."
+  },
+  "Exact reviewed policy": {
+    "bn": "সুনির্দিষ্ট পর্যালোচিত নীতি",
+    "banglish": "Shunirdishto reviewed policy",
+    "ar": "السياسة المُراجعة المحددة"
+  },
+  "Exact reviewed replacement policy ID": {
+    "bn": "সুনির্দিষ্ট পর্যালোচিত প্রতিস্থাপন নীতির আইডি",
+    "banglish": "Exact reviewed replacement policy ID",
+    "ar": "معرّف سياسة الاستبدال المُراجعة المحددة"
+  },
+  "Exclusive, per-line percentage tax only. Rates are entered by an authorized reviewer. This does not determine tax jurisdiction, filing obligations, tax-inclusive pricing, compound taxes or foreign exchange.": {
+    "bn": "শুধু প্রতিটি লাইনে মূল্যের অতিরিক্ত শতকরা কর। অনুমোদিত পর্যালোচক হার দেন। এটি করের আইনক্ষেত্র, রিটার্নের বাধ্যবাধকতা, করসহ মূল্য, যৌগিক কর বা বৈদেশিক মুদ্রা নির্ধারণ করে না।",
+    "banglish": "Shudhu per-line exclusive percentage tax. Authorized reviewer rate den. Eti tax jurisdiction,filing,tax-inclusive price,compound tax ba FX nirdharon kore na.",
+    "ar": "ضريبة مئوية غير مشمولة بالسعر لكل سطر فقط. يُدخل المعدلات مراجع مخول. لا يحدد ذلك الاختصاص الضريبي أو التزامات الإقرار أو الأسعار الشاملة للضريبة أو الضرائب المركبة أو الصرف الأجنبي."
+  },
+  "Exempt": {
+    "bn": "অব্যাহতি",
+    "banglish": "Obbahoti",
+    "ar": "معفى"
+  },
+  "Existing amounts reviewed:": {
+    "bn": "বিদ্যমান পরিমাণ পর্যালোচিত:",
+    "banglish": "Existing amount reviewed:",
+    "ar": "المبالغ الحالية المُراجعة:"
+  },
+  "Explicit fixed paid units": {
+    "bn": "সুনির্দিষ্ট স্থির প্রদেয় একক",
+    "banglish": "Explicit fixed paid unit",
+    "ar": "وحدات مدفوعة ثابتة صريحة"
+  },
+  "Explicit percentage": {
+    "bn": "সুনির্দিষ্ট শতকরা হার",
+    "banglish": "Explicit percentage",
+    "ar": "نسبة مئوية صريحة"
+  },
+  "Fixed assets": {
+    "bn": "স্থায়ী সম্পদ",
+    "banglish": "Sthayi sompod",
+    "ar": "الأصول الثابتة"
+  },
+  "Fixed monthly paid units (zero for actual calendar days)": {
+    "bn": "স্থির মাসিক প্রদেয় একক (প্রকৃত ক্যালেন্ডার দিনের জন্য শূন্য)",
+    "banglish": "Fixed monthly paid unit (actual calendar day-er jonno zero)",
+    "ar": "وحدات مدفوعة شهرية ثابتة (صفر للأيام التقويمية الفعلية)"
+  },
+  "Full name": {
+    "bn": "পূর্ণ নাম",
+    "banglish": "Purno nam",
+    "ar": "الاسم الكامل"
+  },
+  "Gross pay": {
+    "bn": "মোট বেতন",
+    "banglish": "Mot beton",
+    "ar": "إجمالي الأجر"
+  },
+  "HR and payroll": {
+    "bn": "মানবসম্পদ ও বেতন",
+    "banglish": "Manobshompod o beton",
+    "ar": "الموارد البشرية والرواتب"
+  },
+  "I reviewed every employee amount, attendance, leave, rates and exact policy.": {
+    "bn": "প্রতিটি কর্মীর পরিমাণ, উপস্থিতি, ছুটি, হার ও সুনির্দিষ্ট নীতি পর্যালোচনা করেছি।",
+    "banglish": "Protiti kormir amount,attendance,leave,rate o exact policy review korechi.",
+    "ar": "راجعت مبلغ كل موظف وحضوره وإجازاته ومعدلاته والسياسة المحددة."
+  },
+  "I reviewed existing ledger, stock valuations, subscriptions and documents and confirm they already use this currency. No conversion is performed.": {
+    "bn": "বিদ্যমান খতিয়ান, মজুত মূল্যায়ন, সাবস্ক্রিপশন ও নথি পর্যালোচনা করে নিশ্চিত করছি এগুলো ইতিমধ্যে এই মুদ্রায় আছে। কোনো রূপান্তর হবে না।",
+    "banglish": "Existing ledger,stock valuation,subscription o document review kore nishchit korchi egulo agei ei mudray ache. Conversion hobe na.",
+    "ar": "راجعت الدفتر وتقييمات المخزون والاشتراكات والمستندات الحالية وأؤكد أنها تستخدم هذه العملة بالفعل. لا يُجرى تحويل."
+  },
+  "I reviewed the jurisdiction, daily/monthly pay, denominator, cap and leave basis, currency, effective dates, explicit rates and accounts.": {
+    "bn": "আইনক্ষেত্র, দৈনিক/মাসিক বেতন, হর, সীমা, ছুটির ভিত্তি, মুদ্রা, কার্যকর তারিখ, সুনির্দিষ্ট হার ও হিসাব পর্যালোচনা করেছি।",
+    "banglish": "Jurisdiction,daily/monthly pay,denominator,cap,leave basis,mudra,effective date,explicit rate o account review korechi.",
+    "ar": "راجعت الاختصاص والأجر اليومي/الشهري والمقام والحد وأساس الإجازة والعملة وتواريخ السريان والمعدلات والحسابات الصريحة."
+  },
+  "Job title": {
+    "bn": "পদবি",
+    "banglish": "Podobi",
+    "ar": "المسمى الوظيفي"
+  },
+  "Jurisdiction": {
+    "bn": "আইনক্ষেত্র",
+    "banglish": "Ain-khetro",
+    "ar": "الاختصاص القانوني"
+  },
+  "Jurisdiction / account": {
+    "bn": "আইনক্ষেত্র / অ্যাকাউন্ট",
+    "banglish": "Jurisdiction / account",
+    "ar": "الاختصاص / الحساب"
+  },
+  "Jurisdiction and reviewed basis for daily or monthly pay, proration, leave, deductions and employer contributions": {
+    "bn": "দৈনিক বা মাসিক বেতন, আনুপাতিক হিসাব, ছুটি, কর্তন ও নিয়োগকর্তার অবদানের আইনক্ষেত্র ও পর্যালোচিত ভিত্তি",
+    "banglish": "Daily/monthly pay,proration,leave,korton o employer contribution-er jurisdiction o reviewed basis",
+    "ar": "الاختصاص والأساس المُراجع للأجر اليومي أو الشهري والتوزيع النسبي والإجازة والاستقطاعات ومساهمات صاحب العمل"
+  },
+  "Leave requests and review": {
+    "bn": "ছুটির আবেদন ও পর্যালোচনা",
+    "banglish": "Chhutir abedon o review",
+    "ar": "طلبات الإجازة ومراجعتها"
+  },
+  "Leave review": {
+    "bn": "ছুটি পর্যালোচনা",
+    "banglish": "Chhuti review",
+    "ar": "مراجعة الإجازة"
+  },
+  "Link account": {
+    "bn": "অ্যাকাউন্ট সংযুক্ত করুন",
+    "banglish": "Account link korun",
+    "ar": "ربط الحساب"
+  },
+  "Month start (first day)": {
+    "bn": "মাসের শুরু (প্রথম দিন)",
+    "banglish": "Masher shuru (prothom din)",
+    "ar": "بداية الشهر (اليوم الأول)"
+  },
+  "Monthly": {
+    "bn": "মাসিক",
+    "banglish": "Mashik",
+    "ar": "شهري"
+  },
+  "Monthly base pay is salary multiplied by paid units and divided by the reviewed denominator. Daily policies ignore monthly controls.": {
+    "bn": "মাসিক মূল বেতন হলো মাসিক বেতনকে প্রদেয় একক দিয়ে গুণ করে পর্যালোচিত হর দিয়ে ভাগ। দৈনিক নীতিতে মাসিক নিয়ন্ত্রণ প্রযোজ্য নয়।",
+    "banglish": "Monthly base pay holo salary gun paid unit vag reviewed denominator. Daily policy-te monthly control projojjo noy.",
+    "ar": "الأجر الأساسي الشهري هو الراتب مضروباً في الوحدات المدفوعة ومقسوماً على المقام المُراجع. تتجاهل السياسات اليومية الضوابط الشهرية."
+  },
+  "Monthly proration denominator": {
+    "bn": "মাসিক আনুপাতিক হিসাবের হর",
+    "banglish": "Monthly proration denominator",
+    "ar": "مقام التوزيع النسبي الشهري"
+  },
+  "Monthly proration method / denominator / paid units used": {
+    "bn": "মাসিক আনুপাতিক পদ্ধতি / হর / ব্যবহৃত প্রদেয় একক",
+    "banglish": "Monthly proration method / denominator / used paid unit",
+    "ar": "طريقة التوزيع الشهري / المقام / الوحدات المدفوعة المستخدمة"
+  },
+  "Monthly salary": {
+    "bn": "মাসিক বেতন",
+    "banglish": "Mashik beton",
+    "ar": "الراتب الشهري"
+  },
+  "My employee portal": {
+    "bn": "আমার কর্মী পোর্টাল",
+    "banglish": "Amar employee portal",
+    "ar": "بوابة الموظف الخاصة بي"
+  },
+  "My leave requests": {
+    "bn": "আমার ছুটির আবেদন",
+    "banglish": "Amar chhutir abedon",
+    "ar": "طلبات إجازتي"
+  },
+  "My payslips and leave": {
+    "bn": "আমার বেতনপত্র ও ছুটি",
+    "banglish": "Amar payslip o chhuti",
+    "ar": "قسائم راتبي وإجازاتي"
+  },
+  "My posted payslips": {
+    "bn": "আমার পোস্ট করা বেতনপত্র",
+    "banglish": "Amar posted payslip",
+    "ar": "قسائم راتبي المرحّلة"
+  },
+  "Net payable": {
+    "bn": "নিট প্রদেয়",
+    "banglish": "Net prodeyo",
+    "ar": "صافي المستحق"
+  },
+  "Net salary payable": {
+    "bn": "নিট প্রদেয় বেতন",
+    "banglish": "Net salary payable",
+    "ar": "صافي الراتب المستحق"
+  },
+  "No approved accounting denomination. Existing amounts are unlabelled until their currency is explicitly reviewed; no default currency is assumed.": {
+    "bn": "অনুমোদিত হিসাবের মুদ্রা নেই। মুদ্রা স্পষ্টভাবে পর্যালোচনা না হওয়া পর্যন্ত বিদ্যমান পরিমাণে মুদ্রার নাম থাকবে না; কোনো ডিফল্ট মুদ্রা ধরা হয় না।",
+    "banglish": "Approved accounting currency nei. Currency explicitly review na howa porjonto existing amount unlabelled; default mudra dhora hoy na.",
+    "ar": "لا توجد عملة محاسبة معتمدة. تبقى المبالغ الحالية دون تسمية حتى تُراجع عملتها صراحةً؛ لا تُفترض عملة افتراضية."
+  },
+  "No eligible accounts. Complete normal account verification and company/branch access before linking.": {
+    "bn": "উপযুক্ত অ্যাকাউন্ট নেই। সংযোগের আগে স্বাভাবিক অ্যাকাউন্ট যাচাই ও কোম্পানি/শাখার প্রবেশাধিকার সম্পন্ন করুন।",
+    "banglish": "Eligible account nei. Link-er age normal account verification o company/branch access shesh korun.",
+    "ar": "لا توجد حسابات مؤهلة. أكمل التحقق المعتاد من الحساب وصلاحية الشركة/الفرع قبل الربط."
+  },
+  "No posted payslips on this page.": {
+    "bn": "এই পাতায় পোস্ট করা বেতনপত্র নেই।",
+    "banglish": "Ei patay posted payslip nei.",
+    "ar": "لا توجد قسائم راتب مرحّلة في هذه الصفحة."
+  },
+  "No staff match this filter.": {
+    "bn": "এই ফিল্টারে কোনো কর্মী পাওয়া যায়নি।",
+    "banglish": "Ei filter-e kormi pawa jayni.",
+    "ar": "لا يوجد موظفون يطابقون هذه التصفية."
+  },
+  "No statutory payroll rate is assumed. Daily and monthly pay are supported with an explicitly reviewed proration method. Paid rest days must be entered as paid attendance; no weekend or statutory rule is assumed. A qualified reviewer must confirm jurisdiction-specific treatment before use. Zero deductions also require explicit review. No claim of statutory filing or tax compliance is made.": {
+    "bn": "আইনগত বেতনের হার অনুমান করা হয়নি। স্পষ্টভাবে পর্যালোচিত আনুপাতিক পদ্ধতিতে দৈনিক ও মাসিক বেতন সমর্থিত। বেতনসহ বিশ্রামের দিন প্রদেয় উপস্থিতি হিসেবে দিতে হবে; সাপ্তাহিক ছুটি বা আইনগত নিয়ম অনুমান করা হয়নি। ব্যবহারের আগে যোগ্য পর্যালোচককে সংশ্লিষ্ট আইনক্ষেত্রের নিয়ম নিশ্চিত করতে হবে। শূন্য কর্তনেও স্পষ্ট পর্যালোচনা প্রয়োজন। আইনগত রিটার্ন বা কর সম্মতির দাবি করা হয়নি।",
+    "banglish": "Statutory payroll rate dhora hoyni. Reviewed proration-e daily/monthly pay ache. Paid rest day paid attendance dite hobe; weekend/statutory rule dhora hoyni. Qualified reviewer-ke jurisdiction-specific treatment age confirm korte hobe. Zero deduction-o explicit review chai. Filing ba tax compliance dabi nei.",
+    "ar": "لا يُفترض معدل رواتب نظامي. يُدعم الأجر اليومي والشهري بطريقة توزيع نسبي مُراجعة صراحةً. يجب تسجيل الراحة المدفوعة كحضور مدفوع؛ لا تُفترض عطلات أسبوعية أو قواعد نظامية. يجب أن يؤكد مراجع مؤهل المعالجة الخاصة بالاختصاص قبل الاستخدام. حتى الاستقطاعات الصفرية تتطلب مراجعة صريحة. لا يوجد ادعاء باستيفاء الإقرارات النظامية أو الامتثال الضريبي."
+  },
+  "Note": {
+    "bn": "নোট",
+    "banglish": "Note",
+    "ar": "ملاحظة"
+  },
+  "Only fully ended months are accepted. Complete attendance or approved leave for every calendar date within each person's employment. Paid rest days must be recorded as one paid day; unpaid days as zero. Resolve pending leave first.": {
+    "bn": "শুধু পুরোপুরি শেষ হওয়া মাস গ্রহণযোগ্য। প্রতিটি ব্যক্তির চাকরির প্রতিটি ক্যালেন্ডার তারিখে উপস্থিতি বা অনুমোদিত ছুটি পূরণ করুন। বেতনসহ বিশ্রাম এক প্রদেয় দিন এবং বিনা বেতনের দিন শূন্য লিখুন। আগে অপেক্ষমাণ ছুটি নিষ্পত্তি করুন।",
+    "banglish": "Shudhu fully ended month grohonjoggo. Chakrir protiti calendar date-e attendance ba approved leave din. Paid rest1paid day,unpaid zero din. Age pending leave resolve korun.",
+    "ar": "تُقبل الأشهر المنتهية بالكامل فقط. أكمل الحضور أو الإجازة المعتمدة لكل تاريخ تقويمي خلال توظيف كل شخص. سجّل الراحة المدفوعة كيوم مدفوع واحد والأيام غير المدفوعة كصفر. احسم الإجازات المعلقة أولاً."
+  },
+  "OutOfScope": {
+    "bn": "কর-পরিসরের বাইরে",
+    "banglish": "Kor scope-er baire",
+    "ar": "خارج النطاق الضريبي"
+  },
+  "Overtime hourly rate": {
+    "bn": "অতিরিক্ত কাজের ঘণ্টাপ্রতি হার",
+    "banglish": "Overtime ghontaproti har",
+    "ar": "معدل ساعة العمل الإضافي"
+  },
+  "Overtime hours": {
+    "bn": "অতিরিক্ত কাজের ঘণ্টা",
+    "banglish": "Overtime ghonta",
+    "ar": "ساعات العمل الإضافي"
+  },
+  "Overtime hours / rate": {
+    "bn": "অতিরিক্ত কাজের ঘণ্টা / হার",
+    "banglish": "Overtime ghonta / har",
+    "ar": "ساعات العمل الإضافي / المعدل"
+  },
+  "Overtime hours × hourly rate": {
+    "bn": "অতিরিক্ত কাজের ঘণ্টা × ঘণ্টাপ্রতি হার",
+    "banglish": "Overtime ghonta × ghontaproti har",
+    "ar": "ساعات العمل الإضافي × معدل الساعة"
+  },
+  "Overtime pay": {
+    "bn": "অতিরিক্ত কাজের বেতন",
+    "banglish": "Overtime beton",
+    "ar": "أجر العمل الإضافي"
+  },
+  "Paid attendance days": {
+    "bn": "প্রদেয় উপস্থিতির দিন",
+    "banglish": "Paid attendance din",
+    "ar": "أيام الحضور المدفوعة"
+  },
+  "Paid days": {
+    "bn": "প্রদেয় দিন",
+    "banglish": "Paid din",
+    "ar": "الأيام المدفوعة"
+  },
+  "Paid leave days": {
+    "bn": "বেতনসহ ছুটির দিন",
+    "banglish": "Paid leave din",
+    "ar": "أيام الإجازة المدفوعة"
+  },
+  "Pay basis": {
+    "bn": "বেতনের ভিত্তি",
+    "banglish": "Betoner bhitti",
+    "ar": "أساس الأجر"
+  },
+  "Pay basis / contractual rate": {
+    "bn": "বেতনের ভিত্তি / চুক্তিভিত্তিক হার",
+    "banglish": "Pay basis / contractual rate",
+    "ar": "أساس الأجر / المعدل التعاقدي"
+  },
+  "Pay basis for this branch payroll run": {
+    "bn": "এই শাখার বেতন কার্যক্রমের ভিত্তি",
+    "banglish": "Ei branch payroll run-er pay basis",
+    "ar": "أساس الأجر لدورة رواتب هذا الفرع"
+  },
+  "Pay rates": {
+    "bn": "বেতনের হার",
+    "banglish": "Betoner har",
+    "ar": "معدلات الأجر"
+  },
+  "Payroll policies": {
+    "bn": "বেতন নীতিসমূহ",
+    "banglish": "Payroll niti-shomuho",
+    "ar": "سياسات الرواتب"
+  },
+  "Payroll policy versions": {
+    "bn": "বেতন নীতির সংস্করণসমূহ",
+    "banglish": "Payroll policy version-shomuho",
+    "ar": "إصدارات سياسة الرواتب"
+  },
+  "Payroll register": {
+    "bn": "বেতন নিবন্ধন",
+    "banglish": "Beton nibondhon",
+    "ar": "سجل الرواتب"
+  },
+  "Payslip": {
+    "bn": "বেতনপত্র",
+    "banglish": "Payslip",
+    "ar": "قسيمة الراتب"
+  },
+  "Policy code": {
+    "bn": "নীতির কোড",
+    "banglish": "Policy code",
+    "ar": "رمز السياسة"
+  },
+  "Policy name / version description": {
+    "bn": "নীতির নাম / সংস্করণের বিবরণ",
+    "banglish": "Policy nam / version biboron",
+    "ar": "اسم السياسة / وصف الإصدار"
+  },
+  "Post approved payroll accrual": {
+    "bn": "অনুমোদিত বেতনের দায় পোস্ট করুন",
+    "banglish": "Approved payroll accrual post korun",
+    "ar": "ترحيل استحقاق الرواتب المعتمد"
+  },
+  "Posting records a liability and expense. It does not pay employees.": {
+    "bn": "পোস্ট করলে দায় ও ব্যয় নথিভুক্ত হয়। কর্মীদের টাকা দেওয়া হয় না।",
+    "banglish": "Post korle liability o expense record hoy. Kormider pay kora hoy na.",
+    "ar": "يسجل الترحيل التزاماً ومصروفاً. ولا يدفع للموظفين."
+  },
+  "Propose a new policy (Payroll.Policy)": {
+    "bn": "নতুন নীতি প্রস্তাব করুন (Payroll.Policy)",
+    "banglish": "Notun policy propose korun (Payroll.Policy)",
+    "ar": "اقتراح سياسة جديدة (Payroll.Policy)"
+  },
+  "Propose company policy": {
+    "bn": "কোম্পানি নীতি প্রস্তাব করুন",
+    "banglish": "Company policy propose korun",
+    "ar": "اقتراح سياسة الشركة"
+  },
+  "Propose sales tax policy": {
+    "bn": "বিক্রয়কর নীতি প্রস্তাব করুন",
+    "banglish": "Sales tax policy propose korun",
+    "ar": "اقتراح سياسة ضريبة المبيعات"
+  },
+  "Proration denominator / paid units used": {
+    "bn": "আনুপাতিক হিসাবের হর / ব্যবহৃত প্রদেয় একক",
+    "banglish": "Proration denominator / used paid unit",
+    "ar": "مقام التوزيع النسبي / الوحدات المدفوعة المستخدمة"
+  },
+  "Reason": {
+    "bn": "কারণ",
+    "banglish": "Karon",
+    "ar": "السبب"
+  },
+  "Reason / approved rate basis": {
+    "bn": "কারণ / অনুমোদিত হারের ভিত্তি",
+    "banglish": "Karon / approved rate basis",
+    "ar": "السبب / أساس المعدل المعتمد"
+  },
+  "Recalculate from current source records": {
+    "bn": "বর্তমান উৎস রেকর্ড থেকে পুনর্গণনা",
+    "banglish": "Current source record theke abar hisab",
+    "ar": "إعادة الحساب من سجلات المصدر الحالية"
+  },
+  "Reject": {
+    "bn": "প্রত্যাখ্যান",
+    "banglish": "Prottakhyan",
+    "ar": "رفض"
+  },
+  "Request leave": {
+    "bn": "ছুটির আবেদন",
+    "banglish": "Chhutir abedon",
+    "ar": "طلب إجازة"
+  },
+  "Request leave for staff (HR.Manage)": {
+    "bn": "কর্মীর জন্য ছুটির আবেদন (HR.Manage)",
+    "banglish": "Kormir jonno leave request (HR.Manage)",
+    "ar": "طلب إجازة للموظف (HR.Manage)"
+  },
+  "Request paid leave": {
+    "bn": "বেতনসহ ছুটির আবেদন",
+    "banglish": "Paid leave request",
+    "ar": "طلب إجازة مدفوعة"
+  },
+  "Requires Payroll.Rates permission. Enter the applicable daily rate or monthly salary, plus the reviewed overtime hourly rate. The selected payroll policy chooses the pay basis. Existing approved payslips retain their original rate snapshot.": {
+    "bn": "Payroll.Rates অনুমতি প্রয়োজন। প্রযোজ্য দৈনিক হার বা মাসিক বেতন ও পর্যালোচিত ঘণ্টাপ্রতি অতিরিক্ত কাজের হার দিন। নির্বাচিত বেতননীতি বেতনের ভিত্তি নির্ধারণ করে। বিদ্যমান অনুমোদিত বেতনপত্রে আগের হারের সংরক্ষিত তথ্য থাকে।",
+    "banglish": "Payroll.Rates permission lage. Daily rate ba monthly salary o reviewed overtime hourly rate din. Selected payroll policy pay basis bachhe. Approved payslip original rate snapshot rakhe.",
+    "ar": "تتطلب صلاحية Payroll.Rates. أدخل المعدل اليومي أو الراتب الشهري المناسب ومعدل ساعة العمل الإضافي المُراجع. تحدد سياسة الرواتب المختارة أساس الأجر. تحتفظ القسائم المعتمدة بلقطة معدلاتها الأصلية."
+  },
+  "Review basis": {
+    "bn": "পর্যালোচনার ভিত্তি",
+    "banglish": "Review bhitti",
+    "ar": "أساس المراجعة"
+  },
+  "Review basis / accountant approval reference": {
+    "bn": "পর্যালোচনার ভিত্তি / হিসাবরক্ষকের অনুমোদন রেফারেন্স",
+    "banglish": "Review basis / accountant approval reference",
+    "ar": "أساس المراجعة / مرجع اعتماد المحاسب"
+  },
+  "Reviewed source / exemption basis": {
+    "bn": "পর্যালোচিত উৎস / অব্যাহতির ভিত্তি",
+    "banglish": "Reviewed source / exemption basis",
+    "ar": "المصدر المُراجع / أساس الإعفاء"
+  },
+  "Reviewed:": {
+    "bn": "পর্যালোচিত:",
+    "banglish": "Reviewed:",
+    "ar": "تمت المراجعة:"
+  },
+  "Sales tax policy versions": {
+    "bn": "বিক্রয়কর নীতির সংস্করণসমূহ",
+    "banglish": "Sales tax policy version-shomuho",
+    "ar": "إصدارات سياسة ضريبة المبيعات"
+  },
+  "Save attendance": {
+    "bn": "উপস্থিতি সংরক্ষণ",
+    "banglish": "Attendance save",
+    "ar": "حفظ الحضور"
+  },
+  "Save reviewed rates": {
+    "bn": "পর্যালোচিত হার সংরক্ষণ",
+    "banglish": "Reviewed rate save",
+    "ar": "حفظ المعدلات المُراجعة"
+  },
+  "Save staff": {
+    "bn": "কর্মী সংরক্ষণ",
+    "banglish": "Kormi save",
+    "ar": "حفظ الموظف"
+  },
+  "Select explicitly": {
+    "bn": "স্পষ্টভাবে নির্বাচন করুন",
+    "banglish": "Explicitly nirbachon korun",
+    "ar": "اختر صراحةً"
+  },
+  "Select policy": {
+    "bn": "নীতি নির্বাচন",
+    "banglish": "Policy nirbachon",
+    "ar": "اختيار السياسة"
+  },
+  "Select verified account": {
+    "bn": "যাচাইকৃত অ্যাকাউন্ট নির্বাচন",
+    "banglish": "Verified account nirbachon",
+    "ar": "اختيار حساب متحقق منه"
+  },
+  "Staff": {
+    "bn": "কর্মী",
+    "banglish": "Kormi",
+    "ar": "الموظفون"
+  },
+  "Staff code": {
+    "bn": "কর্মীর কোড",
+    "banglish": "Kormir code",
+    "ar": "رمز الموظف"
+  },
+  "Staff directory": {
+    "bn": "কর্মীর তালিকা",
+    "banglish": "Kormir talika",
+    "ar": "دليل الموظفين"
+  },
+  "Staff filter": {
+    "bn": "কর্মী ফিল্টার",
+    "banglish": "Kormi filter",
+    "ar": "تصفية الموظفين"
+  },
+  "Staff records are branch-scoped. Compensation is available only through separately authorized payroll screens.": {
+    "bn": "কর্মীর রেকর্ড শাখাভিত্তিক। বেতনের তথ্য শুধু পৃথক অনুমতিপ্রাপ্ত payroll screen-এ পাওয়া যায়।",
+    "banglish": "Staff record branch-scoped. Compensation shudhu alada authorized payroll screen-e pawa jay.",
+    "ar": "سجلات الموظفين مقيدة بالفرع. لا تتاح التعويضات إلا عبر شاشات رواتب بصلاحيات منفصلة."
+  },
+  "Standard": {
+    "bn": "সাধারণ",
+    "banglish": "Shadharon",
+    "ar": "قياسي"
+  },
+  "State / region (required for US)": {
+    "bn": "স্টেট / অঞ্চল (USA-এর জন্য আবশ্যক)",
+    "banglish": "State / region (US-er jonno aboshshok)",
+    "ar": "الولاية / المنطقة (مطلوبة للولايات المتحدة)"
+  },
+  "Status / approval": {
+    "bn": "অবস্থা / অনুমোদন",
+    "banglish": "Obostha / approval",
+    "ar": "الحالة / الاعتماد"
+  },
+  "Submit for independent review": {
+    "bn": "স্বতন্ত্র পর্যালোচনার জন্য জমা দিন",
+    "banglish": "Independent review-er jonno joma din",
+    "ar": "إرسال للمراجعة المستقلة"
+  },
+  "Submit my leave request": {
+    "bn": "আমার ছুটির আবেদন জমা দিন",
+    "banglish": "Amar leave request joma din",
+    "ar": "إرسال طلب إجازتي"
+  },
+  "Submit policy for independent review": {
+    "bn": "স্বতন্ত্র পর্যালোচনার জন্য নীতি জমা দিন",
+    "banglish": "Independent review-er jonno policy joma din",
+    "ar": "إرسال السياسة للمراجعة المستقلة"
+  },
+  "Tax liability account (2xxx, except 2100)": {
+    "bn": "করদায়ের হিসাব (2xxx, 2100 ছাড়া)",
+    "banglish": "Tax liability account (2xxx,2100 chhara)",
+    "ar": "حساب الالتزام الضريبي (2xxx باستثناء 2100)"
+  },
+  "Tax treatment": {
+    "bn": "করের প্রয়োগ",
+    "banglish": "Tax treatment",
+    "ar": "المعالجة الضريبية"
+  },
+  "These settings record an accountant-reviewed policy. Country selection does not establish statutory compliance. Each company has one locked accounting currency; no foreign-exchange conversion occurs. Changes create new effective-dated versions and never rewrite posted documents. Payroll, sales tax, US state/local rules and each Arab country's requirements must be reviewed separately.": {
+    "bn": "এই সেটিংসে হিসাবরক্ষক-পর্যালোচিত নীতি নথিভুক্ত হয়। দেশ নির্বাচন আইনগত সম্মতি প্রতিষ্ঠা করে না। প্রতিটি কোম্পানির একটি স্থির হিসাবের মুদ্রা থাকে; বৈদেশিক মুদ্রা রূপান্তর হয় না। পরিবর্তনে নতুন কার্যকর-তারিখভিত্তিক সংস্করণ হয়, পোস্ট করা নথি বদলায় না। বেতন, বিক্রয়কর, USA-এর স্টেট/স্থানীয় বিধি ও প্রতিটি আরব দেশের নিয়ম আলাদাভাবে পর্যালোচনা করতে হবে।",
+    "banglish": "Ei settings accountant-reviewed policy record kore. Country bachhle statutory compliance proman hoy na. Proti company-r ek locked accounting currency; FX conversion nei. Change-e notun effective-dated version hoy,posted document bodlay na. Payroll,salestax,US state/local rule o protiti Arab desher niyom alada review chai.",
+    "ar": "تسجل هذه الإعدادات سياسة راجعها محاسب. اختيار الدولة لا يثبت الامتثال النظامي. لكل شركة عملة محاسبة واحدة ثابتة، دون تحويل عملات. تنشئ التغييرات إصدارات جديدة مؤرخة بالسريان ولا تعيد كتابة المستندات المرحّلة. يجب مراجعة الرواتب وضريبة المبيعات وقواعد الولايات والمحليات الأمريكية ومتطلبات كل دولة عربية على حدة."
+  },
+  "This creates a balanced wage/benefit expense and payable journal. Closed accounting periods are blocked. No bank transfer occurs.": {
+    "bn": "এটি মজুরি/সুবিধার ব্যয় ও প্রদেয় দায়ের সুষম জাবেদা তৈরি করে। বন্ধ হিসাবকাল নিষিদ্ধ। কোনো ব্যাংক স্থানান্তর হয় না।",
+    "banglish": "Eti wage/benefit expense o payable-er balanced journal toiri kore. Closed period blocked. Bank transfer hoy na.",
+    "ar": "ينشئ هذا قيداً متوازناً لمصروف الأجور/المزايا والمستحقات. تُمنع الفترات المحاسبية المغلقة. لا يحدث تحويل بنكي."
+  },
+  "This grants the selected account access to this staff member's posted payslips and own leave. Only email-confirmed accounts already authorized for this company and branch are offered. No account or permission is created.": {
+    "bn": "এতে নির্বাচিত অ্যাকাউন্ট কর্মীর পোস্ট করা বেতনপত্র ও নিজের ছুটিতে প্রবেশাধিকার পায়। শুধু ইমেইল-যাচাইকৃত এবং আগে থেকেই এই কোম্পানি ও শাখায় অনুমোদিত অ্যাকাউন্ট দেখানো হয়। নতুন অ্যাকাউন্ট বা অনুমতি তৈরি হয় না।",
+    "banglish": "Ete selected account staff-er posted payslip o own leave access pay. Shudhu email-confirmed o agei ei company/branch-authorized account dekhay. Notun account ba permission hoy na.",
+    "ar": "يمنح هذا الحساب المحدد الوصول إلى قسائم راتب الموظف المرحّلة وإجازاته الخاصة. تُعرض فقط الحسابات المؤكدة البريد والمصرح لها مسبقاً بالشركة والفرع. لا يُنشأ حساب أو تصريح جديد."
+  },
+  "This staff record already has a verified identity link. Changing ownership requires a separately reviewed account-recovery procedure.": {
+    "bn": "এই কর্মীর রেকর্ডে যাচাইকৃত পরিচয়ের সংযোগ আছে। মালিকানা বদলাতে পৃথক পর্যালোচিত অ্যাকাউন্ট পুনরুদ্ধার প্রক্রিয়া প্রয়োজন।",
+    "banglish": "Ei staff record-e verified identity link ache. Ownership bodlate alada reviewed account-recovery procedure lage.",
+    "ar": "يرتبط سجل الموظف هذا بالفعل بهوية متحقق منها. يتطلب تغيير الملكية إجراء استرداد حساب مُراجعاً بشكل منفصل."
+  },
+  "Through (inclusive)": {
+    "bn": "পর্যন্ত (অন্তর্ভুক্ত)",
+    "banglish": "Porjonto (ontorbhukto)",
+    "ar": "حتى (شاملاً)"
+  },
+  "Timezone identifier": {
+    "bn": "সময় অঞ্চলের পরিচিতি",
+    "banglish": "Timezone identifier",
+    "ar": "معرّف المنطقة الزمنية"
+  },
+  "Treatment / explicit rate": {
+    "bn": "প্রয়োগ / সুনির্দিষ্ট হার",
+    "banglish": "Treatment / explicit rate",
+    "ar": "المعالجة / المعدل الصريح"
+  },
+  "Unique payroll reference": {
+    "bn": "অনন্য বেতন রেফারেন্স",
+    "banglish": "Unique payroll reference",
+    "ar": "مرجع رواتب فريد"
+  },
+  "Update this date": {
+    "bn": "এই তারিখ হালনাগাদ করুন",
+    "banglish": "Ei tarikh update korun",
+    "ar": "تحديث هذا التاريخ"
+  },
+  "Use the current policy ID or a corrected independently reviewed policy covering this month.": {
+    "bn": "বর্তমান নীতির আইডি অথবা এই মাসের জন্য সংশোধিত স্বতন্ত্রভাবে পর্যালোচিত নীতি ব্যবহার করুন।",
+    "banglish": "Current policy ID ba ei masher corrected independently reviewed policy bebohar korun.",
+    "ar": "استخدم معرّف السياسة الحالية أو سياسة مصححة خضعت لمراجعة مستقلة وتغطي هذا الشهر."
+  },
+  "Verified account (exact ID)": {
+    "bn": "যাচাইকৃত অ্যাকাউন্ট (সঠিক আইডি)",
+    "banglish": "Verified account (exact ID)",
+    "ar": "حساب متحقق منه (المعرّف الدقيق)"
+  },
+  "Version": {
+    "bn": "সংস্করণ",
+    "banglish": "Version",
+    "ar": "الإصدار"
+  },
+  "View": {
+    "bn": "দেখুন",
+    "banglish": "Dekhun",
+    "ar": "عرض"
+  },
+  "Wage expense account (6xxx)": {
+    "bn": "মজুরি ব্যয়ের হিসাব (6xxx)",
+    "banglish": "Wage expense account (6xxx)",
+    "ar": "حساب مصروف الأجور (6xxx)"
+  },
+  "Without the cap, a fixed denominator smaller than paid units produces more than the monthly salary. Review this choice explicitly.": {
+    "bn": "সীমা না থাকলে প্রদেয় এককের চেয়ে ছোট স্থির হর মাসিক বেতনের বেশি পরিমাণ দেয়। এই সিদ্ধান্ত স্পষ্টভাবে পর্যালোচনা করুন।",
+    "banglish": "Cap na thakle paid unit-er cheye chhoto fixed denominator monthly salary-r beshi dey. Ei choice explicitly review korun.",
+    "ar": "دون الحد الأقصى، ينتج المقام الثابت الأقل من الوحدات المدفوعة مبلغاً يتجاوز الراتب الشهري. راجع هذا الاختيار صراحةً."
+  },
+  "decimal places. Locked after independent approval.": {
+    "bn": "দশমিক ঘর। স্বতন্ত্র অনুমোদনের পরে স্থির।",
+    "banglish": "Decimal ghor. Independent approval-er por locked.",
+    "ar": "منازل عشرية. تُقفل بعد الاعتماد المستقل."
+  }
+}

@@ -1,0 +1,20 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /Administration: HTTP 200
+FAIL Create fresh account using actual administration form
+Traceback (most recent call last):
+  File "/workspace/scratch/85a436f01071/farm_urgent/source/scripts/http-enterprise-onboarding.py", line 15, in <module>
+    f.check('Create fresh account using actual administration form',created.status==302)
+  File "/workspace/scratch/85a436f01071/farm_urgent/source/scripts/enterprise_http_fixture.py", line 25, in check
+    if not ok: raise AssertionError(name+': '+str(detail))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Create fresh account using actual administration form: 

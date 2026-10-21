@@ -1,0 +1,3 @@
+@model EnterpriseERP.Web.Controllers.FixedAssetActionError
+@{ViewData["Title"]="Fixed asset action needs review";}
+<section class="farm-workspace"><section class="panel"><h1 data-i18n="Review before retrying">Review before retrying</h1><p class="notice" role="alert">@Model.Message</p><a href="@Model.ReturnUrl" data-i18n="Open current record and review again">Open current record and review again</a></section></section>

@@ -1,0 +1,43 @@
+@model EnterpriseERP.Web.FatteningPage
+@{ ViewData["Title"] = "Fattening"; var tags = Model.Animals.ToDictionary(x => x.Id, x => x.Tag); }
+<div class="page-header"><div><span class="eyebrow" data-business-i18n="Animal growth &amp; recorded costs">Animal growth &amp; recorded costs</span><h1 data-i18n="Fattening">Fattening</h1><p class="subtle" data-i18n="Start a growth plan, record weights and review the margin on each animal.">Start a growth plan, record weights and review the margin on each animal.</p></div><a class="muted-btn" href="/Expenses" data-business-i18n="Record an expense">Record an expense</a></div>
+<div asp-validation-summary="All" class="notice" role="alert"></div>
+<div class="kpi-grid">
+<div class="kpi"><span class="kpi-head" data-business-i18n="Animals on plan">Animals on plan</span><strong>@Model.Results.Count(x => !x.Animal.Sold)</strong></div>
+<div class="kpi"><span class="kpi-head" data-business-i18n="Recorded animal cost">Recorded animal cost</span><strong>@Model.Results.Sum(x => x.RecordedCost).ToString("N3")</strong></div>
+<div class="kpi"><span class="kpi-head" data-business-i18n="Sold animals on plan">Sold animals on plan</span><strong>@Model.Results.Count(x => x.SaleAmount.HasValue)</strong></div>
+<div class="kpi"><span class="kpi-head" data-business-i18n="Realized margin before shared costs">Realized margin before shared costs</span><strong>@Model.Results.Where(x => x.RealizedMargin.HasValue).Sum(x => x.RealizedMargin!.Value).ToString("N3")</strong></div>
+</div>
+<section class="panel"><h2 data-business-i18n="Growth and cost register">Growth and cost register</h2><p class="subtle" data-i18n="Amounts use your configured accounting currency. Cost includes purchase cost, recorded feed issues and animal-linked expenses across the animal&#x27;s history. Shared overhead is excluded. Expected margin uses your estimate, and changes as costs are recorded.">Amounts use your configured accounting currency. Cost includes purchase cost, recorded feed issues and animal-linked expenses across the animal's history. Shared overhead is excluded. Expected margin uses your estimate, and changes as costs are recorded.</p>
+<div class="farm-table"><table class="data-table"><thead><tr><th data-business-i18n="Animal / plan">Animal / plan</th><th data-business-i18n="Weight progress">Weight progress</th><th data-business-i18n="Daily gain">Daily gain</th><th data-business-i18n="Target date">Target date</th><th data-business-i18n="Recorded cost">Recorded cost</th><th data-business-i18n="Sale / margin">Sale / margin</th></tr></thead><tbody>
+@foreach (var r in Model.Results) {
+<tr><td><strong>@r.Animal.Tag</strong><br/>@r.Plan.Reference<br/><span class="status" data-i18n="@(r.Animal.Sold ? "Sold" : "Active")">@(r.Animal.Sold ? "Sold" : "Active")</span></td><td>@r.Plan.InitialWeightKg.ToString("N3") → @r.CurrentWeightKg.ToString("N3") <span data-i18n="kg">kg</span><br/><span data-i18n="Target">Target</span> @r.Plan.TargetWeightKg.ToString("N3") <span data-i18n="kg">kg</span><br/><small><span data-i18n="Weighed">Weighed</span> @r.WeighedOn.ToString("yyyy-MM-dd")</small></td><td>@(r.DailyGainKg?.ToString("N3") ?? "—") <span data-i18n="kg/day">kg/day</span></td><td>@r.Plan.TargetDate.ToString("yyyy-MM-dd")</td><td>@r.RecordedCost.ToString("N3")<br/><small><span data-i18n="Feed">Feed</span> @r.FeedCost.ToString("N3") / <span data-i18n="Other">Other</span> @r.DirectExpenses.ToString("N3")</small></td><td>@if (r.SaleAmount.HasValue) { <span><span data-i18n="Actual sale">Actual sale</span> @r.SaleAmount.Value.ToString("N3")<br/><span data-i18n="Margin">Margin</span> @r.RealizedMargin!.Value.ToString("N3")</span> } else { <span><span data-i18n="Estimated sale">Estimated sale</span> @r.Plan.ExpectedSaleAmount.ToString("N3")<br/><span data-i18n="Expected margin">Expected margin</span> @r.ExpectedMargin.ToString("N3")</span> }</td></tr>
+}
+@if (Model.Results.Count == 0) { <tr><td colspan="6"><span data-i18n="No fattening plans yet. Start a plan for an active animal below.">No fattening plans yet. Start a plan for an active animal below.</span></td></tr> }
+</tbody></table></div></section>
+<div class="panels">
+<section class="panel"><h2 data-business-i18n="Start a fattening plan">Start a fattening plan</h2><p class="subtle" data-i18n="One plan per animal. The starting weight is added to its weight history.">One plan per animal. The starting weight is added to its weight history.</p>
+<form method="post" action="/Fattening/plan">@Html.AntiForgeryToken()
+<label asp-for="Plan.AnimalId" data-business-i18n="Animal">Animal</label><select asp-for="Plan.AnimalId" required><option value="" data-business-i18n="Select animal">Select animal</option>@foreach (var a in Model.Animals.Where(x => Model.Results.All(r => r.Animal.Id != x.Id))) { <option value="@a.Id">@a.Tag (@a.Breed)</option> }</select>
+<label asp-for="Plan.Reference" data-business-i18n="Unique reference">Unique reference</label><input asp-for="Plan.Reference" maxlength="85" required />
+<label asp-for="Plan.StartDate" data-business-i18n="Start date">Start date</label><input asp-for="Plan.StartDate" type="date" required />
+<label asp-for="Plan.InitialWeightKg" data-business-i18n="Starting weight (kg)">Starting weight (kg)</label><input asp-for="Plan.InitialWeightKg" type="number" min="0.001" max="5000" step="0.001" required />
+<label asp-for="Plan.TargetWeightKg" data-business-i18n="Target weight (kg)">Target weight (kg)</label><input asp-for="Plan.TargetWeightKg" type="number" min="0.001" max="5000" step="0.001" required />
+<label asp-for="Plan.TargetDate" data-business-i18n="Target date">Target date</label><input asp-for="Plan.TargetDate" type="date" required />
+<label asp-for="Plan.ExpectedSaleAmount" data-business-i18n="Expected sale amount">Expected sale amount</label><input asp-for="Plan.ExpectedSaleAmount" type="number" min="0" max="1000000000000" step="0.001" required />
+<button class="primary" type="submit" data-business-i18n="Start plan">Start plan</button></form></section>
+<section class="panel"><h2 data-business-i18n="Record a weight">Record a weight</h2><p class="subtle" data-i18n="One weight per animal per day. Backdated entries preserve the most recent current weight.">One weight per animal per day. Backdated entries preserve the most recent current weight.</p>
+<form method="post" action="/Fattening/weight">@Html.AntiForgeryToken()
+<label asp-for="Weight.AnimalId" data-business-i18n="Animal">Animal</label><select asp-for="Weight.AnimalId" required><option value="" data-business-i18n="Select animal">Select animal</option>@foreach (var a in Model.Animals) { <option value="@a.Id">@a.Tag (@a.Breed)</option> }</select>
+<label asp-for="Weight.Reference" data-business-i18n="Unique reference">Unique reference</label><input asp-for="Weight.Reference" maxlength="85" required />
+<label asp-for="Weight.WeighedOn" data-business-i18n="Weighing date">Weighing date</label><input asp-for="Weight.WeighedOn" type="date" required />
+<label asp-for="Weight.WeightKg" data-business-i18n="Weight (kg)">Weight (kg)</label><input asp-for="Weight.WeightKg" type="number" min="0.001" max="5000" step="0.001" required />
+<label asp-for="Weight.Notes" data-business-i18n="Notes">Notes</label><textarea asp-for="Weight.Notes" maxlength="1000" rows="3"></textarea>
+<button class="primary" type="submit" data-business-i18n="Save weight">Save weight</button></form></section>
+</div>
+<section class="panel"><h2 data-business-i18n="Latest 100 weight entries">Latest 100 weight entries</h2><div class="farm-table"><table class="data-table"><thead><tr><th data-business-i18n="Date">Date</th><th data-business-i18n="Animal">Animal</th><th data-business-i18n="Reference">Reference</th><th data-business-i18n="Weight (kg)">Weight (kg)</th><th data-business-i18n="Notes">Notes</th></tr></thead><tbody>
+@foreach (var w in Model.RecentWeights) { <tr><td>@w.WeighedOn.ToString("yyyy-MM-dd")</td><td>@(tags.GetValueOrDefault(w.AnimalId) ?? Model.Results.FirstOrDefault(x => x.Animal.Id == w.AnimalId)?.Animal.Tag ?? w.AnimalId.ToString())</td><td>@w.Reference</td><td>@w.WeightKg.ToString("N3")</td><td>@w.Notes</td></tr> }
+@if (Model.RecentWeights.Count == 0) { <tr><td colspan="5"><span data-i18n="No weights recorded.">No weights recorded.</span></td></tr> }
+</tbody></table></div></section>
+
+

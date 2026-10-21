@@ -1,0 +1,111 @@
+{
+  "completed_utc": "2026-10-19T05:18:00Z",
+  "scope": "Independent source review and clean frozen-source local verification; no staging or live approval",
+  "build": {
+    "configuration": "Release",
+    "warnings": 0,
+    "errors": 0,
+    "cold_build": true
+  },
+  "dotnet": {
+    "passed": 670,
+    "failed": 0,
+    "total": 670,
+    "independent_probes": 20,
+    "release_tests": 650,
+    "all_probes_passed": true,
+    "trx": "results/final-independent-all.trx"
+  },
+  "http": {
+    "passed": 855,
+    "failed": 0,
+    "suites": [
+      {
+        "suite": "http",
+        "passed": 407,
+        "failed": 0,
+        "status": "passed",
+        "evidence": "frozen/evidence/http/results.json",
+        "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee"
+      },
+      {
+        "suite": "http-enterprise-assets",
+        "passed": 75,
+        "failed": 0,
+        "status": "passed",
+        "evidence": "frozen/evidence/http-enterprise-assets/results.json",
+        "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee"
+      },
+      {
+        "suite": "http-enterprise-crm",
+        "passed": 77,
+        "failed": 0,
+        "status": "passed",
+        "evidence": "frozen/evidence/http-enterprise-crm/results.json",
+        "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee"
+      },
+      {
+        "suite": "http-enterprise-ecommerce",
+        "passed": 93,
+        "failed": 0,
+        "status": "passed",
+        "evidence": "frozen/evidence/http-enterprise-ecommerce/results.json",
+        "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee"
+      },
+      {
+        "suite": "http-enterprise-hr",
+        "passed": 117,
+        "failed": 0,
+        "status": "passed",
+        "evidence": "frozen/evidence/http-enterprise-hr/results.json",
+        "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee"
+      },
+      {
+        "suite": "http-enterprise-policy",
+        "passed": 86,
+        "failed": 0,
+        "status": "passed",
+        "evidence": "frozen/evidence/http-enterprise-policy/results.json",
+        "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee"
+      }
+    ],
+    "browser_executed": false,
+    "sql_server_executed": false
+  },
+  "javascript": {
+    "localization": 31,
+    "support": 8,
+    "security": 5,
+    "total_passed": 44
+  },
+  "migration": {
+    "model_drift": false,
+    "idempotent_sql_generated": true,
+    "sql_server_executed": false,
+    "script_sha256": "703bf18152f7348d5b46a37e8dfe3b8ba6c89c3e348efcc4324e8db3be40e6f0"
+  },
+  "runtime": {
+    "manifest_sha256": "b99b17a5ceb7c0e5cdd0de100d85b6b710fb855ec9c7778861958336fe349347",
+    "inputs": 383,
+    "all_match": true,
+    "post_test_changes": [],
+    "independent_dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee"
+  },
+  "open_source_findings": 0,
+  "unverified_live_gates": [
+    "Actual SQL Server migration/runtime, backup and rollback rehearsal",
+    "Windows PC and IIS hosting, TLS, networking and server permissions",
+    "Exact Arab country/countries, US state and approved statutory/tax/payroll policies",
+    "Native-speaker and actual-browser acceptance; customer UAT",
+    "Payment-provider integration and disbursement are outside implemented scope"
+  ],
+  "final_config_recheck": {
+    "change": "Unused Features.Ecommerce metadata flag false to true; no code reads it.",
+    "passed": 93,
+    "failed": 0,
+    "status": "passed",
+    "log": "results/http-ecommerce-final-config.log",
+    "included_in_total_http_count": true
+  },
+  "packaged_path_note": "Evidence paths in this copy are relative to evidence/independent; only path prefixes were normalized from the original independent report."
+}

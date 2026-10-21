@@ -1,0 +1,249 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-19T18:07:48.709584+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Administration",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create fresh account using actual administration form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual account form grants exactly the two selected operational permissions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "New account is unconfirmed until explicit ownership review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Administration",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Review names exact account and does not pretend to send SMTP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ownership mutation requires CSRF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ownership review requires explicit attestation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Wrong administrator password cannot verify target or leak attempted password",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Administration",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Another company cannot attest guessed target identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Scoped password-confirmed offline review verifies new account",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Complete compact offline audit fits SQL Server column and names method/reference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Replayed verification does not add review evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/staff",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create staff record without fixture-level identity mutation",
+      "passed": true,
+      "detail": "HTTP 302; []"
+    },
+    {
+      "check": "GET /HRPayroll/identity/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Newly reviewed account can be explicitly linked to own employee record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Parties",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create customer party through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/manage",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Newly reviewed account can be explicitly linked to own customer record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "New owner logs in with original unchanged password",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "New owner selects authorized company and branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/me",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Employee self-service is reachable after genuine onboarding flow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/cart",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Customer cart is reachable after genuine onboarding flow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Onboarding granted no posting or administration permission",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "4b534a62897989d2e08c464ce2a578793d564738c00bca0be55ee7f6d852d765",
+  "passed": 47,
+  "failed": 0,
+  "completed_utc": "2026-10-19T18:08:11.856943+00:00",
+  "status": "passed"
+}

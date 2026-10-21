@@ -1,0 +1,49 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS Shared gateway binary exists
+PASS Actual gateway and strict proxy backend ready
+PASS Direct backend without fixed proxy headers denied
+PASS Reserved management route blocked /_platform
+PASS Reserved management route blocked /_vault
+PASS Reserved management route blocked /v1/sys/health
+PASS Reserved management route blocked /v1/auth/token
+PASS Reserved management route blocked /v1/secret/data/apps/farm/runtime
+PASS Anonymous table API still401 through gateway
+PASS Anonymous hub negotiate still401 through gateway
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS Backend issued HttpOnly authentication cookie
+PASS GET /: HTTP 200
+PASS GET /Messaging: HTTP 200
+PASS GET /data/products: HTTP 200
+PASS GET /HRPayroll: HTTP 200
+PASS GET /CRM: HTTP 200
+PASS GET /fixed-assets: HTTP 200
+PASS GET /Ecommerce: HTTP 200
+PASS Local asset reachable through gateway /js/farm-server-tables.js
+PASS Local asset reachable through gateway /vendor/datatables/dataTables.min.js
+PASS Local asset reachable through gateway /vendor/signalr/signalr.min.js
+PASS Local asset reachable through gateway /css/farm-messaging.css
+PASS GET /Messaging: HTTP 200
+PASS Gateway preserves CSRF rejection
+PASS Authenticated SignalR negotiation
+PASS Real WebSocket SignalR JSON handshake
+PASS Gateway preserves valid CSRF and durable send
+PASS Gateway WebSocket delivers content-free hint
+PASS Cross-company message stays hidden through gateway
+PASS Owner fetch works through gateway
+PASS Authenticated server-side protocol works through gateway
+PASS Other-tenant filtered grid count remains isolated
+PASS Untrusted browser Origin denied at gateway
+PASS Spoofed forwarding and identity headers cannot change authority

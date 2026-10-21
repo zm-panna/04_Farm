@@ -1,0 +1,6 @@
+PASS Production defaults reject missing vault
+PASS Staging refuses disabled vault even explicit requirement opt-out
+PASS Production refuses synthetic vault
+PASS Legacy mode cannot silently opt out
+PASS Automatic trust-all forwarding is rejected
+PASS Wildcard gateway trust rejected

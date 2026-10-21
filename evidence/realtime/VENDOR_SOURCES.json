@@ -1,0 +1,51 @@
+[
+  {
+    "package": "datatables.net",
+    "version": "3.1.4",
+    "url": "https://registry.npmjs.org/datatables.net/-/datatables.net-3.1.4.tgz",
+    "integrity": "sha512-tnk14y/AOr0Z1d7avIUvCcOGgqZpeo7B6g6RQiycMQckEMq2FaaZTG1Q1xD6Kci5gpAvdjZInDmbscoiVSTyGw==",
+    "files": [
+      {
+        "path": "EnterpriseERP.Web/wwwroot/vendor/datatables/dataTables.min.js",
+        "sha256": "3697aa50f664ed48dc3cecd1e054c47978e6bade7cfd1ff91468cdad06e5d41d"
+      },
+      {
+        "path": "EnterpriseERP.Web/wwwroot/vendor/datatables/LICENSE.txt",
+        "sha256": "62b5fdd54371b4f6bd07a60dbc78b38814f49a8028213f540dc2733cad605382"
+      }
+    ]
+  },
+  {
+    "package": "datatables.net-dt",
+    "version": "3.1.4",
+    "url": "https://registry.npmjs.org/datatables.net-dt/-/datatables.net-dt-3.1.4.tgz",
+    "integrity": "sha512-HST6HmWEMr6SA6FM2SpYu2ko0In5nHjUb03Ocop2gsHLWoRP18sgVbehxUtRS3QZP4eHfU68ujs/gnzd0U2t9g==",
+    "files": [
+      {
+        "path": "EnterpriseERP.Web/wwwroot/vendor/datatables/dataTables.min.css",
+        "sha256": "156624d53bf9385a37f857fbc290361d4104d3536d30930fb86bce5cc0f19387"
+      },
+      {
+        "path": "EnterpriseERP.Web/wwwroot/vendor/datatables/CSS-LICENSE.txt",
+        "sha256": "62b5fdd54371b4f6bd07a60dbc78b38814f49a8028213f540dc2733cad605382"
+      }
+    ]
+  },
+  {
+    "package": "@microsoft/signalr",
+    "version": "10.0.11",
+    "url": "https://registry.npmjs.org/@microsoft/signalr/-/signalr-10.0.11.tgz",
+    "integrity": "sha512-FulOJ2EEtKvLQcswe/U7v8pzyXyk7Jua5xgWJPPwyQU/2Z9ORvKcVjyO75VvLsem+CJ1ORRexJ+7Bz1FCei2aw==",
+    "files": [
+      {
+        "path": "EnterpriseERP.Web/wwwroot/vendor/signalr/signalr.min.js",
+        "sha256": "97e9b97e642a72e5a470917147a2bf79f86cad829a5c6786adb10614d248bb95"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/dotnet/aspnetcore/v10.0.11/LICENSE.txt",
+      "path": "EnterpriseERP.Web/wwwroot/vendor/signalr/LICENSE.txt",
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310"
+    }
+  }
+]

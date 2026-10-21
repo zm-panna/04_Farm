@@ -1,0 +1,5 @@
+Test run for /workspace/scratch/85a436f01071/farm_scan/source/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: /workspace/scratch/85a436f01071/farm_scan/source/evidence/scanning/final/release-tests.trx
+
+Passed!  - Failed:     0, Passed:   923, Skipped:     0, Total:   923, Duration: 2 m 4 s - EnterpriseERP.UnitTests.dll (net10.0)

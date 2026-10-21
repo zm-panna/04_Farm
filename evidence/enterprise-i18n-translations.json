@@ -1,0 +1,1587 @@
+{
+  ". Select that customer to continue.": {
+    "bn": "। চালিয়ে যেতে ওই গ্রাহক নির্বাচন করুন।",
+    "banglish": ". Chaliye jete oi grahok nirbachon korun.",
+    "ar": ". اختر ذلك العميل للمتابعة."
+  },
+  "25 records per page": {
+    "bn": "প্রতি পাতায় ২৫টি রেকর্ড",
+    "banglish": "Proti patay 25ti record",
+    "ar": "25 سجلاً لكل صفحة"
+  },
+  "A cart does not reserve stock. Quotes expire after 30 minutes; refresh each quantity if prices or policies change.": {
+    "bn": "কার্টে রাখলে মজুত সংরক্ষিত হয় না। মূল্যপ্রস্তাবের মেয়াদ ৩০ মিনিট; মূল্য বা নীতি বদলালে প্রতিটি পরিমাণ হালনাগাদ করুন।",
+    "banglish": "Cart-e rakhle stock reserve hoy na. Quote-er meyad 30 minute; dam ba niti bodlale protiti poriman refresh korun.",
+    "ar": "السلة لا تحجز المخزون. تنتهي عروض الأسعار بعد 30 دقيقة؛ حدّث كل كمية إذا تغيرت الأسعار أو السياسات."
+  },
+  "A different user from the preparer must review the source evidence, policy, amounts and proposed journal.": {
+    "bn": "প্রস্তুতকারী ছাড়া অন্য ব্যবহারকারীকে উৎসপ্রমাণ, নীতি, অর্থের পরিমাণ ও প্রস্তাবিত জাবেদা যাচাই করতে হবে।",
+    "banglish": "Prostutkari chara onno user-ke utshoproman, niti, poriman o prostabito journal jachai korte hobe.",
+    "ar": "يجب أن يراجع مستخدم غير المُعد أدلة المصدر والسياسة والمبالغ والقيد المقترح."
+  },
+  "A new customer uses the recipient snapshot shown above. Choosing an existing customer preserves that customer's current contact details. Consent stays with the lead; no marketing permission is transferred.": {
+    "bn": "নতুন গ্রাহকের জন্য উপরের প্রাপকের তথ্যের সংরক্ষিত কপি ব্যবহৃত হবে। বিদ্যমান গ্রাহক বাছলে তার বর্তমান যোগাযোগের তথ্য অপরিবর্তিত থাকবে। সম্মতি লিডের সঙ্গেই থাকে; বিপণনের অনুমতি স্থানান্তর হয় না।",
+    "banglish": "Notun grahoker jonno uporer prapoker snapshot bebohar hobe. Existing grahok bachhle tar contact bodlabe na. Consent lead-er songe thake; marketing onumoti transfer hoy na.",
+    "ar": "يستخدم العميل الجديد لقطة بيانات المستلم أعلاه. اختيار عميل حالي يحفظ بيانات اتصاله الحالية. تبقى الموافقة مع العميل المحتمل ولا تُنقل صلاحية التسويق."
+  },
+  "AI Manager": {
+    "bn": "এআই ম্যানেজার",
+    "banglish": "AI Manager",
+    "ar": "مدير الذكاء الاصطناعي"
+  },
+  "Acceptance evidence": {
+    "bn": "গ্রহণের প্রমাণ",
+    "banglish": "Grohoner proman",
+    "ar": "دليل القبول"
+  },
+  "Accepted quote handoff": {
+    "bn": "গৃহীত মূল্যপ্রস্তাব হস্তান্তর",
+    "banglish": "Grihito quote hostantor",
+    "ar": "تسليم عرض السعر المقبول"
+  },
+  "Account issuer: Farm ERP. Use a 6-digit code, 30-second period and the app&#x27;s default SHA-1 algorithm.": {
+    "bn": "অ্যাকাউন্ট ইস্যুকারী: Farm ERP। ৬ অঙ্কের কোড, ৩০ সেকেন্ড সময়সীমা ও অ্যাপের ডিফল্ট SHA-1 অ্যালগরিদম ব্যবহার করুন।",
+    "banglish": "Account issuer: Farm ERP. 6 onker code, 30 second period o app-er default SHA-1 algorithm bebohar korun.",
+    "ar": "جهة إصدار الحساب: Farm ERP. استخدم رمزاً من 6 أرقام وفترة 30 ثانية وخوارزمية SHA-1 الافتراضية للتطبيق."
+  },
+  "Accumulated after": {
+    "bn": "পরবর্তী সঞ্চিত পরিমাণ",
+    "banglish": "Poroborti sonchito poriman",
+    "ar": "المتراكم بعد"
+  },
+  "Accumulated before": {
+    "bn": "পূর্ববর্তী সঞ্চিত পরিমাণ",
+    "banglish": "Purboborti sonchito poriman",
+    "ar": "المتراكم قبل"
+  },
+  "Accumulated depreciation": {
+    "bn": "সঞ্চিত অবচয়",
+    "banglish": "Sonchito obochoy",
+    "ar": "مجمع الإهلاك"
+  },
+  "Acquisition and approved estimates": {
+    "bn": "অধিগ্রহণ ও অনুমোদিত প্রাক্কলন",
+    "banglish": "Odhigrohon o onumodito prakkolon",
+    "ar": "الاقتناء والتقديرات المعتمدة"
+  },
+  "Acquisition carrying cost in company currency": {
+    "bn": "কোম্পানির মুদ্রায় অধিগ্রহণের হিসাবভুক্ত মূল্য",
+    "banglish": "Company-r mudray odhigrohoner hisabbhukto mullo",
+    "ar": "تكلفة الاقتناء الدفترية بعملة الشركة"
+  },
+  "Acquisition date": {
+    "bn": "অধিগ্রহণের তারিখ",
+    "banglish": "Odhigrohoner tarikh",
+    "ar": "تاريخ الاقتناء"
+  },
+  "Activities": {
+    "bn": "কার্যক্রম",
+    "banglish": "Karjokrom",
+    "ar": "الأنشطة"
+  },
+  "Activity reference": {
+    "bn": "কার্যক্রমের রেফারেন্স",
+    "banglish": "Karjokromer reference",
+    "ar": "مرجع النشاط"
+  },
+  "Activity title": {
+    "bn": "কার্যক্রমের শিরোনাম",
+    "banglish": "Karjokromer shironam",
+    "ar": "عنوان النشاط"
+  },
+  "Activity type": {
+    "bn": "কার্যক্রমের ধরন",
+    "banglish": "Karjokromer dhoron",
+    "ar": "نوع النشاط"
+  },
+  "All activities for this lead": {
+    "bn": "এই লিডের সব কার্যক্রম",
+    "banglish": "Ei lead-er shob karjokrom",
+    "ar": "جميع أنشطة هذا العميل المحتمل"
+  },
+  "All opportunities for this lead": {
+    "bn": "এই লিডের সব বিক্রয়-সুযোগ",
+    "banglish": "Ei lead-er shob bikroy-sujog",
+    "ar": "جميع فرص هذا العميل المحتمل"
+  },
+  "All quotes for this lead": {
+    "bn": "এই লিডের সব মূল্যপ্রস্তাব",
+    "banglish": "Ei lead-er shob quote",
+    "ar": "جميع عروض أسعار هذا العميل المحتمل"
+  },
+  "All statuses": {
+    "bn": "সব অবস্থা",
+    "banglish": "Shob obostha",
+    "ar": "جميع الحالات"
+  },
+  "Amounts use your configured accounting currency. Cost includes purchase cost, recorded feed issues and animal-linked expenses across the animal&#x27;s history. Shared overhead is excluded. Expected margin uses your estimate, and changes as costs are recorded.": {
+    "bn": "পরিমাণে নির্ধারিত হিসাবের মুদ্রা ব্যবহৃত হয়। ব্যয়ে পশুর ক্রয়মূল্য, নথিভুক্ত খাদ্য ব্যবহার ও পশু-সংযুক্ত ঐতিহাসিক খরচ থাকে। যৌথ পরোক্ষ ব্যয় বাদ থাকে। প্রত্যাশিত মার্জিন আপনার প্রাক্কলনভিত্তিক এবং খরচ যোগ হলে বদলায়।",
+    "banglish": "Porimane nirdharito hisaber mudra bebohar hoy. Khoroce poshur kroy-mullo, recorded feed o poshu-linked itihasher khoroch thake. Shared overhead bad. Expected margin apnar estimate onujayi, khoroch jog hole bodlay.",
+    "ar": "تُستخدم عملة المحاسبة المحددة. تشمل التكلفة سعر الشراء وصرف الأعلاف المسجل والمصروفات المرتبطة بالحيوان عبر تاريخه، دون المصروفات العامة المشتركة. يعتمد الهامش المتوقع على تقديرك ويتغير مع تسجيل التكاليف."
+  },
+  "Approve internal quote snapshot": {
+    "bn": "অভ্যন্তরীণ মূল্যপ্রস্তাবের সংরক্ষিত কপি অনুমোদন",
+    "banglish": "Internal quote snapshot onumodon",
+    "ar": "اعتماد لقطة عرض السعر الداخلي"
+  },
+  "Approve order": {
+    "bn": "অর্ডার অনুমোদন",
+    "banglish": "Order onumodon",
+    "ar": "اعتماد الطلب"
+  },
+  "Approve reviewed record": {
+    "bn": "পর্যালোচিত রেকর্ড অনুমোদন",
+    "banglish": "Porjalochito record onumodon",
+    "ar": "اعتماد السجل المُراجع"
+  },
+  "Approved tax policy": {
+    "bn": "অনুমোদিত করনীতি",
+    "banglish": "Onumodito kor-niti",
+    "ar": "السياسة الضريبية المعتمدة"
+  },
+  "Asset": {
+    "bn": "সম্পদ",
+    "banglish": "Sompod",
+    "ar": "الأصل"
+  },
+  "Asset details": {
+    "bn": "সম্পদের বিবরণ",
+    "banglish": "Sompoder biboron",
+    "ar": "تفاصيل الأصل"
+  },
+  "Asset register": {
+    "bn": "সম্পদ নিবন্ধন",
+    "banglish": "Sompod nibondhon",
+    "ar": "سجل الأصول"
+  },
+  "Available": {
+    "bn": "উপলব্ধ",
+    "banglish": "Upolobdho",
+    "ar": "متاح"
+  },
+  "Back to catalog": {
+    "bn": "ক্যাটালগে ফিরুন",
+    "banglish": "Catalog-e firun",
+    "ar": "العودة إلى الكتالوج"
+  },
+  "Back to orders": {
+    "bn": "অর্ডারসমূহে ফিরুন",
+    "banglish": "Order-shomuhe firun",
+    "ar": "العودة إلى الطلبات"
+  },
+  "Book value": {
+    "bn": "বইমূল্য",
+    "banglish": "Boi-mullo",
+    "ar": "القيمة الدفترية"
+  },
+  "Book value after": {
+    "bn": "পরবর্তী বইমূল্য",
+    "banglish": "Poroborti boi-mullo",
+    "ar": "القيمة الدفترية بعد"
+  },
+  "Branch collection": {
+    "bn": "শাখা থেকে সংগ্রহ",
+    "banglish": "Shakha theke songroho",
+    "ar": "الاستلام من الفرع"
+  },
+  "Branch collection only. Payments are manually verified outside checkout; no card is charged here.": {
+    "bn": "শুধু শাখা থেকে সংগ্রহ। চেকআউটের বাইরে অর্থপ্রদান হাতে যাচাই করা হয়; এখানে কার্ড থেকে টাকা কাটা হয় না।",
+    "banglish": "Shudhu shakha theke songroho. Checkout-er baire payment hate jachai hoy; ekhane card charge hoy na.",
+    "ar": "الاستلام من الفرع فقط. تُتحقق المدفوعات يدوياً خارج إتمام الطلب؛ لا تُخصم أي مبالغ من البطاقة هنا."
+  },
+  "Business policies": {
+    "bn": "ব্যবসায়িক নীতিসমূহ",
+    "banglish": "Beboshayik nitishomuho",
+    "ar": "سياسات الأعمال"
+  },
+  "Business policy": {
+    "bn": "ব্যবসায়িক নীতি",
+    "banglish": "Beboshayik niti",
+    "ar": "سياسة الأعمال"
+  },
+  "Business policy version": {
+    "bn": "ব্যবসায়িক নীতির সংস্করণ",
+    "banglish": "Beboshayik nitir version",
+    "ar": "إصدار سياسة الأعمال"
+  },
+  "Buyer / disposal recipient": {
+    "bn": "ক্রেতা / নিষ্পত্তির প্রাপক",
+    "banglish": "Kreta / nishpottir prapok",
+    "ar": "المشتري / مستلم الأصل المستبعد"
+  },
+  "CRM": {
+    "bn": "গ্রাহক সম্পর্ক ব্যবস্থাপনা",
+    "banglish": "Grahok shomporko bebosthapona",
+    "ar": "إدارة علاقات العملاء"
+  },
+  "CRM records internal work only. No emails, messages, stock reservations, sales invoices or ledger postings are created automatically.": {
+    "bn": "CRM শুধু অভ্যন্তরীণ কাজ নথিভুক্ত করে। ইমেইল, বার্তা, মজুত সংরক্ষণ, বিক্রয় চালান বা খতিয়ান পোস্ট স্বয়ংক্রিয়ভাবে হয় না।",
+    "banglish": "CRM shudhu internal kaj record kore. Email, message, stock reservation, sales invoice ba ledger post automatic hoy na.",
+    "ar": "يسجل CRM العمل الداخلي فقط. لا ينشئ تلقائياً رسائل أو حجوزات مخزون أو فواتير مبيعات أو قيود دفترية."
+  },
+  "Calculate and save preview": {
+    "bn": "হিসাব করে প্রাকদর্শন সংরক্ষণ",
+    "banglish": "Hisab kore preview songrokkhon",
+    "ar": "حساب المعاينة وحفظها"
+  },
+  "Call": {
+    "bn": "কল",
+    "banglish": "Call",
+    "ar": "مكالمة"
+  },
+  "Cancel and release stock": {
+    "bn": "বাতিল করে মজুত মুক্ত করুন",
+    "banglish": "Batil kore stock mukto korun",
+    "ar": "إلغاء وتحرير المخزون"
+  },
+  "Cancel quote": {
+    "bn": "মূল্যপ্রস্তাব বাতিল",
+    "banglish": "Quote batil",
+    "ar": "إلغاء عرض السعر"
+  },
+  "Cancel this unposted record": {
+    "bn": "এই পোস্ট না করা রেকর্ড বাতিল",
+    "banglish": "Ei unposted record batil",
+    "ar": "إلغاء هذا السجل غير المرحّل"
+  },
+  "Cancel unposted draft": {
+    "bn": "পোস্ট না করা খসড়া বাতিল",
+    "banglish": "Unposted khoshra batil",
+    "ar": "إلغاء المسودة غير المرحّلة"
+  },
+  "Cancel without saving": {
+    "bn": "সংরক্ষণ না করে বাতিল",
+    "banglish": "Save na kore batil",
+    "ar": "إلغاء دون حفظ"
+  },
+  "Cancellation reason": {
+    "bn": "বাতিলের কারণ",
+    "banglish": "Batiler karon",
+    "ar": "سبب الإلغاء"
+  },
+  "Cash / bank received (1000)": {
+    "bn": "নগদ / ব্যাংকে প্রাপ্ত (1000)",
+    "banglish": "Nogod / bank-e prapto (1000)",
+    "ar": "نقد / بنك مستلم (1000)"
+  },
+  "Cash / bank recorded (1000)": {
+    "bn": "নগদ / ব্যাংকে নথিভুক্ত (1000)",
+    "banglish": "Nogod / bank-e nothibhukto (1000)",
+    "ar": "نقد / بنك مسجل (1000)"
+  },
+  "Charge": {
+    "bn": "চার্জ",
+    "banglish": "Charge",
+    "ar": "الرسم"
+  },
+  "Choose explicitly": {
+    "bn": "স্পষ্টভাবে নির্বাচন করুন",
+    "banglish": "Spashtobhabe nirbachon korun",
+    "ar": "اختر صراحةً"
+  },
+  "Clear filters": {
+    "bn": "ফিল্টার মুছুন",
+    "banglish": "Filter muchhun",
+    "ar": "مسح عوامل التصفية"
+  },
+  "Close activity": {
+    "bn": "কার্যক্রম বন্ধ করুন",
+    "banglish": "Karjokrom bondho korun",
+    "ar": "إغلاق النشاط"
+  },
+  "Close as": {
+    "bn": "যে অবস্থায় বন্ধ হবে",
+    "banglish": "Je obosthay bondho hobe",
+    "ar": "الإغلاق بصفة"
+  },
+  "Collect from the selected branch after staff approval. There is no delivery charge. Payment stays pending and unverified; this checkout does not charge you. You can cancel before fulfillment. Staff must review returned goods before recording any return or refund.": {
+    "bn": "কর্মীর অনুমোদনের পরে নির্বাচিত শাখা থেকে সংগ্রহ করুন। ডেলিভারি চার্জ নেই। অর্থপ্রদান অপেক্ষমাণ ও অযাচাইকৃত থাকে; এই চেকআউটে টাকা কাটা হয় না। সরবরাহের আগে বাতিল করতে পারবেন। ফেরত বা অর্থফেরত নথিভুক্তির আগে কর্মীকে ফেরত পণ্য যাচাই করতে হবে।",
+    "banglish": "Staff approval-er por nirbachito shakha theke nin. Delivery charge nei. Payment pending o unverified thake; checkout taka kate na. Fulfillment-er age batil kora jay. Return/refund record-er age staff-ke ferot ponno jachai korte hobe.",
+    "ar": "استلم من الفرع المحدد بعد موافقة الموظف. لا توجد رسوم توصيل. يبقى الدفع معلقاً وغير متحقق؛ لا يخصم إتمام الطلب مالاً. يمكنك الإلغاء قبل التنفيذ. يجب فحص البضائع المرتجعة قبل تسجيل أي إرجاع أو رد مبلغ."
+  },
+  "Company settings": {
+    "bn": "কোম্পানির সেটিংস",
+    "banglish": "Company-r settings",
+    "ar": "إعدادات الشركة"
+  },
+  "Completed month-end date": {
+    "bn": "সম্পন্ন মাসের শেষ তারিখ",
+    "banglish": "Shomponno masher shesh tarikh",
+    "ar": "تاريخ نهاية الشهر المكتمل"
+  },
+  "Completion / cancellation note": {
+    "bn": "সম্পন্ন / বাতিলের নোট",
+    "banglish": "Shomponno / batiler note",
+    "ar": "ملاحظة الإكمال / الإلغاء"
+  },
+  "Completion record": {
+    "bn": "সমাপ্তির রেকর্ড",
+    "banglish": "Shomaptir record",
+    "ar": "سجل الإكمال"
+  },
+  "Confirm order": {
+    "bn": "অর্ডার নিশ্চিত করুন",
+    "banglish": "Order nishchit korun",
+    "ar": "تأكيد الطلب"
+  },
+  "Consent changes are retained with actor, time and evidence. No permission to send is inferred from Unknown.": {
+    "bn": "সম্মতির পরিবর্তনে পরিবর্তনকারী, সময় ও প্রমাণ রাখা হয়। অজানা অবস্থা থেকে বার্তা পাঠানোর অনুমতি ধরে নেওয়া হয় না।",
+    "banglish": "Consent bodlale actor, shomoy o proman rakha hoy. Unknown theke pathanor onumoti dhora hoy na.",
+    "ar": "تُحفظ تغييرات الموافقة مع المنفذ والوقت والدليل. لا تُستنتج صلاحية الإرسال من حالة «غير معروف»."
+  },
+  "Consent history": {
+    "bn": "সম্মতির ইতিহাস",
+    "banglish": "Consent-er itihash",
+    "ar": "سجل الموافقات"
+  },
+  "Consent source, purpose and date evidence": {
+    "bn": "সম্মতির উৎস, উদ্দেশ্য ও তারিখের প্রমাণ",
+    "banglish": "Consent-er utsho, uddeshsho o tarikher proman",
+    "ar": "دليل مصدر الموافقة والغرض منها وتاريخها"
+  },
+  "Consent state": {
+    "bn": "সম্মতির অবস্থা",
+    "banglish": "Consent-er obostha",
+    "ar": "حالة الموافقة"
+  },
+  "Contact details": {
+    "bn": "যোগাযোগের বিবরণ",
+    "banglish": "Jogajoger biboron",
+    "ar": "بيانات الاتصال"
+  },
+  "Continue shopping": {
+    "bn": "কেনাকাটা চালিয়ে যান",
+    "banglish": "Kenakata chaliye jan",
+    "ar": "متابعة التسوق"
+  },
+  "Cost": {
+    "bn": "ব্যয়",
+    "banglish": "Bey",
+    "ar": "التكلفة"
+  },
+  "Create a new customer using a new code below": {
+    "bn": "নিচে নতুন কোড দিয়ে গ্রাহক তৈরি করুন",
+    "banglish": "Niche notun code diye grahok toiri korun",
+    "ar": "إنشاء عميل جديد باستخدام رمز جديد أدناه"
+  },
+  "Custodian": {
+    "bn": "জিম্মাদার",
+    "banglish": "Jimmadar",
+    "ar": "العهدة لدى"
+  },
+  "Custody": {
+    "bn": "জিম্মা",
+    "banglish": "Jimma",
+    "ar": "العهدة"
+  },
+  "Custody history": {
+    "bn": "জিম্মার ইতিহাস",
+    "banglish": "Jimmar itihash",
+    "ar": "سجل العهدة"
+  },
+  "Customer ID": {
+    "bn": "গ্রাহক আইডি",
+    "banglish": "Grahok ID",
+    "ar": "معرّف العميل"
+  },
+  "Customer setup required": {
+    "bn": "গ্রাহক সেটআপ প্রয়োজন",
+    "banglish": "Grahok setup proyojon",
+    "ar": "يلزم إعداد العميل"
+  },
+  "Customer storefront": {
+    "bn": "গ্রাহকের দোকান",
+    "banglish": "Grahoker dokan",
+    "ar": "واجهة متجر العملاء"
+  },
+  "Date / consent": {
+    "bn": "তারিখ / সম্মতি",
+    "banglish": "Tarikh / consent",
+    "ar": "التاريخ / الموافقة"
+  },
+  "Depreciation runs": {
+    "bn": "অবচয় কার্যক্রম",
+    "banglish": "Obochoy karjokrom",
+    "ar": "دورات الإهلاك"
+  },
+  "Depreciation start date": {
+    "bn": "অবচয় শুরুর তারিখ",
+    "banglish": "Obochoy shurur tarikh",
+    "ar": "تاريخ بدء الإهلاك"
+  },
+  "Discount": {
+    "bn": "ছাড়",
+    "banglish": "Chhar",
+    "ar": "الخصم"
+  },
+  "Disposal date": {
+    "bn": "নিষ্পত্তির তারিখ",
+    "banglish": "Nishpottir tarikh",
+    "ar": "تاريخ الاستبعاد"
+  },
+  "Disposal history": {
+    "bn": "নিষ্পত্তির ইতিহাস",
+    "banglish": "Nishpottir itihash",
+    "ar": "سجل الاستبعاد"
+  },
+  "Disposal review": {
+    "bn": "নিষ্পত্তি পর্যালোচনা",
+    "banglish": "Nishpotti porjalochona",
+    "ar": "مراجعة الاستبعاد"
+  },
+  "Done": {
+    "bn": "সম্পন্ন",
+    "banglish": "Shomponno",
+    "ar": "مكتمل"
+  },
+  "Ecommerce": {
+    "bn": "ই-কমার্স",
+    "banglish": "E-commerce",
+    "ar": "التجارة الإلكترونية"
+  },
+  "Edit activity": {
+    "bn": "কার্যক্রম সম্পাদনা",
+    "banglish": "Karjokrom shompadona",
+    "ar": "تعديل النشاط"
+  },
+  "Edit descriptive metadata": {
+    "bn": "বর্ণনামূলক তথ্য সম্পাদনা",
+    "banglish": "Bornonamulok toththo shompadona",
+    "ar": "تعديل البيانات الوصفية"
+  },
+  "Edit fixed asset metadata": {
+    "bn": "স্থায়ী সম্পদের তথ্য সম্পাদনা",
+    "banglish": "Sthayi sompoder toththo shompadona",
+    "ar": "تعديل بيانات الأصل الثابت"
+  },
+  "Edit lead": {
+    "bn": "লিড সম্পাদনা",
+    "banglish": "Lead shompadona",
+    "ar": "تعديل العميل المحتمل"
+  },
+  "Edit opportunity": {
+    "bn": "বিক্রয়-সুযোগ সম্পাদনা",
+    "banglish": "Bikroy-sujog shompadona",
+    "ar": "تعديل الفرصة"
+  },
+  "Edit quote draft": {
+    "bn": "মূল্যপ্রস্তাবের খসড়া সম্পাদনা",
+    "banglish": "Quote khoshra shompadona",
+    "ar": "تعديل مسودة عرض السعر"
+  },
+  "Effective date": {
+    "bn": "কার্যকর হওয়ার তারিখ",
+    "banglish": "Karjokor howar tarikh",
+    "ar": "تاريخ السريان"
+  },
+  "Enter a positive quantity for found/opening stock or a negative quantity for loss. Additions use the item&#x27;s current unit cost and credit opening/adjustment equity 3900; losses debit expense 6100. Use Purchase and Sales for trading transactions. Previously imported nonzero stock requires an approved opening valuation.": {
+    "bn": "পাওয়া বা প্রারম্ভিক মজুতে ধনাত্মক এবং ক্ষতিতে ঋণাত্মক পরিমাণ দিন। সংযোজনে বর্তমান একক ব্যয় ব্যবহৃত হয় এবং প্রারম্ভিক/সমন্বয় মূলধন 3900 ক্রেডিট হয়; ক্ষতিতে ব্যয় 6100 ডেবিট হয়। বাণিজ্যিক লেনদেনে Purchase ও Sales ব্যবহার করুন। আগে আমদানি করা অশূন্য মজুতে অনুমোদিত প্রারম্ভিক মূল্যায়ন প্রয়োজন।",
+    "banglish": "Pawa/opening stock-e positive, loss-e negative poriman din. Addition current unitcost ney o opening/adjustment equity3900 credit kore; loss expense6100 debit kore. Trading-e Purchase/Sales bebohar korun. Age import kora nonzero stock-er approved opening valuation lage.",
+    "ar": "أدخل كمية موجبة للمخزون الموجود أو الافتتاحي وسالبة للفقد. تستخدم الإضافات تكلفة الوحدة الحالية وتقيد دائناً حقوق الملكية الافتتاحية/التسوية 3900؛ ويقيد الفقد مديناً للمصروف 6100. استخدم المشتريات والمبيعات للتجارة. المخزون المستورد سابقاً غير الصفري يتطلب تقييماً افتتاحياً معتمداً."
+  },
+  "Enter the accountant-reviewed book carrying cost, including only the acquisition costs and non-recoverable tax they approve. This workflow does not calculate recoverable VAT, sales tax or statutory capital allowances.": {
+    "bn": "হিসাবরক্ষক-পর্যালোচিত বইভুক্ত ব্যয় দিন; শুধু তার অনুমোদিত অধিগ্রহণ ব্যয় ও ফেরত-অযোগ্য কর অন্তর্ভুক্ত করুন। এই প্রক্রিয়া ফেরতযোগ্য VAT, বিক্রয়কর বা আইনগত মূলধনী ভাতা হিসাব করে না।",
+    "banglish": "Accountant-reviewed book cost din; shudhu onumodito acquisitioncost o nonrecoverable tax jog korun. Ei workflow recoverable VAT, salestax ba statutory capitalallowance hisab kore na.",
+    "ar": "أدخل التكلفة الدفترية التي راجعها المحاسب، متضمنة فقط تكاليف الاقتناء والضرائب غير القابلة للاسترداد التي اعتمدها. لا يحسب هذا المسار ضريبة القيمة المضافة القابلة للاسترداد أو ضريبة المبيعات أو المخصصات الرأسمالية النظامية."
+  },
+  "Enterprise modules": {
+    "bn": "প্রতিষ্ঠানের মডিউলসমূহ",
+    "banglish": "Protishthaner modules",
+    "ar": "وحدات المؤسسة"
+  },
+  "Evidence of customer acceptance and reviewed terms": {
+    "bn": "গ্রাহকের গ্রহণ ও পর্যালোচিত শর্তের প্রমাণ",
+    "banglish": "Grahoker grohon o porjalochito shorter proman",
+    "ar": "دليل قبول العميل والشروط المُراجعة"
+  },
+  "Existing customer": {
+    "bn": "বিদ্যমান গ্রাহক",
+    "banglish": "Existing grahok",
+    "ar": "عميل حالي"
+  },
+  "Existing links": {
+    "bn": "বিদ্যমান সংযোগসমূহ",
+    "banglish": "Existing link-shomuho",
+    "ar": "الروابط الحالية"
+  },
+  "Existing products": {
+    "bn": "বিদ্যমান পণ্য",
+    "banglish": "Existing ponno",
+    "ar": "المنتجات الحالية"
+  },
+  "Expected close date": {
+    "bn": "প্রত্যাশিত সমাপ্তির তারিখ",
+    "banglish": "Prottashito shomaptir tarikh",
+    "ar": "تاريخ الإغلاق المتوقع"
+  },
+  "Explicit book depreciation policy": {
+    "bn": "স্পষ্ট বইভিত্তিক অবচয়নীতি",
+    "banglish": "Spashto book obochoy-niti",
+    "ar": "سياسة إهلاك دفتري صريحة"
+  },
+  "Finance documents": {
+    "bn": "আর্থিক নথি",
+    "banglish": "Arthik nothi",
+    "ar": "المستندات المالية"
+  },
+  "Find customers": {
+    "bn": "গ্রাহক খুঁজুন",
+    "banglish": "Grahok khujun",
+    "ar": "البحث عن العملاء"
+  },
+  "Find existing customer by code or name": {
+    "bn": "কোড বা নামে বিদ্যমান গ্রাহক খুঁজুন",
+    "banglish": "Code ba name existing grahok khujun",
+    "ar": "البحث عن عميل حالي بالرمز أو الاسم"
+  },
+  "Fixed Asset register": {
+    "bn": "স্থায়ী সম্পদ নিবন্ধন",
+    "banglish": "Sthayi sompod nibondhon",
+    "ar": "سجل الأصول الثابتة"
+  },
+  "For non-depreciable assets, use life 0 and residual equal to cost. Currency precision is validated against the company's approved policy.": {
+    "bn": "অবচয়-অযোগ্য সম্পদে আয়ুষ্কাল ০ এবং অবশিষ্ট মূল্য ব্যয়ের সমান দিন। মুদ্রার দশমিক নির্ভুলতা কোম্পানির অনুমোদিত নীতি অনুযায়ী যাচাই হয়।",
+    "banglish": "Nondepreciable sompode life0 o residual cost-er shoman din. Currency precision company-r approved policy diye jachai hoy.",
+    "ar": "للأصول غير القابلة للإهلاك، اجعل العمر 0 والقيمة المتبقية مساوية للتكلفة. تُتحقق دقة العملة وفق سياسة الشركة المعتمدة."
+  },
+  "Fulfill order": {
+    "bn": "অর্ডার সরবরাহ সম্পন্ন করুন",
+    "banglish": "Order fulfillment korun",
+    "ar": "تنفيذ الطلب"
+  },
+  "Fulfillment and returns": {
+    "bn": "সরবরাহ ও ফেরত",
+    "banglish": "Fulfillment o ferot",
+    "ar": "التنفيذ والمرتجعات"
+  },
+  "Granted": {
+    "bn": "প্রদত্ত",
+    "banglish": "Prodatto",
+    "ar": "ممنوح"
+  },
+  "Gross": {
+    "bn": "মোট",
+    "banglish": "Mot",
+    "ar": "الإجمالي"
+  },
+  "I confirm goods are released for branch collection and the customer receivable, sales, tax and inventory cost will be posted. Payment remains unverified.": {
+    "bn": "নিশ্চিত করছি, শাখা থেকে সংগ্রহের জন্য পণ্য ছাড়া হচ্ছে এবং গ্রাহকের প্রাপ্য, বিক্রয়, কর ও মজুত ব্যয় পোস্ট হবে। অর্থপ্রদান অযাচাইকৃত থাকবে।",
+    "banglish": "Nishchit korchi, branch collection-er jonno ponno chara hocche ebong receivable,sales,tax,stockcost post hobe. Payment unverified thakbe.",
+    "ar": "أؤكد إطلاق البضائع للاستلام من الفرع وترحيل ذمم العميل والمبيعات والضريبة وتكلفة المخزون. يبقى الدفع غير متحقق."
+  },
+  "I confirm these products, quantities, configured tax, total and branch collection terms.": {
+    "bn": "এই পণ্য, পরিমাণ, নির্ধারিত কর, মোট ও শাখা থেকে সংগ্রহের শর্ত নিশ্চিত করছি।",
+    "banglish": "Ei ponno, poriman, configured tax,total o branch collection-er shorto nishchit korchi.",
+    "ar": "أؤكد هذه المنتجات والكميات والضريبة المحددة والإجمالي وشروط الاستلام من الفرع."
+  },
+  "I reviewed any consent change and its evidence.": {
+    "bn": "সম্মতির পরিবর্তন ও তার প্রমাণ পর্যালোচনা করেছি।",
+    "banglish": "Consent bodol o tar proman porjalochona korechi.",
+    "ar": "راجعت أي تغيير في الموافقة وأدلته."
+  },
+  "I reviewed the accepted snapshot, customer link and internal-only conversion. Other open quotes for this opportunity will be cancelled.": {
+    "bn": "গৃহীত সংরক্ষিত তথ্য, গ্রাহক সংযোগ ও শুধু অভ্যন্তরীণ রূপান্তর পর্যালোচনা করেছি। এই সুযোগের অন্য খোলা মূল্যপ্রস্তাব বাতিল হবে।",
+    "banglish": "Accepted snapshot,customer link o internal-only conversion review korechi. Ei opportunity-r onno openquote batil hobe.",
+    "ar": "راجعت اللقطة المقبولة وربط العميل والتحويل الداخلي فقط. ستُلغى عروض الأسعار المفتوحة الأخرى لهذه الفرصة."
+  },
+  "I reviewed the customer identity, stock, configured tax and collection arrangements.": {
+    "bn": "গ্রাহকের পরিচয়, মজুত, নির্ধারিত কর ও সংগ্রহের ব্যবস্থা পর্যালোচনা করেছি।",
+    "banglish": "Grahoker porichoy,stock,configured tax o collection bebostha review korechi.",
+    "ar": "راجعت هوية العميل والمخزون والضريبة المحددة وترتيبات الاستلام."
+  },
+  "I reviewed the recipient, dates, currency, units, pricing and net-only scope.": {
+    "bn": "প্রাপক, তারিখ, মুদ্রা, একক, মূল্য ও শুধু নিট হিসাবের পরিসর পর্যালোচনা করেছি।",
+    "banglish": "Prapok,tarikh,mudra,unit,dam o net-only scope review korechi.",
+    "ar": "راجعت المستلم والتواريخ والعملة والوحدات والتسعير والنطاق الصافي فقط."
+  },
+  "I reviewed this archive or restore action. History is retained.": {
+    "bn": "এই আর্কাইভ বা পুনরুদ্ধারের কাজ পর্যালোচনা করেছি। ইতিহাস সংরক্ষিত থাকবে।",
+    "banglish": "Ei archive ba restore kaj review korechi. Itihash thakbe.",
+    "ar": "راجعت إجراء الأرشفة أو الاستعادة هذا. يُحتفظ بالسجل."
+  },
+  "I reviewed this lead and the opportunity details.": {
+    "bn": "এই লিড ও বিক্রয়-সুযোগের বিবরণ পর্যালোচনা করেছি।",
+    "banglish": "Ei lead o opportunity-r biboron review korechi.",
+    "ar": "راجعت هذا العميل المحتمل وتفاصيل الفرصة."
+  },
+  "I reviewed this transition. Lost cancels all open quote drafts and reviews.": {
+    "bn": "এই অবস্থান্তর পর্যালোচনা করেছি। Lost হলে সব খোলা মূল্যপ্রস্তাবের খসড়া ও পর্যালোচনা বাতিল হয়।",
+    "banglish": "Ei transition review korechi. Lost hole shob openquote draft o review batil hoy.",
+    "ar": "راجعت هذا الانتقال. تؤدي حالة «خاسرة» إلى إلغاء جميع مسودات عروض الأسعار ومراجعاتها المفتوحة."
+  },
+  "I verified this existing account belongs to the selected customer.": {
+    "bn": "বিদ্যমান অ্যাকাউন্টটি নির্বাচিত গ্রাহকের, তা যাচাই করেছি।",
+    "banglish": "Existing account-ti nirbachito grahoker, ta jachai korechi.",
+    "ar": "تحققت من أن هذا الحساب الحالي يخص العميل المحدد."
+  },
+  "Independent review": {
+    "bn": "স্বতন্ত্র পর্যালোচনা",
+    "banglish": "Swotontro porjalochona",
+    "ar": "مراجعة مستقلة"
+  },
+  "Initial custody": {
+    "bn": "প্রাথমিক জিম্মা",
+    "banglish": "Prathomik jimma",
+    "ar": "العهدة الأولية"
+  },
+  "Internal notes": {
+    "bn": "অভ্যন্তরীণ নোট",
+    "banglish": "Internal note",
+    "ar": "ملاحظات داخلية"
+  },
+  "Internal quote terms": {
+    "bn": "অভ্যন্তরীণ মূল্যপ্রস্তাবের শর্ত",
+    "banglish": "Internal quote-er shorto",
+    "ar": "شروط عرض السعر الداخلي"
+  },
+  "Internal sales-ready handoff": {
+    "bn": "বিক্রয়-প্রস্তুত অভ্যন্তরীণ হস্তান্তর",
+    "banglish": "Sales-ready internal hostantor",
+    "ar": "تسليم داخلي جاهز للبيع"
+  },
+  "Latest activities": {
+    "bn": "সর্বশেষ কার্যক্রম",
+    "banglish": "Shorboshesh karjokrom",
+    "ar": "أحدث الأنشطة"
+  },
+  "Latest opportunities": {
+    "bn": "সর্বশেষ বিক্রয়-সুযোগ",
+    "banglish": "Shorboshesh bikroy-sujog",
+    "ar": "أحدث الفرص"
+  },
+  "Latest quotes": {
+    "bn": "সর্বশেষ মূল্যপ্রস্তাব",
+    "banglish": "Shorboshesh quote",
+    "ar": "أحدث عروض الأسعار"
+  },
+  "Lead / business name": {
+    "bn": "লিড / ব্যবসার নাম",
+    "banglish": "Lead / beboshar nam",
+    "ar": "اسم العميل المحتمل / المنشأة"
+  },
+  "Lead only": {
+    "bn": "শুধু লিড",
+    "banglish": "Shudhu lead",
+    "ar": "العميل المحتمل فقط"
+  },
+  "Lead source": {
+    "bn": "লিডের উৎস",
+    "banglish": "Lead-er utsho",
+    "ar": "مصدر العميل المحتمل"
+  },
+  "Leads": {
+    "bn": "লিডসমূহ",
+    "banglish": "Lead-shomuho",
+    "ar": "العملاء المحتملون"
+  },
+  "Leave unused rows entirely blank or zero. Save and edit the draft to add five more rows, up to 50 lines. Discounts are explicit line amounts.": {
+    "bn": "অব্যবহৃত সারি পুরো ফাঁকা বা শূন্য রাখুন। খসড়া সংরক্ষণ করে সম্পাদনার মাধ্যমে আরও পাঁচটি সারি যোগ করুন, সর্বোচ্চ ৫০টি। ছাড় প্রতিটি লাইনে নির্দিষ্ট অর্থের পরিমাণ।",
+    "banglish": "Unused row puro faka ba zero rakhun. Draft save/edit kore aro5row jog korun, shorbocho50line. Discount explicit lineamount.",
+    "ar": "اترك الصفوف غير المستخدمة فارغة تماماً أو صفراً. احفظ المسودة وعدّلها لإضافة خمسة صفوف أخرى حتى 50 سطراً. الخصومات مبالغ صريحة لكل سطر."
+  },
+  "Line": {
+    "bn": "লাইন",
+    "banglish": "Line",
+    "ar": "السطر"
+  },
+  "Line discount": {
+    "bn": "লাইনের ছাড়",
+    "banglish": "Line-er chhar",
+    "ar": "خصم السطر"
+  },
+  "Link customer": {
+    "bn": "গ্রাহক সংযুক্ত করুন",
+    "banglish": "Grahok link korun",
+    "ar": "ربط العميل"
+  },
+  "Link verified customer": {
+    "bn": "যাচাইকৃত গ্রাহক সংযুক্ত করুন",
+    "banglish": "Jachaikrito grahok link korun",
+    "ar": "ربط عميل تم التحقق منه"
+  },
+  "Linked customer ID": {
+    "bn": "সংযুক্ত গ্রাহকের আইডি",
+    "banglish": "Linked grahoker ID",
+    "ar": "معرّف العميل المرتبط"
+  },
+  "Linked lead": {
+    "bn": "সংযুক্ত লিড",
+    "banglish": "Linked lead",
+    "ar": "العميل المحتمل المرتبط"
+  },
+  "Linked opportunity": {
+    "bn": "সংযুক্ত বিক্রয়-সুযোগ",
+    "banglish": "Linked bikroy-sujog",
+    "ar": "الفرصة المرتبطة"
+  },
+  "Location in this branch": {
+    "bn": "এই শাখায় অবস্থান",
+    "banglish": "Ei shakhay obosthan",
+    "ar": "الموقع في هذا الفرع"
+  },
+  "Lost": {
+    "bn": "হারানো",
+    "banglish": "Harano",
+    "ar": "خاسرة"
+  },
+  "Manage catalog": {
+    "bn": "ক্যাটালগ ব্যবস্থাপনা",
+    "banglish": "Catalog bebosthapona",
+    "ar": "إدارة الكتالوج"
+  },
+  "Manage scoped leads, reviewed opportunities, due activities and net-only quote handoffs.": {
+    "bn": "অনুমোদিত পরিসরের লিড, পর্যালোচিত সুযোগ, বকেয়া কার্যক্রম ও শুধু নিট মূল্যপ্রস্তাব হস্তান্তর পরিচালনা করুন।",
+    "banglish": "Scope-er lead,reviewed opportunity,due activity o net-only quote handoff porichalona korun.",
+    "ar": "إدارة العملاء المحتملين ضمن الصلاحية والفرص المُراجعة والأنشطة المستحقة وتسليم عروض الأسعار الصافية فقط."
+  },
+  "Marketing consent": {
+    "bn": "বিপণনের সম্মতি",
+    "banglish": "Marketing consent",
+    "ar": "الموافقة التسويقية"
+  },
+  "Meeting": {
+    "bn": "সভা",
+    "banglish": "Shobha",
+    "ar": "اجتماع"
+  },
+  "Module": {
+    "bn": "মডিউল",
+    "banglish": "Module",
+    "ar": "الوحدة"
+  },
+  "My cart": {
+    "bn": "আমার কার্ট",
+    "banglish": "Amar cart",
+    "ar": "سلتي"
+  },
+  "My orders": {
+    "bn": "আমার অর্ডার",
+    "banglish": "Amar order",
+    "ar": "طلباتي"
+  },
+  "Negotiation": {
+    "bn": "আলোচনা",
+    "banglish": "Alochona",
+    "ar": "التفاوض"
+  },
+  "Net": {
+    "bn": "নিট",
+    "banglish": "Net",
+    "ar": "الصافي"
+  },
+  "Net amount": {
+    "bn": "নিট পরিমাণ",
+    "banglish": "Net poriman",
+    "ar": "المبلغ الصافي"
+  },
+  "Net estimate only. Tax is not calculated or assumed to be zero. This is not a tax invoice, stock reservation or sales posting.": {
+    "bn": "শুধু নিট প্রাক্কলন। কর হিসাব করা হয়নি বা শূন্য ধরা হয়নি। এটি কর চালান, মজুত সংরক্ষণ বা বিক্রয় পোস্ট নয়।",
+    "banglish": "Shudhu net estimate. Tax hisab ba zero dhora hoyni. Eti taxinvoice,stockreservation ba salesposting noy.",
+    "ar": "تقدير صافٍ فقط. لم تُحسب الضريبة ولم تُفترض صفراً. ليس فاتورة ضريبية أو حجز مخزون أو ترحيل مبيعات."
+  },
+  "Net unit price": {
+    "bn": "নিট একক মূল্য",
+    "banglish": "Net unit mullo",
+    "ar": "صافي سعر الوحدة"
+  },
+  "New acquisition": {
+    "bn": "নতুন অধিগ্রহণ",
+    "banglish": "Notun odhigrohon",
+    "ar": "اقتناء جديد"
+  },
+  "New activity": {
+    "bn": "নতুন কার্যক্রম",
+    "banglish": "Notun karjokrom",
+    "ar": "نشاط جديد"
+  },
+  "New custodian": {
+    "bn": "নতুন জিম্মাদার",
+    "banglish": "Notun jimmadar",
+    "ar": "أمين عهدة جديد"
+  },
+  "New customer code, only when creating a customer": {
+    "bn": "শুধু গ্রাহক তৈরির সময় নতুন গ্রাহক কোড",
+    "banglish": "Shudhu grahok toirir shomoy notun customer code",
+    "ar": "رمز عميل جديد، عند إنشاء عميل فقط"
+  },
+  "New fixed asset acquisition": {
+    "bn": "নতুন স্থায়ী সম্পদ অধিগ্রহণ",
+    "banglish": "Notun sthayi sompod odhigrohon",
+    "ar": "اقتناء أصل ثابت جديد"
+  },
+  "New lead": {
+    "bn": "নতুন লিড",
+    "banglish": "Notun lead",
+    "ar": "عميل محتمل جديد"
+  },
+  "New location in this branch": {
+    "bn": "এই শাখায় নতুন অবস্থান",
+    "banglish": "Ei shakhay notun obosthan",
+    "ar": "موقع جديد في هذا الفرع"
+  },
+  "New quote draft": {
+    "bn": "নতুন মূল্যপ্রস্তাবের খসড়া",
+    "banglish": "Notun quote khoshra",
+    "ar": "مسودة عرض سعر جديدة"
+  },
+  "Next stage": {
+    "bn": "পরবর্তী ধাপ",
+    "banglish": "Poroborti dhap",
+    "ar": "المرحلة التالية"
+  },
+  "No business-module read permission is available for this account.": {
+    "bn": "এই অ্যাকাউন্টে ব্যবসায়িক মডিউল পড়ার অনুমতি নেই।",
+    "banglish": "Ei account-e business module porar onumoti nei.",
+    "ar": "لا يملك هذا الحساب صلاحية قراءة أي وحدة أعمال."
+  },
+  "No disposal records.": {
+    "bn": "নিষ্পত্তির রেকর্ড নেই।",
+    "banglish": "Nishpottir record nei.",
+    "ar": "لا توجد سجلات استبعاد."
+  },
+  "No orders match your filters.": {
+    "bn": "আপনার ফিল্টার অনুযায়ী অর্ডার নেই।",
+    "banglish": "Apnar filter onujayi order nei.",
+    "ar": "لا توجد طلبات تطابق عوامل التصفية."
+  },
+  "No published products match your filters.": {
+    "bn": "আপনার ফিল্টার অনুযায়ী প্রকাশিত পণ্য নেই।",
+    "banglish": "Apnar filter onujayi published ponno nei.",
+    "ar": "لا توجد منتجات منشورة تطابق عوامل التصفية."
+  },
+  "No records match these filters in the active branch.": {
+    "bn": "সক্রিয় শাখায় এই ফিল্টারের সঙ্গে মিলে এমন রেকর্ড নেই।",
+    "banglish": "Active shakhay ei filter-er mil ache emon record nei.",
+    "ar": "لا توجد سجلات تطابق هذه التصفية في الفرع النشط."
+  },
+  "Non-depreciable, reviewed reason required": {
+    "bn": "অবচয়-অযোগ্য; পর্যালোচিত কারণ প্রয়োজন",
+    "banglish": "Nondepreciable; reviewed karon proyojon",
+    "ar": "غير قابل للإهلاك؛ يلزم سبب مُراجع"
+  },
+  "Open authorized workflow": {
+    "bn": "অনুমোদিত কার্যপ্রবাহ খুলুন",
+    "banglish": "Onumodito workflow khulun",
+    "ar": "فتح مسار العمل المصرح به"
+  },
+  "Open current record and review again": {
+    "bn": "বর্তমান রেকর্ড খুলে আবার পর্যালোচনা করুন",
+    "banglish": "Current record khule abar review korun",
+    "ar": "فتح السجل الحالي ومراجعته مجدداً"
+  },
+  "Opportunities": {
+    "bn": "বিক্রয়-সুযোগসমূহ",
+    "banglish": "Bikroy-sujogshomuho",
+    "ar": "الفرص"
+  },
+  "Opportunity reference": {
+    "bn": "বিক্রয়-সুযোগের রেফারেন্স",
+    "banglish": "Bikroy-sujoger reference",
+    "ar": "مرجع الفرصة"
+  },
+  "Opportunity title": {
+    "bn": "বিক্রয়-সুযোগের শিরোনাম",
+    "banglish": "Bikroy-sujoger shironam",
+    "ar": "عنوان الفرصة"
+  },
+  "Optional open opportunity": {
+    "bn": "ঐচ্ছিক খোলা বিক্রয়-সুযোগ",
+    "banglish": "Oichchhik open opportunity",
+    "ar": "فرصة مفتوحة اختيارية"
+  },
+  "Order fulfillment": {
+    "bn": "অর্ডার সরবরাহ",
+    "banglish": "Order fulfillment",
+    "ar": "تنفيذ الطلب"
+  },
+  "Order history": {
+    "bn": "অর্ডারের ইতিহাস",
+    "banglish": "Order-er itihash",
+    "ar": "سجل الطلبات"
+  },
+  "Order reference": {
+    "bn": "অর্ডারের রেফারেন্স",
+    "banglish": "Order-er reference",
+    "ar": "مرجع الطلب"
+  },
+  "Orders": {
+    "bn": "অর্ডারসমূহ",
+    "banglish": "Order-shomuho",
+    "ar": "الطلبات"
+  },
+  "Other payable recorded (2500)": {
+    "bn": "অন্যান্য প্রদেয় নথিভুক্ত (2500)",
+    "banglish": "Onnanno payable recorded (2500)",
+    "ar": "ذمم دائنة أخرى مسجلة (2500)"
+  },
+  "Other receivable (1500)": {
+    "bn": "অন্যান্য প্রাপ্য (1500)",
+    "banglish": "Onnanno receivable (1500)",
+    "ar": "ذمم مدينة أخرى (1500)"
+  },
+  "Overdue": {
+    "bn": "মেয়াদোত্তীর্ণ বকেয়া",
+    "banglish": "Meyadottirno bokeya",
+    "ar": "متأخر الاستحقاق"
+  },
+  "Payment is pending manual verification. No payment provider has been charged. Financial receipts and refunds are recorded separately against linked sales documents.": {
+    "bn": "অর্থপ্রদান হাতে যাচাইয়ের অপেক্ষায়। কোনো পেমেন্ট সেবার মাধ্যমে টাকা কাটা হয়নি। সংযুক্ত বিক্রয় নথির বিপরীতে অর্থপ্রাপ্তি ও অর্থফেরত আলাদাভাবে নথিভুক্ত হয়।",
+    "banglish": "Payment manual verification-er opekkhay. Kono payment provider diye taka kata hoyni. Linked sales document-er biporite receipt o refund alada record hoy.",
+    "ar": "الدفع بانتظار التحقق اليدوي. لم تُخصم مبالغ عبر أي مزود دفع. تُسجل المقبوضات ورد المبالغ منفصلة مقابل مستندات المبيعات المرتبطة."
+  },
+  "Payment verification": {
+    "bn": "অর্থপ্রদান যাচাই",
+    "banglish": "Payment jachai",
+    "ar": "التحقق من الدفع"
+  },
+  "Pending manual verification": {
+    "bn": "হাতে যাচাইয়ের অপেক্ষায়",
+    "banglish": "Manual verification-er opekkhay",
+    "ar": "بانتظار التحقق اليدوي"
+  },
+  "Period": {
+    "bn": "সময়কাল",
+    "banglish": "Shomoykal",
+    "ar": "الفترة"
+  },
+  "Permission-scoped facts and review drafts": {
+    "bn": "অনুমতি-সীমিত তথ্য ও পর্যালোচনার খসড়া",
+    "banglish": "Permission-scoped toththo o review draft",
+    "ar": "حقائق ضمن الصلاحيات ومسودات المراجعة"
+  },
+  "Place order and reserve stock": {
+    "bn": "অর্ডার দিন ও মজুত সংরক্ষণ করুন",
+    "banglish": "Order din o stock reserve korun",
+    "ar": "تقديم الطلب وحجز المخزون"
+  },
+  "Policy": {
+    "bn": "নীতি",
+    "banglish": "Niti",
+    "ar": "السياسة"
+  },
+  "Policy ID": {
+    "bn": "নীতির আইডি",
+    "banglish": "Policy ID",
+    "ar": "معرّف السياسة"
+  },
+  "Policy rationale and source evidence": {
+    "bn": "নীতির যুক্তি ও উৎসপ্রমাণ",
+    "banglish": "Nitir jukti o utshoproman",
+    "ar": "مبرر السياسة وأدلة المصدر"
+  },
+  "Post any missing depreciation through the previous month first. Disposal does not calculate a partial-month charge. A different reviewer approves this preview before the asset is derecognized. No money is sent or collected.": {
+    "bn": "আগে পূর্ববর্তী মাস পর্যন্ত বাকি অবচয় পোস্ট করুন। নিষ্পত্তিতে আংশিক মাসের অবচয় হিসাব হয় না। সম্পদ হিসাব থেকে সরানোর আগে অন্য পর্যালোচক এই প্রাকদর্শন অনুমোদন করবেন। কোনো অর্থ পাঠানো বা সংগ্রহ করা হয় না।",
+    "banglish": "Age ager mash porjonto missing depreciation post korun. Disposal partial-month charge hisab kore na. Asset derecognition-er age onno reviewer ei preview approve korben. Kono taka pathano ba neya hoy na.",
+    "ar": "رحّل أولاً أي إهلاك ناقص حتى الشهر السابق. لا يحسب الاستبعاد إهلاك جزء من الشهر. يعتمد مراجع آخر هذه المعاينة قبل إلغاء الاعتراف بالأصل. لا يُرسل أو يُحصّل أي مال."
+  },
+  "Post approved record": {
+    "bn": "অনুমোদিত রেকর্ড পোস্ট করুন",
+    "banglish": "Approved record post korun",
+    "ar": "ترحيل السجل المعتمد"
+  },
+  "Post approved recorded journal": {
+    "bn": "অনুমোদিত নথিভুক্ত জাবেদা পোস্ট করুন",
+    "banglish": "Approved recorded journal post korun",
+    "ar": "ترحيل القيد المسجل المعتمد"
+  },
+  "Post fulfillment": {
+    "bn": "সরবরাহ পোস্ট করুন",
+    "banglish": "Fulfillment post korun",
+    "ar": "ترحيل التنفيذ"
+  },
+  "Posted depreciation": {
+    "bn": "পোস্ট করা অবচয়",
+    "banglish": "Posted obochoy",
+    "ar": "الإهلاك المرحّل"
+  },
+  "Posts sale revenue, removes the animal&#x27;s acquisition cost and creates a collectible receivable.": {
+    "bn": "বিক্রয় আয় পোস্ট করে, পশুর অধিগ্রহণ ব্যয় অপসারণ করে এবং আদায়যোগ্য প্রাপ্য তৈরি করে।",
+    "banglish": "Sales revenue post kore,poshur acquisitioncost shoray o collectible receivable toiri kore.",
+    "ar": "يرحّل إيراد البيع ويزيل تكلفة اقتناء الحيوان وينشئ ذمة مدينة قابلة للتحصيل."
+  },
+  "Prepare disposal for review": {
+    "bn": "পর্যালোচনার জন্য নিষ্পত্তি প্রস্তুত করুন",
+    "banglish": "Review-er jonno disposal prostut korun",
+    "ar": "إعداد الاستبعاد للمراجعة"
+  },
+  "Prepare monthly depreciation": {
+    "bn": "মাসিক অবচয় প্রস্তুত করুন",
+    "banglish": "Mashik obochoy prostut korun",
+    "ar": "إعداد الإهلاك الشهري"
+  },
+  "Prepare monthly run": {
+    "bn": "মাসিক কার্যক্রম প্রস্তুত করুন",
+    "banglish": "Mashik run prostut korun",
+    "ar": "إعداد الدورة الشهرية"
+  },
+  "Prepare review draft": {
+    "bn": "পর্যালোচনার খসড়া প্রস্তুত করুন",
+    "banglish": "Review draft prostut korun",
+    "ar": "إعداد مسودة المراجعة"
+  },
+  "Prepared / approved by": {
+    "bn": "প্রস্তুতকারী / অনুমোদনকারী",
+    "banglish": "Prostutkari / onumodon-kari",
+    "ar": "أعده / اعتمده"
+  },
+  "Product / stock unit": {
+    "bn": "পণ্য / মজুতের একক",
+    "banglish": "Ponno / stock unit",
+    "ar": "وحدة المنتج / المخزون"
+  },
+  "Product snapshot": {
+    "bn": "পণ্যের সংরক্ষিত তথ্য",
+    "banglish": "Ponner snapshot",
+    "ar": "لقطة بيانات المنتج"
+  },
+  "Product title": {
+    "bn": "পণ্যের শিরোনাম",
+    "banglish": "Ponner shironam",
+    "ar": "عنوان المنتج"
+  },
+  "Products": {
+    "bn": "পণ্যসমূহ",
+    "banglish": "Ponno-shomuho",
+    "ar": "المنتجات"
+  },
+  "Proposal": {
+    "bn": "প্রস্তাব",
+    "banglish": "Prostab",
+    "ar": "المقترح"
+  },
+  "Proposed acquisition journal": {
+    "bn": "প্রস্তাবিত অধিগ্রহণ জাবেদা",
+    "banglish": "Prostabito acquisition journal",
+    "ar": "قيد الاقتناء المقترح"
+  },
+  "Proposed journal": {
+    "bn": "প্রস্তাবিত জাবেদা",
+    "banglish": "Prostabito journal",
+    "ar": "القيد المقترح"
+  },
+  "Publish product": {
+    "bn": "পণ্য প্রকাশ করুন",
+    "banglish": "Ponno publish korun",
+    "ar": "نشر المنتج"
+  },
+  "Published": {
+    "bn": "প্রকাশিত",
+    "banglish": "Prokashito",
+    "ar": "منشور"
+  },
+  "Published branch products. Review configured tax and the full total in your cart before ordering.": {
+    "bn": "শাখার প্রকাশিত পণ্য। অর্ডারের আগে কার্টে নির্ধারিত কর ও সম্পূর্ণ মোট পর্যালোচনা করুন।",
+    "banglish": "Branch-er published ponno. Order-er age cart-e configured tax o fulltotal review korun.",
+    "ar": "منتجات الفرع المنشورة. راجع الضريبة المحددة والإجمالي الكامل في السلة قبل الطلب."
+  },
+  "Publishing needs an approved company currency and tax policy. Customer links use existing verified identities with branch access; entering an email never claims an account.": {
+    "bn": "প্রকাশের জন্য কোম্পানির অনুমোদিত মুদ্রা ও করনীতি প্রয়োজন। গ্রাহক সংযোগে শাখায় প্রবেশাধিকারসহ বিদ্যমান যাচাইকৃত পরিচয় ব্যবহৃত হয়; ইমেইল লিখলেই অ্যাকাউন্টের অধিকার পাওয়া যায় না।",
+    "banglish": "Publish korte approved company currency o taxpolicy lage. Customer link-e branch access-shoho verified existing identity lage; email likhle account dabi kora jay na.",
+    "ar": "يتطلب النشر عملة وسياسة ضريبية معتمدتين للشركة. تستخدم روابط العملاء هويات حالية متحققاً منها ولها وصول للفرع؛ إدخال بريد إلكتروني لا يمنح ملكية حساب."
+  },
+  "Purchase Cost (company currency)": {
+    "bn": "ক্রয়মূল্য (কোম্পানির মুদ্রা)",
+    "banglish": "Kroy-mullo (company-r mudra)",
+    "ar": "تكلفة الشراء (عملة الشركة)"
+  },
+  "Qualification / review note": {
+    "bn": "যোগ্যতা / পর্যালোচনার নোট",
+    "banglish": "Joggyota / review note",
+    "ar": "ملاحظة التأهيل / المراجعة"
+  },
+  "Qualify opportunity": {
+    "bn": "বিক্রয়-সুযোগ যোগ্য হিসেবে চিহ্নিত করুন",
+    "banglish": "Opportunity qualify korun",
+    "ar": "تأهيل الفرصة"
+  },
+  "Quote date": {
+    "bn": "মূল্যপ্রস্তাবের তারিখ",
+    "banglish": "Quote-er tarikh",
+    "ar": "تاريخ عرض السعر"
+  },
+  "Quote expires UTC": {
+    "bn": "মূল্যপ্রস্তাবের মেয়াদ শেষ UTC",
+    "banglish": "Quote expiry UTC",
+    "ar": "انتهاء عرض السعر بتوقيت UTC"
+  },
+  "Quote lines": {
+    "bn": "মূল্যপ্রস্তাবের লাইনসমূহ",
+    "banglish": "Quote-er line-shomuho",
+    "ar": "بنود عرض السعر"
+  },
+  "Quote reference": {
+    "bn": "মূল্যপ্রস্তাবের রেফারেন্স",
+    "banglish": "Quote reference",
+    "ar": "مرجع عرض السعر"
+  },
+  "Quote review": {
+    "bn": "মূল্যপ্রস্তাব পর্যালোচনা",
+    "banglish": "Quote review",
+    "ar": "مراجعة عرض السعر"
+  },
+  "Quote review note": {
+    "bn": "মূল্যপ্রস্তাব পর্যালোচনার নোট",
+    "banglish": "Quote review note",
+    "ar": "ملاحظة مراجعة عرض السعر"
+  },
+  "Quotes": {
+    "bn": "মূল্যপ্রস্তাবসমূহ",
+    "banglish": "Quote-shomuho",
+    "ar": "عروض الأسعار"
+  },
+  "Reason / handover evidence": {
+    "bn": "কারণ / হস্তান্তরের প্রমাণ",
+    "banglish": "Karon / hostantorer proman",
+    "ar": "السبب / دليل التسليم"
+  },
+  "Reason / recorded by": {
+    "bn": "কারণ / নথিভুক্তকারী",
+    "banglish": "Karon / nothibhuktokari",
+    "ar": "السبب / سجله"
+  },
+  "Reason and supporting evidence": {
+    "bn": "কারণ ও সমর্থনকারী প্রমাণ",
+    "banglish": "Karon o shomorthonkari proman",
+    "ar": "السبب والأدلة الداعمة"
+  },
+  "Recipient snapshot": {
+    "bn": "প্রাপকের সংরক্ষিত তথ্য",
+    "banglish": "Prapoker snapshot",
+    "ar": "لقطة بيانات المستلم"
+  },
+  "Record acceptance and create internal handoff": {
+    "bn": "গ্রহণ নথিভুক্ত করে অভ্যন্তরীণ হস্তান্তর তৈরি করুন",
+    "banglish": "Acceptance record kore internal handoff toiri korun",
+    "ar": "تسجيل القبول وإنشاء تسليم داخلي"
+  },
+  "Record custody change": {
+    "bn": "জিম্মা পরিবর্তন নথিভুক্ত করুন",
+    "banglish": "Jimma bodol record korun",
+    "ar": "تسجيل تغيير العهدة"
+  },
+  "Record custody event": {
+    "bn": "জিম্মার ঘটনা নথিভুক্ত করুন",
+    "banglish": "Jimmar ghotona record korun",
+    "ar": "تسجيل حدث العهدة"
+  },
+  "Record linked return": {
+    "bn": "সংযুক্ত ফেরত নথিভুক্ত করুন",
+    "banglish": "Linked return record korun",
+    "ar": "تسجيل إرجاع مرتبط"
+  },
+  "Record quote review": {
+    "bn": "মূল্যপ্রস্তাব পর্যালোচনা নথিভুক্ত করুন",
+    "banglish": "Quote review record korun",
+    "ar": "تسجيل مراجعة عرض السعر"
+  },
+  "Recorded funding": {
+    "bn": "নথিভুক্ত অর্থায়ন",
+    "banglish": "Recorded orthayon",
+    "ar": "التمويل المسجل"
+  },
+  "Recorded settlement": {
+    "bn": "নথিভুক্ত নিষ্পত্তি",
+    "banglish": "Recorded settlement",
+    "ar": "التسوية المسجلة"
+  },
+  "Register": {
+    "bn": "নিবন্ধন",
+    "banglish": "Nibondhon",
+    "ar": "السجل"
+  },
+  "Reset": {
+    "bn": "রিসেট",
+    "banglish": "Reset",
+    "ar": "إعادة تعيين"
+  },
+  "Residual floor": {
+    "bn": "অবশিষ্ট মূল্যের নিম্নসীমা",
+    "banglish": "Residual lowerlimit",
+    "ar": "الحد الأدنى للقيمة المتبقية"
+  },
+  "Residual value": {
+    "bn": "অবশিষ্ট মূল্য",
+    "banglish": "Oboshishto mullo",
+    "ar": "القيمة المتبقية"
+  },
+  "Return reason": {
+    "bn": "ফেরতের কারণ",
+    "banglish": "Feroter karon",
+    "ar": "سبب الإرجاع"
+  },
+  "Return to asset / reload current record": {
+    "bn": "সম্পদে ফিরুন / বর্তমান রেকর্ড পুনরায় লোড",
+    "banglish": "Sompode firun / current record reload",
+    "ar": "العودة إلى الأصل / إعادة تحميل السجل الحالي"
+  },
+  "Return to draft and invalidate review": {
+    "bn": "খসড়ায় ফিরে পর্যালোচনা বাতিল করুন",
+    "banglish": "Draft-e fire review invalid korun",
+    "ar": "العودة للمسودة وإبطال المراجعة"
+  },
+  "Returned goods have been received and are suitable for restocking.": {
+    "bn": "ফেরত পণ্য পাওয়া গেছে এবং আবার মজুত করার উপযুক্ত।",
+    "banglish": "Ferot ponno pawa geche o abar stock korar upojukto.",
+    "ar": "استُلمت البضائع المرتجعة وهي صالحة لإعادتها للمخزون."
+  },
+  "Returned quantity": {
+    "bn": "ফেরত পরিমাণ",
+    "banglish": "Ferot poriman",
+    "ar": "الكمية المرتجعة"
+  },
+  "Review action": {
+    "bn": "পর্যালোচনার কাজ",
+    "banglish": "Review action",
+    "ar": "إجراء المراجعة"
+  },
+  "Review before retrying": {
+    "bn": "আবার চেষ্টার আগে পর্যালোচনা করুন",
+    "banglish": "Retry-r age review korun",
+    "ar": "المراجعة قبل إعادة المحاولة"
+  },
+  "Review customer conversion": {
+    "bn": "গ্রাহক রূপান্তর পর্যালোচনা",
+    "banglish": "Customer conversion review",
+    "ar": "مراجعة تحويل العميل"
+  },
+  "Review draft": {
+    "bn": "পর্যালোচনার খসড়া",
+    "banglish": "Review draft",
+    "ar": "مسودة المراجعة"
+  },
+  "Review drafts use live branch facts and fixed checklists. They do not approve, post, pay, send messages or change records.": {
+    "bn": "পর্যালোচনার খসড়ায় শাখার বর্তমান তথ্য ও নির্দিষ্ট চেকলিস্ট থাকে। এটি অনুমোদন, পোস্ট, অর্থপ্রদান, বার্তা পাঠানো বা রেকর্ড পরিবর্তন করে না।",
+    "banglish": "Review draft branch-er current facts o fixed checklist ney. Eti approve,post,pay,message pathano ba record bodlay na.",
+    "ar": "تستخدم مسودات المراجعة حقائق الفرع الحالية وقوائم تحقق ثابتة. ولا تعتمد أو ترحّل أو تدفع أو ترسل رسائل أو تغير السجلات."
+  },
+  "Review note": {
+    "bn": "পর্যালোচনার নোট",
+    "banglish": "Review note",
+    "ar": "ملاحظة المراجعة"
+  },
+  "Review order": {
+    "bn": "অর্ডার পর্যালোচনা",
+    "banglish": "Order review",
+    "ar": "مراجعة الطلب"
+  },
+  "Review record": {
+    "bn": "রেকর্ড পর্যালোচনা",
+    "banglish": "Record review",
+    "ar": "مراجعة السجل"
+  },
+  "Review the original records before taking any action. Required permissions and independent approvals still apply.": {
+    "bn": "কোনো কাজের আগে মূল রেকর্ড পর্যালোচনা করুন। প্রয়োজনীয় অনুমতি ও স্বতন্ত্র অনুমোদন প্রযোজ্য থাকবে।",
+    "banglish": "Kajer age original record review korun. Dorkari permission o independent approval lagbe.",
+    "ar": "راجع السجلات الأصلية قبل اتخاذ أي إجراء. تظل الصلاحيات المطلوبة والاعتمادات المستقلة سارية."
+  },
+  "Review workspace": {
+    "bn": "পর্যালোচনার কর্মক্ষেত্র",
+    "banglish": "Review workspace",
+    "ar": "مساحة عمل المراجعة"
+  },
+  "Reviewed acquisition, custody, depreciation and disposal in the active branch.": {
+    "bn": "সক্রিয় শাখার পর্যালোচিত অধিগ্রহণ, জিম্মা, অবচয় ও নিষ্পত্তি।",
+    "banglish": "Active branch-er reviewed acquisition,custody,depreciation o disposal.",
+    "ar": "الاقتناء والعهدة والإهلاك والاستبعاد المُراجعة في الفرع النشط."
+  },
+  "Reviewed depreciation preview": {
+    "bn": "পর্যালোচিত অবচয়ের প্রাকদর্শন",
+    "banglish": "Reviewed obochoy preview",
+    "ar": "معاينة الإهلاك المُراجعة"
+  },
+  "Reviewed jurisdiction, currency, timezone and tax versions": {
+    "bn": "পর্যালোচিত আইনক্ষেত্র, মুদ্রা, সময় অঞ্চল ও করের সংস্করণ",
+    "banglish": "Reviewed jurisdiction,mudra,timezone o taxversion",
+    "ar": "إصدارات مُراجعة للاختصاص والعملة والمنطقة الزمنية والضرائب"
+  },
+  "Run": {
+    "bn": "কার্যক্রম",
+    "banglish": "Run",
+    "ar": "الدورة"
+  },
+  "Run history": {
+    "bn": "কার্যক্রমের ইতিহাস",
+    "banglish": "Run-er itihash",
+    "ar": "سجل الدورات"
+  },
+  "Sales-ready handoffs": {
+    "bn": "বিক্রয়-প্রস্তুত হস্তান্তরসমূহ",
+    "banglish": "Sales-ready handoff-shomuho",
+    "ar": "عمليات التسليم الجاهزة للبيع"
+  },
+  "Save acquisition draft for review": {
+    "bn": "পর্যালোচনার জন্য অধিগ্রহণের খসড়া সংরক্ষণ",
+    "banglish": "Review-er jonno acquisitiondraft save",
+    "ar": "حفظ مسودة الاقتناء للمراجعة"
+  },
+  "Save activity": {
+    "bn": "কার্যক্রম সংরক্ষণ",
+    "banglish": "Activity save",
+    "ar": "حفظ النشاط"
+  },
+  "Save disposal preview for review": {
+    "bn": "পর্যালোচনার জন্য নিষ্পত্তির প্রাকদর্শন সংরক্ষণ",
+    "banglish": "Review-er jonno disposalpreview save",
+    "ar": "حفظ معاينة الاستبعاد للمراجعة"
+  },
+  "Save lead": {
+    "bn": "লিড সংরক্ষণ",
+    "banglish": "Lead save",
+    "ar": "حفظ العميل المحتمل"
+  },
+  "Save metadata": {
+    "bn": "বর্ণনামূলক তথ্য সংরক্ষণ",
+    "banglish": "Metadata save",
+    "ar": "حفظ البيانات الوصفية"
+  },
+  "Save net quote draft": {
+    "bn": "নিট মূল্যপ্রস্তাবের খসড়া সংরক্ষণ",
+    "banglish": "Net quote draft save",
+    "ar": "حفظ مسودة عرض السعر الصافي"
+  },
+  "Save product": {
+    "bn": "পণ্য সংরক্ষণ",
+    "banglish": "Ponno save",
+    "ar": "حفظ المنتج"
+  },
+  "Save reviewed opportunity": {
+    "bn": "পর্যালোচিত বিক্রয়-সুযোগ সংরক্ষণ",
+    "banglish": "Reviewed opportunity save",
+    "ar": "حفظ الفرصة المُراجعة"
+  },
+  "Save stage": {
+    "bn": "ধাপ সংরক্ষণ",
+    "banglish": "Dhap save",
+    "ar": "حفظ المرحلة"
+  },
+  "Saving a draft refreshes its recipient and product snapshots. Reviewed quotes must return to draft before editing.": {
+    "bn": "খসড়া সংরক্ষণে প্রাপক ও পণ্যের সংরক্ষিত তথ্য নবায়িত হয়। পর্যালোচিত মূল্যপ্রস্তাব সম্পাদনার আগে খসড়ায় ফিরতে হবে।",
+    "banglish": "Draft save-e prapok o product snapshot refresh hoy. Reviewed quote edit-er age draft-e firte hobe.",
+    "ar": "يحدّث حفظ المسودة لقطات المستلم والمنتجات. يجب إعادة عروض الأسعار المُراجعة إلى المسودة قبل تعديلها."
+  },
+  "Search code, name, serial or custodian": {
+    "bn": "কোড, নাম, সিরিয়াল বা জিম্মাদার খুঁজুন",
+    "banglish": "Code,nam,serial ba jimmadar khujun",
+    "ar": "البحث بالرمز أو الاسم أو الرقم التسلسلي أو أمين العهدة"
+  },
+  "Search references or names": {
+    "bn": "রেফারেন্স বা নাম খুঁজুন",
+    "banglish": "Reference ba nam khujun",
+    "ar": "البحث بالمراجع أو الأسماء"
+  },
+  "Select": {
+    "bn": "নির্বাচন",
+    "banglish": "Nirbachon",
+    "ar": "اختيار"
+  },
+  "Serial number": {
+    "bn": "সিরিয়াল নম্বর",
+    "banglish": "Serial number",
+    "ar": "الرقم التسلسلي"
+  },
+  "Set cart quantity": {
+    "bn": "কার্টের পরিমাণ নির্ধারণ",
+    "banglish": "Cart-er poriman nirdharon",
+    "ar": "تعيين كمية السلة"
+  },
+  "Set zero to remove": {
+    "bn": "সরাতে শূন্য দিন",
+    "banglish": "Shorate zero din",
+    "ar": "أدخل صفراً للإزالة"
+  },
+  "Showing the latest 10; use the list to search all records.": {
+    "bn": "সর্বশেষ ১০টি দেখানো হচ্ছে; সব রেকর্ড খুঁজতে তালিকা ব্যবহার করুন।",
+    "banglish": "Shorboshesh10ti dekhano hocche; shobrecord khujte list bebohar korun.",
+    "ar": "تُعرض أحدث 10 سجلات؛ استخدم القائمة للبحث في جميع السجلات."
+  },
+  "Showing up to 25 matching customers, plus any linked or selected customer.": {
+    "bn": "সর্বোচ্চ ২৫টি মিলে যাওয়া গ্রাহক এবং সংযুক্ত বা নির্বাচিত গ্রাহক দেখানো হচ্ছে।",
+    "banglish": "Shorbocho25ti matching grahok o linked ba selected grahok dekhano hocche.",
+    "ar": "يُعرض حتى 25 عميلاً مطابقاً، إضافة إلى أي عميل مرتبط أو محدد."
+  },
+  "Source and carrying cost": {
+    "bn": "উৎস ও হিসাবভুক্ত ব্যয়",
+    "banglish": "Utsho o carryingcost",
+    "ar": "المصدر والتكلفة الدفترية"
+  },
+  "Stage review note": {
+    "bn": "ধাপ পর্যালোচনার নোট",
+    "banglish": "Stage review note",
+    "ar": "ملاحظة مراجعة المرحلة"
+  },
+  "Status / amount": {
+    "bn": "অবস্থা / পরিমাণ",
+    "banglish": "Obostha / poriman",
+    "ar": "الحالة / المبلغ"
+  },
+  "Stock transfers": {
+    "bn": "মজুত স্থানান্তর",
+    "banglish": "Stock transfer",
+    "ar": "تحويلات المخزون"
+  },
+  "Straight line, full monthly periods": {
+    "bn": "সরলরৈখিক, পূর্ণ মাসভিত্তিক",
+    "banglish": "Straight-line,purno mashbhittik",
+    "ar": "القسط الثابت لفترات شهرية كاملة"
+  },
+  "Task": {
+    "bn": "কাজ",
+    "banglish": "Kaj",
+    "ar": "مهمة"
+  },
+  "Tax": {
+    "bn": "কর",
+    "banglish": "Kor",
+    "ar": "الضريبة"
+  },
+  "Tax calculated in cart": {
+    "bn": "কার্টে কর হিসাব হবে",
+    "banglish": "Cart-e kor hisab hobe",
+    "ar": "تُحسب الضريبة في السلة"
+  },
+  "The cancellation and original source reference remain in the history. No accounting entry is posted.": {
+    "bn": "বাতিল ও মূল উৎসের রেফারেন্স ইতিহাসে থাকে। কোনো হিসাব এন্ট্রি পোস্ট হয় না।",
+    "banglish": "Cancellation o originalsource reference history-te thake. Kono accountingentry post hoy na.",
+    "ar": "يبقى الإلغاء ومرجع المصدر الأصلي في السجل. لا يُرحّل أي قيد محاسبي."
+  },
+  "This historical handoff is immutable. It is not proof that a sale has been posted or fulfilled. Review the core Sales workflow separately; there is no automatic sales posting or tax configuration in CRM.": {
+    "bn": "এই ঐতিহাসিক হস্তান্তর অপরিবর্তনীয়। এটি বিক্রয় পোস্ট বা সরবরাহের প্রমাণ নয়। মূল Sales কার্যপ্রবাহ আলাদাভাবে দেখুন; CRM-এ স্বয়ংক্রিয় বিক্রয় পোস্ট বা কর সেটআপ নেই।",
+    "banglish": "Ei historical handoff immutable. Eti salepost ba fulfillment-er proman noy. Core Sales workflow alada review korun; CRM-e automatic salespost ba taxsetup nei.",
+    "ar": "هذا التسليم التاريخي غير قابل للتعديل. وليس دليلاً على ترحيل بيع أو تنفيذه. راجع مسار المبيعات الأساسي منفصلاً؛ لا يوجد ترحيل مبيعات تلقائي أو إعداد ضريبي في CRM."
+  },
+  "This is an internal activity log. No communication was sent by CRM.": {
+    "bn": "এটি অভ্যন্তরীণ কার্যক্রমের লগ। CRM কোনো বার্তা পাঠায়নি।",
+    "banglish": "Eti internal activitylog. CRM kono jogajog pathayni.",
+    "ar": "هذا سجل نشاط داخلي. لم يرسل CRM أي اتصال."
+  },
+  "This lead is already linked to customer ID": {
+    "bn": "এই লিড ইতিমধ্যে যে গ্রাহক আইডির সঙ্গে যুক্ত",
+    "banglish": "Ei lead agei je customerID-r songe jukto",
+    "ar": "هذا العميل المحتمل مرتبط بالفعل بمعرّف العميل"
+  },
+  "This period": {
+    "bn": "এই সময়কাল",
+    "banglish": "Ei shomoykal",
+    "ar": "هذه الفترة"
+  },
+  "This records an internal task. It does not place a call, send a message, create an invitation or override marketing consent.": {
+    "bn": "এটি অভ্যন্তরীণ কাজ নথিভুক্ত করে। কল, বার্তা বা আমন্ত্রণ পাঠায় না এবং বিপণনের সম্মতি অগ্রাহ্য করে না।",
+    "banglish": "Eti internal task record kore. Call,message,invitation pathay na ba marketingconsent override kore na.",
+    "ar": "يسجل هذا مهمة داخلية. ولا يجري مكالمة أو يرسل رسالة أو دعوة أو يتجاوز الموافقة التسويقية."
+  },
+  "This saves a preview of eligible assets in the active branch. A different authorized user reviews it before posting. Complete earlier due months first. Disposed, non-depreciable, zero-cost and residual-floor assets are excluded.": {
+    "bn": "এটি সক্রিয় শাখার উপযুক্ত সম্পদের প্রাকদর্শন সংরক্ষণ করে। পোস্টের আগে অন্য অনুমোদিত ব্যবহারকারী পর্যালোচনা করবেন। আগে বকেয়া মাসগুলো সম্পন্ন করুন। নিষ্পত্তিকৃত, অবচয়-অযোগ্য, শূন্য ব্যয়ের ও অবশিষ্ট নিম্নসীমায় পৌঁছানো সম্পদ বাদ থাকে।",
+    "banglish": "Eti activebranch-er eligibleasset preview save kore. Post-er age onno authorizeduser review korben. Ager duemonth shesh korun. Disposed,nondepreciable,zerocost o residualfloor asset bad.",
+    "ar": "يحفظ هذا معاينة الأصول المؤهلة في الفرع النشط. يراجعها مستخدم مخول آخر قبل الترحيل. أكمل الأشهر المستحقة السابقة أولاً. تُستبعد الأصول المستبعدة وغير القابلة للإهلاك وصفرية التكلفة والتي بلغت حد القيمة المتبقية."
+  },
+  "To": {
+    "bn": "পর্যন্ত",
+    "banglish": "Porjonto",
+    "ar": "إلى"
+  },
+  "Unique asset code": {
+    "bn": "অনন্য সম্পদ কোড",
+    "banglish": "Unique assetcode",
+    "ar": "رمز أصل فريد"
+  },
+  "Unique disposal reference": {
+    "bn": "অনন্য নিষ্পত্তির রেফারেন্স",
+    "banglish": "Unique disposalreference",
+    "ar": "مرجع استبعاد فريد"
+  },
+  "Unique internal handoff reference": {
+    "bn": "অনন্য অভ্যন্তরীণ হস্তান্তর রেফারেন্স",
+    "banglish": "Unique internalhandoff reference",
+    "ar": "مرجع تسليم داخلي فريد"
+  },
+  "Unique lead reference": {
+    "bn": "অনন্য লিড রেফারেন্স",
+    "banglish": "Unique leadreference",
+    "ar": "مرجع عميل محتمل فريد"
+  },
+  "Unique run reference": {
+    "bn": "অনন্য কার্যক্রমের রেফারেন্স",
+    "banglish": "Unique runreference",
+    "ar": "مرجع دورة فريد"
+  },
+  "Unique source / invoice reference": {
+    "bn": "অনন্য উৎস / চালান রেফারেন্স",
+    "banglish": "Unique source / invoicereference",
+    "ar": "مرجع مصدر / فاتورة فريد"
+  },
+  "Unit price": {
+    "bn": "একক মূল্য",
+    "banglish": "Unit mullo",
+    "ar": "سعر الوحدة"
+  },
+  "Unknown": {
+    "bn": "অজানা",
+    "banglish": "Ojana",
+    "ar": "غير معروف"
+  },
+  "Unknown is the default. Consent is recorded for marketing only; no outreach is sent by this module. Contact changes require fresh consent evidence or Unknown.": {
+    "bn": "অজানা ডিফল্ট অবস্থা। সম্মতি শুধু বিপণনের জন্য নথিভুক্ত হয়; এই মডিউল কোনো যোগাযোগ পাঠায় না। যোগাযোগের তথ্য বদলালে নতুন সম্মতির প্রমাণ অথবা অজানা অবস্থা প্রয়োজন।",
+    "banglish": "Unknown default. Consent shudhu marketing-er jonno record hoy; ei module outreach pathay na. Contact bodlale fresh consent evidence ba Unknown lagbe.",
+    "ar": "الحالة الافتراضية «غير معروف». تُسجل الموافقة للتسويق فقط ولا ترسل هذه الوحدة أي اتصال. تتطلب تغييرات الاتصال دليلاً جديداً على الموافقة أو الحالة «غير معروف»."
+  },
+  "Update": {
+    "bn": "হালনাগাদ",
+    "banglish": "Halnagad",
+    "ar": "تحديث"
+  },
+  "Useful life in months (0 only for non-depreciable)": {
+    "bn": "মাসে কার্যকর আয়ুষ্কাল (শুধু অবচয়-অযোগ্য হলে ০)",
+    "banglish": "Mashe useful life (shudhu nondepreciable hole0)",
+    "ar": "العمر النافع بالأشهر (0 لغير القابل للإهلاك فقط)"
+  },
+  "Valid until": {
+    "bn": "মেয়াদ পর্যন্ত",
+    "banglish": "Meyad porjonto",
+    "ar": "صالح حتى"
+  },
+  "Verified identity": {
+    "bn": "যাচাইকৃত পরিচয়",
+    "banglish": "Jachaikrito porichoy",
+    "ar": "هوية متحقق منها"
+  },
+  "View depreciation runs": {
+    "bn": "অবচয় কার্যক্রম দেখুন",
+    "banglish": "Obochoy run dekhun",
+    "ar": "عرض دورات الإهلاك"
+  },
+  "Withdrawn": {
+    "bn": "প্রত্যাহৃত",
+    "banglish": "Prottahrito",
+    "ar": "مسحوب"
+  },
+  "Won is recorded only through reviewed quote acceptance. Closed opportunities cannot be reopened or silently changed.": {
+    "bn": "পর্যালোচিত মূল্যপ্রস্তাব গ্রহণের মাধ্যমেই Won নথিভুক্ত হয়। বন্ধ সুযোগ পুনরায় খোলা বা নীরবে পরিবর্তন করা যায় না।",
+    "banglish": "Reviewed quote acceptance diyei Won record hoy. Closed opportunity reopen ba chupchap bodlano jay na.",
+    "ar": "تُسجل حالة «رابحة» فقط عبر قبول عرض سعر مُراجع. لا يمكن إعادة فتح الفرص المغلقة أو تغييرها بصمت."
+  },
+  "Your cart is empty.": {
+    "bn": "আপনার কার্ট খালি।",
+    "banglish": "Apnar cart khali.",
+    "ar": "سلتك فارغة."
+  },
+  "Zero-value lines are omitted from the posted journal. A zero-cost, zero-proceeds disposal creates no monetary journal.": {
+    "bn": "শূন্য মূল্যের লাইন পোস্ট করা জাবেদা থেকে বাদ থাকে। শূন্য ব্যয় ও শূন্য প্রাপ্তির নিষ্পত্তিতে আর্থিক জাবেদা হয় না।",
+    "banglish": "Zero-value line postedjournal theke bad. Zerocost o zeroproceeds disposal-e moneyjournal hoy na.",
+    "ar": "تُحذف البنود صفرية القيمة من القيد المرحّل. لا ينشئ الاستبعاد بتكلفة وعائد صفريين قيداً نقدياً."
+  },
+  "currency decimal places from reviewed company policy": {
+    "bn": "পর্যালোচিত কোম্পানি নীতি থেকে মুদ্রার দশমিক ঘর",
+    "banglish": "Reviewed companypolicy theke mudrar doshomik ghor",
+    "ar": "المنازل العشرية للعملة من سياسة الشركة المُراجعة"
+  },
+  "net only": {
+    "bn": "শুধু নিট",
+    "banglish": "Shudhu net",
+    "ar": "الصافي فقط"
+  },
+  "net-only estimate": {
+    "bn": "শুধু নিট প্রাক্কলন",
+    "banglish": "Shudhu net estimate",
+    "ar": "تقدير صافٍ فقط"
+  }
+}

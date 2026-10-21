@@ -1,0 +1,3 @@
+IF DB_ID(N'SmartFarmERP') IS NULL CREATE DATABASE SmartFarmERP;
+GO
+-- Run EF Core migrations after setting an authenticated connection string. Do not use EnsureCreated in production.

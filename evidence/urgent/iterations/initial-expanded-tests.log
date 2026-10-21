@@ -1,0 +1,143 @@
+Test run for /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:26.00]     EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(basis: "Monthly", mode: "ActualCalendarDays") [FAIL]
+  Failed EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(basis: "Monthly", mode: "ActualCalendarDays") [538 ms]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase..ctor(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperFactory.GetUrlHelper(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.get_Url()
+   at Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(String actionName, String controllerName, Object routeValues, String fragment)
+   at EnterpriseERP.Web.Controllers.HRPayrollController.Success(String message, String action, Object route) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/Controllers/HRPayrollController.cs:line 120
+   at EnterpriseERP.Web.Controllers.HRPayrollController.CreatePolicy(HRPayrollPolicyInput input, CancellationToken ct) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/Controllers/HRPayrollController.cs:line 77
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(String basis, String mode) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 86
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(String basis, String mode) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 90
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:26.56]     EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(basis: "Daily", mode: "NotApplicable") [FAIL]
+  Failed EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(basis: "Daily", mode: "NotApplicable") [576 ms]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase..ctor(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperFactory.GetUrlHelper(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.get_Url()
+   at Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(String actionName, String controllerName, Object routeValues, String fragment)
+   at EnterpriseERP.Web.Controllers.HRPayrollController.Success(String message, String action, Object route) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/Controllers/HRPayrollController.cs:line 120
+   at EnterpriseERP.Web.Controllers.HRPayrollController.CreatePolicy(HRPayrollPolicyInput input, CancellationToken ct) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/Controllers/HRPayrollController.cs:line 77
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(String basis, String mode) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 86
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(String basis, String mode) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 90
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:27.28]     EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(basis: "Mixed", mode: "FixedPaidUnits") [FAIL]
+[xUnit.net 00:00:27.33]     EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.RenderedNewPolicyRequiresAnExplicitBasisPrecisionRatesAndCapChoice [FAIL]
+  Failed EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(basis: "Mixed", mode: "FixedPaidUnits") [706 ms]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at Microsoft.AspNetCore.Mvc.Routing.UrlHelperBase..ctor(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelperFactory.GetUrlHelper(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.ControllerBase.get_Url()
+   at Microsoft.AspNetCore.Mvc.ControllerBase.RedirectToAction(String actionName, String controllerName, Object routeValues, String fragment)
+   at EnterpriseERP.Web.Controllers.HRPayrollController.Success(String message, String action, Object route) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/Controllers/HRPayrollController.cs:line 120
+   at EnterpriseERP.Web.Controllers.HRPayrollController.CreatePolicy(HRPayrollPolicyInput input, CancellationToken ct) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/Controllers/HRPayrollController.cs:line 77
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(String basis, String mode) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 86
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.ExplicitZeroPercentagesAndNoCapRemainValidReviewedChoices(String basis, String mode) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 90
+--- End of stack trace from previous location ---
+  Failed EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.RenderedNewPolicyRequiresAnExplicitBasisPrecisionRatesAndCapChoice [54 ms]
+  Error Message:
+   System.InvalidOperationException : Could not find an IRouter associated with the ActionContext. If your application is using endpoint routing then you can get a IUrlHelperFactory with dependency injection and use it to create a UrlHelper, or use Microsoft.AspNetCore.Routing.LinkGenerator.
+  Stack Trace:
+     at Microsoft.AspNetCore.Mvc.Routing.UrlHelper.get_Router()
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelper.GetVirtualPathData(String routeName, RouteValueDictionary values)
+   at Microsoft.AspNetCore.Mvc.Routing.UrlHelper.Action(UrlActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.DefaultHtmlGenerator.GenerateActionLink(ViewContext viewContext, String linkText, String actionName, String controllerName, String protocol, String hostname, String fragment, Object routeValues, Object htmlAttributes)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper.Process(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.TagHelpers.TagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.RunAsync(TagHelperExecutionContext executionContext)
+   at AspNetCoreGeneratedDocument.Views_HRPayroll__Nav.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model, IView view)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCoreGeneratedDocument.Views_HRPayroll_Policies.ExecuteAsync() in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/Views/HRPayroll/Policies.cshtml:line 2
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.RenderedNewPolicyRequiresAnExplicitBasisPrecisionRatesAndCapChoice() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 119
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.RenderedNewPolicyRequiresAnExplicitBasisPrecisionRatesAndCapChoice() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 127
+   at EnterpriseERP.UnitTests.HRPayrollFirstLiveGuardsTests.RenderedNewPolicyRequiresAnExplicitBasisPrecisionRatesAndCapChoice() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/HRPayrollFirstLiveGuardsTests.cs:line 127
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:36.45]     EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.PurchaseOrderReceiptUsesSameLocalPostingDate [FAIL]
+  Failed EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.PurchaseOrderReceiptUsesSameLocalPostingDate [485 ms]
+  Error Message:
+   System.ArgumentException : Stock unit is required and must be at most 30 characters without control characters.
+  Stack Trace:
+     at EnterpriseERP.Web.BusinessInput.Text(String value, String label, Int32 maxLength, Boolean required) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/BusinessInput.cs:line 26
+   at EnterpriseERP.Web.StockUnitPolicy.Normalize(String unit) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/StockUnitPolicy.cs:line 8
+   at EnterpriseERP.Web.FarmService.AddStock(String sku, String name, Decimal unitCost, CancellationToken ct, String unitOfMeasure) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/FarmService.cs:line 41
+   at EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.PurchaseOrderReceiptUsesSameLocalPostingDate() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/CompanyLocalBusinessDateTests.cs:line 166
+   at EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.PurchaseOrderReceiptUsesSameLocalPostingDate() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/CompanyLocalBusinessDateTests.cs:line 170
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:40.59]     EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.OperationalPostingsUseOneCompanyDayAndKeepAuditInstantsAndHistory [FAIL]
+  Failed EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.OperationalPostingsUseOneCompanyDayAndKeepAuditInstantsAndHistory [529 ms]
+  Error Message:
+   System.ArgumentException : Stock unit is required and must be at most 30 characters without control characters.
+  Stack Trace:
+     at EnterpriseERP.Web.BusinessInput.Text(String value, String label, Int32 maxLength, Boolean required) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/BusinessInput.cs:line 26
+   at EnterpriseERP.Web.StockUnitPolicy.Normalize(String unit) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/StockUnitPolicy.cs:line 8
+   at EnterpriseERP.Web.FarmService.AddStock(String sku, String name, Decimal unitCost, CancellationToken ct, String unitOfMeasure) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/FarmService.cs:line 41
+   at EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.OperationalPostingsUseOneCompanyDayAndKeepAuditInstantsAndHistory() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/CompanyLocalBusinessDateTests.cs:line 138
+   at EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.OperationalPostingsUseOneCompanyDayAndKeepAuditInstantsAndHistory() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/CompanyLocalBusinessDateTests.cs:line 159
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:41.74]     EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.HealthFeedAndDairyControllersAcceptAndShowLocalToday [FAIL]
+  Failed EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.HealthFeedAndDairyControllersAcceptAndShowLocalToday [623 ms]
+  Error Message:
+   System.ArgumentException : Stock unit is required and must be at most 30 characters without control characters.
+  Stack Trace:
+     at EnterpriseERP.Web.BusinessInput.Text(String value, String label, Int32 maxLength, Boolean required) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/BusinessInput.cs:line 26
+   at EnterpriseERP.Web.StockUnitPolicy.Normalize(String unit) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/StockUnitPolicy.cs:line 8
+   at EnterpriseERP.Web.FarmService.AddStock(String sku, String name, Decimal unitCost, CancellationToken ct, String unitOfMeasure) in /workspace/scratch/85a436f01071/farm_urgent/source/EnterpriseERP.Web/FarmService.cs:line 41
+   at EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.HealthFeedAndDairyControllersAcceptAndShowLocalToday() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/CompanyLocalBusinessDateTests.cs:line 237
+   at EnterpriseERP.UnitTests.CompanyLocalBusinessDateTests.HealthFeedAndDairyControllersAcceptAndShowLocalToday() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/CompanyLocalBusinessDateTests.cs:line 245
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:46.25]     EnterpriseERP.UnitTests.StagingPreflightTests.SqlServerParenthesesForSimpleIndexFiltersAreAccepted(model: "[IsClosed] = 0", catalog: "([IsClosed]=(0))") [FAIL]
+[xUnit.net 00:00:46.25]     EnterpriseERP.UnitTests.StagingPreflightTests.SqlServerParenthesesForSimpleIndexFiltersAreAccepted(model: "[NormalizedName] IS NOT NULL", catalog: "([NormalizedName] IS NOT NULL)") [FAIL]
+  Failed EnterpriseERP.UnitTests.StagingPreflightTests.SqlServerParenthesesForSimpleIndexFiltersAreAccepted(model: "[IsClosed] = 0", catalog: "([IsClosed]=(0))") [5 ms]
+  Error Message:
+   Assert.Equal() Failure: Strings differ
+           ↓ (pos 0)
+Expected: "[IsClosed] = 0"
+Actual:   "([IsClosed]=(0))"
+           ↑ (pos 0)
+  Stack Trace:
+     at EnterpriseERP.UnitTests.StagingPreflightTests.SqlServerParenthesesForSimpleIndexFiltersAreAccepted(String model, String catalog) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/StagingPreflightTests.cs:line 137
+   at System.RuntimeMethodHandle.InvokeMethod(ObjectHandleOnStack target, Void** arguments, ObjectHandleOnStack sig, BOOL isConstructor, ObjectHandleOnStack result)
+   at System.RuntimeMethodHandle.InvokeMethod(ObjectHandleOnStack target, Void** arguments, ObjectHandleOnStack sig, BOOL isConstructor, ObjectHandleOnStack result)
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  Failed EnterpriseERP.UnitTests.StagingPreflightTests.SqlServerParenthesesForSimpleIndexFiltersAreAccepted(model: "[NormalizedName] IS NOT NULL", catalog: "([NormalizedName] IS NOT NULL)") [< 1 ms]
+  Error Message:
+   Assert.Equal() Failure: Strings differ
+           ↓ (pos 0)
+Expected: "[NormalizedName] IS NOT NULL"
+Actual:   "([NormalizedName] IS NOT NULL)"
+           ↑ (pos 0)
+  Stack Trace:
+     at EnterpriseERP.UnitTests.StagingPreflightTests.SqlServerParenthesesForSimpleIndexFiltersAreAccepted(String model, String catalog) in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/StagingPreflightTests.cs:line 137
+   at InvokeStub_StagingPreflightTests.SqlServerParenthesesForSimpleIndexFiltersAreAccepted(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+[xUnit.net 00:00:56.48]     EnterpriseERP.UnitTests.StaffEmailOwnershipTests.OwnershipVerificationPermissionCannotBeMintedThroughOrdinaryStaffProvisioning [FAIL]
+  Failed EnterpriseERP.UnitTests.StaffEmailOwnershipTests.OwnershipVerificationPermissionCannotBeMintedThroughOrdinaryStaffProvisioning [258 ms]
+  Error Message:
+   Assert.DoesNotContain() Failure: Item found in set
+Set:   ["Automation.Manage", "FeedManagement.View", "BusinessPolicy.View", "CustomerCare.Create", "AnimalHealth.View", ···]
+Found: "Identity.VerifyEmailOwnership"
+  Stack Trace:
+     at EnterpriseERP.UnitTests.StaffEmailOwnershipTests.OwnershipVerificationPermissionCannotBeMintedThroughOrdinaryStaffProvisioning() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/StaffEmailOwnershipTests.cs:line 293
+   at EnterpriseERP.UnitTests.StaffEmailOwnershipTests.OwnershipVerificationPermissionCannotBeMintedThroughOrdinaryStaffProvisioning() in /workspace/scratch/85a436f01071/farm_urgent/source/Tests/EnterpriseERP.UnitTests/StaffEmailOwnershipTests.cs:line 300
+--- End of stack trace from previous location ---
+Results File: /workspace/scratch/85a436f01071/farm_urgent/source/evidence/urgent/test-results/urgent-tests.trx
+
+Failed!  - Failed:    10, Passed:   787, Skipped:     0, Total:   797, Duration: 1 m 29 s - EnterpriseERP.UnitTests.dll (net10.0)

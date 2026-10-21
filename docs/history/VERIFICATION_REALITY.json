@@ -1,0 +1,11 @@
+{
+  "dotnet_sdk_available": false,
+  "sql_server_available": false,
+  "iis_available": false,
+  "compiled": false,
+  "migration_applied": false,
+  "iis_tested": false,
+  "customer_uat": false,
+  "source_modules_with_marker": 23,
+  "production_approved": false
+}

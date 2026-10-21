@@ -1,0 +1,87 @@
+@model AdministrationPage
+@{ ViewData["Title"] = "Administration"; }
+<div class="page-head"><div><span class="eyebrow" data-i18n="COMPANY ADMINISTRATION">COMPANY ADMINISTRATION</span><h1>@Model.CompanyName</h1><p data-i18n="Create staff accounts and manage access within your authorized branches.">Create staff accounts and manage access within your authorized branches.</p></div><a class="pill-link" href="/admin/permissions" data-i18n="Manage operational permissions">Manage operational permissions</a></div>
+<div asp-validation-summary="All" class="notice" role="alert"></div>
+<section class="card" style="padding:24px;margin-bottom:24px">
+<h2 data-i18n="Create a staff account">Create a staff account</h2>
+<p data-i18n="The account starts with only the branch and operational permissions you choose. No platform role or administrator wildcard is assigned.">The account starts with only the branch and operational permissions you choose. No platform role or administrator wildcard is assigned.</p>
+<form method="post" action="/Administration/staff/create">@Html.AntiForgeryToken()
+<div class="form-grid">
+<label><span data-i18n="Email">Email</span> <input asp-for="CreateStaff.Email" type="email" autocomplete="off" maxlength="256" required /></label>
+<label><span data-i18n="Initial password">Initial password</span> <input asp-for="CreateStaff.Password" type="password" autocomplete="new-password" minlength="12" maxlength="128" required /><small data-i18n="12–128 characters, uppercase, lowercase, digit and symbol. Never send passwords through ordinary email.">12–128 characters, uppercase, lowercase, digit and symbol. Never send passwords through ordinary email.</small></label>
+<label><span data-i18n="Authorized branch">Authorized branch</span> <select asp-for="CreateStaff.BranchId" required><option value="" data-i18n="Select a branch">Select a branch</option>@foreach(var branch in Model.Branches){<option value="@branch.Id">@branch.Name</option>}</select></label>
+</div>
+<details style="margin:16px 0"><summary><span data-i18n="Choose operational permissions">Choose operational permissions</span></summary><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:8px;padding:12px 0">
+@foreach(var permission in PermissionService.GrantablePermissions.OrderBy(x => x))
+{
+<label style="display:flex;gap:8px;align-items:center"><input type="checkbox" name="CreateStaff.Permissions" value="@permission" checked="@((Model.CreateStaff.Permissions ?? Array.Empty<string>()).Contains(permission))" />@permission</label>
+}
+</div></details>
+<p data-i18n="Permissions are company-scoped and apply only where this account also has branch access. Grant related view permissions along with posting permissions so the staff member can open that workspace.">Permissions are company-scoped and apply only where this account also has branch access. Grant related view permissions along with posting permissions so the staff member can open that workspace.</p>
+<button type="submit" data-i18n="Create staff account">Create staff account</button>
+</form>
+</section>
+<section class="card" style="padding:24px;margin-bottom:24px">
+<h2 data-i18n="Add an existing account to a branch">Add an existing account to a branch</h2>
+<p data-i18n="Look up the exact email first. Review the returned account and branch before confirming. This does not reset its password or change its roles.">Look up the exact email first. Review the returned account and branch before confirming. This does not reset its password or change its roles.</p>
+<form method="post" action="/Administration/staff/lookup">@Html.AntiForgeryToken()
+<label><span data-i18n="Exact account email">Exact account email</span> <input asp-for="Lookup.Email" type="email" maxlength="256" required /></label>
+<label><span data-i18n="Your authorized branch">Your authorized branch</span> <select asp-for="Lookup.BranchId" required><option value="" data-i18n="Select a branch">Select a branch</option>@foreach(var branch in Model.Branches){<option value="@branch.Id">@branch.Name</option>}</select></label>
+<button type="submit" data-i18n="Look up account">Look up account</button>
+</form>
+@if(Model.Candidate is not null)
+{
+<div class="notice" style="margin-top:16px">
+<p><span data-i18n="Account:">Account:</span> <strong>@Model.Candidate.Email</strong><br /><span data-i18n="Access to grant:">Access to grant:</span> <strong>@Model.CompanyName / @Model.Candidate.BranchName</strong></p>
+<form method="post" action="/Administration/staff/attach">@Html.AntiForgeryToken()
+<input type="hidden" name="Attach.ConfirmationToken" value="@Model.Candidate.ConfirmationToken" />
+<label><input type="checkbox" name="Attach.Confirm" value="true" required /> <span data-i18n="I confirm this exact account should have access to this company and branch.">I confirm this exact account should have access to this company and branch.</span></label>
+<button type="submit" data-i18n="Confirm branch access">Confirm branch access</button>
+</form><p data-i18n="This lookup expires in 10 minutes. Operational permissions can be assigned from Permission Management after confirmation.">This lookup expires in 10 minutes. Operational permissions can be assigned from Permission Management after confirmation.</p>
+</div>
+}
+</section>
+<section class="card" style="padding:24px;margin-bottom:24px"><h2 data-i18n="Staff in your authorized branches">Staff in your authorized branches</h2>
+<p data-i18n="Revoking access takes effect on the next request. Identity accounts and business history are retained. You cannot remove yourself, the last scoped administrator, or a platform administrator here.">Revoking access takes effect on the next request. Identity accounts and business history are retained. You cannot remove yourself, the last scoped administrator, or a platform administrator here.</p>
+<div style="overflow-x:auto"><table><thead><tr><th data-i18n="Account">Account</th><th data-i18n="Branch">Branch</th><th data-i18n="Email ownership review">Email ownership review</th><th data-i18n="Revoke access">Revoke access</th></tr></thead><tbody>
+@foreach(var staff in Model.Staff)
+{
+<tr><td>@staff.Email</td><td>@staff.BranchName</td><td>
+@if(staff.EmailConfirmed){<span data-i18n="Email ownership verified">Email ownership verified</span>}
+else{<span data-i18n="Email ownership not verified">Email ownership not verified</span>
+@if(Model.CanVerifyEmailOwnership){<details><summary data-i18n="Record out-of-band verification">Record out-of-band verification</summary>
+<p data-i18n="Only use this after verifying mailbox ownership outside this application. No email challenge or SMTP delivery is performed here. Shared or privileged identities are not eligible.">Only use this after verifying mailbox ownership outside this application. No email challenge or SMTP delivery is performed here. Shared or privileged identities are not eligible.</p>
+<form method="post" action="/Administration/staff/verify-email-ownership">@Html.AntiForgeryToken()
+<input type="hidden" name="VerifyEmail.UserId" value="@staff.UserId"/><input type="hidden" name="VerifyEmail.BranchId" value="@staff.BranchId"/>
+<input type="hidden" name="VerifyEmail.Email" value="@staff.Email"/><input type="hidden" name="VerifyEmail.ConcurrencyStamp" value="@staff.ConcurrencyStamp"/>
+<label><span data-i18n="Completed verification method">Completed verification method</span><select name="VerifyEmail.Method" required><option value="" data-i18n="Select explicitly">Select explicitly</option><option value="ObservedMailboxControl" data-i18n="Mailbox control observed by reviewer">Mailbox control observed by reviewer</option><option value="ExternalEmailChallenge" data-i18n="Organization email challenge completed externally">Organization email challenge completed externally</option></select></label>
+<label><span data-i18n="Non-sensitive verification reference">Non-sensitive verification reference</span><input name="VerifyEmail.EvidenceReference" minlength="5" maxlength="48" required/><small data-i18n="Record a review reference only. Do not enter passwords, identity documents or mailbox contents.">Record a review reference only. Do not enter passwords, identity documents or mailbox contents.</small></label>
+<label><span data-i18n="Your current password">Your current password</span><input type="password" name="VerifyEmail.CurrentPassword" autocomplete="current-password" maxlength="1024" required/></label>
+<label><input type="checkbox" name="VerifyEmail.Confirm" value="true" required/><span data-i18n="I completed the stated email ownership check for this exact account and accept responsibility for this recorded attestation.">I completed the stated email ownership check for this exact account and accept responsibility for this recorded attestation.</span></label>
+<button type="submit" data-i18n="Record verified ownership">Record verified ownership</button></form></details>}}
+</td><td>
+<details><summary><span data-i18n="Review revocation">Review revocation</span></summary>
+<form method="post" action="/Administration/staff/revoke">@Html.AntiForgeryToken()
+<input type="hidden" name="Revoke.UserId" value="@staff.UserId" /><input type="hidden" name="Revoke.BranchId" value="@staff.BranchId" />
+<label><select name="Revoke.RemoveCompanyAccess"><option value="false" data-i18n="Only the selected branch">Only the selected branch</option><option value="true" data-i18n="All company access and operational permissions">All company access and operational permissions</option></select></label>
+<label><input type="checkbox" name="Revoke.Confirm" value="true" required /> <span data-i18n="Revoke the selected access for">Revoke the selected access for</span> <bdi>@staff.Email</bdi>.</label><button type="submit" data-i18n="Revoke selected access">Revoke selected access</button>
+</form></details>
+</td></tr>
+}
+</tbody></table></div>
+</section>
+@if(Model.IsPlatformAdmin)
+{
+<section class="card" style="padding:24px;margin-bottom:24px"><h2 data-i18n="Platform administration: create a company">Platform administration: create a company</h2><p data-i18n="This creates a separate company, its first farm and branch, and grants your own administrator account access. No staff or billing payment is created.">This creates a separate company, its first farm and branch, and grants your own administrator account access. No staff or billing payment is created.</p>
+<form method="post" action="/Administration/company/create">@Html.AntiForgeryToken()
+<label><span data-i18n="Company name">Company name</span> <input asp-for="NewCompany.CompanyName" maxlength="120" required /></label>
+<label><span data-i18n="First farm name">First farm name</span> <input asp-for="NewCompany.FarmName" maxlength="120" required /></label>
+<label><span data-i18n="First branch name">First branch name</span> <input asp-for="NewCompany.BranchName" maxlength="120" required /></label>
+<button type="submit" data-i18n="Create company, farm and branch">Create company, farm and branch</button></form></section>
+<section class="card" style="padding:24px;margin-bottom:24px"><h2 data-i18n="Platform administration: add a branch">Platform administration: add a branch</h2><p><span data-i18n="Target company:">Target company:</span> <strong>@Model.CompanyName</strong>.<span data-i18n="Select an existing farm, or leave it blank and enter a new farm name.">Select an existing farm, or leave it blank and enter a new farm name.</span></p>
+<form method="post" action="/Administration/branch/create">@Html.AntiForgeryToken()
+<label><span data-i18n="Existing farm">Existing farm</span> <select asp-for="NewBranch.FarmId"><option value="" data-i18n="Create a new farm">Create a new farm</option>@foreach(var farm in Model.Farms){<option value="@farm.Id">@farm.Name</option>}</select></label>
+<label><span data-i18n="New farm name, if needed">New farm name, if needed</span> <input asp-for="NewBranch.NewFarmName" maxlength="120" /></label>
+<label><span data-i18n="New branch name">New branch name</span> <input asp-for="NewBranch.BranchName" maxlength="120" required /></label>
+<button type="submit" data-i18n="Create branch">Create branch</button></form></section>
+}

@@ -1,0 +1,444 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-19T05:14:35.591589+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Company policy requires CSRF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Omitted currency precision is rejected, never defaulted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Blank currency precision is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Currency change cannot relabel existing books",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Existing ledger denomination requires explicit confirmation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Same-currency policy proposal binds through real MVC form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Optional effective-through binds as null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Optional blank non-US region binds and remains blank",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "US policy requires an explicitly identified state",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Competing unreviewed proposal has a separate version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Policy proposer cannot approve own proposal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Other company cannot review a foreign company policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Different identity approves same-currency version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stale original review cannot reverse approved policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Competing same-effective-date version cannot supersede approved version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Obsolete proposal can be explicitly rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original approved company policy remains immutable history",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Other company listing excludes policy source evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Omitted tax percentage is rejected instead of defaulting to zero",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Blank tax percentage is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zero rate cannot masquerade as standard positive tax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Zero exemption needs a specific review basis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Explicit zero exemption proposal saves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tax zero, reason and effective company policy are snapshotted exactly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tax competing proposal retains separate version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Tax proposer cannot approve own exemption",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Tax review cannot cross company scope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Different reviewer approves explicit zero exemption",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stale tax review cannot rewrite approved rate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Competing tax version is blocked after another approval",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Obsolete tax draft may be rejected without changing approved version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Policy and tax review never create financial journal entries",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /business-policy",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Foreign company tax list does not disclose review basis",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /AIManager",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "AI Manager lists only allowed module identifiers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "AI fact snapshot exposes exact active company and branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "AI asset counts are permission-scoped live database facts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other user AI snapshot remains in other company",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "AI Manager renders a truthful local review draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "AI review draft leaves every business row unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "AI draft POST requires CSRF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unknown AI module is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Permission boundary fixture removes demo administrator wildcard",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /AIManager",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Missing asset grant hides the asset choice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "AI.Read alone cannot read asset facts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Forged AI draft module cannot bypass module grant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other granted AI module stays accessible",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Business-module permission alone cannot enter AI Manager",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Business-module permission alone cannot read AI facts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "AI facts honor selected branch even inside the same company",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Another browser session keeps its own original branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee",
+  "passed": 86,
+  "failed": 0,
+  "completed_utc": "2026-10-19T05:15:12.952461+00:00",
+  "status": "passed"
+}

@@ -1,0 +1,2 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net10.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup><ItemGroup>    <ProjectReference Include="..\EnterpriseERP.Domain\EnterpriseERP.Domain.csproj" />
+    <ProjectReference Include="..\EnterpriseERP.Shared\EnterpriseERP.Shared.csproj" /></ItemGroup></Project>

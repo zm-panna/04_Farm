@@ -1,0 +1,2083 @@
+{
+  "verification_kind": "HTTP integration",
+  "environment": "Development SQLite, disposable synthetic fixture, localhost Kestrel",
+  "browser_executed": false,
+  "production_verified": false,
+  "not_verified": [
+    "Browser rendering and JavaScript",
+    "Mobile interaction and localization persistence",
+    "SQL Server migration execution",
+    "Windows/IIS deployment",
+    "Live AI provider"
+  ],
+  "started_utc": "2026-10-20T09:48:40.984554+00:00",
+  "release_dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "checks": [
+    {
+      "check": "Built Release DLL and .NET runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Atomic demo seed",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Idempotent demo seed rerun",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Seed rerun preserves every persisted row, password hash and grant",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "V3 synthetic fixture has expected companies, branches, opening and transfer records",
+      "passed": true,
+      "detail": "{\"Animals\": 15, \"AspNetUsers\": 5, \"Branches\": 10, \"Companies\": 5, \"OpeningBalances\": 5, \"StockItems\": 10, \"StockMovements\": 45, \"StockTransfers\": 10, \"VoucherLines\": 170, \"Vouchers\": 70}"
+    },
+    {
+      "check": "V3 main and store initial stock quantities and units",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Demo accounts have no platform administrator role",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Disposable localhost Kestrel started",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anonymous route denied /api/operations/summary",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "check": "Anonymous route denied /api/farm/animals",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "check": "Anonymous route denied /api/advanced/farm-summary.pdf",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "check": "Anonymous route denied /ops/readiness",
+      "passed": true,
+      "detail": "HTTP 401"
+    },
+    {
+      "check": "Anonymous MVC redirects to login",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Login requires antiforgery token",
+      "passed": true,
+      "detail": "HTTP 400"
+    },
+    {
+      "check": "User 1 login form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 1 login form has antiforgery token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 1 real Identity login",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "User 1 authorized context form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 1 sees exactly their assigned company and branches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 1 selects authorized tenant context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tenant administrator dashboard",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "HTTP Content-Security-Policy allows self-hosted scripts only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Administrator receives authorized dashboard totals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Administrator receives staff and permission sidebar navigation links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /animals",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /products",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /milk-entry",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /animal-health",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /FeedManagement",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Fattening",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /breeding",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Expenses",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Purchase",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Sales",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Inventory",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Parties",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Accounts",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Accounts/periods",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Reports",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Subscription",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /support/tickets",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Support pager HTTP markup has every required ID exactly once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Support page includes its pager script and antiforgery create form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Automation",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Administration",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Account/ChangePassword",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Accounts/opening",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /stock-transfers",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Account/Security",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "All 23 core MVC pages returned HTML over authenticated HTTP",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unimplemented HR shell disabled",
+      "passed": true,
+      "detail": "HTTP 404"
+    },
+    {
+      "check": "Tenant administrator cannot inspect platform readiness",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Finance JSON POST rejects missing antiforgery token",
+      "passed": true,
+      "detail": "HTTP 400"
+    },
+    {
+      "check": "Context mutation rejects missing antiforgery token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-tenant context selection denied",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Mismatched company and branch denied",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Context remains usable after denied switches",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Inventory HTML excludes other tenant stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Animal API is tenant scoped",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-tenant support object ID cannot be read",
+      "passed": true,
+      "detail": "HTTP 404"
+    },
+    {
+      "check": "User 1 login form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 1 login form has antiforgery token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 1 real Identity login",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "User 1 authorized context form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 1 sees exactly their assigned company and branches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 1 selects authorized tenant context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "First independent session keeps main branch after second session selects store",
+      "passed": true,
+      "detail": "HTTP 200; branch 1"
+    },
+    {
+      "check": "Second independent session keeps store branch after Identity principal refresh",
+      "passed": true,
+      "detail": "HTTP 200; branch 6"
+    },
+    {
+      "check": "First session switches to store context form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "First session switches to store context selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Second session switches to main context form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Second session switches to main context selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Context selection in second session cannot switch first session",
+      "passed": true,
+      "detail": "HTTP 200; branch 6"
+    },
+    {
+      "check": "Independent main selection survives repeated principal refresh",
+      "passed": true,
+      "detail": "HTTP 200; branch 1"
+    },
+    {
+      "check": "Restore first session main branch context form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Restore first session main branch context selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Restore second session store branch context form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Restore second session store branch context selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tenant choices are not global Identity user claims",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Store branch shows immutable seeded opening",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Existing opening hides create form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Second opening is rejected with explicit validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate opening changes no persisted record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main session remains unchanged after store opening attempt",
+      "passed": true,
+      "detail": "HTTP 200; branch 1"
+    },
+    {
+      "check": "Purchase posting form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Purchase form exposes only active tenant stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-tenant purchase object denied",
+      "passed": true,
+      "detail": "HTTP 302; no persisted changes"
+    },
+    {
+      "check": "Cross-tenant purchase creates no receipt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase MVC post succeeds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase document shown after post",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Posted purchase reference shown",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase stock movement is exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase uses exact three-decimal amount",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate purchase returns handled MVC response",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate purchase makes no database change",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate purchase leaves exactly one receipt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate purchase gives visible error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sale posting form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Sale MVC post succeeds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sale document shown after post",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Posted sale reference shown",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase and sale net stock movement is exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate sale returns handled MVC response",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate sale makes no database change",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate sale leaves exactly one sale",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate sale gives visible error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Invalid negative quantity is handled without posting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Real stock-transfer posting form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Transfer form exposes matching SKU in authorized store branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stock transfer posts through MVC and redirects to its detail",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Posted transfer detail is readable",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Transfer detail contains reference and stock unit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Transfer changes both stock quantities exactly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Transfer preserves total company carrying value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Transfer has two persisted movements and two balanced voucher links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate stock transfer returns explicit error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate transfer changes no persisted record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Transfer to unauthorized other-company branch denied",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Denied cross-branch transfer changes no persisted record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Transfer cannot take source stock from another active branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Invalid source-branch transfer changes no persisted record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authorized destination session can read transfer detail",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "AI fallback request form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Disabled AI returns explicit unavailable response",
+      "passed": true,
+      "detail": "HTTP 503"
+    },
+    {
+      "check": "ERP reports remain usable after AI failure",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Authoritative summary API remains available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en CSV has localized heading and correct MIME",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en CSV values equal authoritative summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "English report labels state gross product totals before returns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en Excel export has expected MIME and ZIP signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en Excel is a valid OpenXML workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en Excel contains localized account headers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en Excel right-to-left marker is appropriate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en PDF has valid MIME, header and EOF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en PDF pdftotext validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en PDF passes pdftotext structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en PDF pdffonts validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en PDF passes pdffonts structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en PDF pdfinfo validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "en PDF passes pdfinfo structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn CSV has localized heading and correct MIME",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn CSV values equal authoritative summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn Excel export has expected MIME and ZIP signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn Excel is a valid OpenXML workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn Excel contains localized account headers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn Excel right-to-left marker is appropriate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF has valid MIME, header and EOF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF pdftotext validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF passes pdftotext structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF pdffonts validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF passes pdffonts structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF uses packaged script-specific Noto font",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF pdfinfo validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "bn PDF passes pdfinfo structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish CSV has localized heading and correct MIME",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish CSV values equal authoritative summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish Excel export has expected MIME and ZIP signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish Excel is a valid OpenXML workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish Excel contains localized account headers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish Excel right-to-left marker is appropriate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish PDF has valid MIME, header and EOF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish PDF pdftotext validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish PDF passes pdftotext structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish PDF pdffonts validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish PDF passes pdffonts structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish PDF pdfinfo validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "banglish PDF passes pdfinfo structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar CSV has localized heading and correct MIME",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar CSV values equal authoritative summary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar Excel export has expected MIME and ZIP signature",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar Excel is a valid OpenXML workbook",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar Excel contains localized account headers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar Excel right-to-left marker is appropriate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF has valid MIME, header and EOF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF pdftotext validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF passes pdftotext structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF pdffonts validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF passes pdffonts structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF uses packaged script-specific Noto font",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF pdfinfo validator is available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ar PDF passes pdfinfo structural extraction",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unknown report language rejected /api/operations/summary.csv?lang=invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unknown report language rejected /api/advanced/trial-balance.xlsx?through=2099-01-01T00:00:00Z&lang=invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unknown report language rejected /api/advanced/farm-summary.pdf?lang=invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trial balance API debit equals credit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Audited journal and bank forms",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Manual journal records exact tenant actor action reference and current timestamp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate manual journal reports validation without another audit or posting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Bank entry records exact tenant actor branch reference and current timestamp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate bank entry reports validation without another audit or line",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stock API requires an explicit unit without guessing or persisting data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stock API rejects ambiguous unit without data or audits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stock API creates normalized explicit unit and zero quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stock creation and unit assignment both identify tenant and actor",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate stock API creates neither a second product nor misleading audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "First product edit snapshot",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Second product edit snapshot",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Existing product edit includes original nonempty concurrency token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Current product edit succeeds with original token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stale product form returns conflict and preserves all records and audits",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Missing product edit token cannot overwrite metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exact-scale animal acquisition form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Animal cost form permits the documented three decimal places",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Animal acquisition accepts exact three-decimal cost through real MVC binding",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Existing animal exact-cost edit",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Animal metadata edit preserves immutable exact acquisition cost",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Explicit party status binding form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Malformed party active state fails visibly without mutation or audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Missing party active state fails visibly without mutation or audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Explicit false party state remains an intentional supported action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Explicit rule status binding form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Explicit true rule status succeeds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Malformed rule active state fails visibly without mutation or audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Missing rule active state fails visibly without mutation or audit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Explicit false rule status remains an intentional supported action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Large fixture accounts default page",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Default reconciliation is bounded and excludes older bank line and voucher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual bank next-page link loads older row",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Older statement is present in rendered reconciliation selector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual voucher pager retains older bank page",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Both older reconciliation records are reachable in one rendered form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rendered search form preserves independent paging state",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Bank search narrows selector without discarding older voucher page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rendered search form preserves independent paging state",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Independent searches retain both exact old selectable IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Oldest displayed bank and voucher reconcile through actual MVC form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Completed reconciliation disappears from unmatched selectors",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Matched old bank line and voucher are no longer offered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Extreme account pages clamp safely",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Clamped account pages remain bounded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Untrusted query cannot expand reconciliation tenant scope",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Other-company and other-branch matches never enter bank selectors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Large fixture purchase default page",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Default order and return lists do not load unbounded history",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual order pager exposes older commitment controls",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Older draft, approved and partial orders have real forms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rendered search form preserves independent paging state",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Open-order filter excludes newer cancelled history while retaining old actions",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Old draft approves through rendered MVC form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Old approved commitment receives and posts through MVC",
+      "passed": true,
+      "detail": "HTTP 302; redirect=/Purchase; status=PartiallyReceived; receipt links=1"
+    },
+    {
+      "check": "Old partial commitment cancels only its remainder through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase-order search is company and branch scoped",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Private order action forms remain absent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase document selector remains bounded",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Purchase oldest return document starts beyond default limit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual Purchase document pager exposes older return",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Purchase older ID is present in rendered return selector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rendered search form preserves independent paging state",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Purchase reference search selects only the older document",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase older return posts through real MVC form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Purchase document search remains tenant scoped",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Purchase private return document is never selectable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sale document selector remains bounded",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Sale oldest return document starts beyond default limit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual Sale document pager exposes older return",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Sale older ID is present in rendered return selector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rendered search form preserves independent paging state",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Sale reference search selects only the older document",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sale older return posts through real MVC form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sale document search remains tenant scoped",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Sale private return document is never selectable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Paging fixture and actual actions preserve relational integrity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Paging fixtures and oldest actions retain exact stock and carrying values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Older invoice keeps billing reachable during suspension",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Older debt still suspends while invoice history defaults to a bounded recent page",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Ordinary tenant admin cannot see a subscription payment form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Older invoice cannot be paid without platform billing authority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Refresh only synthetic admin with temporary billing authority context form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Refresh only synthetic admin with temporary billing authority",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "Authorized billing recent-history selector",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Oldest unpaid invoice is outside the initial100 selector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rendered invoice search form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Rendered invoicePage next-page link exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Invoice pager preserves search and status",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Oldest101st invoice page through rendered next link",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Oldest101st invoice is selectable with no other-company invoice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Invoice page clamps excessive index",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Clamped last invoice page stays bounded and actionable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Search oldest open invoice",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Open invoice filter exposes exactly the tenant old debt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual oldest invoice form records previously received payment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Oldest invoice payment allocates100 once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Subscription recovers after oldest debt settlement",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Oldest payment clears suspension",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recent approval history stays bounded",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Initial50 approval selector omits older pending and other-company records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rendered pending approval filter",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Rendered approvalPage next-page link exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approval pager preserves pending filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Oldest51st pending approval through rendered next link",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Oldest51st pending proposal is selectable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approval page clamps excessive index",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Clamped last approval page retains oldest pending selector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Search oldest independent requester",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Requester filter exposes one same-tenant proposal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Oldest proposal still requires unchanged hash-bound payload",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual oldest pending proposal accepts independent unchanged approval",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Older approval is audit-only and attributed to independent admin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP paging fixture respects relational tenant foreign keys",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Synthetic paid invoice balances equal recorded payment allocations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved status filter after older review",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Approved history cannot offer already-approved proposal again",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other-company requester search",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Other-company approval is absent from filtered history and selector",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP paging restores all existing accounts and grants exactly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Remove temporary synthetic billing authority from cookie context form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Remove temporary synthetic billing authority from cookie",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "Ordinary billing visibility restored after paging test",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Temporary platform billing form is removed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Main synthetic company is not left suspended by paging checks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 4 login form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 4 login form has antiforgery token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 4 real Identity login",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "User 4 authorized context form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 4 sees exactly their assigned company and branches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 4 selects authorized tenant context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Low-privilege staff dashboard remains usable",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Low-privilege dashboard suppresses financial totals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Inventory staff cannot see staff or permission sidebar navigation links",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Low-privilege route denied /Accounts",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /Accounts/opening",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /Reports",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /Administration",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /Automation",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /api/operations/summary",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /api/operations/summary.csv",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /api/advanced/trial-balance.xlsx?through=2099-01-01T00:00:00Z",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /api/advanced/farm-summary.pdf",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /api/farm/animals",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege route denied /ops/readiness",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Low-privilege permitted route /Inventory",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Low-privilege permitted route /Purchase",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Low-privilege permitted route /Sales",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Low-privilege permitted route /stock-transfers",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Low-privilege permitted route /Account/Security",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 5 login form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 5 login form has antiforgery token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 5 real Identity login",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "User 5 authorized context form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User 5 sees exactly their assigned company and branches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "User 5 selects authorized tenant context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Read-only support page remains usable",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Read-only support retains pager elements without an unauthorized create form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Read-only viewer cannot open transfer posting form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Read-only viewer can inspect purchases",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Read-only user cannot post purchase with valid antiforgery token",
+      "passed": true,
+      "detail": "HTTP 403"
+    },
+    {
+      "check": "Forbidden read-only purchase makes no database change",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Synthetic account security enrollment form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Authenticator enrollment requires password and returns setup form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Enrollment provides exactly one synthetic TOTP key",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Selected branch survives enrollment-start security-stamp refresh",
+      "passed": true,
+      "detail": "HTTP 200; branch 1"
+    },
+    {
+      "check": "TOTP enrollment succeeds and displays ten one-time recovery codes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Selected branch survives MFA enable security-stamp refresh",
+      "passed": true,
+      "detail": "HTTP 200; branch 1"
+    },
+    {
+      "check": "MFA enabled state appears without redisplaying secret or recovery values",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "MFA security change invalidates previous independent login cookie",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authenticator login password form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Authenticator login requires second factor after correct password",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authenticator login password-only challenge cannot read protected records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authenticator challenge form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Incorrect TOTP is rejected with explicit challenge error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Incorrect TOTP creates no authenticated application session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Correct TOTP finishes real Identity sign-in",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "TOTP-authenticated session selects main context form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "TOTP-authenticated session selects main context selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "TOTP-authenticated context survives principal refresh",
+      "passed": true,
+      "detail": "HTTP 200; branch 1"
+    },
+    {
+      "check": "One-time recovery login password form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "One-time recovery login requires second factor after correct password",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "One-time recovery login password-only challenge cannot read protected records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery-code challenge form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Unused recovery code finishes real Identity sign-in",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery-authenticated session selects store context form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery-authenticated session selects store context selected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery-authenticated store context survives principal refresh",
+      "passed": true,
+      "detail": "HTTP 200; branch 6"
+    },
+    {
+      "check": "Recovery context selection cannot switch independent TOTP main session",
+      "passed": true,
+      "detail": "HTTP 200; branch 1"
+    },
+    {
+      "check": "One successful recovery consumes exactly one code",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery replay login password form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Recovery replay login requires second factor after correct password",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery replay login password-only challenge cannot read protected records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery replay challenge form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Used recovery code cannot be replayed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery replay cannot read protected records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Failed recovery replay leaves remaining code count unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Recovery regeneration form",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Recovery regeneration produces ten replacement codes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Store context survives recovery-regeneration security-stamp refresh",
+      "passed": true,
+      "detail": "HTTP 200; branch 6"
+    },
+    {
+      "check": "Recovery regeneration revokes older TOTP session",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Security flows do not persist global tenant-selection claims",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Visited HTML pages have no inline script elements",
+      "passed": true,
+      "detail": "No JavaScript execution or interaction is claimed"
+    },
+    {
+      "check": "Navigation, context selector and support pager scripts are linked externally",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/context-selection.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/context-selection.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/farm-core-translations.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/farm-core-translations.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/farm-i18n.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/farm-i18n.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/farm-server-tables.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/farm-server-tables.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/navigation-menu.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/navigation-menu.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/opening-balance.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/opening-balance.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/stock-transfer-language.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/stock-transfer-language.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /js/support-tickets.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /js/support-tickets.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Script URL is self-hosted /vendor/datatables/dataTables.min.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP script resource loads /vendor/datatables/dataTables.min.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Synthetic credentials, enrollment secrets and recovery codes are absent from evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every persisted journal remains exactly balanced after HTTP postings",
+      "passed": true,
+      "detail": "688 balanced vouchers"
+    },
+    {
+      "check": "All stock balances equal persisted movements",
+      "passed": true,
+      "detail": "14 reconciled stock items"
+    },
+    {
+      "check": "Release DLL remained unchanged during HTTP acceptance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency remained unchanged during HTTP acceptance",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "updated_utc": "2026-10-20T09:49:19.985970+00:00",
+  "passed": 412,
+  "failed": 0,
+  "completed_utc": "2026-10-20T09:49:19.870035+00:00",
+  "status": "passed"
+}

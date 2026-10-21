@@ -1,0 +1,46 @@
+param(
+ [string]$Configuration='Release',
+ [string]$ConnectionString=$env:FARM_STAGING_CONNECTION,
+ [switch]$GenerateInitialMigration,
+ [switch]$Publish
+)
+$ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
+$root=(Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+Push-Location $root
+try {
+ if(-not (Get-Command dotnet -ErrorAction SilentlyContinue)){throw 'BLOCKED: Install official .NET 10 SDK on Windows.'}
+ $sdk=(& dotnet --version).Trim()
+ if($LASTEXITCODE -ne 0 -or -not $sdk.StartsWith('10.')){throw "BLOCKED: requires .NET 10 SDK; found $sdk"}
+ $stamp=Get-Date -Format 'yyyyMMdd_HHmmss'
+ $out=Join-Path $root ('release-evidence/'+$stamp)
+ New-Item -ItemType Directory -Path $out -Force|Out-Null
+ & dotnet restore ./EnterpriseERP.slnx *> (Join-Path $out 'restore.log')
+ if($LASTEXITCODE -ne 0){throw "BLOCKED: restore failed. See $out/restore.log"}
+ & dotnet build ./EnterpriseERP.slnx -c $Configuration --no-restore *> (Join-Path $out 'build.log')
+ if($LASTEXITCODE -ne 0){throw "BLOCKED: build failed. See $out/build.log"}
+ & dotnet test ./EnterpriseERP.slnx -c $Configuration --no-build --logger "trx;LogFileName=tests.trx" --results-directory $out *> (Join-Path $out 'tests.log')
+ if($LASTEXITCODE -ne 0){throw "BLOCKED: automated tests failed. See $out/tests.log"}
+ $migrations=Get-ChildItem './EnterpriseERP.Web' -Recurse -Filter '*Migration*.cs' -ErrorAction SilentlyContinue
+ if(-not $migrations -and -not $GenerateInitialMigration){throw 'BLOCKED: no EF migrations in source. After code review, rerun with -GenerateInitialMigration on disposable staging DB.'}
+ if($GenerateInitialMigration){
+  if(-not $ConnectionString){throw 'BLOCKED: FARM_STAGING_CONNECTION required to generate migration scripts.'}
+  $env:ConnectionStrings__DefaultConnection=$ConnectionString
+  & dotnet ef --version *> (Join-Path $out 'ef-version.log')
+  if($LASTEXITCODE -ne 0){throw 'BLOCKED: dotnet-ef is missing. Install dotnet-ef version 10.x.'}
+  if(-not $migrations){
+   & dotnet ef migrations add InitialFarmSchema --project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj --startup-project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj *> (Join-Path $out 'migration-add.log')
+   if($LASTEXITCODE -ne 0){throw 'BLOCKED: failed to scaffold initial migration'}
+  }
+  & dotnet ef migrations script --idempotent --project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj --startup-project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj --output (Join-Path $out 'migration-review.sql')
+  if($LASTEXITCODE -ne 0){throw 'BLOCKED: cannot generate reviewable migration script'}
+  Write-Warning 'Review migration-review.sql with DBA, backup database, then apply to staging. No automatic production database update.'
+ }
+ if($Publish){
+  $dest=Join-Path $out 'publish'
+  & dotnet publish ./EnterpriseERP.Web/EnterpriseERP.Web.csproj -c $Configuration --no-restore -o $dest *> (Join-Path $out 'publish.log')
+  if($LASTEXITCODE -ne 0){throw 'BLOCKED: publish failed'}
+  Compress-Archive -Path (Join-Path $dest '*') -DestinationPath (Join-Path $out 'publish-staging.zip') -Force
+ }
+ 'BUILD+UNIT TEST PASSED. SQL migration application, end-to-end workflows, tenant security, IIS & UAT: NOT TESTED' | Set-Content (Join-Path $out 'RESULT.txt')
+ Write-Host "Build artifacts/evidence: $out"
+} finally {Pop-Location}

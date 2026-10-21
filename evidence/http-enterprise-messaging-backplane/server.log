@@ -1,0 +1,5 @@
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {43910ea4-c2c3-4014-aa02-0f1964ae6d8d} may be persisted to storage in unencrypted form.
+fail: Microsoft.AspNetCore.SignalR.StackExchangeRedis.RedisHubLifetimeManager[9]
+      Connection to Redis failed.
+      StackExchange.Redis.RedisConnectionException: UnableToConnect on 127.0.0.1:16380/Subscription, Initializing/NotStarted, last: SUBSCRIBE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 8 of 10 available, last-heartbeat: never, last-mbeat: 0s ago, global: 0s ago, v: 2.7.27.49176

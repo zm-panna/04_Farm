@@ -1,0 +1,485 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-20T09:51:31.666009+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Ecommerce/manage",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Ecommerce/orders",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Ecommerce/staff/orders",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Anonymous storefront requires sign-in",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce?search=NO-SUCH-FICTIONAL-PRODUCT&category=DEMO%20feed&page=999",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Catalog search/category filter and excessive page clamp work",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/manage",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Catalog edit accepts optional blank fields and unpublishes the product",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Unpublished catalog product is hidden from customer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stale catalog revision cannot republish after another update",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/manage",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Fresh catalog form republishes using approved policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/manage",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Ecommerce product price form uses locked two-decimal currency step",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Rendered catalog form updates customer cart",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/cart",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Cart shows explicit tax, total, payment and collection confirmation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Checkout without CSRF is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Checkout requires explicit confirmation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirmed checkout returns own created order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Server prices and configured tax defeat forged totals/payment/customer fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Checkout reserves without deducting physical stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Duplicate checkout returns same order and never double reserves",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/orders/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Another tenant cannot open the customer order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Own endpoint cannot open a foreign order despite administrator account",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Parties",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Existing party UI creates the separate fictional customer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/manage",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Customer linking uses verified scoped existing identity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Another customer in the same tenant cannot read own-order endpoint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/staff/orders/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Staff reviews actual order form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stale approval cannot append another review",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/orders/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Customer history redacts internal review notes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/staff/orders/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Reviewed fulfillment posts and remains payment-unverified",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Repeated fulfillment consumes reservation and creates one finance link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fulfillment voucher balances gross receivable net sale and tax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Sales",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Generic sales-return form cannot bypass original ecommerce tax allocation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/staff/orders/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Linked return updates original finance credit and stock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Return retry token does not double restock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No fictional payment was created for ecommerce order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Ecommerce/cart",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Ecommerce/orders/7",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Copied cross-session cancellation form cannot mutate another customer order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/orders",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Valid-CSRF cross-customer cancellation is denied by ownership check",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Customer cancellation releases reservation without stock/GL change",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Repeated cancellation cannot release twice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/orders?status=Cancelled&search=WEB-&page=999",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Customer order filter and bounded pagination render cancelled order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Ecommerce/staff/orders?status=Fulfilled&search=WEB-&page=1",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Accounts",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "USD receipt and bank controls use reviewed two-decimal precision",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Real USD payment form rejects .001 with no payment or journal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Accounts",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Precision rejection explains reviewed currency to staff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Real USD payment form accepts representable manual receipt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Accounts",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Real signed bank entry rejects sub-minor-unit withdrawal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Subscription",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Actual subscription history displays locked USD denomination",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "passed": 94,
+  "failed": 0,
+  "completed_utc": "2026-10-20T09:52:01.013768+00:00",
+  "status": "passed"
+}

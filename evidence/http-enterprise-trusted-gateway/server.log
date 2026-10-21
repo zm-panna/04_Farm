@@ -1,0 +1,8 @@
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {67eb2ad1-9733-4afa-b11b-3f62eb8f7ca3} may be persisted to storage in unencrypted form.
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/messaging/messages/6; status 404
+warn: Microsoft.EntityFrameworkCore.Query[10102]
+      The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/scan/resolve; status 404

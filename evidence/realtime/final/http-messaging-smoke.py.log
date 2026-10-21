@@ -1,0 +1,55 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /Messaging: HTTP 200
+PASS GET /Messaging: HTTP 200
+PASS Inbox renders self-hosted official SignalR client
+PASS CSRF token is present
+PASS Unauthenticated REST rejected
+PASS Unauthenticated SignalR negotiation rejected
+PASS Recipient discovery is current branch scoped
+PASS Foreign recipient is never discoverable
+PASS Send requires antiforgery
+PASS Authenticated SignalR negotiation
+PASS Real WebSocket SignalR JSON handshake
+PASS Authorized internal send saved: HTTP 200
+PASS Sender comes exclusively from authenticated identity
+PASS Actual SignalR hint contains no message or tenant metadata
+PASS Durable inbox is uncached
+PASS HTTP idempotency replay avoids duplicate writes
+PASS Changed idempotent payload rejected
+PASS Cross-company direct send rejected
+PASS Cross-company message detail hidden
+PASS Sender cannot mark recipient inbox read
+PASS Read mutation requires antiforgery
+PASS Authorized REST retains literal user content
+PASS Owner acknowledgement succeeds
+PASS Repeated acknowledgement is idempotent
+PASS Authorized direct hub Sync succeeds
+PASS No client-selected group join method exists
+PASS Offline recipient message remains durable
+PASS Authenticated SignalR negotiation
+PASS Real WebSocket SignalR JSON handshake
+PASS Reconnect REST catches offline unread message
+PASS Persisted flood budget returns 429
+PASS Flood budget still allows same-key replay
+PASS Automation endpoint rechecks its own permission
+PASS Messaging view remains independently permitted
+PASS REST immediately rejects revoked messaging grant
+PASS Existing SignalR connection rejects revoked permission
+PASS Authenticated SignalR negotiation
+PASS Real WebSocket SignalR JSON handshake
+PASS Security-stamp change invalidates HTTP cookie
+PASS Existing hub rejects stale security stamp

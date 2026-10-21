@@ -1,0 +1,38 @@
+{
+  "generatedBy": "ReportLab independent encoders; synthetic nonpersonal test labels",
+  "samples": [
+    {
+      "format": "Code128",
+      "expected": "SKU-TEST-128",
+      "stripe": "00000000000011010010000110111010001011000111011011101110100110111001101110001010001101000110111010001101110001010011011100100111001101100111001011101001100100011001001100011101011000000000000"
+    },
+    {
+      "format": "EAN13",
+      "expected": "5901234123457",
+      "stripe": "00000000010100010110100111011001100100110111101001110101010110011011011001000010101110010011101000100101000000000"
+    },
+    {
+      "format": "EAN8",
+      "expected": "55123457",
+      "stripe": "0000000001010110001011000100110010010011010101000010101110010011101000100101000000000"
+    },
+    {
+      "format": "UPCA",
+      "expected": "0012345678905",
+      "stripe": "00000000010100011010011001001001101111010100011011000101010101000010001001001000111010011100101001110101",
+      "printed": "012345678905",
+      "note": "ZXing returns canonical EAN13 leading-zero representation; server must resolve UPC-A equivalence safely."
+    },
+    {
+      "format": "UPCE",
+      "printed": "01234565",
+      "expected": "0012345000065",
+      "stripe": "000000000000000000000000100110011100001110001100001110011111100110001111100110011111000110010011111110010011001000000000000000000000000000",
+      "source": "https://github.com/zxing-cpp/zxing-cpp/blob/2ecec3f5be0ee803f6e14a5a2c7028c0cfe525b4/test/samples/upce-1/1.png",
+      "expectedSource": "https://github.com/zxing-cpp/zxing-cpp/blob/2ecec3f5be0ee803f6e14a5a2c7028c0cfe525b4/test/samples/upce-1/1.txt",
+      "sourcePngSha256": "5614ac7795e7d596dc8ccc5e7629b569c27f39a2e364530b67cbc837bcb8f88a",
+      "license": "ZXing-C++ Apache-2.0; license vendored with decoder",
+      "note": "Derived stripe from official upstream test image. ZXing returns expanded canonical EAN13; keep server barcode equivalence separate from SKU syntax."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-20T09:54:10.351053+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Owned official Redis responds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Two real localhost app nodes share the disposable database",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Messaging",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity cookie works across both nodes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authenticated SignalR negotiation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Real WebSocket SignalR JSON handshake",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Redis has an actual subscribed server-derived inbox channel",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Node A commits while receiving node B is paused",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Node A actually publishes through Redis while B cannot run a dispatcher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Node B receives cross-node Redis SignalR hint with empty arguments",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Backplane hint has no message content or identifiers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Node B authorized REST sees node A durable message",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Owned Redis process is fully stopped for outage test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Redis outage does not prevent durable message commit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other-node authorized REST works during Redis outage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Unsuccessful transport attempt remains pending in SQL outbox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Backplane reconnects and dispatcher drains pending SQL outbox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Outage recovery preserves unread state and does not duplicate message",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in node-b.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "passed": 35,
+  "failed": 0,
+  "signalr_websocket_executed": true,
+  "redis_backplane_executed": true,
+  "application_nodes": 2,
+  "redis_version": "7.2.16",
+  "limitations": [
+    "Both nodes use disposable SQLite for bounded mechanics. Production SQL Server, TLS and multi-IIS deployment were not exercised.",
+    "A content-free hint may duplicate or be missed; authorized durable REST inbox is authoritative."
+  ],
+  "completed_utc": "2026-10-20T09:54:40.885139+00:00",
+  "status": "passed"
+}

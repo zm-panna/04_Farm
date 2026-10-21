@@ -1,0 +1,218 @@
+{
+  "product": "Smart Farm AI ERP .NET 10",
+  "release_decision": "SOURCE_CANDIDATE_ONLY_ACTUAL_STAGING_AND_CUSTOMER_ACCEPTANCE_REQUIRED",
+  "production_approved": false,
+  "first_live_scope": {
+    "country": "BD",
+    "companies": 1,
+    "modules": [
+      "HR/Payroll",
+      "CRM",
+      "Fixed Assets",
+      "E-commerce"
+    ],
+    "real_payroll_tax_values_supplied": false,
+    "future_arab_and_us_jurisdictions": "Deferred expansion inputs, not Bangladesh first-live blockers"
+  },
+  "operational_boundaries": [
+    "Configured contractual payroll accrual only, no salary transfer or statutory filing engine",
+    "Internal CRM net quotes and reviewed handoff, no external communications",
+    "Straight-line/None book depreciation, no statutory tax depreciation/revaluation",
+    "Authenticated Ecommerce branch collection; payment pending/unverified; no public signup, carrier or gateway",
+    "Legacy purchase/sales single-line operational documents; multi-line/statutory invoice expansion is separate"
+  ],
+  "generated_utc": "2026-10-20T06:36:51.938804+00:00",
+  "revision": "REALTIME_LARGE_DATA_REVISION5",
+  "source_status": "LOCAL_RELEASE_VERIFICATION_PASSED",
+  "baseline": {
+    "artifact": "Smart_Farm_AI_ERP_NET10_BD1_Revision4_20261019.zip",
+    "sha256": "9699116440c5f75d544d09106d85b4a85d067f1d8777e81233d41ea33bea51fd",
+    "prior_evidence": "docs/history/REVISION4_CURRENT_VERIFICATION.json"
+  },
+  "verified": {
+    "restore": {
+      "status": "PASS",
+      "evidence": "evidence/realtime/final/restore.log"
+    },
+    "release_build": {
+      "status": "PASS",
+      "warnings": 0,
+      "errors": 0,
+      "evidence": "evidence/realtime/final/build.log"
+    },
+    "dotnet": {
+      "passed": 856,
+      "failed": 0,
+      "skipped": 0,
+      "real_redis_enabled": true,
+      "evidence": "evidence/realtime/final/release-tests.trx"
+    },
+    "real_localhost_http": {
+      "passed": 1136,
+      "failed": 0,
+      "provider": "Isolated Development SQLite; official Redis 7.2.16 on loopback for cache/backplane tests",
+      "suites": [
+        {
+          "suite": "http",
+          "passed": 411,
+          "failed": 0,
+          "evidence": "evidence/http/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-assets",
+          "passed": 75,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-assets/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-crm",
+          "passed": 77,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-crm/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-data-tables",
+          "passed": 137,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-data-tables/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-ecommerce",
+          "passed": 93,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-ecommerce/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-hr",
+          "passed": 117,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-hr/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-messaging",
+          "passed": 59,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-messaging/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-messaging-backplane",
+          "passed": 34,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-messaging-backplane/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-onboarding",
+          "passed": 47,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-onboarding/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        },
+        {
+          "suite": "http-enterprise-policy",
+          "passed": 86,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-policy/results.json",
+          "runtime_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+        }
+      ]
+    },
+    "javascript": {
+      "passed": 66,
+      "failed": 0,
+      "suites": {
+        "localization": 31,
+        "support": 8,
+        "browser_security_source_checks": 5,
+        "messaging_dom": 12,
+        "server_tables_dom": 10
+      },
+      "browser_executed": false,
+      "evidence": "evidence/realtime/final/TEST_*.log"
+    },
+    "real_vendor_datatables_dom": {
+      "status": "PASS",
+      "actual_vendor": "DataTables 3.1.4",
+      "actual_dom": "jsdom 27.4.0",
+      "real_browser": false,
+      "evidence": "evidence/http-enterprise-data-tables/results.json"
+    },
+    "signalr_two_nodes": {
+      "status": "PASS",
+      "nodes": 2,
+      "actual_websockets": true,
+      "actual_redis_backplane": true,
+      "outage_and_recovery": true,
+      "tls_verified": false,
+      "evidence": "evidence/http-enterprise-messaging-backplane/results.json"
+    },
+    "ef_model_consistency": {
+      "status": "PASS_NO_MODEL_DRIFT",
+      "evidence": "evidence/realtime/final/model-check.log"
+    },
+    "idempotent_sql_generation": {
+      "status": "PASS",
+      "sql_server_execution": false,
+      "sha256": "70fa0cafe4178506bfae91dfa1d0fdcea0cadd2095246ac7d275ed922a0b3277",
+      "matches_packaged_schema": true,
+      "evidence": "evidence/realtime/final/schema-reviewed.sql"
+    },
+    "publish": {
+      "status": "PASS",
+      "evidence": "evidence/realtime/final/publish.log"
+    },
+    "dependency_audit": {
+      "status": "PASS_NO_KNOWN_VULNERABILITIES_REPORTED_BY_CONFIGURED_NUGET_SOURCE",
+      "evidence": "evidence/realtime/final/dependency-audit.json"
+    },
+    "sdk": {
+      "version": "10.0.402"
+    },
+    "synthetic_demo_export": {
+      "tables": 93,
+      "rows": 1273,
+      "password_discarded": true,
+      "evidence": "evidence/realtime/final/demo-export.json"
+    }
+  },
+  "source_identity": {
+    "runtime_inputs": 370,
+    "runtime_manifest": "evidence/realtime/RUNTIME_SOURCE_MANIFEST.sha256",
+    "runtime_manifest_sha256": "f72916f046ac419164409da6e547f287e40d29e8da3c03cc31e3464b44519bb2",
+    "compiled_and_published_web_dll_sha256": "022a0c042b88a269427e7fa09e3bcba96c04e718ade4df451158ec9e8429eac9"
+  },
+  "independent_current_review": {
+    "status": "NO_SEPARATE_COLD_REVISION5_AUDIT_CLAIMED",
+    "prior_revision_evidence_is_historical": true
+  },
+  "not_verified": [
+    "Actual SQL Server schema application, provider behavior and concurrency",
+    "Windows PC or IIS execution; PowerShell helper execution",
+    "Actual host/TLS, runtime identity, effective security configuration and protected key persistence",
+    "Real-browser/mobile/native-language acceptance",
+    "Real payroll/tax law suitability, approved business inputs and opening balances",
+    "Backup/restore rehearsal, monitoring and customer sign-off",
+    "External payment, mail, AI or other provider execution",
+    "Real Redis TLS/authentication/ACL configuration on user infrastructure",
+    "SQL Server query plans, realistic large-data load and multi-instance IIS behavior",
+    "New user-controlled vault/trusted backend integration: separate next checkpoint"
+  ],
+  "operator_guides": [
+    "docs/REVISION5_REALTIME_BN.md",
+    "docs/REALTIME_AND_LARGE_DATA.md",
+    "docs/INTERNAL_MESSAGING.md",
+    "docs/REVISION4_HANDOFF_BN.md",
+    "docs/FIRST_LIVE_BANGLADESH_REVIEW.md",
+    "docs/STAGING_READONLY_PREFLIGHT.md",
+    "docs/EMAIL_OWNERSHIP_REVIEW_BN.md",
+    "docs/ENTERPRISE_POLICY_AND_WINDOWS_GUIDE_BN.md"
+  ],
+  "historical_evidence_note": "Only paths indexed here are current. Revision 4 and earlier evidence remains historical. Failed development/browser-attempt logs are not passing acceptance evidence."
+}

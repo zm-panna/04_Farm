@@ -1,0 +1,6 @@
+Test run for /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/evidence/trusted/final/release-tests.trx
+Results File: /workspace/scratch/85a436f01071/realtime_scale/farm_trusted/evidence/trusted/final/release-tests.trx
+
+Passed!  - Failed:     0, Passed:   880, Skipped:     0, Total:   880, Duration: 2 m 17 s - EnterpriseERP.UnitTests.dll (net10.0)

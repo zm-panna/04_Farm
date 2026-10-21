@@ -1,0 +1,11 @@
+@model EnterpriseERP.Web.TwoFactorLoginInput
+@{ ViewData["Title"] = "Recovery-code verification"; }
+<h1 data-i18n="Use a recovery code">Use a recovery code</h1>
+<p data-i18n="Your password has already been verified. Enter one unused recovery code. It will be consumed when sign-in succeeds.">Your password has already been verified. Enter one unused recovery code. It will be consumed when sign-in succeeds.</p>
+<div asp-validation-summary="All" role="alert"></div>
+<form asp-action="RecoveryLogin" method="post">@Html.AntiForgeryToken()
+ <input asp-for="ReturnUrl" type="hidden" />
+ <label><span data-i18n="Recovery code">Recovery code</span> <input name="Code" maxlength="64" autocomplete="off" required /></label>
+ <button type="submit" data-i18n="Use code and sign in">Use code and sign in</button>
+</form>
+<p><a asp-action="TwoFactor" asp-route-returnUrl="@Model.ReturnUrl" data-i18n="Use authenticator instead">Use authenticator instead</a> · <a href="/Account/RecoveryHelp" data-i18n="Recovery help">Recovery help</a></p>

@@ -1,0 +1,124 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /scan: HTTP 200
+PASS GET /scan: HTTP 200
+PASS GET /scan: HTTP 200
+PASS GET /scan: HTTP 200
+PASS Scanner route enables only same-origin camera and narrow WASM capability
+PASS GET /Inventory: HTTP 200
+PASS Ordinary routes retain disabled camera and no WASM evaluation
+PASS Scanner contains explicit review and no auto camera start
+PASS Anonymous scanner API rejected
+PASS Resolve without anti-forgery is rejected
+PASS Create exact Product label SKU
+PASS Create exact Animal label Internal
+PASS Create exact Product label Internal
+PASS Product scan resolves exact authorized target
+PASS Product preview contains no unit cost or payroll data
+PASS Context mismatch fails without exposing animal
+PASS Foreign company label cannot resolve
+PASS Arbitrary URL is rejected
+PASS Cross-company target cannot receive a label
+PASS Create exact Product label UPCA
+PASS UPC-A scanner EAN representation resolves configured barcode
+PASS Equivalent barcode resolves same label
+PASS Equivalent duplicate barcode cannot be assigned
+PASS Invalid checksum is rejected
+PASS Scoped bounded label list
+PASS Label page bounded at twenty
+PASS Negative pagination rejected
+PASS Other branch search cannot infer exact source target
+PASS Scope applied before target count
+PASS GET /scan/labels/28/print: HTTP 200
+PASS Printable label omits target name and cost
+PASS Authorized qr image is self-contained SVG
+PASS Authorized code128 image is self-contained SVG
+PASS Actual WASM decodes both actual server-generated print labels: PASS actual generated qr label round-trip
+PASS actual generated code128 label round-trip
+PASS Foreign printable label denied
+PASS Resolve and label management never post stock money or animal records
+PASS Prepare AdjustStock draft
+PASS Draft itself retains original quantity
+PASS False explicit confirmation rejected
+PASS Confirmation missing CSRF rejected
+PASS Same-company other user cannot inspect draft
+PASS Same-company other user cannot confirm draft
+PASS Other branch cannot inspect draft
+PASS Confirm AdjustStock
+PASS Confirm AdjustStock
+PASS Confirmation replay is the same persisted outcome
+PASS Prepare AdjustStock draft
+PASS Cancel a pending draft
+PASS Cancelled draft cannot post
+PASS Prepare AdjustStock draft
+PASS Prepare AdjustStock draft
+PASS Confirm AdjustStock
+PASS Changed source rejects stale draft
+PASS Prepare AdjustStock draft
+PASS Explicit label revocation succeeds
+PASS Revoked primary label cannot commit
+PASS Prepare Weight draft
+PASS Confirm Weight
+PASS Weight recorded by existing service exactly once
+PASS Prepare Health draft
+PASS Confirm Health
+PASS Operator entered health observation persisted without clinical automation
+PASS Prepare Feed draft
+PASS Confirm Feed
+PASS Feed stock expense uses existing service
+PASS Create exact Product label Internal
+PASS Destination label preview requires explicit authorized branch
+PASS Prepare Transfer draft
+PASS Confirm Transfer
+PASS Transfer persisted once with both branches
+PASS GET /Purchase: HTTP 200
+PASS Existing purchase workflow creates order
+PASS Existing purchase workflow approves order
+PASS Create exact PurchaseOrder label Internal
+PASS Prepare ReceiveOrder draft
+PASS Confirm ReceiveOrder
+PASS Receiving creates exact existing purchase receipt
+PASS Create exact Document label Internal
+PASS Accounting document scan is read-only
+PASS Document preview offers no posting action
+PASS GET /fixed-assets/new: HTTP 200
+PASS Existing acquisition form creates new asset for custody test
+PASS GET /fixed-assets/6: HTTP 200
+PASS Independent acquisition review succeeds
+PASS GET /fixed-assets/6: HTTP 200
+PASS Existing acquisition service posts asset
+PASS Create exact Asset label Internal
+PASS Prepare Custody draft
+PASS Confirm Custody
+PASS Custody scan changes custody without new journal
+PASS All resulting journals balance
+PASS Own persisted outcomes available after reconnect
+PASS Seven successful operation families are durable
+PASS Actual scanner DOM with authenticated live HTTP: TML
+PASS Unreviewed checkbox blocks confirmation request
+PASS Cancel persists cancellation without any confirmation call
+PASS Reloaded history exposes durable own cancelled outcome
+PASS All four active scanner languages update including Arabic RTL
+PASS Synthetic decoded frame stops camera and invokes preview only
+PASS No camera frame upload or image-storage endpoint is called
+PASS Actual scanner resources initialize without DOM script errors
+Scanner DOM checks passed: 10; synthetic camera only.
+
+PASS Per-user scanner endpoint limiter rejects floods

@@ -1,0 +1,25 @@
+@model EnterpriseERP.Web.Controllers.MilkEntryPage
+@{ ViewData["Title"]="Milk Production"; }
+<section class="farm-workspace">
+<h1 data-i18n="Milk Production">Milk Production</h1>
+<p data-i18n="Record morning and evening milk production / সকাল-সন্ধ্যার দুধ / Sokal-Sondhar Dudh">Record morning and evening milk production / সকাল-সন্ধ্যার দুধ / Sokal-Sondhar Dudh</p>
+<div class="farm-table" style="padding:1.2rem;margin-bottom:1rem">
+<form method="get" action="/milk-entry"><label for="day" data-i18n="Date">Date</label><input type="date" id="day" name="day" value="@Model.Day.ToString("yyyy-MM-dd")"/><button type="submit" data-i18n="Filter">Filter</button></form>
+<p><strong data-i18n="Total Litres">Total Litres</strong>: @Model.TotalLitres.ToString("N3") L</p>
+</div>
+<div class="farm-table" style="padding:1.2rem;margin-bottom:1rem">
+<h2 data-i18n="New Milk Entry">New Milk Entry</h2>
+<div asp-validation-summary="All" role="alert" style="color:#b91c1c"></div>
+<form method="post" action="/milk-entry/record">@Html.AntiForgeryToken()
+<label for="animal" data-i18n="Animal">Animal</label>
+<select id="animal" asp-for="Entry.AnimalId" required><option value="" data-i18n="Select animal">Select animal</option>@foreach(var a in Model.Animals){<option value="@a.Id">@a.Tag (@a.Breed)</option>}</select>
+<label for="date" data-i18n="Date">Date</label><input id="date" type="date" asp-for="Entry.Date" required />
+<label for="session" data-i18n="Session">Session</label><select id="session" asp-for="Entry.Session"><option value="Morning" data-i18n="Morning">Morning</option><option value="Evening" data-i18n="Evening">Evening</option></select>
+<label for="litres" data-i18n="Litres">Litres</label><input id="litres" asp-for="Entry.Litres" type="number" min="0.001" max="100000" step="0.001" required />
+<button type="submit" data-i18n="Save Milk Entry">Save Milk Entry</button>
+</form></div>
+<div class="farm-table"><table><thead><tr><th data-i18n="Animal ID">Animal ID</th><th data-i18n="Date">Date</th><th data-i18n="Session">Session</th><th data-i18n="Litres">Litres</th></tr></thead><tbody>
+@foreach(var r in Model.Records){<tr><td>@r.AnimalId</td><td>@r.Date.ToString("yyyy-MM-dd")</td><td data-i18n-enum="milk" data-i18n-value="@r.Session">@r.Session</td><td>@r.Litres.ToString("N3")</td></tr>}
+@if(Model.Records.Count==0){<tr><td colspan="4"><span data-i18n="No production recorded for this day.">No production recorded for this day.</span></td></tr>}
+</tbody></table></div>
+</section>

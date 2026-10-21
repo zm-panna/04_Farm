@@ -1,0 +1,46 @@
+param(
+ [Parameter(Mandatory=$true)][string]$StagingUrl,
+ [string]$Configuration='Release',
+ [switch]$Publish,
+ [switch]$RunMigrationOnStaging,
+ [string]$StagingConnection=$env:FARM_STAGING_CONNECTION
+)
+$ErrorActionPreference='Stop'; Set-StrictMode -Version Latest
+$root=(Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+$evidence=Join-Path $root ('release-evidence/verification-'+(Get-Date -Format 'yyyyMMdd-HHmmss'))
+New-Item -ItemType Directory -Force -Path $evidence|Out-Null
+$results=[ordered]@{timestamp=(Get-Date).ToString('o');approved=$false;checks=[ordered]@{};notes=@('Browser UAT, secrets review, security penetration tests, real user acceptance and IIS production tests are not automatic')}
+function Step($name,[scriptblock]$action) {
+ try { & $action; $results.checks[$name]='PASS'; Write-Host "PASS: $name" }
+ catch { $results.checks[$name]="FAIL: $($_.Exception.Message)"; throw }
+}
+try {
+ Push-Location $root
+ Step 'dotnet-sdk-10' { $version=(& dotnet --version); if($LASTEXITCODE -ne 0 -or -not $version.StartsWith('10.')){throw "10.x SDK required; found $version"} }
+ Step 'restore' { & dotnet restore './EnterpriseERP.slnx' *> (Join-Path $evidence 'restore.log'); if($LASTEXITCODE -ne 0){throw 'See restore.log'} }
+ Step 'compile' { & dotnet build './EnterpriseERP.slnx' -c $Configuration --no-restore *> (Join-Path $evidence 'build.log'); if($LASTEXITCODE -ne 0){throw 'See build.log'} }
+ Step 'unit-tests' { & dotnet test './EnterpriseERP.slnx' -c $Configuration --no-build --logger 'trx;LogFileName=results.trx' --results-directory $evidence *> (Join-Path $evidence 'tests.log'); if($LASTEXITCODE -ne 0){throw 'See tests.log'} }
+ Step 'staging-connection-configured' {if([string]::IsNullOrWhiteSpace($StagingConnection)){throw 'Set FARM_STAGING_CONNECTION to a disposable STAGING database; do not use production'} }
+ $env:ConnectionStrings__DefaultConnection=$StagingConnection
+ Step 'ef-cli' { & dotnet ef --version *> (Join-Path $evidence 'ef-version.log'); if($LASTEXITCODE -ne 0){throw 'Install dotnet-ef 10.x tool'} }
+ Step 'checked-in-migrations' {
+  $ms=Get-ChildItem (Join-Path $root 'EnterpriseERP.Web') -Filter '*Migration*.cs' -Recurse
+  if(@($ms).Count -eq 0){throw 'No checked-in migrations: generate initial migration, DBA review its SQL, commit migrations, then rerun'}
+ }
+ Step 'migration-sql-generated' { & dotnet ef migrations script --idempotent --project './EnterpriseERP.Web/EnterpriseERP.Web.csproj' --startup-project './EnterpriseERP.Web/EnterpriseERP.Web.csproj' --output (Join-Path $evidence 'migration-review.sql') *> (Join-Path $evidence 'migration-script.log'); if($LASTEXITCODE -ne 0){throw 'See migration-script.log'} }
+ if($RunMigrationOnStaging){
+  Step 'migration-apply-staging' { & dotnet ef database update --project './EnterpriseERP.Web/EnterpriseERP.Web.csproj' --startup-project './EnterpriseERP.Web/EnterpriseERP.Web.csproj' *> (Join-Path $evidence 'migration-apply.log'); if($LASTEXITCODE -ne 0){throw 'See migration-apply.log'} }
+ } else { $results.checks['migration-apply-staging']='NOT TESTED (requires -RunMigrationOnStaging after DBA review)' }
+ $uri=[uri]$StagingUrl
+ Step 'https-endpoint' {if($uri.Scheme -ne 'https'){throw 'Staging must use HTTPS'}; $r=Invoke-WebRequest -Uri $uri.AbsoluteUri -MaximumRedirection 0 -SkipHttpErrorCheck -TimeoutSec 20; if($r.StatusCode -notin @(200,302,401,403)){throw "Unexpected HTTP $($r.StatusCode)"} }
+ if($Publish){
+  Step 'publish' { $pub=Join-Path $evidence 'publish'; & dotnet publish './EnterpriseERP.Web/EnterpriseERP.Web.csproj' -c $Configuration --no-restore -o $pub *> (Join-Path $evidence 'publish.log');if($LASTEXITCODE -ne 0){throw 'See publish.log'}; Compress-Archive -Path (Join-Path $pub '*') -DestinationPath (Join-Path $evidence 'PUBLISH_STAGING_ONLY.zip') -Force }
+ }
+ $results.notes += 'The enterprise module functional UAT matrix has NOT been proven by this script.'
+} catch { $results.notes += "BLOCKED: $($_.Exception.Message)"; Write-Error $_ -ErrorAction Continue }
+finally {
+ $results|ConvertTo-Json -Depth 8|Set-Content -Encoding utf8 (Join-Path $evidence 'evidence.json')
+ Pop-Location
+ Write-Host "Verification results: $evidence"
+ if($results.checks.Values -match '^FAIL'){exit 1}
+}

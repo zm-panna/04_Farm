@@ -1,0 +1,122 @@
+{
+  "module_count": 23,
+  "scaffold_only_count": 0,
+  "modules": [
+    {
+      "module": "Accounts",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Administration",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "AnimalHealth",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "CRM",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "CustomerCare",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Dairy",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Ecommerce",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Expenses",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Fattening",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "FeedManagement",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "FixedAsset",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "HR",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Hotel",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "ImportExport",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Inventory",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "LC",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Livestock",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Payroll",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Purchase",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Reporting",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Sales",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Store",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    },
+    {
+      "module": "Subscription",
+      "business_source_files": 1,
+      "status": "Requires runtime verification"
+    }
+  ],
+  "caveat": "Web-host services may implement some module operations, but marker-only projects do not satisfy full enterprise module requirements."
+}

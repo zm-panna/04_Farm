@@ -1,0 +1,827 @@
+{
+  "1. Choose context and scan": {
+    "bn": "১. প্রসঙ্গ বেছে নিয়ে স্ক্যান করুন",
+    "banglish": "1. Prosongo bechhe niye scan korun",
+    "ar": "1. اختر السياق وامسح الرمز"
+  },
+  "2. Prepare an operation": {
+    "bn": "২. একটি কার্যক্রম প্রস্তুত করুন",
+    "banglish": "2. Ekti karjokrom prostut korun",
+    "ar": "2. جهّز عملية"
+  },
+  "3. Review before confirmation": {
+    "bn": "৩. নিশ্চিত করার আগে পর্যালোচনা করুন",
+    "banglish": "3. Nishchit korar age porjalochona korun",
+    "ar": "3. راجع قبل التأكيد"
+  },
+  "A SKU mapping must match the product SKU exactly, including case and leading zeros.": {
+    "bn": "একটি SKU ম্যাপিংকে পণ্যের SKU-এর সঙ্গে হুবহু মিলতে হবে, বড় ও ছোট হাতের অক্ষর এবং শুরুর শূন্যসহ।",
+    "banglish": "Ekti SKU mapping-ke ponner SKU-er shonge hubohu milte hobe, boro o chhoto hater okkhor ebong shurur shunno-shoho.",
+    "ar": "يجب أن تطابق قيمة SKU في المطابقة رمز SKU للمنتج تمامًا، بما في ذلك حالة الأحرف والأصفار البادئة."
+  },
+  "A completed scan cannot be cancelled.": {
+    "bn": "সম্পন্ন স্ক্যান বাতিল করা যায় না।",
+    "banglish": "Shomponno scan batil kora jay na.",
+    "ar": "لا يمكن إلغاء المسح المكتمل."
+  },
+  "A label does not grant access.": {
+    "bn": "লেবেল প্রবেশাধিকার দেয় না।",
+    "banglish": "Label probeshadhikar dey na.",
+    "ar": "لا يمنح الملصق صلاحية الوصول."
+  },
+  "A scan confirmation is already running.": {
+    "bn": "একটি স্ক্যান নিশ্চিতকরণ ইতিমধ্যে চলছে।",
+    "banglish": "Ekti scan nishchitkoron itimoddhe cholchhe.",
+    "ar": "تجري بالفعل عملية تأكيد مسح."
+  },
+  "A scan opens an authorized preview. Review and confirm a separate draft before any record, stock or journal changes.": {
+    "bn": "স্ক্যান করলে অনুমোদিত প্রাক্‌দর্শন খোলে। কোনো রেকর্ড, মজুত বা জার্নাল পরিবর্তনের আগে আলাদা খসড়া পর্যালোচনা করে নিশ্চিত করুন।",
+    "banglish": "Scan korle onumodito prak-dorshon khole. Kono record, mojut ba journal poribortoner age alada khoshra porjalochona kore nishchit korun.",
+    "ar": "يفتح المسح معاينة مصرحًا بها. راجع مسودة منفصلة وأكدها قبل أي تغيير في السجلات أو المخزون أو القيود المحاسبية."
+  },
+  "A stock adjustment reason is required.": {
+    "bn": "মজুত সমন্বয়ের কারণ প্রয়োজন।",
+    "banglish": "Mojut shomonnoyer karon proyojon.",
+    "ar": "يلزم سبب لتسوية المخزون."
+  },
+  "A valid scan request key and label are required.": {
+    "bn": "একটি বৈধ স্ক্যান অনুরোধ কী এবং লেবেল প্রয়োজন।",
+    "banglish": "Ekti boidho scan onurodh key ebong label proyojon.",
+    "ar": "يلزم مفتاح طلب مسح صالح وملصق صالح."
+  },
+  "Accounting document": {
+    "bn": "হিসাবের নথি",
+    "banglish": "Hisaber nothi",
+    "ar": "مستند محاسبي"
+  },
+  "Amount precision": {
+    "bn": "অর্থের পরিমাণের নির্ভুলতা",
+    "banglish": "Orther porimaner nirbhulota",
+    "ar": "دقة المبلغ"
+  },
+  "An adjustment uses a signed quantity change, not an absolute stock count. Confirm any counted difference deliberately.": {
+    "bn": "সমন্বয়ে মোট মজুতের গণনা নয়, ধনাত্মক বা ঋণাত্মক চিহ্নসহ পরিমাণের পরিবর্তন ব্যবহার করা হয়। গণনায় পাওয়া যেকোনো পার্থক্য সচেতনভাবে নিশ্চিত করুন।",
+    "banglish": "Shomonnoye mot mojuter gonona noy, dhonattok ba rinattok chihno-shoho porimaner poriborton byabohar kora hoy. Gononay paoa jekono parthokko shochetonbhabe nishchit korun.",
+    "ar": "تستخدم التسوية تغيرًا في الكمية بإشارة موجبة أو سالبة، وليس عدد المخزون المطلق. أكد عن قصد أي فرق ناتج عن الجرد."
+  },
+  "Animal health event": {
+    "bn": "প্রাণীর স্বাস্থ্যসংক্রান্ত ঘটনা",
+    "banglish": "Pranir shasthyo-shongkranto ghotona",
+    "ar": "حدث صحي للحيوان"
+  },
+  "Animal tag": {
+    "bn": "প্রাণীর ট্যাগ",
+    "banglish": "Pranir tag",
+    "ar": "وسم الحيوان"
+  },
+  "Animal weight": {
+    "bn": "প্রাণীর ওজন",
+    "banglish": "Pranir ojon",
+    "ar": "وزن الحيوان"
+  },
+  "Approve a company business policy before financial scan actions.": {
+    "bn": "আর্থিক স্ক্যান কার্যক্রমের আগে কোম্পানির একটি ব্যবসায়িক নীতি অনুমোদন করুন।",
+    "banglish": "Arthik scan karjokromer age kompanir ekti byaboshayik niti onumodon korun.",
+    "ar": "اعتمد سياسة أعمال للشركة قبل إجراءات المسح المالية."
+  },
+  "Asset custody change": {
+    "bn": "সম্পদের জিম্মা পরিবর্তন",
+    "banglish": "Shompoder jimma poriborton",
+    "ar": "تغيير عهدة الأصل"
+  },
+  "Available or remaining quantity": {
+    "bn": "উপলব্ধ বা অবশিষ্ট পরিমাণ",
+    "banglish": "Upolobdho ba oboshishto poriman",
+    "ar": "الكمية المتاحة أو المتبقية"
+  },
+  "Back to scan workspace": {
+    "bn": "স্ক্যান কর্মক্ষেত্রে ফিরে যান",
+    "banglish": "Scan kormokhetre phire jan",
+    "ar": "العودة إلى مساحة عمل المسح"
+  },
+  "Branch stock transfer": {
+    "bn": "শাখার মজুত স্থানান্তর",
+    "banglish": "Shakhar mojut sthanantor",
+    "ar": "تحويل المخزون بين الفروع"
+  },
+  "Business reference": {
+    "bn": "ব্যবসায়িক রেফারেন্স",
+    "banglish": "Byaboshayik reference",
+    "ar": "مرجع الأعمال"
+  },
+  "Camera": {
+    "bn": "ক্যামেরা",
+    "banglish": "Camera",
+    "ar": "الكاميرا"
+  },
+  "Camera access is unavailable. Use manual entry or a keyboard scanner.": {
+    "bn": "ক্যামেরা ব্যবহার করা যাচ্ছে না। হাতে লিখে দিন অথবা কীবোর্ড স্ক্যানার ব্যবহার করুন।",
+    "banglish": "Camera byabohar kora jachchhe na. Hate likhe din othoba keyboard scanner byabohar korun.",
+    "ar": "الوصول إلى الكاميرا غير متاح. استخدم الإدخال اليدوي أو ماسحًا يعمل كلوحة مفاتيح."
+  },
+  "Camera access requires HTTPS. Use manual entry instead.": {
+    "bn": "ক্যামেরা ব্যবহারের জন্য HTTPS প্রয়োজন। এর পরিবর্তে হাতে লিখে দিন।",
+    "banglish": "Camera byaboharer jonno HTTPS proyojon. Er poriborte hate likhe din.",
+    "ar": "يتطلب الوصول إلى الكاميرا HTTPS. استخدم الإدخال اليدوي بدلًا من ذلك."
+  },
+  "Camera permission was denied. Use manual entry or change the browser permission yourself.": {
+    "bn": "ক্যামেরার অনুমতি প্রত্যাখ্যান করা হয়েছে। হাতে লিখে দিন অথবা নিজে ব্রাউজারের অনুমতি পরিবর্তন করুন।",
+    "banglish": "Camerar onumoti protyakkhan kora hoyechhe. Hate likhe din othoba nije browser-er onumoti poriborton korun.",
+    "ar": "رُفض إذن الكاميرا. استخدم الإدخال اليدوي أو غيّر إذن المتصفح بنفسك."
+  },
+  "Camera stopped.": {
+    "bn": "ক্যামেরা বন্ধ হয়েছে।",
+    "banglish": "Camera bondho hoyechhe.",
+    "ar": "تم إيقاف الكاميرا."
+  },
+  "Cancel this draft": {
+    "bn": "এই খসড়া বাতিল করুন",
+    "banglish": "Ei khoshra batil korun",
+    "ar": "إلغاء هذه المسودة"
+  },
+  "Choose QR or Code128 for the printed label.": {
+    "bn": "মুদ্রিত লেবেলের জন্য QR অথবা Code128 বেছে নিন।",
+    "banglish": "Mudrito label-er jonno QR othoba Code128 bechhe nin.",
+    "ar": "اختر QR أو Code128 للملصق المطبوع."
+  },
+  "Choose Scan next label before starting another scan.": {
+    "bn": "আরেকটি স্ক্যান শুরুর আগে ‘পরবর্তী লেবেল স্ক্যান করুন’ বেছে নিন।",
+    "banglish": "Arekti scan shurur age 'Poroborti label scan korun' bechhe nin.",
+    "ar": "اختر «مسح الملصق التالي» قبل بدء مسح آخر."
+  },
+  "Choose a destination branch": {
+    "bn": "গন্তব্য শাখা বেছে নিন",
+    "banglish": "Gontobbo shakha bechhe nin",
+    "ar": "اختر فرع الوجهة"
+  },
+  "Choose a destination branch first.": {
+    "bn": "প্রথমে গন্তব্য শাখা বেছে নিন।",
+    "banglish": "Prothome gontobbo shakha bechhe nin.",
+    "ar": "اختر فرع الوجهة أولًا."
+  },
+  "Choose a destination branch only for a transfer.": {
+    "bn": "শুধু স্থানান্তরের জন্য গন্তব্য শাখা বেছে নিন।",
+    "banglish": "Shudhu sthanantorer jonno gontobbo shakha bechhe nin.",
+    "ar": "اختر فرع وجهة للتحويل فقط."
+  },
+  "Choose a nonzero quantity with a valid sign.": {
+    "bn": "বৈধ ধনাত্মক বা ঋণাত্মক চিহ্নসহ শূন্য নয় এমন পরিমাণ বেছে নিন।",
+    "banglish": "Boidho dhonattok ba rinattok chihno-shoho shunno noy emon poriman bechhe nin.",
+    "ar": "اختر كمية غير صفرية بإشارة صالحة."
+  },
+  "Choose a scan context and bounded label value.": {
+    "bn": "স্ক্যানের প্রসঙ্গ এবং নির্ধারিত সীমার মধ্যে লেবেলের মান বেছে নিন।",
+    "banglish": "Scan-er prosongo ebong nirdharito shimar moddhe label-er man bechhe nin.",
+    "ar": "اختر سياق مسح وقيمة ملصق ضمن الحدود المسموح بها."
+  },
+  "Choose a supported label format and valid barcode checksum.": {
+    "bn": "সমর্থিত লেবেল বিন্যাস এবং বৈধ বারকোড চেকসাম বেছে নিন।",
+    "banglish": "Shomorthito label binyash ebong boidho barcode checksum bechhe nin.",
+    "ar": "اختر تنسيق ملصق مدعومًا ومجموع تحقق صالحًا للرمز الشريطي."
+  },
+  "Choose a supported scan action.": {
+    "bn": "সমর্থিত স্ক্যান কার্যক্রম বেছে নিন।",
+    "banglish": "Shomorthito scan karjokrom bechhe nin.",
+    "ar": "اختر إجراء مسح مدعومًا."
+  },
+  "Choose a supported scan context.": {
+    "bn": "সমর্থিত স্ক্যান প্রসঙ্গ বেছে নিন।",
+    "banglish": "Shomorthito scan prosongo bechhe nin.",
+    "ar": "اختر سياق مسح مدعومًا."
+  },
+  "Choose a target record": {
+    "bn": "লক্ষ্য রেকর্ড বেছে নিন",
+    "banglish": "Lokkho record bechhe nin",
+    "ar": "اختر السجل المستهدف"
+  },
+  "Choose a valid health event type.": {
+    "bn": "বৈধ স্বাস্থ্যসংক্রান্ত ঘটনার ধরন বেছে নিন।",
+    "banglish": "Boidho shasthyo-shongkranto ghotonar dhoron bechhe nin.",
+    "ar": "اختر نوع حدث صحي صالحًا."
+  },
+  "Choose a valid label mapping.": {
+    "bn": "বৈধ লেবেল ম্যাপিং বেছে নিন।",
+    "banglish": "Boidho label mapping bechhe nin.",
+    "ar": "اختر مطابقة ملصق صالحة."
+  },
+  "Choose a valid search and page.": {
+    "bn": "বৈধ অনুসন্ধান এবং পৃষ্ঠা বেছে নিন।",
+    "banglish": "Boidho onushondhan ebong prishtha bechhe nin.",
+    "ar": "اختر بحثًا وصفحة صالحين."
+  },
+  "Choose an event": {
+    "bn": "একটি ঘটনা বেছে নিন",
+    "banglish": "Ekti ghotona bechhe nin",
+    "ar": "اختر حدثًا"
+  },
+  "Choose the event date explicitly.": {
+    "bn": "ঘটনার তারিখ স্পষ্টভাবে বেছে নিন।",
+    "banglish": "Ghotonar tarikh sposhtobhabe bechhe nin.",
+    "ar": "حدد تاريخ الحدث صراحةً."
+  },
+  "Choose the required secondary product label only for feed or transfer.": {
+    "bn": "শুধু খাদ্য ব্যবহার বা স্থানান্তরের জন্য প্রয়োজনীয় দ্বিতীয় পণ্যের লেবেল বেছে নিন।",
+    "banglish": "Shudhu khadyo byabohar ba sthanantorer jonno proyojoniyo ditiyo ponner label bechhe nin.",
+    "ar": "اختر ملصق المنتج الثانوي المطلوب للتغذية أو التحويل فقط."
+  },
+  "Code128 identifier": {
+    "bn": "Code128 শনাক্তকারী",
+    "banglish": "Code128 shonaktokari",
+    "ar": "معرّف Code128"
+  },
+  "Company business date": {
+    "bn": "কোম্পানির ব্যবসায়িক তারিখ",
+    "banglish": "Kompanir byaboshayik tarikh",
+    "ar": "تاريخ الأعمال للشركة"
+  },
+  "Complete the scan draft fields with valid values.": {
+    "bn": "বৈধ মান দিয়ে স্ক্যান খসড়ার ঘরগুলো পূরণ করুন।",
+    "banglish": "Boidho man diye scan khoshrar ghorgulo puron korun.",
+    "ar": "أكمل حقول مسودة المسح بقيم صالحة."
+  },
+  "Confirm this operation": {
+    "bn": "এই কার্যক্রম নিশ্চিত করুন",
+    "banglish": "Ei karjokrom nishchit korun",
+    "ar": "تأكيد هذه العملية"
+  },
+  "Confirmation changes stock and posts the existing stock-adjustment journal.": {
+    "bn": "নিশ্চিত করলে মজুত পরিবর্তিত হবে এবং বিদ্যমান মজুত-সমন্বয় জার্নাল পোস্ট হবে।",
+    "banglish": "Nishchit korle mojut poribortito hobe ebong bidyoman mojut-shomonnoy journal post hobe.",
+    "ar": "يؤدي التأكيد إلى تغيير المخزون وترحيل قيد تسوية المخزون الحالي."
+  },
+  "Confirmation consumes the selected feed stock and posts the existing feed expense journal.": {
+    "bn": "নিশ্চিত করলে নির্বাচিত খাদ্যের মজুত ব্যবহার হবে এবং বিদ্যমান খাদ্য ব্যয়ের জার্নাল পোস্ট হবে।",
+    "banglish": "Nishchit korle nirbachito khadyer mojut byabohar hobe ebong bidyoman khadyo byayer journal post hobe.",
+    "ar": "يؤدي التأكيد إلى استهلاك مخزون العلف المحدد وترحيل قيد مصروف العلف الحالي."
+  },
+  "Confirmation receives the selected quantity against the approved purchase order and posts its existing receipt and journal.": {
+    "bn": "নিশ্চিত করলে অনুমোদিত ক্রয়াদেশের বিপরীতে নির্বাচিত পরিমাণ গ্রহণ করা হবে এবং এর বিদ্যমান প্রাপ্তি ও জার্নাল পোস্ট হবে।",
+    "banglish": "Nishchit korle onumodito kroyadesher biporite nirbachito poriman grohon kora hobe ebong er bidyoman prapti o journal post hobe.",
+    "ar": "يؤدي التأكيد إلى استلام الكمية المحددة مقابل أمر الشراء المعتمد وترحيل مستند الاستلام والقيد المحاسبي الحاليين له."
+  },
+  "Confirmation records the entered animal weight. No diagnosis or treatment is generated.": {
+    "bn": "নিশ্চিত করলে লেখা প্রাণীর ওজন রেকর্ড হবে। কোনো রোগনির্ণয় বা চিকিৎসা তৈরি করা হবে না।",
+    "banglish": "Nishchit korle lekha pranir ojon record hobe. Kono rognirnoy ba chikitsa toiri kora hobe na.",
+    "ar": "يؤدي التأكيد إلى تسجيل وزن الحيوان المُدخل. لا يتم إنشاء أي تشخيص أو علاج."
+  },
+  "Confirmation records the entered health event. No diagnosis, dose or treatment recommendation is generated.": {
+    "bn": "নিশ্চিত করলে লেখা স্বাস্থ্যসংক্রান্ত ঘটনা রেকর্ড হবে। কোনো রোগনির্ণয়, ওষুধের মাত্রা বা চিকিৎসার পরামর্শ তৈরি করা হবে না।",
+    "banglish": "Nishchit korle lekha shasthyo-shongkranto ghotona record hobe. Kono rognirnoy, oshudher matra ba chikitsar poramorsho toiri kora hobe na.",
+    "ar": "يؤدي التأكيد إلى تسجيل الحدث الصحي المُدخل. لا يتم إنشاء أي تشخيص أو جرعة أو توصية علاجية."
+  },
+  "Confirmation records the stated asset custody change. No acquisition, depreciation or disposal is posted.": {
+    "bn": "নিশ্চিত করলে উল্লেখিত সম্পদের জিম্মা পরিবর্তন রেকর্ড হবে। কোনো সম্পদ অর্জন, অবচয় বা নিষ্পত্তি পোস্ট হবে না।",
+    "banglish": "Nishchit korle ullekhito shompoder jimma poriborton record hobe. Kono shompod orjon, obochoy ba nishpotti post hobe na.",
+    "ar": "يؤدي التأكيد إلى تسجيل تغيير عهدة الأصل المذكور. لا يتم ترحيل أي اقتناء أو إهلاك أو استبعاد للأصل."
+  },
+  "Confirmation transfers stock between the selected branches and posts both existing branch journals.": {
+    "bn": "নিশ্চিত করলে নির্বাচিত শাখাগুলোর মধ্যে মজুত স্থানান্তর হবে এবং উভয় শাখার বিদ্যমান জার্নাল পোস্ট হবে।",
+    "banglish": "Nishchit korle nirbachito shakhagulor moddhe mojut sthanantor hobe ebong ubhoy shakhar bidyoman journal post hobe.",
+    "ar": "يؤدي التأكيد إلى تحويل المخزون بين الفروع المحددة وترحيل القيدين المحاسبيين الحاليين للفرعين."
+  },
+  "Create exact label mapping": {
+    "bn": "হুবহু লেবেল ম্যাপিং তৈরি করুন",
+    "banglish": "Hubohu label mapping toiri korun",
+    "ar": "إنشاء مطابقة دقيقة للملصق"
+  },
+  "Custodian, location and reason are required.": {
+    "bn": "জিম্মাদার, অবস্থান এবং কারণ প্রয়োজন।",
+    "banglish": "Jimmadar, obosthan ebong karon proyojon.",
+    "ar": "يلزم تحديد مسؤول العهدة والموقع والسبب."
+  },
+  "Default rear camera": {
+    "bn": "ডিফল্ট পেছনের ক্যামেরা",
+    "banglish": "Default pechhoner camera",
+    "ar": "الكاميرا الخلفية الافتراضية"
+  },
+  "Destination branch": {
+    "bn": "গন্তব্য শাখা",
+    "banglish": "Gontobbo shakha",
+    "ar": "فرع الوجهة"
+  },
+  "Destination or feed branch": {
+    "bn": "গন্তব্য বা খাদ্য শাখা",
+    "banglish": "Gontobbo ba khadyo shakha",
+    "ar": "فرع الوجهة أو العلف"
+  },
+  "Draft cancelled. No business operation was posted.": {
+    "bn": "খসড়া বাতিল হয়েছে। কোনো ব্যবসায়িক কার্যক্রম পোস্ট হয়নি।",
+    "banglish": "Khoshra batil hoyechhe. Kono byaboshayik karjokrom post hoyni.",
+    "ar": "أُلغيت المسودة. لم يتم ترحيل أي عملية أعمال."
+  },
+  "Draft saved. Review every field before confirmation.": {
+    "bn": "খসড়া সংরক্ষিত হয়েছে। নিশ্চিত করার আগে প্রতিটি ঘর পর্যালোচনা করুন।",
+    "banglish": "Khoshra shongrokkhito hoyechhe. Nishchit korar age protiti ghor porjalochona korun.",
+    "ar": "حُفظت المسودة. راجع كل حقل قبل التأكيد."
+  },
+  "Drafts expire after ten minutes. Changed records or revoked labels require a fresh scan and review.": {
+    "bn": "দশ মিনিট পর খসড়ার মেয়াদ শেষ হয়। রেকর্ড পরিবর্তিত হলে বা লেবেল বাতিল হলে নতুন করে স্ক্যান ও পর্যালোচনা করতে হবে।",
+    "banglish": "Dosh minit por khoshrar meyad shesh hoy. Record poribortito hole ba label batil hole notun kore scan o porjalochona korte hobe.",
+    "ar": "تنتهي صلاحية المسودات بعد عشر دقائق. تتطلب السجلات المتغيرة أو الملصقات الملغاة مسحًا ومراجعة جديدين."
+  },
+  "Enter a bounded revocation reason.": {
+    "bn": "নির্ধারিত দৈর্ঘ্যসীমার মধ্যে বাতিলের কারণ লিখুন।",
+    "banglish": "Nirdharito doirghyoshimar moddhe batiler karon likhun.",
+    "ar": "أدخل سبب إلغاء الصلاحية ضمن حد الطول المسموح به."
+  },
+  "Enter a label value of 1 to 80 visible ASCII characters; URLs are not accepted.": {
+    "bn": "১ থেকে ৮০টি দৃশ্যমান ASCII অক্ষরের লেবেল মান লিখুন; URL গ্রহণ করা হয় না।",
+    "banglish": "1 theke 80 ti drishyoman ASCII okkhorer label man likhun; URL grohon kora hoy na.",
+    "ar": "أدخل قيمة ملصق من 1 إلى 80 محرف ASCII مرئيًا؛ لا تُقبل عناوين URL."
+  },
+  "Expected journal amount": {
+    "bn": "প্রত্যাশিত জার্নাল অর্থের পরিমাণ",
+    "banglish": "Protyashito journal orther poriman",
+    "ar": "المبلغ المتوقع للقيد المحاسبي"
+  },
+  "Expires": {
+    "bn": "মেয়াদ শেষ হবে",
+    "banglish": "Meyad shesh hobe",
+    "ar": "تنتهي الصلاحية"
+  },
+  "External barcode mappings are available only for products; internal labels are generated by the server.": {
+    "bn": "বাহ্যিক বারকোড ম্যাপিং শুধু পণ্যের জন্য উপলব্ধ; অভ্যন্তরীণ লেবেল সার্ভার তৈরি করে।",
+    "banglish": "Bahyik barcode mapping shudhu ponner jonno upolobdho; obhyontorin label server toiri kore.",
+    "ar": "تتوفر مطابقات الرموز الشريطية الخارجية للمنتجات فقط؛ وينشئ الخادم الملصقات الداخلية."
+  },
+  "External product barcode value": {
+    "bn": "পণ্যের বাহ্যিক বারকোড মান",
+    "banglish": "Ponner bahyik barcode man",
+    "ar": "قيمة الرمز الشريطي الخارجي للمنتج"
+  },
+  "Farm record identifier": {
+    "bn": "খামারের রেকর্ড শনাক্তকারী",
+    "banglish": "Khamarer record shonaktokari",
+    "ar": "معرّف سجل المزرعة"
+  },
+  "Feed or destination product label": {
+    "bn": "খাদ্য বা গন্তব্য পণ্যের লেবেল",
+    "banglish": "Khadyo ba gontobbo ponner label",
+    "ar": "ملصق منتج العلف أو منتج الوجهة"
+  },
+  "Find a target in this branch": {
+    "bn": "এই শাখায় লক্ষ্য খুঁজুন",
+    "banglish": "Ei shakhay lokkho khunjun",
+    "ar": "البحث عن هدف في هذا الفرع"
+  },
+  "Find printed label value": {
+    "bn": "মুদ্রিত লেবেলের মান খুঁজুন",
+    "banglish": "Mudrito label-er man khunjun",
+    "ar": "البحث عن قيمة الملصق المطبوع"
+  },
+  "Fixed asset": {
+    "bn": "স্থায়ী সম্পদ",
+    "banglish": "Sthayi shompod",
+    "ar": "أصل ثابت"
+  },
+  "Generated internal identifier": {
+    "bn": "তৈরি করা অভ্যন্তরীণ শনাক্তকারী",
+    "banglish": "Toiri kora obhyontorin shonaktokari",
+    "ar": "المعرّف الداخلي المُنشأ"
+  },
+  "Health event type": {
+    "bn": "স্বাস্থ্যসংক্রান্ত ঘটনার ধরন",
+    "banglish": "Shasthyo-shongkranto ghotonar dhoron",
+    "ar": "نوع الحدث الصحي"
+  },
+  "I checked the context, quantities, dates and consequences shown above.": {
+    "bn": "উপরে দেখানো প্রসঙ্গ, পরিমাণ, তারিখ এবং পরিণতি আমি যাচাই করেছি।",
+    "banglish": "Upore dekhano prosongo, poriman, tarikh ebong porinoti ami jachai korechhi.",
+    "ar": "راجعت السياق والكميات والتواريخ والنتائج الموضحة أعلاه."
+  },
+  "Internal QR and Code128 labels contain only an opaque identifier. Product EAN, UPC and SKU values require explicit exact mapping; existing or revoked values cannot be reused.": {
+    "bn": "অভ্যন্তরীণ QR এবং Code128 লেবেলে শুধু অর্থবোধক তথ্যবিহীন একটি শনাক্তকারী থাকে। পণ্যের EAN, UPC এবং SKU মানের জন্য সুস্পষ্ট ও হুবহু ম্যাপিং প্রয়োজন; বিদ্যমান বা বাতিল মান আবার ব্যবহার করা যায় না।",
+    "banglish": "Obhyontorin QR ebong Code128 label-e shudhu orthobodhock tothyobihin ekti shonaktokari thake. Ponner EAN, UPC ebong SKU maner jonno susposhto o hubohu mapping proyojon; bidyoman ba batil man abar byabohar kora jay na.",
+    "ar": "تحتوي ملصقات QR وCode128 الداخلية على معرّف غير دلالي فقط. تتطلب قيم EAN وUPC وSKU للمنتجات مطابقة صريحة ودقيقة؛ ولا يمكن إعادة استخدام القيم الحالية أو الملغاة."
+  },
+  "Invalid printable identifier.": {
+    "bn": "মুদ্রণযোগ্য শনাক্তকারী অবৈধ।",
+    "banglish": "Mudronjoggo shonaktokari oboidho.",
+    "ar": "معرّف قابل للطباعة غير صالح."
+  },
+  "Label context": {
+    "bn": "লেবেলের প্রসঙ্গ",
+    "banglish": "Label-er prosongo",
+    "ar": "سياق الملصق"
+  },
+  "Label detected. Loading an authorized preview.": {
+    "bn": "লেবেল শনাক্ত হয়েছে। অনুমোদিত প্রাক্‌দর্শন লোড হচ্ছে।",
+    "banglish": "Label shonakto hoyechhe. Onumodito prak-dorshon load hochchhe.",
+    "ar": "تم اكتشاف الملصق. جارٍ تحميل معاينة مصرح بها."
+  },
+  "Label mapping created. Print and test the label before use.": {
+    "bn": "লেবেল ম্যাপিং তৈরি হয়েছে। ব্যবহারের আগে লেবেল মুদ্রণ ও পরীক্ষা করুন।",
+    "banglish": "Label mapping toiri hoyechhe. Byaboharer age label mudron o porikkha korun.",
+    "ar": "أُنشئت مطابقة الملصق. اطبع الملصق واختبره قبل الاستخدام."
+  },
+  "Label mappings and printing": {
+    "bn": "লেবেল ম্যাপিং ও মুদ্রণ",
+    "banglish": "Label mapping o mudron",
+    "ar": "مطابقات الملصقات وطباعتها"
+  },
+  "Label revoked. Unconfirmed drafts using it can no longer commit.": {
+    "bn": "লেবেল বাতিল হয়েছে। এটি ব্যবহার করা যেসব খসড়া এখনো নিশ্চিত করা হয়নি, সেগুলো আর কার্যকর করা যাবে না।",
+    "banglish": "Label batil hoyechhe. Eti byabohar kora jeshob khoshra ekhono nishchit kora hoyni, shegulo ar karjokor kora jabe na.",
+    "ar": "أُلغيت صلاحية الملصق. لم يعد بالإمكان تنفيذ المسودات غير المؤكدة التي تستخدمه."
+  },
+  "Label unavailable in this context.": {
+    "bn": "এই প্রসঙ্গে লেবেল উপলব্ধ নয়।",
+    "banglish": "Ei proshonge label upolobdho noy.",
+    "ar": "الملصق غير متاح في هذا السياق."
+  },
+  "Label value": {
+    "bn": "লেবেলের মান",
+    "banglish": "Label-er man",
+    "ar": "قيمة الملصق"
+  },
+  "Label value or keyboard scanner": {
+    "bn": "লেবেলের মান বা কীবোর্ড স্ক্যানার",
+    "banglish": "Label-er man ba keyboard scanner",
+    "ar": "قيمة الملصق أو ماسح يعمل كلوحة مفاتيح"
+  },
+  "Labels identify records; they do not grant access. Camera frames stay on this device and are not uploaded or saved.": {
+    "bn": "লেবেল রেকর্ড শনাক্ত করে; প্রবেশাধিকার দেয় না। ক্যামেরার ফ্রেম এই ডিভাইসেই থাকে এবং আপলোড বা সংরক্ষণ করা হয় না।",
+    "banglish": "Label record shonakto kore; probeshadhikar dey na. Camerar frame ei device-ei thake ebong upload ba shongrokkhon kora hoy na.",
+    "ar": "تحدد الملصقات السجلات؛ ولا تمنح صلاحية الوصول. تبقى إطارات الكاميرا على هذا الجهاز ولا تُرفع أو تُحفظ."
+  },
+  "Local scanner camera": {
+    "bn": "স্থানীয় স্ক্যানারের ক্যামেরা",
+    "banglish": "Sthaniyo scanner-er camera",
+    "ar": "كاميرا الماسح المحلية"
+  },
+  "Mapping format": {
+    "bn": "ম্যাপিং বিন্যাস",
+    "banglish": "Mapping binyash",
+    "ar": "تنسيق المطابقة"
+  },
+  "My scan drafts and outcomes": {
+    "bn": "আমার স্ক্যান খসড়া ও ফলাফল",
+    "banglish": "Amar scan khoshra o folafol",
+    "ar": "مسودات المسح ونتائجي"
+  },
+  "New location": {
+    "bn": "নতুন অবস্থান",
+    "banglish": "Notun obosthan",
+    "ar": "الموقع الجديد"
+  },
+  "Next due date": {
+    "bn": "পরবর্তী নির্ধারিত তারিখ",
+    "banglish": "Poroborti nirdharito tarikh",
+    "ar": "تاريخ الاستحقاق التالي"
+  },
+  "Next due date (optional)": {
+    "bn": "পরবর্তী নির্ধারিত তারিখ (ঐচ্ছিক)",
+    "banglish": "Poroborti nirdharito tarikh (oichchhik)",
+    "ar": "تاريخ الاستحقاق التالي (اختياري)"
+  },
+  "Next labels": {
+    "bn": "পরবর্তী লেবেলগুলো",
+    "banglish": "Poroborti label-gulo",
+    "ar": "الملصقات التالية"
+  },
+  "Next targets": {
+    "bn": "পরবর্তী লক্ষ্যগুলো",
+    "banglish": "Poroborti lokkhogulo",
+    "ar": "الأهداف التالية"
+  },
+  "No unique active label is available in this context.": {
+    "bn": "এই প্রসঙ্গে কোনো অনন্য সক্রিয় লেবেল উপলব্ধ নেই।",
+    "banglish": "Ei proshonge kono ononno shokriyo label upolobdho nei.",
+    "ar": "لا يتوفر ملصق نشط فريد في هذا السياق."
+  },
+  "Notes or reason": {
+    "bn": "মন্তব্য বা কারণ",
+    "banglish": "Montobbo ba karon",
+    "ar": "ملاحظات أو سبب"
+  },
+  "Only transfer products can be scanned in a destination branch.": {
+    "bn": "গন্তব্য শাখায় শুধু স্থানান্তরের পণ্য স্ক্যান করা যায়।",
+    "banglish": "Gontobbo shakhay shudhu sthanantorer ponno scan kora jay.",
+    "ar": "لا يمكن في فرع الوجهة مسح سوى المنتجات الخاصة بالتحويل."
+  },
+  "Operation": {
+    "bn": "কার্যক্রম",
+    "banglish": "Karjokrom",
+    "ar": "العملية"
+  },
+  "Operation committed. Repeated confirmation returns the same outcome.": {
+    "bn": "কার্যক্রম কার্যকর হয়েছে। আবার নিশ্চিত করলে একই ফলাফল ফেরত আসে।",
+    "banglish": "Karjokrom karjokor hoyechhe. Abar nishchit korle eki folafol pherot ashe.",
+    "ar": "نُفذت العملية. يُرجع تكرار التأكيد النتيجة نفسها."
+  },
+  "Point the camera at one label.": {
+    "bn": "ক্যামেরা একটি লেবেলের দিকে ধরুন।",
+    "banglish": "Camera ekti label-er dike dhorun.",
+    "ar": "وجّه الكاميرا نحو ملصق واحد."
+  },
+  "Preview a primary label first.": {
+    "bn": "প্রথমে প্রধান লেবেলের প্রাক্‌দর্শন দেখুন।",
+    "banglish": "Prothome prodhan label-er prak-dorshon dekhun.",
+    "ar": "عاين الملصق الأساسي أولًا."
+  },
+  "Preview label": {
+    "bn": "লেবেলের প্রাক্‌দর্শন দেখুন",
+    "banglish": "Label-er prak-dorshon dekhun",
+    "ar": "معاينة الملصق"
+  },
+  "Preview ready. Enter an operation and prepare a separate review draft.": {
+    "bn": "প্রাক্‌দর্শন প্রস্তুত। একটি কার্যক্রম লিখুন এবং পর্যালোচনার জন্য আলাদা খসড়া প্রস্তুত করুন।",
+    "banglish": "Prak-dorshon prostut. Ekti karjokrom likhun ebong porjalochonar jonno alada khoshra prostut korun.",
+    "ar": "المعاينة جاهزة. أدخل عملية وجهّز مسودة منفصلة للمراجعة."
+  },
+  "Preview secondary product": {
+    "bn": "দ্বিতীয় পণ্যের প্রাক্‌দর্শন দেখুন",
+    "banglish": "Ditiyo ponner prak-dorshon dekhun",
+    "ar": "معاينة المنتج الثانوي"
+  },
+  "Preview the secondary product first.": {
+    "bn": "প্রথমে দ্বিতীয় পণ্যের প্রাক্‌দর্শন দেখুন।",
+    "banglish": "Prothome ditiyo ponner prak-dorshon dekhun.",
+    "ar": "عاين المنتج الثانوي أولًا."
+  },
+  "Previous custodian": {
+    "bn": "আগের জিম্মাদার",
+    "banglish": "Ager jimmadar",
+    "ar": "مسؤول العهدة السابق"
+  },
+  "Previous labels": {
+    "bn": "আগের লেবেলগুলো",
+    "banglish": "Ager label-gulo",
+    "ar": "الملصقات السابقة"
+  },
+  "Previous location": {
+    "bn": "আগের অবস্থান",
+    "banglish": "Ager obosthan",
+    "ar": "الموقع السابق"
+  },
+  "Previous recorded weight": {
+    "bn": "আগের রেকর্ড করা ওজন",
+    "banglish": "Ager record kora ojon",
+    "ar": "الوزن المسجل سابقًا"
+  },
+  "Previous targets": {
+    "bn": "আগের লক্ষ্যগুলো",
+    "banglish": "Ager lokkhogulo",
+    "ar": "الأهداف السابقة"
+  },
+  "Print QR and Code128 label": {
+    "bn": "QR ও Code128 লেবেল মুদ্রণ করুন",
+    "banglish": "QR o Code128 label mudron korun",
+    "ar": "طباعة ملصق QR وCode128"
+  },
+  "Print scan label": {
+    "bn": "স্ক্যান লেবেল মুদ্রণ করুন",
+    "banglish": "Scan label mudron korun",
+    "ar": "طباعة ملصق المسح"
+  },
+  "Product or feed": {
+    "bn": "পণ্য বা খাদ্য",
+    "banglish": "Ponno ba khadyo",
+    "ar": "منتج أو علف"
+  },
+  "Purchase order": {
+    "bn": "ক্রয়াদেশ",
+    "banglish": "Kroyadesh",
+    "ar": "أمر الشراء"
+  },
+  "Purchase order receiving": {
+    "bn": "ক্রয়াদেশ অনুযায়ী গ্রহণ",
+    "banglish": "Kroyadesh onujayi grohon",
+    "ar": "استلام أمر الشراء"
+  },
+  "QR identifier": {
+    "bn": "QR শনাক্তকারী",
+    "banglish": "QR shonaktokari",
+    "ar": "معرّف QR"
+  },
+  "Quantity or weight": {
+    "bn": "পরিমাণ বা ওজন",
+    "banglish": "Poriman ba ojon",
+    "ar": "الكمية أو الوزن"
+  },
+  "Read-only preview. No operation is available for this context or permission.": {
+    "bn": "শুধু দেখার প্রাক্‌দর্শন। এই প্রসঙ্গ বা অনুমতির জন্য কোনো কার্যক্রম উপলব্ধ নেই।",
+    "banglish": "Shudhu dekhar prak-dorshon. Ei prosongo ba onumotir jonno kono karjokrom upolobdho nei.",
+    "ar": "معاينة للقراءة فقط. لا تتوفر أي عملية لهذا السياق أو لهذه الصلاحية."
+  },
+  "Ready for a label.": {
+    "bn": "লেবেলের জন্য প্রস্তুত।",
+    "banglish": "Label-er jonno prostut.",
+    "ar": "جاهز لمسح ملصق."
+  },
+  "Record": {
+    "bn": "রেকর্ড",
+    "banglish": "Record",
+    "ar": "السجل"
+  },
+  "Remove fields that do not apply to the selected scan action.": {
+    "bn": "নির্বাচিত স্ক্যান কার্যক্রমে প্রযোজ্য নয় এমন ঘরগুলো সরিয়ে দিন।",
+    "banglish": "Nirbachito scan karjokrome projojjo noy emon ghorgulo shoriye din.",
+    "ar": "أزل الحقول التي لا تنطبق على إجراء المسح المحدد."
+  },
+  "Review the draft and explicitly confirm the operation.": {
+    "bn": "খসড়া পর্যালোচনা করুন এবং কার্যক্রমটি স্পষ্টভাবে নিশ্চিত করুন।",
+    "banglish": "Khoshra porjalochona korun ebong karjokromti sposhtobhabe nishchit korun.",
+    "ar": "راجع المسودة وأكد العملية صراحةً."
+  },
+  "Revocation reason": {
+    "bn": "বাতিলের কারণ",
+    "banglish": "Batiler karon",
+    "ar": "سبب إلغاء الصلاحية"
+  },
+  "Revoke this label": {
+    "bn": "এই লেবেল বাতিল করুন",
+    "banglish": "Ei label batil korun",
+    "ar": "إلغاء صلاحية هذا الملصق"
+  },
+  "Scan context": {
+    "bn": "স্ক্যানের প্রসঙ্গ",
+    "banglish": "Scan-er prosongo",
+    "ar": "سياق المسح"
+  },
+  "Scan draft unavailable for this user and branch.": {
+    "bn": "এই ব্যবহারকারী ও শাখার জন্য স্ক্যান খসড়া উপলব্ধ নেই।",
+    "banglish": "Ei byaboharkari o shakhar jonno scan khoshra upolobdho nei.",
+    "ar": "مسودة المسح غير متاحة لهذا المستخدم وهذا الفرع."
+  },
+  "Scan draft unavailable.": {
+    "bn": "স্ক্যান খসড়া উপলব্ধ নেই।",
+    "banglish": "Scan khoshra upolobdho nei.",
+    "ar": "مسودة المسح غير متاحة."
+  },
+  "Scan entry text exceeds the supported length.": {
+    "bn": "স্ক্যানে লেখা পাঠ্য সমর্থিত দৈর্ঘ্য অতিক্রম করেছে।",
+    "banglish": "Scan-e lekha pathyo shomorthito doirghyo otikrom korechhe.",
+    "ar": "يتجاوز نص إدخال المسح الطول المدعوم."
+  },
+  "Scan next label": {
+    "bn": "পরবর্তী লেবেল স্ক্যান করুন",
+    "banglish": "Poroborti label scan korun",
+    "ar": "مسح الملصق التالي"
+  },
+  "Scan review required": {
+    "bn": "স্ক্যান পর্যালোচনা প্রয়োজন",
+    "banglish": "Scan porjalochona proyojon",
+    "ar": "تلزم مراجعة المسح"
+  },
+  "Scan workspace": {
+    "bn": "স্ক্যান কর্মক্ষেত্র",
+    "banglish": "Scan kormokhetro",
+    "ar": "مساحة عمل المسح"
+  },
+  "Search labels": {
+    "bn": "লেবেল খুঁজুন",
+    "banglish": "Label khunjun",
+    "ar": "البحث عن الملصقات"
+  },
+  "Secondary label": {
+    "bn": "দ্বিতীয় লেবেল",
+    "banglish": "Ditiyo label",
+    "ar": "الملصق الثانوي"
+  },
+  "Secondary product": {
+    "bn": "দ্বিতীয় পণ্য",
+    "banglish": "Ditiyo ponno",
+    "ar": "المنتج الثانوي"
+  },
+  "Select an available target in this branch.": {
+    "bn": "এই শাখায় উপলব্ধ একটি লক্ষ্য বেছে নিন।",
+    "banglish": "Ei shakhay upolobdho ekti lokkho bechhe nin.",
+    "ar": "اختر هدفًا متاحًا في هذا الفرع."
+  },
+  "Sold animals cannot receive new scan entries.": {
+    "bn": "বিক্রি করা প্রাণীর জন্য নতুন স্ক্যান এন্ট্রি করা যায় না।",
+    "banglish": "Bikri kora pranir jonno notun scan entry kora jay na.",
+    "ar": "لا يمكن إضافة إدخالات مسح جديدة للحيوانات المباعة."
+  },
+  "Source and destination products must have the same SKU and reviewed stock unit.": {
+    "bn": "উৎস ও গন্তব্যের পণ্যের SKU এবং পর্যালোচিত মজুতের একক একই হতে হবে।",
+    "banglish": "Utsho o gontobber ponner SKU ebong porjalochito mojuter ekok eki hote hobe.",
+    "ar": "يجب أن يكون لمنتجي المصدر والوجهة رمز SKU نفسه ووحدة المخزون التي تمت مراجعتها نفسها."
+  },
+  "Start camera": {
+    "bn": "ক্যামেরা চালু করুন",
+    "banglish": "Camera chalu korun",
+    "ar": "تشغيل الكاميرا"
+  },
+  "Stop camera": {
+    "bn": "ক্যামেরা বন্ধ করুন",
+    "banglish": "Camera bondho korun",
+    "ar": "إيقاف الكاميرا"
+  },
+  "Target record": {
+    "bn": "লক্ষ্য রেকর্ড",
+    "banglish": "Lokkho record",
+    "ar": "السجل المستهدف"
+  },
+  "Target unavailable in this branch.": {
+    "bn": "এই শাখায় লক্ষ্য উপলব্ধ নেই।",
+    "banglish": "Ei shakhay lokkho upolobdho nei.",
+    "ar": "الهدف غير متاح في هذا الفرع."
+  },
+  "The detected value is not a supported label.": {
+    "bn": "শনাক্ত মানটি সমর্থিত লেবেল নয়।",
+    "banglish": "Shonakto manti shomorthito label noy.",
+    "ar": "القيمة المكتشفة ليست ملصقًا مدعومًا."
+  },
+  "The label is unavailable or revoked. Scan a current label again.": {
+    "bn": "লেবেল উপলব্ধ নেই বা বাতিল হয়েছে। বর্তমানে বৈধ লেবেল আবার স্ক্যান করুন।",
+    "banglish": "Label upolobdho nei ba batil hoyechhe. Bortomane boidho label abar scan korun.",
+    "ar": "الملصق غير متاح أو أُلغيت صلاحيته. امسح ملصقًا ساريًا مرة أخرى."
+  },
+  "The local decoder could not start. Use manual entry or a keyboard scanner.": {
+    "bn": "স্থানীয় ডিকোডার চালু করা যায়নি। হাতে লিখে দিন অথবা কীবোর্ড স্ক্যানার ব্যবহার করুন।",
+    "banglish": "Sthaniyo decoder chalu kora jayni. Hate likhe din othoba keyboard scanner byabohar korun.",
+    "ar": "تعذر تشغيل مفكك الترميز المحلي. استخدم الإدخال اليدوي أو ماسحًا يعمل كلوحة مفاتيح."
+  },
+  "The operation did not consume the reviewed scan draft.": {
+    "bn": "কার্যক্রমটি পর্যালোচিত স্ক্যান খসড়া ব্যবহার করেনি।",
+    "banglish": "Karjokromti porjalochito scan khoshra byabohar koreni.",
+    "ar": "لم تستخدم العملية مسودة المسح التي تمت مراجعتها."
+  },
+  "The purchase order is not receivable for this quantity.": {
+    "bn": "এই পরিমাণের জন্য ক্রয়াদেশ অনুযায়ী গ্রহণ করা যায় না।",
+    "banglish": "Ei porimaner jonno kroyadesh onujayi grohon kora jay na.",
+    "ar": "لا يمكن استلام هذه الكمية بموجب أمر الشراء."
+  },
+  "The scan draft changed. Prepare a new draft.": {
+    "bn": "স্ক্যান খসড়া পরিবর্তিত হয়েছে। নতুন খসড়া প্রস্তুত করুন।",
+    "banglish": "Scan khoshra poribortito hoyechhe. Notun khoshra prostut korun.",
+    "ar": "تغيرت مسودة المسح. جهّز مسودة جديدة."
+  },
+  "The scan transaction does not match the reviewed action.": {
+    "bn": "স্ক্যান লেনদেন পর্যালোচিত কার্যক্রমের সঙ্গে মেলে না।",
+    "banglish": "Scan lenden porjalochito karjokromer shonge mele na.",
+    "ar": "لا تطابق معاملة المسح الإجراء الذي تمت مراجعته."
+  },
+  "The scanned context does not match this action.": {
+    "bn": "স্ক্যান করা প্রসঙ্গ এই কার্যক্রমের সঙ্গে মেলে না।",
+    "banglish": "Scan kora prosongo ei karjokromer shonge mele na.",
+    "ar": "لا يطابق السياق الممسوح هذا الإجراء."
+  },
+  "The secondary label must identify a product.": {
+    "bn": "দ্বিতীয় লেবেলকে অবশ্যই একটি পণ্য শনাক্ত করতে হবে।",
+    "banglish": "Ditiyo label-ke oboshshoi ekti ponno shonakto korte hobe.",
+    "ar": "يجب أن يحدد الملصق الثانوي منتجًا."
+  },
+  "The selected camera is unavailable. Choose another camera or use manual entry.": {
+    "bn": "নির্বাচিত ক্যামেরা উপলব্ধ নেই। অন্য ক্যামেরা বেছে নিন অথবা হাতে লিখে দিন।",
+    "banglish": "Nirbachito camera upolobdho nei. Onno camera bechhe nin othoba hate likhe din.",
+    "ar": "الكاميرا المحددة غير متاحة. اختر كاميرا أخرى أو استخدم الإدخال اليدوي."
+  },
+  "The source changed after preview. Scan again and review a new draft.": {
+    "bn": "প্রাক্‌দর্শনের পর উৎস পরিবর্তিত হয়েছে। আবার স্ক্যান করে নতুন খসড়া পর্যালোচনা করুন।",
+    "banglish": "Prak-dorshoner por utsho poribortito hoyechhe. Abar scan kore notun khoshra porjalochona korun.",
+    "ar": "تغير المصدر بعد المعاينة. امسح مرة أخرى وراجع مسودة جديدة."
+  },
+  "This label value or equivalent barcode is already assigned, including revoked labels.": {
+    "bn": "এই লেবেলের মান বা সমতুল্য বারকোড ইতিমধ্যে বরাদ্দ করা হয়েছে; বাতিল লেবেলও এর অন্তর্ভুক্ত।",
+    "banglish": "Ei label-er man ba shomotullo barcode itimoddhe boraddo kora hoyechhe; batil label-o er ontorbhukto.",
+    "ar": "قيمة هذا الملصق أو الرمز الشريطي المكافئ مخصصة بالفعل، بما في ذلك الملصقات الملغاة."
+  },
+  "This request key was already used for a different draft.": {
+    "bn": "এই অনুরোধ কী ইতিমধ্যে অন্য খসড়ায় ব্যবহার করা হয়েছে।",
+    "banglish": "Ei onurodh key itimoddhe onno khoshray byabohar kora hoyechhe.",
+    "ar": "استُخدم مفتاح الطلب هذا بالفعل لمسودة مختلفة."
+  },
+  "This scan context is read-only.": {
+    "bn": "এই স্ক্যান প্রসঙ্গ শুধু দেখার জন্য।",
+    "banglish": "Ei scan prosongo shudhu dekhar jonno.",
+    "ar": "سياق المسح هذا للقراءة فقط."
+  },
+  "This scan draft is no longer pending or has expired. Prepare a new draft.": {
+    "bn": "এই স্ক্যান খসড়া আর অপেক্ষমাণ নেই অথবা এর মেয়াদ শেষ হয়েছে। নতুন খসড়া প্রস্তুত করুন।",
+    "banglish": "Ei scan khoshra ar opekkhaman nei othoba er meyad shesh hoyechhe. Notun khoshra prostut korun.",
+    "ar": "لم تعد مسودة المسح هذه معلقة أو انتهت صلاحيتها. جهّز مسودة جديدة."
+  },
+  "Too many scan drafts. Wait one minute before trying again.": {
+    "bn": "স্ক্যান খসড়ার সংখ্যা অত্যধিক। আবার চেষ্টা করার আগে এক মিনিট অপেক্ষা করুন।",
+    "banglish": "Scan khoshrar shongkha otyodhik. Abar cheshta korar age ek minit opekkha korun.",
+    "ar": "عدد مسودات المسح كبير جدًا. انتظر دقيقة واحدة قبل المحاولة مجددًا."
+  },
+  "Unit": {
+    "bn": "একক",
+    "banglish": "Ekok",
+    "ar": "الوحدة"
+  },
+  "Use HTTPS for camera access. Manual entry and keyboard scanners work without camera permission.": {
+    "bn": "ক্যামেরা ব্যবহারের জন্য HTTPS ব্যবহার করুন। হাতে লেখা এবং কীবোর্ড স্ক্যানার ক্যামেরার অনুমতি ছাড়াই কাজ করে।",
+    "banglish": "Camera byaboharer jonno HTTPS byabohar korun. Hate lekha ebong keyboard scanner camerar onumoti chharai kaj kore.",
+    "ar": "استخدم HTTPS للوصول إلى الكاميرا. يعمل الإدخال اليدوي والماسحات التي تعمل كلوحة مفاتيح دون إذن الكاميرا."
+  },
+  "Use camera for secondary label": {
+    "bn": "দ্বিতীয় লেবেলের জন্য ক্যামেরা ব্যবহার করুন",
+    "banglish": "Ditiyo label-er jonno camera byabohar korun",
+    "ar": "استخدام الكاميرا للملصق الثانوي"
+  },
+  "Use your browser print command. Check a test label with your actual scanner before applying labels to stock or animals.": {
+    "bn": "ব্রাউজারের মুদ্রণ কমান্ড ব্যবহার করুন। মজুত বা প্রাণীর গায়ে লেবেল লাগানোর আগে আপনার প্রকৃত স্ক্যানার দিয়ে পরীক্ষামূলক লেবেল যাচাই করুন।",
+    "banglish": "Browser-er mudron command byabohar korun. Mojut ba pranir gaye label laganor age apnar prokrito scanner diye porikkhamulok label jachai korun.",
+    "ar": "استخدم أمر الطباعة في متصفحك. افحص ملصقًا تجريبيًا بالماسح الفعلي قبل وضع الملصقات على المخزون أو الحيوانات."
+  },
+  "Waiting for camera permission. You can cancel with Stop camera.": {
+    "bn": "ক্যামেরার অনুমতির জন্য অপেক্ষা করা হচ্ছে। ‘ক্যামেরা বন্ধ করুন’ দিয়ে বাতিল করতে পারেন।",
+    "banglish": "Camerar onumotir jonno opekkha kora hochchhe. 'Camera bondho korun' diye batil korte paren.",
+    "ar": "بانتظار إذن الكاميرا. يمكنك الإلغاء باستخدام «إيقاف الكاميرا»."
+  }
+}

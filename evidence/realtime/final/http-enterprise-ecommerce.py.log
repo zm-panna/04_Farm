@@ -1,0 +1,89 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /Ecommerce: HTTP 200
+PASS GET /Ecommerce/manage: HTTP 200
+PASS GET /Ecommerce/orders: HTTP 200
+PASS GET /Ecommerce/staff/orders: HTTP 200
+PASS Anonymous storefront requires sign-in
+PASS GET /Ecommerce?search=NO-SUCH-FICTIONAL-PRODUCT&category=DEMO%20feed&page=999: HTTP 200
+PASS Catalog search/category filter and excessive page clamp work
+PASS GET /Ecommerce/manage: HTTP 200
+PASS Catalog edit accepts optional blank fields and unpublishes the product
+PASS GET /Ecommerce: HTTP 200
+PASS Unpublished catalog product is hidden from customer
+PASS Stale catalog revision cannot republish after another update
+PASS GET /Ecommerce/manage: HTTP 200
+PASS Fresh catalog form republishes using approved policy
+PASS GET /Ecommerce/manage: HTTP 200
+PASS Ecommerce product price form uses locked two-decimal currency step
+PASS GET /Ecommerce: HTTP 200
+PASS Rendered catalog form updates customer cart
+PASS GET /Ecommerce/cart: HTTP 200
+PASS Cart shows explicit tax, total, payment and collection confirmation
+PASS Checkout without CSRF is rejected
+PASS Checkout requires explicit confirmation
+PASS Confirmed checkout returns own created order
+PASS Server prices and configured tax defeat forged totals/payment/customer fields
+PASS Checkout reserves without deducting physical stock
+PASS Duplicate checkout returns same order and never double reserves
+PASS GET /Ecommerce/orders/6: HTTP 200
+PASS Another tenant cannot open the customer order
+PASS Own endpoint cannot open a foreign order despite administrator account
+PASS GET /Parties: HTTP 200
+PASS Existing party UI creates the separate fictional customer
+PASS GET /Ecommerce/manage: HTTP 200
+PASS Customer linking uses verified scoped existing identity
+PASS Another customer in the same tenant cannot read own-order endpoint
+PASS GET /Ecommerce/staff/orders/6: HTTP 200
+PASS Staff reviews actual order form
+PASS Stale approval cannot append another review
+PASS GET /Ecommerce/orders/6: HTTP 200
+PASS Customer history redacts internal review notes
+PASS GET /Ecommerce/staff/orders/6: HTTP 200
+PASS Reviewed fulfillment posts and remains payment-unverified
+PASS Repeated fulfillment consumes reservation and creates one finance link
+PASS Fulfillment voucher balances gross receivable net sale and tax
+PASS GET /Sales: HTTP 200
+PASS Generic sales-return form cannot bypass original ecommerce tax allocation
+PASS GET /Ecommerce/staff/orders/6: HTTP 200
+PASS Linked return updates original finance credit and stock
+PASS Return retry token does not double restock
+PASS No fictional payment was created for ecommerce order
+PASS GET /Ecommerce: HTTP 200
+PASS GET /Ecommerce/cart: HTTP 200
+PASS GET /Ecommerce/orders/7: HTTP 200
+PASS Copied cross-session cancellation form cannot mutate another customer order
+PASS GET /Ecommerce/orders: HTTP 200
+PASS Valid-CSRF cross-customer cancellation is denied by ownership check
+PASS Customer cancellation releases reservation without stock/GL change
+PASS Repeated cancellation cannot release twice
+PASS GET /Ecommerce/orders?status=Cancelled&search=WEB-&page=999: HTTP 200
+PASS Customer order filter and bounded pagination render cancelled order
+PASS GET /Ecommerce/staff/orders?status=Fulfilled&search=WEB-&page=1: HTTP 200
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer2@example.invalid
+PASS GET /Accounts: HTTP 200
+PASS USD receipt and bank controls use reviewed two-decimal precision
+PASS Real USD payment form rejects .001 with no payment or journal
+PASS GET /Accounts: HTTP 200
+PASS Precision rejection explains reviewed currency to staff
+PASS Real USD payment form accepts representable manual receipt
+PASS GET /Accounts: HTTP 200
+PASS Real signed bank entry rejects sub-minor-unit withdrawal
+PASS GET /Subscription: HTTP 200
+PASS Actual subscription history displays locked USD denomination

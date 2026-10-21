@@ -1,0 +1,14 @@
+@model EnterpriseERP.Web.Controllers.ProductEditor
+@{ViewData["Title"] = Model.Id==0 ? "Add Product":"Edit Product";}
+<section style="padding:28px;max-width:820px;margin:auto"><h1 data-i18n="Product Master">Product Master</h1><p data-i18n="Stock is updated by transactions">Stock is updated by purchase, sales and consumption transactions—not by editing a product.</p>
+<form action="/products/save" method="post" style="display:grid;gap:14px">@Html.AntiForgeryToken()<input type="hidden" asp-for="Id"/><input asp-for="RowVersion" type="hidden"/><div asp-validation-summary="All" role="alert"></div>
+<label asp-for="SKU" data-i18n="SKU">SKU</label><input asp-for="SKU" maxlength="60" required/><span asp-validation-for="SKU"></span>
+<label asp-for="Name" data-i18n="Product Name">Product Name</label><input asp-for="Name" maxlength="160" required/><span asp-validation-for="Name"></span>
+<label asp-for="UnitOfMeasure" data-transfer-i18n="Stock unit">Stock unit</label><input asp-for="UnitOfMeasure" maxlength="30" required readonly="@(Model.IsUnitEstablished?"readonly":null)" placeholder="KG, L, EA, BAG25KG"/><span asp-validation-for="UnitOfMeasure"></span>
+<p data-transfer-i18n="Use one physical unit per company SKU. Once assigned, the unit cannot change; no quantity conversion is performed.">Use one physical unit per company SKU. Once assigned, the unit cannot change; no quantity conversion is performed.</p>
+@if(Model.RequiresUnitReview){<label><input asp-for="ReviewedExistingUnit" type="checkbox"/><span data-transfer-i18n="I reviewed the existing stock quantities and movement history and confirm they already use this unit.">I reviewed the existing stock quantities and movement history and confirm they already use this unit.</span></label>}
+@if(Model.Id>0){<p><span data-i18n="Stock:">Stock:</span> <strong>@Model.QuantityOnHand.ToString("N3")</strong> · <span data-i18n="Unit cost">Unit cost</span>: <strong>@Model.UnitCost.ToString("N3")</strong></p>}
+@if(Model.Id>0 && ViewContext.HttpContext.Response.StatusCode==409){<p><a href="/products/@Model.Id/edit" data-i18n="Reload current product">Reload current product</a></p>}
+<div style="display:flex;gap:16px"><button type="submit" data-i18n="Save Product">Save Product</button><a href="/products" data-i18n="Cancel">Cancel</a></div></form></section>
+
+

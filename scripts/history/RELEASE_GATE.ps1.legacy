@@ -1,0 +1,47 @@
+param(
+  [Parameter(Mandatory=$true)][string]$StagingBaseUrl,
+  [string]$SqlConnectionString = $env:FARM_STAGING_CONNECTION,
+  [switch]$ApplyMigrations,
+  [string]$EvidenceDirectory = './release-evidence'
+)
+$ErrorActionPreference='Stop'
+Set-StrictMode -Version Latest
+$root=(Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+Set-Location $root
+$evidence=Join-Path $root $EvidenceDirectory
+New-Item -ItemType Directory -Force -Path $evidence | Out-Null
+$log=Join-Path $evidence 'release-gate.log'
+Start-Transcript -Path $log -Force | Out-Null
+$passed=$false
+try {
+  if (-not (Get-Command dotnet -ErrorAction SilentlyContinue)) {throw 'BLOCKED: .NET SDK missing'}
+  $sdk=(dotnet --version).Trim()
+  if (-not $sdk.StartsWith('10.')) {throw "BLOCKED: expected .NET 10 SDK, found $sdk"}
+  if ([string]::IsNullOrWhiteSpace($SqlConnectionString)) {throw 'BLOCKED: FARM_STAGING_CONNECTION missing'}
+  if ($StagingBaseUrl -notmatch '^https://') {throw 'BLOCKED: staging URL must use HTTPS'}
+  dotnet restore ./EnterpriseERP.slnx --locked-mode
+  if ($LASTEXITCODE -ne 0) {throw 'BLOCKED: restore failed; restore packages and commit lock files first'}
+  dotnet build ./EnterpriseERP.slnx -c Release --no-restore
+  if ($LASTEXITCODE -ne 0) {throw 'BLOCKED: compilation failed'}
+  dotnet test ./EnterpriseERP.slnx -c Release --no-build --logger "trx;LogFileName=release-tests.trx" --results-directory $evidence
+  if ($LASTEXITCODE -ne 0) {throw 'BLOCKED: automated tests failed'}
+  dotnet ef --version | Out-Null
+  if ($LASTEXITCODE -ne 0) {throw 'BLOCKED: dotnet-ef unavailable'}
+  $env:ConnectionStrings__DefaultConnection=$SqlConnectionString
+  dotnet ef migrations list --project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj --startup-project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj --no-build
+  if ($LASTEXITCODE -ne 0) {throw 'BLOCKED: cannot enumerate migrations'}
+  dotnet ef migrations script --idempotent --project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj --startup-project ./EnterpriseERP.Web/EnterpriseERP.Web.csproj --no-build --output (Join-Path $evidence 'migration-review.sql')
+  if ($LASTEXITCODE -ne 0) {throw 'BLOCKED: migration script generation failed'}
+  if ($ApplyMigrations) {throw 'BLOCKED: deployment migrations require independently reviewed DB backup and DBA approval; apply manually after sign-off'}
+  $u=($StagingBaseUrl.TrimEnd('/')+'/Account/Login')
+  $r=Invoke-WebRequest -Uri $u -MaximumRedirection 3 -TimeoutSec 25 -SkipHttpErrorCheck
+  if ([int]$r.StatusCode -ge 400) {throw "BLOCKED: staging login HTTP $($r.StatusCode)"}
+  'Automated checks passed; MANUAL SECURITY, FINANCE RECONCILIATION, BACKUP RESTORE, UAT AND IIS TESTS REMAIN REQUIRED.' | Set-Content (Join-Path $evidence 'AUTOMATED_RESULTS.txt')
+  $passed=$true
+}
+catch {
+  ('BLOCKED: '+$_.Exception.Message) | Set-Content (Join-Path $evidence 'AUTOMATED_RESULTS.txt')
+  throw
+}
+finally {Stop-Transcript | Out-Null}
+if(-not $passed){exit 1}

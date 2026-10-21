@@ -1,0 +1,29 @@
+param([switch]$Strict)
+$ErrorActionPreference='Stop'
+$root=(Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+$modules=Get-ChildItem (Join-Path $root 'Modules') -Directory
+$placeholders=@()
+foreach($m in $modules){
+  $scaffold=Get-ChildItem $m.FullName -Recurse -Filter '*.cshtml' | Select-String -SimpleMatch 'Module UI scaffold only'
+  if($scaffold){$placeholders+=$m.Name}
+}
+$dotnet=Get-Command dotnet -ErrorAction SilentlyContinue
+$result=[ordered]@{
+  TimestampUtc=[DateTime]::UtcNow.ToString('o')
+  DotnetSdkPresent=[bool]$dotnet
+  TotalModuleProjects=$modules.Count
+  PlaceholderModuleProjects=$placeholders
+  PlaceholderCount=$placeholders.Count
+  BuildStatus='NOT_RUN'
+  DatabaseMigrationStatus='NOT_RUN'
+  IisStatus='NOT_RUN'
+  CustomerUatStatus='NOT_RUN'
+  ProductionReady=$false
+}
+$target=Join-Path $root 'release-evidence'
+New-Item $target -ItemType Directory -Force | Out-Null
+$result|ConvertTo-Json -Depth 6|Set-Content -Path (Join-Path $target 'live-readiness.json') -Encoding UTF8
+Write-Host "Placeholder modules: $($placeholders.Count) / $($modules.Count)"
+$placeholders | ForEach-Object { Write-Host "PENDING $_" }
+Write-Host "Readiness evidence: $target/live-readiness.json"
+if($Strict -and ($placeholders.Count -gt 0 -or -not $dotnet)){throw 'PRODUCTION RELEASE BLOCKED: unfinished module projects or .NET SDK absent.'}

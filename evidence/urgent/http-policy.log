@@ -1,0 +1,82 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /business-policy: HTTP 200
+PASS Company policy requires CSRF
+PASS Omitted currency precision is rejected, never defaulted
+PASS Blank currency precision is rejected
+PASS Currency change cannot relabel existing books
+PASS Existing ledger denomination requires explicit confirmation
+PASS Same-currency policy proposal binds through real MVC form
+PASS Optional effective-through binds as null
+PASS Optional blank non-US region binds and remains blank
+PASS US policy requires an explicitly identified state
+PASS Competing unreviewed proposal has a separate version
+PASS GET /business-policy: HTTP 200
+PASS Policy proposer cannot approve own proposal
+PASS GET /business-policy: HTTP 200
+PASS GET /business-policy: HTTP 200
+PASS Other company cannot review a foreign company policy
+PASS Different identity approves same-currency version
+PASS Stale original review cannot reverse approved policy
+PASS GET /business-policy: HTTP 200
+PASS Competing same-effective-date version cannot supersede approved version
+PASS Obsolete proposal can be explicitly rejected
+PASS Original approved company policy remains immutable history
+PASS GET /business-policy: HTTP 200
+PASS Other company listing excludes policy source evidence
+PASS GET /business-policy: HTTP 200
+PASS Omitted tax percentage is rejected instead of defaulting to zero
+PASS Blank tax percentage is rejected
+PASS Zero rate cannot masquerade as standard positive tax
+PASS Zero exemption needs a specific review basis
+PASS Explicit zero exemption proposal saves
+PASS Tax zero, reason and effective company policy are snapshotted exactly
+PASS Tax competing proposal retains separate version
+PASS GET /business-policy: HTTP 200
+PASS Tax proposer cannot approve own exemption
+PASS GET /business-policy: HTTP 200
+PASS Tax review cannot cross company scope
+PASS Different reviewer approves explicit zero exemption
+PASS Stale tax review cannot rewrite approved rate
+PASS GET /business-policy: HTTP 200
+PASS Competing tax version is blocked after another approval
+PASS Obsolete tax draft may be rejected without changing approved version
+PASS Policy and tax review never create financial journal entries
+PASS GET /business-policy: HTTP 200
+PASS Foreign company tax list does not disclose review basis
+PASS GET /AIManager: HTTP 200
+PASS AI Manager lists only allowed module identifiers
+PASS AI fact snapshot exposes exact active company and branch
+PASS AI asset counts are permission-scoped live database facts
+PASS Other user AI snapshot remains in other company
+PASS AI Manager renders a truthful local review draft
+PASS AI review draft leaves every business row unchanged
+PASS AI draft POST requires CSRF
+PASS Unknown AI module is rejected
+PASS Permission boundary fixture removes demo administrator wildcard
+PASS GET /AIManager: HTTP 200
+PASS Missing asset grant hides the asset choice
+PASS AI.Read alone cannot read asset facts
+PASS Forged AI draft module cannot bypass module grant
+PASS Other granted AI module stays accessible
+PASS Business-module permission alone cannot enter AI Manager
+PASS Business-module permission alone cannot read AI facts
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS AI facts honor selected branch even inside the same company
+PASS Another browser session keeps its own original branch

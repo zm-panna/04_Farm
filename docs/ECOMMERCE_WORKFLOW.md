@@ -1,0 +1,44 @@
+# Ecommerce workflow and operating boundary
+
+## Supported operation
+
+The storefront is an authenticated, company-and-branch-scoped MVC workflow, not a public anonymous payment website. It reuses existing verified Identity users, trading customers, stock, valuation balances, sales documents, vouchers and finance allocations. The initial delivery method is branch collection, without delivery fees. No payment gateway is configured, no card is charged and no client can mark an order paid. Order payment verification stays `PendingUnverified`. Authorized finance staff separately record evidence-backed receipts/refunds against the linked sales documents.
+
+Before publishing, a company must approve its jurisdiction, region, base currency, minor units and timezone policy, then independently approve an applicable tax policy. Tax can be Standard with an explicit positive rate, or an explicitly justified Exempt/OutOfScope treatment. The code supplies no statutory rate, currency, tax exemption or country-wide USA/Arab-region assumption. Tax is exclusive of the net product price. Business policy approval controls currency; no exchange conversion is performed. Displayed and accepted money uses that currency's configured precision, with a single rounding at line net calculation and configured tax calculation.
+
+## Setup and identity
+
+1. Grant staff `Ecommerce.Manage` for catalog/customer links, `Ecommerce.Fulfill` for order review/fulfillment and `Sales.Post` for inventory/financial posting. Customer operations require `Ecommerce.View`, an existing active customer link and authorized branch membership.
+2. Set up ordinary Customer trading-party records in the existing party workspace. Provision and verify customer Identity accounts using the existing approved identity administration path, and give only the intended company/branch access. Customer accounts must not receive staff permissions.
+3. In `/Ecommerce/manage`, explicitly link a verified existing identity to an active branch customer after confirming ownership. The service checks Identity `EmailConfirmed` plus company/branch membership. Email text never creates, claims or resets an identity; links cannot be reassigned. One identity and one trading customer can each be linked once within a branch.
+4. Publish a stock-linked product with explicit net price, category and approved tax policy. Catalog changes rotate concurrency tokens. Quantity unit and available stock come from the scoped stock record.
+
+## Customer and staff lifecycle
+
+- `/Ecommerce`: published catalog with server-side search, category filtering and 20-row paging. Customers see unreserved availability; carts do not reserve stock.
+- `/Ecommerce/cart`: own-only cart. Product, net price, tax policy, calculated net/tax/gross and currency are read from the server. Quantity updates rotate the cart token. Quotes expire after 30 minutes. A changed product/policy or expired quote must be refreshed before acceptance. Client price/amount/customer/payment-state fields are not accepted.
+- Checkout requires explicit confirmation of products, quantities, configured tax, total and collection/payment terms. It atomically creates immutable order/line snapshots, reserves stock and clears the cart. Repeating the same accepted checkout token returns the same scoped order. It creates no sales journal or payment.
+- Submitted orders await staff review. The reviewer explicitly confirms customer identity, stock, configured tax and collection arrangements and records an audit note. The order becomes Approved; stale state tokens cannot approve/cancel/fulfill a changed state.
+- Fulfillment explicitly confirms physical goods release and receivable posting. In one serializable transaction, it consumes the owning reservation, deducts stock at exact carrying value, posts balanced AR gross / sales net / configured tax liability / COGS / inventory vouchers, creates ProductSale and FinanceDocument records and immutable fulfillment links, then marks Fulfilled. Existing account-period closure is enforced on the local business accounting date. Late failure rolls everything back, including earlier journal/sale inserts. Repeated fulfillment cannot duplicate postings.
+- Customer or authorized staff may cancel Submitted/Approved orders, releasing the exact reservation in the same transaction. Fulfilled orders cannot be cancelled; use the return workflow. There is no automatic reservation expiry or unattended cancellation: staff should review the Submitted queue and obtain the customer decision.
+- `/Ecommerce/orders` is owner-only, while `/Ecommerce/staff/orders` requires the explicit staff permission. Both support search, status filter and paging. Customer service responses redact cost values, internal reviewer notes and staff identities. Customer pages do not link to other customers or finance internals.
+
+## Reservation invariant
+
+`StockItem.ReservedQuantity` is the authoritative serialized stock-row balance, protected by existing stock row concurrency and the database constraint `0 <= ReservedQuantity <= QuantityOnHand`. `EcommerceStockReservation` keeps the immutable owning order/line/item/quantity and auditable Reserved -> Released/Consumed state. Checkout increments the balance; cancellation decrements; fulfillment decrements its own balance immediately before valuation removal. Every existing deduction uses the central `InventoryValuation.Remove` available-stock guard. Sales, negative adjustments, feed consumption, purchase returns and transfers therefore cannot spend ecommerce-reserved goods. All these operations must retain their enclosing serializable transaction.
+
+## Linked returns and finance
+
+Only authorized staff can record physically received, restockable returns. Each return uses a unique request token and the owning fulfilled order line, not arbitrary client totals. Cumulative proportional net, tax and original cost allocations make the final return reverse the exact original amounts, including rounding residuals. Non-postable tiny partial returns must be combined with their remaining quantity. Stock movements, return voucher, existing `StockDocumentReturn` and immutable `EcommerceReturn` allocation are atomic. Gross credits reduce the original finance document's receivable, so existing payment/refund allocation handling remains linked. The generic stock-return endpoint rejects ecommerce finance documents because it cannot split original net/tax correctly. A credit does not imply that cash has been refunded.
+
+Returns preserve the original accepted tax/currency allocation, while using the current approved company's local accounting date and currency for posting. Fulfillment validates the accepted tax policy remains current/effective; expired or superseded policies require cancelling/requoting rather than silently changing customer totals.
+
+## Verification and deployment
+
+`EcommerceWorkflowTests` uses real relational SQLite with foreign keys, Identity and serializable transactions. It covers ownership and tenant/branch isolation; verified identity linking; absent policy/unpublished products; forged cart totals; changed catalog and stale/expired tokens; explicit confirmations; retry idempotency; reservation exhaustion and direct sales blocking; cancellation; exact balanced configured-tax fulfillment; a deliberately injected failure after voucher/sale insertion; immutable records and scoped foreign keys; exact partial/full tax returns and generic-return rejection; customer cost/note redaction; search/filter/paging.
+
+Run the full solution's tests and reviewed SQL Server migration process before deployment. SQLite tests are not a substitute for production SQL Server concurrency/load verification, database backups, jurisdiction-specific accountant review, payment operational procedures, customer authentication delivery, or a live production acceptance check. Approve only real applicable tax rates with supporting review evidence. Demo/test policies are synthetic and never installation defaults.
+
+### Acceptance evidence
+
+The focused relational ecommerce suite includes explicit 0-, 2- and 3-minor-unit currency scenarios, with synthetic JPY/KWD labels used only to exercise precision. Partial returns reverse exact net/tax totals while retaining three-decimal internal carrying costs. The disposable MVC acceptance script is `scripts/http-enterprise-ecommerce.py`; it creates its own isolated enterprise demo, signs in through actual Identity/tenant-selection forms, submits rendered CSRF-protected catalog/cart/order/review/fulfillment/return/cancellation forms, verifies persisted stock and financial results, and removes its temporary database, cookies and generated password. Evidence is written under `evidence/http-enterprise-ecommerce/` with the exact tested Release assembly hash. These are HTTP integration checks, not a claim of browser visual, SQL Server or live-provider approval.

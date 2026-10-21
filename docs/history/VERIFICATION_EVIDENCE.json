@@ -1,0 +1,10 @@
+{
+  "source_archive_integrity": "to_be_checked",
+  "dotnet_sdk_available": false,
+  "dotnet_build": "NOT_TESTED",
+  "sql_server_runtime": "NOT_TESTED",
+  "ef_migration": "NOT_TESTED",
+  "iis": "NOT_TESTED",
+  "customer_uat": "NOT_TESTED",
+  "production_ready": false
+}

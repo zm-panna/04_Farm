@@ -1,0 +1,132 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS Anonymous table API returns401
+PASS Bounded authorized real SQL table products
+PASS Draw/count contract products
+PASS Bounded authorized real SQL table animals
+PASS Draw/count contract animals
+PASS Bounded authorized real SQL table stock-movements
+PASS Draw/count contract stock-movements
+PASS Bounded authorized real SQL table milk
+PASS Draw/count contract milk
+PASS Bounded authorized real SQL table health
+PASS Draw/count contract health
+PASS Bounded authorized real SQL table feed
+PASS Draw/count contract feed
+PASS Bounded authorized real SQL table purchase-orders
+PASS Draw/count contract purchase-orders
+PASS Bounded authorized real SQL table receipts
+PASS Draw/count contract receipts
+PASS Bounded authorized real SQL table sales
+PASS Draw/count contract sales
+PASS Bounded authorized real SQL table documents
+PASS Draw/count contract documents
+PASS Bounded authorized real SQL table returns
+PASS Draw/count contract returns
+PASS Bounded authorized real SQL table parties
+PASS Draw/count contract parties
+PASS Bounded authorized real SQL table payments
+PASS Draw/count contract payments
+PASS Bounded authorized real SQL table bank-lines
+PASS Draw/count contract bank-lines
+PASS Bounded authorized real SQL table vouchers
+PASS Draw/count contract vouchers
+PASS Bounded authorized real SQL table expenses
+PASS Draw/count contract expenses
+PASS Bounded authorized real SQL table weights
+PASS Draw/count contract weights
+PASS Bounded authorized real SQL table fattening
+PASS Draw/count contract fattening
+PASS Bounded authorized real SQL table breeding
+PASS Draw/count contract breeding
+PASS Bounded authorized real SQL table staff
+PASS Draw/count contract staff
+PASS Bounded authorized real SQL table attendance
+PASS Draw/count contract attendance
+PASS Bounded authorized real SQL table leave
+PASS Draw/count contract leave
+PASS Bounded authorized real SQL table payroll-policies
+PASS Draw/count contract payroll-policies
+PASS Bounded authorized real SQL table payroll-runs
+PASS Draw/count contract payroll-runs
+PASS Bounded authorized real SQL table crm-leads
+PASS Draw/count contract crm-leads
+PASS Bounded authorized real SQL table crm-opportunities
+PASS Draw/count contract crm-opportunities
+PASS Bounded authorized real SQL table crm-activities
+PASS Draw/count contract crm-activities
+PASS Bounded authorized real SQL table crm-quotes
+PASS Draw/count contract crm-quotes
+PASS Bounded authorized real SQL table crm-ready
+PASS Draw/count contract crm-ready
+PASS Bounded authorized real SQL table assets
+PASS Draw/count contract assets
+PASS Bounded authorized real SQL table depreciation
+PASS Draw/count contract depreciation
+PASS Bounded authorized real SQL table disposals
+PASS Draw/count contract disposals
+PASS Bounded authorized real SQL table ecommerce-catalog
+PASS Draw/count contract ecommerce-catalog
+PASS Bounded authorized real SQL table ecommerce-orders
+PASS Draw/count contract ecommerce-orders
+PASS Bounded authorized real SQL table own-orders
+PASS Draw/count contract own-orders
+PASS Bounded authorized real SQL table support
+PASS Draw/count contract support
+PASS Bounded authorized real SQL table automation-notifications
+PASS Draw/count contract automation-notifications
+PASS Bounded authorized real SQL table automation-rules
+PASS Draw/count contract automation-rules
+PASS Bounded authorized real SQL table automation-jobs
+PASS Draw/count contract automation-jobs
+PASS Bounded authorized real SQL table automation-approvals
+PASS Draw/count contract automation-approvals
+PASS Bounded authorized real SQL table subscription-invoices
+PASS Draw/count contract subscription-invoices
+PASS Bounded authorized real SQL table subscription-payments
+PASS Draw/count contract subscription-payments
+PASS Bounded authorized real SQL table company-policies
+PASS Draw/count contract company-policies
+PASS Bounded authorized real SQL table tax-policies
+PASS Draw/count contract tax-policies
+PASS Bounded authorized real SQL table opening-balances
+PASS Draw/count contract opening-balances
+PASS Bounded authorized real SQL table stock-transfers
+PASS Draw/count contract stock-transfers
+PASS Bounded authorized real SQL table own-payslips
+PASS Draw/count contract own-payslips
+PASS Server pages beyond100 with scoped filtered count
+PASS Other company cannot observe count or rows
+PASS Reject unsupported protocol {'draw': '<script>'}
+PASS Reject unsupported protocol {'length': -1}
+PASS Reject unsupported protocol {'length': 101}
+PASS Reject unsupported protocol {'start': -1}
+PASS Reject unsupported protocol {'order[0][column]': 99}
+PASS Reject unsupported protocol {'search[regex]': 'true'}
+PASS Reject unsupported protocol {'search[value]': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'}
+PASS Unknown table is404
+PASS Wildcard reviewer cannot see another customer orders in own portal
+PASS Wildcard reviewer cannot see another employee payslips in own portal
+PASS GET /products/2/edit: HTTP 200
+PASS Real product mutation commits
+PASS Committed product mutation invalidates cache immediately
+PASS Staff grid never exposes compensation fields
+PASS GET /Inventory?page=2: HTTP 200
+PASS GET /Parties?page=2: HTTP 200
+PASS GET /data: HTTP 200
+PASS GET /data/products: HTTP 200
+PASS Actual vendored DataTables DOM and live HTTP integration: PASS actual DataTables3.1.4 + jsdom with live HTTP: search,50-row page,next,Arabic RTL,Bengali,language rebuild,status filter; 8 AJAX draws. Real browser remains separate.
+

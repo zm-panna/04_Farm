@@ -1,0 +1,3 @@
+Created 5 isolated demo tenants and 5 Identity users, with balanced vouchers and reconciled stock. Automation is inactive. Passwords were not printed.
+
+Demo SQL export created. Contains sensitive Identity hashes: keep the file private. No target SQL Server was connected or modified.

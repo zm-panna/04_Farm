@@ -1,0 +1,193 @@
+{
+  "generated_utc": "2026-10-19T18:09:42.701816+00:00",
+  "product": "Smart Farm AI ERP .NET 10",
+  "revision": "BANGLADESH_FIRST_LIVE_CORRECTIVE_REVISION4",
+  "source_status": "LOCAL_AND_INDEPENDENT_COLD_RELEASE_VERIFICATION_PASSED",
+  "release_decision": "SOURCE_CANDIDATE_ONLY_ACTUAL_STAGING_AND_CUSTOMER_ACCEPTANCE_REQUIRED",
+  "production_approved": false,
+  "first_live_scope": {
+    "country": "BD",
+    "companies": 1,
+    "modules": [
+      "HR/Payroll",
+      "CRM",
+      "Fixed Assets",
+      "E-commerce"
+    ],
+    "real_payroll_tax_values_supplied": false,
+    "future_arab_and_us_jurisdictions": "Deferred expansion inputs, not Bangladesh first-live blockers"
+  },
+  "baseline": {
+    "artifact": "Smart_Farm_AI_ERP_NET10_Enterprise_Revision3_20261019.zip",
+    "sha256": "2ab28e4e82d6c4bcfc0b2940442a361063b2ceeac92be5a5ec2a9cca1758e600",
+    "prior_evidence": "docs/history/REVISION3_CURRENT_VERIFICATION.json"
+  },
+  "verified": {
+    "restore": {
+      "status": "PASS",
+      "evidence": "evidence/urgent/restore.log"
+    },
+    "release_build": {
+      "status": "PASS",
+      "warnings": 0,
+      "errors": 0,
+      "evidence": "evidence/urgent/build.log"
+    },
+    "dotnet": {
+      "passed": 805,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "evidence/urgent/test-results/urgent-tests.trx"
+    },
+    "real_localhost_http": {
+      "passed": 902,
+      "failed": 0,
+      "provider": "Isolated Development SQLite only",
+      "suites": [
+        {
+          "suite": "core",
+          "passed": 407,
+          "failed": 0,
+          "evidence": "evidence/http/results.json",
+          "runtime_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747"
+        },
+        {
+          "suite": "hr",
+          "passed": 117,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-hr/results.json",
+          "runtime_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747"
+        },
+        {
+          "suite": "crm",
+          "passed": 77,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-crm/results.json",
+          "runtime_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747"
+        },
+        {
+          "suite": "assets",
+          "passed": 75,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-assets/results.json",
+          "runtime_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747"
+        },
+        {
+          "suite": "policy",
+          "passed": 86,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-policy/results.json",
+          "runtime_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747"
+        },
+        {
+          "suite": "ecommerce",
+          "passed": 93,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-ecommerce/results.json",
+          "runtime_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747"
+        },
+        {
+          "suite": "onboarding",
+          "passed": 47,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-onboarding/results.json",
+          "runtime_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747"
+        }
+      ]
+    },
+    "javascript": {
+      "passed": 44,
+      "failed": 0,
+      "suites": {
+        "localization": 31,
+        "support": 8,
+        "browser_security_source_checks": 5
+      },
+      "browser_executed": false,
+      "evidence": [
+        "evidence/urgent/localization.log",
+        "evidence/urgent/support-js.log",
+        "evidence/urgent/security-js.log"
+      ]
+    },
+    "fail_closed_preflight_cli": {
+      "passed": 3,
+      "failed": 0,
+      "actual_sql_connection_executed": false,
+      "evidence": "evidence/urgent/preflight-cli-smoke.json"
+    },
+    "ef_model_consistency": {
+      "status": "PASS_NO_MODEL_DRIFT",
+      "evidence": "evidence/urgent/model-check.log"
+    },
+    "idempotent_sql_generation": {
+      "status": "PASS",
+      "sql_server_execution": false,
+      "sha256": "703bf18152f7348d5b46a37e8dfe3b8ba6c89c3e348efcc4324e8db3be40e6f0",
+      "matches_packaged_schema": true,
+      "evidence": "evidence/urgent/schema-reviewed.sql"
+    },
+    "publish": {
+      "status": "PASS",
+      "evidence": "evidence/urgent/publish.log"
+    },
+    "sdk": {
+      "version": "10.0.402",
+      "evidence": "evidence/urgent/sdk.txt"
+    }
+  },
+  "source_identity": {
+    "runtime_inputs": 428,
+    "runtime_manifest": "evidence/urgent/RUNTIME_SOURCE_MANIFEST.sha256",
+    "runtime_manifest_sha256": "6ef20f228615674716543701c45d9b73669a48f5345a7e2ea9b4517cbb965dfe",
+    "compiled_and_published_web_dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747",
+    "changed_runtime_test_script_files": 47,
+    "changes": "evidence/urgent/CHANGED_SOURCE_FILES.json"
+  },
+  "independent_current_review": {
+    "source_review": "evidence/urgent/independent-source-review.md",
+    "cold_build_status": "PASS_0_WARNINGS_0_ERRORS",
+    "cold_release_tests": {
+      "passed": 805,
+      "failed": 0,
+      "skipped": 0
+    },
+    "separate_audit_probes": {
+      "passed": 20,
+      "failed": 0,
+      "skipped": 0
+    },
+    "separate_cold_onboarding_http": {
+      "passed": 47,
+      "failed": 0
+    },
+    "evidence": "evidence/urgent/independent-current/summary.json",
+    "report": "evidence/urgent/independent-current/REPORT.md",
+    "cold_web_dll_sha256": "4b534a62897989d2e08c464ce2a578793d564738c00bca0be55ee7f6d852d765",
+    "note": "Independent reruns are separate evidence; they are not added to the main805/902/44 release totals. Paths can change deterministic DLL identities; source manifests match."
+  },
+  "not_verified": [
+    "Actual SQL Server schema application, provider behavior and concurrency",
+    "Windows PC or IIS execution; PowerShell helper execution",
+    "Actual host/TLS, runtime identity, effective security configuration and protected key persistence",
+    "Real-browser/mobile/native-language acceptance",
+    "Real payroll/tax law suitability, approved business inputs and opening balances",
+    "Backup/restore rehearsal, monitoring and customer sign-off",
+    "External payment, mail, AI or other provider execution"
+  ],
+  "operational_boundaries": [
+    "Configured contractual payroll accrual only, no salary transfer or statutory filing engine",
+    "Internal CRM net quotes and reviewed handoff, no external communications",
+    "Straight-line/None book depreciation, no statutory tax depreciation/revaluation",
+    "Authenticated Ecommerce branch collection; payment pending/unverified; no public signup, carrier or gateway",
+    "Legacy purchase/sales single-line operational documents; multi-line/statutory invoice expansion is separate"
+  ],
+  "operator_guides": [
+    "docs/REVISION4_HANDOFF_BN.md",
+    "docs/FIRST_LIVE_BANGLADESH_REVIEW.md",
+    "docs/STAGING_READONLY_PREFLIGHT.md",
+    "docs/EMAIL_OWNERSHIP_REVIEW_BN.md",
+    "docs/ENTERPRISE_POLICY_AND_WINDOWS_GUIDE_BN.md"
+  ],
+  "historical_evidence_note": "Pre-existing evidence outside the explicitly indexed current paths remains historical; never add old counts to current results."
+}

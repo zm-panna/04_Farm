@@ -1,0 +1,350 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-20T09:53:39.074578+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Shared gateway binary exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual gateway and strict proxy backend ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Direct backend without fixed proxy headers denied",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reserved management route blocked /_platform",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reserved management route blocked /_vault",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reserved management route blocked /v1/sys/health",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reserved management route blocked /v1/auth/token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Reserved management route blocked /v1/secret/data/apps/farm/runtime",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anonymous table API still401 through gateway",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anonymous hub negotiate still401 through gateway",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Backend issued HttpOnly authentication cookie",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Messaging",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /data/products",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /CRM",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /fixed-assets",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /Ecommerce",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /scan",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Local asset reachable through gateway /js/farm-server-tables.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local asset reachable through gateway /vendor/datatables/dataTables.min.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local asset reachable through gateway /vendor/signalr/signalr.min.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local asset reachable through gateway /css/farm-messaging.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local asset reachable through gateway /js/scanner-camera.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local asset reachable through gateway /js/farm-scanning.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local asset reachable through gateway /lib/zxing-wasm-3.1.5/reader.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Local asset reachable through gateway /lib/zxing-wasm-3.1.5/zxing_reader.wasm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Messaging",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Gateway preserves CSRF rejection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authenticated SignalR negotiation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Real WebSocket SignalR JSON handshake",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gateway preserves valid CSRF and durable send",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gateway WebSocket delivers content-free hint",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-company message stays hidden through gateway",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Owner fetch works through gateway",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authenticated server-side protocol works through gateway",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other-tenant filtered grid count remains isolated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /scan",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Gateway scanner preview rejects missing CSRF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gateway scanner preview retains authorized context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /scan",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Gateway scanner preview cannot cross tenants",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Gateway opaque label print remains authenticated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Untrusted browser Origin denied at gateway",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Spoofed forwarding and identity headers cannot change authority",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in gateway.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "passed": 66,
+  "failed": 0,
+  "gateway_dll_sha256": "b86f40e983eeff0d4b4fe5e2577d1c22c6b3b2b779b3f17a2e8555f7b5e208b6",
+  "actual_gateway": true,
+  "actual_signalr_websocket": true,
+  "vault_backend_mode": "Disabled: isolated Development transport fixture only",
+  "production_tls_verified": false,
+  "completed_utc": "2026-10-20T09:54:10.040087+00:00",
+  "status": "passed"
+}

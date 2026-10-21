@@ -1,0 +1,14 @@
+@{ ViewData["Title"] = "Login"; }
+<h1 data-i18n="ERP Login">ERP Login</h1>
+<form method="post" asp-action="Login">
+ @Html.AntiForgeryToken()
+ <input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl" />
+ <div asp-validation-summary="All" role="alert"></div>
+ <label><span data-i18n="Email">Email</span><input name="email" type="email" maxlength="256" autocomplete="username" required /></label>
+ <label><span data-i18n="Password">Password</span><input name="password" type="password" maxlength="1024" autocomplete="current-password" required /></label>
+ <button type="submit" data-i18n="Sign in">Sign in</button>
+</form>
+
+<p><a href="/Account/RecoveryHelp"><span data-i18n="Need account recovery?">Need account recovery?</span></a></p>
+
+<p>New here? <a asp-action="Register">Sign up</a></p>

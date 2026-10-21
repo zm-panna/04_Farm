@@ -1,0 +1,26 @@
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {cdb0ad31-2dea-4866-84d4-c850cb07c0c3} may be persisted to storage in unencrypted form.
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure InvalidOperationException on /api/messaging/send; status 409
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ArgumentException on /api/messaging/send; status 400
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/messaging/messages/6; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/messaging/notifications/6/read; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /api/messaging/automation; status 403
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure UnauthorizedAccessException on /api/messaging/inbox; status 403
+fail: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[8]
+      Failed to invoke hub method 'Sync'.
+      Microsoft.AspNetCore.SignalR.HubException: Messaging session is unavailable.
+         at EnterpriseERP.Web.MessagingHub.Sync() in /workspace/scratch/85a436f01071/farm_scan/source/EnterpriseERP.Web/RealtimeMessaging.cs:line 50
+         at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+         at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|22_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+fail: Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[8]
+      Failed to invoke hub method 'Sync'.
+      Microsoft.AspNetCore.SignalR.HubException: Messaging session is unavailable.
+         at EnterpriseERP.Web.MessagingHub.Sync() in /workspace/scratch/85a436f01071/farm_scan/source/EnterpriseERP.Web/RealtimeMessaging.cs:line 50
+         at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+         at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|22_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)

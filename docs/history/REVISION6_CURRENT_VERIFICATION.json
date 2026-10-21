@@ -1,0 +1,267 @@
+{
+  "product": "Smart Farm AI ERP .NET 10",
+  "release_decision": "SOURCE_CANDIDATE_ONLY_ACTUAL_STAGING_AND_CUSTOMER_ACCEPTANCE_REQUIRED",
+  "production_approved": false,
+  "first_live_scope": {
+    "country": "BD",
+    "companies": 1,
+    "modules": [
+      "HR/Payroll",
+      "CRM",
+      "Fixed Assets",
+      "E-commerce"
+    ],
+    "real_payroll_tax_values_supplied": false,
+    "future_arab_and_us_jurisdictions": "Deferred expansion inputs, not Bangladesh first-live blockers"
+  },
+  "operational_boundaries": [
+    "Configured contractual payroll accrual only, no salary transfer or statutory filing engine",
+    "Internal CRM net quotes and reviewed handoff, no external communications",
+    "Straight-line/None book depreciation, no statutory tax depreciation/revaluation",
+    "Authenticated Ecommerce branch collection; payment pending/unverified; no public signup, carrier or gateway",
+    "Legacy purchase/sales single-line operational documents; multi-line/statutory invoice expansion is separate"
+  ],
+  "generated_utc": "2026-10-20T07:00:30.038363+00:00",
+  "revision": "TRUSTED_BACKEND_VAULT_REVISION6",
+  "source_status": "LOCAL_RELEASE_VERIFICATION_PASSED",
+  "baseline": {
+    "artifact": "Smart_Farm_AI_ERP_NET10_Realtime_Revision5_20261020.zip",
+    "sha256": "1b679c3de1999b491e8e4473bf392838ef2a9150c132149f34248f4e10b0b55b",
+    "prior_evidence": "docs/history/REVISION5_CURRENT_VERIFICATION.json"
+  },
+  "verified": {
+    "restore": {
+      "status": "PASS",
+      "evidence": "evidence/trusted/final/restore.log"
+    },
+    "release_build": {
+      "status": "PASS",
+      "warnings": 0,
+      "errors": 0,
+      "evidence": "evidence/trusted/final/build.log"
+    },
+    "dotnet": {
+      "passed": 880,
+      "failed": 0,
+      "skipped": 0,
+      "real_redis_enabled": true,
+      "evidence": "evidence/trusted/final/release-tests.trx"
+    },
+    "real_localhost_http": {
+      "passed": 1201,
+      "failed": 0,
+      "provider": "Disposable Development SQLite; official Redis 7.2.16 loopback; shared PublicGateway real process",
+      "suites": [
+        {
+          "suite": "http",
+          "passed": 412,
+          "failed": 0,
+          "evidence": "evidence/http/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-assets",
+          "passed": 76,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-assets/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-crm",
+          "passed": 78,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-crm/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-data-tables",
+          "passed": 138,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-data-tables/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-ecommerce",
+          "passed": 94,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-ecommerce/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-hr",
+          "passed": 118,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-hr/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-messaging",
+          "passed": 60,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-messaging/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-messaging-backplane",
+          "passed": 35,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-messaging-backplane/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-onboarding",
+          "passed": 48,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-onboarding/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-policy",
+          "passed": 87,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-policy/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        },
+        {
+          "suite": "http-enterprise-trusted-gateway",
+          "passed": 55,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-trusted-gateway/results.json",
+          "runtime_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+          "trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979"
+        }
+      ]
+    },
+    "javascript": {
+      "passed": 66,
+      "failed": 0,
+      "suites": {
+        "localization": 31,
+        "support": 8,
+        "browser_security_source_checks": 5,
+        "messaging_dom": 12,
+        "server_tables_dom": 10
+      },
+      "browser_executed": false,
+      "evidence": "evidence/trusted/final/TEST_*.log"
+    },
+    "fail_closed_startup_processes": {
+      "passed": 6,
+      "failed": 0,
+      "database_access": false,
+      "evidence": "evidence/trusted/final/startup-results.json"
+    },
+    "real_vendor_datatables_dom": {
+      "status": "PASS",
+      "actual_vendor": "DataTables 3.1.4",
+      "actual_dom": "jsdom 27.4.0",
+      "real_browser": false,
+      "evidence": "evidence/http-enterprise-data-tables/results.json"
+    },
+    "signalr_two_nodes": {
+      "status": "PASS",
+      "nodes": 2,
+      "actual_websockets": true,
+      "actual_redis_backplane": true,
+      "outage_and_recovery": true,
+      "tls_verified": false,
+      "evidence": "evidence/http-enterprise-messaging-backplane/results.json"
+    },
+    "actual_farm_gateway": {
+      "status": "PASS",
+      "checks": 55,
+      "backend_vault_mode": "Disabled in disposable Development transport fixture only",
+      "tls_verified": false,
+      "evidence": "evidence/http-enterprise-trusted-gateway/results.json"
+    },
+    "ef_model_consistency": {
+      "status": "PASS_NO_MODEL_DRIFT",
+      "evidence": "evidence/trusted/final/model-check.log"
+    },
+    "idempotent_sql_generation": {
+      "status": "PASS_UNCHANGED_FROM_REVISION5",
+      "sql_server_execution": false,
+      "sha256": "70fa0cafe4178506bfae91dfa1d0fdcea0cadd2095246ac7d275ed922a0b3277",
+      "evidence": "evidence/trusted/final/schema-reviewed.sql"
+    },
+    "publish": {
+      "status": "PASS",
+      "evidence": "evidence/trusted/final/publish.log"
+    },
+    "dependency_audit": {
+      "status": "PASS_NO_KNOWN_VULNERABILITIES_REPORTED_BY_CONFIGURED_NUGET_SOURCE",
+      "evidence": "evidence/trusted/final/dependency-audit.json"
+    },
+    "sdk": {
+      "version": "10.0.402"
+    },
+    "synthetic_demo_sql": {
+      "tables": 93,
+      "rows": 1273,
+      "password_discarded": true,
+      "export_origin": "Revision 5; unchanged schema and current disposable seed journeys verified",
+      "historical_export_evidence": "evidence/realtime/final/demo-export.json",
+      "schema_sha256": "70fa0cafe4178506bfae91dfa1d0fdcea0cadd2095246ac7d275ed922a0b3277",
+      "data_sha256": "fb8a0c4ffac90af66a9a28cfa5d2f8029076586ce91b80ff45b196ee84722703"
+    }
+  },
+  "source_identity": {
+    "runtime_inputs": 376,
+    "runtime_manifest": "evidence/trusted/RUNTIME_SOURCE_MANIFEST.sha256",
+    "runtime_manifest_sha256": "f0f522fc0a79376ebf6c4ab38aede3e4a413dd4a4348081823aa9109d7df25a6",
+    "compiled_and_published_web_dll_sha256": "afd54758ffea547ba795b8d04b9f31a5cc1c8190371ec6973568bc24bf030906",
+    "compiled_and_published_trusted_runtime_dll_sha256": "2390fcb91b94506950d2c82f49e11c5294ce5d16608d74f9d38d3b5fb4b03979",
+    "shared_source_manifest": "docs/trusted-platform/TRUSTED-INFRASTRUCTURE-SHA256.txt",
+    "shared_source_manifest_sha256": "2e468892b25ef5588ea9fb4be02e55645a82e436e91812b5c432b105c12e8ab7"
+  },
+  "independent_current_review": {
+    "status": "NO_SEPARATE_COLD_REVISION6_AUDIT_CLAIMED",
+    "shared_platform_tests_are_separate_not_added_here": true
+  },
+  "not_verified": [
+    "Actual SQL Server schema application, provider behavior and concurrency",
+    "Windows PC or IIS execution; PowerShell helper execution",
+    "Actual host/TLS, runtime identity, effective security configuration and protected key persistence",
+    "Real-browser/mobile/native-language acceptance",
+    "Real payroll/tax law suitability, approved business inputs and opening balances",
+    "Backup/restore rehearsal, monitoring and customer sign-off",
+    "External payment, mail, AI or other provider execution",
+    "Real Redis TLS/authentication/ACL configuration on user infrastructure",
+    "SQL Server query plans, realistic large-data load and multi-instance IIS behavior",
+    "Actual Farm OpenBao service authentication/secret loading, rotation/revocation and disaster recovery on customer infrastructure",
+    "Windows certificate-store/IIS TLS and new PowerShell launcher execution",
+    "Public gateway and backend production network isolation; supervisor restart and in-flight revocation boundaries"
+  ],
+  "trusted_boundary": {
+    "secrets_on_trusted_backend_only": true,
+    "default_production_fails_closed": true,
+    "public_gateway": "Separate Trusted Platform package; existing MVC/API transport at one public hostname root",
+    "full_business_rest_rewrite": false,
+    "malicious_gateway_operator_can_access_active_user_sessions": true,
+    "trusted_host_administrator_can_access_process_secrets": true,
+    "shared_adapter_version": "v1.1"
+  },
+  "operator_guides": [
+    "docs/TRUSTED_BACKEND_AND_VAULT_BN.md",
+    "docs/trusted-platform/FARM_ROUTE_COVERAGE.md",
+    "docs/REVISION5_REALTIME_BN.md",
+    "docs/REALTIME_AND_LARGE_DATA.md",
+    "docs/INTERNAL_MESSAGING.md",
+    "docs/REVISION4_HANDOFF_BN.md",
+    "docs/FIRST_LIVE_BANGLADESH_REVIEW.md",
+    "docs/STAGING_READONLY_PREFLIGHT.md",
+    "docs/EMAIL_OWNERSHIP_REVIEW_BN.md",
+    "docs/ENTERPRISE_POLICY_AND_WINDOWS_GUIDE_BN.md"
+  ],
+  "historical_evidence_note": "Only indexed current paths and matching web+helper binary hashes are current. Earlier realtime/urgent/independent/focused iteration evidence is historical. Do not add prior counts."
+}

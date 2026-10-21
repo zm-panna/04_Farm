@@ -1,0 +1,113 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /HRPayroll: HTTP 200
+PASS GET /HRPayroll/attendance: HTTP 200
+PASS GET /HRPayroll/leave: HTTP 200
+PASS GET /HRPayroll/policies: HTTP 200
+PASS GET /HRPayroll/register: HTTP 200
+PASS GET /HRPayroll/calculate: HTTP 200
+PASS GET /HRPayroll/me: HTTP 200
+PASS GET /HRPayroll/staff: HTTP 200
+PASS Staff POST requires antiforgery
+PASS Staff validation preserves input and creates no row
+PASS Create ended staff through real form: HTTP 302; []
+PASS GET /HRPayroll/rates/6: HTTP 200
+PASS Set protected pay rates through form
+PASS GET /HRPayroll/attendance?staffId=6: HTTP 200
+PASS Create attendance through real form
+PASS GET /HRPayroll/attendance?staffId=6: HTTP 200
+PASS Attendance edit accepts original version
+PASS Stale attendance shows actionable error without overwrite
+PASS GET /HRPayroll/leave?staffId=6: HTTP 200
+PASS Create pending leave through form
+PASS GET /HRPayroll/leave?staffId=6: HTTP 200
+PASS Same requester cannot approve leave
+PASS GET /HRPayroll/leave?staffId=6: HTTP 200
+PASS Different reviewer approves requested paid leave
+PASS GET /HRPayroll/policies: HTTP 200
+PASS Propose explicit payroll policy through real form
+PASS GET /HRPayroll/policies: HTTP 200
+PASS Independent policy review through real form
+PASS GET /HRPayroll/calculate: HTTP 200
+PASS Calculate reviewable payroll through real form
+PASS GET /HRPayroll/register/6: HTTP 200
+PASS Exact payroll arithmetic for daily pay leave and overtime: ('150.19', '40.25', '190.44', '9.52', '180.92', '5.71')
+PASS GET /HRPayroll/register/6: HTTP 200
+PASS Calculator cannot approve own payroll
+PASS GET /HRPayroll/register/6: HTTP 200
+PASS Independent payroll approval through real form
+PASS GET /HRPayroll/register/6: HTTP 200
+PASS Post reviewed payroll accrual through real form
+PASS Posted payroll GL balances exactly
+PASS GET /HRPayroll/register/6: HTTP 200
+PASS Repeated posting gives feedback and no duplicate voucher
+PASS GET /HRPayroll/identity/6: HTTP 200
+PASS Protected exact verified account link through form: HTTP 302; []
+PASS GET /HRPayroll/me: HTTP 200
+PASS GET /HRPayroll/me/payslip/6: HTTP 200
+PASS Linked employee sees own posted payslip
+PASS Own payslip route rejects another employee line ID: HTTP 409
+PASS Other company cannot read payroll details: HTTP 409
+PASS Payroll accrual does not create a money transfer
+PASS Posted payroll audit is present exactly once
+PASS GET /HRPayroll/me: HTTP 200
+PASS Employee own-leave form ignores forged staff ID and derives ownership
+PASS GET /HRPayroll/staff: HTTP 200
+PASS Create monthly-contract staff through MVC
+PASS GET /HRPayroll/rates/7: HTTP 200
+PASS Save separate monthly salary through MVC
+PASS GET /HRPayroll/attendance?staffId=7: HTTP 200
+PASS Record explicit monthly paid units 2026-07-30
+PASS GET /HRPayroll/attendance?staffId=7: HTTP 200
+PASS Record explicit monthly paid units 2026-07-31
+PASS GET /HRPayroll/policies: HTTP 200
+PASS Propose Monthly actual-calendar policy through MVC
+PASS GET /HRPayroll/policies: HTTP 200
+PASS Approve monthly formula independently through MVC
+PASS GET /HRPayroll/calculate: HTTP 200
+PASS Calculate monthly payroll through MVC
+PASS Monthly payslip snapshots exact formula denominator salary and paid units: ('Monthly', '3100.0', 'ActualCalendarDays', '31.0', '1.0', '100.0')
+PASS GET /HRPayroll/register/7: HTTP 200
+PASS Approve calculated monthly payroll through MVC
+PASS GET /HRPayroll/register/7: HTTP 200
+PASS Post monthly accrual through MVC
+PASS GET /HRPayroll/staff: HTTP 200
+PASS Create mixed Daily staff through MVC
+PASS GET /HRPayroll/rates/8: HTTP 200
+PASS Save effective Daily contract through MVC
+PASS GET /HRPayroll/attendance?staffId=8: HTTP 200
+PASS Save mixed Daily attendance through MVC
+PASS GET /HRPayroll/staff: HTTP 200
+PASS Create mixed Monthly staff through MVC
+PASS GET /HRPayroll/rates/9: HTTP 200
+PASS Save effective Monthly contract through MVC
+PASS GET /HRPayroll/attendance?staffId=9: HTTP 200
+PASS Save mixed Monthly attendance through MVC
+PASS GET /HRPayroll/policies: HTTP 200
+PASS Propose explicit Mixed policy through MVC
+PASS GET /HRPayroll/policies: HTTP 200
+PASS Approve Mixed policy independently through MVC
+PASS GET /HRPayroll/calculate: HTTP 200
+PASS Calculate both contractual bases in one run through MVC
+PASS Mixed run retains own basis amount and effective compensation snapshot: [('Daily', '100.0', 1, '2026-06-01', 8), ('Monthly', '103.33', 1, '2026-06-01', 9)]
+PASS Mixed run contains each employee once
+PASS GET /HRPayroll/register/8: HTTP 200
+PASS Approve mixed payroll independently through MVC
+PASS GET /HRPayroll/register/8: HTTP 200
+PASS Post mixed contractual payroll once through MVC
+PASS Mixed accrual balances both exact line totals
+PASS GET /HRPayroll/rates/8: HTTP 200
+PASS Posted month rejects retroactive contractual rewrite with usable error

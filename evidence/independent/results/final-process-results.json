@@ -1,0 +1,30 @@
+[
+  {
+    "job": "final-tests",
+    "exit_code": 0
+  },
+  {
+    "job": "http-hr",
+    "exit_code": 0
+  },
+  {
+    "job": "http-crm",
+    "exit_code": 0
+  },
+  {
+    "job": "http-assets",
+    "exit_code": 0
+  },
+  {
+    "job": "http-policy",
+    "exit_code": 0
+  },
+  {
+    "job": "http-ecommerce",
+    "exit_code": 0
+  },
+  {
+    "job": "http-core",
+    "exit_code": 0
+  }
+]

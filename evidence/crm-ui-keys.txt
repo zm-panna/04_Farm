@@ -1,0 +1,169 @@
+. Select that customer to continue.
+25 records per page
+A new customer uses the recipient snapshot shown above. Choosing an existing customer preserves that customer's current contact details. Consent stays with the lead; no marketing permission is transferred.
+Acceptance evidence
+Acceptance records your review of customer acceptance, links or creates a customer, marks the opportunity won, and creates an internal sales-ready handoff. It sends no quote, email or message; reserves no stock; and creates no sale, invoice, tax posting or general-ledger entry. All amounts are net estimates; tax is not calculated here. Review currency, tax, stock and pricing separately before posting Sales.
+Accepted
+Accepted quote handoff
+Active
+Activities
+Activity reference
+Activity title
+Activity type
+Address
+All
+All activities for this lead
+All opportunities for this lead
+All quotes for this lead
+Approve internal quote snapshot
+Archive lead
+Archived
+Business policies
+Business policy version
+CRM
+CRM pagination
+CRM records internal work only. No emails, messages, stock reservations, sales invoices or ledger postings are created automatically.
+CRM sections
+Call
+Cancel
+Cancel quote
+Cancelled
+Clear filters
+Close activity
+Close as
+Completion / cancellation note
+Completion record
+Consent changes are retained with actor, time and evidence. No permission to send is inferred from Unknown.
+Consent history
+Consent source, purpose and date evidence
+Consent state
+Contact details
+Contact name
+Converted
+Create a new customer using a new code below
+Customer ID
+Date / consent
+Details
+Discount
+Discount line
+Done
+Draft
+Due date
+Edit activity
+Edit lead
+Edit opportunity
+Edit quote draft
+Email
+Evidence of customer acceptance and reviewed terms
+Existing customer
+Expected close date
+Find customers
+Find existing customer by code or name
+Granted
+Gross
+I reviewed any consent change and its evidence.
+I reviewed the accepted snapshot, customer link and internal-only conversion. Other open quotes for this opportunity will be cancelled.
+I reviewed the recipient, dates, currency, units, pricing and net-only scope.
+I reviewed this archive or restore action. History is retained.
+I reviewed this lead and the opportunity details.
+I reviewed this transition. Lost cancels all open quote drafts and reviews.
+Internal notes
+Internal quote terms
+Internal sales-ready handoff
+Latest activities
+Latest opportunities
+Latest quotes
+Lead / business name
+Lead only
+Lead source
+Leads
+Leave unused rows entirely blank or zero. Save and edit the draft to add five more rows, up to 50 lines. Discounts are explicit line amounts.
+Line
+Line discount
+Linked customer ID
+Linked lead
+Linked opportunity
+Lost
+Manage scoped leads, reviewed opportunities, due activities and net-only quote handoffs.
+Marketing consent
+Meeting
+Negotiation
+Net
+Net estimate only. Tax is not calculated or assumed to be zero. This is not a tax invoice, stock reservation or sales posting.
+New activity
+New customer code, only when creating a customer
+New lead
+New quote draft
+Next
+Next stage
+No records match these filters in the active branch.
+Open
+Opportunities
+Opportunity reference
+Opportunity title
+Overdue
+Page
+Phone
+Policy ID
+Previous
+Product / stock unit
+Product line
+Product snapshot
+Proposal
+Qualification / review note
+Qualified
+Qualify opportunity
+Quantity
+Quantity line
+Quote date
+Quote lines
+Quote reference
+Quote review
+Quote review note
+Quotes
+Recipient snapshot
+Record acceptance and create internal handoff
+Record quote review
+Reference
+Restore lead
+Return to draft and invalidate review
+Review action
+Review customer conversion
+Review record
+Reviewed
+Sales
+Sales-ready handoffs
+Save activity
+Save lead
+Save net quote draft
+Save reviewed opportunity
+Save stage
+Saving a draft refreshes its recipient and product snapshots. Reviewed quotes must return to draft before editing.
+Search
+Search references or names
+Showing the latest 10; use the list to search all records.
+Showing up to 25 matching customers, plus any linked or selected customer.
+Stage review note
+Status
+Status / amount
+Suppliers &amp; Customers
+Task
+This historical handoff is immutable. It is not proof that a sale has been posted or fulfilled. Review the core Sales workflow separately; there is no automatic sales posting or tax configuration in CRM.
+This is an internal activity log. No communication was sent by CRM.
+This lead is already linked to customer ID
+This records an internal task. It does not place a call, send a message, create an invitation or override marketing consent.
+Unique internal handoff reference
+Unique lead reference
+Unit price
+Unit price line
+Unknown
+Unknown is the default. Consent is recorded for marketing only; no outreach is sent by this module. Contact changes require fresh consent evidence or Unknown.
+Unused row
+Valid until
+Withdrawn
+Won
+Won is recorded only through reviewed quote acceptance. Closed opportunities cannot be reopened or silently changed.
+currency decimal places from reviewed company policy
+net only
+net-only estimate
+records

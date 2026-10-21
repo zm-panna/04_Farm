@@ -1,0 +1,7 @@
+@model EnterpriseERP.Web.Controllers.BoundedRegisterPager
+<form method="get" action="@Model.Action" class="search-bar"><label><span data-i18n="Search">Search</span> <input name="search" value="@Model.Page.Search" maxlength="80" /></label><button type="submit" data-i18n="Search">Search</button></form>
+<nav aria-label="Pagination" data-i18n-aria-label="Pagination">
+@if(Model.Page.HasPrevious){<a href="@(Model.Action + "?page=" + (Model.Page.PageNumber-1) + "&search=" + Uri.EscapeDataString(Model.Page.Search))" data-i18n="Previous">Previous</a>}
+<span>@Model.Page.PageNumber / @Model.Page.TotalPages · @Model.Page.TotalCount</span>
+@if(Model.Page.HasNext){<a href="@(Model.Action + "?page=" + (Model.Page.PageNumber+1) + "&search=" + Uri.EscapeDataString(Model.Page.Search))" data-i18n="Next">Next</a>}
+</nav>

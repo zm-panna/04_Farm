@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "production_approved": false,
+  "sql_server_executed": false,
+  "windows_iis_executed": false,
+  "dll_sha256": "ba414c8111d31d46de49c68f6f256f0b214b90d4d79df20fdec2e2be25459747",
+  "generated_utc": "2026-10-19T18:02:11.549700+00:00",
+  "checks": [
+    {
+      "check": "attached-value",
+      "passed": true,
+      "exit_code": 4,
+      "created_files": [],
+      "stdout": "",
+      "stderr": "Use only --verify-staging-readonly followed by one new absolute private .json output path. All settings must be provided through the local process environment.\n"
+    },
+    {
+      "check": "mixed-command",
+      "passed": true,
+      "exit_code": 4,
+      "created_files": [],
+      "stdout": "",
+      "stderr": "Use only --verify-staging-readonly followed by one new absolute private .json output path. All settings must be provided through the local process environment.\n"
+    },
+    {
+      "check": "missing-environment",
+      "passed": true,
+      "exit_code": 4,
+      "created_files": [],
+      "stdout": "",
+      "stderr": "Read-only preflight configuration rejected. Check the operator guide, runtime identity, secure SQL settings and new private output path. No connection was attempted; details are suppressed.\n"
+    }
+  ]
+}

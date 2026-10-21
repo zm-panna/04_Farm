@@ -1,0 +1,77 @@
+{
+  "Acceptance records your review of customer acceptance, links or creates a customer, marks the opportunity won, and creates an internal sales-ready handoff. It sends no quote, email or message; reserves no stock; and creates no sale, invoice, tax posting or general-ledger entry. All amounts are net estimates; tax is not calculated here. Review currency, tax, stock and pricing separately before posting Sales.": {
+    "bn": "গ্রহণে গ্রাহকের গ্রহণযোগ্যতার আপনার পর্যালোচনা নথিভুক্ত হয়, গ্রাহক সংযুক্ত বা তৈরি হয়, সুযোগ জয়ী হিসেবে চিহ্নিত হয় এবং অভ্যন্তরীণ বিক্রয়-প্রস্তুত হস্তান্তর হয়। এতে মূল্যপ্রস্তাব, ইমেইল বা বার্তা পাঠানো হয় না; মজুত সংরক্ষণ হয় না; বিক্রয়, চালান, কর পোস্ট বা সাধারণ খতিয়ানের এন্ট্রি হয় না। সব পরিমাণ নিট প্রাক্কলন; এখানে কর হিসাব হয় না। Sales পোস্টের আগে মুদ্রা, কর, মজুত ও মূল্য আলাদাভাবে পর্যালোচনা করুন।",
+    "banglish": "Acceptance-e customer acceptance-er apnar review record hoy,customer link/create hoy,opportunity Won hoy o internal sales-ready handoff hoy. Quote,email,message pathay na; stock reserve kore na; sale,invoice,taxposting ba GLentry kore na. Shob amount net estimate; ekhane tax calculate hoy na. Sales post-er age currency,tax,stock,pricing alada review korun.",
+    "ar": "يسجل القبول مراجعتك لقبول العميل، ويربط عميلاً أو ينشئه، ويحدد الفرصة كرابحة، وينشئ تسليماً داخلياً جاهزاً للبيع. ولا يرسل عرض سعر أو بريداً أو رسالة، ولا يحجز مخزوناً، ولا ينشئ بيعاً أو فاتورة أو ترحيلاً ضريبياً أو قيداً في الأستاذ العام. جميع المبالغ تقديرات صافية؛ لا تُحسب الضريبة هنا. راجع العملة والضريبة والمخزون والتسعير منفصلة قبل ترحيل المبيعات."
+  },
+  "Accepted": {
+    "bn": "গৃহীত",
+    "banglish": "Grihito",
+    "ar": "مقبول"
+  },
+  "Archive lead": {
+    "bn": "লিড আর্কাইভ করুন",
+    "banglish": "Lead archive korun",
+    "ar": "أرشفة العميل المحتمل"
+  },
+  "Archived": {
+    "bn": "আর্কাইভ করা",
+    "banglish": "Archived",
+    "ar": "مؤرشف"
+  },
+  "Converted": {
+    "bn": "রূপান্তরিত",
+    "banglish": "Rupantorito",
+    "ar": "محوّل"
+  },
+  "Disposed": {
+    "bn": "নিষ্পত্তিকৃত",
+    "banglish": "Nishpottikrito",
+    "ar": "مستبعد"
+  },
+  "Fulfilled": {
+    "bn": "সরবরাহকৃত",
+    "banglish": "Shorborahkrito",
+    "ar": "منفذ"
+  },
+  "Posted": {
+    "bn": "পোস্ট করা",
+    "banglish": "Posted",
+    "ar": "مرحّل"
+  },
+  "Qualified": {
+    "bn": "যোগ্য বিবেচিত",
+    "banglish": "Joggo bibechito",
+    "ar": "مؤهل"
+  },
+  "Restore lead": {
+    "bn": "লিড পুনরুদ্ধার করুন",
+    "banglish": "Lead restore korun",
+    "ar": "استعادة العميل المحتمل"
+  },
+  "Reviewed": {
+    "bn": "পর্যালোচিত",
+    "banglish": "Porjalochito",
+    "ar": "مُراجع"
+  },
+  "Submitted": {
+    "bn": "জমা দেওয়া",
+    "banglish": "Joma deya",
+    "ar": "مقدم"
+  },
+  "Unpaid": {
+    "bn": "অপরিশোধিত",
+    "banglish": "Oporishodhito",
+    "ar": "غير مدفوع"
+  },
+  "Unpublished": {
+    "bn": "অপ্রকাশিত",
+    "banglish": "Oprokashito",
+    "ar": "غير منشور"
+  },
+  "Won": {
+    "bn": "জয়ী",
+    "banglish": "Joyi",
+    "ar": "رابحة"
+  }
+}

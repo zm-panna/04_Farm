@@ -1,0 +1,389 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-19T05:14:33.739606+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fictional minimum rows: FixedAssets",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fictional minimum rows: FixedAssetCustodies",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fictional minimum rows: FixedAssetDepreciationRuns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fictional minimum rows: FixedAssetDepreciationLines",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Fictional minimum rows: FixedAssetDisposals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/new",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /fixed-assets",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Cancel navigation from acquisition form does not write",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Missing CSRF token blocks acquisition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Real model binding creates acquisition draft",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "Draft holds reviewed policy snapshot but no journal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "User-entered asset description is HTML encoded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Acquisition maker cannot approve own policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Different identity approves acquisition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Stale original acquisition token conflicts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Approved acquisition posts once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Acquisition journal has equal debit and credit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Repeated acquisition submit cannot duplicate journal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6/edit",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /fixed-assets/6/edit",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Nonfinancial edit posts successfully",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stale metadata form preserves original token and rejects overwrite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6/custody",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Custody model binds and appends history",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/depreciation/new",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Monthly preview saves through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Monthly charge matches explicit policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/depreciation/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Monthly preview is independently approved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/depreciation/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Monthly posting updates exact asset balance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Repeated monthly submit cannot duplicate asset period",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6/dispose",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Disposal preview binds current asset token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Disposal preview has exact book value and gain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other company cannot read /fixed-assets/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other company cannot read /fixed-assets/depreciation/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other company cannot read /fixed-assets/disposals/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/new",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Other company cannot mutate disposal even with own CSRF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/disposals/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Different user approves disposal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/disposals/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Disposal posts and derecognizes once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Disposal balanced receivable and gain journal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Repeated disposal cannot post twice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets?q=HTTP-ASSET&status=Disposed&page=1",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /fixed-assets/new",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Second acquisition remains cancellable draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/7",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Explicit cancellation retains history with no journal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cancelled form replay conflicts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "HTTP journey audit retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "537fcf8b97f4040f6895b79578762a7dcf63ae0f4f650d5c67ca953fde2af1ee",
+  "passed": 75,
+  "failed": 0,
+  "completed_utc": "2026-10-19T05:15:10.454952+00:00",
+  "status": "passed"
+}

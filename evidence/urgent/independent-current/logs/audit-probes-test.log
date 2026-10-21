@@ -1,0 +1,6 @@
+2026-10-19T18:07:15Z
+Test run for /workspace/scratch/85a436f01071/farm_urgent/independent-cold-20261019T180128Z/audit-probes/bin/Release/net10.0/AuditProbes.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: /workspace/scratch/85a436f01071/farm_urgent/independent-cold-20261019T180128Z/logs/probe-results/legacy-audit-probes.trx
+
+Passed!  - Failed:     0, Passed:    20, Skipped:     0, Total:    20, Duration: 10 s - AuditProbes.dll (net10.0)

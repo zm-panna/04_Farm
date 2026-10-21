@@ -1,0 +1,3 @@
+@model EnterpriseERP.Web.GridDescriptor
+@{ViewData["Title"]=Model.Title;}
+<p><a href="/data" data-i18n="Data browser">Data browser</a> · <a href="@Model.Home" data-i18n="Open workflow">Open workflow</a></p><partial name="_ServerGrid" model="Model" />

@@ -1,0 +1,295 @@
+{
+  "generated_utc": "2026-10-19T05:22:32.007549+00:00",
+  "product": "Smart Farm AI ERP .NET 10",
+  "source_status": "VERIFIED_ENTERPRISE_SOURCE_CANDIDATE",
+  "release_decision": "BLOCKED_PENDING_EXTERNAL_ACCEPTANCE_AND_APPROVED_JURISDICTION_POLICIES",
+  "production_approved": false,
+  "all_inherited_requirements_complete": false,
+  "environment": {
+    "os": "Debian GNU/Linux 13",
+    "sdk": "10.0.402",
+    "runtime": "10.0.13",
+    "database_executed": "SQLite isolated Development fixtures only",
+    "dotnet_project": "EnterpriseERP.slnx"
+  },
+  "artifacts": {
+    "runtime_source_file_count": 383,
+    "runtime_source_manifest_sha256": "b99b17a5ceb7c0e5cdd0de100d85b6b710fb855ec9c7778861958336fe349347",
+    "runtime_source_manifest": "evidence/SOURCE_RUNTIME_SHA256.txt",
+    "web_dll_sha256": "bda440849ed009b278ec65eea77c3039c12aac2fc772c9a45fe34a817c42b083",
+    "published_web_dll_sha256": "bda440849ed009b278ec65eea77c3039c12aac2fc772c9a45fe34a817c42b083",
+    "test_dll_sha256": "e6b1a77ce6176661d007df59ce74e0a48aaec8e81fd52e24a50d4ef7dc73b379",
+    "schema_sql_sha256": "703bf18152f7348d5b46a37e8dfe3b8ba6c89c3e348efcc4324e8db3be40e6f0",
+    "synthetic_demo_data_sha256": "5afa77b3adc3a1d21b7471ff67b3481bf726212af87994659e2243defa534e27",
+    "preserved_core_revision2_archive_sha256": "51a10a42cf6d79940e2437c7b2854d57c8af534cc9370f9ad33f5e98acf9c031"
+  },
+  "verified": {
+    "restore": {
+      "status": "PASS",
+      "evidence": "evidence/restore.log"
+    },
+    "release_build": {
+      "status": "PASS",
+      "warnings": 0,
+      "errors": 0,
+      "evidence": "evidence/build.log"
+    },
+    "dotnet_tests": {
+      "passed": 650,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "evidence/test-results/tests.trx"
+    },
+    "http_integration": {
+      "passed": 855,
+      "failed": 0,
+      "browser_executed": false,
+      "sql_server_executed": false,
+      "suites": [
+        {
+          "suite": "http",
+          "passed": 407,
+          "failed": 0,
+          "evidence": "evidence/http/results.json"
+        },
+        {
+          "suite": "http-enterprise-hr",
+          "passed": 117,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-hr/results.json"
+        },
+        {
+          "suite": "http-enterprise-crm",
+          "passed": 77,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-crm/results.json"
+        },
+        {
+          "suite": "http-enterprise-assets",
+          "passed": 75,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-assets/results.json"
+        },
+        {
+          "suite": "http-enterprise-policy",
+          "passed": 86,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-policy/results.json"
+        },
+        {
+          "suite": "http-enterprise-ecommerce",
+          "passed": 93,
+          "failed": 0,
+          "evidence": "evidence/http-enterprise-ecommerce/results.json"
+        }
+      ],
+      "core_final_balanced_vouchers": 688,
+      "core_final_reconciled_stock_items": 14
+    },
+    "javascript_adapters": {
+      "localization": 31,
+      "support_pager": 8,
+      "navigation_and_script_security": 5,
+      "total_passed": 44,
+      "real_browser_executed": false,
+      "evidence": [
+        "evidence/localization-tests.log",
+        "evidence/support-ui-tests.log",
+        "evidence/browser-security-tests.log"
+      ]
+    },
+    "languages": {
+      "available": [
+        "en",
+        "bn",
+        "banglish",
+        "ar"
+      ],
+      "explicit_static_elements": 1873,
+      "dictionary_keys": 2034,
+      "arabic_rtl": true,
+      "all_dynamic_strings_translated": false,
+      "native_speaker_acceptance": false,
+      "verified_dynamic_scope": [
+        "finite lifecycle states",
+        "structured stock/document/payment/invoice/proposal options",
+        "known application validation",
+        "support transitions",
+        "dairy sessions",
+        "operational paging and system notifications",
+        "explicit missing-party fallback provenance",
+        "finite enterprise payroll/asset/tax states",
+        "structured ecommerce tax-policy options",
+        "known exact enterprise validation messages",
+        "permission-scoped structured AI checklists"
+      ],
+      "unchanged_content": [
+        "user-entered names, notes and references",
+        "technical codes and numerical values",
+        "unknown infrastructure/provider errors"
+      ],
+      "enterprise_source_review": "evidence/enterprise-untranslated-ui-review.json",
+      "enterprise_views_reviewed": 45,
+      "enterprise_literal_and_allowlisted_keys_covered": 698
+    },
+    "report_export": {
+      "formats": [
+        "CSV",
+        "XLSX",
+        "PDF"
+      ],
+      "languages": [
+        "en",
+        "bn",
+        "banglish",
+        "ar"
+      ],
+      "pdf_fonts_embedded": [
+        "Noto Sans Bengali",
+        "Noto Sans Arabic"
+      ],
+      "arabic_pdf_and_excel_rtl": true,
+      "numeric_cells_preserved": true,
+      "pdf_raster_review": "evidence/report-render/REVIEW.md",
+      "pdf_review_scope": "Four current simple synthetic Farm Summary pages only; no browser/native-speaker acceptance."
+    },
+    "model_migration_match": {
+      "status": "PASS",
+      "migrations": [
+        "20261019030204_InitialFarmRelease",
+        "20261019032129_CompleteCoreIntegrity",
+        "20261019050306_CompleteEnterpriseModules"
+      ],
+      "evidence": "evidence/model-check.log"
+    },
+    "sql_generation": {
+      "status": "PASS",
+      "idempotent_schema": "sql/01-SCHEMA_REVIEW.sql",
+      "synthetic_data": "sql/02-DEMO_DATA.sql",
+      "execution_on_sql_server": false,
+      "demo_export_evidence": "evidence/demo-sql-export.json"
+    },
+    "publish": {
+      "status": "PASS",
+      "evidence": "evidence/publish.log",
+      "host_deployment_executed": false
+    },
+    "dependency_advisory_audit": {
+      "status": "NO_KNOWN_VULNERABILITIES_REPORTED_BY_CONFIGURED_SOURCES",
+      "includes_transitive": true,
+      "evidence": "evidence/dependency-audit-final.json",
+      "not_a_security_guarantee": true,
+      "summary": "evidence/dependency-audit.txt",
+      "projects": 32
+    },
+    "clean_extracted_source": {
+      "generated_utc": "2026-10-19T05:22:32.000060+00:00",
+      "source_inputs_checked": 383,
+      "source_input_manifest_matches": true,
+      "runtime_manifest_sha256": "b99b17a5ceb7c0e5cdd0de100d85b6b710fb855ec9c7778861958336fe349347",
+      "cold_restore_and_build": true,
+      "binary_reused_from_authoring_tree": false,
+      "build_warnings": 0,
+      "build_errors": 0,
+      "dotnet_tests_passed": 650,
+      "dotnet_tests_failed": 0,
+      "dotnet_tests_skipped": 0,
+      "javascript_checks_passed": 44,
+      "web_dll_sha256": "ab817f121d65beba0bde07367a44662fd9724f48e1cfbf230993e64bbc6e1fc5",
+      "input_archive_sha256": "b9531f9bc49758a35bbafa744fe5f39cbb0842092151da150f88f5b179e789cc",
+      "evidence": "evidence/clean-package-verification.json",
+      "production_approved": false
+    },
+    "independent_cold_build_review": {
+      "passed": 670,
+      "release_tests": 650,
+      "additional_independent_probes": 20,
+      "failed": 0,
+      "skipped": 0,
+      "build_warnings": 0,
+      "build_errors": 0,
+      "http_passed": 855,
+      "javascript_passed": 44,
+      "open_source_findings": 0,
+      "evidence": "evidence/independent/results/final-independent-all.trx",
+      "review": "evidence/independent/FINAL_REVIEW.md",
+      "machine_evidence": "evidence/independent/results/SUMMARY.json",
+      "runtime_inputs_match": 383,
+      "final_config_ecommerce_repeat_passed": 93,
+      "repeat_not_counted_twice": true
+    },
+    "synthetic_enterprise_demo": {
+      "table_count": 87,
+      "total_rows": 1204,
+      "companies": 5,
+      "synthetic_identity_users": 10,
+      "balanced_vouchers": 100,
+      "stock_items_reconciled": 10,
+      "sqlite_integrity": "ok",
+      "foreign_key_violations": 0,
+      "fictional_policy_values_and_reviews": true,
+      "applicable_tables_minimum_rows": 5,
+      "documented_empty_table_exceptions": 9,
+      "evidence": "evidence/demo-sql-export.json",
+      "manifest": "docs/DEMO_SEED_MANIFEST.md"
+    }
+  },
+  "demo_credentials": {
+    "known_or_default_password_shipped": false,
+    "synthetic_identity_password_hashes_in_sql": true,
+    "sample_initialization_password_discarded": true,
+    "regenerate_usable_logins": "scripts/EXPORT_DEMO_SQL.ps1",
+    "private_handling_required": true
+  },
+  "not_verified": [
+    {
+      "gate": "SQL Server migration/data import, provider-specific constraints, concurrency and rollback",
+      "reason": "The user confirmed separate staging exists; no connected authorized SQL Server target was supplied."
+    },
+    {
+      "gate": "Windows PC and IIS, HTTPS certificates, identities, persistent keys and deployment restart",
+      "reason": "No connected authorized Windows target/access was supplied; both deployment paths are documented, not executed."
+    },
+    {
+      "gate": "Real browser/mobile rendering and interactive acceptance",
+      "reason": "Not executed in this engineering verification. Real HTTP, compiled Razor tests, PDF raster review and deterministic DOM adapters are separately labelled."
+    },
+    {
+      "gate": "PowerShell script execution and Windows private folder ACLs",
+      "reason": "Scripts reviewed but not executed in the Linux environment."
+    },
+    {
+      "gate": "Actual country/state legal, payroll, tax and accounting policy acceptance",
+      "reason": "Bangladesh, USA and Arab jurisdictions requested; exact Arab countries and US state/locality remain unspecified. Configurable arithmetic is not a statutory rules engine or compliance certificate."
+    },
+    {
+      "gate": "Live AI, payment or messaging provider",
+      "reason": "No approved configured provider or real transaction/dispatch was supplied. Payroll posts accruals; Ecommerce payments stay unverified."
+    },
+    {
+      "gate": "Customer/native-speaker/accountant UAT, backup restore, monitoring and load capacity",
+      "reason": "Requires authorized customer environment, approved business policies and actual acceptance evidence."
+    }
+  ],
+  "unresolved_scope": [
+    "Unconfirmed Hotel and LC/Import-Export inclusion",
+    "Warehouse/bin/lot/expiry and unit conversion beyond branch transfers",
+    "Named Arab countries and US state/locality, approved statutory/payroll/tax rules and invoice requirements",
+    "Existing customer ledger/data conversion",
+    "External provider and organization MFA rollout policy"
+  ],
+  "requirements_matrix": "docs/REQUIREMENT_MATRIX.md",
+  "deployment_runbook": "docs/LIVE_DEPLOYMENT_RUNBOOK_BN.md",
+  "uat_checklist": "docs/LIVE_UAT_CHECKLIST_BN.md",
+  "revision": "ENTERPRISE_REVISION3",
+  "change_notes": "docs/ENTERPRISE_REVISION_CHANGES.md",
+  "confirmed_first_live_modules": [
+    "HR/Payroll",
+    "CRM",
+    "Fixed Assets",
+    "E-commerce"
+  ],
+  "confirmed_module_workflows_implemented_with_documented_limits": true,
+  "policy_and_windows_guide": "docs/ENTERPRISE_POLICY_AND_WINDOWS_GUIDE_BN.md",
+  "verification_commands": "docs/ENTERPRISE_VERIFICATION_COMMANDS.md"
+}

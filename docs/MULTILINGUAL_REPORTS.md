@@ -1,0 +1,7 @@
+# English, বাংলা, العربية and Banglish exports
+
+CSV, summary PDF and trial-balance XLSX accept `?lang=en`, `?lang=bn`, `?lang=ar` or `?lang=banglish`. With no explicit language, the UI's `farmsphere-language` cookie controls labels; invalid cookie values fall back to English, while invalid explicit language is rejected. Permissions and company/branch selection are unchanged. Account codes and numerical values remain machine-readable, with invariant decimal values.
+
+PDF embeds the bundled unmodified Noto Sans Bengali and Noto Sans Arabic Regular/Bold fonts, so the server does not depend on an installed Bengali/Arabic font or an external font service. The SIL Open Font License and attribution are included at `EnterpriseERP.Web/Assets/Fonts/LICENSE-NOTO.txt`. Arabic PDF and XLSX use right-to-left layout. The PDF supports Bengali and Arabic glyph shaping through QuestPDF's text engine; customer/native-speaker wording and printed-output acceptance still require UAT. XLSX requests the corresponding Noto font on the recipient machine; font substitution in Excel is controlled by that machine. CSV is UTF-8 with BOM.
+
+Production PDF requires `Reporting:QuestPdfLicense` set after the organization reviews its QuestPDF eligibility; development default does not grant a commercial license. Official references: [QuestPDF font registration](https://www.questpdf.com/api-reference/text/font-management.html), [Noto Bengali source/license](https://github.com/notofonts/bengali), [QuestPDF licensing](https://www.questpdf.com/license/guide.html).

@@ -1,0 +1,4 @@
+@model IReadOnlyList<EnterpriseERP.Web.GridDescriptor>
+@{ViewData["Title"]="Data browser";}
+<h1 data-i18n="Data browser">Data browser</h1><p data-i18n="Only records allowed by your current company, branch and permissions are shown.">Only records allowed by your current company, branch and permissions are shown.</p>
+<div class="grid-catalog">@foreach(var item in Model){<a class="panel" href="/data/@item.Key"><span data-i18n="@item.Title">@item.Title</span></a>}</div>

@@ -1,0 +1,8 @@
+@model List<EnterpriseERP.Domain.StockMovement>
+@{ViewData["Title"]="Stock Movement Ledger";int page=ViewBag.Page??1;int total=ViewBag.Total??0;int? product=ViewBag.ProductId;}
+<section class="farm-workspace"><h1 data-i18n="Stock Movement Ledger">Stock Movement Ledger</h1><p data-i18n="Stock Movement Ledger">Stock Movement Ledger</p>
+<form method="get" action="/stock-ledger"><label for="productId" data-i18n="Product ID">Product ID</label><input id="productId" type="number" min="1" name="productId" value="@product"/><button type="submit" data-i18n="Filter">Filter</button></form>
+<div class="farm-table"><table><thead><tr><th data-i18n="Date (UTC)">Date (UTC)</th><th data-i18n="Product ID">Product ID</th><th data-i18n="Reference">Reference</th><th data-i18n="Quantity Δ">Quantity Δ</th></tr></thead><tbody>
+@foreach(var item in Model){<tr><td>@item.CreatedUtc.ToString("yyyy-MM-dd HH:mm")</td><td>@item.StockItemId</td><td>@item.Reference</td><td>@item.QuantityDelta.ToString("N3")</td></tr>}
+@if(Model.Count==0){<tr><td colspan="4"><span data-i18n="No movements found">No movements found</span></td></tr>}
+</tbody></table></div><nav>@if(page>1){<a href="/stock-ledger?page=@(page-1)&productId=@product" data-i18n="Previous">Previous</a>} Page @(page) of @Math.Max(1,(total+24)/25) @if(page*25<total){<a href="/stock-ledger?page=@(page+1)&productId=@product" data-i18n="Next">Next</a>}</nav></section>

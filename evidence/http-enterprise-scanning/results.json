@@ -1,0 +1,623 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-20T09:49:39.550978+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /scan",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /scan",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /scan",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /scan",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Scanner route enables only same-origin camera and narrow WASM capability",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Inventory",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Ordinary routes retain disabled camera and no WASM evaluation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Scanner contains explicit review and no auto camera start",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Anonymous scanner API rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Resolve without anti-forgery is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact Product label SKU",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact Animal label Internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact Product label Internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Product scan resolves exact authorized target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Product preview contains no unit cost or payroll data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Context mismatch fails without exposing animal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Foreign company label cannot resolve",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Arbitrary URL is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-company target cannot receive a label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact Product label UPCA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "UPC-A scanner EAN representation resolves configured barcode",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Equivalent barcode resolves same label",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Equivalent duplicate barcode cannot be assigned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Invalid checksum is rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Scoped bounded label list",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Label page bounded at twenty",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Negative pagination rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other branch search cannot infer exact source target",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Scope applied before target count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /scan/labels/28/print",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Printable label omits target name and cost",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authorized qr image is self-contained SVG",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Authorized code128 image is self-contained SVG",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual WASM decodes both actual server-generated print labels",
+      "passed": true,
+      "detail": "PASS actual generated qr label round-trip\nPASS actual generated code128 label round-trip"
+    },
+    {
+      "check": "Foreign printable label denied",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Resolve and label management never post stock money or animal records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare AdjustStock draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Draft itself retains original quantity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "False explicit confirmation rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirmation missing CSRF rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Same-company other user cannot inspect draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Same-company other user cannot confirm draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Other branch cannot inspect draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm AdjustStock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm AdjustStock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirmation replay is the same persisted outcome",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare AdjustStock draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cancel a pending draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cancelled draft cannot post",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare AdjustStock draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare AdjustStock draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm AdjustStock",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Changed source rejects stale draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare AdjustStock draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Explicit label revocation succeeds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Revoked primary label cannot commit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare Weight draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm Weight",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Weight recorded by existing service exactly once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare Health draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm Health",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Operator entered health observation persisted without clinical automation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare Feed draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm Feed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Feed stock expense uses existing service",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact Product label Internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Destination label preview requires explicit authorized branch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare Transfer draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm Transfer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Transfer persisted once with both branches",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Purchase",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Existing purchase workflow creates order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Existing purchase workflow approves order",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact PurchaseOrder label Internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare ReceiveOrder draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm ReceiveOrder",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Receiving creates exact existing purchase receipt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact Document label Internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Accounting document scan is read-only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Document preview offers no posting action",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/new",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Existing acquisition form creates new asset for custody test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Independent acquisition review succeeds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /fixed-assets/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Existing acquisition service posts asset",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create exact Asset label Internal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Prepare Custody draft",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Confirm Custody",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Custody scan changes custody without new journal",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All resulting journals balance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Own persisted outcomes available after reconnect",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Seven successful operation families are durable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Actual scanner DOM with authenticated live HTTP",
+      "passed": true,
+      "detail": "TML\nPASS Unreviewed checkbox blocks confirmation request\nPASS Cancel persists cancellation without any confirmation call\nPASS Reloaded history exposes durable own cancelled outcome\nPASS All four active scanner languages update including Arabic RTL\nPASS Synthetic decoded frame stops camera and invokes preview only\nPASS No camera frame upload or image-storage endpoint is called\nPASS Actual scanner resources initialize without DOM script errors\nScanner DOM checks passed: 10; synthetic camera only.\n"
+    },
+    {
+      "check": "Per-user scanner endpoint limiter rejects floods",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in printed-label-decode.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in scanner-dom.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "passed": 121,
+  "failed": 0,
+  "scanner_dom_executed": true,
+  "physical_camera_executed": false,
+  "actual_local_wasm_print_decode": true,
+  "completed_utc": "2026-10-20T09:50:16.150179+00:00",
+  "status": "passed"
+}

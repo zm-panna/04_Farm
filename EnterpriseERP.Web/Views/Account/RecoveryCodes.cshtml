@@ -1,0 +1,7 @@
+@model IReadOnlyList<string>
+@{ ViewData["Title"] = "Save recovery codes"; }
+<h1 data-i18n="Save your recovery codes">Save your recovery codes</h1>
+<p data-i18n="Store these codes offline in a safe place. Each can replace your authenticator once after entering your password. These codes are shown only in this response; all older codes have been replaced.">Store these codes offline in a safe place. Each can replace your authenticator once after entering your password. These codes are shown only in this response; all older codes have been replaced.</p>
+<ul>@foreach(var code in Model){<li><code>@code</code></li>}</ul>
+<p data-i18n="Do not send these codes to support, put them in tickets, or include them in screenshots. If you leave without saving them, generate a new set using your password and authenticator.">Do not send these codes to support, put them in tickets, or include them in screenshots. If you leave without saving them, generate a new set using your password and authenticator.</p>
+<p><a href="/Account/Security" data-i18n="I have saved my codes">I have saved my codes</a></p>

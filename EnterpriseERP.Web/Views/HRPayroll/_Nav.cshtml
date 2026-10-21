@@ -1,0 +1,5 @@
+<nav aria-label="HR and payroll" data-i18n-aria-label="HR and payroll" class="ticket-pager">
+<a asp-action="Index" data-i18n="Staff">Staff</a><a asp-action="Attendance" data-i18n="Attendance">Attendance</a><a asp-action="Leave" data-i18n="Leave review">Leave review</a><a asp-action="Policies" data-i18n="Payroll policies">Payroll policies</a><a asp-action="Register" data-i18n="Payroll register">Payroll register</a><a asp-action="Me" data-i18n="My payslips and leave">My payslips and leave</a>
+</nav>
+@if(TempData["HRPayrollError"] is string error){<div class="notice" role="alert">@error</div>}
+<div asp-validation-summary="All" class="notice" role="alert"></div>

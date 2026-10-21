@@ -1,0 +1,587 @@
+{
+  "(filtered from _MAX_ records)": {
+    "bn": "(_MAX_টি রেকর্ড থেকে ফিল্টার করা)",
+    "banglish": "(_MAX_ ti record theke filter kora)",
+    "ar": "(تمت التصفية من _MAX_ سجلًا)"
+  },
+  "A nonempty UUID idempotency key is required.": {
+    "bn": "একটি খালি নয় এমন UUID পুনরাবৃত্তি-রোধী কী প্রয়োজন।",
+    "banglish": "Ekti khali noy emon UUID punorabritti-rodhi key proyojon.",
+    "ar": "يلزم مفتاح UUID غير فارغ لمنع تكرار العملية."
+  },
+  "A secure browser connection is required to send messages.": {
+    "bn": "বার্তা পাঠাতে নিরাপদ ব্রাউজার সংযোগ প্রয়োজন।",
+    "banglish": "Barta pathate nirapod browser songjog proyojon.",
+    "ar": "يلزم اتصال متصفح آمن لإرسال الرسائل."
+  },
+  "A valid internal message is required.": {
+    "bn": "একটি বৈধ অভ্যন্তরীণ বার্তা প্রয়োজন।",
+    "banglish": "Ekti boidho obhyontorin barta proyojon.",
+    "ar": "يلزم إدخال رسالة داخلية صالحة."
+  },
+  "Access denied": {
+    "bn": "প্রবেশাধিকার নেই",
+    "banglish": "Probeshadhikar nei",
+    "ar": "تم رفض الوصول"
+  },
+  "Accounting vouchers": {
+    "bn": "হিসাবের ভাউচার",
+    "banglish": "Hisaber voucher",
+    "ar": "السندات المحاسبية"
+  },
+  "Animal weights": {
+    "bn": "প্রাণীর ওজন",
+    "banglish": "Pranir ojon",
+    "ar": "أوزان الحيوانات"
+  },
+  "Animals": {
+    "bn": "প্রাণী",
+    "banglish": "Prani",
+    "ar": "الحيوانات"
+  },
+  "Apply filter": {
+    "bn": "ফিল্টার প্রয়োগ করুন",
+    "banglish": "Filter proyog korun",
+    "ar": "تطبيق التصفية"
+  },
+  "Asset disposals": {
+    "bn": "স্থায়ী সম্পদ নিষ্পত্তি",
+    "banglish": "Sthayi shompod nishpotti",
+    "ar": "استبعاد الأصول"
+  },
+  "Automation approvals": {
+    "bn": "অটোমেশনের অনুমোদন",
+    "banglish": "Automation-er onumodon",
+    "ar": "موافقات الأتمتة"
+  },
+  "Automation jobs": {
+    "bn": "অটোমেশনের কাজ",
+    "banglish": "Automation-er kaj",
+    "ar": "مهام الأتمتة"
+  },
+  "Automation notifications": {
+    "bn": "অটোমেশনের বিজ্ঞপ্তি",
+    "banglish": "Automation-er biggopti",
+    "ar": "إشعارات الأتمتة"
+  },
+  "Automation rules": {
+    "bn": "অটোমেশনের নিয়ম",
+    "banglish": "Automation-er niyom",
+    "ar": "قواعد الأتمتة"
+  },
+  "Breeding cycles": {
+    "bn": "প্রজনন চক্র",
+    "banglish": "Projonon chokro",
+    "ar": "دورات التكاثر"
+  },
+  "CRM activities": {
+    "bn": "CRM কার্যক্রম",
+    "banglish": "CRM karjokrom",
+    "ar": "أنشطة إدارة علاقات العملاء"
+  },
+  "CRM leads": {
+    "bn": "CRM সম্ভাব্য গ্রাহক",
+    "banglish": "CRM shombhabyo grahok",
+    "ar": "العملاء المحتملون"
+  },
+  "CRM opportunities": {
+    "bn": "CRM বিক্রয়ের সুযোগ",
+    "banglish": "CRM bikroyer shujog",
+    "ar": "فرص المبيعات"
+  },
+  "CRM quotes": {
+    "bn": "CRM মূল্যপ্রস্তাব",
+    "banglish": "CRM mullo prostab",
+    "ar": "عروض الأسعار"
+  },
+  "CRM sales-ready handoffs": {
+    "bn": "CRM বিক্রয়ের জন্য প্রস্তুত হস্তান্তর",
+    "banglish": "CRM bikroyer jonno prostut hostantor",
+    "ar": "إحالات جاهزة للمبيعات"
+  },
+  "Choose an available recipient in the current company and branch.": {
+    "bn": "বর্তমান কোম্পানি ও শাখার উপলব্ধ প্রাপক বেছে নিন।",
+    "banglish": "Bortoman company o shakhar upolobdho prapok beche nin.",
+    "ar": "اختر مستلمًا متاحًا ضمن الشركة والفرع الحاليين."
+  },
+  "Close": {
+    "bn": "বন্ধ করুন",
+    "banglish": "Bondho korun",
+    "ar": "إغلاق"
+  },
+  "Company policies": {
+    "bn": "কোম্পানির নীতিমালা",
+    "banglish": "Company-r nitimala",
+    "ar": "سياسات الشركة"
+  },
+  "Company-wide records; selected company access is required.": {
+    "bn": "কোম্পানিজুড়ে প্রযোজ্য রেকর্ড; নির্বাচিত কোম্পানির প্রবেশাধিকার প্রয়োজন।",
+    "banglish": "Company-jure projojjo record; nirbachito company-r probeshadhikar proyojon.",
+    "ar": "سجلات على مستوى الشركة؛ يلزم الوصول إلى الشركة المحددة."
+  },
+  "Concurrent update": {
+    "bn": "একই সময়ে হালনাগাদ",
+    "banglish": "Eki shomoye halnagad",
+    "ar": "تحديث متزامن"
+  },
+  "Customers and suppliers": {
+    "bn": "গ্রাহক ও সরবরাহকারী",
+    "banglish": "Grahok o shorborahokari",
+    "ar": "العملاء والموردون"
+  },
+  "Data browser": {
+    "bn": "তথ্য ব্রাউজার",
+    "banglish": "Tottho browser",
+    "ar": "متصفح البيانات"
+  },
+  "E-commerce catalog management": {
+    "bn": "ই-কমার্স ক্যাটালগ পরিচালনা",
+    "banglish": "E-commerce catalog porichalona",
+    "ar": "إدارة كتالوج التجارة الإلكترونية"
+  },
+  "Each table parameter must have one value.": {
+    "bn": "টেবিলের প্রতিটি প্যারামিটারে একটি মান থাকতে হবে।",
+    "banglish": "Table-er protiti parameter-e ekti man thakte hobe.",
+    "ar": "يجب أن تكون لكل معلمة جدول قيمة واحدة."
+  },
+  "Exact status filter": {
+    "bn": "হুবহু স্ট্যাটাস অনুযায়ী ফিল্টার",
+    "banglish": "Hubohu status onujayi filter",
+    "ar": "تصفية حسب الحالة المطابقة تمامًا"
+  },
+  "Feed records": {
+    "bn": "খাদ্য প্রদানের রেকর্ড",
+    "banglish": "Khaddo prodaner record",
+    "ar": "سجلات التغذية"
+  },
+  "Find a branch colleague": {
+    "bn": "শাখার সহকর্মী খুঁজুন",
+    "banglish": "Shakhar shohokormi khujun",
+    "ar": "البحث عن زميل في الفرع"
+  },
+  "First": {
+    "bn": "প্রথম",
+    "banglish": "Prothom",
+    "ar": "الأول"
+  },
+  "From:": {
+    "bn": "প্রেরক:",
+    "banglish": "Prerok:",
+    "ar": "من:"
+  },
+  "Inbox": {
+    "bn": "ইনবক্স",
+    "banglish": "Inbox",
+    "ar": "الوارد"
+  },
+  "Interactive server tables": {
+    "bn": "ইন্টারঅ্যাকটিভ সার্ভার টেবিল",
+    "banglish": "Interactive server table",
+    "ar": "جداول تفاعلية من الخادم"
+  },
+  "Internal message limit reached. Retry later.": {
+    "bn": "অভ্যন্তরীণ বার্তার সীমা পূর্ণ হয়েছে। পরে চেষ্টা করুন।",
+    "banglish": "Obhyontorin bartar shima purno hoyeche. Pore cheshta korun.",
+    "ar": "تم بلوغ حد الرسائل الداخلية. حاول لاحقًا."
+  },
+  "Internal messages": {
+    "bn": "অভ্যন্তরীণ বার্তা",
+    "banglish": "Obhyontorin barta",
+    "ar": "الرسائل الداخلية"
+  },
+  "Internal messages require JavaScript. Enable it to browse, send and acknowledge messages.": {
+    "bn": "অভ্যন্তরীণ বার্তার জন্য JavaScript প্রয়োজন। বার্তা দেখতে, পাঠাতে ও প্রাপ্তি জানাতে এটি চালু করুন।",
+    "banglish": "Obhyontorin bartar jonno JavaScript proyojon. Barta dekhte, pathate o prapti janate eti chalu korun.",
+    "ar": "تتطلب الرسائل الداخلية JavaScript. فعّله لتصفح الرسائل وإرسالها وتأكيد استلامها."
+  },
+  "Invalid bounded table paging or ordering parameter.": {
+    "bn": "টেবিলের সীমাবদ্ধ পৃষ্ঠা বা সাজানোর প্যারামিটার সঠিক নয়।",
+    "banglish": "Table-er shimaboddho prishtha ba shajanor parameter shothik noy.",
+    "ar": "معلمة تقسيم صفحات الجدول أو ترتيبها غير صالحة أو خارج الحدود."
+  },
+  "Invalid input": {
+    "bn": "ইনপুট সঠিক নয়",
+    "banglish": "Input shothik noy",
+    "ar": "إدخال غير صالح"
+  },
+  "JavaScript is unavailable. Use the existing server-paged workflow below.": {
+    "bn": "JavaScript চালু নেই। নিচের বিদ্যমান সার্ভার-পৃষ্ঠাভিত্তিক কাজের ব্যবস্থা ব্যবহার করুন।",
+    "banglish": "JavaScript chalu nei. Nicher bidyoman server-prishthabhittik kajer byabostha byabohar korun.",
+    "ar": "JavaScript غير متاح. استخدم سير العمل الحالي المقسّم إلى صفحات من الخادم أدناه."
+  },
+  "Last": {
+    "bn": "শেষ",
+    "banglish": "Shesh",
+    "ar": "الأخير"
+  },
+  "Leave requests": {
+    "bn": "ছুটির আবেদন",
+    "banglish": "Chhutir abedon",
+    "ar": "طلبات الإجازة"
+  },
+  "Live hints paused. Your inbox still refreshes automatically.": {
+    "bn": "সরাসরি আপডেট সংকেত স্থগিত। ইনবক্স স্বয়ংক্রিয়ভাবে হালনাগাদ হচ্ছে।",
+    "banglish": "Shorashori update shonket sthogito. Inbox shoyongkriyobhabe halnagad hochhe.",
+    "ar": "إشارات التحديث الفوري متوقفة مؤقتًا. لا يزال الوارد يتحدث تلقائيًا."
+  },
+  "Live inbox connected. Messages are stored securely in your inbox.": {
+    "bn": "লাইভ ইনবক্স সংযুক্ত। বার্তা আপনার ইনবক্সে নিরাপদে সংরক্ষিত থাকে।",
+    "banglish": "Live inbox songjukto. Barta apnar inbox-e nirapode shongrokkhito thake.",
+    "ar": "تم اتصال الوارد المباشر. تُحفظ الرسائل بأمان في صندوق الوارد."
+  },
+  "Live inbox reconnected.": {
+    "bn": "লাইভ ইনবক্স আবার সংযুক্ত হয়েছে।",
+    "banglish": "Live inbox abar songjukto hoyeche.",
+    "ar": "أُعيد اتصال الوارد المباشر."
+  },
+  "Loading records": {
+    "bn": "রেকর্ড লোড হচ্ছে",
+    "banglish": "Record load hochhe",
+    "ar": "جارٍ تحميل السجلات"
+  },
+  "Loading your inbox…": {
+    "bn": "আপনার ইনবক্স লোড হচ্ছে…",
+    "banglish": "Apnar inbox load hochhe…",
+    "ar": "جارٍ تحميل الوارد…"
+  },
+  "Login and select an authorized company and branch.": {
+    "bn": "লগইন করে অনুমোদিত কোম্পানি ও শাখা নির্বাচন করুন।",
+    "banglish": "Login kore onumodito company o shakha nirbachon korun.",
+    "ar": "سجّل الدخول واختر شركة وفرعًا مصرحًا لك بهما."
+  },
+  "Login required.": {
+    "bn": "লগইন প্রয়োজন।",
+    "banglish": "Login proyojon.",
+    "ar": "يلزم تسجيل الدخول."
+  },
+  "Mark as read": {
+    "bn": "পড়া হয়েছে হিসেবে চিহ্নিত করুন",
+    "banglish": "Pora hoyeche hisebe chihnito korun",
+    "ar": "وضع علامة كمقروء"
+  },
+  "Message": {
+    "bn": "বার্তা",
+    "banglish": "Barta",
+    "ar": "رسالة"
+  },
+  "Message folders": {
+    "bn": "বার্তার ফোল্ডার",
+    "banglish": "Bartar folder",
+    "ar": "مجلدات الرسائل"
+  },
+  "Message is required and must be at most 8000 characters without control characters.": {
+    "bn": "বার্তা আবশ্যক; কন্ট্রোল ক্যারেক্টার ছাড়া সর্বোচ্চ ৮০০০ অক্ষর লিখুন।",
+    "banglish": "Barta aboshshok; control character chara shorbochcho 8000 okkhor likhun.",
+    "ar": "الرسالة مطلوبة وبحد أقصى 8000 حرف، دون محارف تحكم."
+  },
+  "Message saved to the recipient's inbox.": {
+    "bn": "প্রাপকের ইনবক্সে বার্তা সংরক্ষিত হয়েছে।",
+    "banglish": "Prapoker inbox-e barta shongrokkhito hoyeche.",
+    "ar": "حُفظت الرسالة في وارد المستلم."
+  },
+  "Messages stay within your selected company and branch.": {
+    "bn": "বার্তা আপনার নির্বাচিত কোম্পানি ও শাখার মধ্যে সীমিত থাকে।",
+    "banglish": "Barta apnar nirbachito company o shakhar moddhe shimito thake.",
+    "ar": "تبقى الرسائل ضمن الشركة والفرع المحددين."
+  },
+  "Messaging session is unavailable.": {
+    "bn": "বার্তার সেশন উপলব্ধ নেই।",
+    "banglish": "Bartar session upolobdho nei.",
+    "ar": "جلسة المراسلة غير متاحة."
+  },
+  "Milk entries": {
+    "bn": "দুধের রেকর্ড",
+    "banglish": "Dudher record",
+    "ar": "سجلات الحليب"
+  },
+  "My payslips": {
+    "bn": "আমার বেতনের স্লিপ",
+    "banglish": "Amar betoner slip",
+    "ar": "قسائم راتبي"
+  },
+  "No available branch colleagues found.": {
+    "bn": "শাখার কোনো উপলব্ধ সহকর্মী পাওয়া যায়নি।",
+    "banglish": "Shakhar kono upolobdho shohokormi paoa jayni.",
+    "ar": "لم يُعثر على زملاء متاحين في الفرع."
+  },
+  "No matching records": {
+    "bn": "মিলযুক্ত রেকর্ড নেই",
+    "banglish": "Miljukto record nei",
+    "ar": "لا توجد سجلات مطابقة"
+  },
+  "No messages in this view.": {
+    "bn": "এই তালিকায় কোনো বার্তা নেই।",
+    "banglish": "Ei talikay kono barta nei.",
+    "ar": "لا توجد رسائل في هذا العرض."
+  },
+  "No records to display": {
+    "bn": "দেখানোর মতো রেকর্ড নেই",
+    "banglish": "Dekhanor moto record nei",
+    "ar": "لا توجد سجلات لعرضها"
+  },
+  "Older messages": {
+    "bn": "আগের বার্তা",
+    "banglish": "Ager barta",
+    "ar": "رسائل أقدم"
+  },
+  "Only one table ordering column is supported.": {
+    "bn": "একবারে একটি কলাম অনুযায়ী টেবিল সাজানো যায়।",
+    "banglish": "Ekbare ekti column onujayi table shajano jay.",
+    "ar": "يُدعم ترتيب الجدول حسب عمود واحد فقط."
+  },
+  "Only records allowed by your current company, branch and permissions are shown.": {
+    "bn": "শুধু বর্তমান কোম্পানি, শাখা ও অনুমতি অনুযায়ী অনুমোদিত রেকর্ড দেখানো হয়।",
+    "banglish": "Shudhu bortoman company, shakha o onumoti onujayi onumodito record dekhano hoy.",
+    "ar": "تُعرض فقط السجلات المسموح بها وفق الشركة والفرع والصلاحيات الحالية."
+  },
+  "Open workflow": {
+    "bn": "কাজের পৃষ্ঠা খুলুন",
+    "banglish": "Kajer prishtha khulun",
+    "ar": "فتح سير العمل"
+  },
+  "Operation unavailable": {
+    "bn": "কাজটি উপলব্ধ নয়",
+    "banglish": "Kajti upolobdho noy",
+    "ar": "العملية غير متاحة"
+  },
+  "Payment records": {
+    "bn": "অর্থপ্রদানের রেকর্ড",
+    "banglish": "Ortho prodaner record",
+    "ar": "سجلات الدفع"
+  },
+  "Posting conflict": {
+    "bn": "হিসাবভুক্তিতে সংঘাত",
+    "banglish": "Hisabbhuktite shongghat",
+    "ar": "تعارض في الترحيل المحاسبي"
+  },
+  "Purchase receipts": {
+    "bn": "ক্রয়ের রসিদ",
+    "banglish": "Kroyer roshid",
+    "ar": "إيصالات الشراء"
+  },
+  "Read": {
+    "bn": "পড়া হয়েছে",
+    "banglish": "Pora hoyeche",
+    "ar": "مقروء"
+  },
+  "Recipient": {
+    "bn": "প্রাপক",
+    "banglish": "Prapok",
+    "ar": "المستلم"
+  },
+  "Recipient is required and must be at most 128 characters without control characters.": {
+    "bn": "প্রাপক আবশ্যক; কন্ট্রোল ক্যারেক্টার ছাড়া সর্বোচ্চ ১২৮ অক্ষর লিখুন।",
+    "banglish": "Prapok aboshshok; control character chara shorbochcho 128 okkhor likhun.",
+    "ar": "المستلم مطلوب وبحد أقصى 128 حرفًا، دون محارف تحكم."
+  },
+  "Reconnecting live hints. Your inbox still refreshes automatically.": {
+    "bn": "সরাসরি আপডেট সংকেত পুনঃসংযোগ হচ্ছে। ইনবক্স স্বয়ংক্রিয়ভাবে হালনাগাদ হচ্ছে।",
+    "banglish": "Shorashori update shonket punohsongjog hochhe. Inbox shoyongkriyobhabe halnagad hochhe.",
+    "ar": "جارٍ إعادة اتصال إشارات التحديث الفوري. لا يزال الوارد يتحدث تلقائيًا."
+  },
+  "Record unavailable": {
+    "bn": "রেকর্ড উপলব্ধ নয়",
+    "banglish": "Record upolobdho noy",
+    "ar": "السجل غير متاح"
+  },
+  "Regular expression table searches are not supported.": {
+    "bn": "টেবিলে রেগুলার এক্সপ্রেশন দিয়ে অনুসন্ধান সমর্থিত নয়।",
+    "banglish": "Table-e regular expression diye onushondhan shomorthito noy.",
+    "ar": "البحث بالتعبيرات النمطية في الجدول غير مدعوم."
+  },
+  "Retry the unchanged message safely.": {
+    "bn": "একই বার্তা অপরিবর্তিত রেখে নিরাপদে আবার চেষ্টা করুন।",
+    "banglish": "Eki barta oporibortito rekhe nirapode abar cheshta korun.",
+    "ar": "أعد محاولة الرسالة نفسها دون تغيير بأمان."
+  },
+  "Rows per page": {
+    "bn": "প্রতি পৃষ্ঠায় সারি",
+    "banglish": "Proti prishthay shari",
+    "ar": "صفوف لكل صفحة"
+  },
+  "Saved to the recipient's inbox": {
+    "bn": "প্রাপকের ইনবক্সে সংরক্ষিত",
+    "banglish": "Prapoker inbox-e shongrokkhito",
+    "ar": "حُفظت في وارد المستلم"
+  },
+  "Saving your message…": {
+    "bn": "আপনার বার্তা সংরক্ষণ হচ্ছে…",
+    "banglish": "Apnar barta shongrokkhon hochhe…",
+    "ar": "جارٍ حفظ رسالتك…"
+  },
+  "Search for a recipient": {
+    "bn": "প্রাপক খুঁজুন",
+    "banglish": "Prapok khujun",
+    "ar": "البحث عن مستلم"
+  },
+  "Search up to 120 characters": {
+    "bn": "সর্বোচ্চ ১২০ অক্ষর দিয়ে খুঁজুন",
+    "banglish": "Shorbochcho 120 okkhor diye khujun",
+    "ar": "ابحث باستخدام 120 حرفًا كحد أقصى"
+  },
+  "Search, order and page records on the server. Existing workflow actions remain below.": {
+    "bn": "সার্ভারে রেকর্ড খুঁজুন, সাজান ও পৃষ্ঠা বদলান। বিদ্যমান কাজের বোতামগুলো নিচে রয়েছে।",
+    "banglish": "Server-e record khujun, shajan o prishtha bodlan. Bidyoman kajer botamgulo niche royeche.",
+    "ar": "ابحث في السجلات ورتّبها وتنقّل بين صفحاتها على الخادم. تبقى إجراءات سير العمل الحالية أدناه."
+  },
+  "Select an authorized company and branch.": {
+    "bn": "অনুমোদিত কোম্পানি ও শাখা নির্বাচন করুন।",
+    "banglish": "Onumodito company o shakha nirbachon korun.",
+    "ar": "اختر شركة وفرعًا مصرحًا لك بهما."
+  },
+  "Send internal message": {
+    "bn": "অভ্যন্তরীণ বার্তা পাঠান",
+    "banglish": "Obhyontorin barta pathan",
+    "ar": "إرسال رسالة داخلية"
+  },
+  "Sent": {
+    "bn": "পাঠানো হয়েছে",
+    "banglish": "Pathano hoyeche",
+    "ar": "المرسلة"
+  },
+  "Server data browser": {
+    "bn": "সার্ভার তথ্য ব্রাউজার",
+    "banglish": "Server tottho browser",
+    "ar": "متصفح بيانات الخادم"
+  },
+  "Session or messaging access is no longer valid.": {
+    "bn": "সেশন বা বার্তা ব্যবহারের অনুমতি আর বৈধ নেই।",
+    "banglish": "Session ba barta byaboharer onumoti ar boidho nei.",
+    "ar": "لم تعد الجلسة أو صلاحية المراسلة سارية."
+  },
+  "Showing _START_ to _END_ of _TOTAL_ records": {
+    "bn": "_TOTAL_টি রেকর্ডের _START_ থেকে _END_ দেখানো হচ্ছে",
+    "banglish": "_TOTAL_ ti record-er _START_ theke _END_ dekhano hochhe",
+    "ar": "عرض _START_ إلى _END_ من _TOTAL_ سجلًا"
+  },
+  "Sorting is supported for ID, reference, description and status only.": {
+    "bn": "শুধু ID, রেফারেন্স, বিবরণ ও স্ট্যাটাস অনুযায়ী সাজানো যায়।",
+    "banglish": "Shudhu ID, reference, biboron o status onujayi shajano jay.",
+    "ar": "الترتيب مدعوم للمعرّف والمرجع والوصف والحالة فقط."
+  },
+  "Staff register": {
+    "bn": "কর্মীর নিবন্ধন তালিকা",
+    "banglish": "Kormir nibondhon talika",
+    "ar": "سجل الموظفين"
+  },
+  "Stock movements": {
+    "bn": "মজুতের চলাচল",
+    "banglish": "Mojuter cholachol",
+    "ar": "حركات المخزون"
+  },
+  "Stock returns": {
+    "bn": "মজুত ফেরত",
+    "banglish": "Mojut ferot",
+    "ar": "مرتجعات المخزون"
+  },
+  "Subject is required and must be at most 160 characters without control characters.": {
+    "bn": "বিষয় আবশ্যক; কন্ট্রোল ক্যারেক্টার ছাড়া সর্বোচ্চ ১৬০ অক্ষর লিখুন।",
+    "banglish": "Bishoy aboshshok; control character chara shorbochcho 160 okkhor likhun.",
+    "ar": "الموضوع مطلوب وبحد أقصى 160 حرفًا، دون محارف تحكم."
+  },
+  "Subscription payment records": {
+    "bn": "সাবস্ক্রিপশন অর্থপ্রদানের রেকর্ড",
+    "banglish": "Subscription ortho prodaner record",
+    "ar": "سجلات دفع الاشتراكات"
+  },
+  "Support tickets": {
+    "bn": "সহায়তার টিকিট",
+    "banglish": "Shohayotar ticket",
+    "ar": "تذاكر الدعم"
+  },
+  "Table ordering must use an allowed column and direction.": {
+    "bn": "টেবিল সাজাতে অনুমোদিত কলাম ও ক্রম ব্যবহার করতে হবে।",
+    "banglish": "Table shajate onumodito column o krom byabohar korte hobe.",
+    "ar": "يجب ترتيب الجدول باستخدام عمود واتجاه مسموح بهما."
+  },
+  "Table search or status is too long or contains control characters.": {
+    "bn": "টেবিলের অনুসন্ধান বা স্ট্যাটাস অতিরিক্ত দীর্ঘ অথবা এতে কন্ট্রোল ক্যারেক্টার রয়েছে।",
+    "banglish": "Table-er onushondhan ba status otirikto dirgho othoba ete control character royeche.",
+    "ar": "بحث الجدول أو الحالة طويل جدًا أو يحتوي على محارف تحكم."
+  },
+  "Tax policies": {
+    "bn": "করের নীতিমালা",
+    "banglish": "Korer nitimala",
+    "ar": "السياسات الضريبية"
+  },
+  "The idempotency key was already used for different message content.": {
+    "bn": "এই পুনরাবৃত্তি-রোধী কী আগে অন্য বার্তার জন্য ব্যবহৃত হয়েছে।",
+    "banglish": "Ei punorabritti-rodhi key age onno bartar jonno byabohrito hoyeche.",
+    "ar": "استُخدم مفتاح منع التكرار مسبقًا لمحتوى رسالة مختلف."
+  },
+  "The operation cannot be completed in its current state. Check the records or contact your administrator.": {
+    "bn": "বর্তমান অবস্থায় কাজটি সম্পন্ন করা যাচ্ছে না। রেকর্ড যাচাই করুন বা প্রশাসকের সঙ্গে যোগাযোগ করুন।",
+    "banglish": "Bortoman obosthay kajti shomponno kora jachhe na. Record jachai korun ba proshashoker shonge jogajog korun.",
+    "ar": "لا يمكن إكمال العملية بحالتها الحالية. راجع السجلات أو اتصل بالمسؤول."
+  },
+  "The operation could not be saved. Check for duplicate references and related records.": {
+    "bn": "কাজটি সংরক্ষণ করা যায়নি। একই রেফারেন্সের পুনরাবৃত্তি ও সংশ্লিষ্ট রেকর্ড যাচাই করুন।",
+    "banglish": "Kajti shongrokkhon kora jayni. Eki reference-er punorabritti o shongslishto record jachai korun.",
+    "ar": "تعذر حفظ العملية. تحقق من المراجع المكررة والسجلات المرتبطة."
+  },
+  "The record changed. Reload the current values and retry.": {
+    "bn": "রেকর্ড পরিবর্তিত হয়েছে। বর্তমান মান পুনরায় লোড করে চেষ্টা করুন।",
+    "banglish": "Record poribortito hoyeche. Bortoman man punoray load kore cheshta korun.",
+    "ar": "تغيّر السجل. أعد تحميل القيم الحالية وحاول مجددًا."
+  },
+  "The request could not be completed. Refresh and try again.": {
+    "bn": "অনুরোধটি সম্পন্ন করা যায়নি। রিফ্রেশ করে আবার চেষ্টা করুন।",
+    "banglish": "Onurodhti shomponno kora jayni. Refresh kore abar cheshta korun.",
+    "ar": "تعذر إكمال الطلب. حدّث الصفحة وحاول مجددًا."
+  },
+  "The requested record is not available in your selected scope.": {
+    "bn": "নির্বাচিত পরিসরে অনুরোধ করা রেকর্ডটি উপলব্ধ নয়।",
+    "banglish": "Nirbachito porishore onurodh kora recordti upolobdho noy.",
+    "ar": "السجل المطلوب غير متاح ضمن النطاق المحدد."
+  },
+  "The table could not be loaded. Use the existing workflow or retry.": {
+    "bn": "টেবিল লোড করা যায়নি। বিদ্যমান কাজের ব্যবস্থা ব্যবহার করুন বা আবার চেষ্টা করুন।",
+    "banglish": "Table load kora jayni. Bidyoman kajer byabostha byabohar korun ba abar cheshta korun.",
+    "ar": "تعذر تحميل الجدول. استخدم سير العمل الحالي أو أعد المحاولة."
+  },
+  "To:": {
+    "bn": "প্রাপক:",
+    "banglish": "Prapok:",
+    "ar": "إلى:"
+  },
+  "Too many table requests. Wait a minute and try again.": {
+    "bn": "টেবিলের জন্য অতিরিক্ত অনুরোধ হয়েছে। এক মিনিট অপেক্ষা করে আবার চেষ্টা করুন।",
+    "banglish": "Table-er jonno otirikto onurodh hoyeche. Ek minute opekkha kore abar cheshta korun.",
+    "ar": "طلبات الجدول كثيرة جدًا. انتظر دقيقة ثم حاول مجددًا."
+  },
+  "Type at least two characters": {
+    "bn": "অন্তত দুটি অক্ষর লিখুন",
+    "banglish": "Ontoto duti okkhor likhun",
+    "ar": "اكتب حرفين على الأقل"
+  },
+  "Unread": {
+    "bn": "পড়া হয়নি",
+    "banglish": "Pora hoyni",
+    "ar": "غير مقروء"
+  },
+  "Unread only": {
+    "bn": "শুধু অপঠিত",
+    "banglish": "Shudhu opothito",
+    "ar": "غير المقروءة فقط"
+  },
+  "Use the bounded global search and status filter.": {
+    "bn": "সীমাবদ্ধ সাধারণ অনুসন্ধান ও স্ট্যাটাস ফিল্টার ব্যবহার করুন।",
+    "banglish": "Shimaboddho shadharon onushondhan o status filter byabohar korun.",
+    "ar": "استخدم البحث العام المحدود وتصفية الحالة."
+  },
+  "Write an internal message": {
+    "bn": "অভ্যন্তরীণ বার্তা লিখুন",
+    "banglish": "Obhyontorin barta likhun",
+    "ar": "كتابة رسالة داخلية"
+  },
+  "Your inbox refreshes automatically. Live hints are unavailable.": {
+    "bn": "আপনার ইনবক্স স্বয়ংক্রিয়ভাবে হালনাগাদ হয়। সরাসরি আপডেট সংকেত উপলব্ধ নয়।",
+    "banglish": "Apnar inbox shoyongkriyobhabe halnagad hoy. Shorashori update shonket upolobdho noy.",
+    "ar": "يتحدث الوارد تلقائيًا. إشارات التحديث الفوري غير متاحة."
+  },
+  "Your session or access changed. Reload and sign in again.": {
+    "bn": "আপনার সেশন বা প্রবেশাধিকার বদলেছে। পুনরায় লোড করে লগইন করুন।",
+    "banglish": "Apnar session ba probeshadhikar bodleche. Punoray load kore login korun.",
+    "ar": "تغيّرت جلستك أو صلاحياتك. أعد التحميل وسجّل الدخول مجددًا."
+  }
+}

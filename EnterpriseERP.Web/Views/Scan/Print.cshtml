@@ -1,0 +1,13 @@
+@model EnterpriseERP.Web.ScanLabelView
+@{ ViewData["Title"] = "Print scan label"; }
+<link rel="stylesheet" href="~/css/farm-scanning.css" asp-append-version="true" />
+<h1 data-i18n="Print scan label">Print scan label</h1>
+<p class="scan-no-print" data-i18n="Use your browser print command. Check a test label with your actual scanner before applying labels to stock or animals.">Use your browser print command. Check a test label with your actual scanner before applying labels to stock or animals.</p>
+<article class="scan-print-label">
+ <p data-i18n="Farm record identifier">Farm record identifier</p>
+ <img class="scan-qr" src="/api/scan/labels/@Model.Id/image?format=qr" alt="QR identifier" data-i18n-alt="QR identifier" />
+ <img class="scan-barcode" src="/api/scan/labels/@Model.Id/image?format=code128" alt="Code128 identifier" data-i18n-alt="Code128 identifier" />
+ <p dir="ltr">@Model.Value</p>
+ <p data-i18n="A label does not grant access.">A label does not grant access.</p>
+</article>
+<a class="scan-no-print" href="/scan" data-i18n="Back to scan workspace">Back to scan workspace</a>

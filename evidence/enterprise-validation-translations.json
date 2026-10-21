@@ -1,0 +1,1152 @@
+{
+  "A cart product is no longer published. Remove it before checking out.": {
+    "bn": "কার্টের একটি পণ্য আর প্রকাশিত নেই। চেকআউটের আগে সেটি সরান।",
+    "banglish": "Cart-er ekti ponno ar published nei. Checkout-er age shoran.",
+    "ar": "لم يعد أحد منتجات السلة منشوراً. أزله قبل إتمام الطلب."
+  },
+  "A cart supports at most 50 products.": {
+    "bn": "কার্টে সর্বোচ্চ ৫০টি পণ্য রাখা যায়।",
+    "banglish": "Cart-e shorbocho50ti ponno rakha jay.",
+    "ar": "تدعم السلة 50 منتجاً كحد أقصى."
+  },
+  "A different authorized user must approve payroll.": {
+    "bn": "অন্য অনুমোদিত ব্যবহারকারীকে বেতন অনুমোদন করতে হবে।",
+    "banglish": "Onno authorized user payroll approve korben.",
+    "ar": "يجب أن يعتمد الرواتب مستخدم مخول آخر."
+  },
+  "A different authorized user must approve this record.": {
+    "bn": "অন্য অনুমোদিত ব্যবহারকারীকে এই রেকর্ড অনুমোদন করতে হবে।",
+    "banglish": "Onno authorized user ei record approve korben.",
+    "ar": "يجب أن يعتمد هذا السجل مستخدم مخول آخر."
+  },
+  "A different authorized user must review this policy.": {
+    "bn": "অন্য অনুমোদিত ব্যবহারকারীকে এই নীতি পর্যালোচনা করতে হবে।",
+    "banglish": "Onno authorized user ei policy review korben.",
+    "ar": "يجب أن يراجع هذه السياسة مستخدم مخول آخر."
+  },
+  "A different reviewer must approve or reject this policy.": {
+    "bn": "অন্য পর্যালোচককে এই নীতি অনুমোদন বা প্রত্যাখ্যান করতে হবে।",
+    "banglish": "Onno reviewer ei policy approve ba reject korben.",
+    "ar": "يجب أن يعتمد هذه السياسة أو يرفضها مراجع آخر."
+  },
+  "A line discount must be less than its gross amount.": {
+    "bn": "লাইনের ছাড় তার মোট পরিমাণের চেয়ে কম হতে হবে।",
+    "banglish": "Line discount tar gross amount-er cheye kom hobe.",
+    "ar": "يجب أن يكون خصم السطر أقل من إجماليه."
+  },
+  "A newer approved policy supersedes this proposal; create a new prospective version.": {
+    "bn": "নতুন অনুমোদিত নীতি এই প্রস্তাবকে প্রতিস্থাপন করেছে; ভবিষ্যতের জন্য নতুন সংস্করণ তৈরি করুন।",
+    "banglish": "Notun approved policy ei proposal supersede koreche; prospective version banan.",
+    "ar": "حلّت سياسة معتمدة أحدث محل هذا المقترح؛ أنشئ إصداراً مستقبلياً جديداً."
+  },
+  "A newer tax policy applies to this date; select its reviewed version.": {
+    "bn": "এই তারিখে নতুন করনীতি প্রযোজ্য; তার পর্যালোচিত সংস্করণ নির্বাচন করুন।",
+    "banglish": "Ei date-e newer tax policy projojjo; reviewed version bachhun.",
+    "ar": "تنطبق سياسة ضريبية أحدث على هذا التاريخ؛ اختر إصدارها المُراجع."
+  },
+  "A newer tax policy supersedes this proposal; create a prospective version.": {
+    "bn": "নতুন করনীতি এই প্রস্তাব প্রতিস্থাপন করেছে; ভবিষ্যতের সংস্করণ তৈরি করুন।",
+    "banglish": "Notun tax policy ei proposal supersede koreche; prospective version banan.",
+    "ar": "حلّت سياسة ضريبية أحدث محل المقترح؛ أنشئ إصداراً مستقبلياً."
+  },
+  "A payroll run already exists for this month or reference; recalculate its draft instead.": {
+    "bn": "এই মাস বা রেফারেন্সে বেতন কার্যক্রম আছে; তার খসড়া পুনর্গণনা করুন।",
+    "banglish": "Ei mash ba reference-e payroll run ache; tar draft recalculate korun.",
+    "ar": "توجد دورة رواتب لهذا الشهر أو المرجع؛ أعد حساب مسودتها بدلاً من ذلك."
+  },
+  "A payroll run requires 1–5000 staff in this branch.": {
+    "bn": "বেতন কার্যক্রমে এই শাখার ১–৫০০০ কর্মী প্রয়োজন।",
+    "banglish": "Payroll run-e ei branch-er1–5000 staff lage.",
+    "ar": "تتطلب دورة الرواتب 1–5000 موظف في هذا الفرع."
+  },
+  "A pending or approved leave already overlaps these dates.": {
+    "bn": "এই তারিখে অপেক্ষমাণ বা অনুমোদিত ছুটি ইতিমধ্যে আছে।",
+    "banglish": "Ei date-e pending ba approved leave agei ache.",
+    "ar": "تتداخل إجازة معلقة أو معتمدة مع هذه التواريخ بالفعل."
+  },
+  "A product price, tax or company policy changed. Refresh the cart before confirming.": {
+    "bn": "পণ্যের মূল্য, কর বা কোম্পানির নীতি বদলেছে। নিশ্চিত করার আগে কার্ট হালনাগাদ করুন।",
+    "banglish": "Product price,tax ba company policy bodleche. Confirm-er age cart refresh korun.",
+    "ar": "تغير سعر منتج أو ضريبته أو سياسة الشركة. حدّث السلة قبل التأكيد."
+  },
+  "A quote requires 1–50 nonempty lines.": {
+    "bn": "মূল্যপ্রস্তাবে ১–৫০টি পূরণ করা লাইন প্রয়োজন।",
+    "banglish": "Quote-e1–50ti nonempty line lage.",
+    "ar": "يتطلب عرض السعر 1–50 سطراً غير فارغ."
+  },
+  "A replacement policy must start after the existing version and cannot rewrite a past business date.": {
+    "bn": "প্রতিস্থাপন নীতি বর্তমান সংস্করণের পরে শুরু হতে হবে এবং পুরোনো ব্যবসায়িক তারিখ বদলাতে পারবে না।",
+    "banglish": "Replacement policy existing version-er pore shuru hobe; past businessdate bodlate parbe na.",
+    "ar": "يجب أن تبدأ سياسة الاستبدال بعد الإصدار الحالي وألا تعيد كتابة تاريخ أعمال سابق."
+  },
+  "A reviewed company business policy is required for the current local business date.": {
+    "bn": "বর্তমান স্থানীয় ব্যবসায়িক তারিখের জন্য পর্যালোচিত কোম্পানি নীতি প্রয়োজন।",
+    "banglish": "Current local businessdate-er reviewed company policy lage.",
+    "ar": "تلزم سياسة أعمال مُراجعة للشركة لتاريخ الأعمال المحلي الحالي."
+  },
+  "A reviewed company jurisdiction, currency and timezone policy is required for this business date.": {
+    "bn": "এই ব্যবসায়িক তারিখে পর্যালোচিত কোম্পানি আইনক্ষেত্র, মুদ্রা ও সময় অঞ্চলের নীতি প্রয়োজন।",
+    "banglish": "Ei businessdate-e reviewed company jurisdiction,currency,timezone policy lage.",
+    "ar": "تلزم سياسة مُراجعة لاختصاص الشركة وعملتها ومنطقتها الزمنية لهذا التاريخ."
+  },
+  "A saved activity's lead and reference cannot change.": {
+    "bn": "সংরক্ষিত কার্যক্রমের লিড ও রেফারেন্স বদলানো যায় না।",
+    "banglish": "Saved activity-r lead/reference bodlano jay na.",
+    "ar": "لا يمكن تغيير العميل المحتمل ومرجع نشاط محفوظ."
+  },
+  "A saved lead reference cannot be changed.": {
+    "bn": "সংরক্ষিত লিডের রেফারেন্স বদলানো যায় না।",
+    "banglish": "Saved lead reference bodlano jay na.",
+    "ar": "لا يمكن تغيير مرجع عميل محتمل محفوظ."
+  },
+  "A saved opportunity's lead and reference cannot change.": {
+    "bn": "সংরক্ষিত সুযোগের লিড ও রেফারেন্স বদলানো যায় না।",
+    "banglish": "Saved opportunity-r lead/reference bodlano jay na.",
+    "ar": "لا يمكن تغيير العميل المحتمل ومرجع فرصة محفوظة."
+  },
+  "A saved quote's opportunity and reference cannot change.": {
+    "bn": "সংরক্ষিত মূল্যপ্রস্তাবের সুযোগ ও রেফারেন্স বদলানো যায় না।",
+    "banglish": "Saved quote-er opportunity/reference bodlano jay na.",
+    "ar": "لا يمكن تغيير الفرصة ومرجع عرض سعر محفوظ."
+  },
+  "Acquisition requires a different user's completed approval.": {
+    "bn": "অধিগ্রহণে অন্য ব্যবহারকারীর সম্পন্ন অনুমোদন প্রয়োজন।",
+    "banglish": "Acquisition-e onno user-er completed approval lage.",
+    "ar": "يتطلب الاقتناء اعتماداً مكتملاً من مستخدم آخر."
+  },
+  "Active staff require no end date; deactivation requires a valid end date on or before today.": {
+    "bn": "সক্রিয় কর্মীর শেষ তারিখ থাকবে না; নিষ্ক্রিয় করতে আজ বা আগের বৈধ শেষ তারিখ প্রয়োজন।",
+    "banglish": "Active staff-er enddate thakbe na; deactivate korte aj ba ager valid enddate lage.",
+    "ar": "لا يحتاج الموظف النشط لتاريخ نهاية؛ ويتطلب التعطيل تاريخ نهاية صالحاً لا يتجاوز اليوم."
+  },
+  "Activity is not available in the active branch.": {
+    "bn": "সক্রিয় শাখায় কার্যক্রমটি নেই।",
+    "banglish": "Active branch-e activity nei.",
+    "ar": "النشاط غير متاح في الفرع النشط."
+  },
+  "Actual-calendar proration must have zero fixed units; its denominator comes from the payroll month.": {
+    "bn": "প্রকৃত ক্যালেন্ডার আনুপাতিক হিসাবে স্থির একক শূন্য হতে হবে; হর বেতনের মাস থেকে আসে।",
+    "banglish": "Actual-calendar proration-e fixed unit zero; denominator payroll month theke ashe.",
+    "ar": "يجب أن تكون الوحدات الثابتة صفراً للتوزيع بالأيام الفعلية؛ يُستمد المقام من شهر الرواتب."
+  },
+  "Amount has more decimal places than the reviewed company currency permits.": {
+    "bn": "পরিমাণে অনুমোদিত মুদ্রার চেয়ে বেশি দশমিক ঘর আছে।",
+    "banglish": "Amount-e approved currency-r cheye beshi decimal ache.",
+    "ar": "يحتوي المبلغ على منازل عشرية تتجاوز المسموح في العملة المُراجعة."
+  },
+  "An active customer record and verified account are required.": {
+    "bn": "সক্রিয় গ্রাহক রেকর্ড ও যাচাইকৃত অ্যাকাউন্ট প্রয়োজন।",
+    "banglish": "Active customer record o verified account lage.",
+    "ar": "يلزم سجل عميل نشط وحساب متحقق منه."
+  },
+  "An asset changed after this preview. Cancel and recreate the run; no partial posting is allowed.": {
+    "bn": "প্রাকদর্শনের পরে সম্পদ বদলেছে। কার্যক্রম বাতিল করে আবার তৈরি করুন; আংশিক পোস্ট নিষিদ্ধ।",
+    "banglish": "Preview-r por asset bodleche. Run cancel kore recreate korun; partial posting noy.",
+    "ar": "تغير أصل بعد المعاينة. ألغِ الدورة وأعد إنشاءها؛ لا يُسمح بترحيل جزئي."
+  },
+  "An identity is already linked. Reassignment requires a separately reviewed account-recovery procedure.": {
+    "bn": "পরিচয় ইতিমধ্যে সংযুক্ত। পুনর্নিয়োগে পৃথক পর্যালোচিত অ্যাকাউন্ট পুনরুদ্ধার প্রক্রিয়া প্রয়োজন।",
+    "banglish": "Identity agei linked. Reassignment-e separately reviewed account recovery lage.",
+    "ar": "الهوية مرتبطة بالفعل. تتطلب إعادة التعيين إجراء استرداد حساب مُراجعاً منفصلاً."
+  },
+  "An uncancelled disposal already exists for this asset.": {
+    "bn": "এই সম্পদের বাতিল না করা নিষ্পত্তি আছে।",
+    "banglish": "Ei asset-er uncancelled disposal ache.",
+    "ar": "يوجد استبعاد غير ملغى لهذا الأصل."
+  },
+  "An unposted run already exists for this branch and month. Review or cancel that run before retrying.": {
+    "bn": "এই শাখা ও মাসে পোস্ট না করা কার্যক্রম আছে। আবার চেষ্টা করার আগে সেটি পর্যালোচনা বা বাতিল করুন।",
+    "banglish": "Ei branch/month-e unposted run ache. Retry-r age seti review ba cancel korun.",
+    "ar": "توجد دورة غير مرحّلة لهذا الفرع والشهر. راجعها أو ألغها قبل إعادة المحاولة."
+  },
+  "An unreviewed tax policy needs a different reviewer.": {
+    "bn": "অপর্যালোচিত করনীতিতে ভিন্ন পর্যালোচক প্রয়োজন।",
+    "banglish": "Unreviewed tax policy-te different reviewer lage.",
+    "ar": "تحتاج السياسة الضريبية غير المُراجعة إلى مراجع آخر."
+  },
+  "Another authorized person must review this leave request.": {
+    "bn": "অন্য অনুমোদিত ব্যক্তিকে ছুটির আবেদন পর্যালোচনা করতে হবে।",
+    "banglish": "Onno authorized person leave request review korben.",
+    "ar": "يجب أن يراجع طلب الإجازة شخص مخول آخر."
+  },
+  "Approved leave already covers this day.": {
+    "bn": "এই দিন অনুমোদিত ছুটির মধ্যে আছে।",
+    "banglish": "Ei din approved leave-er moddhe ache.",
+    "ar": "يغطي هذا اليوم إجازة معتمدة بالفعل."
+  },
+  "Ask authorized staff to link your verified account to your customer record in this branch.": {
+    "bn": "এই শাখায় গ্রাহক রেকর্ডের সঙ্গে যাচাইকৃত অ্যাকাউন্ট যুক্ত করতে অনুমোদিত কর্মীকে বলুন।",
+    "banglish": "Ei branch-e customer record-er sathe verified account link korte authorized staff-ke bolun.",
+    "ar": "اطلب من الموظف المخول ربط حسابك المتحقق منه بسجل عميلك في هذا الفرع."
+  },
+  "Asset and approved company currency settings differ; a separately reviewed migration is required.": {
+    "bn": "সম্পদ ও কোম্পানির অনুমোদিত মুদ্রা সেটিংস ভিন্ন; পৃথক পর্যালোচিত মাইগ্রেশন প্রয়োজন।",
+    "banglish": "Asset o approved company currency alada; separately reviewed migration lage.",
+    "ar": "تختلف إعدادات عملة الأصل والشركة المعتمدة؛ تلزم هجرة بيانات مُراجعة منفصلة."
+  },
+  "Asset code or source reference already exists. Cancelled references remain reserved to preserve history.": {
+    "bn": "সম্পদের কোড বা উৎস রেফারেন্স আছে। ইতিহাস রাখতে বাতিল রেফারেন্সও সংরক্ষিত থাকে।",
+    "banglish": "Asset code/source reference ache. History-r jonno cancelled reference-o reserved thake.",
+    "ar": "رمز الأصل أو مرجع المصدر موجود. تبقى المراجع الملغاة محجوزة لحفظ السجل."
+  },
+  "Asset financial values changed after this preview. Cancel and recreate this disposal.": {
+    "bn": "প্রাকদর্শনের পরে সম্পদের আর্থিক মূল্য বদলেছে। নিষ্পত্তি বাতিল করে আবার তৈরি করুন।",
+    "banglish": "Preview-r por asset financial value bodleche. Disposal cancel/recreate korun.",
+    "ar": "تغيرت القيم المالية للأصل بعد المعاينة. ألغِ الاستبعاد وأعد إنشاءه."
+  },
+  "Asset not found in the active company and branch.": {
+    "bn": "সক্রিয় কোম্পানি ও শাখায় সম্পদ নেই।",
+    "banglish": "Active company/branch-e asset nei.",
+    "ar": "لم يُعثر على الأصل في الشركة والفرع النشطين."
+  },
+  "Attendance already exists; edit it using its current version.": {
+    "bn": "উপস্থিতি ইতিমধ্যে আছে; বর্তমান সংস্করণ দিয়ে সম্পাদনা করুন।",
+    "banglish": "Attendance ache; current version diye edit korun.",
+    "ar": "الحضور موجود بالفعل؛ عدّله باستخدام إصداره الحالي."
+  },
+  "Attendance not found.": {
+    "bn": "উপস্থিতি পাওয়া যায়নি।",
+    "banglish": "Attendance pawa jayni.",
+    "ar": "لم يُعثر على الحضور."
+  },
+  "Attendance overlaps this leave. Reject the request or resolve attendance before approval.": {
+    "bn": "ছুটির সঙ্গে উপস্থিতি মিলে যাচ্ছে। অনুমোদনের আগে আবেদন প্রত্যাখ্যান বা উপস্থিতি ঠিক করুন।",
+    "banglish": "Leave-er sathe attendance overlap. Approve-er age reject ba attendance resolve korun.",
+    "ar": "يتداخل الحضور مع الإجازة. ارفض الطلب أو عالج الحضور قبل الاعتماد."
+  },
+  "Calculate only a fully ended payroll month.": {
+    "bn": "শুধু সম্পূর্ণ শেষ হওয়া মাসের বেতন হিসাব করুন।",
+    "banglish": "Shudhu fully ended month-er payroll hisab korun.",
+    "ar": "احسب الرواتب لشهر منتهٍ بالكامل فقط."
+  },
+  "Calculated payroll exceeds supported amounts.": {
+    "bn": "হিসাব করা বেতন সমর্থিত সীমার বাইরে।",
+    "banglish": "Calculated payroll supported limit-er baire.",
+    "ar": "تتجاوز الرواتب المحسوبة المبالغ المدعومة."
+  },
+  "Cancelled acquisition records are immutable.": {
+    "bn": "বাতিল অধিগ্রহণের রেকর্ড অপরিবর্তনীয়।",
+    "banglish": "Cancelled acquisition record immutable.",
+    "ar": "سجلات الاقتناء الملغاة غير قابلة للتغيير."
+  },
+  "Cart quote changed or expired. Refresh quantities to review current prices and tax.": {
+    "bn": "কার্টের মূল্যপ্রস্তাব বদলেছে বা মেয়াদ শেষ। বর্তমান মূল্য ও কর দেখতে পরিমাণ হালনাগাদ করুন।",
+    "banglish": "Cart quote changed/expired. Current price/tax dekhte quantity refresh korun.",
+    "ar": "تغير عرض السلة أو انتهت صلاحيته. حدّث الكميات لمراجعة الأسعار والضريبة الحالية."
+  },
+  "Choose Done or Cancelled.": {
+    "bn": "সম্পন্ন অথবা বাতিল নির্বাচন করুন।",
+    "banglish": "Done ba Cancelled bachhun.",
+    "ar": "اختر مكتمل أو ملغى."
+  },
+  "Choose a changed custodian or location.": {
+    "bn": "ভিন্ন জিম্মাদার বা অবস্থান নির্বাচন করুন।",
+    "banglish": "Changed custodian ba location bachhun.",
+    "ar": "اختر أمين عهدة أو موقعاً مختلفاً."
+  },
+  "Choose an active customer in this branch.": {
+    "bn": "এই শাখার সক্রিয় গ্রাহক নির্বাচন করুন।",
+    "banglish": "Ei branch-er active customer bachhun.",
+    "ar": "اختر عميلاً نشطاً في هذا الفرع."
+  },
+  "Choose an existing verified identity already authorized for this branch.": {
+    "bn": "এই শাখায় আগে থেকেই অনুমোদিত বিদ্যমান যাচাইকৃত পরিচয় নির্বাচন করুন।",
+    "banglish": "Ei branch-e agei authorized existing verified identity bachhun.",
+    "ar": "اختر هوية حالية متحققاً منها ومصرحاً لها بهذا الفرع مسبقاً."
+  },
+  "Choose an explicit Daily, Monthly or Mixed payroll policy basis.": {
+    "bn": "স্পষ্ট দৈনিক, মাসিক বা মিশ্র বেতননীতির ভিত্তি নির্বাচন করুন।",
+    "banglish": "Explicit Daily,Monthly ba Mixed payroll basis bachhun.",
+    "ar": "اختر أساس سياسة رواتب صريحاً: يومي أو شهري أو مختلط."
+  },
+  "Choose an explicit compensation effective date.": {
+    "bn": "পারিশ্রমিকের সুনির্দিষ্ট কার্যকর তারিখ নির্বাচন করুন।",
+    "banglish": "Explicit compensation effective date bachhun.",
+    "ar": "اختر تاريخ سريان صريحاً للتعويض."
+  },
+  "Choose an explicit staff Daily or Monthly pay basis and a positive contractual amount for that basis.": {
+    "bn": "কর্মীর দৈনিক বা মাসিক বেতনের ভিত্তি এবং সেই ভিত্তিতে ধনাত্মক চুক্তির পরিমাণ নির্বাচন করুন।",
+    "banglish": "Staff Daily/Monthly basis o oi basis-er positive contractual amount din.",
+    "ar": "اختر أساس أجر الموظف اليومي أو الشهري صراحةً ومبلغاً تعاقدياً موجباً لذلك الأساس."
+  },
+  "Choose an independently reviewed payroll policy.": {
+    "bn": "স্বতন্ত্রভাবে পর্যালোচিত বেতননীতি নির্বাচন করুন।",
+    "banglish": "Independently reviewed payroll policy bachhun.",
+    "ar": "اختر سياسة رواتب خضعت لمراجعة مستقلة."
+  },
+  "Choose between 1 and 50 products.": {
+    "bn": "১ থেকে ৫০টি পণ্য নির্বাচন করুন।",
+    "banglish": "1theke50ti ponno bachhun.",
+    "ar": "اختر من 1 إلى 50 منتجاً."
+  },
+  "Choose either an existing customer or a new customer code.": {
+    "bn": "বিদ্যমান গ্রাহক অথবা নতুন গ্রাহক কোড নির্বাচন করুন।",
+    "banglish": "Existing customer ba new customer code bachhun.",
+    "ar": "اختر عميلاً حالياً أو رمز عميل جديداً."
+  },
+  "Choose stock in this branch.": {
+    "bn": "এই শাখার মজুত নির্বাচন করুন।",
+    "banglish": "Ei branch-er stock bachhun.",
+    "ar": "اختر مخزوناً في هذا الفرع."
+  },
+  "Choose the actual calendar-day or explicitly fixed-unit monthly denominator.": {
+    "bn": "প্রকৃত ক্যালেন্ডার দিন বা স্পষ্ট স্থির এককভিত্তিক মাসিক হর নির্বাচন করুন।",
+    "banglish": "Actual calendar-day ba explicit fixed-unit monthly denominator bachhun.",
+    "ar": "اختر مقام الشهر بالأيام التقويمية الفعلية أو بالوحدات الثابتة المحددة صراحةً."
+  },
+  "Close this lead's open opportunities and activities before archiving it.": {
+    "bn": "আর্কাইভের আগে এই লিডের খোলা সুযোগ ও কার্যক্রম বন্ধ করুন।",
+    "banglish": "Archive-er age ei lead-er open opportunity/activity close korun.",
+    "ar": "أغلق الفرص والأنشطة المفتوحة للعميل المحتمل قبل أرشفته."
+  },
+  "Closed activities cannot be changed.": {
+    "bn": "বন্ধ কার্যক্রম বদলানো যায় না।",
+    "banglish": "Closed activity bodlano jay na.",
+    "ar": "لا يمكن تغيير الأنشطة المغلقة."
+  },
+  "Company accounting currency and precision are locked. A different currency requires a separately reviewed migration or company.": {
+    "bn": "কোম্পানির হিসাবের মুদ্রা ও দশমিক স্থির। ভিন্ন মুদ্রায় পৃথক পর্যালোচিত মাইগ্রেশন বা কোম্পানি প্রয়োজন।",
+    "banglish": "Company currency/precision locked. Different currency-te reviewed migration ba company lage.",
+    "ar": "عملة الشركة المحاسبية ودقتها مقفلتان. تتطلب عملة أخرى هجرة مُراجعة منفصلة أو شركة أخرى."
+  },
+  "Company and asset currency policies differ.": {
+    "bn": "কোম্পানি ও সম্পদের মুদ্রানীতি ভিন্ন।",
+    "banglish": "Company o asset currency policy alada.",
+    "ar": "تختلف سياسات عملة الشركة والأصل."
+  },
+  "Company jurisdiction or currency changed. This order requires an approved correction before posting.": {
+    "bn": "কোম্পানির আইনক্ষেত্র বা মুদ্রা বদলেছে। অর্ডার পোস্টের আগে অনুমোদিত সংশোধন প্রয়োজন।",
+    "banglish": "Company jurisdiction/currency bodleche. Order post-er age approved correction lage.",
+    "ar": "تغير اختصاص الشركة أو عملتها. يتطلب الطلب تصحيحاً معتمداً قبل الترحيل."
+  },
+  "Company policy changed. Cancel and recreate the disposal.": {
+    "bn": "কোম্পানির নীতি বদলেছে। নিষ্পত্তি বাতিল করে আবার তৈরি করুন।",
+    "banglish": "Company policy bodleche. Disposal cancel/recreate korun.",
+    "ar": "تغيرت سياسة الشركة. ألغِ الاستبعاد وأعد إنشاءه."
+  },
+  "Company policy changed. Cancel and recreate this run.": {
+    "bn": "কোম্পানির নীতি বদলেছে। এই কার্যক্রম বাতিল করে আবার তৈরি করুন।",
+    "banglish": "Company policy bodleche. Ei run cancel/recreate korun.",
+    "ar": "تغيرت سياسة الشركة. ألغِ هذه الدورة وأعد إنشاءها."
+  },
+  "Company policy changed. Cancel this unposted acquisition and prepare it under the current approved policy.": {
+    "bn": "কোম্পানির নীতি বদলেছে। পোস্ট না করা অধিগ্রহণ বাতিল করে বর্তমান অনুমোদিত নীতিতে তৈরি করুন।",
+    "banglish": "Company policy bodleche. Unposted acquisition cancel kore current approved policy-te banan.",
+    "ar": "تغيرت سياسة الشركة. ألغِ الاقتناء غير المرحّل وأعده وفق السياسة المعتمدة الحالية."
+  },
+  "Company policy changed; prepare a new matching tax policy.": {
+    "bn": "কোম্পানির নীতি বদলেছে; মিল রেখে নতুন করনীতি তৈরি করুন।",
+    "banglish": "Company policy bodleche; matching new tax policy banan.",
+    "ar": "تغيرت سياسة الشركة؛ أعد سياسة ضريبية جديدة مطابقة."
+  },
+  "Compensation cannot rewrite an approved or posted payroll period. Choose a later effective month.": {
+    "bn": "পারিশ্রমিক দিয়ে অনুমোদিত বা পোস্ট করা বেতনের সময়কাল বদলানো যাবে না। পরের কার্যকর মাস নির্বাচন করুন।",
+    "banglish": "Compensation approved/posted payroll period bodlate parbe na. Later effective month bachhun.",
+    "ar": "لا يمكن للتعويض إعادة كتابة فترة رواتب معتمدة أو مرحّلة. اختر شهر سريان لاحقاً."
+  },
+  "Compensation must take effect on a month boundary or the hire date, on or before the current business date. Mid-period rate changes require a separately reviewed extension.": {
+    "bn": "পারিশ্রমিক মাসের শুরু বা নিয়োগের তারিখে, বর্তমান ব্যবসায়িক তারিখের মধ্যে কার্যকর হতে হবে। মাঝামাঝি হার বদলাতে পৃথক পর্যালোচিত সম্প্রসারণ প্রয়োজন।",
+    "banglish": "Compensation month boundary ba hire date-e,current businessdate-er moddhe effective hobe. Mid-period ratechange-e reviewed extension lage.",
+    "ar": "يجب أن يسري التعويض عند بداية شهر أو تاريخ التعيين، في موعد لا يتجاوز تاريخ الأعمال الحالي. تتطلب تغييرات منتصف الفترة امتداداً مُراجعاً منفصلاً."
+  },
+  "Confirm goods are released for branch collection and the receivable will be posted; payment remains unverified.": {
+    "bn": "নিশ্চিত করুন পণ্য শাখা থেকে সংগ্রহের জন্য ছাড়া হচ্ছে ও প্রাপ্য পোস্ট হবে; অর্থপ্রদান অযাচাইকৃত থাকবে।",
+    "banglish": "Confirm korun branch collection-e goods release o receivable post hobe; payment unverified.",
+    "ar": "أكد إطلاق البضائع للاستلام من الفرع وترحيل الذمة المدينة؛ يبقى الدفع غير متحقق."
+  },
+  "Confirm review of currency, date range, daily/monthly basis, monthly denominator and cap, jurisdiction, rates and account mappings.": {
+    "bn": "মুদ্রা, সময়সীমা, দৈনিক/মাসিক ভিত্তি, মাসিক হর ও সীমা, আইনক্ষেত্র, হার ও হিসাব সংযোগ পর্যালোচনা নিশ্চিত করুন।",
+    "banglish": "Currency,date range,daily/monthly basis,denominator/cap,jurisdiction,rate/account mapping review confirm korun.",
+    "ar": "أكد مراجعة العملة والفترة وأساس الأجر اليومي/الشهري والمقام والحد الشهري والاختصاص والمعدلات وربط الحسابات."
+  },
+  "Confirm review of the customer, configured tax and collection arrangements.": {
+    "bn": "গ্রাহক, নির্ধারিত কর ও সংগ্রহের ব্যবস্থা পর্যালোচনা নিশ্চিত করুন।",
+    "banglish": "Customer,configured tax o collection review confirm korun.",
+    "ar": "أكد مراجعة العميل والضريبة المحددة وترتيبات الاستلام."
+  },
+  "Confirm that each payslip, attendance, leave and policy was reviewed.": {
+    "bn": "প্রতিটি বেতনপত্র, উপস্থিতি, ছুটি ও নীতি পর্যালোচিত হয়েছে নিশ্চিত করুন।",
+    "banglish": "Protiti payslip,attendance,leave,policy reviewed confirm korun.",
+    "ar": "أكد مراجعة كل قسيمة راتب وحضور وإجازة وسياسة."
+  },
+  "Confirm that this exact verified account belongs to this staff member; it grants access to their payslips.": {
+    "bn": "এই সঠিক যাচাইকৃত অ্যাকাউন্ট কর্মীরই, নিশ্চিত করুন; এতে তার বেতনপত্রের প্রবেশাধিকার হবে।",
+    "banglish": "Exact verified account staff-er confirm korun; ete payslip access hobe.",
+    "ar": "أكد أن هذا الحساب المتحقق المحدد يخص الموظف؛ فهو يمنح الوصول لقسائم راتبه."
+  },
+  "Confirm that you reviewed the source evidence, policy, amounts and journal before approval.": {
+    "bn": "অনুমোদনের আগে উৎসপ্রমাণ, নীতি, পরিমাণ ও জাবেদা পর্যালোচনা নিশ্চিত করুন।",
+    "banglish": "Approval-er age source evidence,policy,amount,journal review confirm korun.",
+    "ar": "أكد مراجعة أدلة المصدر والسياسة والمبالغ والقيد قبل الاعتماد."
+  },
+  "Confirm the displayed total and branch collection terms before placing the order.": {
+    "bn": "অর্ডারের আগে দেখানো মোট ও শাখা থেকে সংগ্রহের শর্ত নিশ্চিত করুন।",
+    "banglish": "Order-er age displayed total o branch collection terms confirm korun.",
+    "ar": "أكد الإجمالي المعروض وشروط الاستلام من الفرع قبل تقديم الطلب."
+  },
+  "Confirm the returned goods were physically received and are suitable to return to stock.": {
+    "bn": "ফেরত পণ্য বাস্তবে পাওয়া গেছে ও মজুতে ফেরানোর উপযুক্ত, নিশ্চিত করুন।",
+    "banglish": "Returned goods physically pawa o restock suitable confirm korun.",
+    "ar": "أكد استلام البضائع المرتجعة فعلياً وصلاحيتها للإعادة للمخزون."
+  },
+  "Confirm the verified identity belongs to this customer before linking.": {
+    "bn": "সংযোগের আগে যাচাইকৃত পরিচয় এই গ্রাহকেরই, নিশ্চিত করুন।",
+    "banglish": "Link-er age verified identity ei customer-er confirm korun.",
+    "ar": "أكد أن الهوية المتحقق منها تخص هذا العميل قبل الربط."
+  },
+  "Currency minor units must be explicitly selected from zero through three.": {
+    "bn": "মুদ্রার ক্ষুদ্র এককের দশমিক শূন্য থেকে তিন স্পষ্টভাবে নির্বাচন করতে হবে।",
+    "banglish": "Currency minor unit0theke3 explicitly bachhte hobe.",
+    "ar": "يجب اختيار المنازل العشرية للعملة صراحةً من صفر إلى ثلاثة."
+  },
+  "Currency minor units must be from zero through three.": {
+    "bn": "মুদ্রার দশমিক শূন্য থেকে তিন হতে হবে।",
+    "banglish": "Currency minor unit0theke3 hobe.",
+    "ar": "يجب أن تكون المنازل العشرية للعملة من صفر إلى ثلاثة."
+  },
+  "Custody cannot be backdated before the latest custody event.": {
+    "bn": "জিম্মার তারিখ সর্বশেষ জিম্মার ঘটনার আগে দেওয়া যাবে না।",
+    "banglish": "Custody date latest custody event-er age noy.",
+    "ar": "لا يمكن تأريخ العهدة قبل آخر حدث عهدة."
+  },
+  "Custody date must be between acquisition and today.": {
+    "bn": "জিম্মার তারিখ অধিগ্রহণ ও আজকের মধ্যে হতে হবে।",
+    "banglish": "Custody date acquisition o ajker moddhe hobe.",
+    "ar": "يجب أن يكون تاريخ العهدة بين الاقتناء واليوم."
+  },
+  "Dates must be inside the staff member's employment dates.": {
+    "bn": "তারিখ কর্মীর চাকরির সময়সীমার মধ্যে হতে হবে।",
+    "banglish": "Date staff-er employment date-er moddhe hobe.",
+    "ar": "يجب أن تقع التواريخ ضمن مدة توظيف الموظف."
+  },
+  "Depreciation must be posted one completed month at a time, without skipped or repeated periods.": {
+    "bn": "অবচয় একবারে একটি শেষ হওয়া মাসে পোস্ট করতে হবে; মাস বাদ বা পুনরাবৃত্তি নয়।",
+    "banglish": "Depreciation ek completed month kore post hobe; skip/repeat noy.",
+    "ar": "يجب ترحيل الإهلاك شهراً مكتملاً واحداً كل مرة، دون تخطي فترات أو تكرارها."
+  },
+  "Depreciation requires a different user's approval before posting.": {
+    "bn": "অবচয় পোস্টের আগে অন্য ব্যবহারকারীর অনুমোদন প্রয়োজন।",
+    "banglish": "Depreciation post-er age onno user approval lage.",
+    "ar": "يتطلب الإهلاك اعتماد مستخدم آخر قبل الترحيل."
+  },
+  "Depreciation run not found in this branch.": {
+    "bn": "এই শাখায় অবচয় কার্যক্রম নেই।",
+    "banglish": "Ei branch-e depreciation run nei.",
+    "ar": "لم يُعثر على دورة الإهلاك في هذا الفرع."
+  },
+  "Depreciation start must be on or after acquisition and before year 9999.": {
+    "bn": "অবচয়ের শুরু অধিগ্রহণের দিনে বা পরে এবং 9999 সালের আগে হতে হবে।",
+    "banglish": "Depreciation start acquisition-er dine/pore o year9999-er age hobe.",
+    "ar": "يجب أن يبدأ الإهلاك في الاقتناء أو بعده وقبل سنة 9999."
+  },
+  "Disposal cannot predate acquisition or already-posted depreciation.": {
+    "bn": "নিষ্পত্তি অধিগ্রহণ বা পোস্ট করা অবচয়ের আগে হতে পারে না।",
+    "banglish": "Disposal acquisition ba posted depreciation-er age noy.",
+    "ar": "لا يجوز أن يسبق الاستبعاد الاقتناء أو الإهلاك المرحّل."
+  },
+  "Disposal not found in this branch.": {
+    "bn": "এই শাখায় নিষ্পত্তি পাওয়া যায়নি।",
+    "banglish": "Ei branch-e disposal pawa jayni.",
+    "ar": "لم يُعثر على الاستبعاد في هذا الفرع."
+  },
+  "Disposal requires a different user's approval before posting.": {
+    "bn": "নিষ্পত্তি পোস্টের আগে অন্য ব্যবহারকারীর অনুমোদন প্রয়োজন।",
+    "banglish": "Disposal post-er age onno user approval lage.",
+    "ar": "يتطلب الاستبعاد اعتماد مستخدم آخر قبل الترحيل."
+  },
+  "Earlier depreciation periods are missing. Post the earliest due month first.": {
+    "bn": "আগের অবচয়কাল বাকি। প্রথম বকেয়া মাস আগে পোস্ট করুন।",
+    "banglish": "Earlier depreciation baki. Earliest due month age post korun.",
+    "ar": "فترات إهلاك سابقة ناقصة. رحّل أقدم شهر مستحق أولاً."
+  },
+  "Employment dates cannot exclude recorded attendance or pending/approved leave.": {
+    "bn": "চাকরির তারিখ দিয়ে নথিভুক্ত উপস্থিতি বা অপেক্ষমাণ/অনুমোদিত ছুটি বাদ দেওয়া যাবে না।",
+    "banglish": "Employment date recorded attendance ba pending/approved leave bad dite parbe na.",
+    "ar": "لا يجوز لتواريخ التوظيف استبعاد حضور مسجل أو إجازة معلقة/معتمدة."
+  },
+  "Enter a valid email address without a display name.": {
+    "bn": "প্রদর্শন-নাম ছাড়া বৈধ ইমেইল ঠিকানা দিন।",
+    "banglish": "Display name chhara valid email din.",
+    "ar": "أدخل عنوان بريد صالحاً دون اسم عرض."
+  },
+  "Enter an installed IANA or Windows timezone identifier.": {
+    "bn": "ইনস্টল করা IANA বা Windows সময় অঞ্চলের পরিচিতি দিন।",
+    "banglish": "Installed IANA ba Windows timezone ID din.",
+    "ar": "أدخل معرّف منطقة زمنية مثبتاً من IANA أو Windows."
+  },
+  "Enter the approved three-letter currency and 0–3 decimal places.": {
+    "bn": "অনুমোদিত তিন অক্ষরের মুদ্রা ও ০–৩ দশমিক ঘর দিন।",
+    "banglish": "Approved3letter currency o0–3decimal din.",
+    "ar": "أدخل العملة المعتمدة ذات الثلاثة أحرف و0–3 منازل عشرية."
+  },
+  "Every quote product must belong to the active branch.": {
+    "bn": "মূল্যপ্রস্তাবের প্রতিটি পণ্য সক্রিয় শাখার হতে হবে।",
+    "banglish": "Quote-er protiti product active branch-er hobe.",
+    "ar": "يجب أن ينتمي كل منتج في العرض للفرع النشط."
+  },
+  "Every quote product requires a reviewed stock unit in Product Master.": {
+    "bn": "প্রতিটি মূল্যপ্রস্তাবের পণ্যে Product Master-এ পর্যালোচিত মজুত একক প্রয়োজন।",
+    "banglish": "Protiti quote product-e Product Master-er reviewed stockunit lage.",
+    "ar": "يتطلب كل منتج في العرض وحدة مخزون مُراجعة في سجل المنتجات."
+  },
+  "Existing amounts require an explicit currency review before this policy can be approved.": {
+    "bn": "নীতির অনুমোদনের আগে বিদ্যমান পরিমাণের মুদ্রা স্পষ্টভাবে পর্যালোচনা প্রয়োজন।",
+    "banglish": "Policy approval-er age existing amount-er explicit currency review lage.",
+    "ar": "تتطلب المبالغ الحالية مراجعة صريحة للعملة قبل اعتماد السياسة."
+  },
+  "Explicitly confirm that existing ledger, stock values and document amounts use this currency. No conversion will be performed.": {
+    "bn": "নিশ্চিত করুন বিদ্যমান খতিয়ান, মজুত মূল্য ও নথির পরিমাণ এই মুদ্রায় আছে। কোনো রূপান্তর হবে না।",
+    "banglish": "Confirm korun existing ledger,stockvalue,document amount ei currency-te. Conversion hobe na.",
+    "ar": "أكد صراحةً أن الدفتر وقيم المخزون ومبالغ المستندات الحالية تستخدم هذه العملة. لن يحدث تحويل."
+  },
+  "Granted marketing consent requires a contact email or phone and recorded evidence.": {
+    "bn": "প্রদত্ত বিপণন-সম্মতির জন্য ইমেইল বা ফোন এবং নথিভুক্ত প্রমাণ প্রয়োজন।",
+    "banglish": "Granted marketing consent-e email/phone o recorded evidence lage.",
+    "ar": "تتطلب الموافقة التسويقية الممنوحة بريداً أو هاتفاً ودليلاً مسجلاً."
+  },
+  "Identical compensation terms already exist for this effective date; no duplicate version was created.": {
+    "bn": "এই কার্যকর তারিখে একই পারিশ্রমিকের শর্ত আছে; ডুপ্লিকেট সংস্করণ তৈরি হয়নি।",
+    "banglish": "Ei effective date-e same compensation terms ache; duplicate version hoyni.",
+    "ar": "توجد شروط تعويض مطابقة لتاريخ السريان؛ لم يُنشأ إصدار مكرر."
+  },
+  "Insufficient unreserved stock.": {
+    "bn": "অসংরক্ষিত মজুত পর্যাপ্ত নয়।",
+    "banglish": "Unreserved stock porjapto noy.",
+    "ar": "المخزون غير المحجوز غير كافٍ."
+  },
+  "Invalid request token. Reload this page.": {
+    "bn": "অনুরোধের টোকেন অবৈধ। পাতা পুনরায় লোড করুন।",
+    "banglish": "Request token invalid. Page reload korun.",
+    "ar": "رمز الطلب غير صالح. أعد تحميل الصفحة."
+  },
+  "Invalid stage transition. Won is available only through reviewed quote acceptance.": {
+    "bn": "অবস্থান্তর অবৈধ। পর্যালোচিত মূল্যপ্রস্তাব গ্রহণের মাধ্যমেই Won সম্ভব।",
+    "banglish": "Stage transition invalid. Reviewed quote acceptance diyei Won hoy.",
+    "ar": "انتقال المرحلة غير صالح. تتاح حالة رابحة فقط بقبول عرض سعر مُراجع."
+  },
+  "Invalid version token. Refresh the page.": {
+    "bn": "সংস্করণের টোকেন অবৈধ। পাতা হালনাগাদ করুন।",
+    "banglish": "Version token invalid. Page refresh korun.",
+    "ar": "رمز الإصدار غير صالح. حدّث الصفحة."
+  },
+  "Lead is not available in the active branch.": {
+    "bn": "সক্রিয় শাখায় লিডটি নেই।",
+    "banglish": "Active branch-e lead nei.",
+    "ar": "العميل المحتمل غير متاح في الفرع النشط."
+  },
+  "Leave has already been reviewed.": {
+    "bn": "ছুটি ইতিমধ্যে পর্যালোচিত।",
+    "banglish": "Leave agei reviewed.",
+    "ar": "رُوجعت الإجازة بالفعل."
+  },
+  "Leave request not found.": {
+    "bn": "ছুটির আবেদন পাওয়া যায়নি।",
+    "banglish": "Leave request pawa jayni.",
+    "ar": "لم يُعثر على طلب الإجازة."
+  },
+  "Line amount exceeds the supported range.": {
+    "bn": "লাইনের পরিমাণ সমর্থিত সীমার বাইরে।",
+    "banglish": "Line amount supported range-er baire.",
+    "ar": "يتجاوز مبلغ السطر النطاق المدعوم."
+  },
+  "Line total exceeds the supported range.": {
+    "bn": "লাইনের মোট সমর্থিত সীমার বাইরে।",
+    "banglish": "Line total supported range-er baire.",
+    "ar": "يتجاوز إجمالي السطر النطاق المدعوم."
+  },
+  "Monthly straight line requires 1–1200 useful-life months and an explicit first-of-month start. Partial-month depreciation is not inferred.": {
+    "bn": "মাসিক সরলরৈখিক অবচয়ে ১–১২০০ মাস আয়ুষ্কাল ও মাসের প্রথম দিনে শুরু প্রয়োজন। আংশিক মাসের অবচয় ধরে নেওয়া হয় না।",
+    "banglish": "Monthly straightline-e1–1200life month o explicit firstday start lage. Partialmonth depreciation dhora hoy na.",
+    "ar": "يتطلب القسط الثابت الشهري عمراً نافعاً 1–1200 شهر وبدءاً صريحاً في أول الشهر. لا يُفترض إهلاك جزء من الشهر."
+  },
+  "New compensation versions cannot predate the latest configured version; use a separately reviewed historical correction.": {
+    "bn": "নতুন পারিশ্রমিক সংস্করণ সর্বশেষ নির্ধারিত সংস্করণের আগে হতে পারে না; পৃথক পর্যালোচিত ঐতিহাসিক সংশোধন ব্যবহার করুন।",
+    "banglish": "New compensationversion latest configured version-er age noy; reviewed historical correction korun.",
+    "ar": "لا يجوز أن يسبق إصدار التعويض الجديد أحدث إصدار مهيأ؛ استخدم تصحيحاً تاريخياً مُراجعاً منفصلاً."
+  },
+  "No depreciable active assets are due in this month. Zero-cost, non-depreciable, disposed and residual-floor assets are excluded.": {
+    "bn": "এই মাসে অবচয়যোগ্য সক্রিয় সম্পদ বকেয়া নেই। শূন্য ব্যয়, অবচয়-অযোগ্য, নিষ্পত্তিকৃত ও অবশিষ্ট নিম্নসীমার সম্পদ বাদ থাকে।",
+    "banglish": "Ei mashe depreciable activeasset due nei. Zerocost,nondepreciable,disposed,residualfloor bad.",
+    "ar": "لا توجد أصول نشطة قابلة للإهلاك مستحقة هذا الشهر. تُستبعد صفرية التكلفة وغير القابلة للإهلاك والمستبعدة والبالغة حد القيمة المتبقية."
+  },
+  "No verified staff account is linked in this branch. Ask an authorized HR identity administrator.": {
+    "bn": "এই শাখায় যাচাইকৃত কর্মী অ্যাকাউন্ট যুক্ত নেই। অনুমোদিত HR পরিচয়-প্রশাসককে বলুন।",
+    "banglish": "Ei branch-e verified staff account linked nei. Authorized HR identity admin-ke bolun.",
+    "ar": "لا يرتبط حساب موظف متحقق منه بهذا الفرع. اطلب مساعدة مسؤول هويات الموارد البشرية المخول."
+  },
+  "Non-depreciable assets require zero life months and residual value equal to cost, with a documented reason.": {
+    "bn": "অবচয়-অযোগ্য সম্পদে আয়ুষ্কাল শূন্য, অবশিষ্ট মূল্য ব্যয়ের সমান ও নথিভুক্ত কারণ প্রয়োজন।",
+    "banglish": "Nondepreciable asset-e life0,residual=cost o documentedreason lage.",
+    "ar": "تتطلب الأصول غير القابلة للإهلاك عمراً صفرياً وقيمة متبقية مساوية للتكلفة وسبباً موثقاً."
+  },
+  "Only a draft acquisition can be approved.": {
+    "bn": "শুধু খসড়া অধিগ্রহণ অনুমোদন করা যায়।",
+    "banglish": "Shudhu draft acquisition approve hoy.",
+    "ar": "يمكن اعتماد مسودة اقتناء فقط."
+  },
+  "Only a draft depreciation run can be approved.": {
+    "bn": "শুধু খসড়া অবচয় কার্যক্রম অনুমোদন করা যায়।",
+    "banglish": "Shudhu draft depreciation run approve hoy.",
+    "ar": "يمكن اعتماد مسودة دورة إهلاك فقط."
+  },
+  "Only a draft disposal can be approved.": {
+    "bn": "শুধু খসড়া নিষ্পত্তি অনুমোদন করা যায়।",
+    "banglish": "Shudhu draft disposal approve hoy.",
+    "ar": "يمكن اعتماد مسودة استبعاد فقط."
+  },
+  "Only a draft quote can be edited.": {
+    "bn": "শুধু খসড়া মূল্যপ্রস্তাব সম্পাদনা করা যায়।",
+    "banglish": "Shudhu draft quote edit hoy.",
+    "ar": "يمكن تعديل مسودة عرض سعر فقط."
+  },
+  "Only a draft quote can be reviewed.": {
+    "bn": "শুধু খসড়া মূল্যপ্রস্তাব পর্যালোচনা করা যায়।",
+    "banglish": "Shudhu draft quote review hoy.",
+    "ar": "يمكن مراجعة مسودة عرض سعر فقط."
+  },
+  "Only a reviewed quote can return to draft.": {
+    "bn": "শুধু পর্যালোচিত মূল্যপ্রস্তাব খসড়ায় ফিরতে পারে।",
+    "banglish": "Shudhu reviewed quote draft-e firte pare.",
+    "ar": "يمكن إرجاع عرض سعر مُراجع فقط إلى المسودة."
+  },
+  "Only a reviewed, unaccepted quote may be accepted.": {
+    "bn": "শুধু পর্যালোচিত, এখনও গৃহীত নয় এমন মূল্যপ্রস্তাব গ্রহণ করা যায়।",
+    "banglish": "Shudhu reviewed unaccepted quote accept hoy.",
+    "ar": "يمكن قبول عرض سعر مُراجع لم يُقبل بعد فقط."
+  },
+  "Only an active asset can be disposed.": {
+    "bn": "শুধু সক্রিয় সম্পদ নিষ্পত্তি করা যায়।",
+    "banglish": "Shudhu active asset disposal hoy.",
+    "ar": "يمكن استبعاد أصل نشط فقط."
+  },
+  "Only an active asset can change custody.": {
+    "bn": "শুধু সক্রিয় সম্পদের জিম্মা বদলানো যায়।",
+    "banglish": "Shudhu active asset custody bodlay.",
+    "ar": "يمكن تغيير عهدة أصل نشط فقط."
+  },
+  "Only an unposted acquisition can be cancelled.": {
+    "bn": "শুধু পোস্ট না করা অধিগ্রহণ বাতিল করা যায়।",
+    "banglish": "Shudhu unposted acquisition cancel hoy.",
+    "ar": "يمكن إلغاء اقتناء غير مرحّل فقط."
+  },
+  "Only an unposted disposal can be cancelled.": {
+    "bn": "শুধু পোস্ট না করা নিষ্পত্তি বাতিল করা যায়।",
+    "banglish": "Shudhu unposted disposal cancel hoy.",
+    "ar": "يمكن إلغاء استبعاد غير مرحّل فقط."
+  },
+  "Only an unposted run can be cancelled.": {
+    "bn": "শুধু পোস্ট না করা কার্যক্রম বাতিল করা যায়।",
+    "banglish": "Shudhu unposted run cancel hoy.",
+    "ar": "يمكن إلغاء دورة غير مرحّلة فقط."
+  },
+  "Only approved, unposted payroll can be posted once.": {
+    "bn": "শুধু অনুমোদিত, পোস্ট না করা বেতন একবার পোস্ট করা যায়।",
+    "banglish": "Shudhu approved unposted payroll ekbar post hoy.",
+    "ar": "يمكن ترحيل رواتب معتمدة غير مرحّلة مرة واحدة فقط."
+  },
+  "Only archived leads can be restored.": {
+    "bn": "শুধু আর্কাইভ করা লিড পুনরুদ্ধার করা যায়।",
+    "banglish": "Shudhu archived lead restore hoy.",
+    "ar": "يمكن استعادة العملاء المحتملين المؤرشفين فقط."
+  },
+  "Only draft payroll can be approved.": {
+    "bn": "শুধু খসড়া বেতন অনুমোদন করা যায়।",
+    "banglish": "Shudhu draft payroll approve hoy.",
+    "ar": "يمكن اعتماد مسودة رواتب فقط."
+  },
+  "Only draft payroll can be recalculated.": {
+    "bn": "শুধু খসড়া বেতন পুনর্গণনা করা যায়।",
+    "banglish": "Shudhu draft payroll recalculate hoy.",
+    "ar": "يمكن إعادة حساب مسودة رواتب فقط."
+  },
+  "Only fulfilled orders can be returned.": {
+    "bn": "শুধু সরবরাহকৃত অর্ডার ফেরত নেওয়া যায়।",
+    "banglish": "Shudhu fulfilled order return hoy.",
+    "ar": "يمكن إرجاع الطلبات المنفذة فقط."
+  },
+  "Opportunity is not available in the active branch.": {
+    "bn": "সক্রিয় শাখায় বিক্রয়-সুযোগটি নেই।",
+    "banglish": "Active branch-e opportunity nei.",
+    "ar": "الفرصة غير متاحة في الفرع النشط."
+  },
+  "Order line not found.": {
+    "bn": "অর্ডারের লাইন পাওয়া যায়নি।",
+    "banglish": "Order line pawa jayni.",
+    "ar": "لم يُعثر على بند الطلب."
+  },
+  "Order not found.": {
+    "bn": "অর্ডার পাওয়া যায়নি।",
+    "banglish": "Order pawa jayni.",
+    "ar": "لم يُعثر على الطلب."
+  },
+  "Payroll policy no longer matches the company policy effective for this month.": {
+    "bn": "বেতননীতি এই মাসে কার্যকর কোম্পানির নীতির সঙ্গে আর মেলে না।",
+    "banglish": "Payroll policy ei masher effective companypolicy-r sathe ar mele na.",
+    "ar": "لم تعد سياسة الرواتب تطابق سياسة الشركة السارية لهذا الشهر."
+  },
+  "Payroll run not found in this branch.": {
+    "bn": "এই শাখায় বেতন কার্যক্রম পাওয়া যায়নি।",
+    "banglish": "Ei branch-e payroll run pawa jayni.",
+    "ar": "لم يُعثر على دورة الرواتب في هذا الفرع."
+  },
+  "Payroll source data changed. Recalculate the draft and review the new amounts.": {
+    "bn": "বেতনের উৎসতথ্য বদলেছে। খসড়া পুনর্গণনা করে নতুন পরিমাণ পর্যালোচনা করুন।",
+    "banglish": "Payroll source changed. Draft recalculate kore new amount review korun.",
+    "ar": "تغيرت بيانات مصدر الرواتب. أعد حساب المسودة وراجع المبالغ الجديدة."
+  },
+  "Payslip not found.": {
+    "bn": "বেতনপত্র পাওয়া যায়নি।",
+    "banglish": "Payslip pawa jayni.",
+    "ar": "لم يُعثر على قسيمة الراتب."
+  },
+  "Payslips become available after accrual posting.": {
+    "bn": "বেতনের দায় পোস্টের পরে বেতনপত্র পাওয়া যায়।",
+    "banglish": "Accrual post-er por payslip pawa jay.",
+    "ar": "تتاح قسائم الرواتب بعد ترحيل الاستحقاق."
+  },
+  "Policy has already been reviewed.": {
+    "bn": "নীতি ইতিমধ্যে পর্যালোচিত।",
+    "banglish": "Policy agei reviewed.",
+    "ar": "رُوجعت السياسة بالفعل."
+  },
+  "Policy not found.": {
+    "bn": "নীতি পাওয়া যায়নি।",
+    "banglish": "Policy pawa jayni.",
+    "ar": "لم يُعثر على السياسة."
+  },
+  "Policy unavailable.": {
+    "bn": "নীতি অনুপলব্ধ।",
+    "banglish": "Policy unavailable.",
+    "ar": "السياسة غير متاحة."
+  },
+  "Post depreciation through the month before disposal first. Disposal does not invent partial-month depreciation.": {
+    "bn": "আগে নিষ্পত্তির পূর্ববর্তী মাস পর্যন্ত অবচয় পোস্ট করুন। নিষ্পত্তিতে আংশিক মাসের অবচয় বানিয়ে নেওয়া হয় না।",
+    "banglish": "Age disposal-er ager mash porjonto depreciation post korun. Disposal partialmonth depreciation dhore na.",
+    "ar": "رحّل الإهلاك حتى الشهر السابق للاستبعاد أولاً. لا يفترض الاستبعاد إهلاك جزء من الشهر."
+  },
+  "Posting currency differs from the approved payroll snapshot.": {
+    "bn": "পোস্টের মুদ্রা অনুমোদিত বেতনের সংরক্ষিত কপি থেকে ভিন্ন।",
+    "banglish": "Postingcurrency approved payroll snapshot-er theke alada.",
+    "ar": "تختلف عملة الترحيل عن لقطة الرواتب المعتمدة."
+  },
+  "Posting date must be on or after the payroll period end.": {
+    "bn": "পোস্টের তারিখ বেতনের সময়কালের শেষ দিন বা পরে হতে হবে।",
+    "banglish": "Postingdate payroll period end-er dine ba pore hobe.",
+    "ar": "يجب أن يكون تاريخ الترحيل في نهاية فترة الرواتب أو بعدها."
+  },
+  "Price has more precision than the configured currency permits.": {
+    "bn": "মূল্যে নির্ধারিত মুদ্রার চেয়ে বেশি দশমিক আছে।",
+    "banglish": "Price-e configured currency-r cheye beshi precision ache.",
+    "ar": "لدقة السعر منازل أكثر مما تسمح به العملة المحددة."
+  },
+  "Product changed, or stock identity was changed. Reload the catalog.": {
+    "bn": "পণ্য বা মজুতের পরিচয় বদলেছে। ক্যাটালগ পুনরায় লোড করুন।",
+    "banglish": "Product ba stock identity bodleche. Catalog reload korun.",
+    "ar": "تغير المنتج أو هوية المخزون. أعد تحميل الكتالوج."
+  },
+  "Product currency needs staff review.": {
+    "bn": "পণ্যের মুদ্রা কর্মীর পর্যালোচনা প্রয়োজন।",
+    "banglish": "Product currency staff review chai.",
+    "ar": "تحتاج عملة المنتج إلى مراجعة الموظف."
+  },
+  "Quote is not available in the active branch.": {
+    "bn": "সক্রিয় শাখায় মূল্যপ্রস্তাব নেই।",
+    "banglish": "Active branch-e quote nei.",
+    "ar": "عرض السعر غير متاح في الفرع النشط."
+  },
+  "Quote validity cannot end before the quote date.": {
+    "bn": "মূল্যপ্রস্তাবের মেয়াদ তার তারিখের আগে শেষ হতে পারে না।",
+    "banglish": "Quote validity quote date-er age shesh noy.",
+    "ar": "لا يجوز أن تنتهي صلاحية العرض قبل تاريخه."
+  },
+  "Recorded date must be from 2000 through today in the approved company time zone.": {
+    "bn": "নথিভুক্ত তারিখ অনুমোদিত কোম্পানির সময় অঞ্চলে 2000 সাল থেকে আজকের মধ্যে হতে হবে।",
+    "banglish": "Recorded date approved company timezone-e2000thekeaj porjonto hobe.",
+    "ar": "يجب أن يكون التاريخ المسجل من سنة 2000 حتى اليوم وفق المنطقة الزمنية المعتمدة للشركة."
+  },
+  "Release the owning reservation atomically before consuming stock.": {
+    "bn": "মজুত ব্যবহার করার আগে একই লেনদেনে সংশ্লিষ্ট সংরক্ষণ মুক্ত করুন।",
+    "banglish": "Stock consume-er age owning reservation atomically release korun.",
+    "ar": "حرر الحجز المالك ذرياً قبل استهلاك المخزون."
+  },
+  "Replacement tax policies must be prospective and start after the previous version.": {
+    "bn": "প্রতিস্থাপন করনীতি ভবিষ্যৎমুখী এবং আগের সংস্করণের পরে শুরু হতে হবে।",
+    "banglish": "Replacement taxpolicy prospective o previousversion-er pore shuru hobe.",
+    "ar": "يجب أن تكون سياسات الضريبة البديلة مستقبلية وتبدأ بعد الإصدار السابق."
+  },
+  "Reservation integrity check failed.": {
+    "bn": "সংরক্ষণের অখণ্ডতা যাচাই ব্যর্থ হয়েছে।",
+    "banglish": "Reservation integrity check failed.",
+    "ar": "فشل فحص سلامة الحجز."
+  },
+  "Reserved stock balance requires reconciliation.": {
+    "bn": "সংরক্ষিত মজুতের স্থিতি মিলিয়ে দেখা প্রয়োজন।",
+    "banglish": "Reserved stock balance reconciliation lage.",
+    "ar": "يتطلب رصيد المخزون المحجوز مطابقة."
+  },
+  "Residual value cannot exceed acquisition cost.": {
+    "bn": "অবশিষ্ট মূল্য অধিগ্রহণ ব্যয়ের বেশি হতে পারে না।",
+    "banglish": "Residualvalue acquisitioncost-er beshi noy.",
+    "ar": "لا يمكن أن تتجاوز القيمة المتبقية تكلفة الاقتناء."
+  },
+  "Restore this archived lead before adding or changing work.": {
+    "bn": "কাজ যোগ বা বদলানোর আগে আর্কাইভ করা লিড পুনরুদ্ধার করুন।",
+    "banglish": "Kaj jog/bodler age archived lead restore korun.",
+    "ar": "استعد العميل المحتمل المؤرشف قبل إضافة العمل أو تغييره."
+  },
+  "Return currency does not match the approved ledger currency.": {
+    "bn": "ফেরতের মুদ্রা অনুমোদিত খতিয়ানের মুদ্রার সঙ্গে মেলে না।",
+    "banglish": "Returncurrency approved ledgercurrency-r sathe mele na.",
+    "ar": "عملة الإرجاع لا تطابق عملة الدفتر المعتمدة."
+  },
+  "Return exceeds the remaining fulfilled quantity.": {
+    "bn": "ফেরত অবশিষ্ট সরবরাহকৃত পরিমাণের বেশি।",
+    "banglish": "Return remaining fulfilled quantity-r beshi.",
+    "ar": "يتجاوز الإرجاع الكمية المنفذة المتبقية."
+  },
+  "Return this remaining low-value quantity together to preserve exact money allocation.": {
+    "bn": "সঠিক অর্থ বণ্টন রাখতে অবশিষ্ট কম-মূল্যের পরিমাণ একসঙ্গে ফেরত দিন।",
+    "banglish": "Exact money allocation-er jonno remaining lowvalue quantity eksathe return korun.",
+    "ar": "أرجع الكمية المتبقية منخفضة القيمة معاً للحفاظ على التوزيع المالي الدقيق."
+  },
+  "Return token was already used for a different request.": {
+    "bn": "ফেরতের টোকেন অন্য অনুরোধে ব্যবহৃত হয়েছে।",
+    "banglish": "Returntoken onno request-e used.",
+    "ar": "استُخدم رمز الإرجاع لطلب مختلف بالفعل."
+  },
+  "Review pending leave in this month before calculating payroll.": {
+    "bn": "বেতন হিসাবের আগে এই মাসের অপেক্ষমাণ ছুটি পর্যালোচনা করুন।",
+    "banglish": "Payroll calculate-er age ei masher pending leave review korun.",
+    "ar": "راجع إجازات هذا الشهر المعلقة قبل حساب الرواتب."
+  },
+  "Review the displayed information and explicitly confirm this action.": {
+    "bn": "প্রদর্শিত তথ্য পর্যালোচনা করে কাজটি স্পষ্টভাবে নিশ্চিত করুন।",
+    "banglish": "Displayed info review kore action explicitly confirm korun.",
+    "ar": "راجع المعلومات المعروضة وأكد هذا الإجراء صراحةً."
+  },
+  "Select Review, ReturnToDraft or Cancel.": {
+    "bn": "Review, ReturnToDraft অথবা Cancel নির্বাচন করুন।",
+    "banglish": "Review,ReturnToDraft ba Cancel bachhun.",
+    "ar": "اختر Review أو ReturnToDraft أو Cancel."
+  },
+  "Select a valid activity type.": {
+    "bn": "বৈধ কার্যক্রমের ধরন নির্বাচন করুন।",
+    "banglish": "Valid activitytype bachhun.",
+    "ar": "اختر نوع نشاط صالحاً."
+  },
+  "Select a valid marketing-consent state.": {
+    "bn": "বৈধ বিপণন-সম্মতির অবস্থা নির্বাচন করুন।",
+    "banglish": "Valid marketing consentstate bachhun.",
+    "ar": "اختر حالة موافقة تسويقية صالحة."
+  },
+  "Select an active customer in the active branch.": {
+    "bn": "সক্রিয় শাখার সক্রিয় গ্রাহক নির্বাচন করুন।",
+    "banglish": "Active branch-er active customer bachhun.",
+    "ar": "اختر عميلاً نشطاً في الفرع النشط."
+  },
+  "Select an explicit depreciation method.": {
+    "bn": "অবচয়ের পদ্ধতি স্পষ্টভাবে নির্বাচন করুন।",
+    "banglish": "Explicit depreciation method bachhun.",
+    "ar": "اختر طريقة إهلاك صريحة."
+  },
+  "Select an explicitly reviewed tax policy for this company.": {
+    "bn": "এই কোম্পানির স্পষ্টভাবে পর্যালোচিত করনীতি নির্বাচন করুন।",
+    "banglish": "Ei company-r explicitly reviewed taxpolicy bachhun.",
+    "ar": "اختر سياسة ضريبية مُراجعة صراحةً لهذه الشركة."
+  },
+  "Select an unlinked, email-verified existing account with company and branch access.": {
+    "bn": "কোম্পানি ও শাখায় প্রবেশাধিকারসহ অসংযুক্ত, ইমেইল-যাচাইকৃত বিদ্যমান অ্যাকাউন্ট নির্বাচন করুন।",
+    "banglish": "Company/branch access-shoho unlinked,emailverified existing account bachhun.",
+    "ar": "اختر حساباً حالياً غير مرتبط ومؤكد البريد وله صلاحية الشركة والفرع."
+  },
+  "Select cash/bank or other receivable recorded.": {
+    "bn": "নগদ/ব্যাংক বা অন্যান্য প্রাপ্য নথিভুক্ত নির্বাচন করুন।",
+    "banglish": "Cash/bank ba other receivable recorded bachhun.",
+    "ar": "اختر نقد/بنك أو ذمماً مدينة أخرى مسجلة."
+  },
+  "Select cash/bank recorded or other payable recorded.": {
+    "bn": "নগদ/ব্যাংক নথিভুক্ত বা অন্যান্য প্রদেয় নথিভুক্ত নির্বাচন করুন।",
+    "banglish": "Cash/bank recorded ba other payable recorded bachhun.",
+    "ar": "اختر نقد/بنك مسجلاً أو ذمماً دائنة أخرى مسجلة."
+  },
+  "Select the first day of a payroll month.": {
+    "bn": "বেতন মাসের প্রথম দিন নির্বাচন করুন।",
+    "banglish": "Payroll masher prothom din bachhun.",
+    "ar": "اختر أول يوم من شهر الرواتب."
+  },
+  "Select the last day of a completed month.": {
+    "bn": "সম্পূর্ণ শেষ হওয়া মাসের শেষ দিন নির্বাচন করুন।",
+    "banglish": "Completed month-er lastday bachhun.",
+    "ar": "اختر آخر يوم من شهر مكتمل."
+  },
+  "Specify a valid policy period from 2000 through 2100.": {
+    "bn": "2000 থেকে 2100 সালের মধ্যে বৈধ নীতির সময়কাল দিন।",
+    "banglish": "2000theke2100-er moddhe valid policyperiod din.",
+    "ar": "حدد فترة سياسة صالحة بين 2000 و2100."
+  },
+  "Specify the US state or tax jurisdiction; country alone is insufficient.": {
+    "bn": "USA-এর স্টেট বা করের আইনক্ষেত্র দিন; শুধু দেশ যথেষ্ট নয়।",
+    "banglish": "USstate ba taxjurisdiction din; shudhu country jothesto noy.",
+    "ar": "حدد الولاية الأمريكية أو الاختصاص الضريبي؛ الدولة وحدها غير كافية."
+  },
+  "Staff member not found in the selected branch.": {
+    "bn": "নির্বাচিত শাখায় কর্মী পাওয়া যায়নি।",
+    "banglish": "Selected branch-e staff pawa jayni.",
+    "ar": "لم يُعثر على الموظف في الفرع المحدد."
+  },
+  "Standard tax needs a positive explicit rate; zero needs an explicit exemption or out-of-scope basis.": {
+    "bn": "সাধারণ করে ধনাত্মক সুনির্দিষ্ট হার প্রয়োজন; শূন্যে স্পষ্ট অব্যাহতি বা পরিসরের বাইরে থাকার ভিত্তি প্রয়োজন।",
+    "banglish": "Standardtax-e positive explicitrate lage; zero-te exemption ba outofscope basis lage.",
+    "ar": "تحتاج الضريبة القياسية لمعدل موجب صريح؛ ويتطلب الصفر إعفاءً صريحاً أو أساساً للخروج من النطاق."
+  },
+  "Tax approval no longer matches the accepted order snapshot.": {
+    "bn": "কর অনুমোদন গৃহীত অর্ডারের সংরক্ষিত তথ্যের সঙ্গে আর মেলে না।",
+    "banglish": "Taxapproval accepted order snapshot-er sathe ar mele na.",
+    "ar": "لم يعد اعتماد الضريبة يطابق لقطة الطلب المقبول."
+  },
+  "Tax policy is outside its effective period.": {
+    "bn": "করনীতি কার্যকর সময়ের বাইরে।",
+    "banglish": "Taxpolicy effectiveperiod-er baire.",
+    "ar": "السياسة الضريبية خارج فترة سريانها."
+  },
+  "Tax policy unavailable.": {
+    "bn": "করনীতি অনুপলব্ধ।",
+    "banglish": "Taxpolicy unavailable.",
+    "ar": "السياسة الضريبية غير متاحة."
+  },
+  "That account or customer is already linked. Identity links cannot be reassigned.": {
+    "bn": "অ্যাকাউন্ট বা গ্রাহক ইতিমধ্যে যুক্ত। পরিচয়ের সংযোগ পুনর্নিয়োগ করা যায় না।",
+    "banglish": "Account ba customer agei linked. Identitylink reassign hoy na.",
+    "ar": "الحساب أو العميل مرتبط بالفعل. لا يمكن إعادة تعيين روابط الهوية."
+  },
+  "The activity opportunity must belong to this lead.": {
+    "bn": "কার্যক্রমের সুযোগটি এই লিডের হতে হবে।",
+    "banglish": "Activity opportunity ei lead-er hobe.",
+    "ar": "يجب أن تنتمي فرصة النشاط لهذا العميل المحتمل."
+  },
+  "The cart is empty.": {
+    "bn": "কার্ট খালি।",
+    "banglish": "Cart khali.",
+    "ar": "السلة فارغة."
+  },
+  "The cart quote no longer matches approved server pricing.": {
+    "bn": "কার্টের মূল্যপ্রস্তাব অনুমোদিত সার্ভার মূল্যের সঙ্গে আর মেলে না।",
+    "banglish": "Cartquote approved serverprice-r sathe ar mele na.",
+    "ar": "لم يعد عرض السلة يطابق التسعير المعتمد بالخادم."
+  },
+  "The company accounting currency has not been consistently reviewed and locked.": {
+    "bn": "কোম্পানির হিসাবের মুদ্রা সামঞ্জস্যপূর্ণভাবে পর্যালোচিত ও স্থির হয়নি।",
+    "banglish": "Company accountingcurrency consistently reviewed/locked hoyni.",
+    "ar": "لم تُراجع عملة الشركة المحاسبية وتُقفل بصورة متسقة."
+  },
+  "The company accounting currency is already locked to another denomination.": {
+    "bn": "কোম্পানির হিসাবের মুদ্রা ইতিমধ্যে অন্য মুদ্রায় স্থির।",
+    "banglish": "Company accountingcurrency agei onno denomination-e locked.",
+    "ar": "عملة الشركة المحاسبية مثبتة على عملة أخرى بالفعل."
+  },
+  "The company's approved currency policy changed. Return the quote to draft and review its currency and amounts.": {
+    "bn": "কোম্পানির অনুমোদিত মুদ্রানীতি বদলেছে। মূল্যপ্রস্তাব খসড়ায় ফিরিয়ে মুদ্রা ও পরিমাণ পর্যালোচনা করুন।",
+    "banglish": "Approved company currencypolicy changed. Quote draft-e firiye currency/amount review korun.",
+    "ar": "تغيرت سياسة عملة الشركة المعتمدة. أعد العرض للمسودة وراجع العملة والمبالغ."
+  },
+  "The contact identity changed. Set consent to Unknown, or record fresh reviewed consent evidence for this contact.": {
+    "bn": "যোগাযোগের পরিচয় বদলেছে। সম্মতি অজানা করুন অথবা এই যোগাযোগের নতুন পর্যালোচিত সম্মতির প্রমাণ দিন।",
+    "banglish": "Contactidentity changed. Consent Unknown korun ba fresh reviewed consent evidence din.",
+    "ar": "تغيرت هوية جهة الاتصال. اضبط الموافقة على غير معروف أو سجل دليلاً جديداً مُراجعاً لهذا الاتصال."
+  },
+  "The customer account is no longer active.": {
+    "bn": "গ্রাহকের অ্যাকাউন্ট আর সক্রিয় নেই।",
+    "banglish": "Customeraccount ar active nei.",
+    "ar": "لم يعد حساب العميل نشطاً."
+  },
+  "The entire payroll policy period, currency and decimal places must match one approved company business policy.": {
+    "bn": "পুরো বেতননীতির সময়কাল, মুদ্রা ও দশমিক ঘর একটি অনুমোদিত কোম্পানি নীতির সঙ্গে মিলতে হবে।",
+    "banglish": "Entire payrollpolicy period,currency,decimal ek approved companypolicy-r sathe milbe.",
+    "ar": "يجب أن تطابق فترة سياسة الرواتب كلها وعملتها ومنازلها العشرية سياسة أعمال واحدة معتمدة للشركة."
+  },
+  "The opportunity is closed. No further pipeline or quote actions are available.": {
+    "bn": "বিক্রয়-সুযোগ বন্ধ। আর অগ্রগতি বা মূল্যপ্রস্তাবের কাজ করা যাবে না।",
+    "banglish": "Opportunity closed. Ar pipeline ba quoteaction hoy na.",
+    "ar": "الفرصة مغلقة. لا تتاح إجراءات إضافية للمراحل أو عروض الأسعار."
+  },
+  "The order changed or is not in the required state. Reload it before acting.": {
+    "bn": "অর্ডার বদলেছে বা প্রয়োজনীয় অবস্থায় নেই। কাজের আগে পুনরায় লোড করুন।",
+    "banglish": "Order changed ba requiredstate-e nei. Action-er age reload korun.",
+    "ar": "تغير الطلب أو ليس بالحالة المطلوبة. أعد تحميله قبل الإجراء."
+  },
+  "The order changed or was fulfilled. Reload it; fulfilled stock requires a return.": {
+    "bn": "অর্ডার বদলেছে বা সরবরাহ হয়েছে। পুনরায় লোড করুন; সরবরাহকৃত মজুতে ফেরত প্রক্রিয়া প্রয়োজন।",
+    "banglish": "Order changed ba fulfilled. Reload korun; fulfilledstock return process chai.",
+    "ar": "تغير الطلب أو نُفذ. أعد تحميله؛ المخزون المنفذ يتطلب إرجاعاً."
+  },
+  "The quote is future-dated or expired in the company's timezone. Return it to draft and review its dates.": {
+    "bn": "কোম্পানির সময় অঞ্চলে মূল্যপ্রস্তাব ভবিষ্যতের অথবা মেয়াদোত্তীর্ণ। খসড়ায় ফিরিয়ে তারিখ পর্যালোচনা করুন।",
+    "banglish": "Company timezone-e quote future-dated ba expired. Draft-e firiye date review korun.",
+    "ar": "العرض مؤرخ بالمستقبل أو منتهي في منطقة الشركة الزمنية. أعده للمسودة وراجع التواريخ."
+  },
+  "The quote snapshot failed its amount integrity check.": {
+    "bn": "মূল্যপ্রস্তাবের সংরক্ষিত তথ্যের পরিমাণ যাচাই ব্যর্থ।",
+    "banglish": "Quote snapshot amount integrity failed.",
+    "ar": "فشل فحص سلامة مبالغ لقطة العرض."
+  },
+  "The quote's lead and opportunity do not match.": {
+    "bn": "মূল্যপ্রস্তাবের লিড ও সুযোগ মেলে না।",
+    "banglish": "Quote lead o opportunity mele na.",
+    "ar": "لا يتطابق العميل المحتمل والفرصة في العرض."
+  },
+  "The reviewed company business policy has expired for this date.": {
+    "bn": "এই তারিখে পর্যালোচিত কোম্পানি নীতির মেয়াদ শেষ।",
+    "banglish": "Ei date-e reviewed companypolicy expired.",
+    "ar": "انتهت السياسة المُراجعة للشركة لهذا التاريخ."
+  },
+  "The reviewed company business policy has expired.": {
+    "bn": "পর্যালোচিত কোম্পানি নীতির মেয়াদ শেষ।",
+    "banglish": "Reviewed companypolicy expired.",
+    "ar": "انتهت السياسة المُراجعة للشركة."
+  },
+  "The reviewed payroll formula is invalid; create and independently review a corrected policy.": {
+    "bn": "পর্যালোচিত বেতনের সূত্র অবৈধ; সংশোধিত নীতি তৈরি করে স্বতন্ত্র পর্যালোচনা করান।",
+    "banglish": "Reviewed payrollformula invalid; corrected policy create/independent review korun.",
+    "ar": "صيغة الرواتب المُراجعة غير صالحة؛ أنشئ سياسة مصححة وراجعها مستقلاً."
+  },
+  "The reviewed policy must cover the entire payroll month.": {
+    "bn": "পর্যালোচিত নীতিতে পুরো বেতন মাস অন্তর্ভুক্ত হতে হবে।",
+    "banglish": "Reviewed policy puro payrollmonth cover korbe.",
+    "ar": "يجب أن تغطي السياسة المُراجعة شهر الرواتب كاملاً."
+  },
+  "The run's eligible assets changed. Cancel and recreate the run for review.": {
+    "bn": "কার্যক্রমের উপযুক্ত সম্পদ বদলেছে। বাতিল করে পর্যালোচনার জন্য আবার তৈরি করুন।",
+    "banglish": "Run-er eligibleasset changed. Cancel/recreate forreview korun.",
+    "ar": "تغيرت الأصول المؤهلة للدورة. ألغها وأعد إنشاءها للمراجعة."
+  },
+  "The tax policy does not match the effective company jurisdiction and currency.": {
+    "bn": "করনীতি কার্যকর কোম্পানির আইনক্ষেত্র ও মুদ্রার সঙ্গে মেলে না।",
+    "banglish": "Taxpolicy effective company jurisdiction/currency-r sathe mele na.",
+    "ar": "لا تطابق السياسة الضريبية اختصاص الشركة وعملتها الساريين."
+  },
+  "This activity is already closed.": {
+    "bn": "এই কার্যক্রম ইতিমধ্যে বন্ধ।",
+    "banglish": "Ei activity agei closed.",
+    "ar": "هذا النشاط مغلق بالفعل."
+  },
+  "This activity reference already exists.": {
+    "bn": "এই কার্যক্রমের রেফারেন্স আছে।",
+    "banglish": "Ei activityreference ache.",
+    "ar": "مرجع النشاط موجود بالفعل."
+  },
+  "This date overlaps approved or posted payroll. Its source attendance and leave are locked.": {
+    "bn": "এই তারিখ অনুমোদিত বা পোস্ট করা বেতনের মধ্যে পড়ে। তার উৎস উপস্থিতি ও ছুটি লক।",
+    "banglish": "Ei date approved/posted payroll overlap. Sourceattendance/leave locked.",
+    "ar": "يتداخل التاريخ مع رواتب معتمدة أو مرحّلة. حضورها وإجازاتها المصدرية مقفلتان."
+  },
+  "This lead already has a customer. Explicitly select its linked customer to avoid creating a duplicate.": {
+    "bn": "এই লিডের গ্রাহক আছে। ডুপ্লিকেট এড়াতে সংযুক্ত গ্রাহক স্পষ্টভাবে নির্বাচন করুন।",
+    "banglish": "Ei lead-er customer ache. Duplicate erate linked customer explicitly bachhun.",
+    "ar": "لهذا العميل المحتمل عميل بالفعل. اختر العميل المرتبط صراحةً لتجنب التكرار."
+  },
+  "This lead reference already exists in the active branch.": {
+    "bn": "সক্রিয় শাখায় এই লিড রেফারেন্স আছে।",
+    "banglish": "Active branch-e ei leadreference ache.",
+    "ar": "مرجع العميل المحتمل موجود في الفرع النشط."
+  },
+  "This opportunity reference already exists.": {
+    "bn": "এই সুযোগের রেফারেন্স আছে।",
+    "banglish": "Ei opportunityreference ache.",
+    "ar": "مرجع الفرصة موجود بالفعل."
+  },
+  "This party code already exists. Review and select the existing customer instead.": {
+    "bn": "এই পক্ষের কোড আছে। পর্যালোচনা করে বিদ্যমান গ্রাহক নির্বাচন করুন।",
+    "banglish": "Ei partycode ache. Review kore existingcustomer bachhun.",
+    "ar": "رمز الطرف موجود. راجع العميل الحالي واختره بدلاً من ذلك."
+  },
+  "This policy was already reviewed.": {
+    "bn": "এই নীতি আগে পর্যালোচিত হয়েছে।",
+    "banglish": "Ei policy age reviewed hoyeche.",
+    "ar": "رُوجعت هذه السياسة سابقاً."
+  },
+  "This product is no longer published in the selected branch.": {
+    "bn": "নির্বাচিত শাখায় পণ্যটি আর প্রকাশিত নেই।",
+    "banglish": "Selected branch-e product ar published nei.",
+    "ar": "لم يعد المنتج منشوراً في الفرع المحدد."
+  },
+  "This quote is already final.": {
+    "bn": "এই মূল্যপ্রস্তাব ইতিমধ্যে চূড়ান্ত।",
+    "banglish": "Ei quote agei final.",
+    "ar": "عرض السعر نهائي بالفعل."
+  },
+  "This quote reference already exists.": {
+    "bn": "এই মূল্যপ্রস্তাবের রেফারেন্স আছে।",
+    "banglish": "Ei quotereference ache.",
+    "ar": "مرجع العرض موجود بالفعل."
+  },
+  "This record changed or the action was already completed. Reload it and review the latest version.": {
+    "bn": "রেকর্ড বদলেছে বা কাজ সম্পন্ন হয়েছে। পুনরায় লোড করে সর্বশেষ সংস্করণ দেখুন।",
+    "banglish": "Record changed ba action done. Reload kore latestversion review korun.",
+    "ar": "تغير السجل أو اكتمل الإجراء. أعد تحميله وراجع أحدث إصدار."
+  },
+  "This record changed. Refresh before reviewing it.": {
+    "bn": "রেকর্ড বদলেছে। পর্যালোচনার আগে হালনাগাদ করুন।",
+    "banglish": "Record changed. Review-er age refresh korun.",
+    "ar": "تغير السجل. حدّثه قبل المراجعة."
+  },
+  "This reference, quote or opportunity has already been converted. Open the existing sales-ready record.": {
+    "bn": "এই রেফারেন্স, মূল্যপ্রস্তাব বা সুযোগ ইতিমধ্যে রূপান্তরিত। বিদ্যমান বিক্রয়-প্রস্তুত রেকর্ড খুলুন।",
+    "banglish": "Reference,quote ba opportunity agei converted. Existing salesready record khulun.",
+    "ar": "حُوّل هذا المرجع أو العرض أو الفرصة بالفعل. افتح السجل الحالي الجاهز للبيع."
+  },
+  "This run exceeds the supported 5,000-asset limit. Contact the administrator before posting.": {
+    "bn": "কার্যক্রম ৫,০০০ সম্পদের সীমা ছাড়িয়েছে। পোস্টের আগে প্রশাসকের সঙ্গে যোগাযোগ করুন।",
+    "banglish": "Run5000asset limit chhariyeche. Post-er age admin-ke bolun.",
+    "ar": "تتجاوز الدورة حد 5,000 أصل المدعوم. اتصل بالمسؤول قبل الترحيل."
+  },
+  "This staff code already exists.": {
+    "bn": "এই কর্মীর কোড আছে।",
+    "banglish": "Ei staffcode ache.",
+    "ar": "رمز الموظف موجود بالفعل."
+  },
+  "Unknown enterprise AI fact module.": {
+    "bn": "অজানা enterprise AI তথ্যের মডিউল।",
+    "banglish": "Unknown enterprise AI facts module.",
+    "ar": "وحدة حقائق ذكاء اصطناعي مؤسسية غير معروفة."
+  },
+  "Unknown review draft.": {
+    "bn": "অজানা পর্যালোচনার খসড়া।",
+    "banglish": "Unknown reviewdraft.",
+    "ar": "مسودة مراجعة غير معروفة."
+  },
+  "Use a posting date on or before today.": {
+    "bn": "আজ বা আগের পোস্টের তারিখ ব্যবহার করুন।",
+    "banglish": "Aj ba ager postingdate din.",
+    "ar": "استخدم تاريخ ترحيل لا يتجاوز اليوم."
+  },
+  "Use a recorded date and paid days of 0, 0.5 or 1; record contracted paid rest days as 1 and unpaid days as 0.": {
+    "bn": "নথিভুক্ত তারিখ ও প্রদেয় দিন ০, ০.৫ বা ১ দিন; চুক্তিভিত্তিক বেতনসহ বিশ্রাম ১ ও বিনা বেতন ০ লিখুন।",
+    "banglish": "Recorded date o paidday0,0.5,1 din; contracted paidrest1 o unpaid0 likhun.",
+    "ar": "استخدم تاريخاً مسجلاً وأياماً مدفوعة 0 أو 0.5 أو 1؛ سجّل الراحة المدفوعة تعاقدياً 1 وغير المدفوعة 0."
+  },
+  "Use a reviewed four-digit liability account other than trade payable 2100.": {
+    "bn": "বাণিজ্যিক প্রদেয় 2100 ছাড়া পর্যালোচিত চার অঙ্কের দায়ের হিসাব দিন।",
+    "banglish": "Tradepayable2100chhara reviewed4digit liabilityaccount din.",
+    "ar": "استخدم حساب التزام مُراجعاً من أربعة أرقام غير الذمم التجارية 2100."
+  },
+  "Use a valid date range of at most 367 days, from year 2000 onward.": {
+    "bn": "2000 সাল থেকে সর্বোচ্চ ৩৬৭ দিনের বৈধ সময়সীমা দিন।",
+    "banglish": "Year2000theke shorbocho367din valid daterange din.",
+    "ar": "استخدم نطاق تواريخ صالحاً لا يتجاوز 367 يوماً بدءاً من سنة 2000."
+  },
+  "Use distinct employee-payable, deduction-payable and employer-contribution-payable accounts.": {
+    "bn": "কর্মীর প্রদেয়, কর্তনের প্রদেয় ও নিয়োগকর্তার অবদানের প্রদেয় হিসাব পৃথক দিন।",
+    "banglish": "Employee payable,deduction payable,employer contribution payable alada account din.",
+    "ar": "استخدم حسابات منفصلة لمستحقات الموظف والاستقطاعات ومساهمة صاحب العمل."
+  },
+  "Use two-letter country and three-letter currency codes.": {
+    "bn": "দুই অক্ষরের দেশের ও তিন অক্ষরের মুদ্রার কোড দিন।",
+    "banglish": "2letter country o3letter currencycode din.",
+    "ar": "استخدم رمز دولة من حرفين ورمز عملة من ثلاثة أحرف."
+  },
+  "Your cart changed. Reload before editing.": {
+    "bn": "আপনার কার্ট বদলেছে। সম্পাদনার আগে পুনরায় লোড করুন।",
+    "banglish": "Apnar cart changed. Edit-er age reload korun.",
+    "ar": "تغيرت سلتك. أعد تحميلها قبل التعديل."
+  }
+}

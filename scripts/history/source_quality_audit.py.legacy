@@ -1,0 +1,25 @@
+"""Offline source-shape audit. Does NOT compile C# or validate business workflows."""
+from pathlib import Path
+import json,sys
+root=Path(__file__).resolve().parent.parent
+web=root/'EnterpriseERP.Web'
+checks={
+ 'net10_target':'<TargetFramework>net10.0</TargetFramework>' in (web/'EnterpriseERP.Web.csproj').read_text(),
+ 'identity_registered':'AddIdentity<' in (web/'Program.cs').read_text(),
+ 'sql_server_registered':'UseSqlServer(' in (web/'Program.cs').read_text(),
+ 'tenant_not_selected_from_headers':'Request.Headers' not in (web/'TenantContext.cs').read_text(),
+ 'purchase_atomic_transaction':'BeginTransactionAsync' in (web/'IntegratedOperations.cs').read_text(),
+ 'purchase_unique_reference':'PurchaseReceipt' in (web/'AppDbContext.cs').read_text() and 'HasIndex' in (web/'AppDbContext.cs').read_text(),
+ 'anti_forgery_on_post':'ValidateAntiForgeryToken' in (web/'Controllers/IntegratedController.cs').read_text(),
+ 'subscription_status_policy':'policy?.SuspendDays' in (web/'SubscriptionService.cs').read_text(),
+ 'english_bengali_banglish':'banglish' in (web/'wwwroot/js/farm-i18n.js').read_text() and 'বাংলা' in (web/'Views/Shared/_Layout.cshtml').read_text(),
+ 'quality_gate_script':(root/'scripts/AUDIT_LIVE_READINESS.ps1').exists(),
+}
+placeholders=[]
+for m in sorted((root/'Modules').iterdir()):
+ if m.is_dir() and (m/'ModuleMarker.cs').exists() and any('Module UI scaffold only' in f.read_text(encoding='utf-8') for f in m.rglob('*.cshtml')):
+  placeholders.append(m.name)
+report={'checks':checks,'all_static_checks_passed':all(checks.values()),'placeholder_module_projects':placeholders,'placeholder_count':len(placeholders),'dotnet_build':'NOT_EXECUTED','database':'NOT_EXECUTED','iis':'NOT_EXECUTED','uat':'NOT_EXECUTED','production_ready':False}
+out=root/'docs/SOURCE_QUALITY_AUDIT.json';out.write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf8')
+print(json.dumps(report,indent=2,ensure_ascii=False))
+sys.exit(0 if all(checks.values()) else 1)

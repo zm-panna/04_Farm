@@ -1,0 +1,55 @@
+Test run for /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:46.68]     EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "transfer") [FAIL]
+  Failed EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "transfer") [261 ms]
+  Error Message:
+   System.InvalidOperationException : Stock units must be normalized before saving.
+  Stack Trace:
+     at EnterpriseERP.Web.AppDbContext.ValidateStockTransferWritesAsync(CancellationToken ct) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.StockTransfers.cs:line 57
+   at EnterpriseERP.Web.AppDbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.Integrity.cs:line 75
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 44
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 60
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:46.89]     EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "sale") [FAIL]
+  Failed EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "sale") [218 ms]
+  Error Message:
+   System.InvalidOperationException : Stock units must be normalized before saving.
+  Stack Trace:
+     at EnterpriseERP.Web.AppDbContext.ValidateStockTransferWritesAsync(CancellationToken ct) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.StockTransfers.cs:line 57
+   at EnterpriseERP.Web.AppDbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.Integrity.cs:line 75
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 44
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 60
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:47.18]     EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "feed") [FAIL]
+[xUnit.net 00:00:47.40]     EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "adjustment") [FAIL]
+  Failed EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "feed") [293 ms]
+  Error Message:
+   System.InvalidOperationException : Stock units must be normalized before saving.
+  Stack Trace:
+     at EnterpriseERP.Web.AppDbContext.ValidateStockTransferWritesAsync(CancellationToken ct) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.StockTransfers.cs:line 57
+   at EnterpriseERP.Web.AppDbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.Integrity.cs:line 75
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 44
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 60
+--- End of stack trace from previous location ---
+  Failed EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(flow: "adjustment") [214 ms]
+  Error Message:
+   System.InvalidOperationException : Stock units must be normalized before saving.
+  Stack Trace:
+     at EnterpriseERP.Web.AppDbContext.ValidateStockTransferWritesAsync(CancellationToken ct) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.StockTransfers.cs:line 57
+   at EnterpriseERP.Web.AppDbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.Integrity.cs:line 75
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 44
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.LegacyStockOutflowCannotConsumeReservedCustomerStock(String flow) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 60
+--- End of stack trace from previous location ---
+[xUnit.net 00:00:52.10]     EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.ConfiguredMoneyRejectsFractionalCashButKeepsExactInternalCarryingCost [FAIL]
+  Failed EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.ConfiguredMoneyRejectsFractionalCashButKeepsExactInternalCarryingCost [164 ms]
+  Error Message:
+   System.InvalidOperationException : Stock units must be normalized before saving.
+  Stack Trace:
+     at EnterpriseERP.Web.AppDbContext.ValidateStockTransferWritesAsync(CancellationToken ct) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.StockTransfers.cs:line 57
+   at EnterpriseERP.Web.AppDbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/EnterpriseERP.Web/AppDbContext.Integrity.cs:line 75
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.ConfiguredMoneyRejectsFractionalCashButKeepsExactInternalCarryingCost() in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 173
+   at EnterpriseERP.UnitTests.EnterpriseIndependentAuditTests.ConfiguredMoneyRejectsFractionalCashButKeepsExactInternalCarryingCost() in /workspace/scratch/85a436f01071/farm_enterprise_audit/frozen/Tests/EnterpriseERP.UnitTests/EnterpriseIndependentAuditTests.cs:line 182
+--- End of stack trace from previous location ---
+Results File: /workspace/scratch/85a436f01071/farm_enterprise_audit/results/independent-all.trx
+
+Failed!  - Failed:     5, Passed:   662, Skipped:     0, Total:   667, Duration: 1 m 33 s - EnterpriseERP.UnitTests.dll (net10.0)

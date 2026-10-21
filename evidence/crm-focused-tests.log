@@ -1,0 +1,41 @@
+Test run for /workspace/scratch/85a436f01071/farm_enterprise_revision/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.1+bf6400fd51 (64-bit .NET 10.0.13)
+[xUnit.net 00:00:00.17]   Discovering: EnterpriseERP.UnitTests
+[xUnit.net 00:00:00.52]   Discovered:  EnterpriseERP.UnitTests
+[xUnit.net 00:00:00.57]   Starting:    EnterpriseERP.UnitTests
+  Passed EnterpriseERP.UnitTests.CRMRenderingTests.AllDetailAndListViewsRenderEmptyAndPopulatedStates [925 ms]
+  Passed EnterpriseERP.UnitTests.CRMRenderingTests.LeadAndActivityEditorsExposeConsentAndDueFieldsWithNoSendButtons [168 ms]
+  Passed EnterpriseERP.UnitTests.CRMRenderingTests.QuoteEditorPreservesIndexedMultiLineFieldsAndReferenceToken [131 ms]
+  Passed EnterpriseERP.UnitTests.CRMRenderingTests.QuoteReviewAndAcceptanceRenderCSRFThreeVersionsNetDisclosureAndEncodeSnapshots [140 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ConsentNeedsReviewedEvidenceAndFreshIdentityEvidenceAndHistoryCannotChange [6 s]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.InvalidQuoteArithmeticCannotPersistPartialSnapshots(kind: "currency_precision") [549 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.InvalidQuoteArithmeticCannotPersistPartialSnapshots(kind: "quantity_precision") [414 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.InvalidQuoteArithmeticCannotPersistPartialSnapshots(kind: "discount") [530 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.InvalidQuoteArithmeticCannotPersistPartialSnapshots(kind: "quantity") [389 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.InvalidQuoteArithmeticCannotPersistPartialSnapshots(kind: "too_many") [382 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.InvalidQuoteArithmeticCannotPersistPartialSnapshots(kind: "overflow") [370 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.InvalidQuoteArithmeticCannotPersistPartialSnapshots(kind: "price") [328 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.AcceptedSnapshotAndHandoffCannotBeMutatedOrDeletedBySyncOrAsyncSave [736 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ViewManageAndReviewPermissionsAreSeparateAndNoGrantCannotMutate [455 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ActivitiesDueDoneAndArchivePreserveHistoryAndRejectRepeatedOrStaleActions [519 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.DraftRevisionReplacesLinesAndRequiresFreshReviewBeforeAcceptance [414 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.QuoteRequiresApprovedCompanyCurrencyPolicyAndRejectsUnknownStockUnits [666 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ReferenceSearchAndStatusPaginationStayScopedAndRetainFilters [2 s]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.MultiLineQuoteSnapshotsPolicyProductsContactsAndRoundsEachLineWithoutPosting [704 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ConversionRejectsDraftUnreviewedExpiredAndChangedLeadWithoutAnyCustomerWrites [682 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.EveryReadAndWriteUsesActiveCompanyAndBranchIncludingConversionCustomerAndProduct [945 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ExistingScopedCustomerIsLinkedWithoutOverwritingContactOrTransferringConsent [750 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.OptionalCRMFieldsAreNotImplicitlyRequiredByMvc [282 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.StageTransitionsRequireReviewAndWonRequiresQuoteConversion [363 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.QuoteConversionIsAtomicScopedAndCreatesExactlyOneInternalCustomerHandoff [377 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.OpenActivityCanRetainClosedOpportunityDuringEditWithoutSilentlyLosingItsLink [247 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ConversionRollbackAfterCustomerSavedClearsTrackerAndSafeRetryCreatesNoDuplicate [313 ms]
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.DatabaseConcurrencyCollisionRollsBackCustomerAndAllowsFreshReviewedRetry [1 s]
+[xUnit.net 00:00:22.03]   Finished:    EnterpriseERP.UnitTests
+  Passed EnterpriseERP.UnitTests.CRMWorkflowTests.ConsentCannotBeGrantedWithoutAnyContactMethod [289 ms]
+
+Test Run Successful.
+Total tests: 29
+     Passed: 29
+ Total time: 22.8668 Seconds

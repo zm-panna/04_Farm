@@ -1,0 +1,9 @@
+PASS all required pager/script selectors exist exactly once in markup
+PASS first page loads and buttons reflect total count
+PASS next and previous navigation preserve numeric page values
+PASS status filter resets to first page and keeps canonical submitted enum
+PASS Arabic and Bengali rerender labels without fetching or translating customer text
+PASS empty list and failed request show localized notices without null access
+PASS an absent required pager exits safely rather than throwing
+PASS all runtime status keys have Bengali, Banglish and Arabic translations
+Support UI checks passed: 8

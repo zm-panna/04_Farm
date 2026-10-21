@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""Offline source audit. Never substitutes for compile, SQL, IIS or UAT."""
+import json, pathlib, sys, datetime, re, argparse
+p=argparse.ArgumentParser();p.add_argument('--root',default=None);p.add_argument('--evidence',default=None);a=p.parse_args()
+root=pathlib.Path(a.root).resolve() if a.root else pathlib.Path(__file__).resolve().parent.parent
+cs=list(root.rglob('*.cs')); modules=root/'Modules';markers=sorted(str(x.relative_to(root)) for x in modules.rglob('ModuleMarker.cs')) if modules.exists() else []
+views=list(root.rglob('*.cshtml')); migrations=[x for x in root.rglob('*.cs') if re.search(r'/Migrations/',x.as_posix(),re.I) and ('Migration' in x.name or 'Snapshot' in x.name)]
+checks={
+'has_net10_web_project': (root/'EnterpriseERP.Web/EnterpriseERP.Web.csproj').exists() and 'net10.0' in (root/'EnterpriseERP.Web/EnterpriseERP.Web.csproj').read_text(errors='replace'),
+'has_project_solution':bool(list(root.glob('*.sln')) or list(root.glob('*.slnx'))),
+'has_migration_source':bool(migrations),
+'no_marker_only_modules':not bool(markers),
+'has_mvc_views':bool(views),
+'has_customer_uat_evidence':(root/'release-evidence/CUSTOMER_UAT_SIGNED.json').exists(),
+'has_runtime_build_evidence':(root/'release-evidence/BUILD_PASS.json').exists(),
+'has_sql_server_evidence':(root/'release-evidence/SQL_MIGRATION_PASS.json').exists(),
+'has_iis_evidence':(root/'release-evidence/IIS_STAGING_PASS.json').exists(),
+'has_security_evidence':(root/'release-evidence/SECURITY_REVIEW_PASS.json').exists()
+}
+report={'timestamp_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_files':len(cs),'razor_views':len(views),'module_markers':markers,'migration_files':[str(x.relative_to(root)) for x in migrations], 'checks':checks,'ready_for_live':False,'note':'Evidence files must be genuine and independently reviewed; static inspection cannot prove functionality.'}
+# This audit intentionally never grants production approval, even if evidence files exist.
+out=pathlib.Path(a.evidence) if a.evidence else root/'docs/ACTUAL_SOURCE_READINESS.json';out.parent.mkdir(exist_ok=True,parents=True);out.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps({'checks':checks,'module_markers':len(markers),'result':'BLOCKED - manual production signoff required'},indent=2))
+sys.exit(1 if not all(checks.values()) else 0)

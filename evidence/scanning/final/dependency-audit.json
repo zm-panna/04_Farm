@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "parameters": "--vulnerable --include-transitive",
+  "sources": [
+    "https://api.nuget.org/v3/index.json"
+  ],
+  "projects": [
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_scan/source/EnterpriseERP.Web/EnterpriseERP.Web.csproj"
+    }
+  ]
+}

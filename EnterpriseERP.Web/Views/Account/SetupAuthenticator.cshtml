@@ -1,0 +1,15 @@
+@model EnterpriseERP.Web.AuthenticatorEnrollment
+@{ ViewData["Title"] = "Set up authenticator"; }
+<h1 data-i18n="Set up authenticator">Set up authenticator</h1>
+<div asp-validation-summary="All" role="alert"></div>
+<p data-i18n="Add a time-based account to your authenticator app using this secret key. Keep it private. No third-party QR service receives it.">Add a time-based account to your authenticator app using this secret key. Keep it private. No third-party QR service receives it.</p>
+<p><code>@Model.SharedKey</code></p>
+<p data-i18n="Account issuer: Farm ERP. Use a 6-digit code, 30-second period and the app&#x27;s default SHA-1 algorithm.">Account issuer: Farm ERP. Use a 6-digit code, 30-second period and the app's default SHA-1 algorithm.</p>
+<p data-i18n="Setup expires after 10 minutes. Confirm your current password and enter a code from the new authenticator account.">Setup expires after 10 minutes. Confirm your current password and enter a code from the new authenticator account.</p>
+<form asp-action="CompleteAuthenticator" method="post">@Html.AntiForgeryToken()
+ <input name="Proof" type="hidden" value="@Model.Proof" />
+ <label><span data-i18n="Current password">Current password</span> <input name="CurrentPassword" type="password" maxlength="1024" autocomplete="current-password" required /></label>
+ <label><span data-i18n="Authenticator code">Authenticator code</span> <input name="Code" inputmode="numeric" maxlength="32" autocomplete="one-time-code" required /></label>
+ <button type="submit" data-i18n="Verify and enable MFA">Verify and enable MFA</button>
+</form>
+<p><a href="/Account/Security" data-i18n="Cancel setup">Cancel setup</a></p>

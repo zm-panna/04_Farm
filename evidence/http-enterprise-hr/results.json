@@ -1,0 +1,605 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-20T09:49:20.107707+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/attendance",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/leave",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/policies",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/register",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/calculate",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/me",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/staff",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Staff POST requires antiforgery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Staff validation preserves input and creates no row",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create ended staff through real form",
+      "passed": true,
+      "detail": "HTTP 302; []"
+    },
+    {
+      "check": "GET /HRPayroll/rates/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Set protected pay rates through form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/attendance?staffId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create attendance through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/attendance?staffId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Attendance edit accepts original version",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Stale attendance shows actionable error without overwrite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/leave?staffId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create pending leave through form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/leave?staffId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Same requester cannot approve leave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/leave?staffId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Different reviewer approves requested paid leave",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/policies",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Propose explicit payroll policy through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/policies",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Independent policy review through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/calculate",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Calculate reviewable payroll through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/register/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Exact payroll arithmetic for daily pay leave and overtime",
+      "passed": true,
+      "detail": "('150.19', '40.25', '190.44', '9.52', '180.92', '5.71')"
+    },
+    {
+      "check": "GET /HRPayroll/register/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Calculator cannot approve own payroll",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/register/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Independent payroll approval through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/register/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Post reviewed payroll accrual through real form",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Posted payroll GL balances exactly",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/register/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Repeated posting gives feedback and no duplicate voucher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/identity/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Protected exact verified account link through form",
+      "passed": true,
+      "detail": "HTTP 302; []"
+    },
+    {
+      "check": "GET /HRPayroll/me",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /HRPayroll/me/payslip/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Linked employee sees own posted payslip",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Own payslip route rejects another employee line ID",
+      "passed": true,
+      "detail": "HTTP 409"
+    },
+    {
+      "check": "Other company cannot read payroll details",
+      "passed": true,
+      "detail": "HTTP 409"
+    },
+    {
+      "check": "Payroll accrual does not create a money transfer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Posted payroll audit is present exactly once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/me",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Employee own-leave form ignores forged staff ID and derives ownership",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/staff",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create monthly-contract staff through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/rates/7",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Save separate monthly salary through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/attendance?staffId=7",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Record explicit monthly paid units 2026-07-30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/attendance?staffId=7",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Record explicit monthly paid units 2026-07-31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/policies",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Propose Monthly actual-calendar policy through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/policies",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Approve monthly formula independently through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/calculate",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Calculate monthly payroll through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Monthly payslip snapshots exact formula denominator salary and paid units",
+      "passed": true,
+      "detail": "('Monthly', '3100.0', 'ActualCalendarDays', '31.0', '1.0', '100.0')"
+    },
+    {
+      "check": "GET /HRPayroll/register/7",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Approve calculated monthly payroll through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/register/7",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Post monthly accrual through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/staff",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create mixed Daily staff through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/rates/8",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Save effective Daily contract through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/attendance?staffId=8",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Save mixed Daily attendance through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/staff",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create mixed Monthly staff through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/rates/9",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Save effective Monthly contract through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/attendance?staffId=9",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Save mixed Monthly attendance through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/policies",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Propose explicit Mixed policy through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/policies",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Approve Mixed policy independently through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/calculate",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Calculate both contractual bases in one run through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mixed run retains own basis amount and effective compensation snapshot",
+      "passed": true,
+      "detail": "[('Daily', '100.0', 1, '2026-06-01', 8), ('Monthly', '103.33', 1, '2026-06-01', 9)]"
+    },
+    {
+      "check": "Mixed run contains each employee once",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/register/8",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Approve mixed payroll independently through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/register/8",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Post mixed contractual payroll once through MVC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mixed accrual balances both exact line totals",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /HRPayroll/rates/8",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Posted month rejects retroactive contractual rewrite with usable error",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "passed": 118,
+  "failed": 0,
+  "completed_utc": "2026-10-20T09:49:59.888176+00:00",
+  "status": "passed"
+}

@@ -1,0 +1,406 @@
+{
+  "kind": "Real localhost HTTP, isolated synthetic enterprise fixture",
+  "browser_executed": false,
+  "sql_server_executed": false,
+  "production_approved": false,
+  "started_utc": "2026-10-20T09:49:59.976448+00:00",
+  "checks": [
+    {
+      "check": "Built runtime available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Guarded enterprise fixture seeded",
+      "passed": true,
+      "detail": "CLI exit 0"
+    },
+    {
+      "check": "Temporary localhost host ready",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmreviewer1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo2@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo2@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /crm?section=leads",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /crm?section=opportunities",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /crm?section=activities",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /crm?section=quotes",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /crm?section=sales-ready",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /crm/leads/new",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Lead mutation rejects missing CSRF token",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Create lead with reviewed synthetic consent",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /crm/leads/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Lead contact text is HTML encoded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Consent event persisted with evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Normalized duplicate lead blocked with validation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /crm/leads/6/edit",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Edit lead with fresh concurrency version",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "Stale lead edit blocked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /crm/opportunities/new?leadId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Qualify reviewed opportunity",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /crm/activities/new?leadId=6&opportunityId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create dated internal activity",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /crm/activities/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Complete internal activity",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "Repeated activity completion rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /crm/activities/new?leadId=6&opportunityId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create open post-acceptance follow-up",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /crm/quotes/new?opportunityId=6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Create two-line net quote snapshot",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "Multi-line rounded quote amount persisted",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /crm/quotes/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Quote review requires explicit checkbox",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Review quote snapshot",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /crm/quotes/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Acceptance effect and net-only tax boundaries disclosed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Accept reviewed quote into customer and internal handoff",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /crm/sales-ready/6",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Customer and handoff created once with correct scope",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Opportunity is won and lead linked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /crm/activities/7/edit",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Edit open task retaining now-won opportunity",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "Closed opportunity task link is retained",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Repeated acceptance cannot duplicate customer or handoff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-company record access denied /crm/leads/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-company record access denied /crm/opportunities/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-company record access denied /crm/activities/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-company record access denied /crm/quotes/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-company record access denied /crm/sales-ready/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /Account/Login",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Identity login farmdemo1@example.invalid",
+      "passed": true,
+      "detail": "HTTP 302"
+    },
+    {
+      "check": "GET /Context",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "Select verified context farmdemo1@example.invalid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-branch record access denied /crm/leads/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-branch record access denied /crm/opportunities/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-branch record access denied /crm/activities/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-branch record access denied /crm/quotes/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Cross-branch record access denied /crm/sales-ready/6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "CRM journey made no stock, financial or outbound-notification changes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "GET /crm?section=leads&q=HTTP-CRM&status=Converted",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /crm?section=activities&status=Done",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "GET /crm?section=sales-ready&q=HTTP-CRM",
+      "passed": true,
+      "detail": "HTTP 200"
+    },
+    {
+      "check": "No initialization password in seed.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in results.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No initialization password in server.log",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Runtime binary unchanged during test",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trusted runtime dependency unchanged during test",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "dll_sha256": "6abdb00eb3f2911df20a128cd461460f3471d88d233f035947ae0eea56b74edf",
+  "trusted_runtime_dll_sha256": "ad2df716a63a7b4695255fbff0d1a873102bed24a2348f0ad3510dad1a3ffa63",
+  "passed": 78,
+  "failed": 0,
+  "scope": "Real HTTP forms, Identity, CSRF, consent, stale edits, opportunities, activities, rounded multi-line quote, reviewer conversion, duplicate replay, tenant/branch isolation, no automatic posting. Browser JavaScript and visual layout are not claimed.",
+  "completed_utc": "2026-10-20T09:50:31.133283+00:00",
+  "status": "passed"
+}

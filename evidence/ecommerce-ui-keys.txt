@@ -1,0 +1,91 @@
+A cart does not reserve stock. Quotes expire after 30 minutes; refresh each quantity if prices or policies change.
+A received return and linked credit were recorded.
+All
+Approve order
+Approved tax policy
+Available
+Back to catalog
+Back to orders
+Branch collection
+Branch collection only. Payments are manually verified outside checkout; no card is charged here.
+Cancel and release stock
+Cancellation reason
+Catalog pages
+Category
+Clear filters
+Collect from the selected branch after staff approval. There is no delivery charge. Payment stays pending and unverified; this checkout does not charge you. You can cancel before fulfillment. Staff must review returned goods before recording any return or refund.
+Confirm order
+Continue shopping
+Customer
+Customer setup required
+Customer storefront
+Description
+Ecommerce
+Existing links
+Existing products
+Finance documents
+Fulfill order
+Fulfillment and returns
+Goods released for branch collection. Payment is handled separately.
+I confirm goods are released for branch collection and the customer receivable, sales, tax and inventory cost will be posted. Payment remains unverified.
+I confirm these products, quantities, configured tax, total and branch collection terms.
+I reviewed the customer identity, stock, configured tax and collection arrangements.
+I verified this existing account belongs to the selected customer.
+Link customer
+Link verified customer
+Manage catalog
+My cart
+My orders
+Net amount
+Net unit price
+Next
+No orders match your filters.
+No published products match your filters.
+Order cancelled and reserved stock released.
+Order fulfillment
+Order history
+Order pages
+Order received and stock reserved.
+Order reference
+Order total
+Order updated.
+Orders
+Page
+Payment is pending manual verification. No payment provider has been charged. Financial receipts and refunds are recorded separately against linked sales documents.
+Payment verification
+Pending manual verification
+Place order and reserve stock
+Post fulfillment
+Previous
+Product
+Product title
+Products
+Publish product
+Published
+Published branch products. Review configured tax and the full total in your cart before ordering.
+Publishing needs an approved company currency and tax policy. Customer links use existing verified identities with branch access; entering an email never claims an account.
+Quantity
+Quote expires UTC
+Record linked return
+Return quantity
+Return reason
+Returned goods have been received and are suitable for restocking.
+Returned quantity
+Review note
+Review order
+Save product
+Search
+Search products
+Select
+Set cart quantity
+Set zero to remove
+Staff approved this order for branch collection.
+Status
+Stock item
+Tax
+Tax calculated in cart
+Total
+Unpublished
+Update
+Verified identity
+Your cart is empty.

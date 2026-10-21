@@ -1,0 +1,2 @@
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {06f72da7-4152-4e73-a28b-da346e05bc42} may be persisted to storage in unencrypted form.

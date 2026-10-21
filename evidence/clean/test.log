@@ -1,0 +1,6 @@
+Test run for /workspace/scratch/85a436f01071/farm_enterprise_clean_verify/Tests/EnterpriseERP.UnitTests/bin/Release/net10.0/EnterpriseERP.UnitTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: /workspace/scratch/85a436f01071/farm_enterprise_clean_verify/evidence/clean/clean-tests.trx
+Results File: /workspace/scratch/85a436f01071/farm_enterprise_clean_verify/evidence/clean/clean-tests.trx
+
+Passed!  - Failed:     0, Passed:   650, Skipped:     0, Total:   650, Duration: 1 m 21 s - EnterpriseERP.UnitTests.dll (net10.0)

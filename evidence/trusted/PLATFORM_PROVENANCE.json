@@ -1,0 +1,10 @@
+{
+  "adapter": "TrustedInfrastructure v1.1",
+  "source_manifest": "docs/trusted-platform/TRUSTED-INFRASTRUCTURE-SHA256.txt",
+  "source_manifest_sha256": "2e468892b25ef5588ea9fb4be02e55645a82e436e91812b5c432b105c12e8ab7",
+  "gateway": "Separate Trusted Platform package; no copied gateway source in Farm",
+  "gateway_host_integration_correction": "A fixed public Host request transform was verified against actual Farm strict origin checks; no backend trust relaxation was used.",
+  "platform_unit_or_framework_fixture_counts_added_to_farm": false,
+  "actual_customer_openbao_verified": false,
+  "actual_customer_deployment_verified": false
+}

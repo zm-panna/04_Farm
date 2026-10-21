@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "parameters": "--vulnerable --include-transitive",
+  "sources": [
+    "https://api.nuget.org/v3/index.json"
+  ],
+  "projects": [
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.AI/EnterpriseERP.AI.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Application/EnterpriseERP.Application.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Automation/EnterpriseERP.Automation.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Domain/EnterpriseERP.Domain.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Infrastructure/EnterpriseERP.Infrastructure.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Reporting/EnterpriseERP.Reporting.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Shared/EnterpriseERP.Shared.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/EnterpriseERP.Web/EnterpriseERP.Web.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Accounts/EnterpriseERP.Modules.Accounts.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Administration/EnterpriseERP.Modules.Administration.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.AnimalHealth/EnterpriseERP.Modules.AnimalHealth.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.CRM/EnterpriseERP.Modules.CRM.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.CustomerCare/EnterpriseERP.Modules.CustomerCare.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Dairy/EnterpriseERP.Modules.Dairy.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Ecommerce/EnterpriseERP.Modules.Ecommerce.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Expenses/EnterpriseERP.Modules.Expenses.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Fattening/EnterpriseERP.Modules.Fattening.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.FeedManagement/EnterpriseERP.Modules.FeedManagement.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.FixedAsset/EnterpriseERP.Modules.FixedAsset.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Hotel/EnterpriseERP.Modules.Hotel.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.HR/EnterpriseERP.Modules.HR.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.ImportExport/EnterpriseERP.Modules.ImportExport.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Inventory/EnterpriseERP.Modules.Inventory.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.LC/EnterpriseERP.Modules.LC.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Livestock/EnterpriseERP.Modules.Livestock.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Payroll/EnterpriseERP.Modules.Payroll.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Purchase/EnterpriseERP.Modules.Purchase.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Reporting/EnterpriseERP.Modules.Reporting.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Sales/EnterpriseERP.Modules.Sales.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Store/EnterpriseERP.Modules.Store.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Modules/EnterpriseERP.Modules.Subscription/EnterpriseERP.Modules.Subscription.csproj"
+    },
+    {
+      "path": "/workspace/scratch/85a436f01071/farm_enterprise_revision/Tests/EnterpriseERP.UnitTests/EnterpriseERP.UnitTests.csproj"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmreviewer1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmreviewer1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS Fictional minimum rows: FixedAssets
+PASS Fictional minimum rows: FixedAssetCustodies
+PASS Fictional minimum rows: FixedAssetDepreciationRuns
+PASS Fictional minimum rows: FixedAssetDepreciationLines
+PASS Fictional minimum rows: FixedAssetDisposals
+PASS GET /fixed-assets/new: HTTP 200
+PASS GET /fixed-assets: HTTP 200
+PASS Cancel navigation from acquisition form does not write
+PASS Missing CSRF token blocks acquisition
+PASS Real model binding creates acquisition draft: HTTP 302
+PASS Draft holds reviewed policy snapshot but no journal
+PASS GET /fixed-assets/6: HTTP 200
+PASS User-entered asset description is HTML encoded
+PASS Acquisition maker cannot approve own policy
+PASS GET /fixed-assets/6: HTTP 200
+PASS Different identity approves acquisition
+PASS GET /fixed-assets/6: HTTP 200
+PASS Stale original acquisition token conflicts
+PASS Approved acquisition posts once
+PASS Acquisition journal has equal debit and credit
+PASS Repeated acquisition submit cannot duplicate journal
+PASS GET /fixed-assets/6/edit: HTTP 200
+PASS GET /fixed-assets/6/edit: HTTP 200
+PASS Nonfinancial edit posts successfully
+PASS Stale metadata form preserves original token and rejects overwrite
+PASS GET /fixed-assets/6/custody: HTTP 200
+PASS Custody model binds and appends history
+PASS GET /fixed-assets/depreciation/new: HTTP 200
+PASS Monthly preview saves through real form
+PASS Monthly charge matches explicit policy
+PASS GET /fixed-assets/depreciation/6: HTTP 200
+PASS Monthly preview is independently approved
+PASS GET /fixed-assets/depreciation/6: HTTP 200
+PASS Monthly posting updates exact asset balance
+PASS Repeated monthly submit cannot duplicate asset period
+PASS GET /fixed-assets/6/dispose: HTTP 200
+PASS Disposal preview binds current asset token
+PASS Disposal preview has exact book value and gain
+PASS Other company cannot read /fixed-assets/6
+PASS Other company cannot read /fixed-assets/depreciation/6
+PASS Other company cannot read /fixed-assets/disposals/6
+PASS GET /fixed-assets/new: HTTP 200
+PASS Other company cannot mutate disposal even with own CSRF
+PASS GET /fixed-assets/disposals/6: HTTP 200
+PASS Different user approves disposal
+PASS GET /fixed-assets/disposals/6: HTTP 200
+PASS Disposal posts and derecognizes once
+PASS Disposal balanced receivable and gain journal
+PASS Repeated disposal cannot post twice
+PASS GET /fixed-assets?q=HTTP-ASSET&status=Disposed&page=1: HTTP 200
+PASS GET /fixed-assets/new: HTTP 200
+PASS Second acquisition remains cancellable draft
+PASS GET /fixed-assets/7: HTTP 200
+PASS Explicit cancellation retains history with no journal
+PASS Cancelled form replay conflicts
+PASS HTTP journey audit retained

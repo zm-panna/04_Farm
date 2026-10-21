@@ -1,0 +1,15 @@
+@model IEnumerable<EnterpriseERP.Domain.UserPermission>
+@{ ViewData["Title"]="Permission Management"; var users = (IEnumerable<EnterpriseERP.Web.Controllers.PermissionUserOption>)ViewBag.Users; }
+<h1 data-i18n="Company permission management">Company permission management</h1>
+<p data-i18n="Grant individual operations to users assigned to this company. Platform and recovery privileges cannot be changed here.">Grant individual operations to users assigned to this company. Platform and recovery privileges cannot be changed here.</p>
+<form method="post" action="/admin/permissions/grant">@Html.AntiForgeryToken()
+ <label><span data-i18n="User">User</span> <select name="userId" required><option value="" data-i18n="Select a company user">Select a company user</option>@foreach(var user in users){<option value="@user.Id">@user.Name</option>}</select></label>
+ <label><span data-i18n="Permission">Permission</span> <select name="permissionName">@foreach(var permission in (string[])ViewBag.Allowed){<option value="@permission">@permission</option>}</select></label>
+ <button type="submit" data-i18n="Grant">Grant</button>
+</form>
+<table><thead><tr><th data-i18n="User">User</th><th data-i18n="Permission">Permission</th><th data-i18n="Action">Action</th></tr></thead><tbody>
+@foreach(var row in Model){<tr><td>@(users.FirstOrDefault(x => x.Id == row.UserId)?.Name ?? row.UserId)</td><td>@row.Permission</td><td>
+@if(row.Permission is "*" or "Permissions.Manage"){<span data-i18n="Protected administrator permission">Protected administrator permission</span>}
+else{<form method="post" action="/admin/permissions/revoke">@Html.AntiForgeryToken()<input type="hidden" name="id" value="@row.Id"/><button type="submit" data-i18n="Revoke">Revoke</button></form>}
+</td></tr>}
+</tbody></table>

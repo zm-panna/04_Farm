@@ -1,0 +1,10 @@
+$ErrorActionPreference = 'Stop'
+$here=Split-Path $PSScriptRoot -Parent
+Set-Location $here
+if (-not (Get-Command dotnet -ErrorAction SilentlyContinue)) { throw 'Install .NET 10 SDK first' }
+dotnet --info
+dotnet restore ./EnterpriseERP.Web/EnterpriseERP.Web.csproj
+if ($LASTEXITCODE -ne 0) {throw 'Restore failed'}
+dotnet build ./EnterpriseERP.Web/EnterpriseERP.Web.csproj -c Release --no-restore
+if ($LASTEXITCODE -ne 0) {throw 'Build failed'}
+Write-Host 'Build passed. Database migrations, security acceptance, IIS and provider integrations must be tested separately.'

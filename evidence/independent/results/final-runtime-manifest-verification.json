@@ -1,0 +1,2305 @@
+{
+  "manifest_sha256": "b99b17a5ceb7c0e5cdd0de100d85b6b710fb855ec9c7778861958336fe349347",
+  "inputs": 383,
+  "all_match": true,
+  "files": [
+    {
+      "path": ".config/dotnet-tools.json",
+      "sha256": "18e7fe17b9c090b2f9487b1dd9a212e3d1e36b2cb2e078b93bdc0eec4819bece",
+      "frozen_sha256": "18e7fe17b9c090b2f9487b1dd9a212e3d1e36b2cb2e078b93bdc0eec4819bece",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.AI/EnterpriseERP.AI.csproj",
+      "sha256": "8063ff9f88a0ae9dec3065caa669dd6b602f67b9437d70910cc5267e97f20d74",
+      "frozen_sha256": "8063ff9f88a0ae9dec3065caa669dd6b602f67b9437d70910cc5267e97f20d74",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.AI/ModuleMarker.cs",
+      "sha256": "5233164600e9e6c3b35e41b25bdca8a1243d075bada6ec20597a85120090b7f7",
+      "frozen_sha256": "5233164600e9e6c3b35e41b25bdca8a1243d075bada6ec20597a85120090b7f7",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Application/EnterpriseERP.Application.csproj",
+      "sha256": "0412c25eee89b4c0452a003835eeb1ab30da5b81cc8acd3f6e79904ea47d3586",
+      "frozen_sha256": "0412c25eee89b4c0452a003835eeb1ab30da5b81cc8acd3f6e79904ea47d3586",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Application/ModuleMarker.cs",
+      "sha256": "4e1c8abd1dcbafe91f3b66b83c339fb8eaf70865c9d16426088da741915facd8",
+      "frozen_sha256": "4e1c8abd1dcbafe91f3b66b83c339fb8eaf70865c9d16426088da741915facd8",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Automation/EnterpriseERP.Automation.csproj",
+      "sha256": "8063ff9f88a0ae9dec3065caa669dd6b602f67b9437d70910cc5267e97f20d74",
+      "frozen_sha256": "8063ff9f88a0ae9dec3065caa669dd6b602f67b9437d70910cc5267e97f20d74",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Automation/ModuleMarker.cs",
+      "sha256": "d64c2ab7256d0f49332fe55e8c0a8d461eece9ad58007c988c054850cbeada5a",
+      "frozen_sha256": "d64c2ab7256d0f49332fe55e8c0a8d461eece9ad58007c988c054850cbeada5a",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/AccountingPeriod.cs",
+      "sha256": "f5a5bc331d37f66b64ae447e1ebc8340f889555dd0e991b04b342ca334aac39d",
+      "frozen_sha256": "f5a5bc331d37f66b64ae447e1ebc8340f889555dd0e991b04b342ca334aac39d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/CRMEntities.cs",
+      "sha256": "15ebd0523e1336bcfa69d2bf4aacc1f8b1d9f2d8f1700fe1e372933b8f2e1586",
+      "frozen_sha256": "15ebd0523e1336bcfa69d2bf4aacc1f8b1d9f2d8f1700fe1e372933b8f2e1586",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/CompanyBusinessPolicy.cs",
+      "sha256": "a07039542657d49de87add35b321a593ddbfe7e42509c1d7ff9f7783503fa1bc",
+      "frozen_sha256": "a07039542657d49de87add35b321a593ddbfe7e42509c1d7ff9f7783503fa1bc",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/EcommerceEntities.cs",
+      "sha256": "c187a1614bb73d61a38e00c61aed3f032a38cb28841096031f97d007dcd29cbc",
+      "frozen_sha256": "c187a1614bb73d61a38e00c61aed3f032a38cb28841096031f97d007dcd29cbc",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/EnterpriseERP.Domain.csproj",
+      "sha256": "9edeaabfa10b502eb6a435d36376eb156cad17e0370d9c6dc475c0a3652506c0",
+      "frozen_sha256": "9edeaabfa10b502eb6a435d36376eb156cad17e0370d9c6dc475c0a3652506c0",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/Entities.cs",
+      "sha256": "7be61dd5bd6cdfbd4a772bcf2ed896e72860984085cffd37ce47a4c521ce7164",
+      "frozen_sha256": "7be61dd5bd6cdfbd4a772bcf2ed896e72860984085cffd37ce47a4c521ce7164",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/FarmBusinessEntities.cs",
+      "sha256": "91ba07a26fe6a7e4f00f9291eddcd92ce5f44f7757cd0a706a43988bb20348eb",
+      "frozen_sha256": "91ba07a26fe6a7e4f00f9291eddcd92ce5f44f7757cd0a706a43988bb20348eb",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/FinanceEntities.cs",
+      "sha256": "9cf30451af5e86569c3b61617343c133c4f42fe4468eb767b62f9d3b052f907c",
+      "frozen_sha256": "9cf30451af5e86569c3b61617343c133c4f42fe4468eb767b62f9d3b052f907c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/FixedAssetEntities.cs",
+      "sha256": "45650965b1a1fc49494b18919cd7fcb974deb6b596a61fa8ad48ad0a5225bd3a",
+      "frozen_sha256": "45650965b1a1fc49494b18919cd7fcb974deb6b596a61fa8ad48ad0a5225bd3a",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/HRPayrollEntities.cs",
+      "sha256": "ca5744e0199d6d1b01e1ea110791c725a28266359bc4b641edf23ef79c33c479",
+      "frozen_sha256": "ca5744e0199d6d1b01e1ea110791c725a28266359bc4b641edf23ef79c33c479",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/ModuleMarker.cs",
+      "sha256": "99abcf24c136722ccd4313a42684737c5d17268743022756872dc04b607d3b7e",
+      "frozen_sha256": "99abcf24c136722ccd4313a42684737c5d17268743022756872dc04b607d3b7e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/NotificationEntities.cs",
+      "sha256": "16a895e86126186b2273ef110612b056d27612163d0582cb092ea694054fd3f6",
+      "frozen_sha256": "16a895e86126186b2273ef110612b056d27612163d0582cb092ea694054fd3f6",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/OpeningBalanceEntities.cs",
+      "sha256": "96da739ac319d50f15e1f394928a6865cc9f0bd67052cbac6f0fd5f7599fbd2a",
+      "frozen_sha256": "96da739ac319d50f15e1f394928a6865cc9f0bd67052cbac6f0fd5f7599fbd2a",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Domain/StockTransfer.cs",
+      "sha256": "75b8dece28a44235e670e0822fa2a2849ede9ae7112daf9f322a931c06da2e03",
+      "frozen_sha256": "75b8dece28a44235e670e0822fa2a2849ede9ae7112daf9f322a931c06da2e03",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Infrastructure/EnterpriseERP.Infrastructure.csproj",
+      "sha256": "66c706cc67574b4c8a8762a24bccb421379aa4a72f95ae8a87c2daa931b38c2b",
+      "frozen_sha256": "66c706cc67574b4c8a8762a24bccb421379aa4a72f95ae8a87c2daa931b38c2b",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Infrastructure/ModuleMarker.cs",
+      "sha256": "9769b8ec7ff4ba7e43380cf4ead54a5362a097e3d5b706b9e57a4d8506de2a2c",
+      "frozen_sha256": "9769b8ec7ff4ba7e43380cf4ead54a5362a097e3d5b706b9e57a4d8506de2a2c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Reporting/EnterpriseERP.Reporting.csproj",
+      "sha256": "66c706cc67574b4c8a8762a24bccb421379aa4a72f95ae8a87c2daa931b38c2b",
+      "frozen_sha256": "66c706cc67574b4c8a8762a24bccb421379aa4a72f95ae8a87c2daa931b38c2b",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Reporting/ModuleMarker.cs",
+      "sha256": "71db4e19ae8fe149f0908302c4d96c22a120d2ded4705a7d8fdaf1125e06bacd",
+      "frozen_sha256": "71db4e19ae8fe149f0908302c4d96c22a120d2ded4705a7d8fdaf1125e06bacd",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Shared/EnterpriseERP.Shared.csproj",
+      "sha256": "9edeaabfa10b502eb6a435d36376eb156cad17e0370d9c6dc475c0a3652506c0",
+      "frozen_sha256": "9edeaabfa10b502eb6a435d36376eb156cad17e0370d9c6dc475c0a3652506c0",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Shared/ModuleMarker.cs",
+      "sha256": "0c750038488ad610c2954fa753fb83620763ff2fb0e360f45e736a1c76c0d721",
+      "frozen_sha256": "0c750038488ad610c2954fa753fb83620763ff2fb0e360f45e736a1c76c0d721",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AccountSecurityService.cs",
+      "sha256": "639bc3908f2a74fa83150f90199864a9918963b36ef5f6ed132508d0cfe3f6ad",
+      "frozen_sha256": "639bc3908f2a74fa83150f90199864a9918963b36ef5f6ed132508d0cfe3f6ad",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AccountingPeriodService.cs",
+      "sha256": "d41212d4f79f8b8c2a1bb3ff38006024e6177cb9057e3d1de861fdc03d8f5875",
+      "frozen_sha256": "d41212d4f79f8b8c2a1bb3ff38006024e6177cb9057e3d1de861fdc03d8f5875",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AdministrationService.cs",
+      "sha256": "7ad6f40bb25d1debbf7fda2db90824e2f42c5f1dc6549c86d0033fbe460ab9fc",
+      "frozen_sha256": "7ad6f40bb25d1debbf7fda2db90824e2f42c5f1dc6549c86d0033fbe460ab9fc",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AiToolService.cs",
+      "sha256": "6d5a4fb2dc00e6762350e44c8d781c978ae6b24ff1071b3fe352811842fe7ca7",
+      "frozen_sha256": "6d5a4fb2dc00e6762350e44c8d781c978ae6b24ff1071b3fe352811842fe7ca7",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.AccountingPeriod.cs",
+      "sha256": "924f87449df179fd41cad73b64bbc6cc3a26cf6c6504cbb65abe79d8aeb033ab",
+      "frozen_sha256": "924f87449df179fd41cad73b64bbc6cc3a26cf6c6504cbb65abe79d8aeb033ab",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.BusinessPolicy.cs",
+      "sha256": "7d93e157a64c363f27cbca3a48f2828ce4e323c76396909a2f8ed5c94f5ec52d",
+      "frozen_sha256": "7d93e157a64c363f27cbca3a48f2828ce4e323c76396909a2f8ed5c94f5ec52d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.CRM.cs",
+      "sha256": "c5f64831118efbbf220046e684d92551e9b463f68da7b92453045713e90c0a3b",
+      "frozen_sha256": "c5f64831118efbbf220046e684d92551e9b463f68da7b92453045713e90c0a3b",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.Ecommerce.cs",
+      "sha256": "55acdc021f1608744f28cd5fb5154171cdb703d4281df57d0458b8ac0e853ff2",
+      "frozen_sha256": "55acdc021f1608744f28cd5fb5154171cdb703d4281df57d0458b8ac0e853ff2",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.FarmBusiness.cs",
+      "sha256": "0804622c9e3770b8d4e904595fa62b029ba0671587fd9ca6097aa4b059122eeb",
+      "frozen_sha256": "0804622c9e3770b8d4e904595fa62b029ba0671587fd9ca6097aa4b059122eeb",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.Finance.cs",
+      "sha256": "6f3bd5edffcc922504e992a169fa7914b073a04d64eb11b861c96938963d55f9",
+      "frozen_sha256": "6f3bd5edffcc922504e992a169fa7914b073a04d64eb11b861c96938963d55f9",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.FixedAssets.cs",
+      "sha256": "343b1f5b0d404cdc0b7983b7c5c5b9fa8f3d442cf9c1f41e73c2dccb431d8e2b",
+      "frozen_sha256": "343b1f5b0d404cdc0b7983b7c5c5b9fa8f3d442cf9c1f41e73c2dccb431d8e2b",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.HRPayroll.cs",
+      "sha256": "a4a101a92c4442bd2a3dcca8ccf33befb73ac9d018bbc09298294a0d70c64973",
+      "frozen_sha256": "a4a101a92c4442bd2a3dcca8ccf33befb73ac9d018bbc09298294a0d70c64973",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.Integrity.cs",
+      "sha256": "838fa231d047e414874c2d3a6fd120b767d33db749cf36ac57d879fe2d1354c3",
+      "frozen_sha256": "838fa231d047e414874c2d3a6fd120b767d33db749cf36ac57d879fe2d1354c3",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.Opening.cs",
+      "sha256": "01e0615da5847cf9263d2df9fa2b304cdff610f44960044c3bf355f4f65dd2b7",
+      "frozen_sha256": "01e0615da5847cf9263d2df9fa2b304cdff610f44960044c3bf355f4f65dd2b7",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.StockTransfers.cs",
+      "sha256": "f848e61fb8d283c1a008c03d4d48b8c1c45ae61594391f8ceaa13b0bbbea3d20",
+      "frozen_sha256": "f848e61fb8d283c1a008c03d4d48b8c1c45ae61594391f8ceaa13b0bbbea3d20",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContext.cs",
+      "sha256": "49d682156093cef31001a7ad370386e7d54c2d9baa5a057cb9390f47e0d33122",
+      "frozen_sha256": "49d682156093cef31001a7ad370386e7d54c2d9baa5a057cb9390f47e0d33122",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AppDbContextFactory.cs",
+      "sha256": "1d977a4e938f476a7cfac7d5c0ec64ed292ed8c69158317cbcb8e7b67a3296cd",
+      "frozen_sha256": "1d977a4e938f476a7cfac7d5c0ec64ed292ed8c69158317cbcb8e7b67a3296cd",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Assets/Fonts/LICENSE-NOTO.txt",
+      "sha256": "5e74164298eeed3b9ceca7f1c6efb9ac13a86569957de5d6c98cd8390e04ef28",
+      "frozen_sha256": "5e74164298eeed3b9ceca7f1c6efb9ac13a86569957de5d6c98cd8390e04ef28",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Assets/Fonts/NotoSansArabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "frozen_sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Assets/Fonts/NotoSansArabic-Regular.ttf",
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "frozen_sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Assets/Fonts/NotoSansBengali-Bold.ttf",
+      "sha256": "22c9ff99baca4d31c531ce450a1369beed889467e1ad964f4b8a6f810aa46955",
+      "frozen_sha256": "22c9ff99baca4d31c531ce450a1369beed889467e1ad964f4b8a6f810aa46955",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Assets/Fonts/NotoSansBengali-Regular.ttf",
+      "sha256": "9bb35b3547829ecc42041b6017e87fd4c5f1da1edcd00f59171777050f346018",
+      "frozen_sha256": "9bb35b3547829ecc42041b6017e87fd4c5f1da1edcd00f59171777050f346018",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AutomationApprovalService.cs",
+      "sha256": "7e1bc0db0c70ad55c80e69b073d31bd9704e81f42b5ab517c3f5aa83f5c97399",
+      "frozen_sha256": "7e1bc0db0c70ad55c80e69b073d31bd9704e81f42b5ab517c3f5aa83f5c97399",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/AutomationService.cs",
+      "sha256": "e5b47eab136841871287935533e06b1d550c87af6c4e3ab5f93cf8e50aeaa72c",
+      "frozen_sha256": "e5b47eab136841871287935533e06b1d550c87af6c4e3ab5f93cf8e50aeaa72c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/BootstrapAdmin.cs",
+      "sha256": "88909ed9c513988d79446b970b91dec8e201f1d1eb90f00c14105d4467d23d3e",
+      "frozen_sha256": "88909ed9c513988d79446b970b91dec8e201f1d1eb90f00c14105d4467d23d3e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/BusinessInput.cs",
+      "sha256": "9d659ebe9fafb030c6089d2b842f5ac33c8d603e7a1a050dbbf3af97e9ab09c3",
+      "frozen_sha256": "9d659ebe9fafb030c6089d2b842f5ac33c8d603e7a1a050dbbf3af97e9ab09c3",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/CRMService.cs",
+      "sha256": "e242362b29a7428672a78bd6e2cc3178b392d1a0c98dc8c5a25f0d2acd8e0ecc",
+      "frozen_sha256": "e242362b29a7428672a78bd6e2cc3178b392d1a0c98dc8c5a25f0d2acd8e0ecc",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/CompanyBusinessPolicyService.cs",
+      "sha256": "33b0e63d7d93e29337f8977d5c12a45a64c682dd2a4a04a8a477e731cec69abd",
+      "frozen_sha256": "33b0e63d7d93e29337f8977d5c12a45a64c682dd2a4a04a8a477e731cec69abd",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AIManagerController.cs",
+      "sha256": "94fb2c69130ffecd299f13e98a2b92549c70a2b3549f945d019aa31f1a92a663",
+      "frozen_sha256": "94fb2c69130ffecd299f13e98a2b92549c70a2b3549f945d019aa31f1a92a663",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AccountController.cs",
+      "sha256": "7658e1f3db94f0a6eac93c673574e838443fcdda833fc3d85b455a717150405d",
+      "frozen_sha256": "7658e1f3db94f0a6eac93c673574e838443fcdda833fc3d85b455a717150405d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AccountingPeriodController.cs",
+      "sha256": "b4c817d92e55c9653034a150a8e69e3dbd06354bad1d2e39343cadc6788724ac",
+      "frozen_sha256": "b4c817d92e55c9653034a150a8e69e3dbd06354bad1d2e39343cadc6788724ac",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/ActionableRecordBrowseModel.cs",
+      "sha256": "8196792c5f6f226b35d2b6c49dd1ea154450ec2b407eca5f5cabf108a0d5232f",
+      "frozen_sha256": "8196792c5f6f226b35d2b6c49dd1ea154450ec2b407eca5f5cabf108a0d5232f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AdministrationController.cs",
+      "sha256": "43ac8cc17da9e312f00bc9c3eec22bde1eec21a46a6f4d2fe1fc1cc2d4135007",
+      "frozen_sha256": "43ac8cc17da9e312f00bc9c3eec22bde1eec21a46a6f4d2fe1fc1cc2d4135007",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AdvancedController.cs",
+      "sha256": "4ce3ddae2d16833e33ff2cbdbf4959e87ae480e9e7e1667e75043386fb16db21",
+      "frozen_sha256": "4ce3ddae2d16833e33ff2cbdbf4959e87ae480e9e7e1667e75043386fb16db21",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AnimalHealthEntryController.cs",
+      "sha256": "4f300e1f53cdc7acefccf9b83196c874a8513230b4f499017fe23f79eb66fd60",
+      "frozen_sha256": "4f300e1f53cdc7acefccf9b83196c874a8513230b4f499017fe23f79eb66fd60",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AnimalRegistryController.cs",
+      "sha256": "e01ec3fa07043830e82bc46c21aeda1075311039ca1b3c0dfbbeb8ec3c06682d",
+      "frozen_sha256": "e01ec3fa07043830e82bc46c21aeda1075311039ca1b3c0dfbbeb8ec3c06682d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/AutomationWorkspaceController.cs",
+      "sha256": "8a434f2c8e9682c62c3c19da94d64933e33ef8283af60979c669e160d19d90cc",
+      "frozen_sha256": "8a434f2c8e9682c62c3c19da94d64933e33ef8283af60979c669e160d19d90cc",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/BusinessPolicyController.cs",
+      "sha256": "11371be009175fea2709e34475cf54c571ec5415ca5b6382270442ae9542d8a7",
+      "frozen_sha256": "11371be009175fea2709e34475cf54c571ec5415ca5b6382270442ae9542d8a7",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/CRMController.cs",
+      "sha256": "c1a279ddb92cde9eda42722b2d10f19d4a23c5c5b2c85d8a819ad815f9a58e49",
+      "frozen_sha256": "c1a279ddb92cde9eda42722b2d10f19d4a23c5c5b2c85d8a819ad815f9a58e49",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/ContextController.cs",
+      "sha256": "a9cc0131983c9b03008679791e696a99adb5551ce1b4cd4ae19c246858ff6f5e",
+      "frozen_sha256": "a9cc0131983c9b03008679791e696a99adb5551ce1b4cd4ae19c246858ff6f5e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/DairyEntryController.cs",
+      "sha256": "701d75bab58a7d1a3da7dc42030ad40e2697fb2f132b768101729dbe063e5df2",
+      "frozen_sha256": "701d75bab58a7d1a3da7dc42030ad40e2697fb2f132b768101729dbe063e5df2",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/DeploymentReadinessController.cs",
+      "sha256": "ff0c7445178efdde571221a70db638b03b95f186de85a1c276efb90fa4be8467",
+      "frozen_sha256": "ff0c7445178efdde571221a70db638b03b95f186de85a1c276efb90fa4be8467",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/EcommerceController.cs",
+      "sha256": "f974a5949353033c906c3c79b77e22758b8a845064ab32b1f4fd3252a46c72da",
+      "frozen_sha256": "f974a5949353033c906c3c79b77e22758b8a845064ab32b1f4fd3252a46c72da",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/FarmApiController.cs",
+      "sha256": "a98bd9f47f43d09bef6658f3a150d25e500bac62d934b387353af81a61cac658",
+      "frozen_sha256": "a98bd9f47f43d09bef6658f3a150d25e500bac62d934b387353af81a61cac658",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/FarmBusinessController.cs",
+      "sha256": "34b41cf458247995deac5e6e2c9cf3f965f39c2c6061c15119822d3ba4d1f234",
+      "frozen_sha256": "34b41cf458247995deac5e6e2c9cf3f965f39c2c6061c15119822d3ba4d1f234",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/FarmCareController.cs",
+      "sha256": "5bdc8406b55b6d076064a7ba202e9199bff04c9e8f28ec88c9afd00bc2e7df65",
+      "frozen_sha256": "5bdc8406b55b6d076064a7ba202e9199bff04c9e8f28ec88c9afd00bc2e7df65",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/FixedAssetsController.cs",
+      "sha256": "c715d8f12f100d513d99441c8897d0cb7655459e69bae6af805d5cd95cab0c37",
+      "frozen_sha256": "c715d8f12f100d513d99441c8897d0cb7655459e69bae6af805d5cd95cab0c37",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/HRPayrollController.cs",
+      "sha256": "2c36ae097e8318eee735333444c0df5d498b886673caa86f43c1bbbb9f71cbf2",
+      "frozen_sha256": "2c36ae097e8318eee735333444c0df5d498b886673caa86f43c1bbbb9f71cbf2",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/HomeController.cs",
+      "sha256": "73d4757d901bf19743799a27bdef15840df87c8ac5fee76051eba418adb665c0",
+      "frozen_sha256": "73d4757d901bf19743799a27bdef15840df87c8ac5fee76051eba418adb665c0",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/IntegratedController.cs",
+      "sha256": "c5e8f5329759b12983ca996e8624746944d8c4cdf9ae53eeeffc9ad9b75bc1e8",
+      "frozen_sha256": "c5e8f5329759b12983ca996e8624746944d8c4cdf9ae53eeeffc9ad9b75bc1e8",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/OpeningBalanceController.cs",
+      "sha256": "7eed5725af838d078ab4e619770e23896a1b716d643a586ba6273fdd20b0a104",
+      "frozen_sha256": "7eed5725af838d078ab4e619770e23896a1b716d643a586ba6273fdd20b0a104",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/OperationsWorkspaceController.cs",
+      "sha256": "468830d01343e19224fe1a658f95b22d776eef087a6ad3e84929198cb754fd6c",
+      "frozen_sha256": "468830d01343e19224fe1a658f95b22d776eef087a6ad3e84929198cb754fd6c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/OperationsWorkspaceQuery.cs",
+      "sha256": "11831dc9d887b0403f89afd117e83b87a39954d13e782bfc9ee39001bbd888b2",
+      "frozen_sha256": "11831dc9d887b0403f89afd117e83b87a39954d13e782bfc9ee39001bbd888b2",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/ProductCatalogController.cs",
+      "sha256": "7fbbe06563c10d9796e780a1e4195b3e22ef9388ecd0a98913a1dfb08eb2e68f",
+      "frozen_sha256": "7fbbe06563c10d9796e780a1e4195b3e22ef9388ecd0a98913a1dfb08eb2e68f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/RoleManagementController.cs",
+      "sha256": "c49c84806244107312dc5f4d4aed5565638defd6d84e06a72d8f3cd60724ee97",
+      "frozen_sha256": "c49c84806244107312dc5f4d4aed5565638defd6d84e06a72d8f3cd60724ee97",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/StockLedgerController.cs",
+      "sha256": "f738724cd5ab587bfe3ee0724f21edd33e6b19d161f2d6bd68f934e9d1249d3f",
+      "frozen_sha256": "f738724cd5ab587bfe3ee0724f21edd33e6b19d161f2d6bd68f934e9d1249d3f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/StockTransfersController.cs",
+      "sha256": "bfe930536b8d2c8ec3070f607d850a47e1aa2cfc9d14ab78a739d0f98156f9af",
+      "frozen_sha256": "bfe930536b8d2c8ec3070f607d850a47e1aa2cfc9d14ab78a739d0f98156f9af",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/SupportApiController.cs",
+      "sha256": "aaf7d4d1afa2bb08e72ce6d2d3fb6e521b20397995783993124c9c10ffc21f04",
+      "frozen_sha256": "aaf7d4d1afa2bb08e72ce6d2d3fb6e521b20397995783993124c9c10ffc21f04",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/SupportController.cs",
+      "sha256": "92a8b79cc6e2bb3cab1b29808bbfeb0833a266568b1e77328b60aa376558d3d8",
+      "frozen_sha256": "92a8b79cc6e2bb3cab1b29808bbfeb0833a266568b1e77328b60aa376558d3d8",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Controllers/WorkspaceController.cs",
+      "sha256": "f4ff23bf2c4cbe6bf24245efece23c291fe3d7b2505f59b4b68444153ecf160c",
+      "frozen_sha256": "f4ff23bf2c4cbe6bf24245efece23c291fe3d7b2505f59b4b68444153ecf160c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/DemoBusinessSeeder.cs",
+      "sha256": "c46d249e7d8f81c1e58835e2e8f336a1526b4ee9a2e183603aa02e50b04ae667",
+      "frozen_sha256": "c46d249e7d8f81c1e58835e2e8f336a1526b4ee9a2e183603aa02e50b04ae667",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/DemoIdentitySeeder.cs",
+      "sha256": "b2d273188a8fd267b049c459823944a889d88043b316b1ce9d5ce32b692a0775",
+      "frozen_sha256": "b2d273188a8fd267b049c459823944a889d88043b316b1ce9d5ce32b692a0775",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/DemoSqlExporter.cs",
+      "sha256": "0cd2a29002d2e1cdd9549f5730f14925ff26fbb49db5043307c8ddc9e70c3f43",
+      "frozen_sha256": "0cd2a29002d2e1cdd9549f5730f14925ff26fbb49db5043307c8ddc9e70c3f43",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EcommerceService.cs",
+      "sha256": "993a462a34ce301c8da0de34ffa7327c8bd5e3dc7ed581e026b95bcb1ee076c3",
+      "frozen_sha256": "993a462a34ce301c8da0de34ffa7327c8bd5e3dc7ed581e026b95bcb1ee076c3",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseAiService.cs",
+      "sha256": "b7165e3bffb9f627931a9d5a1d59d9336d44a1ef1d6f1e79c6dd076fae0011f6",
+      "frozen_sha256": "b7165e3bffb9f627931a9d5a1d59d9336d44a1ef1d6f1e79c6dd076fae0011f6",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseDemoSeeder.CRM.cs",
+      "sha256": "92a1bf6f401d4af9885b83329a879691c12e42a9f0e13d214dc288a0fd3760ba",
+      "frozen_sha256": "92a1bf6f401d4af9885b83329a879691c12e42a9f0e13d214dc288a0fd3760ba",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseDemoSeeder.Ecommerce.cs",
+      "sha256": "db93fa3147ddd7bb79df95af3de8714ef9f5a7d996546a777f63c4f58b689c22",
+      "frozen_sha256": "db93fa3147ddd7bb79df95af3de8714ef9f5a7d996546a777f63c4f58b689c22",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseDemoSeeder.FixedAssets.cs",
+      "sha256": "3c438bd2bd3bd2cc51adef80944583231fe6d03119b7402abe822e4d489af0bf",
+      "frozen_sha256": "3c438bd2bd3bd2cc51adef80944583231fe6d03119b7402abe822e4d489af0bf",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseDemoSeeder.HRPayroll.cs",
+      "sha256": "5b970ac700cd5646002956f0c4a60c6e096002a58defa9882a995e405a47811f",
+      "frozen_sha256": "5b970ac700cd5646002956f0c4a60c6e096002a58defa9882a995e405a47811f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseDemoSeeder.cs",
+      "sha256": "f7d0108863b8afa0dfd2d16a85c5f1f3608f090c3de142a73997cdade1001372",
+      "frozen_sha256": "f7d0108863b8afa0dfd2d16a85c5f1f3608f090c3de142a73997cdade1001372",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/EnterpriseERP.Web.csproj",
+      "sha256": "1ac65eaa028c60e81348366b5ede066c34ecff8a86ed192f6219ce0ecf6f400e",
+      "frozen_sha256": "1ac65eaa028c60e81348366b5ede066c34ecff8a86ed192f6219ce0ecf6f400e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmBusinessModels.cs",
+      "sha256": "3e4eec62e64c0c1d1820fa037547cb81777202aeb7ce21db1d7c96c29c62b6d6",
+      "frozen_sha256": "3e4eec62e64c0c1d1820fa037547cb81777202aeb7ce21db1d7c96c29c62b6d6",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmBusinessService.cs",
+      "sha256": "f6830daa7eef3fb928b62b2991b38dd5a3bdd3d2bea4cff45e50aac4dd49aa88",
+      "frozen_sha256": "f6830daa7eef3fb928b62b2991b38dd5a3bdd3d2bea4cff45e50aac4dd49aa88",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmHealthFeedService.cs",
+      "sha256": "c1161507ef71e9c115c58001f4cb6ab21ad065f2ad768a747512c65d53312836",
+      "frozen_sha256": "c1161507ef71e9c115c58001f4cb6ab21ad065f2ad768a747512c65d53312836",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/FarmService.cs",
+      "sha256": "09b0402eff74e4d6381cb262f8c95e3e7cb7f83048db3af77278f3c749eb692d",
+      "frozen_sha256": "09b0402eff74e4d6381cb262f8c95e3e7cb7f83048db3af77278f3c749eb692d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/FinanceService.cs",
+      "sha256": "52d55a29e744a2f55a43c3ab9be68e1655fc7cc1168104675faed3cfa26048d8",
+      "frozen_sha256": "52d55a29e744a2f55a43c3ab9be68e1655fc7cc1168104675faed3cfa26048d8",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/FixedAssetService.cs",
+      "sha256": "06f7febbc3e2c99f57a4a77f8c5a080955261eded51194fb16529cb808849da1",
+      "frozen_sha256": "06f7febbc3e2c99f57a4a77f8c5a080955261eded51194fb16529cb808849da1",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/HRPayrollService.cs",
+      "sha256": "6ef02479f3c26ed648c993ffa2f389c828266d3ef00b269a6cac8d26e1a5cc4d",
+      "frozen_sha256": "6ef02479f3c26ed648c993ffa2f389c828266d3ef00b269a6cac8d26e1a5cc4d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/IdentitySessionOptions.cs",
+      "sha256": "740c182b2c964eb5ee982a76b7ccc3e18b59410c8124938194c0d90f84b9ea1c",
+      "frozen_sha256": "740c182b2c964eb5ee982a76b7ccc3e18b59410c8124938194c0d90f84b9ea1c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/IntegratedOperations.cs",
+      "sha256": "0ed7fd0b7125c4f7c912d094a2bdfad8ce0582182fcabb3a20a1f6b0c9309378",
+      "frozen_sha256": "0ed7fd0b7125c4f7c912d094a2bdfad8ce0582182fcabb3a20a1f6b0c9309378",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/InventoryValuation.cs",
+      "sha256": "97d23de61d89fdc115a388e1acd1522dcb813327cb60d925f890a1f42793aaa9",
+      "frozen_sha256": "97d23de61d89fdc115a388e1acd1522dcb813327cb60d925f890a1f42793aaa9",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/JobWorker.cs",
+      "sha256": "207001ecdd5470c76656bf63c21edbdc3882284ec394f9365ceaab908f95c498",
+      "frozen_sha256": "207001ecdd5470c76656bf63c21edbdc3882284ec394f9365ceaab908f95c498",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Migrations/20261019030204_InitialFarmRelease.Designer.cs",
+      "sha256": "3fc4a8899864484a13c5417d54dc857ab13d115cbd1aa459bb62c214c68ede0f",
+      "frozen_sha256": "3fc4a8899864484a13c5417d54dc857ab13d115cbd1aa459bb62c214c68ede0f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Migrations/20261019030204_InitialFarmRelease.cs",
+      "sha256": "0d072591013bd9109894e74257d49dabdb4a32a382b025640fe5b792bf909f5d",
+      "frozen_sha256": "0d072591013bd9109894e74257d49dabdb4a32a382b025640fe5b792bf909f5d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Migrations/20261019032129_CompleteCoreIntegrity.Designer.cs",
+      "sha256": "f85d9886810eb0769c0e8437c862fe12053693a6fc0693963cf9e31bd22a11d8",
+      "frozen_sha256": "f85d9886810eb0769c0e8437c862fe12053693a6fc0693963cf9e31bd22a11d8",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Migrations/20261019032129_CompleteCoreIntegrity.cs",
+      "sha256": "2f0c1887e832ac0609a6b923dc61a767177abd5f07ed16ebf8382fd39437bc98",
+      "frozen_sha256": "2f0c1887e832ac0609a6b923dc61a767177abd5f07ed16ebf8382fd39437bc98",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Migrations/20261019050306_CompleteEnterpriseModules.Designer.cs",
+      "sha256": "573f53c9866709fd4ed6b97b5f6b8fb4fcb88c904591916d973fe4d6d41e1ab5",
+      "frozen_sha256": "573f53c9866709fd4ed6b97b5f6b8fb4fcb88c904591916d973fe4d6d41e1ab5",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Migrations/20261019050306_CompleteEnterpriseModules.cs",
+      "sha256": "a12194971a22213d8abfe6dcc18ec134b5b9db4215f892798e32cdaa1b0fc60d",
+      "frozen_sha256": "a12194971a22213d8abfe6dcc18ec134b5b9db4215f892798e32cdaa1b0fc60d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Migrations/AppDbContextModelSnapshot.cs",
+      "sha256": "32451921f150ba704a4942ecf23cbee8ba0948576de211e110ab42b0a09e1e71",
+      "frozen_sha256": "32451921f150ba704a4942ecf23cbee8ba0948576de211e110ab42b0a09e1e71",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/OllamaChatService.cs",
+      "sha256": "8649aafd18dd046ba10ef0ee912a350a13ea66146ca28b18a127f59176e4cf1a",
+      "frozen_sha256": "8649aafd18dd046ba10ef0ee912a350a13ea66146ca28b18a127f59176e4cf1a",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/OpeningBalanceService.cs",
+      "sha256": "a0d71cd2af8c5101ee6b28b9cc0aa2dc723d5efc14018e8803f3a7b5d6fa1ede",
+      "frozen_sha256": "a0d71cd2af8c5101ee6b28b9cc0aa2dc723d5efc14018e8803f3a7b5d6fa1ede",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/PermissionExceptionMiddleware.cs",
+      "sha256": "7548a5063acbb909f0d3bedd1c58e0b473dc123be1bab7f9c50b6db79fd61f47",
+      "frozen_sha256": "7548a5063acbb909f0d3bedd1c58e0b473dc123be1bab7f9c50b6db79fd61f47",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/PermissionService.cs",
+      "sha256": "28b83d769b9bd79aade257d6df9c893a2e846f594f4e77caffc41c4f443f7762",
+      "frozen_sha256": "28b83d769b9bd79aade257d6df9c893a2e846f594f4e77caffc41c4f443f7762",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/ProductionSecurityOptions.cs",
+      "sha256": "ace0f4ec42c156490c796524adbafe359a16f57138a4133442a6d387c9beac18",
+      "frozen_sha256": "ace0f4ec42c156490c796524adbafe359a16f57138a4133442a6d387c9beac18",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Program.cs",
+      "sha256": "cba2e52b02abbaeccf430ed0b24cef5dc52c7aa6f28e584fc8a5029e9b751197",
+      "frozen_sha256": "cba2e52b02abbaeccf430ed0b24cef5dc52c7aa6f28e584fc8a5029e9b751197",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/ReportExportService.cs",
+      "sha256": "205241728d3ddc332eaff212f9a39814f74759d490bc0c303e3a0159e487bd1a",
+      "frozen_sha256": "205241728d3ddc332eaff212f9a39814f74759d490bc0c303e3a0159e487bd1a",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/ReportLanguage.cs",
+      "sha256": "77ca0723f371028af520796563cc11eeb8b48a34c61c4f5455532f8af66dd9fd",
+      "frozen_sha256": "77ca0723f371028af520796563cc11eeb8b48a34c61c4f5455532f8af66dd9fd",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/ReportService.cs",
+      "sha256": "086ccc5858046460f09aa0e9703d4b7dcc038fb84638a779e82dbc4bb1466523",
+      "frozen_sha256": "086ccc5858046460f09aa0e9703d4b7dcc038fb84638a779e82dbc4bb1466523",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/SecurityHeadersMiddleware.cs",
+      "sha256": "6c9ce1e76c0937e928cf45845dfa64b18a2a565ccff46b719f892def5e4c10c9",
+      "frozen_sha256": "6c9ce1e76c0937e928cf45845dfa64b18a2a565ccff46b719f892def5e4c10c9",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/StockTransferService.cs",
+      "sha256": "40869fdaeb248ac5b36cfa6dad20e2c0c5d8000fe198b019b9b9e71d10735362",
+      "frozen_sha256": "40869fdaeb248ac5b36cfa6dad20e2c0c5d8000fe198b019b9b9e71d10735362",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/StockUnitPolicy.cs",
+      "sha256": "63bfa51a9146dcdbbdcde467f54f43ad93806b6d3d91cb491df291c63e757743",
+      "frozen_sha256": "63bfa51a9146dcdbbdcde467f54f43ad93806b6d3d91cb491df291c63e757743",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/SubscriptionGuardMiddleware.cs",
+      "sha256": "1c7af84da22925a33f2891f8cd7bb56a7821de43cc994c1e19a2cb5ea7bd5e5d",
+      "frozen_sha256": "1c7af84da22925a33f2891f8cd7bb56a7821de43cc994c1e19a2cb5ea7bd5e5d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/SubscriptionService.cs",
+      "sha256": "b031d0c27872e9ec92d0a3157d966f8df2f7e99e21b00da762f680d5fb8a7c60",
+      "frozen_sha256": "b031d0c27872e9ec92d0a3157d966f8df2f7e99e21b00da762f680d5fb8a7c60",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/SupportService.cs",
+      "sha256": "7bf7813ae3a6a462a6058c4cfa15f9ebe2b2d82b5ba4dd9f6406ec722843a7e7",
+      "frozen_sha256": "7bf7813ae3a6a462a6058c4cfa15f9ebe2b2d82b5ba4dd9f6406ec722843a7e7",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/SupportedControllersFeatureProvider.cs",
+      "sha256": "b4afc7d25be4986fac09c518e2ca36a34d366a939977620831d204172ab424fc",
+      "frozen_sha256": "b4afc7d25be4986fac09c518e2ca36a34d366a939977620831d204172ab424fc",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/TenantContext.cs",
+      "sha256": "c3473390197f10d4e2f690a36c9102ca58c919b65876157a54077c973801e2e7",
+      "frozen_sha256": "c3473390197f10d4e2f690a36c9102ca58c919b65876157a54077c973801e2e7",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AIManager/Index.cshtml",
+      "sha256": "77308ddac19c431f2cc189cbce3e038d4901818c5c41861ceade34be4a52d6ad",
+      "frozen_sha256": "77308ddac19c431f2cc189cbce3e038d4901818c5c41861ceade34be4a52d6ad",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/ChangePassword.cshtml",
+      "sha256": "b02c1aad17e71800b7cf00963c9f424df5f795d7461ddffcc4a0d41e62dc6a4e",
+      "frozen_sha256": "b02c1aad17e71800b7cf00963c9f424df5f795d7461ddffcc4a0d41e62dc6a4e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/Login.cshtml",
+      "sha256": "9a4dec86f597700e017a9be2398893a860d4354494da493bdb0a339833763296",
+      "frozen_sha256": "9a4dec86f597700e017a9be2398893a860d4354494da493bdb0a339833763296",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/RecoveryCodes.cshtml",
+      "sha256": "943c1431cd7e443e904aa0ff482eb1b95139302a4d019f717e5a07f52f00a08d",
+      "frozen_sha256": "943c1431cd7e443e904aa0ff482eb1b95139302a4d019f717e5a07f52f00a08d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/RecoveryHelp.cshtml",
+      "sha256": "d1e72afd7fbe1c724ecbadd46d61caa5e0b0d7fa0b41db635af20de5d8a9ac35",
+      "frozen_sha256": "d1e72afd7fbe1c724ecbadd46d61caa5e0b0d7fa0b41db635af20de5d8a9ac35",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/RecoveryLogin.cshtml",
+      "sha256": "715e2cc96b12c8a448132393aee113eb85f969245e0a24845a00e825857fbb88",
+      "frozen_sha256": "715e2cc96b12c8a448132393aee113eb85f969245e0a24845a00e825857fbb88",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/Security.cshtml",
+      "sha256": "eb3bfad4f77d0583fbff2bbb84a91040ea9867de703fd0391cc22f3bc5f0a96e",
+      "frozen_sha256": "eb3bfad4f77d0583fbff2bbb84a91040ea9867de703fd0391cc22f3bc5f0a96e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/SetupAuthenticator.cshtml",
+      "sha256": "34bedeeac29c807463a68b730fb50228378b96da4e9376def4d157524c0c9869",
+      "frozen_sha256": "34bedeeac29c807463a68b730fb50228378b96da4e9376def4d157524c0c9869",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Account/TwoFactor.cshtml",
+      "sha256": "799da9a240ee0cc4413e26a43f1cf5cb9b4c7c3de4a12179da5e33badeb83176",
+      "frozen_sha256": "799da9a240ee0cc4413e26a43f1cf5cb9b4c7c3de4a12179da5e33badeb83176",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AccountingPeriod/Index.cshtml",
+      "sha256": "b23aec94eb8994cc138e0c712e8b76d669225dbcace500099038347e854fa0d2",
+      "frozen_sha256": "b23aec94eb8994cc138e0c712e8b76d669225dbcace500099038347e854fa0d2",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Administration/Index.cshtml",
+      "sha256": "c5f7ba37d5b5a09ff0a023113f2415a5c3cb44213ffa4a933028e1fa087052a2",
+      "frozen_sha256": "c5f7ba37d5b5a09ff0a023113f2415a5c3cb44213ffa4a933028e1fa087052a2",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AnimalHealthEntry/Index.cshtml",
+      "sha256": "1aa3d65702c0c7f95d39f94c2463d46895ce7e69813ae6b674f901e26379a701",
+      "frozen_sha256": "1aa3d65702c0c7f95d39f94c2463d46895ce7e69813ae6b674f901e26379a701",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AnimalRegistry/Edit.cshtml",
+      "sha256": "ecf09e966c4ee0dd24db6db2c4c8b5f03dcd7c0c86bb93c395468db2c5c2b47d",
+      "frozen_sha256": "ecf09e966c4ee0dd24db6db2c4c8b5f03dcd7c0c86bb93c395468db2c5c2b47d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AnimalRegistry/Index.cshtml",
+      "sha256": "47ed90f6319485b7dc350a463d9b55bdce2facce8fba2ed52cabb27ffde14929",
+      "frozen_sha256": "47ed90f6319485b7dc350a463d9b55bdce2facce8fba2ed52cabb27ffde14929",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AutomationWorkspace/Answer.cshtml",
+      "sha256": "cdba065c461a89a0c781501d9c1a89c6197e9de619e2098afd204bd7fcbecf8c",
+      "frozen_sha256": "cdba065c461a89a0c781501d9c1a89c6197e9de619e2098afd204bd7fcbecf8c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/AutomationWorkspace/Index.cshtml",
+      "sha256": "400760ec1f9a08cb34135af3e0aba54097cdbff87fff77658ef8ab9b1868cce1",
+      "frozen_sha256": "400760ec1f9a08cb34135af3e0aba54097cdbff87fff77658ef8ab9b1868cce1",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Breeding/Index.cshtml",
+      "sha256": "30eceec73fdf24bd2bfbddb8f17a02c11eecb832521c10a95c55413eaa10f368",
+      "frozen_sha256": "30eceec73fdf24bd2bfbddb8f17a02c11eecb832521c10a95c55413eaa10f368",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/BusinessPolicy/Index.cshtml",
+      "sha256": "698fa8eaab728c4246241c06ee5f490ca70837556651d44fca77e7d4a4c6eab6",
+      "frozen_sha256": "698fa8eaab728c4246241c06ee5f490ca70837556651d44fca77e7d4a4c6eab6",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Activity.cshtml",
+      "sha256": "a2c52dccc3e3c0395920a0a1ebdf10239d609c4b9aa4aedd71738392be3b3def",
+      "frozen_sha256": "a2c52dccc3e3c0395920a0a1ebdf10239d609c4b9aa4aedd71738392be3b3def",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/ActivityEdit.cshtml",
+      "sha256": "2da71a37c063ebd7c52ba661412c11280ad2a2d4f503f3d55015603ed569596c",
+      "frozen_sha256": "2da71a37c063ebd7c52ba661412c11280ad2a2d4f503f3d55015603ed569596c",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Index.cshtml",
+      "sha256": "034c72283e2f6413ab3df3a154bfa82fb097a014b011ef60994ef42af8c489bd",
+      "frozen_sha256": "034c72283e2f6413ab3df3a154bfa82fb097a014b011ef60994ef42af8c489bd",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Lead.cshtml",
+      "sha256": "f2aac4a70433ffcf790c934fe4f38132249555d5303f0c7bafd2a07f85927f1e",
+      "frozen_sha256": "f2aac4a70433ffcf790c934fe4f38132249555d5303f0c7bafd2a07f85927f1e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/LeadEdit.cshtml",
+      "sha256": "79d91c63e97bc2fb619d471e2565c4947c958423d814737296b0c4d2d408c3cf",
+      "frozen_sha256": "79d91c63e97bc2fb619d471e2565c4947c958423d814737296b0c4d2d408c3cf",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Opportunity.cshtml",
+      "sha256": "f2ea94d31e261e0af16f50266d5c13e155cacb489f797412293a4f29884ce587",
+      "frozen_sha256": "f2ea94d31e261e0af16f50266d5c13e155cacb489f797412293a4f29884ce587",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/OpportunityEdit.cshtml",
+      "sha256": "18fd0d15ea814288da4ec18dbb6bffffb64f18874e13a5e72544b829bc41821e",
+      "frozen_sha256": "18fd0d15ea814288da4ec18dbb6bffffb64f18874e13a5e72544b829bc41821e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/Quote.cshtml",
+      "sha256": "924264222cc63b7c7d2ea6170c7b3f50f24a5573208fa972403f1c73680f12c9",
+      "frozen_sha256": "924264222cc63b7c7d2ea6170c7b3f50f24a5573208fa972403f1c73680f12c9",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/QuoteEdit.cshtml",
+      "sha256": "74430a7a7ed34b1e71c8dd9e45b942a65842338fb3b82820dc03ecd7579ef6f0",
+      "frozen_sha256": "74430a7a7ed34b1e71c8dd9e45b942a65842338fb3b82820dc03ecd7579ef6f0",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/SalesReady.cshtml",
+      "sha256": "b4d7dbe3fd4bf9090ddca954ba4d6698611add7b3dc152c08cc4df26b983faae",
+      "frozen_sha256": "b4d7dbe3fd4bf9090ddca954ba4d6698611add7b3dc152c08cc4df26b983faae",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/CRM/_QuoteLines.cshtml",
+      "sha256": "1e25b16f4d6e8f3065e903382256cffb5993274d54c1bb822dbe9fc8e03e8a2d",
+      "frozen_sha256": "1e25b16f4d6e8f3065e903382256cffb5993274d54c1bb822dbe9fc8e03e8a2d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Context/Index.cshtml",
+      "sha256": "bc6af711356a8845a6339dab72b1850fd00c0cc85778098cf689924072ab8d69",
+      "frozen_sha256": "bc6af711356a8845a6339dab72b1850fd00c0cc85778098cf689924072ab8d69",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/DairyEntry/Index.cshtml",
+      "sha256": "666c23c2acf271ab5879d07aee75e10b10e02feaf9d346347d2135bf5e4efad0",
+      "frozen_sha256": "666c23c2acf271ab5879d07aee75e10b10e02feaf9d346347d2135bf5e4efad0",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Cart.cshtml",
+      "sha256": "2edd1588c2c3612f1959fb29ed18a9c6eab161389ecd012cb55819c8e1ed8431",
+      "frozen_sha256": "2edd1588c2c3612f1959fb29ed18a9c6eab161389ecd012cb55819c8e1ed8431",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Index.cshtml",
+      "sha256": "c38ab758c5137a2c87b1fb77fb93baf63ae8540f458b4311253548ed004cd0bd",
+      "frozen_sha256": "c38ab758c5137a2c87b1fb77fb93baf63ae8540f458b4311253548ed004cd0bd",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Manage.cshtml",
+      "sha256": "3cef1dd1a46d771ea2339c5b1c68b4d516a24b4b076e54a1b84d527ed911b646",
+      "frozen_sha256": "3cef1dd1a46d771ea2339c5b1c68b4d516a24b4b076e54a1b84d527ed911b646",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Order.cshtml",
+      "sha256": "ff989cbbf779f012ebc1a6e0c5ca361ad1b269ffe9f206cab1cabd71dc96167e",
+      "frozen_sha256": "ff989cbbf779f012ebc1a6e0c5ca361ad1b269ffe9f206cab1cabd71dc96167e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Orders.cshtml",
+      "sha256": "78283325282486a03d5aa55ddabdbd525707e30034a98df192a190a593507dec",
+      "frozen_sha256": "78283325282486a03d5aa55ddabdbd525707e30034a98df192a190a593507dec",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Ecommerce/Unavailable.cshtml",
+      "sha256": "1a1563eecc1999ca11288faa10952041561fdc8daad4e975495e7da661172dce",
+      "frozen_sha256": "1a1563eecc1999ca11288faa10952041561fdc8daad4e975495e7da661172dce",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Expenses/Index.cshtml",
+      "sha256": "a75ea18e2eda14dc94f06e89c92765da10bf5078866b18f71f57d68591de167a",
+      "frozen_sha256": "a75ea18e2eda14dc94f06e89c92765da10bf5078866b18f71f57d68591de167a",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Fattening/Index.cshtml",
+      "sha256": "3bc41931c0244ae3ad6270a1df22f8dfff2576dbfa1750f7cdc8d70f31091c93",
+      "frozen_sha256": "3bc41931c0244ae3ad6270a1df22f8dfff2576dbfa1750f7cdc8d70f31091c93",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/ActionError.cshtml",
+      "sha256": "43b9eccb2d8a4d2991549a9faefe8216cc4ab82c656d3eb20b707458de4d7500",
+      "frozen_sha256": "43b9eccb2d8a4d2991549a9faefe8216cc4ab82c656d3eb20b707458de4d7500",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Create.cshtml",
+      "sha256": "81e7fe28ce4d62949dd06a48ffc8816b669b0f27f7029ecaf5b6b4431e42ffa1",
+      "frozen_sha256": "81e7fe28ce4d62949dd06a48ffc8816b669b0f27f7029ecaf5b6b4431e42ffa1",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/CreateDisposal.cshtml",
+      "sha256": "ef8483c9aa3ef7e2ef506438db408554a45c58c8257e5cc5494247bc49f1f79f",
+      "frozen_sha256": "ef8483c9aa3ef7e2ef506438db408554a45c58c8257e5cc5494247bc49f1f79f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/CreateRun.cshtml",
+      "sha256": "11c9289714e20f1bf91c3d6e0ec5b1a3b10dfb7efa737a050eb3fcdb008dffee",
+      "frozen_sha256": "11c9289714e20f1bf91c3d6e0ec5b1a3b10dfb7efa737a050eb3fcdb008dffee",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Custody.cshtml",
+      "sha256": "49686c0e3390d35d77c1a611f62c73149549c21edc7842e8f1c56c5b7c28765a",
+      "frozen_sha256": "49686c0e3390d35d77c1a611f62c73149549c21edc7842e8f1c56c5b7c28765a",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Details.cshtml",
+      "sha256": "d235f1b0d760880cb46139f459bb6c268a0d5aaada8b894379510490e19f16f9",
+      "frozen_sha256": "d235f1b0d760880cb46139f459bb6c268a0d5aaada8b894379510490e19f16f9",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Disposal.cshtml",
+      "sha256": "7691875fe25d8e4185e7fb3e0893e2830d69707c4bcd639f1a3af5161f288473",
+      "frozen_sha256": "7691875fe25d8e4185e7fb3e0893e2830d69707c4bcd639f1a3af5161f288473",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Edit.cshtml",
+      "sha256": "8136b5cb1ea77f0b385e31fa0761f9bc742a05617a91efaa549dde0868148d22",
+      "frozen_sha256": "8136b5cb1ea77f0b385e31fa0761f9bc742a05617a91efaa549dde0868148d22",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Index.cshtml",
+      "sha256": "2e211371f1572d563b4a88ebc9c4a90453ee9b9f61d9b215593149c185c367ed",
+      "frozen_sha256": "2e211371f1572d563b4a88ebc9c4a90453ee9b9f61d9b215593149c185c367ed",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Run.cshtml",
+      "sha256": "23e5d777156c4e81d3afb4aa963e8cabb9470b12e862e85861584f4de80bf6aa",
+      "frozen_sha256": "23e5d777156c4e81d3afb4aa963e8cabb9470b12e862e85861584f4de80bf6aa",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/Runs.cshtml",
+      "sha256": "bfca43a93853fca8d57da6897c6013c57652940a8c5646dbcaa79be289d50b52",
+      "frozen_sha256": "bfca43a93853fca8d57da6897c6013c57652940a8c5646dbcaa79be289d50b52",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/_Journal.cshtml",
+      "sha256": "9a86c953855a1580502109c17bf7193c485547e2196007566ac3cc1309a07f7d",
+      "frozen_sha256": "9a86c953855a1580502109c17bf7193c485547e2196007566ac3cc1309a07f7d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/FixedAssets/_WorkflowActions.cshtml",
+      "sha256": "e6d42ac7721fd0bf10a7b6af7df6ff94eb2b4633ef468fc7fe3d6aec0b468076",
+      "frozen_sha256": "e6d42ac7721fd0bf10a7b6af7df6ff94eb2b4633ef468fc7fe3d6aec0b468076",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Attendance.cshtml",
+      "sha256": "6199d4e4457e1e7c61e9633e3d7ffb30402d69a0ce560d5133f607c9c6949610",
+      "frozen_sha256": "6199d4e4457e1e7c61e9633e3d7ffb30402d69a0ce560d5133f607c9c6949610",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Calculate.cshtml",
+      "sha256": "5cca42493fb0e44002dd10e41ae6de30c32428af277a236e74542159f6c74810",
+      "frozen_sha256": "5cca42493fb0e44002dd10e41ae6de30c32428af277a236e74542159f6c74810",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Details.cshtml",
+      "sha256": "7ed57344d6d3b712ec4438dd7c6288c29495684f14ca40a14fa2f5dd3a70dd4f",
+      "frozen_sha256": "7ed57344d6d3b712ec4438dd7c6288c29495684f14ca40a14fa2f5dd3a70dd4f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Identity.cshtml",
+      "sha256": "7db68a18ef0e6e397d02da6520394d8ec762010f0c8d78211a47f6a026825be5",
+      "frozen_sha256": "7db68a18ef0e6e397d02da6520394d8ec762010f0c8d78211a47f6a026825be5",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Index.cshtml",
+      "sha256": "9be721047de7c97bbaf7078c78c604808c81ab5a694a9e4cf94f162cd52ea507",
+      "frozen_sha256": "9be721047de7c97bbaf7078c78c604808c81ab5a694a9e4cf94f162cd52ea507",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Leave.cshtml",
+      "sha256": "322684d52dec16be5888deb088a81e87565617e592cf93da2d9428da502485e0",
+      "frozen_sha256": "322684d52dec16be5888deb088a81e87565617e592cf93da2d9428da502485e0",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Me.cshtml",
+      "sha256": "5070754b5c68f499a89dd9365133d2bf05c7b8c3bb2657248a58d6f3f785adc7",
+      "frozen_sha256": "5070754b5c68f499a89dd9365133d2bf05c7b8c3bb2657248a58d6f3f785adc7",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Payslip.cshtml",
+      "sha256": "b239998d4eb6fe900824942481ec3ccdd9f210d851fa29e470c2b9f8c3bffb92",
+      "frozen_sha256": "b239998d4eb6fe900824942481ec3ccdd9f210d851fa29e470c2b9f8c3bffb92",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Policies.cshtml",
+      "sha256": "b163cd4cfe8486bae11eb6b145396300135fd9056e1467926faad2b78415b6dc",
+      "frozen_sha256": "b163cd4cfe8486bae11eb6b145396300135fd9056e1467926faad2b78415b6dc",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Rates.cshtml",
+      "sha256": "b6369cd8faf94994af1f414c81ee23c41adbb653e031ccae39a348931aa3c2f8",
+      "frozen_sha256": "b6369cd8faf94994af1f414c81ee23c41adbb653e031ccae39a348931aa3c2f8",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Register.cshtml",
+      "sha256": "a1a67fd8b6bcef2b0e13bd1d31c0089cdfc540e2f811bd4170919437f75def51",
+      "frozen_sha256": "a1a67fd8b6bcef2b0e13bd1d31c0089cdfc540e2f811bd4170919437f75def51",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/Staff.cshtml",
+      "sha256": "bacb5adf5d86605caa29c794911f5f60656847bbdcec329fca765428aa556438",
+      "frozen_sha256": "bacb5adf5d86605caa29c794911f5f60656847bbdcec329fca765428aa556438",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/HRPayroll/_Nav.cshtml",
+      "sha256": "386fdaf52472f37349f8672e3d9e56572d77e3faa3f80a8d58ea1f56e7c989eb",
+      "frozen_sha256": "386fdaf52472f37349f8672e3d9e56572d77e3faa3f80a8d58ea1f56e7c989eb",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Home/Index.cshtml",
+      "sha256": "f59447f3a6909cd8348ab9b02771d34c537a7f7976a55b4033167f30ea35ebde",
+      "frozen_sha256": "f59447f3a6909cd8348ab9b02771d34c537a7f7976a55b4033167f30ea35ebde",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/OpeningBalance/Index.cshtml",
+      "sha256": "b8ea2dd32979a2be919328a43fd7bab1ea0fb0150cb6ed48c410a3c10e1de16f",
+      "frozen_sha256": "b8ea2dd32979a2be919328a43fd7bab1ea0fb0150cb6ed48c410a3c10e1de16f",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/OperationsWorkspace/Accounts.cshtml",
+      "sha256": "6d8eef8858f309f9ac41f98f6e22a7c0dd5cc97435c2a40e07235083a54550d5",
+      "frozen_sha256": "6d8eef8858f309f9ac41f98f6e22a7c0dd5cc97435c2a40e07235083a54550d5",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/OperationsWorkspace/Inventory.cshtml",
+      "sha256": "e85d0440f07d4c563363e89c3ff6bc29b14402766a84c1523188e652ca8e636e",
+      "frozen_sha256": "e85d0440f07d4c563363e89c3ff6bc29b14402766a84c1523188e652ca8e636e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/OperationsWorkspace/Parties.cshtml",
+      "sha256": "2e3ce2d3e3a0243748472bbd0036a2367057c78838a2bd6227e0c67fe9347ffe",
+      "frozen_sha256": "2e3ce2d3e3a0243748472bbd0036a2367057c78838a2bd6227e0c67fe9347ffe",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/OperationsWorkspace/Trade.cshtml",
+      "sha256": "c0a9310c591fb741faeb8b26bec79fd183ff33aa5b19f37416d4a5ecd4a57701",
+      "frozen_sha256": "c0a9310c591fb741faeb8b26bec79fd183ff33aa5b19f37416d4a5ecd4a57701",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/OperationsWorkspace/_WorkspaceBrowse.cshtml",
+      "sha256": "ec5cf81e0f81f5b93c5b03a0b5ed9f5bd3c23d99f294b7689c52ec3cb81e9e25",
+      "frozen_sha256": "ec5cf81e0f81f5b93c5b03a0b5ed9f5bd3c23d99f294b7689c52ec3cb81e9e25",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/ProductCatalog/Edit.cshtml",
+      "sha256": "dc1ade50e207be11ed31a58dca9b369f2bd02355444307a04b06f04bcc9cfcd1",
+      "frozen_sha256": "dc1ade50e207be11ed31a58dca9b369f2bd02355444307a04b06f04bcc9cfcd1",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/ProductCatalog/Index.cshtml",
+      "sha256": "f93bfbb73cb520cc033c02d4163764ca576f066a9d67fa899cdb2a489bc968d9",
+      "frozen_sha256": "f93bfbb73cb520cc033c02d4163764ca576f066a9d67fa899cdb2a489bc968d9",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/RoleManagement/Index.cshtml",
+      "sha256": "a52615b74d06efd0e0d0536dbef26d045f6b544c3399c37ae3c6780c1d902aae",
+      "frozen_sha256": "a52615b74d06efd0e0d0536dbef26d045f6b544c3399c37ae3c6780c1d902aae",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Shared/_ActionableRecordBrowse.cshtml",
+      "sha256": "2cb1daa82dfb95b913594cd093e33f6f640235efebbb13bf22a46ddf13b15b14",
+      "frozen_sha256": "2cb1daa82dfb95b913594cd093e33f6f640235efebbb13bf22a46ddf13b15b14",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Shared/_CurrencyPolicyNotice.cshtml",
+      "sha256": "f9f4d0ef91cbef2ac614aadf29c3b0080e3225b8c4232d46c8982ad3c812e625",
+      "frozen_sha256": "f9f4d0ef91cbef2ac614aadf29c3b0080e3225b8c4232d46c8982ad3c812e625",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Shared/_Layout.cshtml",
+      "sha256": "380c69d7f10f32ed340b6d6a50d6b2b2f419ffc143adfd48f696c01e93ac4801",
+      "frozen_sha256": "380c69d7f10f32ed340b6d6a50d6b2b2f419ffc143adfd48f696c01e93ac4801",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/StockLedger/Index.cshtml",
+      "sha256": "8fe6c04aa4d47dc1f55f137f87841b6ec9a7eed91695fce0f1da635daae46ff1",
+      "frozen_sha256": "8fe6c04aa4d47dc1f55f137f87841b6ec9a7eed91695fce0f1da635daae46ff1",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/StockTransfers/Create.cshtml",
+      "sha256": "4b0dee319b80819a9434a44819cfa9f6316c678e360e7aa83effc396842fd929",
+      "frozen_sha256": "4b0dee319b80819a9434a44819cfa9f6316c678e360e7aa83effc396842fd929",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/StockTransfers/Details.cshtml",
+      "sha256": "25ffc22017c8e7aab5a0fec361a1aad82d9fb4ca33b62d4e30c556b02b240afd",
+      "frozen_sha256": "25ffc22017c8e7aab5a0fec361a1aad82d9fb4ca33b62d4e30c556b02b240afd",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/StockTransfers/Index.cshtml",
+      "sha256": "7cdf3a7cb9dc3092f7d53056c0c0b37808ce84835ea943297cd52da28223610d",
+      "frozen_sha256": "7cdf3a7cb9dc3092f7d53056c0c0b37808ce84835ea943297cd52da28223610d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Support/Detail.cshtml",
+      "sha256": "4b4673f67bb605a4597b9f1ae099b5b4dbc7c5f5f227cccb52262b06e9f09703",
+      "frozen_sha256": "4b4673f67bb605a4597b9f1ae099b5b4dbc7c5f5f227cccb52262b06e9f09703",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Support/Tickets.cshtml",
+      "sha256": "af2adc6208ae703ac0ef42764d1fc3fccf28773ee6d449d913e7e905dc51fc7e",
+      "frozen_sha256": "af2adc6208ae703ac0ef42764d1fc3fccf28773ee6d449d913e7e905dc51fc7e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Workspace/Feed.cshtml",
+      "sha256": "c6a560f228167b5b9c6137ff479479712c9cda0fa71d53cbfd6e54ea67959145",
+      "frozen_sha256": "c6a560f228167b5b9c6137ff479479712c9cda0fa71d53cbfd6e54ea67959145",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Workspace/Reports.cshtml",
+      "sha256": "318928f057de994eafdb017640dbd0d92e99cb54dcf2c637fa67ab9363f01d45",
+      "frozen_sha256": "318928f057de994eafdb017640dbd0d92e99cb54dcf2c637fa67ab9363f01d45",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/Workspace/Subscription.cshtml",
+      "sha256": "589ea9b55ccca48f3a6e1ada353a056f34b4a9e9b51d07e0a99a8b3e4a486063",
+      "frozen_sha256": "589ea9b55ccca48f3a6e1ada353a056f34b4a9e9b51d07e0a99a8b3e4a486063",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/_ViewImports.cshtml",
+      "sha256": "e80325b9b23f4fbedfc8e307b44d21c7dea07ba3cb81252ac1986b60dc4aab08",
+      "frozen_sha256": "e80325b9b23f4fbedfc8e307b44d21c7dea07ba3cb81252ac1986b60dc4aab08",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/Views/_ViewStart.cshtml",
+      "sha256": "3a8c523f595b40ed4d5b54a0ea7b8a42728d368582b2a29ef12db188990f7373",
+      "frozen_sha256": "3a8c523f595b40ed4d5b54a0ea7b8a42728d368582b2a29ef12db188990f7373",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/appsettings.json",
+      "sha256": "4dc9607516f5102bb6c7ef861d8a852c17e93bf5f065212c659024224c11987d",
+      "frozen_sha256": "4dc9607516f5102bb6c7ef861d8a852c17e93bf5f065212c659024224c11987d",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/css/site.css",
+      "sha256": "516aef439090ad6d07e90d811e3ffd045f95ba7af1be1dc0570a390a989c0828",
+      "frozen_sha256": "516aef439090ad6d07e90d811e3ffd045f95ba7af1be1dc0570a390a989c0828",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/fonts/LICENSE-NOTO.txt",
+      "sha256": "5e74164298eeed3b9ceca7f1c6efb9ac13a86569957de5d6c98cd8390e04ef28",
+      "frozen_sha256": "5e74164298eeed3b9ceca7f1c6efb9ac13a86569957de5d6c98cd8390e04ef28",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/fonts/NotoSansArabic-Bold.ttf",
+      "sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "frozen_sha256": "ded6fc7359ca36d15d7aab9ef0c066e21ce48b26a069994d6602fa2cb9a1b952",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/fonts/NotoSansArabic-Regular.ttf",
+      "sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "frozen_sha256": "504d7407d86875acf7d04dfaa0fd7524d0b8797723bc4aa18022f29db25b0b6e",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/fonts/NotoSansBengali-Bold.ttf",
+      "sha256": "22c9ff99baca4d31c531ce450a1369beed889467e1ad964f4b8a6f810aa46955",
+      "frozen_sha256": "22c9ff99baca4d31c531ce450a1369beed889467e1ad964f4b8a6f810aa46955",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/fonts/NotoSansBengali-Regular.ttf",
+      "sha256": "9bb35b3547829ecc42041b6017e87fd4c5f1da1edcd00f59171777050f346018",
+      "frozen_sha256": "9bb35b3547829ecc42041b6017e87fd4c5f1da1edcd00f59171777050f346018",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/context-selection.js",
+      "sha256": "e972c06387e18cb647e11699e0a7b9b7c4bbd7eb77dee621bc4590e69372bcf3",
+      "frozen_sha256": "e972c06387e18cb647e11699e0a7b9b7c4bbd7eb77dee621bc4590e69372bcf3",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/dairy-language.js",
+      "sha256": "2531a020e285b4afd7ab40d119622c0a52aeec402d70cb15048a6b1bab09e434",
+      "frozen_sha256": "2531a020e285b4afd7ab40d119622c0a52aeec402d70cb15048a6b1bab09e434",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/farm-business-language.js",
+      "sha256": "2284f16b9b30cd475278347990a418c4680af2ddaef0bc80ae27887d91af9405",
+      "frozen_sha256": "2284f16b9b30cd475278347990a418c4680af2ddaef0bc80ae27887d91af9405",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/farm-core-translations.js",
+      "sha256": "5098f947494fa8db2a6c9e194b308b88622eaac59960ef8770027eb80c1f9afa",
+      "frozen_sha256": "5098f947494fa8db2a6c9e194b308b88622eaac59960ef8770027eb80c1f9afa",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/farm-i18n.js",
+      "sha256": "142952efe958ca4841ff20cfdad81031e36e6dfcd85516f8dae721dc43b83b72",
+      "frozen_sha256": "142952efe958ca4841ff20cfdad81031e36e6dfcd85516f8dae721dc43b83b72",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/navigation-menu.js",
+      "sha256": "8c217342e1db306355904eb5d36f88c906e96d6e04f8b761bcd168872dfff796",
+      "frozen_sha256": "8c217342e1db306355904eb5d36f88c906e96d6e04f8b761bcd168872dfff796",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/opening-balance.js",
+      "sha256": "b3fbd38f85353c73f99010b07065ffeddabbe4254d745523d5f3b2f1a8965f57",
+      "frozen_sha256": "b3fbd38f85353c73f99010b07065ffeddabbe4254d745523d5f3b2f1a8965f57",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/stock-transfer-language.js",
+      "sha256": "7e3fe3fe1dafd6eae838f69307b720476857171045ddcd7c37fb3d37904f8923",
+      "frozen_sha256": "7e3fe3fe1dafd6eae838f69307b720476857171045ddcd7c37fb3d37904f8923",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.Web/wwwroot/js/support-tickets.js",
+      "sha256": "953ae073f6bb865ccc7dc0dfeaf52b5288dc0d1952d550f06770c26768b9c053",
+      "frozen_sha256": "953ae073f6bb865ccc7dc0dfeaf52b5288dc0d1952d550f06770c26768b9c053",
+      "matches": true
+    },
+    {
+      "path": "EnterpriseERP.slnx",
+      "sha256": "6a8c12a347f73dcae01a0a36730808dd89bb3cb3cc9c84206a2a4936c234c3b0",
+      "frozen_sha256": "6a8c12a347f73dcae01a0a36730808dd89bb3cb3cc9c84206a2a4936c234c3b0",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Accounts/Areas/Accounts/Controllers/HomeController.cs",
+      "sha256": "0f90e4d78a778b1cd44a8021321bc14625c8850c488f5d4fa32206d07f0efb6f",
+      "frozen_sha256": "0f90e4d78a778b1cd44a8021321bc14625c8850c488f5d4fa32206d07f0efb6f",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Accounts/Areas/Accounts/Views/Home/Index.cshtml",
+      "sha256": "4385955073188092d6d689d59a81b2460cc034694b6db375357a98387cb56599",
+      "frozen_sha256": "4385955073188092d6d689d59a81b2460cc034694b6db375357a98387cb56599",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Accounts/EnterpriseERP.Modules.Accounts.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Accounts/ModuleMarker.cs",
+      "sha256": "18063b441025cc3a40a0631a454d6774d4112002f47516d577af86f4f6b20998",
+      "frozen_sha256": "18063b441025cc3a40a0631a454d6774d4112002f47516d577af86f4f6b20998",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Administration/Areas/Administration/Controllers/HomeController.cs",
+      "sha256": "bf4dd9d745222aff8cf0f56dc0730eb9e238f9899ddaa454ca93a2ea3ef30fb0",
+      "frozen_sha256": "bf4dd9d745222aff8cf0f56dc0730eb9e238f9899ddaa454ca93a2ea3ef30fb0",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Administration/Areas/Administration/Views/Home/Index.cshtml",
+      "sha256": "c9fb095fcad2d2872f29d5d5a198bff96a2e7f2a8f2e5fe501a5c23522a8360e",
+      "frozen_sha256": "c9fb095fcad2d2872f29d5d5a198bff96a2e7f2a8f2e5fe501a5c23522a8360e",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Administration/EnterpriseERP.Modules.Administration.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Administration/ModuleMarker.cs",
+      "sha256": "274f7c548b48a3d36973e8f8db0b3bdf64d3c07c50c09717b3fc97c75cd0c311",
+      "frozen_sha256": "274f7c548b48a3d36973e8f8db0b3bdf64d3c07c50c09717b3fc97c75cd0c311",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.AnimalHealth/Areas/AnimalHealth/Controllers/HomeController.cs",
+      "sha256": "2f89d84840d6391a4b1b9558fdebbbef4348cd3cc4292f248e9bf1f23efe2db4",
+      "frozen_sha256": "2f89d84840d6391a4b1b9558fdebbbef4348cd3cc4292f248e9bf1f23efe2db4",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.AnimalHealth/Areas/AnimalHealth/Views/Home/Index.cshtml",
+      "sha256": "ca8fe79903a037ce32d6a34f382b416361bb025dcf47ca0cbd6a89486ce81561",
+      "frozen_sha256": "ca8fe79903a037ce32d6a34f382b416361bb025dcf47ca0cbd6a89486ce81561",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.AnimalHealth/EnterpriseERP.Modules.AnimalHealth.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.AnimalHealth/ModuleMarker.cs",
+      "sha256": "17a35a3f578403f8579f895c853af1f4d756a9be6ee39b5b06c720263ad05a3f",
+      "frozen_sha256": "17a35a3f578403f8579f895c853af1f4d756a9be6ee39b5b06c720263ad05a3f",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CRM/Areas/CRM/Controllers/HomeController.cs",
+      "sha256": "ae2978f3d90deb37f9e648dd9072f87585d3df5b6b2dfb950a1606b34fafcb25",
+      "frozen_sha256": "ae2978f3d90deb37f9e648dd9072f87585d3df5b6b2dfb950a1606b34fafcb25",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CRM/Areas/CRM/Views/Home/Index.cshtml",
+      "sha256": "ebf7797c711cb1584050eef0b142c6a8ff68a8ebe27c409fbda283020d3f2a79",
+      "frozen_sha256": "ebf7797c711cb1584050eef0b142c6a8ff68a8ebe27c409fbda283020d3f2a79",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CRM/EnterpriseERP.Modules.CRM.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CRM/ModuleMarker.cs",
+      "sha256": "82909c28d3141d712dc96be849439a13f2d5bb83918a8f1037d4f2eca57ee2a2",
+      "frozen_sha256": "82909c28d3141d712dc96be849439a13f2d5bb83918a8f1037d4f2eca57ee2a2",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CustomerCare/Areas/CustomerCare/Controllers/HomeController.cs",
+      "sha256": "4b22ea570c4e848e829d4cf128a378127d81d64dcd1d61eff64c98854f241fb4",
+      "frozen_sha256": "4b22ea570c4e848e829d4cf128a378127d81d64dcd1d61eff64c98854f241fb4",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CustomerCare/Areas/CustomerCare/Views/Home/Index.cshtml",
+      "sha256": "bd49bb977be1b82a6b4e2ac83e7ce2d9dd5579d515c7ea1efe58067e2814a9b2",
+      "frozen_sha256": "bd49bb977be1b82a6b4e2ac83e7ce2d9dd5579d515c7ea1efe58067e2814a9b2",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CustomerCare/EnterpriseERP.Modules.CustomerCare.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.CustomerCare/ModuleMarker.cs",
+      "sha256": "52ac610b712d43b5a2b3a3d48c95eb7e07f16e5001ac2245f161104650e684f2",
+      "frozen_sha256": "52ac610b712d43b5a2b3a3d48c95eb7e07f16e5001ac2245f161104650e684f2",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Dairy/Areas/Dairy/Controllers/HomeController.cs",
+      "sha256": "124d976016b79ddeb6360d79e86bd3a3a8e176675a0fe5dca9b3a580fe87580c",
+      "frozen_sha256": "124d976016b79ddeb6360d79e86bd3a3a8e176675a0fe5dca9b3a580fe87580c",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Dairy/Areas/Dairy/Views/Home/Index.cshtml",
+      "sha256": "5742088287b7b8d8f350a154783d1e7aa93c681bfe031188101d7c2db3c6cdb8",
+      "frozen_sha256": "5742088287b7b8d8f350a154783d1e7aa93c681bfe031188101d7c2db3c6cdb8",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Dairy/EnterpriseERP.Modules.Dairy.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Dairy/ModuleMarker.cs",
+      "sha256": "2d3bd2e93af75d941fa758c4200d8a2f93aba06e978fc58ed6052ac3b94a8c3a",
+      "frozen_sha256": "2d3bd2e93af75d941fa758c4200d8a2f93aba06e978fc58ed6052ac3b94a8c3a",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Ecommerce/Areas/Ecommerce/Controllers/HomeController.cs",
+      "sha256": "544ff767a99ff74c058487c00e41f2b3fbae65e9f49fd16c3560f19ee831f320",
+      "frozen_sha256": "544ff767a99ff74c058487c00e41f2b3fbae65e9f49fd16c3560f19ee831f320",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Ecommerce/Areas/Ecommerce/Views/Home/Index.cshtml",
+      "sha256": "8f3b64e99c7f33c99aed5d1473d41babcff257592fc85dd17df11490331535fb",
+      "frozen_sha256": "8f3b64e99c7f33c99aed5d1473d41babcff257592fc85dd17df11490331535fb",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Ecommerce/EnterpriseERP.Modules.Ecommerce.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Ecommerce/ModuleMarker.cs",
+      "sha256": "2122ccb8c654658669b1a018cee75d6c270b25ab1966c12e3b3102d2a289ec5f",
+      "frozen_sha256": "2122ccb8c654658669b1a018cee75d6c270b25ab1966c12e3b3102d2a289ec5f",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Expenses/Areas/Expenses/Controllers/HomeController.cs",
+      "sha256": "ef95615abc24b3e86ac98a4b97fe0dad3ba18139e905b4d9d08ef55ad7091ad9",
+      "frozen_sha256": "ef95615abc24b3e86ac98a4b97fe0dad3ba18139e905b4d9d08ef55ad7091ad9",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Expenses/Areas/Expenses/Views/Home/Index.cshtml",
+      "sha256": "cbb6944d8d2024ab281a07828eaea779382bd818d381f4e2598df0f01b265e26",
+      "frozen_sha256": "cbb6944d8d2024ab281a07828eaea779382bd818d381f4e2598df0f01b265e26",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Expenses/EnterpriseERP.Modules.Expenses.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Expenses/ModuleMarker.cs",
+      "sha256": "d8fd1a8e900c7fe99e069393c6ee7bcde5c8f7f3656ca62e2fb0e835e7491572",
+      "frozen_sha256": "d8fd1a8e900c7fe99e069393c6ee7bcde5c8f7f3656ca62e2fb0e835e7491572",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Fattening/Areas/Fattening/Controllers/HomeController.cs",
+      "sha256": "6c871c3cbd2aff3bf41bd92c6c3aad5c214d44d7faaded0412042ac80d16f874",
+      "frozen_sha256": "6c871c3cbd2aff3bf41bd92c6c3aad5c214d44d7faaded0412042ac80d16f874",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Fattening/Areas/Fattening/Views/Home/Index.cshtml",
+      "sha256": "cea0ccd9d614fe1c0f5a76a26c6996446b11aa9bf2a4c76ba28e538b0dd304b1",
+      "frozen_sha256": "cea0ccd9d614fe1c0f5a76a26c6996446b11aa9bf2a4c76ba28e538b0dd304b1",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Fattening/EnterpriseERP.Modules.Fattening.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Fattening/ModuleMarker.cs",
+      "sha256": "7d4f8b267d72d5194c56dca6a61c4440f608c2d34c10c9728e463b3660c5a304",
+      "frozen_sha256": "7d4f8b267d72d5194c56dca6a61c4440f608c2d34c10c9728e463b3660c5a304",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FeedManagement/Areas/FeedManagement/Controllers/HomeController.cs",
+      "sha256": "c7b3631b6ee534a970fe519e45203d49a0b1de6bcf1960b21aee78a49cd66776",
+      "frozen_sha256": "c7b3631b6ee534a970fe519e45203d49a0b1de6bcf1960b21aee78a49cd66776",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FeedManagement/Areas/FeedManagement/Views/Home/Index.cshtml",
+      "sha256": "f351d0b2d3dc5ac4ee60fef582cc8d21ede3ea4a231e19cf9959599e37382e4a",
+      "frozen_sha256": "f351d0b2d3dc5ac4ee60fef582cc8d21ede3ea4a231e19cf9959599e37382e4a",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FeedManagement/EnterpriseERP.Modules.FeedManagement.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FeedManagement/ModuleMarker.cs",
+      "sha256": "b71dbae7538c3ad14ae587fecfa172d1f258b4d15ab94da2738309a5c3022b87",
+      "frozen_sha256": "b71dbae7538c3ad14ae587fecfa172d1f258b4d15ab94da2738309a5c3022b87",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FixedAsset/Areas/FixedAsset/Controllers/HomeController.cs",
+      "sha256": "e19685b1d7f05b3342ac199768d5b24015ce4b7befca007fe673d9f99d4d86b9",
+      "frozen_sha256": "e19685b1d7f05b3342ac199768d5b24015ce4b7befca007fe673d9f99d4d86b9",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FixedAsset/Areas/FixedAsset/Views/Home/Index.cshtml",
+      "sha256": "cc63e7cc4933809ec2eebea43b6840145bde3efc2d49f64891e205bb407ff861",
+      "frozen_sha256": "cc63e7cc4933809ec2eebea43b6840145bde3efc2d49f64891e205bb407ff861",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FixedAsset/EnterpriseERP.Modules.FixedAsset.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.FixedAsset/ModuleMarker.cs",
+      "sha256": "12a6b470419e4951d26bcd4a3f13aa869fd7f99293ab3dc86c1914fbbf8c57d4",
+      "frozen_sha256": "12a6b470419e4951d26bcd4a3f13aa869fd7f99293ab3dc86c1914fbbf8c57d4",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.HR/Areas/HR/Controllers/HomeController.cs",
+      "sha256": "93c0e513ff0a43146a444eb6a4c793b7db30584602170ee57031b7ca2e17e5a7",
+      "frozen_sha256": "93c0e513ff0a43146a444eb6a4c793b7db30584602170ee57031b7ca2e17e5a7",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.HR/Areas/HR/Views/Home/Index.cshtml",
+      "sha256": "f9d616aeb64c8ad034b113c618e2e6e6d8727d3b5be50c0fae3e530c3600de6f",
+      "frozen_sha256": "f9d616aeb64c8ad034b113c618e2e6e6d8727d3b5be50c0fae3e530c3600de6f",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.HR/EnterpriseERP.Modules.HR.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.HR/ModuleMarker.cs",
+      "sha256": "dc77c4ec8aba6f1bf314e09924e6ecb381540c1927591443602be41e53daa3f4",
+      "frozen_sha256": "dc77c4ec8aba6f1bf314e09924e6ecb381540c1927591443602be41e53daa3f4",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Hotel/Areas/Hotel/Controllers/HomeController.cs",
+      "sha256": "a9c76b9c5d60d97af0e5438d22846aa53959af26fd2e8bfa270a34498452b66a",
+      "frozen_sha256": "a9c76b9c5d60d97af0e5438d22846aa53959af26fd2e8bfa270a34498452b66a",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Hotel/Areas/Hotel/Views/Home/Index.cshtml",
+      "sha256": "085430b9786682a970b27a12fec14f493429d8290e3f37ad103fb22c3a965870",
+      "frozen_sha256": "085430b9786682a970b27a12fec14f493429d8290e3f37ad103fb22c3a965870",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Hotel/EnterpriseERP.Modules.Hotel.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Hotel/ModuleMarker.cs",
+      "sha256": "59732505b48d34d8ebbaa7a22e23d50d5a422a976ea063ec441162983eb2f1b4",
+      "frozen_sha256": "59732505b48d34d8ebbaa7a22e23d50d5a422a976ea063ec441162983eb2f1b4",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.ImportExport/Areas/ImportExport/Controllers/HomeController.cs",
+      "sha256": "8ff2f577b495d292cce0fb07b53b70129a38c396d24819c56c9f68e4183f16a7",
+      "frozen_sha256": "8ff2f577b495d292cce0fb07b53b70129a38c396d24819c56c9f68e4183f16a7",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.ImportExport/Areas/ImportExport/Views/Home/Index.cshtml",
+      "sha256": "0031a61f28b59bf3b6981f2ddcf20598b287dfdb18f1f239446309042d3cfeed",
+      "frozen_sha256": "0031a61f28b59bf3b6981f2ddcf20598b287dfdb18f1f239446309042d3cfeed",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.ImportExport/EnterpriseERP.Modules.ImportExport.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.ImportExport/ModuleMarker.cs",
+      "sha256": "1bbf47ddf30c1ff702bfcb2fd86115e88ed0b324441dda568690dbf7631bd07d",
+      "frozen_sha256": "1bbf47ddf30c1ff702bfcb2fd86115e88ed0b324441dda568690dbf7631bd07d",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Inventory/Areas/Inventory/Controllers/HomeController.cs",
+      "sha256": "7714d6f169bb2e6c948668ca5a0ed0a1a44f2a60fa894e4266f357046d7ecf60",
+      "frozen_sha256": "7714d6f169bb2e6c948668ca5a0ed0a1a44f2a60fa894e4266f357046d7ecf60",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Inventory/Areas/Inventory/Views/Home/Index.cshtml",
+      "sha256": "a0354c24bd77048979905ec0181783af0f0589216b021997d72648524cc65279",
+      "frozen_sha256": "a0354c24bd77048979905ec0181783af0f0589216b021997d72648524cc65279",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Inventory/EnterpriseERP.Modules.Inventory.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Inventory/ModuleMarker.cs",
+      "sha256": "8ed947a2617a3cfbeeabb9cdefd2f00461ca43d5093e8302e3963c006bb584f3",
+      "frozen_sha256": "8ed947a2617a3cfbeeabb9cdefd2f00461ca43d5093e8302e3963c006bb584f3",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.LC/Areas/LC/Controllers/HomeController.cs",
+      "sha256": "fe568b47ac926607db1e6279160a11f3b7249c18ee09a239d402ee4b1b8bf7f2",
+      "frozen_sha256": "fe568b47ac926607db1e6279160a11f3b7249c18ee09a239d402ee4b1b8bf7f2",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.LC/Areas/LC/Views/Home/Index.cshtml",
+      "sha256": "f140a25b4b8b338867c66499988b31c2b59498bc966ebc3174e4517f638a40b0",
+      "frozen_sha256": "f140a25b4b8b338867c66499988b31c2b59498bc966ebc3174e4517f638a40b0",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.LC/EnterpriseERP.Modules.LC.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.LC/ModuleMarker.cs",
+      "sha256": "0261e8472a785fe4669fe31a5ca48fe1548ce59986bf6f18c6dbf00fb1634d22",
+      "frozen_sha256": "0261e8472a785fe4669fe31a5ca48fe1548ce59986bf6f18c6dbf00fb1634d22",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Livestock/Areas/Livestock/Controllers/HomeController.cs",
+      "sha256": "7862865ae3a7e4b845159b16c940e57bbb8b1b5adcf83afca928a5f3a3dc3027",
+      "frozen_sha256": "7862865ae3a7e4b845159b16c940e57bbb8b1b5adcf83afca928a5f3a3dc3027",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Livestock/Areas/Livestock/Views/Home/Index.cshtml",
+      "sha256": "021da923354d0d30163cb2ac05378bf8001ce3f804a13ffcce7a2b970db63fa7",
+      "frozen_sha256": "021da923354d0d30163cb2ac05378bf8001ce3f804a13ffcce7a2b970db63fa7",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Livestock/EnterpriseERP.Modules.Livestock.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Livestock/ModuleMarker.cs",
+      "sha256": "f547e8c34d67a7e2a42f3d1785db118f87b620c6407fa475adba4df5811189ac",
+      "frozen_sha256": "f547e8c34d67a7e2a42f3d1785db118f87b620c6407fa475adba4df5811189ac",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Payroll/Areas/Payroll/Controllers/HomeController.cs",
+      "sha256": "c941211491e0c3210af923b8aabfd54c9c139bbfc401259c9e919a8460e9037d",
+      "frozen_sha256": "c941211491e0c3210af923b8aabfd54c9c139bbfc401259c9e919a8460e9037d",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Payroll/Areas/Payroll/Views/Home/Index.cshtml",
+      "sha256": "04d25705e4a7b930b6a899d8e77fd486fd22f9f5563a8157d5aab97fc0e46db7",
+      "frozen_sha256": "04d25705e4a7b930b6a899d8e77fd486fd22f9f5563a8157d5aab97fc0e46db7",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Payroll/EnterpriseERP.Modules.Payroll.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Payroll/ModuleMarker.cs",
+      "sha256": "fa56a10cae246cc6fb4a464d8346566947ca3d2b308a6156b11781e802d6af3f",
+      "frozen_sha256": "fa56a10cae246cc6fb4a464d8346566947ca3d2b308a6156b11781e802d6af3f",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Purchase/Areas/Purchase/Controllers/HomeController.cs",
+      "sha256": "2ffb632643a4d2176acbdf5b37f02d0b2cd8faeec4f7b5dca8529533b897784d",
+      "frozen_sha256": "2ffb632643a4d2176acbdf5b37f02d0b2cd8faeec4f7b5dca8529533b897784d",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Purchase/Areas/Purchase/Views/Home/Index.cshtml",
+      "sha256": "f944b1703b5d6fa964bdfc43643039637d0ca5453dc98df46fcd08d2c3fd55c4",
+      "frozen_sha256": "f944b1703b5d6fa964bdfc43643039637d0ca5453dc98df46fcd08d2c3fd55c4",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Purchase/EnterpriseERP.Modules.Purchase.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Purchase/ModuleMarker.cs",
+      "sha256": "60e84d8ca51f86eb9c117be86a881a249feaafc055531575924e1659ca63f0c7",
+      "frozen_sha256": "60e84d8ca51f86eb9c117be86a881a249feaafc055531575924e1659ca63f0c7",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Reporting/Areas/Reporting/Controllers/HomeController.cs",
+      "sha256": "5798fcaf285844d5316e3aad36d362d219d3402c760098cc178c4a6491ecaf7b",
+      "frozen_sha256": "5798fcaf285844d5316e3aad36d362d219d3402c760098cc178c4a6491ecaf7b",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Reporting/Areas/Reporting/Views/Home/Index.cshtml",
+      "sha256": "adb2b530e1a8397d324be7a80f7837adc7741161ba66cc2eeca92ee9ec43df65",
+      "frozen_sha256": "adb2b530e1a8397d324be7a80f7837adc7741161ba66cc2eeca92ee9ec43df65",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Reporting/EnterpriseERP.Modules.Reporting.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Reporting/ModuleMarker.cs",
+      "sha256": "e5a88bfe79b85093725c8e45a6a7ad4aaacb4b296acc2e78eee1b0cb8cfdd42f",
+      "frozen_sha256": "e5a88bfe79b85093725c8e45a6a7ad4aaacb4b296acc2e78eee1b0cb8cfdd42f",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Sales/Areas/Sales/Controllers/HomeController.cs",
+      "sha256": "d27e7ff17c9d27ba89a76d0de0fb07a8342ed56d24b08569cd4cc473b24fb95d",
+      "frozen_sha256": "d27e7ff17c9d27ba89a76d0de0fb07a8342ed56d24b08569cd4cc473b24fb95d",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Sales/Areas/Sales/Views/Home/Index.cshtml",
+      "sha256": "344a6557fefa50dfbd785e81b01ca562af7600dbd6b146dfb11e362f23bbaa53",
+      "frozen_sha256": "344a6557fefa50dfbd785e81b01ca562af7600dbd6b146dfb11e362f23bbaa53",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Sales/EnterpriseERP.Modules.Sales.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Sales/ModuleMarker.cs",
+      "sha256": "300908da661ebc599832b9b129462484256e053811b51cde9b9693ba8f2e5850",
+      "frozen_sha256": "300908da661ebc599832b9b129462484256e053811b51cde9b9693ba8f2e5850",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Store/Areas/Store/Controllers/HomeController.cs",
+      "sha256": "644a875cd74c2cd95db3884b649638aa7d1490eb13bf50cb411d5098a3f82860",
+      "frozen_sha256": "644a875cd74c2cd95db3884b649638aa7d1490eb13bf50cb411d5098a3f82860",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Store/Areas/Store/Views/Home/Index.cshtml",
+      "sha256": "eeb7060e0f61400de78b9e9517117923ac5c7bdde7b74d6046d1c4ba04ddd583",
+      "frozen_sha256": "eeb7060e0f61400de78b9e9517117923ac5c7bdde7b74d6046d1c4ba04ddd583",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Store/EnterpriseERP.Modules.Store.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Store/ModuleMarker.cs",
+      "sha256": "5c83deecaf55ab1f00f9d6eb53c6e2b82a25b906300be05788b7d71e982da35f",
+      "frozen_sha256": "5c83deecaf55ab1f00f9d6eb53c6e2b82a25b906300be05788b7d71e982da35f",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Subscription/Areas/Subscription/Controllers/HomeController.cs",
+      "sha256": "1a48f2fc25fe159ea670d0771db522775b678761fe1c6bce806897bd165b3c59",
+      "frozen_sha256": "1a48f2fc25fe159ea670d0771db522775b678761fe1c6bce806897bd165b3c59",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Subscription/Areas/Subscription/Views/Home/Index.cshtml",
+      "sha256": "24f6f6c06274acb8603efe18f506f564d23b862c6a66d07fd61aa5643f520dbe",
+      "frozen_sha256": "24f6f6c06274acb8603efe18f506f564d23b862c6a66d07fd61aa5643f520dbe",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Subscription/EnterpriseERP.Modules.Subscription.csproj",
+      "sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "frozen_sha256": "419aae7da73907cf4187e3490612a58eb687b0f3284dfa50b83b9b5b86ae81ea",
+      "matches": true
+    },
+    {
+      "path": "Modules/EnterpriseERP.Modules.Subscription/ModuleMarker.cs",
+      "sha256": "912d707700b4c3d79aad5c1574ac60d67a57ddf1ade341d6d4ae7eabcb775e58",
+      "frozen_sha256": "912d707700b4c3d79aad5c1574ac60d67a57ddf1ade341d6d4ae7eabcb775e58",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/AccountingPeriodTests.cs",
+      "sha256": "1e2c5a0b75ab8e02265d40317740af4306973b630a32158e7faf3fdfaeb90ff5",
+      "frozen_sha256": "1e2c5a0b75ab8e02265d40317740af4306973b630a32158e7faf3fdfaeb90ff5",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/ActionableWorkspacePaginationTests.cs",
+      "sha256": "617be26ba3e75373b4e4e6b93cd89788bf9896af7b8bbb26377ba5bd263ae71e",
+      "frozen_sha256": "617be26ba3e75373b4e4e6b93cd89788bf9896af7b8bbb26377ba5bd263ae71e",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/AdministrationTests.cs",
+      "sha256": "5bdcd29068ad0787f388fd780e1aae5596e16c352b256818a2eacf861602b5a4",
+      "frozen_sha256": "5bdcd29068ad0787f388fd780e1aae5596e16c352b256818a2eacf861602b5a4",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/AiSecurityTests.cs",
+      "sha256": "360d8442c144530dbc5a9af5ec3c74feda374aa3a5707111e8e257b649038e57",
+      "frozen_sha256": "360d8442c144530dbc5a9af5ec3c74feda374aa3a5707111e8e257b649038e57",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/AnimalHealthWorkflowTests.cs",
+      "sha256": "43bdf5cf9148f00b9c7510cb51a7ff9344cc080658e9dbb9b66b196fee808de6",
+      "frozen_sha256": "43bdf5cf9148f00b9c7510cb51a7ff9344cc080658e9dbb9b66b196fee808de6",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/AnimalWeightMasterGuardTests.cs",
+      "sha256": "44c1d66a6e6fc44035cd5a7435bd4577cd3146b485e0da2d0a33df60b921ee59",
+      "frozen_sha256": "44c1d66a6e6fc44035cd5a7435bd4577cd3146b485e0da2d0a33df60b921ee59",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/AutomationBindingSafetyTests.cs",
+      "sha256": "97f8e1d5df19ec299b77cb514219d98046934e9ad491744ef40a1e132daef1ac",
+      "frozen_sha256": "97f8e1d5df19ec299b77cb514219d98046934e9ad491744ef40a1e132daef1ac",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/AutomationSecurityTests.cs",
+      "sha256": "1b4e68c41220cf502cff89edcfb317d1171a548ebc3b89a59ea3374246551367",
+      "frozen_sha256": "1b4e68c41220cf502cff89edcfb317d1171a548ebc3b89a59ea3374246551367",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/CRMRenderingTests.cs",
+      "sha256": "216f3ddad211f962053fbe8b087e64fd61b3391d5d9497d65c2db7b8beaa06e7",
+      "frozen_sha256": "216f3ddad211f962053fbe8b087e64fd61b3391d5d9497d65c2db7b8beaa06e7",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/CRMWorkflowTests.cs",
+      "sha256": "4bb8ba4126bf47a2952326c399162790da34b7838a11b56b3b3d01ef9b36612f",
+      "frozen_sha256": "4bb8ba4126bf47a2952326c399162790da34b7838a11b56b3b3d01ef9b36612f",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/CompanyBusinessPolicyTestData.cs",
+      "sha256": "d298dc078f4cbcf1d189bb06cf1716fa20518ecfd7e37c9c7728492bd5328a5e",
+      "frozen_sha256": "d298dc078f4cbcf1d189bb06cf1716fa20518ecfd7e37c9c7728492bd5328a5e",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/CompanyBusinessPolicyTests.cs",
+      "sha256": "4371159ee5ccdc41a414427db48d28cf85d8fa5d7823387246e3d3096879f1d7",
+      "frozen_sha256": "4371159ee5ccdc41a414427db48d28cf85d8fa5d7823387246e3d3096879f1d7",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/DairyWorkflowRegressionTests.cs",
+      "sha256": "b5d44e63f375a5e8c858ef8b8d70b9454dfd398208bddb97be02c6b196c513b0",
+      "frozen_sha256": "b5d44e63f375a5e8c858ef8b8d70b9454dfd398208bddb97be02c6b196c513b0",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/DemoSeederTests.cs",
+      "sha256": "ab71c839361f258661a8b66f504f61b03d539d6a1db9be002aae370f861fa66c",
+      "frozen_sha256": "ab71c839361f258661a8b66f504f61b03d539d6a1db9be002aae370f861fa66c",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/DemoSqlExporterTests.cs",
+      "sha256": "d3c6630784e21a8a2b663aa3106766330e89c2ab511f437ce5a3df145ed10308",
+      "frozen_sha256": "d3c6630784e21a8a2b663aa3106766330e89c2ab511f437ce5a3df145ed10308",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/DocumentPartyDisplayTests.cs",
+      "sha256": "65997432c73c0576a87f7f8af85a4851e088d3ce242334e205b1ee9e13ed4538",
+      "frozen_sha256": "65997432c73c0576a87f7f8af85a4851e088d3ce242334e205b1ee9e13ed4538",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/EcommerceCurrencyRenderingTests.cs",
+      "sha256": "64b7bff08db1f6c8f59674266cb643648c603d1d0f58ebc086eb2f4ba856efef",
+      "frozen_sha256": "64b7bff08db1f6c8f59674266cb643648c603d1d0f58ebc086eb2f4ba856efef",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/EcommerceWorkflowTests.cs",
+      "sha256": "2f80b601b5a9b64e0dbdfc655cbaee63ef3ae139b5e35ca03bfa733b21918ca0",
+      "frozen_sha256": "2f80b601b5a9b64e0dbdfc655cbaee63ef3ae139b5e35ca03bfa733b21918ca0",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/EnterpriseAiTests.cs",
+      "sha256": "0bb24345b3b7dd53d436cd13b2612aeb2b9abc9217d8c84f31b209dbafab4ebb",
+      "frozen_sha256": "0bb24345b3b7dd53d436cd13b2612aeb2b9abc9217d8c84f31b209dbafab4ebb",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/EnterpriseERP.UnitTests.csproj",
+      "sha256": "49af412358476ce4bc9891618705894abd7a184e475410fe0226dbf0c411ae4e",
+      "frozen_sha256": "49af412358476ce4bc9891618705894abd7a184e475410fe0226dbf0c411ae4e",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/FarmBusinessWorkflowTests.cs",
+      "sha256": "3ee8db5a49e231d4314dfe1838ce12b71fb59a1608e4801006ff8a236e119a34",
+      "frozen_sha256": "3ee8db5a49e231d4314dfe1838ce12b71fb59a1608e4801006ff8a236e119a34",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/FinanceCurrencyPrecisionTests.cs",
+      "sha256": "597af1f5562f1e1431efd6f285485393183fd110fa484a19b7255c2f202ad800",
+      "frozen_sha256": "597af1f5562f1e1431efd6f285485393183fd110fa484a19b7255c2f202ad800",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/FinanceWorkflowTests.cs",
+      "sha256": "e21a63b2d043f34d5e1badfc103eb0fb9cdda98609dcea56929ba716c318676f",
+      "frozen_sha256": "e21a63b2d043f34d5e1badfc103eb0fb9cdda98609dcea56929ba716c318676f",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/FixedAssetUiTests.cs",
+      "sha256": "bce27c6a10d48521eaca23f300b415ac14620a98ebcc6efdc5fae81b05c7a634",
+      "frozen_sha256": "bce27c6a10d48521eaca23f300b415ac14620a98ebcc6efdc5fae81b05c7a634",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/FixedAssetWorkflowTests.cs",
+      "sha256": "4dd43e717d27ed1d95bf54dab9dc8ff95071819a785faed62be6a91038a4a261",
+      "frozen_sha256": "4dd43e717d27ed1d95bf54dab9dc8ff95071819a785faed62be6a91038a4a261",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/HRPayrollCompensationTests.cs",
+      "sha256": "6ab8b11244edeecd25fdce0b9ca41ea9bbbb7c41b4ac68df6182a28e54765572",
+      "frozen_sha256": "6ab8b11244edeecd25fdce0b9ca41ea9bbbb7c41b4ac68df6182a28e54765572",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/HRPayrollDemoSeederTests.cs",
+      "sha256": "e220e96e1afe9c098eef4581886280d477a3d2c7bbb1f06b7d66e4d1618d4d31",
+      "frozen_sha256": "e220e96e1afe9c098eef4581886280d477a3d2c7bbb1f06b7d66e4d1618d4d31",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/HRPayrollMixedTests.cs",
+      "sha256": "2ea48990f8c586fe5a8c3a726dd57dd458f4e9771e1e8a52e09595e8c09df1ba",
+      "frozen_sha256": "2ea48990f8c586fe5a8c3a726dd57dd458f4e9771e1e8a52e09595e8c09df1ba",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/HRPayrollMonthlyTests.cs",
+      "sha256": "f5cfbf97a29b97fbe4b58e12878246fd50078f107db7f47243516286ac4b0873",
+      "frozen_sha256": "f5cfbf97a29b97fbe4b58e12878246fd50078f107db7f47243516286ac4b0873",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/HRPayrollWorkflowTests.cs",
+      "sha256": "bab61df8cb359cc3ccd1c8cbfdc39cf4889dab5dfeeba807de965556314c5204",
+      "frozen_sha256": "bab61df8cb359cc3ccd1c8cbfdc39cf4889dab5dfeeba807de965556314c5204",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/IdentitySecurityTests.cs",
+      "sha256": "5e6dbdeb649ad7e721043a89542fc94ba499e1e711321a3c0d65a61e04a154eb",
+      "frozen_sha256": "5e6dbdeb649ad7e721043a89542fc94ba499e1e711321a3c0d65a61e04a154eb",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/IdentitySessionOptionsTests.cs",
+      "sha256": "4c3024e5cfb2adc259771c4f4ec0b68e43bac5c8e218160eb38e143df2ed1057",
+      "frozen_sha256": "4c3024e5cfb2adc259771c4f4ec0b68e43bac5c8e218160eb38e143df2ed1057",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/JobWorkerSecurityTests.cs",
+      "sha256": "9e4423e4b6d8327b4bd0a637a5bc4b6b730405816ea3512b13c5d47cab4ff62d",
+      "frozen_sha256": "9e4423e4b6d8327b4bd0a637a5bc4b6b730405816ea3512b13c5d47cab4ff62d",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/ManualFinancialAuditTests.cs",
+      "sha256": "42d4b560cdd5987b505c660638a677c0ee33b3c5c0f0e518a50fd3ba472c0613",
+      "frozen_sha256": "42d4b560cdd5987b505c660638a677c0ee33b3c5c0f0e518a50fd3ba472c0613",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/MasterEditSafetyTests.cs",
+      "sha256": "7724570f65bd7532aa68e18824aa89d2a6e357c3c64e4b37a438e29ab8168b14",
+      "frozen_sha256": "7724570f65bd7532aa68e18824aa89d2a6e357c3c64e4b37a438e29ab8168b14",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/MfaSecurityTests.cs",
+      "sha256": "0f6eacbc2b3532a611d806f9f7b4bfc17eaa5feb9fb1b83a4f03b758c8c6dd96",
+      "frozen_sha256": "0f6eacbc2b3532a611d806f9f7b4bfc17eaa5feb9fb1b83a4f03b758c8c6dd96",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/OpeningBalanceWorkflowTests.cs",
+      "sha256": "edf1734be6917a19c2544a3ecc36c1a3e472022c556d49c007fe699995cd590a",
+      "frozen_sha256": "edf1734be6917a19c2544a3ecc36c1a3e472022c556d49c007fe699995cd590a",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/OperationalCurrencyPrecisionTests.cs",
+      "sha256": "cbcf60040c53f0bc17e3c554239697013f66b8bdcd1400dee627e0b1331299ff",
+      "frozen_sha256": "cbcf60040c53f0bc17e3c554239697013f66b8bdcd1400dee627e0b1331299ff",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/ProductionSecurityTests.cs",
+      "sha256": "8d65aea1c49a0ee6fd8c3a3e9ee70bbb99feb2b506960b6b09bbd3406638cb8c",
+      "frozen_sha256": "8d65aea1c49a0ee6fd8c3a3e9ee70bbb99feb2b506960b6b09bbd3406638cb8c",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/ReadinessSecurityTests.cs",
+      "sha256": "9ac4948de555193be7a7f0a6ae98e4b6363e6f13380d45ffab9588864f57c177",
+      "frozen_sha256": "9ac4948de555193be7a7f0a6ae98e4b6363e6f13380d45ffab9588864f57c177",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/ReportLocalizationTests.cs",
+      "sha256": "d209ba4fcb03bed49c86a24c37d041e0b6e5159120efd8b87b96328e35af0dc4",
+      "frozen_sha256": "d209ba4fcb03bed49c86a24c37d041e0b6e5159120efd8b87b96328e35af0dc4",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/SanityTests.cs",
+      "sha256": "6a75758876d689db270f7b09ed57e194183db435c032c0d174bc025589d38b51",
+      "frozen_sha256": "6a75758876d689db270f7b09ed57e194183db435c032c0d174bc025589d38b51",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/SecurityTestScope.cs",
+      "sha256": "a05a086862b60cd867a1f3d434582913a76b64a89303ba70d3074e24ed4240dc",
+      "frozen_sha256": "a05a086862b60cd867a1f3d434582913a76b64a89303ba70d3074e24ed4240dc",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/StockCreationAuditTests.cs",
+      "sha256": "c348f0e4c803353b39af3036ee68d84a57c032a50a906d84ccb3179d14aa8b43",
+      "frozen_sha256": "c348f0e4c803353b39af3036ee68d84a57c032a50a906d84ccb3179d14aa8b43",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/StockTransferTests.cs",
+      "sha256": "8b689f28e5bb6189a07a0a045c81bcc91d7ef5acd69491ed34b7d3d0bfab94f3",
+      "frozen_sha256": "8b689f28e5bb6189a07a0a045c81bcc91d7ef5acd69491ed34b7d3d0bfab94f3",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/SubscriptionCurrencyRenderingTests.cs",
+      "sha256": "b751d9d599b97ad8c15f492139c292ab497555c219116aceb6069bee1fcb3c80",
+      "frozen_sha256": "b751d9d599b97ad8c15f492139c292ab497555c219116aceb6069bee1fcb3c80",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/SubscriptionSecurityTests.cs",
+      "sha256": "c01abc5c311f30ed37adaa3aedf2b8235d2577202cbdcb000d61812241d9af1f",
+      "frozen_sha256": "c01abc5c311f30ed37adaa3aedf2b8235d2577202cbdcb000d61812241d9af1f",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/SupportSecurityTests.cs",
+      "sha256": "d675b2a30763b398a890e38cb360f2f395e1d48813110b64d7336aed92ab663c",
+      "frozen_sha256": "d675b2a30763b398a890e38cb360f2f395e1d48813110b64d7336aed92ab663c",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/TenantSecurityTests.cs",
+      "sha256": "38665ee2a6b0be5deb589ac4ba4b16d90cf6846a736414563ca9fac738fb4d7f",
+      "frozen_sha256": "38665ee2a6b0be5deb589ac4ba4b16d90cf6846a736414563ca9fac738fb4d7f",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/UiLocalizationRenderingTests.cs",
+      "sha256": "a0e9120495ff660eb0034a8e16cb4805ebf1d3fe46f2999a6afaf2415910591e",
+      "frozen_sha256": "a0e9120495ff660eb0034a8e16cb4805ebf1d3fe46f2999a6afaf2415910591e",
+      "matches": true
+    },
+    {
+      "path": "Tests/EnterpriseERP.UnitTests/WorkspaceActionPagingTests.cs",
+      "sha256": "2562950f535b3eb7e08eb2b181965c652704a0f72814438e4ddfd268492ae00d",
+      "frozen_sha256": "2562950f535b3eb7e08eb2b181965c652704a0f72814438e4ddfd268492ae00d",
+      "matches": true
+    },
+    {
+      "path": "global.json",
+      "sha256": "a63b77552b51f013c7db69270edd0055d64edbe77cdd5b0b9584dfdeefac10c5",
+      "frozen_sha256": "a63b77552b51f013c7db69270edd0055d64edbe77cdd5b0b9584dfdeefac10c5",
+      "matches": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+2026-10-19T18:07:48Z
+PASS Built runtime available
+PASS Guarded enterprise fixture seeded: CLI exit 0
+PASS Temporary localhost host ready
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo1@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo1@example.invalid
+PASS GET /Account/Login: HTTP 200
+PASS Identity login farmdemo2@example.invalid: HTTP 302
+PASS GET /Context: HTTP 200
+PASS Select verified context farmdemo2@example.invalid
+PASS GET /Administration: HTTP 200
+PASS Create fresh account using actual administration form
+PASS Actual account form grants exactly the two selected operational permissions
+PASS New account is unconfirmed until explicit ownership review
+PASS GET /Administration: HTTP 200
+PASS Review names exact account and does not pretend to send SMTP
+PASS Ownership mutation requires CSRF
+PASS Ownership review requires explicit attestation
+PASS Wrong administrator password cannot verify target or leak attempted password
+PASS GET /Administration: HTTP 200
+PASS GET /Context: HTTP 200
+PASS Another company cannot attest guessed target identity
+PASS Scoped password-confirmed offline review verifies new account
+PASS Complete compact offline audit fits SQL Server column and names method/reference
+PASS Replayed verification does not add review evidence
+PASS GET /HRPayroll/staff: HTTP 200
+PASS Create staff record without fixture-level identity mutation: HTTP 302; []
+PASS GET /HRPayroll/identity/6: HTTP 200
+PASS Newly reviewed account can be explicitly linked to own employee record
+PASS GET /Parties: HTTP 200
+PASS Create customer party through real form
+PASS GET /Ecommerce/manage: HTTP 200
+PASS Newly reviewed account can be explicitly linked to own customer record
+PASS GET /Account/Login: HTTP 200
+PASS New owner logs in with original unchanged password
+PASS GET /Context: HTTP 200
+PASS New owner selects authorized company and branch
+PASS GET /HRPayroll/me: HTTP 200
+PASS Employee self-service is reachable after genuine onboarding flow
+PASS GET /Ecommerce/cart: HTTP 200
+PASS Customer cart is reachable after genuine onboarding flow
+PASS Onboarding granted no posting or administration permission

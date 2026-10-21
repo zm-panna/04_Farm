@@ -1,0 +1,203 @@
+{
+  "generated_utc": "2026-10-19T04:11:37.830596+00:00",
+  "product": "Smart Farm AI ERP .NET 10",
+  "source_status": "VERIFIED_CORE_SOURCE_CANDIDATE",
+  "release_decision": "BLOCKED_PENDING_EXTERNAL_ACCEPTANCE_AND_UNRESOLVED_SCOPE",
+  "production_approved": false,
+  "all_inherited_requirements_complete": false,
+  "environment": {
+    "os": "Debian GNU/Linux 13",
+    "sdk": "10.0.402",
+    "runtime": "10.0.13",
+    "database_executed": "SQLite isolated Development fixtures only",
+    "dotnet_project": "EnterpriseERP.slnx"
+  },
+  "artifacts": {
+    "runtime_source_file_count": 291,
+    "runtime_source_manifest_sha256": "4b00fb0ced02b270613a605fce65ceafdcf8017e893cbc2015239f09a5563154",
+    "runtime_source_manifest": "evidence/SOURCE_RUNTIME_SHA256.txt",
+    "web_dll_sha256": "8b330c471081b7fd3df714246fe0f64551c36cb4305998ea95ade28c19fc3e60",
+    "test_dll_sha256": "8e8267e69d61b27069de777802d52a1452523c6ed929cb9f56b24930ab9599a3",
+    "schema_sql_sha256": "7756c0be6b4efe68bf0724bd4043914f09ea4a5bd511ab3135b0b4d3b75469cc",
+    "synthetic_demo_data_sha256": "659caec62e6418a041a5597affb1a79273eb4685b419b7d43f2d6d39edf961b7"
+  },
+  "verified": {
+    "restore": {
+      "status": "PASS",
+      "evidence": "evidence/restore.log"
+    },
+    "release_build": {
+      "status": "PASS",
+      "warnings": 0,
+      "errors": 0,
+      "evidence": "evidence/build.log"
+    },
+    "dotnet_tests": {
+      "passed": 453,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "evidence/test-results/tests.trx"
+    },
+    "independent_compiled_test_rerun": {
+      "passed": 453,
+      "failed": 0,
+      "skipped": 0,
+      "evidence": "evidence/independent/independent-checkpoint.trx",
+      "review": "evidence/independent/REVIEW.md",
+      "machine_evidence": "evidence/independent/results.json"
+    },
+    "http_integration": {
+      "passed": 407,
+      "failed": 0,
+      "browser_executed": false,
+      "evidence": "evidence/http/results.json",
+      "final_balanced_vouchers": 688,
+      "final_reconciled_stock_items": 14
+    },
+    "javascript_adapters": {
+      "localization": 27,
+      "support_pager": 8,
+      "navigation_and_script_security": 5,
+      "total_passed": 40,
+      "real_browser_executed": false,
+      "evidence": [
+        "evidence/localization-tests.log",
+        "evidence/support-ui-tests.log",
+        "evidence/browser-security-tests.log"
+      ]
+    },
+    "languages": {
+      "available": [
+        "en",
+        "bn",
+        "banglish",
+        "ar"
+      ],
+      "explicit_static_elements": 945,
+      "dictionary_keys": 1137,
+      "arabic_rtl": true,
+      "all_dynamic_strings_translated": false,
+      "native_speaker_acceptance": false,
+      "verified_dynamic_scope": [
+        "finite lifecycle states",
+        "structured stock/document/payment/invoice/proposal options",
+        "known application validation",
+        "support transitions",
+        "dairy sessions",
+        "operational paging and system notifications",
+        "explicit missing-party fallback provenance"
+      ],
+      "unchanged_content": [
+        "user-entered names, notes and references",
+        "technical codes and numerical values",
+        "unknown infrastructure/provider errors"
+      ]
+    },
+    "report_export": {
+      "formats": [
+        "CSV",
+        "XLSX",
+        "PDF"
+      ],
+      "languages": [
+        "en",
+        "bn",
+        "banglish",
+        "ar"
+      ],
+      "pdf_fonts_embedded": [
+        "Noto Sans Bengali",
+        "Noto Sans Arabic"
+      ],
+      "arabic_pdf_and_excel_rtl": true,
+      "numeric_cells_preserved": true,
+      "pdf_raster_review": "evidence/report-render/REVIEW.md"
+    },
+    "model_migration_match": {
+      "status": "PASS",
+      "migrations": [
+        "20261019030204_InitialFarmRelease",
+        "20261019032129_CompleteCoreIntegrity"
+      ],
+      "evidence": "evidence/model-check.log"
+    },
+    "sql_generation": {
+      "status": "PASS",
+      "idempotent_schema": "sql/01-SCHEMA_REVIEW.sql",
+      "synthetic_data": "sql/02-DEMO_DATA.sql",
+      "execution_on_sql_server": false,
+      "demo_export_evidence": "evidence/demo-sql-export.json"
+    },
+    "publish": {
+      "status": "PASS",
+      "evidence": "evidence/publish.log",
+      "host_deployment_executed": false
+    },
+    "dependency_advisory_audit": {
+      "status": "NO_KNOWN_VULNERABILITIES_REPORTED_BY_CONFIGURED_SOURCES",
+      "includes_transitive": true,
+      "evidence": "evidence/dependency-audit.txt",
+      "not_a_security_guarantee": true
+    },
+    "clean_extracted_source": {
+      "source_input_manifest_matches": true,
+      "source_inputs_checked": 291,
+      "build_warnings": 0,
+      "build_errors": 0,
+      "dotnet_tests_passed": 453,
+      "dotnet_tests_failed": 0,
+      "javascript_checks_passed": 40,
+      "binary_reused_from_authoring_tree": false,
+      "evidence": "evidence/clean-package-verification.json"
+    }
+  },
+  "demo_credentials": {
+    "known_or_default_password_shipped": false,
+    "synthetic_identity_password_hashes_in_sql": true,
+    "sample_initialization_password_discarded": true,
+    "regenerate_usable_logins": "scripts/EXPORT_DEMO_SQL.ps1",
+    "private_handling_required": true
+  },
+  "not_verified": [
+    {
+      "gate": "SQL Server migration/data import, provider-specific constraints, concurrency and rollback",
+      "reason": "No authorized SQL Server staging target was available"
+    },
+    {
+      "gate": "Windows/IIS, HTTPS certificates, app-pool identity and deployment restart",
+      "reason": "No authorized Windows/IIS staging target was available"
+    },
+    {
+      "gate": "Real browser/mobile rendering and interactive acceptance",
+      "reason": "Cloud Chromium required socket was denied; no browser checks executed. HTTP and deterministic DOM adapters are separately labelled"
+    },
+    {
+      "gate": "PowerShell script execution and Windows private folder ACLs",
+      "reason": "PowerShell/Windows runtime unavailable; scripts reviewed but not executed here"
+    },
+    {
+      "gate": "Live AI, payment or messaging provider",
+      "reason": "No approved configured provider or real transaction/dispatch was supplied"
+    },
+    {
+      "gate": "Customer/native-speaker/accountant UAT, backup restore, monitoring and load capacity",
+      "reason": "Requires customer environment, approved business policy and acceptance evidence"
+    }
+  ],
+  "unresolved_scope": [
+    "HR/Payroll",
+    "CRM",
+    "Fixed-asset register and depreciation",
+    "LC/Import-Export",
+    "Hotel/E-commerce",
+    "Warehouse/bin/lot/expiry and unit-conversion specifics beyond completed branch transfers",
+    "Statutory tax/currency/invoice and accountant classifications",
+    "Existing customer ledger/data conversion",
+    "External provider and organization MFA rollout policy"
+  ],
+  "requirements_matrix": "docs/REQUIREMENT_MATRIX.md",
+  "deployment_runbook": "docs/LIVE_DEPLOYMENT_RUNBOOK_BN.md",
+  "uat_checklist": "docs/LIVE_UAT_CHECKLIST_BN.md",
+  "revision": "CORE_FOLLOWUP_2",
+  "change_notes": "docs/REVISION2_CHANGES.md"
+}

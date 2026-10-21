@@ -1,0 +1,34 @@
+warn: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[35]
+      No XML encryptor configured. Key {9fe2c5fb-e4d7-4836-971c-24d2a4bb9973} may be persisted to storage in unencrypted form.
+warn: Microsoft.EntityFrameworkCore.Query[10102]
+      The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/scan/resolve; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/scan/resolve; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ArgumentException on /api/scan/resolve; status 400
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/scan/labels; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ScanWorkflowException on /api/scan/labels; status 409
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ArgumentException on /api/scan/labels; status 400
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ArgumentException on /api/scan/options; status 400
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ScanWorkflowException on /scan/labels/28/print; status 409
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ArgumentException on /api/scan/drafts/6/confirm; status 400
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/scan/drafts/6; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/scan/drafts/6/confirm; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure KeyNotFoundException on /api/scan/drafts/6; status 404
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ScanWorkflowException on /api/scan/drafts/7/confirm; status 409
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ScanWorkflowException on /api/scan/drafts/8/confirm; status 409
+warn: EnterpriseERP.Web.PermissionExceptionMiddleware[0]
+      Handled request failure ScanWorkflowException on /api/scan/drafts/10/confirm; status 409

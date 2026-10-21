@@ -1,0 +1,49 @@
+{
+  "name": "FarmSphere Smart Farm ERP",
+  "note": "Figma-ready design specification; NOT a .fig file and not imported into figma.com",
+  "color": {
+    "pine": "#173D35",
+    "pineLight": "#245748",
+    "mint": "#E8F3EB",
+    "accent": "#BCE279",
+    "canvas": "#F5F7F4",
+    "surface": "#FFFFFF",
+    "ink": "#192922",
+    "muted": "#70817A",
+    "border": "#E4EAE5"
+  },
+  "type": {
+    "family": "Inter / Segoe UI / Noto Sans Bengali",
+    "heading": "30px / bold",
+    "body": "15px / regular"
+  },
+  "layout": {
+    "sidebar": "252px",
+    "header": "78px",
+    "radius": "16px",
+    "dashboard": "12-column responsive",
+    "breakpoints": [
+      1100,
+      780,
+      460
+    ]
+  },
+  "components": [
+    "Sidebar",
+    "Topbar",
+    "KPI Card",
+    "Hero Banner",
+    "Workflow Tile",
+    "Data Table",
+    "Form Card",
+    "Notice",
+    "Empty State"
+  ],
+  "screens": [
+    "Dashboard",
+    "Company / Branch Selection",
+    "Module Workspace",
+    "Customer Care",
+    "Permissions"
+  ]
+}

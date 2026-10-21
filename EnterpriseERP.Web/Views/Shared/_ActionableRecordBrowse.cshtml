@@ -1,0 +1,28 @@
+@model EnterpriseERP.Web.Controllers.ActionableRecordBrowseModel
+<form method="get" action="@(Model.Action + "#" + Model.Anchor)" class="filter-form">
+    <input type="hidden" name="@Model.PageField" value="1" />
+    <label><span data-i18n="@Model.SearchLabel">@Model.SearchLabel</span><input name="@Model.SearchField" value="@Model.Page.Search" maxlength="80" /></label>
+    <label><span data-i18n="Status">Status</span><select name="@Model.StatusField">
+        @foreach (var status in Model.StatusOptions)
+        {
+            <option value="@status" selected="@(status == Model.Status)" data-i18n="@status">@status</option>
+        }
+    </select></label>
+    <button data-i18n="Search">Search</button>
+</form>
+<p><span data-i18n="Page">Page</span> @Model.Page.PageNumber <span data-i18n="of">of</span> @Model.Page.TotalPages · @Model.Page.TotalCount <span data-i18n="records">records</span></p>
+<p data-i18n="@Model.Hint">@Model.Hint</p>
+@if (Model.Page.TotalCount == 0)
+{
+    <p data-i18n="No matching records.">No matching records.</p>
+}
+<nav class="pagination" aria-label="Record pages" data-i18n-aria-label="Record pages">
+    @if (Model.Page.HasPrevious)
+    {
+        <a href="@Model.PageLink(Model.Page.PageNumber - 1)" data-i18n="Previous">Previous</a>
+    }
+    @if (Model.Page.HasNext)
+    {
+        <a href="@Model.PageLink(Model.Page.PageNumber + 1)" data-i18n="Next">Next</a>
+    }
+</nav>

@@ -1,0 +1,30 @@
+@model EnterpriseERP.Web.Controllers.SupportTicketDetailPage
+@{ ViewData["Title"] = Model.Detail.Ticket.TicketNumber; var ticket = Model.Detail.Ticket; var statuses = EnterpriseERP.Web.SupportService.AllowedTransitions(ticket.Status); }
+<h1>@ticket.TicketNumber: @ticket.Subject</h1>
+<p><a href="/support/tickets" data-i18n="All tickets">All tickets</a> · <span data-i18n-enum="ticket" data-i18n-value="@ticket.Status">@ticket.Status</span> · <span data-i18n="Priority">Priority</span>: <span data-i18n-enum="priority" data-i18n-value="@ticket.Priority">@ticket.Priority</span></p>
+@if(TempData["Success"] is string success){<p role="status">@success</p>}
+<div asp-validation-summary="All" role="alert"></div>
+<dl><dt><span data-i18n="Contact">Contact</span></dt><dd>@ticket.ContactName @ticket.ContactPhone</dd><dt><span data-i18n="Description">Description</span></dt><dd style="white-space:pre-wrap">@ticket.Description</dd><dt><span data-i18n="Assigned to">Assigned to</span></dt><dd data-i18n="@(ticket.AssignedTo is null ? "Unassigned" : null)">@(Model.Detail.Assignees.FirstOrDefault(x => x.Id == ticket.AssignedTo)?.Name ?? ticket.AssignedTo ?? "Unassigned")</dd></dl>
+@if(Model.CanUpdate){
+ <h2 data-i18n="Update ticket">Update ticket</h2>
+ @if(ticket.Status == "Closed"){<p data-i18n="Closed tickets are read-only until explicitly reopened. Explain why it needs reopening in your note.">Closed tickets are read-only until explicitly reopened. Explain why it needs reopening in your note.</p>}
+ <form method="post" action="/support/tickets/@ticket.Id/update">
+  @Html.AntiForgeryToken()<input type="hidden" asp-for="Update.RowVersion" />
+  <label asp-for="Update.Status" data-i18n="Status">Status</label><select asp-for="Update.Status">
+   @foreach(var status in statuses){<option value="@status" data-i18n-enum="ticket" data-i18n-value="@status">@status</option>}
+   @if(ticket.Status is "Resolved" or "Closed"){<option value="Open" data-i18n="Open (explicit reopen required)">Open (explicit reopen required)</option>}
+  </select>
+  @if(ticket.Status is "Resolved" or "Closed"){<label><input asp-for="Update.Reopen" /> <span data-i18n="Explicitly reopen this ticket">Explicitly reopen this ticket</span></label>}
+  <label asp-for="Update.AssignedTo" data-i18n="Assignee">Assignee</label><select asp-for="Update.AssignedTo"><option value="" data-i18n="Unassigned">Unassigned</option>@foreach(var assignee in Model.Detail.Assignees){<option value="@assignee.Id">@assignee.Name</option>}</select>
+  <label asp-for="Update.Note" data-i18n="Update or reopening note">Update or reopening note</label><textarea asp-for="Update.Note" maxlength="2000" required></textarea>
+  <button type="submit" data-i18n="Save update">Save update</button>
+ </form>
+}
+<h2 data-i18n="Activity history">Activity history</h2>
+@foreach(var activity in Model.Detail.History){
+ var transition = activity.Action is "StatusChanged" or "Reopened" ? System.Text.RegularExpressions.Regex.Match(activity.Note, @"^(Open|InProgress|WaitingCustomer|Resolved|Closed) → (Open|InProgress|WaitingCustomer|Resolved|Closed): ([\s\S]*)$") : null;
+ <article><strong data-i18n-enum="activity" data-i18n-value="@activity.Action">@activity.Action</strong> <time>@activity.CreatedUtc.ToString("yyyy-MM-dd HH:mm 'UTC'")</time>
+ @if(transition?.Success == true){<p style="white-space:pre-wrap" data-i18n-template="support-transition" data-i18n-values="@System.Text.Json.JsonSerializer.Serialize(new { previous = transition.Groups[1].Value, next = transition.Groups[2].Value, note = transition.Groups[3].Value })">@activity.Note</p>}
+ else{<p style="white-space:pre-wrap" data-i18n="@(activity.Action == "Created" && activity.Note == "Ticket opened" ? "Ticket opened" : null)">@activity.Note</p>}
+ <small><span data-i18n="Recorded by">Recorded by</span> <bdi>@activity.ActorId</bdi></small></article>
+}

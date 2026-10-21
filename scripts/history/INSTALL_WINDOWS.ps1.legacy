@@ -1,0 +1,9 @@
+$ErrorActionPreference='Stop'
+if(-not (Get-Command dotnet -ErrorAction SilentlyContinue)){throw 'Install .NET 10 SDK first'}
+dotnet --info
+Write-Host 'Set ConnectionStrings__DefaultConnection as an environment variable or user-secrets (do not commit passwords).'
+dotnet restore .\EnterpriseERP.Web\EnterpriseERP.Web.csproj
+if($LASTEXITCODE -ne 0){throw 'Restore failed'}
+dotnet build .\EnterpriseERP.Web\EnterpriseERP.Web.csproj -c Release --no-restore
+if($LASTEXITCODE -ne 0){throw 'Build failed'}
+Write-Host 'Run EF migration commands from README and test with SQL Server before deployment.'
