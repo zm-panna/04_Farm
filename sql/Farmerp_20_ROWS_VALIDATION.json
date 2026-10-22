@@ -1,0 +1,14 @@
+{
+  "tables": 95,
+  "minimumRowsPerTable": 20,
+  "totalRows": 5507,
+  "users": 40,
+  "uploadedForeignKeysVerified": 302,
+  "uploadedCheckConstraintsVerified": 58,
+  "uploadedUniqueIndexesVerified": 0,
+  "uploadedPrimaryAndUniqueConstraintsVerified": 138,
+  "sqliteIntegrity": "PASS",
+  "insertColumnsAndCounts": "PASS",
+  "identityUserIdValues": 40,
+  "sqlServerExecution": "Not executed"
+}

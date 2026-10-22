@@ -8,7 +8,7 @@ public static partial class EnterpriseDemoSeeder
     internal static async Task SeedEcommerce(AppDbContext db, Company company, Branch branch, AppUser maker, AppUser reviewer,
         CompanyBusinessPolicy policy, TaxPolicy tax, int number, DateTimeOffset now, DateOnly today, CancellationToken ct)
     {
-        if (db.Database.CurrentTransaction == null || company.Slug?.StartsWith("demo-farm-", StringComparison.Ordinal) != true || number is < 1 or > 10)
+        if (db.Database.CurrentTransaction == null || company.Slug?.StartsWith("demo-farm-", StringComparison.Ordinal) != true || number is < 1 or > 20)
             throw new InvalidOperationException("Ecommerce demo extension requires the guarded, transactional fictional demo seed.");
         if (!maker.EmailConfirmed || policy.CompanyId != company.Id || tax.CompanyId != company.Id || policy.Status != "Approved" || tax.Status != "Approved")
             throw new InvalidOperationException("Synthetic verified identity and approved demonstration policies are required.");

@@ -176,7 +176,7 @@ if (args.Contains("--init-demo", StringComparer.OrdinalIgnoreCase) || args.Conta
     var demoDb = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     DemoBusinessSeeder.ValidateTarget(app.Environment.EnvironmentName, demoDb.Database.ProviderName ?? "", demoDb.Database.GetDbConnection().DataSource, Environment.GetEnvironmentVariable("FARM_ALLOW_DEMO_SEED"));
     await demoDb.Database.EnsureCreatedAsync();
-    await DemoBusinessSeeder.RunAsync(app.Services, includeEnterprise: args.Contains("--init-enterprise-demo", StringComparer.OrdinalIgnoreCase), tenantCount: args.Contains("--ten-tenants", StringComparer.OrdinalIgnoreCase) ? 10 : 5); return;
+    await DemoBusinessSeeder.RunAsync(app.Services, includeEnterprise: args.Contains("--init-enterprise-demo", StringComparer.OrdinalIgnoreCase), tenantCount: args.Contains("--twenty-tenants", StringComparer.OrdinalIgnoreCase) ? 20 : args.Contains("--ten-tenants", StringComparer.OrdinalIgnoreCase) ? 10 : 5); return;
 }
 if (args.Contains("--seed-demo", StringComparer.OrdinalIgnoreCase) || args.Contains("--seed-demo-users", StringComparer.OrdinalIgnoreCase))
 { await DemoBusinessSeeder.RunAsync(app.Services); return; }

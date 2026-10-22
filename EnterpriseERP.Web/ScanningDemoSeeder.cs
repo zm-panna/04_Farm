@@ -12,7 +12,7 @@ public static class ScanningDemoSeeder
     public static async Task SeedAsync(AppDbContext db, IReadOnlyList<Company> companies, IReadOnlyList<Branch> branches,
         IReadOnlyList<AppUser> makers, DateTimeOffset now, DateOnly today, CancellationToken ct = default)
     {
-        if (db.Database.CurrentTransaction is null || companies.Count is not (5 or 10) || branches.Count != companies.Count || makers.Count != companies.Count
+        if (db.Database.CurrentTransaction is null || companies.Count is not (5 or 10 or 20) || branches.Count != companies.Count || makers.Count != companies.Count
             || companies.Where((c, i) => c.Slug != $"demo-farm-{i + 1}").Any()
             || makers.Where((u, i) => u.Email != $"farmdemo{i + 1}@example.invalid").Any()
             || await db.ScanLabels.AnyAsync(ct) || await db.ScanIntents.AnyAsync(ct))

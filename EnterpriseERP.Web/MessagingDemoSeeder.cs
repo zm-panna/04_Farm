@@ -11,7 +11,7 @@ public static class MessagingDemoSeeder
     public static async Task SeedAsync(AppDbContext db, IReadOnlyList<Company> companies, IReadOnlyList<Branch> branches,
         IReadOnlyList<AppUser> accounts, DateTimeOffset now, CancellationToken ct = default)
     {
-        if (db.Database.CurrentTransaction is null || companies.Count is not (5 or 10) || branches.Count != companies.Count || accounts.Count != companies.Count
+        if (db.Database.CurrentTransaction is null || companies.Count is not (5 or 10 or 20) || branches.Count != companies.Count || accounts.Count != companies.Count
             || companies.Where((c, i) => c.Slug != $"demo-farm-{i + 1}").Any()
             || accounts.Where((u, i) => u.Email != $"farmdemo{i + 1}@example.invalid").Any()
             || await db.InternalMessages.AnyAsync(ct) || await db.MessagingAutomationReads.AnyAsync(ct))

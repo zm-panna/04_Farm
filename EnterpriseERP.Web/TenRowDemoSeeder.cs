@@ -4,19 +4,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EnterpriseERP.Web;
 
-// Only the explicit new ten-tenant enterprise fixture calls this inside its transaction.
+// Only the explicit new minimum-row enterprise fixture calls this inside its transaction.
 public static class TenRowDemoSeeder
 {
     internal static async Task CompleteAsync(AppDbContext db, RoleManager<IdentityRole> roles,
         IReadOnlyList<Company> companies, IReadOnlyList<Branch> branches,
         IReadOnlyList<AppUser> users, CancellationToken ct)
     {
-        if (companies.Count != 10 || db.Database.CurrentTransaction is null)
-            throw new InvalidOperationException("Requires the new ten-tenant fixture transaction.");
-        for (var i = 1; i <= 5; i++)
+        if (companies.Count is not (10 or 20) || db.Database.CurrentTransaction is null)
+            throw new InvalidOperationException("Requires the new minimum-row fixture transaction.");
+        for (var i = 1; i <= companies.Count - 5; i++)
             DemoIdentitySeeder.Ensure(await roles.CreateAsync(new IdentityRole($"DemoExample{i}")));
         var allRoles = await db.Roles.OrderBy(x => x.Name).ToListAsync(ct);
-        for (var i = 0; i < 10; i++)
+        for (var i = 0; i < companies.Count; i++)
         {
             var company = companies[i]; var branch = branches[i]; var user = users[i];
             var rule = await db.AutomationRules.SingleAsync(x => x.CompanyId == company.Id, ct);

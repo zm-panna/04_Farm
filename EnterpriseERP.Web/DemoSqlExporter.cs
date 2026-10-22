@@ -153,16 +153,16 @@ public static class DemoSqlExporter
     private static void ValidatePristineFixture(List<TableData> tables)
     {
         var tenantCount = tables.Single(t => t.Entity.ClrType == typeof(Company)).Rows.Count;
-        if (tenantCount == 10)
+        if (tenantCount is 10 or 20)
         {
-            if (tables.Any(t => t.Rows.Count < 10))
-                throw new InvalidOperationException("Ten-row export requires at least ten rows in every mapped table.");
+            if (tables.Any(t => t.Rows.Count < tenantCount))
+                throw new InvalidOperationException("Minimum-row export requires at least the tenant count in every mapped table.");
             var demoAudits = tables.Single(t => t.Entity.ClrType == typeof(AuditEntry)).Rows.Select(r => (AuditEntry)r.Entity).ToList();
             var saved = demoAudits.SingleOrDefault(a => a.Action == FingerprintAction && a.ActorId == "DEMO-CLI");
             if (saved is null || saved.Reference != Fingerprint(tables)
-                || demoAudits.Count(a => a.Action == DemoBusinessSeeder.CompletionAction) != 10
-                || demoAudits.Count(a => a.Action == EnterpriseDemoSeeder.CompletionAction) != 10)
-                throw new InvalidOperationException("Ten-row export requires the unchanged complete synthetic enterprise fixture.");
+                || demoAudits.Count(a => a.Action == DemoBusinessSeeder.CompletionAction) != tenantCount
+                || demoAudits.Count(a => a.Action == EnterpriseDemoSeeder.CompletionAction) != tenantCount)
+                throw new InvalidOperationException("Minimum-row export requires the unchanged complete synthetic enterprise fixture.");
             return;
         }
         var enterprise = tables.Single(t => t.Entity.ClrType == typeof(AuditEntry)).Rows.Any(r => r.Entity is AuditEntry a && a.Action == EnterpriseDemoSeeder.CompletionAction);

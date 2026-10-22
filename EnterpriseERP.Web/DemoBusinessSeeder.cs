@@ -16,7 +16,7 @@ public static class DemoBusinessSeeder
 
     public static async Task<int> RunAsync(IServiceProvider services, CancellationToken ct = default, bool includeEnterprise = false, int tenantCount = 5)
     {
-        if (tenantCount is not (5 or 10)) throw new ArgumentOutOfRangeException(nameof(tenantCount));
+        if (tenantCount is not (5 or 10 or 20)) throw new ArgumentOutOfRangeException(nameof(tenantCount));
         var environment = services.GetRequiredService<IWebHostEnvironment>();
         var allowed = Environment.GetEnvironmentVariable("FARM_ALLOW_DEMO_SEED");
         var password = Environment.GetEnvironmentVariable("FARM_DEMO_PASSWORD");
@@ -88,7 +88,7 @@ public static class DemoBusinessSeeder
                 await MessagingDemoSeeder.SeedAsync(db, companiesToCreate, branches, accounts, now, ct);
                 await ScanningDemoSeeder.SeedAsync(db, companiesToCreate, branches, accounts, now, today, ct);
             }
-            if (tenantCount == 10 && includeEnterprise) await TenRowDemoSeeder.CompleteAsync(db, roles, companiesToCreate, branches, accounts, ct);
+            if (tenantCount >= 10 && includeEnterprise) await TenRowDemoSeeder.CompleteAsync(db, roles, companiesToCreate, branches, accounts, ct);
             await AssertBusinessIntegrityAsync(db, ct);
             foreach (var company in companiesToCreate)
                 db.Audits.Add(new AuditEntry { CompanyId = company.Id, ActorId = "DEMO-CLI", Action = CompletionAction,
