@@ -1,0 +1,3 @@
+# Windows has no system IANA timezone database for Python zoneinfo.
+# Used by the disposable HTTP business-date fixtures, not the Farm runtime.
+tzdata==2025.2

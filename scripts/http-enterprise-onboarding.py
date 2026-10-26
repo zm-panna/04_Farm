@@ -7,6 +7,9 @@ import json, re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+# Check the documented Windows dependency before creating the disposable host.
+BUSINESS_TIME_ZONE = ZoneInfo('Asia/Dhaka')
+
 with Fixture('onboarding') as f:
     admin=f.login(1); outsider=f.login(2)
     company=f.scalar("SELECT Id FROM Companies WHERE Slug='demo-farm-1'")
@@ -39,7 +42,7 @@ with Fixture('onboarding') as f:
     replay=admin.submit(fresh,values)
     f.check('Replayed verification does not add review evidence',replay.status==200 and f.scalar("SELECT COUNT(*) FROM Audits WHERE Action='StaffEmailOwnershipVerifiedOffline'")==1)
     staff_form=f.form(admin,'/HRPayroll/staff','/HRPayroll/staff')
-    response=admin.submit(staff_form,{'Code':'HTTP-OWNED-STAFF','Name':'HTTP fictional account owner','JobTitle':'Synthetic onboarding review','StartDate':datetime.now(ZoneInfo('Asia/Dhaka')).date().isoformat(),'EndDate':'','Active':'true'})
+    response=admin.submit(staff_form,{'Code':'HTTP-OWNED-STAFF','Name':'HTTP fictional account owner','JobTitle':'Synthetic onboarding review','StartDate':datetime.now(BUSINESS_TIME_ZONE).date().isoformat(),'EndDate':'','Active':'true'})
     f.check('Create staff record without fixture-level identity mutation',response.status==302,'HTTP '+str(response.status)+'; '+str(re.findall(r'<li>(.*?)</li>',response.text,re.S)))
     sid=f.scalar("SELECT Id FROM HRPayrollStaff WHERE Code='HTTP-OWNED-STAFF'")
     link=f.form(admin,f'/HRPayroll/identity/{sid}',f'/HRPayroll/identity/{sid}')
