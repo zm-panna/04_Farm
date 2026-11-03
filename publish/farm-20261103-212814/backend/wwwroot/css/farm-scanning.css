@@ -1,0 +1,16 @@
+#farm-scan .panel { margin-block: 1rem; padding: 1rem; border: 1px solid #a7b7b0; border-radius: .6rem; }
+#farm-scan form { display: grid; gap: .6rem; max-width: 52rem; }
+#farm-scan label { display: block; margin-top: .4rem; }
+#farm-scan input:not([type=checkbox]), #farm-scan select, #farm-scan textarea { max-width: 100%; width: 100%; padding: .5rem; }
+#farm-scan button { margin: .25rem; padding: .5rem .8rem; }
+#farm-scan [hidden] { display: none !important; }
+#scan-video { max-width: 32rem; max-height: 24rem; width: 100%; background: #172720; margin-top: .6rem; }
+#scan-error { color: #9e182d; white-space: pre-wrap; }
+#scan-review dl, #scan-preview dl { display: grid; grid-template-columns: minmax(8rem,1fr) 2fr; gap: .5rem; }
+#scan-review dd, #scan-preview dd { margin: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
+.scan-list-row { border-bottom: 1px solid #b6c9c0; padding-block: .7rem; overflow-wrap: anywhere; }
+.scan-print-label { max-width: 190mm; border: 1px solid #000; padding: 5mm; text-align: center; break-inside: avoid; background: #fff; color: #000; }
+.scan-qr { display: block; width: 50mm; height: 50mm; margin-inline: auto; }
+.scan-barcode { display: block; width: 180mm; max-width: 100%; height: auto; margin-inline: auto; }
+.scan-print-label p[dir=ltr] { font-family: monospace; overflow-wrap: anywhere; }
+@media print { .sidebar, .topbar, header, nav, footer, .scan-no-print, h1, .language-control { display: none !important; } body, main, .shell, .content { margin: 0 !important; padding: 0 !important; width: 100% !important; display: block !important; } }
