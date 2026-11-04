@@ -41,6 +41,17 @@ public sealed class UiLocalizationRenderingTests
     }
 
     [Fact]
+    public async Task ExpensePagingRendersWholeRangeSummaryAndKeepsDateFilters()
+    {
+        var model = new ExpensesPage { From = new DateOnly(2026, 1, 1), To = new DateOnly(2026, 1, 31), Page = new WorkspacePage(2, 100, 205), CategoryTotals = [new("Feed", 500m)], Records = [new FarmExpense { Reference = Reference, Description = Name, Category = "Feed", Amount = 1m }] };
+        var html = await Render("Expenses/Index", model);
+        Assert.Contains("500.000", html); Assert.Contains("205 <span", html);
+        Assert.Contains("from=2026-01-01&amp;to=2026-01-31&amp;page=1#expense-ledger", html);
+        Assert.Contains("from=2026-01-01&amp;to=2026-01-31&amp;page=3#expense-ledger", html);
+        Assert.DoesNotContain("<script>alert(1)</script>", html);
+    }
+
+    [Fact]
     public async Task TradeOptionsEncodeStructuredValuesAndKeepSubmittedIds()
     {
         var model = new OperationsWorkspaceModel { Kind = "Purchase", Stock = [Stock()], Documents = [new DocumentBalance(91, "Purchase", Reference, 123.456m, 0, 0, 123.456m, Name)], Orders = [new PurchaseOrder { Id = 14, Reference = "ORDER", StockItemId = 72, Status = "Approved", Quantity = 2, UnitPrice = 3, Amount = 6 }] };

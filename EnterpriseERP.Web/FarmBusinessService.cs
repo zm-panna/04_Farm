@@ -138,7 +138,7 @@ public sealed class FarmBusinessService(AppDbContext db, TenantContext tenant, P
         }, ct);
     }
 
-    public async Task<ExpensesPage> Expenses(DateOnly? from = null, DateOnly? to = null, CancellationToken ct = default)
+    public async Task<ExpensesPage> Expenses(DateOnly? from = null, DateOnly? to = null, CancellationToken ct = default, int page = 1)
     {
         await permissions.Demand("Expenses.View", ct);
         var t = await tenant.GetAsync(ct);
@@ -146,12 +146,18 @@ public sealed class FarmBusinessService(AppDbContext db, TenantContext tenant, P
         var end = to ?? today;
         var start = from ?? end.AddDays(-30);
         if (start > end || end.DayNumber - start.DayNumber > 3660) throw new ArgumentException("Select an ordered date range of at most ten years.");
+        var query = db.FarmExpenses.AsNoTracking().Where(x => x.CompanyId == t.company && x.BranchId == t.branch && x.ExpenseDate >= start && x.ExpenseDate <= end);
+        var paging = await Controllers.WorkspacePage.CreateAsync(query, page, 100, "", ct);
+        // Summarize the entire selected range in decimal, never only the visible page.
+        var categories = await query.GroupBy(x => x.Category).OrderBy(g => g.Key)
+            .Select(g => new ExpenseCategoryTotal(g.Key, g.Sum(x => x.Amount))).ToListAsync(ct);
         return new ExpensesPage
         {
+            Page = paging, CategoryTotals = categories,
             From = start, To = end, Expense = new ExpenseInput { ExpenseDate = today },
             Animals = await BranchAnimals(t.company, t.branch).OrderBy(x => x.Tag).ToListAsync(ct),
-            Records = await db.FarmExpenses.AsNoTracking().Where(x => x.CompanyId == t.company && x.BranchId == t.branch && x.ExpenseDate >= start && x.ExpenseDate <= end)
-                .OrderByDescending(x => x.ExpenseDate).ThenByDescending(x => x.Id).ToListAsync(ct)
+            Records = await query.OrderByDescending(x => x.ExpenseDate).ThenByDescending(x => x.Id)
+                .Skip(paging.Offset).Take(paging.PageSize).ToListAsync(ct)
         };
     }
 

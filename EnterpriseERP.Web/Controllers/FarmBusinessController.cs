@@ -48,9 +48,10 @@ public sealed class FatteningController(FarmBusinessService service) : Controlle
 public sealed class ExpensesController(FarmBusinessService service) : Controller
 {
     [HttpGet(""), HttpGet("Home"), HttpGet("Home/Index")]
-    public async Task<IActionResult> Index(DateOnly? from, DateOnly? to, CancellationToken ct = default)
+    public async Task<IActionResult> Index(DateOnly? from, DateOnly? to, CancellationToken ct = default, int page = 1)
     {
-        try { return View(await service.Expenses(from, to, ct)); }
+        if (!ModelState.IsValid) return BadRequest(ModelState);
+        try { return View(await service.Expenses(from, to, ct, page)); }
         catch (ArgumentException ex) { ModelState.AddModelError("", ex.Message); return View(await service.Expenses(ct: ct)); }
     }
     [HttpPost("record"), ValidateAntiForgeryToken]

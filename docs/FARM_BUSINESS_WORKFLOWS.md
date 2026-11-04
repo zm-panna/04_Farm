@@ -45,7 +45,7 @@ The central test report verified 33 FarmBusinessWorkflowTests, 10 DairyWorkflowR
 - Fattening has one plan per animal; a plan amendment/restart workflow is not implemented.
 - Breeding eligibility (sex, maturity, species or veterinary advice) is not inferred from the current minimal Animal model. Operators must choose an eligible animal and enter an appropriate expected date. Calves are registered through the existing Livestock workflow.
 - Outcomes on sold animals are rejected; historical sold-animal corrections require an authorized administrative correction process.
-- The Fattening dashboard still loads branch operational registers and previews the latest 100 weights. `/Fattening/weights` now provides server-side paging through the complete weight history (100 rows per page), with bounded search across animal tags, references and notes. It requires `Fattening.View`, includes sold animals, scopes both records and animal tags to the active company/branch, and preserves search in previous/next links. Other dashboard registers and archiving remain further improvements.
+- The Fattening dashboard still loads branch operational registers and previews the latest 100 weights. `/Fattening/weights` now provides server-side paging through the complete weight history (100 rows per page), with bounded search across animal tags, references and notes. It requires `Fattening.View`, includes sold animals, scopes both records and animal tags to the active company/branch, and preserves search in previous/next links. The expense ledger also uses 100-row server paging with whole-range decimal category/overall totals and date-preserving navigation. Other dashboard registers and archiving remain further improvements.
 - These implementations do not complete unrelated HR, payroll, hotel, ecommerce, import/export or other enterprise scaffolds and do not establish production readiness.
 
 ## Health follow-up lifecycle and shared dairy validation
@@ -73,3 +73,30 @@ page numbers, tag/reference/literal-note search, sold-animal history, company/br
 isolation, permission denial, malformed paging and rendered search/HTML encoding.
 Evidence is under ignored `.cloud/results/weight-history/`. This follow-up did not
 rerun the complete suite or perform browser/SQL Server/live deployment acceptance.
+
+
+## Cloud expense register paging — 2026-11-04
+
+`/Expenses` now pages the posted ledger in stable descending date/ID order with
+100 rows per page. Previous/next links retain both date boundaries; changing the
+date filter starts at page one. Extreme page numbers are clamped before computing
+SQL offsets, and malformed MVC date/page values return a bad request.
+
+The record count, category totals and overall total cover the **entire selected
+date range**, independently of the visible page. The database aggregates decimal
+amounts without a floating-point conversion; only the requested ledger rows are
+materialized. Both aggregates and rows retain company/branch scope and
+`Expenses.View`. Posting still separately requires `Expenses.Create` and
+`Accounts.Post`; no posted expense, voucher, schema or permission is changed.
+
+Regression coverage includes 205 expenses across three pages, exact fractional
+totals, excluded out-of-range entries, equal-date ordering, separate companies
+and branches, empty/invalid ranges, permission denial, encoded user data and
+rendered date-preserving page links. Evidence: `.cloud/results/expense-paging/`.
+
+Verification for this revision: Release build passed with zero warnings/errors;
+70 focused regression cases passed, followed by the full 937-case .NET suite
+with disposable Redis (zero failed/skipped). JavaScript checks: 84 passed; Python
+tests: 7 passed. EF model consistency and publish passed. Temporary Redis and
+its data/source/binaries were removed. Actual SQL Server/browser/staging acceptance
+remains separate; no production operation was performed.

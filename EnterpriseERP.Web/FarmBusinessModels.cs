@@ -66,6 +66,7 @@ public sealed class FatteningPage
 }
 public sealed record WeightHistoryRow(AnimalWeightRecord Weight, string AnimalTag);
 public sealed record WeightHistoryPage(List<WeightHistoryRow> Rows, Controllers.WorkspacePage Page);
+public sealed record ExpenseCategoryTotal(string Category, decimal Amount);
 public sealed class ExpensesPage
 {
     public ExpenseInput Expense { get; set; } = new();
@@ -73,7 +74,15 @@ public sealed class ExpensesPage
     public List<FarmExpense> Records { get; set; } = new();
     public DateOnly From { get; set; }
     public DateOnly To { get; set; }
-    public decimal Total => Records.Sum(x => x.Amount);
+    public Controllers.WorkspacePage Page { get; set; } = new(PageSize: 100);
+    public List<ExpenseCategoryTotal> CategoryTotals { get; set; } = new();
+    public decimal Total => CategoryTotals.Sum(x => x.Amount);
+    public string PageLink(int page) => Microsoft.AspNetCore.WebUtilities.QueryHelpers.AddQueryString("/Expenses", new Dictionary<string, string?>
+    {
+        ["from"] = From.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+        ["to"] = To.ToString("yyyy-MM-dd", System.Globalization.CultureInfo.InvariantCulture),
+        ["page"] = Math.Clamp(page, 1, Page.TotalPages).ToString(System.Globalization.CultureInfo.InvariantCulture)
+    }) + "#expense-ledger";
 }
 public sealed class BreedingPage
 {
