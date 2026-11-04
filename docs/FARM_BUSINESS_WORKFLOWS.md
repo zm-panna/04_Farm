@@ -45,7 +45,7 @@ The central test report verified 33 FarmBusinessWorkflowTests, 10 DairyWorkflowR
 - Fattening has one plan per animal; a plan amendment/restart workflow is not implemented.
 - Breeding eligibility (sex, maturity, species or veterinary advice) is not inferred from the current minimal Animal model. Operators must choose an eligible animal and enter an appropriate expected date. Calves are registered through the existing Livestock workflow.
 - Outcomes on sold animals are rejected; historical sold-animal corrections require an authorized administrative correction process.
-- Complete operational registers are loaded for the selected branch; weight history display shows the most recent 100 entries. High-volume pagination/archiving is a further improvement.
+- The Fattening dashboard still loads branch operational registers and previews the latest 100 weights. `/Fattening/weights` now provides server-side paging through the complete weight history (100 rows per page), with bounded search across animal tags, references and notes. It requires `Fattening.View`, includes sold animals, scopes both records and animal tags to the active company/branch, and preserves search in previous/next links. Other dashboard registers and archiving remain further improvements.
 - These implementations do not complete unrelated HR, payroll, hotel, ecommerce, import/export or other enterprise scaffolds and do not establish production readiness.
 
 ## Health follow-up lifecycle and shared dairy validation
@@ -55,3 +55,21 @@ The central test report verified 33 FarmBusinessWorkflowTests, 10 DairyWorkflowR
 Health due lists, the home dashboard and HealthDue notification jobs now exclude completed follow-ups and sold animals. Historical due dates and completion dates remain visible in the health register. Health creation checks normalized duplicate references and writes the record and audit atomically. Breeding keeps its separate append-only lifecycle; closed cycles are excluded from upcoming/overdue counts.
 
 Milk MVC now calls the same FarmService.RecordMilk used by the API, so positive quantities, at most three decimals, dates from 2000 through today, available tenant-scoped animals, duplicate-session rejection and audit creation cannot be bypassed by skipping client validation.
+
+## Cloud weight-history verification — 2026-11-04
+
+The complete read-only history is linked from the dashboard's latest-weight preview.
+Search is trimmed and capped at 80 characters; paging is clamped before calculating
+SQL offsets, and equal weighing dates use descending record IDs for stable ordering.
+The history table uses server paging without a second client-side pager. Stored
+user text is HTML-encoded and existing localized labels/pager controls are reused.
+No schema, recorded weights, current animal weight or accounting data is changed.
+
+Release solution build passed with zero warnings/errors. The focused
+`WeightHistoryTests`, `FarmBusinessWorkflowTests` and `UiLocalizationRenderingTests`
+run passed 51 cases (zero failed/skipped); Node localization passed 32 checks.
+Coverage includes older-than-100 retrieval, stable non-overlapping pages, extreme
+page numbers, tag/reference/literal-note search, sold-animal history, company/branch
+isolation, permission denial, malformed paging and rendered search/HTML encoding.
+Evidence is under ignored `.cloud/results/weight-history/`. This follow-up did not
+rerun the complete suite or perform browser/SQL Server/live deployment acceptance.

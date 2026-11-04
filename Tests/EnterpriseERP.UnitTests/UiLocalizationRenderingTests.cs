@@ -29,6 +29,18 @@ public sealed class UiLocalizationRenderingTests
     private static StockItem Stock() => new() { Id = 72, CompanyId = 1, BranchId = 11, SKU = "SKU-001", Name = Name, UnitOfMeasure = "KG", QuantityOnHand = 12.345m };
 
     [Fact]
+    public async Task WeightHistoryEncodesUserDataAndPreservesSearchInPageLinks()
+    {
+        var model = new WeightHistoryPage([new(new AnimalWeightRecord { Reference = Reference, Notes = Name, WeightKg = 123, WeighedOn = new DateOnly(2026, 1, 1) }, Name)], new WorkspacePage(2, 100, 250, "A&B"));
+        var html = await Render("Fattening/Weights", model);
+        Assert.Contains("/Fattening/weights?page=1&amp;search=A%26B", html);
+        Assert.Contains("/Fattening/weights?page=3&amp;search=A%26B", html);
+        Assert.Contains("name=\"search\" value=\"A&amp;B\"", html);
+        Assert.DoesNotContain("<script>alert(1)</script>", html);
+        Assert.Contains("data-i18n=\"History\"", html);
+    }
+
+    [Fact]
     public async Task TradeOptionsEncodeStructuredValuesAndKeepSubmittedIds()
     {
         var model = new OperationsWorkspaceModel { Kind = "Purchase", Stock = [Stock()], Documents = [new DocumentBalance(91, "Purchase", Reference, 123.456m, 0, 0, 123.456m, Name)], Orders = [new PurchaseOrder { Id = 14, Reference = "ORDER", StockItemId = 72, Status = "Approved", Quantity = 2, UnitPrice = 3, Amount = 6 }] };

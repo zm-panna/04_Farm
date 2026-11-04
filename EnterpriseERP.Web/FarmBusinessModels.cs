@@ -64,6 +64,8 @@ public sealed class FatteningPage
     public List<FatteningResult> Results { get; set; } = new();
     public List<AnimalWeightRecord> RecentWeights { get; set; } = new();
 }
+public sealed record WeightHistoryRow(AnimalWeightRecord Weight, string AnimalTag);
+public sealed record WeightHistoryPage(List<WeightHistoryRow> Rows, Controllers.WorkspacePage Page);
 public sealed class ExpensesPage
 {
     public ExpenseInput Expense { get; set; } = new();

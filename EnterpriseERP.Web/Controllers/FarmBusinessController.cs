@@ -9,6 +9,13 @@ public sealed class FatteningController(FarmBusinessService service) : Controlle
     [HttpGet(""), HttpGet("Home"), HttpGet("Home/Index")]
     public async Task<IActionResult> Index(CancellationToken ct = default) => View(await service.Fattening(ct));
 
+    [HttpGet("weights")]
+    public async Task<IActionResult> Weights(int page = 1, string? search = null, CancellationToken ct = default)
+    {
+        if (!ModelState.IsValid) return BadRequest(ModelState);
+        return View(await service.WeightHistory(page, search, ct));
+    }
+
     [HttpPost("plan"), ValidateAntiForgeryToken]
     public async Task<IActionResult> Plan([Bind(Prefix = "Plan")] FatteningPlanInput input, CancellationToken ct = default)
     {

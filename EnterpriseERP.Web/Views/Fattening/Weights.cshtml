@@ -1,0 +1,13 @@
+@model EnterpriseERP.Web.WeightHistoryPage
+@{ ViewData["Title"] = "Fattening"; }
+<div class="page-header"><h1><span data-i18n="Fattening">Fattening</span> · <span data-i18n="History">History</span></h1><a class="muted-btn" href="/Fattening" data-i18n="Record a weight">Record a weight</a></div>
+<section class="panel">
+<partial name="_BoundedRegisterPager" model='new EnterpriseERP.Web.Controllers.BoundedRegisterPager("/Fattening/weights", Model.Page)' />
+<div class="farm-table"><table><thead><tr><th data-i18n="Date">Date</th><th data-i18n="Animal">Animal</th><th data-i18n="Reference">Reference</th><th data-i18n="Weight (kg)">Weight (kg)</th><th data-i18n="Notes">Notes</th></tr></thead><tbody>
+@foreach (var row in Model.Rows)
+{
+    <tr><td>@row.Weight.WeighedOn.ToString("yyyy-MM-dd")</td><td>@row.AnimalTag</td><td>@row.Weight.Reference</td><td>@row.Weight.WeightKg.ToString("N3")</td><td>@row.Weight.Notes</td></tr>
+}
+@if (Model.Rows.Count == 0) { <tr><td colspan="5" data-i18n="No weights recorded.">No weights recorded.</td></tr> }
+</tbody></table></div>
+</section>

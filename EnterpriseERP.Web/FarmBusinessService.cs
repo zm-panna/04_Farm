@@ -55,6 +55,25 @@ public sealed class FarmBusinessService(AppDbContext db, TenantContext tenant, P
         return new FatteningPage { Plan = new FatteningPlanInput { StartDate = today, TargetDate = today.AddDays(90) }, Weight = new WeightEntryInput { WeighedOn = today }, Animals = animals.Where(x => !x.Sold).ToList(), Results = results, RecentWeights = weights.Take(100).ToList() };
     }
 
+    public async Task<WeightHistoryPage> WeightHistory(int page = 1, string? search = null, CancellationToken ct = default)
+    {
+        await permissions.Demand("Fattening.View", ct);
+        var t = await tenant.GetAsync(ct);
+        var term = Controllers.WorkspacePage.NormalizeSearch(search);
+        // Include sold animals: disposal must not hide their historical measurements.
+        var query = from weight in db.AnimalWeightRecords.AsNoTracking()
+                    join animal in BranchAnimals(t.company, t.branch) on weight.AnimalId equals animal.Id
+                    where weight.CompanyId == t.company && weight.BranchId == t.branch
+                    select new { Weight = weight, AnimalTag = animal.Tag };
+        if (term.Length > 0)
+            query = query.Where(x => x.AnimalTag.Contains(term) || x.Weight.Reference.Contains(term) || x.Weight.Notes.Contains(term));
+        var paging = await Controllers.WorkspacePage.CreateAsync(query, page, 100, term, ct);
+        var rows = await query.OrderByDescending(x => x.Weight.WeighedOn).ThenByDescending(x => x.Weight.Id)
+            .Skip(paging.Offset).Take(paging.PageSize)
+            .Select(x => new WeightHistoryRow(x.Weight, x.AnimalTag)).ToListAsync(ct);
+        return new(rows, paging);
+    }
+
     public async Task<FatteningPlan> StartPlan(FatteningPlanInput input, CancellationToken ct = default)
     {
         await permissions.Demand("Fattening.Create", ct);

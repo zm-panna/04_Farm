@@ -35,7 +35,7 @@
 <label asp-for="Weight.Notes" data-business-i18n="Notes">Notes</label><textarea asp-for="Weight.Notes" maxlength="1000" rows="3"></textarea>
 <button class="primary" type="submit" data-business-i18n="Save weight">Save weight</button></form></section>
 </div>
-<section class="panel"><h2 data-business-i18n="Latest 100 weight entries">Latest 100 weight entries</h2><div class="farm-table"><table class="data-table"><thead><tr><th data-business-i18n="Date">Date</th><th data-business-i18n="Animal">Animal</th><th data-business-i18n="Reference">Reference</th><th data-business-i18n="Weight (kg)">Weight (kg)</th><th data-business-i18n="Notes">Notes</th></tr></thead><tbody>
+<section class="panel"><h2 data-business-i18n="Latest 100 weight entries">Latest 100 weight entries</h2><a class="muted-btn" href="/Fattening/weights" data-i18n="History">History</a><div class="farm-table"><table class="data-table"><thead><tr><th data-business-i18n="Date">Date</th><th data-business-i18n="Animal">Animal</th><th data-business-i18n="Reference">Reference</th><th data-business-i18n="Weight (kg)">Weight (kg)</th><th data-business-i18n="Notes">Notes</th></tr></thead><tbody>
 @foreach (var w in Model.RecentWeights) { <tr><td>@w.WeighedOn.ToString("yyyy-MM-dd")</td><td>@(tags.GetValueOrDefault(w.AnimalId) ?? Model.Results.FirstOrDefault(x => x.Animal.Id == w.AnimalId)?.Animal.Tag ?? w.AnimalId.ToString())</td><td>@w.Reference</td><td>@w.WeightKg.ToString("N3")</td><td>@w.Notes</td></tr> }
 @if (Model.RecentWeights.Count == 0) { <tr><td colspan="5"><span data-i18n="No weights recorded.">No weights recorded.</span></td></tr> }
 </tbody></table></div></section>
