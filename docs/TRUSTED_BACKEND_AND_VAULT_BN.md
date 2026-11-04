@@ -54,7 +54,7 @@ Vault expiry, unreadable runtime config বা version change হলে request/
 
 Hosted Farm DbContext-এ interceptor প্রতিটি EF read/write/raw ExecuteUpdate command এবং transaction commit-এর ঠিক আগে gate check করে। Worker batch, outbox publish, hub Sync ও external AI call-এর আগেও explicit checks আছে। Commit-এর আগে gate unavailable হলে transaction commit rejected হয়; existing workflow disposal rollback করে। ইতিমধ্যে provider-এ চলমান call retroactively বাতিল করা যায় না; short transactions, cancellation, SQL/OpenBao-side revocation এবং operational drain দরকার।
 
-Design-time migration generation এবং `--staging-preflight` read-only operator CLI web host bootstrap-এর আলাদা পথ। এগুলো vault deployment বা automatic database migration করে না। পুরোনো SQL/IIS scripts-এর direct environment credential handling trusted operator tooling; public gateway-এ চালাবেন না।
+Design-time migration generation এবং `--verify-staging-readonly` read-only operator CLI web host bootstrap-এর আলাদা পথ। এই CLI-তে একটি নতুন absolute private `.json` output path দিতে হয়; exact settings-এর জন্য `STAGING_READONLY_PREFLIGHT.md` দেখুন। এগুলো vault deployment বা automatic database migration করে না। পুরোনো SQL/IIS scripts-এর direct environment credential handling trusted operator tooling; public gateway-এ চালাবেন না।
 
 ## Windows PC ও IIS
 

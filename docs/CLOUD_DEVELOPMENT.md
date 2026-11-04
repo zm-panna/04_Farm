@@ -29,7 +29,9 @@ bash scripts/cloud-verify.sh
 
 `global.json` selects .NET 10 (minimum SDK 10.0.100). The verification script
 restores packages, builds the complete solution, runs the existing unit tests,
-and creates a publish package. Logs, test results and published files are kept
+checks migration/model consistency, generates an idempotent SQL review script,
+and creates a publish package. SQL generation does not open a database connection.
+Logs, test results and published files are kept
 in ignored `.cloud/`. It does not start the application, run migrations, seed
 data, or deploy anything. Private package/SDK caches can live outside the repo.
 Keep credentials, database exports, backups and customer data out of commits.
@@ -62,3 +64,6 @@ default; enabling AI requires a reachable approved service independent of the PC
 Do not weaken the existing production startup checks to make a preview run.
 No production deployment, live database operation, paid resource provisioning,
 or security/credential change is part of this source-development setup.
+
+See [2026-11-04 release readiness](CLOUD_RELEASE_READINESS_20261104.md) for dated
+source evidence and the exact outstanding deployment requirements.
