@@ -31,9 +31,15 @@ bash scripts/cloud-verify.sh
 restores packages, builds the complete solution, runs the existing unit tests,
 checks migration/model consistency, generates an idempotent SQL review script,
 and creates a publish package. SQL generation does not open a database connection.
-Logs, test results and published files are kept
-in ignored `.cloud/`. It does not start the application, run migrations, seed
-data, or deploy anything. Private package/SDK caches can live outside the repo.
+Logs, test results, generated SQL and published files are kept in a new ignored
+`artifacts/source-verification/<timestamp>-<unique-id>/` directory for every run.
+The absolute directory is printed at startup. Both `cloud-verify.sh` and
+`verify-source.sh` use this same verifier; old evidence and publish output are
+never overwritten. Failed commands retain stderr in the run log and stop later
+steps. `source-commit.txt` and `source-status.txt` record the checkout provenance;
+a nonempty status file means the tested working tree had uncommitted changes.
+The verifier does not start the application, apply migrations, seed data, or
+deploy anything. Private package/SDK caches can live outside the repo.
 Keep credentials, database exports, backups and customer data out of commits.
 
 In the saved cloud environment, the checkout is `/workspace/04_Farm` and the
@@ -67,3 +73,20 @@ or security/credential change is part of this source-development setup.
 
 See [2026-11-04 release readiness](CLOUD_RELEASE_READINESS_20261104.md) for dated
 source evidence and the exact outstanding deployment requirements.
+
+
+## Linux evidence integrity verification — 2026-11-04
+
+The repaired verifier passed a real end-to-end run: 937 .NET tests with disposable
+Redis (zero failed/skipped), Release build with zero warnings/errors, EF model
+consistency, idempotent SQL generation and publish. Independent JavaScript checks
+passed 84 cases; Python passed 11 tests, including verifier failures at every step,
+repeat-run isolation and paths containing spaces. Hash comparison confirmed all
+697 existing historical evidence/publish files were unchanged. Temporary Redis
+was stopped and its port, data, source and binaries cleaned up.
+
+Run evidence: `artifacts/source-verification/20261104T094121Z-YvmAKZkK/`; supporting
+regression/cleanup logs: `.cloud/results/verifier-integrity/`. The run records its
+parent commit and dirty status because verification preceded committing this fix.
+This verifies source/release tooling only; actual SQL Server, IIS/TLS/OpenBao,
+backup restore, browser/customer UAT and deployment authorization remain separate.
