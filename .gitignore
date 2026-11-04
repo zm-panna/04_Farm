@@ -23,3 +23,14 @@ appsettings.Production.json
 appsettings.Staging.json
 **/key-*.xml
 **/secrets.json
+
+# Cloud development: generated output and private runtime state
+publish/
+.cloud/
+.dotnet/
+.nuget/
+**/TestResults/
+*.bak
+*.bacpac
+*.mdf
+*.ldf
