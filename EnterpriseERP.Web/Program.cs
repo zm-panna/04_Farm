@@ -43,6 +43,7 @@ if (sqlite && !builder.Environment.IsDevelopment())
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 if (string.IsNullOrWhiteSpace(connection))
     connection = sqlite ? "Data Source=farm-demo.db" : throw new InvalidOperationException("Set ConnectionStrings__DefaultConnection securely.");
+SqlWindowsAuthentication.Validate(builder.Configuration["Database:Authentication"], sqlite ? "Sqlite" : "SqlServer", connection);
 if (!builder.Environment.IsDevelopment())
     ProductionSecurityOptions.Configure(builder.Services, builder.Configuration, connection,
         builder.Environment.WebRootPath ?? Path.Combine(builder.Environment.ContentRootPath, "wwwroot"));

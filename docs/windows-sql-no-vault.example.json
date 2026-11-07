@@ -1,0 +1,13 @@
+{
+  "Database": {
+    "Provider": "SqlServer",
+    "Authentication": "Windows"
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=sql.example.invalid;Database=AppSynthetic;Integrated Security=true;Encrypt=true;TrustServerCertificate=false"
+  },
+  "TrustedVault": {
+    "Mode": "LegacyLocal",
+    "RequireInProduction": false
+  }
+}
